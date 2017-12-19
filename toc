@@ -15,7 +15,7 @@ IBM Cloud bare metal servers
     bare-metal-vmware.md
     bare-metal-virtualization.md
     bare-metal-sap-applications.md
-	
+
 	{: .topicgroup}
     Operating system options
         introduction-no-os.md
