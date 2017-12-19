@@ -1,0 +1,37 @@
+---
+copyright:
+  years: 1994, 2017
+lastupdated: "2017-11-24"
+---
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+
+# Hardware monitoring and security controls
+
+The escalation and sophistication of malicious threats has you employing more stringent security requirements and scrutinizing every aspect of your execution environment. You're looking to your cloud providers to offer hardware monitoring and security controls that can determine if a workload is running on trusted hardware in a known location. {{site.data.keyword.cloud}} is leading the way by enabling you to deploy hybrid and cloud environments with enhanced security verification of your launch environment using Intel&reg; Trusted Execution Technology (Intel&reg; TXT). {:shortdesc}
+
+## How it works
+
+Intel TXT provides hardware monitoring and security controls that help assure businesses that a workload deployed on or migrated to the {{site.data.keyword.cloud_notm}} infrastructure is running on trusted hardware in a known location. {{site.data.keyword.cloud_notm}} provides support for Intel TXT on a range of {{site.data.keyword.baremetal_short}}. See http://www.softlayer.com/intel-txt for a complete list.
+
+Intel TXT analyzes and measures the components of a computing system from the operating system or hypervisor to the computing system’s boot firmware and hardware. The analysis includes the system’s basic input/output system (BIOS), master boot record (MBR), and boot loader. The measurements are compared to a standard baseline to determine if the system is trusted or untrusted. System software and local or remote management software can use the trust decision to permit or deny a workload from running on that a computing system. Since Intel TXT performs the analysis and measuring during boot up, the added security doesn’t add any performance overhead to applications.
+
+The baseline measurements are stored on a Trusted Platform Module (TPM) hardware device. The TPM device is integrated within the server system and provides a range of Intel TXT security-related functions.
+
+## What it does for you
+
+Intel TXT is especially advantageous for large enterprises subject to compliance and audit regulations, such as healthcare, financial services, and government organizations. It helps assure that tracking of all trusted resources can be integrated, managed, and reported on with the relevant compliance organizations (HIPAA, PCI, FedRAMP, ISO, FISMA, and SSAE 16). For the first time, these organizations will be able to certify a cloud computing system is appropriately secured for workloads such as
+
+* Governance and enterprise risk
+* Information and life-cycle management
+* Compliance and audit
+* Application security
+* Identity and access management
+* Incident response
+
+For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, please visit http://www.softlayer.com/intel-txt.
+
+The following link has more information about adding additional security and compliance to your workloads with a [trusted secure cloud solution with IBM, VMware, and HyTrust](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf).
+
+**\*\*Special Technical Notice\*\*** Intel Trusted Execution Technology (Intel TXT) is provided by Intel&reg; and operates on the {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that require specific technical knowledge to support and manage. The {{site.data.keyword.cloud_notm}} current delivery model allows us to turn Intel TXT either on or off; **{{site.data.keyword.cloud_notm}} cannot assist with configuration of Intel TXT settings due to the sensitivity of customer environments and data**. It is recommended that you either have staff trained in Intel's TXT technologies or engage with a consulting firm with proven expertise in orchestrating root of trust and measured launch environment (MLE) architecture.

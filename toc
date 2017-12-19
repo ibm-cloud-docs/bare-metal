@@ -1,0 +1,65 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/index.html"}
+IBM Cloud bare metal servers
+
+    {: .navgroup id="learn"}
+    about.md
+
+    {: .topicgroup}
+    Security options
+        does-softlayer-keep-metal-servers-date-security-patches.md
+        intel-trusted-executive-technology-txt.md
+        ssl_certificates_intro.md
+    bare-metal-vmware.md
+    bare-metal-virtualization.md
+    bare-metal-sap-applications.md
+	
+	{: .topicgroup}
+    Operating system options
+        introduction-no-os.md
+        can-i-change-operating-system-os-my-device.md
+    bare-metal-software.md
+    can-i-back-data-between-bare-metal-servers-private-network.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Provisioning
+        baremetal-provision.md
+	
+    {: .topicgroup}
+    Configuring
+        configuring.md
+        what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
+        mount-iso-bare-metal-server.md
+
+    {: .topicgroup}
+    Managing bare metal servers
+    	index.md
+    	managing.md
+        understanding-server-transaction.md
+        view-bandwidth-graphs.md
+        set-bare-metal-server.md
+
+    {: .topicgroup}
+    RAID
+        what-raid.md
+        creating-and-adjusting-raid-configurations-adaptec.md
+        what-raid-monitoring-daemon-named.md
+        how-do-i-check-health-my-3ware-raid-array.md
+    bare-metal-managing-vmware.md
+
+    {: .topicgroup}
+    IBM Cloud for SAP applications
+        sap-ibm-bluemix-intrastructure.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faq.md
+    [FAQs: Servers (general)](../vsi/faq_servers_general.html)
+    [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
+    [FAQs: cpsrvd email](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    {: .navgroup-end}
