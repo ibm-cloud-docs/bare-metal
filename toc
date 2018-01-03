@@ -14,14 +14,14 @@ IBM Cloud bare metal servers
         what-raid-monitoring-daemon-named.md
 
     {: .topicgroup}
-        IBM Cloud for SAP applications
-            sap-ibm-bluemix-intrastructure.md
+    IBM Cloud for SAP applications
+        sap-ibm-bluemix-intrastructure.md
     bare-metal-software.md
-	
+
     {: .topicgroup}
-        Operating system options
-            introduction-no-os.md
-            can-i-change-operating-system-os-my-device.md
+    Operating system options
+        introduction-no-os.md
+        can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
     Security options
