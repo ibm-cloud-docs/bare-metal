@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html"}
-IBM Cloud bare metal servers
+IBM Cloud bare metal servers 1-3
 
     {: .navgroup id="learn"}
     about.md
