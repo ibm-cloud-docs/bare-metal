@@ -22,7 +22,6 @@ IBM Cloud bare metal servers
 
     {: .topicgroup}
     Security options
-        ssl_certificates_intro.md
         does-softlayer-keep-metal-servers-date-security-patches.md
         intel-trusted-executive-technology-txt.md
 
