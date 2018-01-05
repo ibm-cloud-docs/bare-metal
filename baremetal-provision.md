@@ -24,7 +24,7 @@ You have two options to provision your public {{site.data.keyword.baremetal_long
 
 Before you begin, ensure that you have either your {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}} credentials set-up. 
   
-     **Note:** For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order {{site.data.keyword.baremetal_short}}. For more information about upgrading your account, see [Switching to IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+**Note:** For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order {{site.data.keyword.baremetal_short}}. For more information about upgrading your account, see [Switching to IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
   
 ## Logging in 
 Make sure that you are logged in, either through {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}}: 
@@ -98,4 +98,4 @@ You can also provision your {{site.data.keyword.baremetal_short}} through the *D
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ### Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](../bare-metal/vsi_managing.html).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html).
