@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2017
+lastupdated: "2017-11-24"
 
 
 ---
@@ -12,19 +12,20 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with {{site.data.keyword.baremetal_short}}
+# About bare metal servers
 
-{{site.data.keyword.baremetal_long}} provide you with performance and control. {{site.data.keyword.baremetal_short}} do not run in a hypervisor and you get low-level access to the hardware resources. In addition, no other customers will be sharing the server with you -- it's all yours!
+Let {{site.data.keyword.baremetal_long}} be the basis for your infrastructure-as-a-service solution. It doesn't matter if you're a gaming developer who requires high-speed I/O or you need to set up high-performance servers for your users. {{site.data.keyword.baremetal_short}} can be your compute needs answer. 
 {:shortdesc}
 
-When creating a {{site.data.keyword.baremetal_short}}, you can customize specifications from the processors and region to the operating system and hard drive.
+A {{site.data.keyword.baremetal_short}} is a physical server with limited customization capabilities. It is dedicated to you and not shared in any part, including server resources, with other customers. These servers are managed by you, are provisioned without a hypervisor, and can be deployed in one or more data centers. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network (VPN) as if stationed on the same rack.
 
-To provision a {{site.data.keyword.baremetal_short}}:
-  1. Go to **Compute > {{site.data.keyword.baremetal_short}}** and click **Add**.
-  2. Select the location that you want the {{site.data.keyword.baremetal_short}} instance to be provisioned in. This is a data center in one of the {{site.data.keyword.Bluemix}} regions.
-  3. Select the configuration for the servers. This configuration applies to all servers created for this instance.
-  4. Select the number of servers you want created for this instance. For each server, enter a unique host name.
-  5. **Optional:** Enter a URL to a script or text file that you have defined to configure the server. The provisioning script must use an HTTPS protocol. The script will be downloaded and executed after the instance is provisioned, if possible. If the URL is not associated to an executable script, the script will simply be downloaded.
-  6. Select the operating system for the servers. This operating system applies to all servers created for this instance.
+Because customization is limited on {{site.data.keyword.baremetal_short}}, faster provisioning times of between 1 - 4 hours are obtainable. Quick provisioning is helpful when you are trying to get an app to market before the competition. 
 
-Within an hour, your {{site.data.keyword.baremetal_short}} is provisioned and available to use.
+{{site.data.keyword.baremetal_short}} includes the following key features:
+  * No provisioned hypervisor; you can provision one
+  * Limited customization
+  * Typically provisioned in 1 - 4 hours
+  * Hourly or monthly billing
+  * Customer managed
+
+{{site.data.keyword.baremetal_short}} are configured and managed to support various use cases, including hosting websites and databases, storing files, and running applications. You select your processors, data center, operating system, and hard disk drive when you order a {{site.data.keyword.baremetal_short}}. After you create an {{site.data.keyword.cloud_notm}} account, you can order new servers at any time through the {{site.data.keyword.cloud_notm}} user interface.
