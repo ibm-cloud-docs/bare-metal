@@ -17,7 +17,8 @@ If you want to use an operating system that is not provided by {{site.data.keywo
 * Upload ISO image to NAS or Windows CIFS Server. If you have the NAS storage, you can upload the ISO image file by using FTP.
 
   Sample FTP procedure:
-  ```#ftp <nas address>.service.softlayer.com
+  ```
+  #ftp <nas address>.service.softlayer.com
   Connected to <nas address>.service.softlayer.com
   220 NAS FTP Service
   User (<nas address>.service.softlayer.com:(none)): <nas username>
@@ -30,7 +31,8 @@ If you want to use an operating system that is not provided by {{site.data.keywo
   200 PORT command successful. Consider using PASV.
   150 Ok to send data.
   226 Transfer complete.
-  ftp: 3170893824 bytes sent in 253.86 Seconds 12490.77Kbytes/sec.```
+  ftp: 3170893824 bytes sent in 253.86 Seconds 12490.77Kbytes/sec.
+  ```
   
 * Establish a VPN Connection to {{site.data.keyword.Bluemix_notm}} with the IPMI. You can launch the VPN menu from the Support menu or following URL: [VPN Access](http://www.softlayer.com/VPN-Access)
 * Mount the ISO image from IPMI Virtual Media Menu by using the Connect to IPMI over the Management IP.
