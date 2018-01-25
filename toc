@@ -27,6 +27,7 @@ IBM Cloud bare metal servers
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
     bare-metal-vmware.md
+    bare-metal-virtualization.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
