@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-05"
+  years: 2014, 2018
+lastupdated: "2018-02-05"
 ---
 
 {:shortdesc: .shortdesc}
@@ -44,3 +44,9 @@ EIST is an established technology. You should not have a reason to turn off EIST
 Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](../infrastructure/software/vsi_reload_os.html) process within the [Customer Portal](https://control.softlayer.com).
 
 You can also update the firmware by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu drop down.
+
+## What happens to drives in bare metal servers when a customer is finished with them?
+
+Upon cancellation, a server is automatically moved to a reclaim VLAN for a set hold time. Once complete, the reclaim processes start and the drive(s) are wiped using DOD 5220.22-M algorithms.  The reclaim is tracked using the serial number on the drive. After completion the server is moved into provisioning for reassignment. A drive malfunction prompts manual intervention and the drives are then set to end of life.
+
+The end of life process is initiated when there is a malfunction or if the age or size is beyond support. Once any of these occurs, the drives are wiped as described earlier. Upon completion of the wiping process, the drive is physically destroyed by breaking, crushing or shredding the device.  The physical destruction process is tracked using the serial number on the drive.
