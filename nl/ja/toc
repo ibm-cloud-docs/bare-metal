@@ -1,0 +1,61 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html"}
+IBM Cloud bare metal servers
+
+    {: .navgroup id="learn"}
+    about.md
+    index.md
+
+    {: .topicgroup}
+    RAID
+        what-raid.md
+        what-raid-monitoring-daemon-named.md
+
+    bare-metal-software.md
+
+    {: .topicgroup}
+    オペレーティング・システム・オプション
+        introduction-no-os.md
+        can-i-change-operating-system-os-my-device.md
+
+    {: .topicgroup}
+    セキュリティー・オプション
+        ssl_certificates_intro.md
+        intel-trusted-execution-technology-txt.md
+        does-softlayer-keep-bare-metal-servers-date-security-patches.md
+
+    bare-metal-vmware.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    プロビジョニング
+        baremetal-provision.md
+
+    {: .topicgroup}
+    構成
+        configuring.md
+        what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
+        mount-iso-bare-metal-server.md
+        set-bare-metal-server.md
+
+    {: .topicgroup}
+    管理
+        managing.md
+        understanding-server-transaction.md
+        view-bandwidth-graphs.md
+        creating-and-adjusting-raid-configurations-adaptec.md
+        how-do-i-check-health-my-3ware-raid-array.md
+        bare-metal-managing-vmware.md
+        can-i-back-data-between-bare-metal-servers-private-network.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faq.md
+    [FAQs: Servers (general)](../vsi/faq_servers_general.html)
+    [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
+    [FAQs: cpsrvd email](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    {: .navgroup-end}
