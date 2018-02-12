@@ -34,6 +34,7 @@ IBM Cloud bare metal servers
     {: .topicgroup}
     Provisioning
         baremetal-provision.md
+        bm_provision_ssd.md
 
     {: .topicgroup}
     Configuring
