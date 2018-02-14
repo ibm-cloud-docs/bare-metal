@@ -41,8 +41,7 @@ Prerequisites:<br/>
 * You have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the Bootable ISO
 * The ISO is uploaded to the File Storage (NAS) associated with the server.
-* IPMIView is installed or access KVM Console <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView is installed or access KVM Console <!--http://knowledgelayer.softlayer.com/procedure/download-ipmiview-- <!--http://knowledgelayer.softlayer.com/procedure/access-kvm-console-->
 * ISO File is downloadable using wget
 * You have SSH access with privileges to access / install packages and create a mount
 
