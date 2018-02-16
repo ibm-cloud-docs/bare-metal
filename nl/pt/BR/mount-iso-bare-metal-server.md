@@ -41,15 +41,14 @@ Pré-requisitos:<br/>
 * Você tem um ISO inicializável
 * Um Windows CIFS Server ou Armazenamento NAS para armazenar o ISO inicializável
 * O ISO é transferido por upload para o Armazenamento de arquivos (NAS) associado ao servidor.
-* O IPMIView está instalado ou acesso ao Console KVM <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* O IPMIView está instalado ou acesso ao Console KVM
 * O arquivo ISO é transferível por download usando wget
 * Você tem acesso SSH com privilégios para acessar/instalar pacotes e criar uma montagem
 
 
 ### Linux e Windows
 Siga as etapas abaixo para montar um ISO com IPMIView.
-1. Por meio de um chamado de suporte, solicite que o servidor inicialize o CD-ROM Virtual como o primeiro dispositivo. Cada dispositivo deve inicializar por meio de seu CD-ROM virtual associado. É possível reverter essa configuração após a instalação do S.O. 
+1. Por meio de um chamado de suporte, solicite que o servidor inicialize o CD-ROM Virtual como o primeiro dispositivo. Cada dispositivo deve inicializar por meio de seu CD-ROM virtual associado. É possível reverter essa configuração após a instalação do S.O.
 * Estabeleça uma Conexão VPN para [VPN](http://www.softlayer.com/VPN-Access). Se você estiver usando o Microsoft Internet Explorer, certifique-se de incluir .softlayer.com em sua lista de Sites confiáveis e mantenha seu JAVA atualizado.
 * Copie a Mídia ISO para o NAS ou Windows CIFS Server.
   * Conecte-se ao seu Linux jumpbox usando SSH.
@@ -77,7 +76,7 @@ Siga as etapas abaixo para montar um ISO com IPMIView.
 * Conclua os detalhes da conexão da imagem de CD-ROM.
   *
     * Host de compartilhamento = o Endereço IP do Armazenamento NAS. É possível localizar esse valor efetuando ping do nome do servidor de armazenamento NAS. Por
-exemplo, 
+exemplo,
     ```
     ping nas501.service.softlayer.com
     ```
@@ -106,7 +105,7 @@ Se você não tem permissão para mudar o BIOS em um servidor, abra um chamado d
 1. Efetue login no console de gerenciamento do IPMI apontando seu navegador da web para o IP especificado em control.softlayer.com.
 * Clique em Dispositivos > seu servidor (detalhes do dispositivo) > Gerenciamento remoto. Especifique o nome do usuário e a senha.
 * Clique em Configuração > Sessão remota e mude o modo de conexão para **conectar**. Em alguns consoles do IPMI mais antigos, essa opção não está disponível, portanto é possível ignorar esta etapa.
-* Clique em Sistema > Informações do sistema para retornar à página de informações do sistema. Você verá um ícone de janela do console. 
+* Clique em Sistema > Informações do sistema para retornar à página de informações do sistema. Você verá um ícone de janela do console.
 * Clique no ícone do console para abrir o console. Aceite todos os avisos de segurança.
 * Quando o console estiver conectado, você verá o prompt de login.
 * Clique em Mídia virtual > Armazenamento virtual

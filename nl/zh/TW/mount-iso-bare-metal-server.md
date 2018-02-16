@@ -41,15 +41,14 @@ lastupdated: "2017-12-14"
 * 您有可開機的 ISO
 * 用來儲存「可開機 ISO」的「Windows CIFS 伺服器」或「NAS 儲存空間」
 * ISO 已上傳至與伺服器相關聯的「檔案儲存空間 (NAS)」。
-* 已安裝 IPMIView 或存取「KVM 主控台」 <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* 已安裝 IPMIView 或存取「KVM 主控台」
 * 可使用 wget 下載「ISO 檔案」
 * 您的 SSH 存取權具有存取/安裝套件以及建立裝載的專用權
 
 
 ### Linux 及 Windows
 請遵循下列步驟，以使用 IPMIView 來裝載 ISO。
-1. 透過支援問題單，要求您的伺服器將其「虛擬 CD-ROM」作為第一個裝置開機。每一個裝置都必須從其關聯的虛擬 CD-ROM 開機。您可以在安裝 OS 之後回復此設定。 
+1. 透過支援問題單，要求您的伺服器將其「虛擬 CD-ROM」作為第一個裝置開機。每一個裝置都必須從其關聯的虛擬 CD-ROM 開機。您可以在安裝 OS 之後回復此設定。
 * 建立與 [VPN](http://www.softlayer.com/VPN-Access) 的「VPN 連線」。如果您是使用 Microsoft Internet Explorer，請務必在「信任的網站」清單中包括 .softlayer.com，並讓您的 JAVA 保持最新狀態。
 * 將「ISO 媒體」複製到 NAS 或「Windows CIFS 伺服器」。
   * 使用 SSH 連接至 Linux jumpbox。
@@ -76,7 +75,7 @@ lastupdated: "2017-12-14"
 * 開啟「虛擬媒體」標籤
 * 完成「CD-ROM 映像檔」連線詳細資料。
   *
-    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如， 
+    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如，
     ```
     ping nas501.service.softlayer.com
     ```
@@ -105,7 +104,7 @@ lastupdated: "2017-12-14"
 1. 藉由將 Web 瀏覽器指向 control.softlayer.com 中所指定的 IP，來登入 IPMI 管理主控台。
 * 按一下「裝置」> 您的伺服器（裝置詳細資料）>「遠端管理」。指定使用者名稱及密碼。
 * 按一下「配置」>「遠端階段作業」，然後將連接模式變更為 **attach**。在某些較舊的 IPMI 主控台中，無法使用此選項，因此您可以跳過此步驟。
-* 按一下「系統」>「系統資訊」，回到系統資訊頁面。您會看到主控台視窗圖示。 
+* 按一下「系統」>「系統資訊」，回到系統資訊頁面。您會看到主控台視窗圖示。
 * 按一下主控台圖示，以開啟主控台。接受所有安全警告。
 * 連接主控台時，您會看到登入提示。
 * 按一下「虛擬媒體」>「虛擬儲存空間」

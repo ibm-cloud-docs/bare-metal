@@ -41,15 +41,14 @@ Voraussetzungen:<br/>
 * Sie haben ein bootbares ISO-Image.
 * Windows-CIFS-Server oder NAS-Speicher zum Speichern des bootbaren ISO-Images.
 * ISO-Image wird auf den Dateispeicher (NAS) hochgeladen, der mit dem Server verbunden ist.
-* IPMIView wird installiert oder es wird auf die KVM-Konsole zugegriffen. <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView wird installiert oder es wird auf die KVM-Konsole zugegriffen.
 * ISO-Datei ist über "wget" für den Download verfügbar.
 * Sie haben SSH-Zugriff mit der Berechtigung zum Zugreifen/Installieren von Paketen und zum Erstellen eines Mounts.
 
 
 ### Linux und Windows
 Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhängen.
-1. Fordern Sie mit einem Support-Ticket an, dass Ihr Server die virtuelle CD-ROM als erste Einheit bootet. Jede Einheit muss über ihre zugehörige CD-ROM gebootet werden. Sie können diese Einstellung zurücksetzen, wenn Sie das Betriebssystem installiert haben. 
+1. Fordern Sie mit einem Support-Ticket an, dass Ihr Server die virtuelle CD-ROM als erste Einheit bootet. Jede Einheit muss über ihre zugehörige CD-ROM gebootet werden. Sie können diese Einstellung zurücksetzen, wenn Sie das Betriebssystem installiert haben.
 * Richten Sie eine VPN-Verbindung zum [VPN](http://www.softlayer.com/VPN-Access) ein. Wenn Sie den Microsoft Internet Explorer verwenden, stellen Sie sicher, dass ".softlayer.com" in der Liste vertrauenswürdiger Sites enthalten und JAVA aktuell ist.
 * Kopieren Sie den ISO-Datenträger zum NAS oder Windows-CIFS-Server.
   * Stellen Sie eine Verbindung zur Linux Jumpbox mit SSH her.
@@ -76,7 +75,7 @@ Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhänge
 * Öffnen Sie die Registerkarte für den virtuellen Datenträger.
 * Vervollständigen Sie die Verbindungsdetails für das CD-ROM-Image.
   *
-    * Share host = Die IP-Adresse des NAS-Speichers. Sie können diesen Wert finden, indem Sie den Namen Ihres NAS-Speicherservers pingen. Beispiel: 
+    * Share host = Die IP-Adresse des NAS-Speichers. Sie können diesen Wert finden, indem Sie den Namen Ihres NAS-Speicherservers pingen. Beispiel:
     ```
     ping nas501.service.softlayer.com
     ```
@@ -105,7 +104,7 @@ Wenn Sie keine Berechtigung haben, das BIOS eines Servers zu ändern, öffnen Si
 1. Melden Sie sich bei der IPMI-Managementkonsole an, indem Sie in Ihrem Web-Browser die in "control.softlayer.com" angegebene IP-Adresse aufrufen.
 * Klicken Sie auf "Einheiten > Ihr Server (Einheitendetails) > Fernverwaltung". Geben Sie den Benutzernamen und das Kennwort an.
 * Klicken Sie auf "Konfiguration > Ferne Sitzung" und ändern Sie den Attach-Modus zu **Anhängen**. In einigen älteren IPMI-Konsolen ist diese Option nicht verfügbar und Sie diesen Schritt überspringen.
-* Klicken Sie auf "System > Systeminformationen", um auf die Seite mit den Systeminformationen zurückzukehren. Es wird ein Symbol für das Konsolenfenster angezeigt. 
+* Klicken Sie auf "System > Systeminformationen", um auf die Seite mit den Systeminformationen zurückzukehren. Es wird ein Symbol für das Konsolenfenster angezeigt.
 * Klicken Sie auf das Konsolensymbol, um die Konsole zu öffnen. Akzeptieren Sie alle Sicherheitswarnungen.
 * Wenn die Konsole verbunden ist, wird ein Anmeldedialog angezeigt.
 * Klicken Sie auf "Virtueller Datenträger > Virtueller Speicher".

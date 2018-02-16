@@ -56,7 +56,7 @@ The 375GB drive is available in the following datacenters:
 | MEL01                     |
 {: caption="Table 1. Supported datacenters" caption-side="top"}
 
-Operating system (OS) specifications are as follows: 
+Operating system (OS) specifications are as follows:
 Intel-provided driver (full production specification is guaranteed, booting is only supported for 64-bit OS)
 
   * Windows Server 2016
@@ -121,7 +121,7 @@ You’re taken to the *Configure your Cloud Server* page.
 | Hard drive                | Select the drive that will best fit your work load needs. Note that if you select a drive, the NVMe PCIe section will be greyed out. |
 {: caption="Table 2. Deployment options" caption-side="top"}
 
-5. Scroll to the options and make selections based on how you will be using your server(s). Listed below are some that you will want to consider when setting up your server(s). See the SoftLayer Design Decision Tool, http://knowledgelayer.softlayer.com/learning/softlayer-design-decision-tool#_Compute_1, for additional information.
+5. Scroll to the options and make selections based on how you will be using your server(s). Listed below are some that you will want to consider when setting up your server(s).
 
 |              Field        |  Description                |
 | ------------------------- | --------------------------- |

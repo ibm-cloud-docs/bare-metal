@@ -41,15 +41,14 @@ lastupdated: "2017-12-14"
 * 您具有可引导的 ISO
 * 用于存储可引导 ISO 的 Windows CIFS 服务器或 NAS 存储器
 * ISO 已上传到与服务器关联的文件存储器 (NAS)
-* IPMIView 已安装或访问 KVM 控制台 <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView 已安装或访问 KVM 控制台
 * ISO 文件可使用 wget 进行下载
 * 您具有 SSH 访问权，有权访问/安装包和创建装载
 
 
 ### Linux 和 Windows
 要使用 IPMIVMView 来装载 ISO，请执行以下步骤。
-1. 通过支持凭单，请求服务器将其虚拟 CD-ROM 作为第一个设备引导。每个设备都必须从其关联的虚拟 CD-ROM 进行引导。您可以在安装操作系统后还原此设置。 
+1. 通过支持凭单，请求服务器将其虚拟 CD-ROM 作为第一个设备引导。每个设备都必须从其关联的虚拟 CD-ROM 进行引导。您可以在安装操作系统后还原此设置。
 * 建立与 [VPN](http://www.softlayer.com/VPN-Access) 的 VPN 连接。如果使用的是 Microsoft Internet Explorer，请确保在“可信站点”列表中包含 .softlayer.com 并使 JAVA 保持最新。
 * 将 ISO 介质复制到 NAS 或 Windows CIFS 服务器。
   * 使用 SSH 连接到 Linux 跳板机。
@@ -76,7 +75,7 @@ lastupdated: "2017-12-14"
 * 打开“虚拟介质”选项卡
 * 填写 CD-ROM 映像连接详细信息。
   *
-    * 共享主机 = NAS 存储器的 IP 地址。您可以通过对 NAS 存储服务器名称执行 ping 操作来查找此值。例如： 
+    * 共享主机 = NAS 存储器的 IP 地址。您可以通过对 NAS 存储服务器名称执行 ping 操作来查找此值。例如：
     ```
     ping nas501.service.softlayer.com
     ```
@@ -105,7 +104,7 @@ lastupdated: "2017-12-14"
 1. 通过将 Web 浏览器指向 control.softlayer.com 中指定的 IP，登录到 IPMI 管理控制台。
 * 单击“设备”>“您的服务器（设备详细信息）”>“远程管理”。指定用户名和密码。
 * 单击“配置”>“远程会话”，然后将连接方式更改为**连接**。在某些较低版本的 IPMI 控制台中，此选项不可用，所以可以跳过此步骤。
-* 单击“系统”>“系统信息”以返回到系统信息页面。您将看到控制台窗口图标。 
+* 单击“系统”>“系统信息”以返回到系统信息页面。您将看到控制台窗口图标。
 * 单击“控制台”图标以打开控制台。接受所有安全警告。
 * 控制台连接后，您将看到登录提示。
 * 单击“虚拟介质”>“虚拟存储器”。

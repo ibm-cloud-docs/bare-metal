@@ -41,15 +41,14 @@ lastupdated: "2017-12-14"
 * 부트 가능한 ISO가 있습니다.
 * 부트 가능한 ISO를 저장하기 위한 Windows CIFS Server 또는 NAS 스토리지가 있습니다.
 * ISO가 서버와 연관된 파일 스토리지(NAS)에 업로드됩니다.
-* IPMIView가 설치되어 있거나 KVM 콘솔에 액세스합니다. <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView가 설치되어 있거나 KVM 콘솔에 액세스합니다.
 * wget를 사용하여 ISO 파일을 다운로드할 수 있습니다.
 * 패키지에 대한 액세스 및 설치를 수행하고 마운트를 작성할 수 있는 권한이 있는 SSH 액세스가 있습니다.
 
 
 ### Linux 및 Windows
 아래 단계에 따라 IPMIView를 사용하여 ISO를 마운트하십시오.
-1. 지원 티켓을 통해 서버가 가상 CD-ROM을 첫 번째 디바이스로 부팅하도록 요청하십시오. 각 디바이스가 연관된 가상 CD-ROM에서 부팅되어야 합니다. OS를 설치한 후에 이 설정을 되돌릴 수 있습니다. 
+1. 지원 티켓을 통해 서버가 가상 CD-ROM을 첫 번째 디바이스로 부팅하도록 요청하십시오. 각 디바이스가 연관된 가상 CD-ROM에서 부팅되어야 합니다. OS를 설치한 후에 이 설정을 되돌릴 수 있습니다.
 * [VPN](http://www.softlayer.com/VPN-Access)에 VPN 연결을 설정하십시오. Microsoft Internet Explorer를 사용하는 경우, 신뢰할 수 있는 사이트 목록에 .softlayer.com을 포함시키고 JAVA를 최신 상태로 유지하십시오.
 * ISO 미디어를 NAS 또는 Windows CIFS Server로 복사하십시오.
   * SSH를 사용하여 Linux Jumpbox에 연결하십시오.
@@ -76,7 +75,7 @@ lastupdated: "2017-12-14"
 * 가상 미디어 탭을 여십시오.
 * CD-ROM 이미지 연결 세부사항을 완료하십시오.
   *
-    * 공유 호스트 = NAS 스토리지의 IP 주소. NAS 스토리지 서버 이름을 Ping하여 이 값을 찾을 수 있습니다. 예를 들면, 다음과 같습니다. 
+    * 공유 호스트 = NAS 스토리지의 IP 주소. NAS 스토리지 서버 이름을 Ping하여 이 값을 찾을 수 있습니다. 예를 들면, 다음과 같습니다.
     ```
     ping nas501.service.softlayer.com
     ```
@@ -105,7 +104,7 @@ Java iKVM 뷰어(콘솔)를 사용하여 로컬 컴퓨터에서 ISO를 마운트
 1. control.softlayer.com에서 지정된 IP로 웹 브라우저를 지정하여 IPMI 관리 콘솔에 로그인하십시오.
 * 디바이스 > 서버(디바이스 세부사항) > 원격 관리를 클릭하십시오. 사용자 이름 및 비밀번호를 지정하십시오.
 * 구성 > 원격 세션을 클릭하고 접속 모드를 **접속**으로 변경하십시오. 일부 오래된 IPMI 콘솔에서는 이 옵션을 사용할 수 없으므로 건너뛸 수 있습니다.
-* 시스템 > 시스템 정보를 클릭하여 시스템 정보 페이지로 돌아가십시오. 그러면 콘솔 창 아이콘이 표시됩니다. 
+* 시스템 > 시스템 정보를 클릭하여 시스템 정보 페이지로 돌아가십시오. 그러면 콘솔 창 아이콘이 표시됩니다.
 * 콘솔 아이콘을 클릭하여 콘솔을 여십시오. 모든 보안 경고를 승인하십시오.
 * 콘솔이 연결되면 로그인 프롬프트가 표시됩니다.
 * 가상 미디어 > 가상 스토리지를 클릭하십시오.
