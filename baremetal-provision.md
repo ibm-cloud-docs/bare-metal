@@ -90,7 +90,7 @@ You can also provision your {{site.data.keyword.baremetal_short}} through the *D
 2. Click the **Order Devices** link in the upper right-hand corner.
 3. On the Order SoftLayer Products and Services page, click **Hourly** or **Monthly** under {{site.data.keyword.baremetal_short}}.
 4. Select your **Data Center**, scroll through the page, and click on the **Starting Price Per** link to select your server.
-5.  Fill in the information on the **Configure your {{site.data.keyword.baremetal_short}}** page and click the **Add to Order** button to continue. See [Configuring your {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) for more information on how to configure your server. Once your order is verified, you'll be redirected to the **Checkout** page.
+5.  Fill in the information on the **Configure your {{site.data.keyword.baremetal_short}}** page and click the **Add to Order** button to continue. See [Configuring your {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) for more information on how to configure your server. Once your order is verified, you'll be redirected to the **Checkout** page.
 6.  Enter the **Advanced System Configuration** for the server. See [Configuring your {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) for more information on how to set this up.
 7. Click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
 8. Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.

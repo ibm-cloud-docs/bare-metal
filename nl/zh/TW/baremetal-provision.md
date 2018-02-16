@@ -22,12 +22,12 @@ lastupdated: "2017-11-29"
 您有兩個選項可以佈建公用 {{site.data.keyword.baremetal_long}}。第一個是透過 {{site.data.keyword.cloud}} 型錄，第二個則是透過 {{site.data.keyword.slportal_full}}。型錄及 {{site.data.keyword.slportal}} 需要唯一的登入 ID。您的型錄使用者名稱及密碼無法用於登入入口網站，反之亦然。
 {:shortdesc}
 
-開始之前，請確定您已設定 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。 
-  
+開始之前，請確定您已設定 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。
+
 **附註：**針對 {{site.data.keyword.cloud_notm}} 型錄，您必須具有已升級的帳戶，才能訂購 {{site.data.keyword.baremetal_short}}。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](https://console.ng.bluemix.net/docs/admin/softlayerlink.html)。
-  
-## 登入 
-請確定您已透過 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 進行登入： 
+
+## 登入
+請確定您已透過 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 進行登入：
 
   <table>
    <CAPTION>表 1. 選擇登入位置</CAPTION>
@@ -73,9 +73,9 @@ lastupdated: "2017-11-29"
 
 1.  從 {{site.data.keyword.slportal}}，找出**訂購**區段，然後按一下**裝置**。
 2.  在「裝置」頁面上，按一下 {{site.data.keyword.baremetal_short}} 下方的**每小時**或**每月**。
-3.  選取**資料中心**、捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。 
-4.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
-5.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
+3.  選取**資料中心**、捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。
+4.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html)。驗證訂單之後，即會重新導向至**結帳**頁面。
+5.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html)。
 6.  按一下**雲端服務條款**及**協力廠商服務合約**勾選框。
 7.  確認或輸入付款資訊，然後按一下**提交訂單**按鈕。即會將您重新導向至包含佈建訂單號碼的畫面。您可以列印畫面，因為它也是您的佈建訂單收據。
 
@@ -84,14 +84,14 @@ lastupdated: "2017-11-29"
 ### 透過裝置功能表佈建裸機伺服器
 {: #ordering-baremetal-devices-menu}
 
-您也可以透過主要 {{site.data.keyword.slportal}} 頁面上的*裝置* 功能表來佈建 {{site.data.keyword.baremetal_short}}。 
+您也可以透過主要 {{site.data.keyword.slportal}} 頁面上的*裝置* 功能表來佈建 {{site.data.keyword.baremetal_short}}。
 
 1. 按一下**裝置 > 裝置清單**。「裝置」頁面會顯示您帳戶內的所有裝置類型：專用主機、虛擬伺服器、裸機伺服器及 NetScaler 應用程式遞送控制器。
 2. 按一下右上角的**訂購裝置**鏈結。
 3. 在「訂購 SoftLayer 產品及服務」頁面上，按一下 {{site.data.keyword.baremetal_short}} 下方的**每小時**或**每月**。
-4. 選取**資料中心**，捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。 
-5.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
-6.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
+4. 選取**資料中心**，捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。
+5.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html)。驗證訂單之後，即會重新導向至**結帳**頁面。
+6.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html)。
 7. 按一下**雲端服務條款**及**協力廠商服務合約**勾選框。
 8. 確認或輸入付款資訊，然後按一下**提交訂單**按鈕。即會將您重新導向至包含佈建訂單號碼的畫面。您可以列印畫面，因為它也是您的佈建訂單收據。
 

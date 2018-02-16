@@ -22,12 +22,12 @@ lastupdated: "2017-11-29"
 Você tem duas opções para provisionar {{site.data.keyword.baremetal_long}} públicos. O primeiro é por meio do catálogo do {{site.data.keyword.cloud}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa.
 {:shortdesc}
 
-Antes de iniciar, assegure-se de que você tenha suas credenciais do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}} configuradas. 
-  
+Antes de iniciar, assegure-se de que você tenha suas credenciais do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}} configuradas.
+
 **Nota:** para o catálogo do {{site.data.keyword.cloud_notm}}, deve-se ter uma conta com upgrade para pedir {{site.data.keyword.baremetal_short}}. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
-  
-## Efetuando login 
-Certifique-se de que você tenha efetuado login por meio do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}: 
+
+## Efetuando login
+Certifique-se de que você tenha efetuado login por meio do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}:
 
   <table>
    <CAPTION>Tabela 1. Escolher um log no local</CAPTION>
@@ -73,9 +73,9 @@ Para provisionar os {{site.data.keyword.baremetal_short}} por meio do ícone *Di
 
 1.  No {{site.data.keyword.slportal}}, localize a seção **Pedido** e clique em **Dispositivos**.
 2.  Na página Dispositivos, clique em **Por hora** ou **Mensal** em {{site.data.keyword.baremetal_short}}.
-3.  Selecione o seu **Data Center**, role pela página e clique no link **Iniciando preço por** para selecionar o seu servidor. 
-4.  Preencha as informações na página **Configure o seu {{site.data.keyword.baremetal_short}}** e clique no botão **Incluir na ordem** para continuar. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obter mais informações sobre como configurar o seu servidor. Logo que a sua ordem for verificada, você será redirecionado para a página de **Check-out**.
-5.  Insira a **Configuração do sistema avançado** para o servidor. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obter mais informações sobre como configurar isso.
+3.  Selecione o seu **Data Center**, role pela página e clique no link **Iniciando preço por** para selecionar o seu servidor.
+4.  Preencha as informações na página **Configure o seu {{site.data.keyword.baremetal_short}}** e clique no botão **Incluir na ordem** para continuar. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obter mais informações sobre como configurar o seu servidor. Logo que a sua ordem for verificada, você será redirecionado para a página de **Check-out**.
+5.  Insira a **Configuração do sistema avançado** para o servidor. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obter mais informações sobre como configurar isso.
 6.  Clique nas caixas de seleção **termos do Cloud Service** e **Contrato de prestação de serviços de terceiro**.
 7.  Confirme ou insira suas informações de pagamento e clique no botão **Enviar ordem**. Você é redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
 
@@ -84,14 +84,14 @@ Para provisionar os {{site.data.keyword.baremetal_short}} por meio do ícone *Di
 ### Provisionando o servidor bare metal por meio do menu Dispositivos
 {: #ordering-baremetal-devices-menu}
 
-Também é possível provisionar {{site.data.keyword.baremetal_short}} por meio do menu *Dispositivos* na página principal do {{site.data.keyword.slportal}}. 
+Também é possível provisionar {{site.data.keyword.baremetal_short}} por meio do menu *Dispositivos* na página principal do {{site.data.keyword.slportal}}.
 
 1. Clique em **Dispositivos > Lista de dispositivos**. A página Dispositivos exibe todos os tipos de dispositivo — hosts dedicados, servidores virtuais, servidores bare metal e controladores de entrega de aplicativo NetScaler - em sua conta.
 2. Clique no link **Pedir dispositivos** no canto superior direito.
 3. Na página Pedir produtos e serviços SoftLayer, clique em **Por hora** ou **Mensal** em {{site.data.keyword.baremetal_short}}.
-4. Selecione o seu **Data Center**, role pela página e clique no link **Iniciando preço por** para selecionar o seu servidor. 
-5.  Preencha as informações na página **Configure o seu {{site.data.keyword.baremetal_short}}** e clique no botão **Incluir na ordem** para continuar. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obter mais informações sobre como configurar o seu servidor. Logo que a sua ordem for verificada, você será redirecionado para a página de **Check-out**.
-6.  Insira a **Configuração do sistema avançado** para o servidor. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obter mais informações sobre como configurar isso.
+4. Selecione o seu **Data Center**, role pela página e clique no link **Iniciando preço por** para selecionar o seu servidor.
+5.  Preencha as informações na página **Configure o seu {{site.data.keyword.baremetal_short}}** e clique no botão **Incluir na ordem** para continuar. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obter mais informações sobre como configurar o seu servidor. Logo que a sua ordem for verificada, você será redirecionado para a página de **Check-out**.
+6.  Insira a **Configuração do sistema avançado** para o servidor. Veja [Configurando o seu {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obter mais informações sobre como configurar isso.
 7. Clique nas caixas de seleção **termos do Cloud Service** e **Contrato de prestação de serviços de terceiro**.
 8. Confirme ou insira suas informações de pagamento e clique no botão **Enviar ordem**. Você é redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
 

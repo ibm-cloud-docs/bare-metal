@@ -22,12 +22,12 @@ lastupdated: "2017-11-29"
 Tiene dos opciones para suministrar {{site.data.keyword.baremetal_long}} públicos. La primera es a través del catálogo de {{site.data.keyword.cloud}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa.
 {:shortdesc}
 
-Antes de empezar, asegúrese de que dispone de las credenciales del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}. 
-  
+Antes de empezar, asegúrese de que dispone de las credenciales del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}.
+
 **Nota:** para el catálogo de {{site.data.keyword.cloud_notm}}, debe tener una cuenta actualizada para pedir {{site.data.keyword.baremetal_short}}. Para obtener más información sobre cómo actualizar la cuenta, consulte [Cambiar a IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
-  
-## Inicio de sesión 
-Asegúrese de que está conectado, ya sea a través del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}: 
+
+## Inicio de sesión
+Asegúrese de que está conectado, ya sea a través del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}:
 
   <table>
    <CAPTION>Tabla 1. Elija una ubicación de inicio de sesión</CAPTION>
@@ -73,9 +73,9 @@ Para suministrar el dispositivo de {{site.data.keyword.baremetal_short}} mediant
 
 1.  En el {{site.data.keyword.slportal}}, localice la sección **Pedido** y pulse **Dispositivos**.
 2.  En la página Dispositivos, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
-3.  Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor. 
-4.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
-5.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
+3.  Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor.
+4.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
+5.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obtener más información sobre cómo hacerlo.
 6.  Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.
 7.  Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
 
@@ -84,12 +84,12 @@ Para suministrar el dispositivo de {{site.data.keyword.baremetal_short}} mediant
 ### Suministro de un servidor nativo a través del menú Dispositivos
 {: #ordering-baremetal-devices-menu}
 
-También puede suministrar el dispositivo de {{site.data.keyword.baremetal_short}} a través del menú *Dispositivos* en la página principal del {{site.data.keyword.slportal}}. 
+También puede suministrar el dispositivo de {{site.data.keyword.baremetal_short}} a través del menú *Dispositivos* en la página principal del {{site.data.keyword.slportal}}.
 
 1. Pulse **Dispositivos > Lista de dispositivos**. La página Dispositivos muestra todos los tipos de dispositivos (host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler) de su cuenta.
 2. Pulse el enlace **Pedir dispositivos** en la esquina superior derecha.
 3. En la página Pedir servicios y productos de SoftLayer, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
-4. Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor. 
+4. Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor.
 5.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
 6.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
 7. Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.

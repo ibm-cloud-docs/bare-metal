@@ -22,12 +22,12 @@ lastupdated: "2017-11-29"
 Sie haben zwei Möglichkeiten, um Ihre öffentlichen {{site.data.keyword.baremetal_long}} bereitzustellen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.cloud}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich mit dem Benutzernamen und Kennwort für den Katalog daher nicht beim Portal anmelden und umgekehrt.
 {:shortdesc}
 
-Stellen Sie vorab sicher, dass Sie über gültige Berechtigungsnachweise für den {{site.data.keyword.cloud_notm}}-Katalog oder für das {{site.data.keyword.slportal}} verfügen. 
-  
+Stellen Sie vorab sicher, dass Sie über gültige Berechtigungsnachweise für den {{site.data.keyword.cloud_notm}}-Katalog oder für das {{site.data.keyword.slportal}} verfügen.
+
 **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.cloud_notm}}-Katalog verfügen, um {{site.data.keyword.baremetal_short}} zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
-  
-## Anmelden 
-Stellen Sie sicher, dass Sie angemeldet sind (entweder beim {{site.data.keyword.cloud_notm}}-Katalog oder beim {{site.data.keyword.slportal}}): 
+
+## Anmelden
+Stellen Sie sicher, dass Sie angemeldet sind (entweder beim {{site.data.keyword.cloud_notm}}-Katalog oder beim {{site.data.keyword.slportal}}):
 
   <table>
    <CAPTION>Tabelle 1.Anmeldeposition auswählen</CAPTION>
@@ -73,9 +73,9 @@ Führen Sie die folgenden Schritte aus, um Ihre {{site.data.keyword.baremetal_sh
 
 1.  Suchen Sie im {{site.data.keyword.slportal}} den Abschnitt **Bestellung** und klicken Sie auf **Einheiten**.
 2.  Klicken Sie auf der Seite 'Einheiten' auf **Stündlich** oder **Monatlich** unter {{site.data.keyword.baremetal_short}}.
-3.  Wählen Sie Ihr **Rechenzentrum** aus, blättern Sie durch die Seite und klicken Sie auf den Link **Startpreis pro**, um Ihren Server auszuwählen. 
-4.  Füllen Sie die Seite **Ihren {{site.data.keyword.baremetal_short}} konfigurieren** aus und klicken Sie zum Fortfahren auf die Schaltfläche **Zur Bestellung hinzufügen**. Weitere Informationen, wie Sie Ihren Server konfigurieren können, finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.md). Sobald Ihre Bestellung bestätigt wurde, werden Sie auf die Seite **Checkout** weitergeleitet.
-5.  Geben Sie die **Erweiterte Systemkonfiguration** für den Server ein. Weitere Informationen zur Einrichtung finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.md).
+3.  Wählen Sie Ihr **Rechenzentrum** aus, blättern Sie durch die Seite und klicken Sie auf den Link **Startpreis pro**, um Ihren Server auszuwählen.
+4.  Füllen Sie die Seite **Ihren {{site.data.keyword.baremetal_short}} konfigurieren** aus und klicken Sie zum Fortfahren auf die Schaltfläche **Zur Bestellung hinzufügen**. Weitere Informationen, wie Sie Ihren Server konfigurieren können, finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.html). Sobald Ihre Bestellung bestätigt wurde, werden Sie auf die Seite **Checkout** weitergeleitet.
+5.  Geben Sie die **Erweiterte Systemkonfiguration** für den Server ein. Weitere Informationen zur Einrichtung finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.html).
 6.  Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
 7.  Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellungsbestellung.
 
@@ -84,14 +84,14 @@ Führen Sie die folgenden Schritte aus, um Ihre {{site.data.keyword.baremetal_sh
 ### Einen Bare-Metal-Server über das Menü "Einheiten" bereitstellen
 {: #ordering-baremetal-devices-menu}
 
-Sie können Ihren {{site.data.keyword.baremetal_short}} über das Menü *Einheiten* oder auf der {{site.data.keyword.slportal}}-Hauptseite bereitstellen. 
+Sie können Ihren {{site.data.keyword.baremetal_short}} über das Menü *Einheiten* oder auf der {{site.data.keyword.slportal}}-Hauptseite bereitstellen.
 
 1. Klicken Sie auf **Einheiten > Einheitenliste**. Auf der Seite 'Einheiten' werden alle Einheitentypen in Ihrem Konto angezeigt (dedizierte Hosts, virtuelle Server, Bare-Metal-Server und NetScaler-Controller für Anwendungsbereitstellung).
 2. Klicken Sie auf den Link **Einheiten bestellen** in der rechten oberen Ecke.
 3. Klicken Sie auf der Seite für SoftLayer-Produkte und -Services auf **Stündlich** oder **Monatlich** unter {{site.data.keyword.baremetal_short}}.
-4. Wählen Sie Ihr **Rechenzentrum** aus, blättern Sie durch die Seite und klicken Sie auf den Link **Startpreis pro**, um Ihren Server auszuwählen. 
-5.  Füllen Sie die Seite **Ihren {{site.data.keyword.baremetal_short}} konfigurieren** aus und klicken Sie zum Fortfahren auf die Schaltfläche **Zur Bestellung hinzufügen**. Weitere Informationen, wie Sie Ihren Server konfigurieren können, finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.md). Sobald Ihre Bestellung bestätigt wurde, werden Sie auf die Seite **Checkout** weitergeleitet.
-6.  Geben Sie die **Erweiterte Systemkonfiguration** für den Server ein. Weitere Informationen zur Einrichtung finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.md).
+4. Wählen Sie Ihr **Rechenzentrum** aus, blättern Sie durch die Seite und klicken Sie auf den Link **Startpreis pro**, um Ihren Server auszuwählen.
+5.  Füllen Sie die Seite **Ihren {{site.data.keyword.baremetal_short}} konfigurieren** aus und klicken Sie zum Fortfahren auf die Schaltfläche **Zur Bestellung hinzufügen**. Weitere Informationen, wie Sie Ihren Server konfigurieren können, finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.html). Sobald Ihre Bestellung bestätigt wurde, werden Sie auf die Seite **Checkout** weitergeleitet.
+6.  Geben Sie die **Erweiterte Systemkonfiguration** für den Server ein. Weitere Informationen zur Einrichtung finden Sie unter [Ihren {{site.data.keyword.baremetal_short}} konfigurieren](../bare-metal/configuring.html).
 7. Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
 8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellungsbestellung.
 
