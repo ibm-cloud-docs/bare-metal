@@ -44,7 +44,7 @@ Alle {{site.data.keyword.baremetal_short}} können auf eine uneingeschränkte (u
 
 Nachdem Sie Ihr Rechenzentrum, den Server und die Fakturierungsoption (monatlich oder stündlich) ausgewählt haben, legen Sie fest, wie Sie Ihren Server konfigurieren möchten. Einige Felder (Server, RAM, Grafikprozessor und sekundärer Grafikprozessor) auf der Seite **Ihre {{site.data.keyword.baremetal_short}} konfigurieren** sind je nachdem, welchen Server Sie ausgewählt haben, standardmäßig ausgefüllt. In der folgenden Tabelle wird beschrieben, für welche Felder Sie einen Wert definieren können.
 
-| **Feld** | **Beschreibung** | 
+| **Feld** | **Beschreibung** |
 |-------------------|---------------|
 |Betriebssystem |Wählen Sie zwischen CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu oder Sonstiges aus. |
 |Festplatten |Das Tool zur Datenträgerkonfiguration unterstützt Sie bei der Festplatteneinrichtung, indem die Felder je nach Betriebssystem vorab ausgefüllt sind. |
@@ -56,14 +56,14 @@ Nachdem Sie Ihr Rechenzentrum, den Server und die Fakturierungsoption (monatlich
 |Hardware- & Software-Firewalls, Viren- & Spyware-Schutz und Abwehrsystem & Erkennung gegen Angriffe von außen |Wählen Sie die entsprechenden Optionen aus, wenn der Server internetfähig ist. Es wird dringend empfohlen, dass sich die für die Sicherheit verantwortliche Unternehmensabteilung mit dem {{site.data.keyword.cloud_notm}}-Support abstimmt, um die Details dieser Optionen zu besprechen. |
 |EVault |Ein agentenbasiertes Sicherungstool, das auf Ihrem Server installiert werden kann, um Backups zwischen Servern zu replizieren. |
 
-Nutzen Sie das [Tool zur Designentscheidung](http://knowledgelayer.softlayer.com/learning/softlayer-design-decision-tool) oder wenden Sie sich an den {{site.data.keyword.cloud_notm}}-Support, um weitere Informationen zu erhalten.
+Nutzen Sie wenden Sie sich an den {{site.data.keyword.cloud_notm}}-Support, um weitere Informationen zu erhalten.
 
 
 ## Erweiterte Systemkonfiguration
 
 Die erweiterte Systemkonfiguration wird durchgeführt, nachdem Sie auf die Schaltfläche **Zur Bestellung hinzufügen** geklickt haben und zur Checkout-Seite weitergeleitet wurden. In der folgenden Tabelle werden die Felder der erweiterten Systemkonfiguration beschrieben.
 
-| **Feld** | **Beschreibung** | 
+| **Feld** | **Beschreibung** |
 |-------------------|---------------|
 |Hostname |Ein permanenter oder temporärer Name für Ihren Server, beispielsweise _server1_. |
 |Domäne |Name der Unterdomäne, die nicht mit dem Internetdomänennamen identisch sein darf, beispielsweise _test.acme.com_. |

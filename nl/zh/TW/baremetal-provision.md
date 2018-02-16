@@ -74,8 +74,8 @@ lastupdated: "2017-11-29"
 1.  從 {{site.data.keyword.slportal}}，找出**訂購**區段，然後按一下**裝置**。
 2.  在「裝置」頁面上，按一下 {{site.data.keyword.baremetal_short}} 下方的**每小時**或**每月**。
 3.  選取**資料中心**、捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。 
-4.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
-5.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。
+4.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
+5.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
 6.  按一下**雲端服務條款**及**協力廠商服務合約**勾選框。
 7.  確認或輸入付款資訊，然後按一下**提交訂單**按鈕。即會將您重新導向至包含佈建訂單號碼的畫面。您可以列印畫面，因為它也是您的佈建訂單收據。
 
@@ -90,8 +90,8 @@ lastupdated: "2017-11-29"
 2. 按一下右上角的**訂購裝置**鏈結。
 3. 在「訂購 SoftLayer 產品及服務」頁面上，按一下 {{site.data.keyword.baremetal_short}} 下方的**每小時**或**每月**。
 4. 選取**資料中心**，捲動瀏覽頁面，然後按一下**開始價格根據**鏈結以選取伺服器。 
-5.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
-6.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。
+5.  在**配置 {{site.data.keyword.baremetal_short}}** 頁面上填寫資訊，然後按一下**新增至訂單**按鈕以繼續。如需如何配置伺服器的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。驗證訂單之後，即會重新導向至**結帳**頁面。
+6.  輸入伺服器的**進階系統配置**。如需如何設定此作業的相關資訊，請參閱[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
 7. 按一下**雲端服務條款**及**協力廠商服務合約**勾選框。
 8. 確認或輸入付款資訊，然後按一下**提交訂單**按鈕。即會將您重新導向至包含佈建訂單號碼的畫面。您可以列印畫面，因為它也是您的佈建訂單收據。
 

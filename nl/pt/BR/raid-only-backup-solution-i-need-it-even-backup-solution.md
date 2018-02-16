@@ -13,6 +13,6 @@ O RAID não é uma Solução de backup.  O RAID cria um disco de dados utilizáv
 
 O SoftLayer fornece algumas soluções de backup:
 
-1. [Backup de evault](/infrastructure/backup/index.html) é uma solução de backup corporativo que pode automatizar os backups ao longo de múltiplos servidores. Os dados são armazenados em uma SAN (rede de área de armazenamento) corporativa.
-* [Network Attached Storage (NAS)](/infrastructure/network-attached-storage/nas.html) é um padrão de mercado e fornece armazenamento fora do servidor para dados críticos. Os dados são armazenados em uma SAN (rede de área de armazenamento) corporativa.
-* [CDP do R1Soft](/infrastructure/backup/r1soft.html) fornece backup de servidor de disco para disco de alto desempenho apresentando um gerenciamento central e um repositório de dados. O CDP do R1Soft protege dados em nível de bloco e blocos de disco exclusivo no servidor são armazenados apenas uma vez em todos os pontos de recuperação, aumentando a eficiência de armazenamento.
+1. [Backup de evault](../infrastructure/backup/index.html) é uma solução de backup corporativo que pode automatizar os backups ao longo de múltiplos servidores. Os dados são armazenados em uma SAN (rede de área de armazenamento) corporativa.
+* [Network Attached Storage (NAS)](../infrastructure/network-attached-storage/nas.html) é um padrão de mercado e fornece armazenamento fora do servidor para dados críticos. Os dados são armazenados em uma SAN (rede de área de armazenamento) corporativa.
+* [CDP do R1Soft](../infrastructure/backup/r1soft.html) fornece backup de servidor de disco para disco de alto desempenho apresentando um gerenciamento central e um repositório de dados. O CDP do R1Soft protege dados em nível de bloco e blocos de disco exclusivo no servidor são armazenados apenas uma vez em todos os pontos de recuperação, aumentando a eficiência de armazenamento.

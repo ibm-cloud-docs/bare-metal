@@ -41,15 +41,14 @@ Requisitos previos:<br/>
 * Tener una ISO arrancable
 * Un servidor CIFS de Windows o almacenamiento NAS para almacenar la ISO arrancable
 * Que la ISO esté cargada en el almacenamiento de archivos (NAS) asociado con el servidor.
-* Que IPMIView esté instalado, o acceder a la consola de KVM <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* Que IPMIView esté instalado, o acceder a la consola de KVM
 * Que el archivo ISO se pueda descargar con wget
 * Tener acceso de SSH con privilegios para acceder o instalar paquetes y crear un montaje
 
 
 ### Linux y Windows
 Siga estos pasos para montar una ISO con IPMIView.
-1. Mediante una incidencia de soporte, solicite que el servidor arranque el CD-ROM virtual como primer dispositivo. Cada dispositivo se debe arrancar desde su CD-ROM virtual asociado. Puede revertir este valor después de instalar el SO. 
+1. Mediante una incidencia de soporte, solicite que el servidor arranque el CD-ROM virtual como primer dispositivo. Cada dispositivo se debe arrancar desde su CD-ROM virtual asociado. Puede revertir este valor después de instalar el SO.
 * Establezca una conexión VPN a [VPN](http://www.softlayer.com/VPN-Access). Si utiliza Microsoft Internet Explorer, asegúrese de incluir .softlayer.com en la lista de sitios de confianza y tener JAVA actualizado.
 * Copie el soporte ISO en el NAS o en el servidor CIFS de Windows.
   * Conéctese a la jumpbox de Linux mediante SSH.
@@ -69,14 +68,11 @@ Siga estos pasos para montar una ISO con IPMIView.
         wget http://www.linktoyouriso.com/isofilename.iso
   Verá una confirmación de que la descarga se ha realizado correctamente.
 * Descargue IPMIView aquí:
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Conéctese al servidor mediante la IP de gestión.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Abra el separador Virtual Media
 * Indique los detalles de conexión de la imagen de CD-ROM.
   *
-    * Share host = la dirección IP del almacenamiento NAS. Puede obtener este valor haciendo ping en el nombre de servidor de almacenamiento NAS. Por ejemplo, 
+    * Share host = la dirección IP del almacenamiento NAS. Puede obtener este valor haciendo ping en el nombre de servidor de almacenamiento NAS. Por ejemplo,
     ```
     ping nas501.service.softlayer.com
     ```
@@ -105,7 +101,7 @@ Si no tiene permiso para cambiar el BIOS de un servidor, abra una incidencia de 
 1. Inicie sesión en la consola de gestión de IPMI apuntando su navegador web a la dirección IP especificada en control.softlayer.com.
 * Pulse Dispositivos > su servidor (detalles del dispositivo) > Gestión remota. Especifique el nombre de usuario y la contraseña.
 * Pulse Configuration > Remote session y cambie la modalidad de Attach a **attach**. En algunas consolas anteriores de IPMI, esta opción no está disponible, así que puede saltarse este paso.
-* Pulse System > System information para volver a la página de información del sistema. Verá un icono de ventana de consola. 
+* Pulse System > System information para volver a la página de información del sistema. Verá un icono de ventana de consola.
 * Pulse el icono de la consola para abrir la consola. Acepte todas las advertencias de seguridad.
 * Cuando la consola esté conectada, verá la solicitud de inicio de sesión.
 * Pulse Virtual Media > Virtual Storage

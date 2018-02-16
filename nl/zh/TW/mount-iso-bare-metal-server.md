@@ -68,10 +68,7 @@ lastupdated: "2017-12-14"
         wget http://www.linktoyouriso.com/isofilename.iso
   您會看到下載成功的確認。
 * 在這裡下載「IPMI 視圖」：
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 透過「管理 IP」連接至「伺服器」。
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 開啟「虛擬媒體」標籤
 * 完成「CD-ROM 映像檔」連線詳細資料。
   *

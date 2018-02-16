@@ -15,7 +15,7 @@ lastupdated: "2017-08-29"
 
 不管计算机是具有 Adaptec 控制器还是 LSI 控制器，您都需要使用 IPMI 来访问服务器，以便与 RAID BIOS 进行交互。为了与 IPMI 交互，您首先需要连接到 Adaptec {{site.data.keyword.IBM&reg; Cloud}} VPN。
 1. 通过 [SSL](/infrastructure/vpn/ssl-vpn-connections.html) 或 PPTP 登录到 VPN。请参阅 [VPN 主题页面](/infrastructure/vpn/index.html)。
-* 访问[客户门户网站](https://control.softlayer.com/)中的“设备列表”。请参阅[访问设备列表](/vsi/vsi_managing.html)。
+* 访问[客户门户网站](https://control.softlayer.com/)中的“设备列表”。请参阅[访问设备列表](../vsi/vsi_managing.html)。
 * 单击要访问的设备。
 * 选择“远程管理”选项卡以查找服务器 IPMI 访问详细信息。
 * 向浏览器提交 IPMI 设备的 IP 并登录。

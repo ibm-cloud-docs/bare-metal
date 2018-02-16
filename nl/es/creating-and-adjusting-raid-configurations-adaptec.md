@@ -15,7 +15,7 @@ El Bios de RAID de Adaptec permite configurar y gestionar la instalación de RAI
 
 Independientemente de si la máquina tiene un controlador Adaptec o un controlador LSI, deberá acceder al servidor utilizando IPMI para interactuar con el Bios de RAID. Para interactuar con IPMI, primero debe conectarse a la VPN de {{site.data.keyword.IBM&reg; Cloud}} de Adaptec.
 1. Inicie sesión en la VPN mediante [SSL](/infrastructure/vpn/ssl-vpn-connections.html) o PPTP. Consulte la [página sobre el tema VPN](/infrastructure/vpn/index.html).
-* Acceda a la lista de dispositivos en el [Portal del cliente](https://control.softlayer.com/). Consulte [Acceder a la lista de dispositivos](/vsi/vsi_managing.html).
+* Acceda a la lista de dispositivos en el [Portal del cliente](https://control.softlayer.com/). Consulte [Acceder a la lista de dispositivos](../vsi/vsi_managing.html).
 * Pulse el dispositivo al que desea acceder.
 * Seleccione el separador Gestión remota para buscar los detalles de acceso de IPMI de los servidores.
 * Coloque la IP del dispositivo IPMI en el navegador e inicie sesión.

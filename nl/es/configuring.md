@@ -44,7 +44,7 @@ Todos los {{site.data.keyword.baremetal_short}} se pueden actualizar para inclui
 
 Después de seleccionar el centro de datos, el servidor y la opción de facturación (mensual o por hora), debe decidir cómo configurar el servidor. Algunos campos (servidor, RAM, unidad de procesamiento de gráficos y unidad de procesamiento de gráficos secundaria) de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** tendrán un valor predeterminado en función de la selección de servidor. La tabla siguiente describe los campos en los que puede definir un valor.
 
-| **Campo** | **Descripción** | 
+| **Campo** | **Descripción** |
 |-------------------|---------------|
 |Sistema operativo |Seleccione entre CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu u Otro. |
 |Unidades de disco duro |La herramienta de configuración de disco le permite configurar los discos duros rellenando los campos en función de la selección de sistema operativo. |
@@ -56,14 +56,14 @@ Después de seleccionar el centro de datos, el servidor y la opción de facturac
 |Cortafuegos de software y hardware, Protección antivirus y anti spyware y Protección y detección de intrusos |Seleccione las opciones apropiadas si el servidor tendrá contacto con Internet. Se recomienda encarecidamente que su departamento de seguridad corporativa se ponga de acuerdo con el soporte de {{site.data.keyword.cloud_notm}} para comentar los detalles de estas opciones. |
 |Evault |Una herramienta de copia de seguridad basada en agente que se puede instalar en el servidor para replicar copias de seguridad entre servidores. |
 
-Consulte la herramienta [Design Decision Tool](http://knowledgelayer.softlayer.com/learning/softlayer-design-decision-tool) o el soporte de {{site.data.keyword.cloud_notm}} para obtener más información.
+Consulte el soporte de {{site.data.keyword.cloud_notm}} para obtener más información.
 
 
 ## Configuración avanzada del sistema
 
 La configuración avanzada del sistema se realiza después de pulsar el botón **Añadir a pedido** y ser redirigido a la página de pago. La tabla siguiente describe los campos de configuración avanzada del sistema.
 
-| **Campo** | **Descripción** | 
+| **Campo** | **Descripción** |
 |-------------------|---------------|
 |Nombre de host |Un nombre permanente o temporal para el servidor, por ejemplo, _server1_. |
 |Dominio |Nombre del subdominio, que no debería estar en conflicto con un nombre de dominio de Internet, por ejemplo, _test.acme.com_. |

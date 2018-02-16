@@ -68,10 +68,7 @@ Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhänge
         wget http://www.linktoyouriso.com/isofilename.iso
   Es wird eine Bestätigung angezeigt, dass der Download erfolgreich war.
 * Laden Sie IPMIview hier herunter:
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Stellen Sie über die Management-IP eine Verbindung zum Server her.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Öffnen Sie die Registerkarte für den virtuellen Datenträger.
 * Vervollständigen Sie die Verbindungsdetails für das CD-ROM-Image.
   *

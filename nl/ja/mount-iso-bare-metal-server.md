@@ -41,7 +41,7 @@ CIFS 共有からカスタム OS をインストールするには、以下の�
 * ブート可能 ISO がある
 * ブート可能 ISO を保管するための Windows CIFS サーバーまたは NAS ストレージがある
 * サーバーに関連付けられているファイル・ストレージ (NAS) に ISO がアップロードされている
-* IPMIView がインストールされているか、KVM コンソールにアクセスできる 
+* IPMIView がインストールされているか、KVM コンソールにアクセスできる
 * wget を使用して ISO ファイルをダウンロードできる
 * SSH にアクセスでき、パッケージにアクセスしてインストールするための特権およびマウントを作成するための特権がある
 
@@ -68,10 +68,7 @@ IPMIView で ISO をマウントするには、以下のステップに従いま
         wget http://www.linktoyouriso.com/isofilename.iso
   ダウンロードが成功したことを示す確認が表示されます。
 * 以下の場所から IPMI View をダウンロードします。
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 管理 IP を介してサーバーに接続します。
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 「仮想メディア (Virtual Media)」タブを開きます。
 * CD-ROM イメージの接続の詳細を入力します。
   *

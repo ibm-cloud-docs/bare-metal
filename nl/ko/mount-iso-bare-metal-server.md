@@ -68,10 +68,7 @@ lastupdated: "2017-12-14"
         wget http://www.linktoyouriso.com/isofilename.iso
   다운로드를 완료했음을 나타내는 확인 메시지가 표시됩니다.
 * 여기에 IPMI 보기 다운로드:
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 관리 IP를 통해 서버에 연결하십시오.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 가상 미디어 탭을 여십시오.
 * CD-ROM 이미지 연결 세부사항을 완료하십시오.
   *

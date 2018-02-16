@@ -74,8 +74,8 @@ Para suministrar el dispositivo de {{site.data.keyword.baremetal_short}} mediant
 1.  En el {{site.data.keyword.slportal}}, localice la sección **Pedido** y pulse **Dispositivos**.
 2.  En la página Dispositivos, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
 3.  Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor. 
-4.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
-5.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
+4.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
+5.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
 6.  Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.
 7.  Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
 
@@ -90,8 +90,8 @@ También puede suministrar el dispositivo de {{site.data.keyword.baremetal_short
 2. Pulse el enlace **Pedir dispositivos** en la esquina superior derecha.
 3. En la página Pedir servicios y productos de SoftLayer, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
 4. Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor. 
-5.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
-6.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
+5.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
+6.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
 7. Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.
 8. Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
 

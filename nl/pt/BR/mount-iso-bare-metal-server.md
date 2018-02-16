@@ -68,10 +68,7 @@ Siga as etapas abaixo para montar um ISO com IPMIView.
         wget http://www.linktoyouriso.com/isofilename.iso
   Você verá uma confirmação de que o download foi bem-sucedido.
 * Faça download da Visualização do IPMI aqui:
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Conecte-se ao Servidor sobre o IP de Gerenciamento.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Abra a guia de Mídia virtual
 * Conclua os detalhes da conexão da imagem de CD-ROM.
   *

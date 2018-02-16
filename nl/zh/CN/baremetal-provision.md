@@ -74,8 +74,8 @@ lastupdated: "2017-11-29"
 1.  在 {{site.data.keyword.slportal}}中，找到**订购**部分，然后单击**设备**。
 2.  在“设备”页面上的 {{site.data.keyword.baremetal_short}} 下，单击**每小时**或**每月**。
 3.  选择**数据中心**，滚动浏览页面，然后单击**起步价（单位）**链接以选择服务器。 
-4.  填写**配置 {{site.data.keyword.baremetal_short}}** 页面上的信息，然后单击**添加到订单**按钮以继续。有关如何配置服务器的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。验证订单后，会将您重定向到**结帐**页面。
-5.  输入服务器的**高级系统配置**。有关如何设置高级系统配置的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。
+4.  填写**配置 {{site.data.keyword.baremetal_short}}** 页面上的信息，然后单击**添加到订单**按钮以继续。有关如何配置服务器的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。验证订单后，会将您重定向到**结帐**页面。
+5.  输入服务器的**高级系统配置**。有关如何设置高级系统配置的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
 6.  单击**云服务条款**和**第三方服务协议**复选框。
 7.  确认或输入付款信息，然后单击**提交订单**按钮。这会将您重定向到具有供应订单号的屏幕。您可以打印屏幕内容，因为这也是您的供应订单收据。
 
@@ -90,8 +90,8 @@ lastupdated: "2017-11-29"
 2. 单击右上角的**订购设备**链接。
 3. 在“订购 SoftLayer 产品和服务”页面上的 {{site.data.keyword.baremetal_short}} 下，单击**每小时**或**每月**。
 4. 选择**数据中心**，滚动浏览页面，然后单击**起步价（单位）**链接以选择服务器。 
-5.  填写**配置 {{site.data.keyword.baremetal_short}}** 页面上的信息，然后单击**添加到订单**按钮以继续。有关如何配置服务器的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。验证订单后，会将您重定向到**结帐**页面。
-6.  输入服务器的**高级系统配置**。有关如何设置高级系统配置的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md)。
+5.  填写**配置 {{site.data.keyword.baremetal_short}}** 页面上的信息，然后单击**添加到订单**按钮以继续。有关如何配置服务器的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。验证订单后，会将您重定向到**结帐**页面。
+6.  输入服务器的**高级系统配置**。有关如何设置高级系统配置的更多信息，请参阅[配置 {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md)。
 7. 单击**云服务条款**和**第三方服务协议**复选框。
 8. 确认或输入付款信息，然后单击**提交订单**按钮。这会将您重定向到具有供应订单号的屏幕。您可以打印屏幕内容，因为这也是您的供应订单收据。
 

@@ -44,7 +44,7 @@ Qualquer um dos {{site.data.keyword.baremetal_short}} pode ser submetido a upgra
 
 Depois de selecionar o data center, servidor e opção de faturamento (mensal ou por hora), você precisa decidir como configurar o servidor. Alguns campos (Servidor, RAM, Unidade de Processamento de Gráfico e Unidade de Processamento de Gráfico Secundário) na página **Configurar {{site.data.keyword.baremetal_short}}** serão padrão com base em sua seleção do servidor. A tabela a seguir descreve os campos para os quais é possível definir um valor.
 
-| **Campo** | **Descrição** | 
+| **Campo** | **Descrição** |
 |-------------------|---------------|
 |Sistema operacional |Selecione entre CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu ou Outro. |
 |Discos rígidos |A ferramenta Disk Configuration ajuda a configurar seus discos rígidos preenchendo os campos com base em sua seleção do S.O. |
@@ -56,14 +56,14 @@ Depois de selecionar o data center, servidor e opção de faturamento (mensal ou
 |Firewalls de & hardware e software, &  antivírus e proteção contra spyware, intrusão e detecção & e proteção |Selecione as opções apropriadas se o servidor será voltado para a Internet. É altamente recomendado alinhar seu departamento de segurança corporativa com o Suporte do {{site.data.keyword.cloud_notm}} para discutir os detalhes dessas opções. |
 |Evault |Uma ferramenta de backup baseado em agente que pode ser instalada em seu servidor para replicar backups entre servidores. |
 
-Consulte o [Design Decision Tool](http://knowledgelayer.softlayer.com/learning/softlayer-design-decision-tool) ou o Suporte do {{site.data.keyword.cloud_notm}} para obter informações adicionais.
+Consulte o Suporte do {{site.data.keyword.cloud_notm}} para obter informações adicionais.
 
 
 ## Configuração do sistema avançado
 
 A configuração do sistema avançado é feita depois que você clica no botão **Incluir na ordem** e é redirecionado para a página Check-out. A tabela a seguir descreve os campos sob Configuração do sistema avançado.
 
-| **Campo** | **Descrição** | 
+| **Campo** | **Descrição** |
 |-------------------|---------------|
 |Nome do host |Um nome permanente ou provisório para seu servidor, por exemplo, _server1_. |
 |Domínio |O nome de subdomínio que não deve ser conflitante com um nome do domínio da Internet, por exemplo, _test.acme.com_. |

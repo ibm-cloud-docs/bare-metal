@@ -15,7 +15,7 @@ Adaptec RAID BIOS により、RAID セットアップを構成および管理で
 
 マシンに Adaptec コントローラーが搭載されているのか LSI コントローラーが搭載されているのかに関係なく、RAID BIOS と対話するために IPMI を使用してサーバーにアクセスする必要があります。IPMI と対話するには、まず、Adaptec {{site.data.keyword.IBM&reg; Cloud}} VPN に接続する必要があります。
 1. [SSL](/infrastructure/vpn/ssl-vpn-connections.html) または PPTP のいずれかを介して VPN にログインします。[VPN トピック・ページ](/infrastructure/vpn/index.html)を参照してください。
-* [カスタマー・ポータル](https://control.softlayer.com/)の「デバイス・リスト」にアクセスします。[デバイス・リストへのアクセス](/vsi/vsi_managing.html)を参照してください。
+* [カスタマー・ポータル](https://control.softlayer.com/)の「デバイス・リスト」にアクセスします。[デバイス・リストへのアクセス](../vsi/vsi_managing.html)を参照してください。
 * アクセスするデバイスをクリックします。
 * 「リモート管理」タブを選択して、サーバーの IPMI アクセス詳細を確認します。
 * IPMI デバイスの IP をブラウザーに入力してログインします。
@@ -51,7 +51,7 @@ RAID の構成を開始するには、「Logical Device Configuration」(最初�
   * RAID0 (2 個の SSD ドライブ) - /home
   * RAID10 (4 個の SATA ドライブ) - /backup
 
-* 単一の RAID アレイを使用して、複数の論理パーティションをセットアップします。例えば、RAID1 でセットアップされた 2 個の 4TB ドライブを使用します。ニーズに合わせて、RAID をパーティションで区切ることができます。例: 
+* 単一の RAID アレイを使用して、複数の論理パーティションをセットアップします。例えば、RAID1 でセットアップされた 2 個の 4TB ドライブを使用します。ニーズに合わせて、RAID をパーティションで区切ることができます。例:
   * オペレーティング・システム用の 100GB の 1 次パーティション
   * データ用の 500GB の 2 次パーティション
   * バックアップ用の残りのスペースの 3 次パーティション

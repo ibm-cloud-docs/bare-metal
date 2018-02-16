@@ -46,7 +46,7 @@ Any {{site.data.keyword.baremetal_short}} can be upgraded to include unmetered (
 
 After you select your datacenter, server, and billing option (monthly or hourly), you need to decide how to configure your server. Some fields (Server, RAM, Graphics Processing Unit, and Secondary Graphics Processing Unit) on the **Configure your {{site.data.keyword.baremetal_short}}** page will default based on your server selection. The following table describes the fields for which you can define a value.
 
-| **Field** | **Description** | 
+| **Field** | **Description** |
 |-------------------|---------------|
 |Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu, or Other. **Note** SAP servers only use the Red Hat (SAP NetWeaver or HANA) or Microsoft Windows (SAP NetWeaver) operating systems. |
 |Hard Drives |The Disk Configuration tool helps you set up your hard disks by prefilling the fields based on your OS selection. |
@@ -58,14 +58,14 @@ After you select your datacenter, server, and billing option (monthly or hourly)
 |Hardware & Software Firewalls, Anti-Virus & Spyware Protection, and Intrusion and Detection & Protection |Select the appropriate options if the server will be Internet facing. It is strongly recommended to align your corporate secruity department with {{site.data.keyword.cloud_notm}} Support to discuss the details of these options. |
 |Evault |An agent-based backup tool that can be installed on your server to replicate backups between servers. |
 
-Consult the [Design Decision Tool](http://knowledgelayer.softlayer.com/learning/softlayer-design-decision-tool) or {{site.data.keyword.cloud_notm}} Support for further information.
+Consult {{site.data.keyword.cloud_notm}} Support for further information.
 
 
 ## Advanced System Configuration
 
 Advanced system configuration is done after you click the **Add to Order** button and you're redirected to the Checkout page. The following table describes the fields under Advanced System Configuration.
 
-| **Field** | **Description** | 
+| **Field** | **Description** |
 |-------------------|---------------|
 |Hostname |A permanent or temporary name for your server, for example, _server1_. |
 |Domain |Sub-domain name that should not collide with an Internet domain name, for example, _test.acme.com_. |

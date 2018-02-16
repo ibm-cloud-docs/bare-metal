@@ -74,8 +74,8 @@ Pour mettre à disposition votre serveur {{site.data.keyword.baremetal_short}} �
 1.  Dans le portail {{site.data.keyword.slportal}}, recherchez la section **Commande**, puis cliquez sur **Equipements**.
 2.  Sur cette page, cliquez sur **Horaire** ou **Mensuel** sous {{site.data.keyword.baremetal_short}}.
 3.  Sélectionnez votre **centre de données**, faites défiler la page, puis cliquez sur le lien **Prix de départ** afin de choisir votre serveur.  
-4.  Renseignez la page **Configurez votre {{site.data.keyword.baremetal_short}}**, puis cliquez sur le bouton **Ajouter à la commande** pour continuer. Pour plus d'informations sur la procédure de configuration de votre serveur, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md). Une fois votre commande vérifiée, vous serez redirigé vers la page de **paiement**. 
-5.  Renseignez la zone **Configuration système avancé** pour le serveur. Pour plus d'informations sur la procédure de configuration, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md). 
+4.  Renseignez la page **Configurez votre {{site.data.keyword.baremetal_short}}**, puis cliquez sur le bouton **Ajouter à la commande** pour continuer. Pour plus d'informations sur la procédure de configuration de votre serveur, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md). Une fois votre commande vérifiée, vous serez redirigé vers la page de **paiement**. 
+5.  Renseignez la zone **Configuration système avancé** pour le serveur. Pour plus d'informations sur la procédure de configuration, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md). 
 6.  Cochez les cases **Conditions des services Cloud** et **Contrat de service tiers**. 
 7.  Confirmez ou entrez vos informations de paiement puis cliquez sur le bouton **Soumettre commande**. Un écran incluant votre numéro de commande de mise à disposition s'affiche. Vous pouvez imprimer cette page car il s'agit de votre reçu de commande de mise à disposition.
 
@@ -90,8 +90,8 @@ Vous pouvez également mettre à disposition votre serveur {{site.data.keyword.b
 2. Cliquez sur le lien **Commander unités** dans le coin supérieur droit.
 3. Sur la page Commander les produits et services de SoftLayer, cliquez sur **Horaire** ou **Mensuel** sous {{site.data.keyword.baremetal_short}}.
 4. Sélectionnez votre **centre de données**, faites défiler la page, puis cliquez sur le lien **Prix de départ** afin de choisir votre serveur.  
-5.  Renseignez la page **Configurez votre {{site.data.keyword.baremetal_short}}**, puis cliquez sur le bouton **Ajouter à la commande** pour continuer. Pour plus d'informations sur la procédure de configuration de votre serveur, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md). Une fois votre commande vérifiée, vous serez redirigé vers la page de **paiement**. 
-6.  Renseignez la zone **Configuration système avancé** pour le serveur. Pour plus d'informations sur la procédure de configuration, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](.../bare-metal/configuring.md). 
+5.  Renseignez la page **Configurez votre {{site.data.keyword.baremetal_short}}**, puis cliquez sur le bouton **Ajouter à la commande** pour continuer. Pour plus d'informations sur la procédure de configuration de votre serveur, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md). Une fois votre commande vérifiée, vous serez redirigé vers la page de **paiement**. 
+6.  Renseignez la zone **Configuration système avancé** pour le serveur. Pour plus d'informations sur la procédure de configuration, voir [Configuration de votre serveur {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md). 
 7. Cochez les cases **Conditions des services Cloud** et **Contrat de service tiers**. 
 8. Confirmez ou entrez vos informations de paiement puis cliquez sur le bouton **Soumettre commande**. Un écran incluant votre numéro de commande de mise à disposition s'affiche. Vous pouvez imprimer cette page car il s'agit de votre reçu de commande de mise à disposition.
 
