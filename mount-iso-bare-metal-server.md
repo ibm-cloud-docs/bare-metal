@@ -41,15 +41,14 @@ Prerequisites:<br/>
 * You have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the Bootable ISO
 * The ISO is uploaded to the File Storage (NAS) associated with the server.
-* IPMIView is installed or access KVM Console <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView is installed or access KVM Console
 * ISO File is downloadable using wget
 * You have SSH access with privileges to access / install packages and create a mount
 
 
 ### Linux and Windows
 Follow the steps below to mount an ISO with IPMIView.
-1. Through a support ticket, request that your server boots their Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS. 
+1. Through a support ticket, request that your server boots their Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
 * Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include .softlayer.com in your Trusted Sites list and keep your JAVA up to date.
 * Copy ISO Media to NAS or Windows CIFS Server.
   * Connect to your Linux jumpbox using SSH.
@@ -68,20 +67,16 @@ Follow the steps below to mount an ISO with IPMIView.
   * Download the iso file using wget.
         wget http://www.linktoyouriso.com/isofilename.iso
   You will see a confirmation that the download was successful.
-* Download IPMI View here: 
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Connect to Server over the Management IP.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Open the Virtual Media Tab
 * Complete the CD-ROM Image connection details.
   *
-    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example, 
+    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example,
     ```
     ping nas501.service.softlayer.com
     ```
     * Share Name = The Username of the NAS storage
-    * Path to image = The name of the ISO file, in the following format: 
+    * Path to image = The name of the ISO file, in the following format:
           \NASusername\isoname.iso (i.e. \SLN123456\centos6.iso)
     * User = The user name of the NAS storage
     * Password = The Password for the NAS storage
@@ -105,7 +100,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 1. Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com.
 * Click Devices > your server (device details) > Remote Mgmt. Specify the username and password.
 * Click Configuration > Remote session and change attach mode to **attach**. In some older IPMI consoles this option is not available so you can skip this step.
-* Click System > System information to return to the system information page.You will see a console window icon. 
+* Click System > System information to return to the system information page.You will see a console window icon.
 * Click the console icon to open the console. Accept all security warnings.
 * When the console is connected you will see login prompt.
 * Click Virtual Media > Virtual Storage
