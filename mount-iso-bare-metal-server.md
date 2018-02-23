@@ -45,7 +45,6 @@ Prerequisites:<br/>
 * ISO File is downloadable using wget
 * You have SSH access with privileges to access / install packages and create a mount
 
-
 ### Linux and Windows
 Follow the steps below to mount an ISO with IPMIView.
 1. Through a support ticket, request that your server boots their Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
