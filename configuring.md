@@ -26,6 +26,8 @@ After determining how your {{site.data.keyword.baremetal_short}} is to be used, 
 
 {{site.data.keyword.cloud_notm}} offers seven fast-provision servers to make sure that you have the performance that you need for your workload. These servers are currently available in the United Kingdom and US South regions.
 
+For information on servers for SAP NetWeaver or SAP Hana, see [SAP Netweaver on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-about.html) and [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-about.html).
+
 | **Configuration** | **Processor** | **Memory** | **Hard drive** | **Port speed** |
 |-------------------|---------------|------------|----------------|----------------|
 | Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
@@ -46,7 +48,7 @@ After you select your datacenter, server, and billing option (monthly or hourly)
 
 | **Field** | **Description** | 
 |-------------------|---------------|
-|Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu, or Other. |
+|Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu, or Other. **Note** SAP servers only use the Red Hat (SAP NetWeaver or HANA) or Microsoft Windows (SAP NetWeaver) operating systems. |
 |Hard Drives |The Disk Configuration tool helps you set up your hard disks by prefilling the fields based on your OS selection. |
 |Public Bandwidth |Determines the amount of data that can be transferred through the publick interface during a month. For test environments, which need installation data transferred through this interface, values need to be adapted beyond the amount of data initially transferred. You may want to consider the [{{site.data.keyword.cloud_notm}} Content Delivery Network](https://www.ibm.com/cloud/cdn) to ship an initial data load to one of the {{site.data.keyword.cloud_notm}} datacenters. |
 |Uplink Port Speeds |Determines the speed of internal and external interfaces. |
