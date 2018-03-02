@@ -34,6 +34,7 @@ IBM Cloud bare metal servers
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
+        baremetal-provision-popular.md
         baremetal-provision.md
         bm_provision_ssd.md
 
@@ -50,6 +51,7 @@ IBM Cloud bare metal servers
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        managing_port_control.md
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
@@ -58,6 +60,7 @@ IBM Cloud bare metal servers
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    get-help-and-support.md
     faq.md
     [FAQs: Servers (general)](../vsi/faq_servers_general.html)
     [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
