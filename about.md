@@ -19,4 +19,4 @@ lastupdated: "2016-01-19"
 
 When creating a {{site.data.keyword.baremetal_short}}, you can select from a list of the most commonly ordered servers or use the advanced server provisioning to create a custom server.
 
-Refer to [Provisioning bare metal servers](../bare-metal/baremetal-provisioning-popular.html) to start the provisioning procedure.
+Refer to [Provisioning bare metal servers](../bare-metal/baremetal-provision-popular.html) to start the provisioning procedure.
