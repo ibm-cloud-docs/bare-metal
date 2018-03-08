@@ -29,11 +29,10 @@ For more information about Intel® Optane™ SSD DC P4800X, see https://www.inte
 
 You can either order an Intel® Optane™ SSD DC P4800X disk OR a GPU for your server. You cannot order both on the same server.
 
-## Logging in and navigating to the advanced order form
+## Logging in and navigating to customer support portal
 Make sure that you are logged in, either through {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}}:
 
-  <table>
-   <CAPTION>Table 1. Choose a log in location</CAPTION>
+  <table>customer support portal 1. Choose a log in location</CAPTION>
    <THEAD>
    <TR>
    <th>If you want to order with the...</th>
@@ -52,7 +51,6 @@ Make sure that you are logged in, either through {{site.data.keyword.cloud_notm}
    <li>Select <b>Infrastructure</b> <b>Compute</b>.</li>
    <li>Click the <b>{{site.data.keyword.baremetal_short}}</b> tile.</li>
    <li>Click <b>Create</b>. The main page of the {{site.data.keyword.slportal}} opens.</li>
-   <li>In the Order section, click <b>Devices</b>. The main page of the {{site.data.keyword.slportal}} opens.</li>
    </ol>
    </td>
    </tr>
