@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-03-07"
 
 
 ---
@@ -19,4 +19,6 @@ lastupdated: "2016-01-19"
 
 When creating a {{site.data.keyword.baremetal_short}}, you can select from a list of the most commonly ordered servers or use the advanced server provisioning for to create a custom server.
 
-Refer to [Provisioning bare metal servers](../bare-metal/baremetal-provisioning-popular.html) to start the provisioning procedure.
+Refer to the following topics to start the provisioning procedure:
+* [Understanding your bare metal options](../bare-metal/configuring.html)
+* [Provisioning bare metal servers](../bare-metal/baremetal-provisioning-popular.html)

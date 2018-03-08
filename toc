@@ -34,17 +34,17 @@ IBM Cloud bare metal servers
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
+        configuring.md
         baremetal-provision-popular.md
         baremetal-provision.md
         bm_provision_ssd.md
 
     {: .topicgroup}
     Configuring
-        configuring.md
+        set-bare-metal-server-2.md
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-        set-bare-metal-server.md
 
     {: .topicgroup}
     Managing

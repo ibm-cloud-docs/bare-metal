@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-05"
+  years: 2017, 2018
+lastupdated: "2018-02-06"
 
 
 ---
@@ -12,11 +12,12 @@ lastupdated: "2017-12-05"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Configuring your bare metal server
+# Understanding your bare metal provisioning options
 
-It's a good idea to take the time and make your configuration decisions ahead of provisioning your {{site.data.keyword.baremetal_long}}. It makes the provisioning process go faster and smoother. {:shortdesc}
+It's a good idea to take the time and make your configuration decisions before provisioning your {{site.data.keyword.baremetal_long}}. It makes the provisioning process go faster and smoother.
+{:shortdesc}
 
-## Determining the server's use and sizing it
+## Determining the server's use and size
 
 Your first task is to determine how you're going to use your {{site.data.keyword.baremetal_short}}. For example, do you intend to use it for dev/test or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed?
 
@@ -25,8 +26,6 @@ After determining how your {{site.data.keyword.baremetal_short}} is to be used, 
 ## Selecting your server
 
 {{site.data.keyword.cloud_notm}} offers seven fast-provision servers to make sure that you have the performance that you need for your workload. These servers are currently available in the United Kingdom and US South regions.
-
-For information on servers for SAP NetWeaver or SAP Hana, see [SAP Netweaver on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-about.html) and [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-about.html).
 
 | **Configuration** | **Processor** | **Memory** | **Hard drive** | **Port speed** |
 |-------------------|---------------|------------|----------------|----------------|
@@ -42,15 +41,15 @@ In addition to the seven fast-provision servers, {{site.data.keyword.cloud_notm}
 
 Any {{site.data.keyword.baremetal_short}} can be upgraded to include unmetered (unlimited) bandwidth. All unmetered devices are on private, dedicated ports.
 
-## Setting up your bare metal servers
+## Configuration options for your server
 
 After you select your datacenter, server, and billing option (monthly or hourly), you need to decide how to configure your server. Some fields (Server, RAM, Graphics Processing Unit, and Secondary Graphics Processing Unit) on the **Configure your {{site.data.keyword.baremetal_short}}** page will default based on your server selection. The following table describes the fields for which you can define a value.
 
 | **Field** | **Description** |
 |-------------------|---------------|
-|Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu, or Other. **Note** SAP servers only use the Red Hat (SAP NetWeaver or HANA) or Microsoft Windows (SAP NetWeaver) operating systems. |
+|Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Unbuntu, or Other. |
 |Hard Drives |The Disk Configuration tool helps you set up your hard disks by prefilling the fields based on your OS selection. |
-|Public Bandwidth |Determines the amount of data that can be transferred through the publick interface during a month. For test environments, which need installation data transferred through this interface, values need to be adapted beyond the amount of data initially transferred. You may want to consider the [{{site.data.keyword.cloud_notm}} Content Delivery Network](https://www.ibm.com/cloud/cdn) to ship an initial data load to one of the {{site.data.keyword.cloud_notm}} datacenters. |
+|Public Bandwidth |Determines the amount of data that can be transferred through the public interface during a month. For test environments, which need installation data transferred through this interface, values need to be adapted beyond the amount of data initially transferred. You may want to consider the [{{site.data.keyword.cloud_notm}} Content Delivery Network](https://www.ibm.com/cloud/cdn) to ship an initial data load to one of the {{site.data.keyword.cloud_notm}} datacenters. |
 |Uplink Port Speeds |Determines the speed of internal and external interfaces. |
 |Public Secondary IP Addresses |Assigns an additional IP address to your server. Depending on your scenario, you may require further IP addresses assigned to your server. Additional IPv4 addresses are available in quantities of 1, 2, 4, 8, 16, or 32. |
 |Primary IPv6 Addresses |Assigned to your server's internal, as well as on external, interfaces. |
@@ -59,6 +58,8 @@ After you select your datacenter, server, and billing option (monthly or hourly)
 |Evault |An agent-based backup tool that can be installed on your server to replicate backups between servers. |
 
 Consult {{site.data.keyword.cloud_notm}} Support for further information.
+
+**NOTE:** You can order secondary subnets with your compute devices. However, if you do this, the secondary subnets are reclaimed when the compute device is reclaimed. If you order the secondary subnet independently (not as an add-on option of a compute order), you can retain the subnet until you cancel it explicitly. This distinction is important to remember, so that you do not inadvertently lose some IP addresses if a compute device is reclaimed.
 
 
 ## Advanced System Configuration

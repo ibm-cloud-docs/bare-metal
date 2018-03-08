@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-02"
+lastupdated: "2018-03-06"
 
 
 ---
@@ -19,66 +19,73 @@ lastupdated: "2018-03-02"
 
 # Advanced bare metal server provisioning
 {: #ordering-baremetal-server}
-After you log in, you can provision a {{site.data.keyword.baremetal_short}}.
+Use this procedure to customize your {{site.data.keyword.baremetal_short}}.
 
+## Logging in and navigating to the advanced order form
+Make sure that you are logged in, either through {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}}:
+
+  <table>
+   <CAPTION>Table 1. Choose a log in location</CAPTION>
+   <THEAD>
+   <TR>
+   <th>If you want to order with the...</th>
+   <th>Then...</th>
+   </TR>
+   </THEAD>
+   <TBODY>
+   <tr>
+   <td>IBM Cloud catalog</td>
+   <td>
+   <ol>
+   <li>Open a new browser window and enter  <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>.</li>
+   <li>Click the <b>Log in</b> link. </li>
+   <li>Enter your email or IBMid and click <b>Continue.</b></li>
+   <li>Enter your Password and click <b>Log in.</b></li>
+   <li>Select <b>Infrastructure</b> <b>Compute</b>.</li>
+   <li>Click the <b>{{site.data.keyword.baremetal_short}}</b> tile.</li>
+   <li>Click <b>Create</b>. The main page of the {{site.data.keyword.slportal}} opens.</li>
+   <li>In the Order section, click <b>Devices</b>. The main page of the {{site.data.keyword.slportal}} opens.</li>
+   </ol>
+   </td>
+   </tr>
+   <tr>
+   <td>Customer Portal</td>
+   <td>
+   <ol>
+   <li>Open a new browser window and enter <a href="https://control.softlayer.com">https://control.softlayer.com</a>.</li>
+   <li>Type your user name and Password, and click <b>Log In</b>. Or, click <b>Log in with IBMid</b>. Then, enter your email or IBMid and click <b>Continue</b>. Enter your password and click <b>Log In</b>. The main page of the {{site.data.keyword.slportal}} opens.</li>
+   </ol>
+   </td>
+   </tr>
+   </TBODY>
+   </table>
+
+## Provisioning a bare metal server
+Launch the order form and provision your server.
 1.	From the {{site.data.keyword.slportal}}, locate the **Order** section and click **Devices**.
-2.	Enter the following information:
+* On the catalog page, click **Bare Metal Server**.
+* On the **Bare Metal Server** page, click **Create** to launch the order form.
+* Below the **Popular Servers** section, click **Interested in other configuration options?** This opens the advanced bare metal provisioning form.
 
-    <table>
-    <CAPTION>Table 1. Bare metal selections</CAPTION>
-    <THEAD>
-    <TR>
-    <th>Field</th>
-    <th>Value</th>
-    </TR>
-    </THEAD>
-    <TBODY>
-    <tr>
-    <td>Quantity</td>
-    <td>Use the + and - icons to specify the number of identical servers to provision. <br>If you want to provision multiple servers with different specifications, you need to provision them separately.
-    <tr>
-    <td>Location</td>
-    <td>Select the data center where you want the server to be located.</td>
-    </tr>
-    <tr>
-    <td>Select your server specifications</td>
-    <td>Select one of the more common servers for faster provisioning or click <b>All Servers</b> for more options.</td>
-    </tr>
-    <tr>
-    <td>SSH Keys</td>
-    <td>Provide a public key of your SSH key, which enables you to log in to your server after it is provisioned.</td>
-    </tr>
-    <tr>
-    <td>Operating System</td>
-    <td>Select the operating system for the instance. **Note**: an error message is displayed if there is a conflict between the server and operating system. For example, selecting Linux on a Microsoft SQL server.</td>
-    </tr>
-    <tr>
-    <td>Attached storage disk</td>
-    <td>Indicates the type and size of the storage disks attached to the server you selected.</td>
-    </tr>
-    <!-- <tr>
-    <td>Additional Disks</td>
-    <td>You can provision up to four more boot disks, SAN, or Local, per dedicated instance.</td>
-    </tr>-->
-    <td>Network Interface</td>
-    <td> Select the appropriate options or use the default values.</td>
-    </tr>
-    <tr>
-    <td>Add-ons</td>
-    <td> Select the appropriate options or use the default values.</td>
-    </tr>
-    <tr>
-    </TBODY>
-    </table>
+1. Select a data center location for your server.
+* There are three categories of servers:
+  * SAP Certified servers
+  * Single Processor Multi-Core Servers
+  * Dual Processor Multi-Core Servers
 
+  Select your server, by clicking on the **Starting Price Per** link.
+* Select all of your configuration options. **Data Center**, **RAM**, and **Operating System** are required fields. All other fields are optional.
 
-After clicking for additional configuration options from the [bare metal provisioning](../bare-metal/baremetal-provision-popular.html) page, the advanced bare metal ordering form is displayed. Use this procedure to configure and order your server.
+  **Note**: an error message is displayed if there is a conflict between the server and operating system. For example, selecting Linux on a Microsoft SQL server.
+* Click Add to Order. The Checkout page is displayed.
 
-1.  Select your **Data Center**, scroll through the  page, and click on the **Starting Price Per** link to select your server.
-4.  Fill in the information on the **Configure your {{site.data.keyword.baremetal_short}}** page and click the **Add to Order** button to continue. See [Configuring your {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) for more information on how to configure your server. Once your order is verified, you'll be redirected to the **Checkout** page.
-5.  Enter the **Advanced System Configuration** for the server. See [Configuring your {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) for more information on how to set this up.
-6.  Click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
-7.  Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+  From the Checkout page, you can return to the configuration page by clicking one of the Reconfigure options.
+* In the Advanced System Configuration section, specify additional configuration options. See [Understanding your  {{site.data.keyword.baremetal_short}} options](../bare-metal/configuring.html){:target="_blank"} for more information on these options.
+
+*   Click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
+*   Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+
+  You can also save this order without purchasing by clicking **Save as Quote**.
 
  A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 

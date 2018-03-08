@@ -19,10 +19,11 @@ lastupdated: "2018-03-02"
 # Provisioning bare metal servers
 
 ## Before you begin
-You have two options to provision your public {{site.data.keyword.baremetal_long}}. The first is through the {{site.data.keyword.cloud}} catalog and the second is through the {{site.data.keyword.slportal_full}}. The catalog and {{site.data.keyword.slportal}} require unique log-in IDs.
-{:shortdesc}
 
-Before you begin, ensure that you have either your {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}} credentials configured.
+Before you provision a server, review the options and considerations described in [Understanding your bare metal configuration options](../bare-metal/configuring.html)
+
+After reviewing your options, choose one of two ways to provision your your public {{site.data.keyword.baremetal_long}}. One option is through the {{site.data.keyword.cloud}} catalog and the second is through the {{site.data.keyword.slportal_full}}. The catalog and {{site.data.keyword.slportal}} use different log-in IDs, so be sure have you have log in credentials for either the {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}}.
+{:shortdesc}
 
 **Note:** For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order {{site.data.keyword.baremetal_short}}. For more information about upgrading your account, see [Switching to IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
 
@@ -72,7 +73,7 @@ After you log in, you can provision a {{site.data.keyword.baremetal_short}}.
 1.	From the {{site.data.keyword.slportal}}, locate the **Order** section and click **Devices**.
 2. On the catalog page, click **Bare Metal Server**.
 3. On the **Bare Metal Server** page, click **Create** to launch the order form.
-2.	Enter the following information:
+4.	Enter the following information:
 
     <table>
     <CAPTION>Table 1. Bare metal selections</CAPTION>
