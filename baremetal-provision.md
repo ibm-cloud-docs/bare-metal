@@ -21,7 +21,7 @@ lastupdated: "2018-03-06"
 {: #ordering-baremetal-server}
 Use this procedure to customize your {{site.data.keyword.baremetal_short}}.
 
-## Logging in and navigating to the advanced order form
+## Logging in and navigating to the customer support portal
 Make sure that you are logged in, either through {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}}:
 
   <table>
