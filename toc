@@ -7,6 +7,7 @@ IBM Cloud bare metal servers
     {: .navgroup id="learn"}
     about.md
     index.md
+    configuring.md
 
     {: .topicgroup}
     RAID
@@ -34,7 +35,6 @@ IBM Cloud bare metal servers
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
-        configuring.md
         baremetal-provision-popular.md
         baremetal-provision.md
         bm_provision_ssd.md

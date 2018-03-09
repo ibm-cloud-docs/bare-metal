@@ -12,7 +12,7 @@ lastupdated: "2018-02-06"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Understanding your bare metal provisioning options
+# Provisioning options
 
 It's a good idea to take the time and make your configuration decisions before provisioning your {{site.data.keyword.baremetal_long}}. It makes the provisioning process go faster and smoother.
 {:shortdesc}
@@ -25,19 +25,27 @@ After determining how your {{site.data.keyword.baremetal_short}} is to be used, 
 
 ## Selecting your server
 
-{{site.data.keyword.cloud_notm}} offers seven fast-provision servers to make sure that you have the performance that you need for your workload. These servers are currently available in the United Kingdom and US South regions.
+{{site.data.keyword.cloud_notm}} offers our most popular servers as fast-provision servers to make sure that you have the performance that you need for your workload. These servers are currently available in the United Kingdom and US South regions.
 
 | **Configuration** | **Processor** | **Memory** | **Hard drive** | **Port speed** |
-|-------------------|---------------|------------|----------------|----------------|
-| Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
-|Intel Xeon E5-2620 v3 |Dual Intel Xeon E5-2620 v3 (6 cores, 2.40 GHz) |64 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
+|Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
 |Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
-|Intel Xeon E5-2650 v3 |Dual Intel Xeon E5-2650 v3 (10 cores, 2.30 GHz) |128 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
+|Intel Xeon E5-2620 v4 |Dual Intel Xeon E5-2620 v4 (16 cores, 2.10 GHz) |64 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
+|Intel Xeon E5-2690 v4 |Dual Intel Xeon E5-2690 v4 (28 cores, 2.60 GHz) |128 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
+
+
+
+<!--| **Configuration** | **Processor** | **Memory** | **Hard drive** | **Port speed** |
+|-------------------|---------------|------------|----------------|----------------|
+|Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
+|Intel Xeon E3-1270 v3 |Single Intel Xeon E3-1270 v3 (4 cores, 3.50 GHz) |32 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
+|Intel Xeon E5-2620 v3 |Dual Intel Xeon E5-2620 v3 (12 cores, 2.40 GHz) |64 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
+|Intel Xeon E5-2650 v3 |Dual Intel Xeon E5-2650 v3 (20 cores, 2.30 GHz) |128 GB RAM |1 internal hard disc drive |100 Mbps maximum port speed|
 |Intel Xeon E5-2690 v3 |Dual Intel Xeon E5-2690 v3 (12 cores, 2.60 GHz) |128 GB RAM |2 internal hard disc drives |100 Mbps maximum port speed|
 |Intel Xeon E5-2690 v3 |Dual Intel Xeon E5-2690 v3 (12 cores, 2.60 GHz) |64 GB RAM |4 internal hard disc drives |1,000 Mbps maximum port speed|
 |Intel Xeon E5-2690 v3 |Dual Intel Xeon E5-2690 v3 (12 cores, 2.60 GHz) |256 GB RAM |4 internal hard disc drives |1,000 Mbps maximum port speed|
-
-In addition to the seven fast-provision servers, {{site.data.keyword.cloud_notm}} expanded its {{site.data.keyword.baremetal_short}} offering to include POWER8-based bare metal systems. These systems are built with the {{site.data.keyword.IBM_notm}} POWER8 processor and an OpenPOWER-based platform, which is tuned specifically for cloud-based deployments of data, cognitive, and web workloads on Linux.
+-->
+In addition to the above fast-provision servers, {{site.data.keyword.cloud_notm}} expanded its {{site.data.keyword.baremetal_short}} offering to include POWER8-based bare metal systems. These systems are built with the {{site.data.keyword.IBM_notm}} POWER8 processor and an OpenPOWER-based platform, which is tuned specifically for cloud-based deployments of data, cognitive, and web workloads on Linux.
 
 Any {{site.data.keyword.baremetal_short}} can be upgraded to include unmetered (unlimited) bandwidth. All unmetered devices are on private, dedicated ports.
 
