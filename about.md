@@ -21,4 +21,4 @@ When creating a {{site.data.keyword.baremetal_short}}, you can select from a lis
 
 Refer to the following topics to start the provisioning procedure:
 * [Understanding your bare metal options](../bare-metal/configuring.html)
-* [Provisioning bare metal servers](../bare-metal/baremetal-provisioning-popular.html)
+* [Provisioning bare metal servers](../bare-metal/baremetal-provision-popular.html)
