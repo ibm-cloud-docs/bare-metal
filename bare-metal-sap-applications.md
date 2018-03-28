@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-03-26"
 
 ---
 
@@ -22,4 +22,5 @@ For more information, see
   
   * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started), a comprehensive guide on how to implement SAP HANA on the {{site.data.keyword.cloud_notm}} infrastructure.
 
+  * [SAP Reference Architecture on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started), an example infrastructure using SAP HANA and SAP NetWeaver to show the general concepts of an SAP {{site.data.keyword.cloud_notm}}-based deployment. 
 
