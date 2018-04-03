@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -15,4 +15,4 @@ lastupdated: "2017-11-24"
 
 # Security patches
 
-The {{site.data.keyword.IBM}} Private Network uses dedicated services (Microsoft Server Update Services and Red Hat Network) for security updates. Upon delivery, every {{site.data.keyword.baremetal_short}} settings default to automatically update for security patches. This feature can be manually turned on or off at any time.
+The {{site.data.keyword.IBM}} Private Network uses dedicated services (Microsoft Server Update Services and Red Hat Network) for security updates. Upon delivery, all {{site.data.keyword.baremetal_short}} are set, by default, to automatically update for security patches.

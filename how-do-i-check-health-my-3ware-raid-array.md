@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +11,15 @@ lastupdated: "2017-12-12"
 
 # Checking the health of your 3ware RAID array
 
-3ware allows you to use a browser interface.However, unless you access the interface locally, it can be a security risk. Therefore we suggest using the command line interface.
+With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Therefore, you use the command line interface.
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **Quick command reference for 3ware CLI tools**
 
-These devices must be followed by a number denoting which is being queried.
+These devices must be followed by a number that identifies which devices is being queried.
 
-tw_cli /c0 show (Output shows information needed to know the health of the RAID array)
+tw_cli /c0 show (Output shows information that is needed to know the health of the RAID array)
 
 ./tw_cli /c1 show
 

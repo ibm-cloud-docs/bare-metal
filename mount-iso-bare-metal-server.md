@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -41,9 +42,11 @@ Prerequisites:<br/>
 * You have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the Bootable ISO
 * The ISO is uploaded to the File Storage (NAS) associated with the server.
-* IPMIView is installed or access KVM Console
+* IPMIView is installed or access KVM Console <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * ISO File is downloadable using wget
 * You have SSH access with privileges to access / install packages and create a mount
+
 
 ### Linux and Windows
 Follow the steps below to mount an ISO with IPMIView.
@@ -66,14 +69,15 @@ Follow the steps below to mount an ISO with IPMIView.
   * Download the iso file using wget.
         wget http://www.linktoyouriso.com/isofilename.iso
   You will see a confirmation that the download was successful.
+* Download IPMI View here:
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Connect to Server over the Management IP.
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Open the Virtual Media Tab
 * Complete the CD-ROM Image connection details.
   *
-    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example,
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example, ```ping nas501.service.softlayer.com```
     * Share Name = The Username of the NAS storage
     * Path to image = The name of the ISO file, in the following format:
           \NASusername\isoname.iso (i.e. \SLN123456\centos6.iso)
@@ -115,7 +119,5 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * If an ISO is already mounted, an error message will appear with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs may not be mounted at the same time.
 * You may need to contact support to change the boot order in the BIOS.
 * When mounting an ISO please use SSL VPN (http://vpn.softlayer.com) instead of PPTP VPN.  Once connected to the VPN network you can also access the system's IPMI through the IPMI address (https://<private-ip-IPMI-management>).
-* When you input a path to an ISO that, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+* When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
+  ```\\<NAS username>\<isoname>.iso```
