@@ -7,22 +7,24 @@ IBM Cloud bare metal servers
     {: .navgroup id="learn"}
     about.md
     index.md
-    configuring.md
+    about-SGX.md
+    about-Optane.md
 
     {: .topicgroup}
     RAID
         what-raid.md
+        raid-commands.md
         what-raid-monitoring-daemon-named.md
 
     bare-metal-software.md
 
     {: .topicgroup}
-    Operating system options
+    Operating systems
         introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
-    Security options
+    Security
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
@@ -38,6 +40,7 @@ IBM Cloud bare metal servers
         baremetal-provision-popular.md
         baremetal-provision.md
         bm_provision_ssd.md
+        bare-metal-provision-SGX.md
 
     {: .topicgroup}
     Configuring
