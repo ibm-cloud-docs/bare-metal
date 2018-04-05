@@ -20,7 +20,6 @@ lastupdated: "2018-04-02"
 ## Determine what server specifications you need
 Before you provision a server, determine how it will be used and what size server you need. For example, do you intend to use it for dev/test or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed?
 
-<<<<<<< HEAD
 After you determine how you will use your {{site.data.keyword.baremetal_short}}, you need to size it. For help with this task, refer to:
 
 * <a href="http://www.softlayer.com/tco/" target="_blank">SoftLayer Total Cost of Ownership Calculator</a>
@@ -46,8 +45,3 @@ If the most popular servers do not meet your need, you can create a custom serve
 {{site.data.keyword.cloud}} offers SAP-certified servers.
 
 *  [Building a custom bare metal server](../bare-metal/baremetal-provision.html)
-=======
-Refer to the following topics to start the provisioning procedure:
-* [Understanding your bare metal options](../bare-metal/configuring.html)
-* [Provisioning bare metal servers](../bare-metal/baremetal-provision-popular.html)
->>>>>>> origin/master
