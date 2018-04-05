@@ -29,7 +29,6 @@ Prerequsites:
 1. Open the bare-metal order form:   
   <a href="https://console.bluemix.net/gen1/infrastructure/provision/bm" target="_blank">https://console.bluemix.net/gen1/infrastructure/provision/bm</a>
 
-  You need to log in with your {{site.data.keyword.BluSoftlayer_full}} account.
 2. Enter the following information:
     <table>
     <CAPTION>Table 1. Bare metal selections</CAPTION>
