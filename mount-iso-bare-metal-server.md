@@ -17,11 +17,13 @@ Although most {{site.data.keyword.Bluemix_notm}} customers use one of the standa
 
 For the methods to work you will need to be connected to the private network through the SL VPN service (eg. https://vpn.ams01.softlayer.com/ ) or through another server you already have connected to the network.
 
+**Note:** Lenovo hardware disk images larger than 50 MB must be mounted using the IMM console interface > media tab.
+
 ## Option 1 (preferred): using IPMI (ISO on a CIFS share)
 
 If you already have infrastructure deployed on {{site.data.keyword.Bluemix_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on there to a bare metal server.
 
-This is the preferred method for installing a custom OS on a Bare-metal server because it installs over the local network, which is very fast and can keep an ISO mounted even if you log out or get disconnected from the management interface.
+This is the preferred method for installing a custom OS on a bare metal server because it installs over the local network, which is very fast and can keep an ISO mounted even if you log out or get disconnected from the management interface.
 
 Follow these steps to install a Custom OS from a CIFS Share:
 
