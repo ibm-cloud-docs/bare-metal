@@ -175,7 +175,7 @@ Although not unusual, aborted commands are another common error. But, if aborted
 
 Link errors can indicate that a cable might need reseated or replaced.
 
-### Support ticket information
+## Support ticket information
 
 <b>Adaptec RAID cards</b>
 Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you create a support ticket. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support ticket process. 
