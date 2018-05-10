@@ -14,18 +14,16 @@ You use the Adapatec Command Line Utility to run RAID controller commands.
 The following are the most common RAID controller commands that you might use.
 {:shortdesc}
 
-**Note:** Windows and VMware have different paths to run storcli commands:
+**Note:** Windows and VMware have different paths to run storcli commands. See the following examples for the proper command path.
 
 Windows (use CMD)
-
-`C:\Program Files (x86)\MegaRAID Storage Manager>'      
+`C:\Program Files (x86)\MegaRAID Storage Manager>`      
 or
 `C:\Program Files\LSIStorCli>`
 
 VMware (You need to install storcli before you run storcli commands)
-
 `/opt/lsi/storcli/`
-
+<br>
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ lists the type of operation, logical drive number, logical
 drive size, and progress of the operation. You can also see the status of any background commands that are running, such as the following items:
