@@ -60,13 +60,14 @@ IBM Cloud bare metal servers
         bare-metal-managing-vmware.md
         managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
-        
+
      {: .topicgroup}
      Backing up and recovering
         spare_pools.md
             add_spare_pool.md
             cancel_spare_pool.md
-            reactivating_spare_pool_device.md    
+            reactivating_spare_pool_device.md
+        [Launching a rescue kernel](../vsi/vsi_launch_rescue.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
