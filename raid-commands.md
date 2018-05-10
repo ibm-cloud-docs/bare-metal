@@ -23,7 +23,8 @@ or
 
 VMware (You need to install storcli before you run storcli commands)
 `/opt/lsi/storcli/`
-<br>
+
+## Common RAID controller commands
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ lists the type of operation, logical drive number, logical
