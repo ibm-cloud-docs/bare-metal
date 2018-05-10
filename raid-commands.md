@@ -24,6 +24,7 @@ or
 VMware (You need to install storcli before you run storcli commands)
 `/opt/lsi/storcli/`
 <br>
+
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ lists the type of operation, logical drive number, logical
 drive size, and progress of the operation. You can also see the status of any background commands that are running, such as the following items:
