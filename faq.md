@@ -14,13 +14,13 @@ lastupdated: "2018-04-02"
 
 ## Why is my BIOS asking for a password?
 
-Currently, {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS, for a variety of reasons. However, you can change the BIOS. If you need anything to be modified in the BIOS, including boot order, create a ticket under Support > Add Ticket through the [Customer Portal](control.softlayer.com) and request the specific changes that you need.
+Currently, {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS, for a variety of reasons. However, you can change the BIOS. If you need anything to be modified in the BIOS, including boot order, create a ticket under Support > Add Ticket through the [Customer Portal](https://control.softlayer.com/) and request the specific changes that you need.
 
 \*\*NOTE\*\* This requires a reboot of your server to do, so be ready to approve a reboot and/or provide a time frame for when you would like the change made.
 
 ## Do you provide complimentary OS Reloads?
 
-Automated OS reloads are free and can be performed through the [Customer Portal](control.softlayer.com). These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](../vsi/vsi_perform_os_reload.html).
+Automated OS reloads are free and can be performed through the [Customer Portal](https://control.softlayer.com/). These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](../vsi/vsi_perform_os_reload.html).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?

@@ -15,7 +15,7 @@ lastupdated: "2018-04-02"
 
 Although most {{site.data.keyword.Bluemix_notm}} customers use one of the standard Operating Systems that come with our servers, you can mount custom ISOs (disk images) on servers. There are three options for mounting custom ISOs.
 
-For the methods to work you will need to be connected to the private network through the SL VPN service (eg. https://vpn.ams01.softlayer.com/ ) or through another server you already have connected to the network.
+For the methods to work you will need to be connected to the private network through the SL VPN service, such as [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server you already have connected to the network.
 
 **Note:** Lenovo hardware disk images larger than 50 MB must be mounted using the IMM console interface > media tab.
 
@@ -28,7 +28,7 @@ This is the preferred method for installing a custom OS on a bare metal server b
 Follow these steps to install a Custom OS from a CIFS Share:
 
 1. Make sure you have placed the ISO on the CIFS Share.
-* Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
+* Login to the IPMI management console by pointing your webbrowser to the IP specified in https://control.softlayer.com/ and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
 * Hover over the **Virtual Media** and click **CD-ROM image**
 * Fill in the appropriate details, click **Save and Mount**.
 * Not all users have permission to change the BIOS of the server. If necessary you can open a ticket to support requesting:
@@ -102,7 +102,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not yet mounted, support should only change the boot device priority for now).
 
 
-1. Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com.
+1. Login to the IPMI management console by pointing your webbrowser to the IP specified in https://control.softlayer.com/.
 * Click Devices > your server (device details) > Remote Mgmt. Specify the username and password.
 * Click Configuration > Remote session and change attach mode to **attach**. In some older IPMI consoles this option is not available so you can skip this step.
 * Click System > System information to return to the system information page.You will see a console window icon.
