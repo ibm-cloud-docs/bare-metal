@@ -15,7 +15,7 @@ No OS is an option to order a bare metal server without an operating system.
 
 ## How to order a bare metal server with no OS?
 
-Start by placing an order for a bare metal server via [SoftLayer.com](www.softlayer.com) or the [Customer Portal](https://control.softlayer.com).
+Start by placing an order for a bare metal server via [SoftLayer.com](https://www.softlayer.com) or the [Customer Portal](https://control.softlayer.com).
 
 1. Select **Other** from **System Configuration > Operating System**.
 2. Select **No Operating System**.
