@@ -7,6 +7,7 @@ IBM Cloud bare metal servers
     {: .navgroup id="learn"}
     about.md
     index.md
+    managedPool_about.md
     about-SGX.md
     about-Optane.md
 
@@ -41,6 +42,7 @@ IBM Cloud bare metal servers
         baremetal-provision.md
         bm_provision_ssd.md
         bare-metal-provision-SGX.md
+        managedPool_provision.md
 
     {: .topicgroup}
     Configuring
@@ -60,6 +62,7 @@ IBM Cloud bare metal servers
         bare-metal-managing-vmware.md
         managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
+        managedPool_managing.md
 
      {: .topicgroup}
      Backing up and recovering
