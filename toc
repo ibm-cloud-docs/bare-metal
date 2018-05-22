@@ -13,7 +13,7 @@ IBM Cloud bare metal servers
 
     {: .topicgroup}
     RAID
-        what-raid.m
+        what-raid.md
         what-raid-monitoring-daemon-named.md
 
     bare-metal-software.md
