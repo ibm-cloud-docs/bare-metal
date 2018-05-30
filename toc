@@ -5,8 +5,8 @@
 IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
-    about.md
     index.md
+    about.md
     managedPool_about.md
     about-SGX.md
     about-Optane.md
