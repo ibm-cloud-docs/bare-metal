@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-23"
 
 
 ---
@@ -12,36 +12,35 @@ lastupdated: "2018-04-02"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with {{site.data.keyword.baremetal_short}}
+# About bare metal servers
+{: #about}
 
-{{site.data.keyword.baremetal_long}} provide you with performance and control. {{site.data.keyword.baremetal_short}} do not run in a hypervisor and you get low-level access to the hardware resources. In addition, no other customers share the server with you. It's all yours!
+{{site.data.keyword.baremetal_long}} are the cornerstone for your infrastructure-as-a-service solution. Whether you're a gaming developer who requires high-speed I/O or you need to up high-performance servers for your users, {{site.data.keyword.baremetal_short}} can answer your compute needs.
 {:shortdesc}
 
-## Determine what server specifications you need
-Before you provision a server, determine how it will be used and what size server you need. For example, do you intend to use it for dev/test or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed?
+Your {{site.data.keyword.baremetal_short) is an hourly or monthly, single-tenant server that's dedicated to you; it's not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and can be deployed in one or more data center. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack. 
 
-After you determine how you will use your {{site.data.keyword.baremetal_short}}, you need to size it. For help with this task, refer to:
+## Servers for every workload
+{: #servers_every_need}
 
-* <a href="http://www.softlayer.com/tco/" target="_blank">SoftLayer Total Cost of Ownership Calculator</a>
+{{site.data.keyword.cloud_notm}} has a {{site.data.keyword.baremetal_short}} to fit every workload. 
 
-## Logging in to your {{site.data.keyword.Bluemix_notm}} account
-You can access the bare metal order form from either of these locations. These sites may have different login credentials:
-* [The IBM Cloud catalog](https://console.bluemix.net/catalog/)
-* [The SoftLayer control portal](https://control.softlayer.com/)
+### Popular servers
+{: #Popluar}
 
-## Most popular, fast-provision servers
+{{site.data.keyword.cloud_notm}} offers preconfigured servers that meet the needs of most use cases. These servers are considered "fast provision" because your compute options (number of cores, speed, RAM, and number of drives) are preset, and are ready to configure 30 to 40 minutes after provisioning. For more information, see [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers), and scroll to the **Popular bare metal options** section.
 
-After you establish the server that you need, you can provision a server that meets your criteria. The best place to start is with our fast-provision, most popular servers. These servers are preconfigured to meet the needs of most clients and they are ready to run in 30 - 40 minutes after you order them.
-*  [Selecting a server from our list of most popular servers](../bare-metal/baremetal-provision-popular.html)
+### Custom-based servers
+{: #custom_based}
 
-## Custom servers
+If one of the popular servers doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are provisioned in 2 to 4 hours and offer a greater variety of cores, speeds, RAM, and drives. For more information, see [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers), and scroll to the **Customize bare metal** section.
 
-If the most popular servers do not meet your need, you can create a custom server. Be aware that Custom servers take longer to provision and have higher operating costs.
+### Custom POWER8-based servers
+{: #power8}
 
-*  [Building a custom bare metal server](../bare-metal/baremetal-provision.html)
+{{site.data.keyword.cloud_notm}} offers you the option to provision an Intel POWER8-based bare metal server. POWER8 servers are built with the POWER8 processor and an OpenPower-based platform, which is tuned specifically for cloud-based deployments for data, cognitive, and web workloads on Linux. For more information, see [POWER8 Servers](https://www.ibm.com/cloud/bare-metal-servers/power).
 
-## SAP-certified servers
+### SAP-certified bare metal servers
+{: #SAP}
 
-{{site.data.keyword.cloud}} offers SAP-certified servers.
-
-*  [Building a custom bare metal server](../bare-metal/baremetal-provision.html)
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are certified to support your SAP HANA and SAP NetWeaver workloads. For more information, see [SAP Certified Infrastructure](https://www.ibm.com/cloud/bare-metal-servers/sap).
