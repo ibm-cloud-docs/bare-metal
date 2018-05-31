@@ -1,21 +1,14 @@
-----
-
-
+---
 
 copyright:
-  years: 2017, 2018
+  years: 1994, 2018
 lastupdated: "2018-05-31"
 
 
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
 
 # IBM Cloud SAP-Certified Infrastructure offering
 
