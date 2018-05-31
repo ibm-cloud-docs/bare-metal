@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-05-31"
 
 
 ---
@@ -23,7 +23,7 @@ Your {{site.data.keyword.baremetal_short) is an hourly or monthly, single-tenant
 ## Servers for every workload
 {: #servers_every_need}
 
-{{site.data.keyword.cloud_notm}} has a {{site.data.keyword.baremetal_short}} to fit every workload. 
+{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. 
 
 ### Popular servers
 {: #Popluar}
