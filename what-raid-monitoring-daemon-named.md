@@ -14,6 +14,7 @@ lastupdated: "2018-05-22"
 You can configure RAID alerts to bypass the portal monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
 
 <caption>Table 1. RAID configurations and settings</caption>
+
 ||LSI Linux|LSI Windows|Adaptec Linux|Adaptec Windows|
 |---|---|---|---|---|
 |**Manager Name**|LSI MegaRAID Storage Manager|LSI MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
