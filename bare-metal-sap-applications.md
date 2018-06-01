@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-01"
 
 
 ---
@@ -10,9 +10,9 @@ lastupdated: "2018-05-31"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# IBM Cloud SAP-Certified Infrastructure offering
+# IBM Cloud SAP-Certified Infrastructure
 
-The {{site.data.keyword.cloud}} SAP-Certified Infrastructure offering gives you the flexibility to run your SAP workloads in the {{site.data.keyword.cloud_notm}} when you need them, where you need them with over 60 {{site.data.keyword.IBM_notm}} data centers worldwide. You can quickly address issues such as rapid capacity expansion (and contraction when not needed), migrating SAP workloads to the cloud, or supplementing an existing private cloud architecture.
+The {{site.data.keyword.cloud}} SAP-Certified Infrastructure gives you the flexibility to run your SAP workloads in the {{site.data.keyword.cloud_notm}} when you need them, where you need them with over 60 {{site.data.keyword.IBM_notm}} data centers worldwide. You can quickly address issues such as rapid capacity expansion (and contraction when not needed), migrating SAP workloads to the cloud, or supplementing an existing private cloud architecture.
 {:shortdesc}
 
 For more information, see
