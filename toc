@@ -74,6 +74,7 @@ IBM Cloud bare metal servers
 
     {: .navgroup id="help"}
     get-help-and-support.md
+    raid-support.md
     faq.md
     [FAQs: Servers (general)](../vsi/faq_servers_general.html)
     [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
