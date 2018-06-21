@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-06-21"
 
 
 ---
@@ -26,8 +26,8 @@ Prerequsites:
     * [The SoftLayer control portal](https://control.softlayer.com/)
 
 
-1. Open the bare-metal order form:   
-  <a href="https://console.bluemix.net/gen1/infrastructure/provision/bm" target="_blank">https://console.bluemix.net/gen1/infrastructure/provision/bm</a>
+1. Open the bare-metal order form.    
+  <!-- <a href="https://console.bluemix.net/gen1/infrastructure/provision/bm" target="_blank">https://console.bluemix.net/gen1/infrastructure/provision/bm</a> -->
 
 2. Enter the following information:
     <table>
