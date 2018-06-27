@@ -18,7 +18,7 @@ lastupdated: "2018-05-31"
 {{site.data.keyword.baremetal_long}} are the cornerstone for your infrastructure-as-a-service solution. Whether you're a gaming developer who requires high-speed I/O or you need to up high-performance servers for your users, {{site.data.keyword.baremetal_short}} can answer your compute needs.
 {:shortdesc}
 
-Your {{site.data.keyword.baremetal_short) is an hourly or monthly, single-tenant server that's dedicated to you; it's not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and can be deployed in one or more data center. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack. 
+Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenant server that's dedicated to you; it's not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and can be deployed in one or more data center. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack. 
 
 ## Servers for every workload
 {: #servers_every_need}
