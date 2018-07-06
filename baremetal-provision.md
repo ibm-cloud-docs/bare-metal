@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-07-06"
 
 
 ---
@@ -18,30 +18,31 @@ lastupdated: "2018-04-02"
 
 
 # Building a custom bare metal server
+{: #ordering-baremetal-server}
+
 Prerequsites:
   * You must have an upgraded {{site.data.keyword.BluSoftlayer_full}} account.
   * You must be logged into one of the following sites:
-    * [The IBM Cloud catalog](https://console.bluemix.net/catalog/)
-    * [The SoftLayer control portal](https://control.softlayer.com/)
+    * [The {{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/)
+    * [The {{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/)
 
-{: #ordering-baremetal-server}
-Use this procedure to build a custom {{site.data.keyword.baremetal_short}}.
+Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
-1. Launch the order form and provision your server:<br>
-  <a href="https://control.bluemix.net/?orderType=bareMetalServerMonthlyOrder" target="_blank">https://control.bluemix.net/?orderType=bareMetalServerMonthlyOrder</a>
+1. Launch the order form  and provision your server:<br>
+<a href="https://control.bluemix.net/?orderType=bareMetalServerMonthlyOrder" target="_blank">Custom bare metal server provisioning</a>
 1. Select a data center location for your server.
 * Select a server from the three categories of servers by clicking the **Starting Price Per** link.
-  * SAP Certified servers
+  * SAP Certified Servers (For more information on provisioning an SAP Certified Server, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html))
   * Single Processor Multi-Core Servers
   * Dual Processor Multi-Core Servers
 
-* Select from your configuration options. **Data Center**, **RAM**, and **Operating System** are required fields. All other fields are optional. Refer to **Advanced server configuration options** in the section that follows this procedure.</a>
+* Select from your configuration options. **Data Center**, **RAM**, and **Operating System** are required fields. All other fields are optional. For more information about the optional fields, see to **[Additional server configuration options](#addl-server-options)** .
 
     **Note**: an error message is displayed if a conflict exists between the server and operating system. For example, selecting Linux on a Microsoft SQL server.
 * Click **Add to Order**. The Checkout page is displayed.
 
   From the Checkout page, you can return to the configuration page by clicking one of the Reconfigure options.
-* In the Advanced System Configuration section, specify additional configuration options.
+* In the Advanced System Configuration section, specify additional configuration options. For more information, see **[Advanced System Configuration](#adv-system-config)**.
 
 *   Click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
 *   Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
@@ -50,11 +51,11 @@ Use this procedure to build a custom {{site.data.keyword.baremetal_short}}.
 
  A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page after you login to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
- ## Advanced server configuration options
+ ## Additional server configuration options
+ {: #addl-server-options}
 
- In addition to selecting your server, you have other options that you can add to the server. The following table describes the options available to you.
-
-
+ You have additional options available to you when you're provisioning your bare metal server, for example public bandwidth, uplink port speeds, public secondary IP addresses, and more. Table 1 describes your additional options.
+ 
  | **Field** | **Description** |
  |-------------------|---------------|
  |Server security|Such as Trusted Execution Technology (Intel TXT)|||
@@ -70,6 +71,21 @@ Use this procedure to build a custom {{site.data.keyword.baremetal_short}}.
  |Operating System Addons|Select options such as VMware, backup solutions, control panel, database, Hardware & Software Firewalls, Anti-Virus & Spyware Protection, Intrusion Detection & Protection. <br><br>It is strongly recommended to align your corporate security department with {{site.data.keyword.cloud_notm}} Support to discuss the details of these options.
  |Evault |An agent-based backup tool that can be installed on your server to replicate backups between servers. |
  |Service addons|Select any service addons such as monitoring, automated response, and insurance.|
+ {: caption="Table 1. Additional server options" caption-side="top"}
+
+## Advanced System Configuration
+{: #adv-system-config}
+
+The fields under **Advanced System Configuration** complete your provisioning process. 
+
+| **Field** | **Description** |
+|---|---|
+| Hostname | A permanent or temporary name for your server, for example, ```server1```. **Note**: If you're provisioning an SAP Certified Server, your SAP hostname must consist of a maximum of 13 alpha-numeric characters. For more information on SAP hostnames, see [SAP Notes 611361](https://launchpad.support.sap.com/#/notes/2611361) and [129997](https://launchpad.support.sap.com/#/notes/129997). Requires an SAP S-user ID. |
+| Domain | Sub-domain name that should not collide with an internet domain name, for example, ```test.acme.com```. |
+| VLAN Selection | If there is a VLAN under your account because you already ordered at least on server, you can add the new server to that VLAN. |
+| Provisioning Script | You can provide a script that allows you to automate certain steps after provisioning. |
+| SSH Keys | You can provide the public key of your SSH key, which will allow you to log in to your server after it's provisioned. |
+{: caption="Table 2. Advanced System Configuration" caption-side="top"}
 
  Consult {{site.data.keyword.cloud_notm}} Support for further information.
 
