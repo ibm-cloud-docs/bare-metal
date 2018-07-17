@@ -19,17 +19,10 @@ lastupdated: "2018-06-21"
 
 # Selecting from the most popular servers
 The servers in the Most Popular Servers list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
-Prerequsites:
-  * You must have an upgraded {{site.data.keyword.BluSoftlayer_full}} account.
-  * You must be logged into one of the following sites:
-    * [The IBM Cloud catalog](https://console.bluemix.net/catalog/)
-    * [The SoftLayer control portal](https://control.softlayer.com/)
-
-
-1. Open the bare-metal order form.    
-  <!-- <a href="https://console.bluemix.net/gen1/infrastructure/provision/bm" target="_blank">https://console.bluemix.net/gen1/infrastructure/provision/bm</a> -->
-
-2. Enter the following information:
+1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/){:target="_blank"}.   
+2. Select Bare Metal Server.
+3. Click Create.
+2. Select the following information:
     <table>
     <CAPTION>Table 1. Bare metal selections</CAPTION>
     <THEAD>

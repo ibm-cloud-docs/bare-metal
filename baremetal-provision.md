@@ -20,16 +20,12 @@ lastupdated: "2018-07-06"
 # Building a custom bare metal server
 {: #ordering-baremetal-server}
 
-Prerequsites:
-  * You must have an upgraded {{site.data.keyword.BluSoftlayer_full}} account.
-  * You must be logged into one of the following sites:
-    * [The {{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/)
-    * [The {{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/)
-
 Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
-1. Launch the order form  and provision your server:<br>
-<a href="https://control.bluemix.net/?orderType=bareMetalServerMonthlyOrder" target="_blank">Custom bare metal server provisioning</a>
+1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/){:target="_blank"}.   
+2. Select Bare Metal Server.
+3. Click Create.
+4. Below the server list, look for the statement: **Interested in other configuration options? Click here**. Select this option. The custom server form is displayed.
 1. Select a data center location for your server.
 * Select a server from the three categories of servers by clicking the **Starting Price Per** link.
   * SAP Certified Servers (For more information on provisioning an SAP Certified Server, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html))
@@ -55,7 +51,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
  {: #addl-server-options}
 
  You have additional options available to you when you're provisioning your bare metal server, for example public bandwidth, uplink port speeds, public secondary IP addresses, and more. Table 1 describes your additional options.
- 
+
  | **Field** | **Description** |
  |-------------------|---------------|
  |Server security|Such as Trusted Execution Technology (Intel TXT)|||
@@ -76,7 +72,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 ## Advanced System Configuration
 {: #adv-system-config}
 
-The fields under **Advanced System Configuration** complete your provisioning process. 
+The fields under **Advanced System Configuration** complete your provisioning process.
 
 | **Field** | **Description** |
 |---|---|
