@@ -52,6 +52,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
  You have additional options available to you when you're provisioning your bare metal server, for example public bandwidth, uplink port speeds, public secondary IP addresses, and more. Table 1 describes your additional options.
 
+
  | **Field** | **Description** |
  |-------------------|---------------|
  |Server security|Such as Trusted Execution Technology (Intel TXT)|||
