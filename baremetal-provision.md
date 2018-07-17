@@ -55,7 +55,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
  | **Field** | **Description** |
  |-------------------|---------------|
- |Server security|Such as Trusted Execution Technology (Intel TXT)|||
+ |Server security|Such as Trusted Execution Technology (Intel TXT)|
  |Software Guard Extensions|Increased security for sensitive code and data (Intel SGX). <br><br>Refer to [Provisioning a bare metal server with Intel SGX](../bare-metal/bare-metal-provision-SGX.html).|
  |RAM|Choose a level of RAM that meets your server needs.|
  |Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu, or Other. |
