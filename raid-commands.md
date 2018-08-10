@@ -40,9 +40,9 @@ drive size, and progress of the operation. You can also see the status of any ba
 _GETCONFIG_ lists information about controllers, logical drives, and physical drives. You can see information such as the following items:
 <ul>
   <li> Controller type
-  <li> BIOS, boot block, device driver, and firmware versions 
-  <li> Physical device type, device ID, presence of PFA 
-  <li> Physical device state 
+  <li> BIOS, boot block, device driver, and firmware versions
+  <li> Physical device type, device ID, presence of PFA
+  <li> Physical device state
   <li> Enclosure information: fan, power supply, and temperature
   </ul>
 
@@ -67,48 +67,48 @@ smartWarning ............................ 0
 ```
 
 <code><b>/opt/MegaRAID/storcli/storcli64 /c0/eall/sall show all | grep -iE "det|cou|tem|SN|S.M|fir” </code></b><br>
-You use this command to show the specific drives and any possible drive errors that it might have. 
+You use this command to show the specific drives and any possible drive errors that it might have.
 The following example shows the output:
 ```
-Drive /c0/e252/s0 - Detailed Information: 
+Drive /c0/e252/s0 - Detailed Information:
 Shield Counter = 0
- Media Error Count = 0
- Other Error Count = 0 
-Drive Temperature = 24C (75.20 F) 
-Predictive Failure Count = 0 
-S.M.A.R.T alert flagged by drive = No 
-SN = XXXX 
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature = 24C (75.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+SN = XXXX
 Firmware Revision = SN04
 
- Drive /c0/e252/s1 - Detailed Information: 
-Shield Counter = 0 
-Media Error Count = 0 
-Other Error Count = 0 
-Drive Temperature = 22C (71.60 F) 
-Predictive Failure Count = 0 
-S.M.A.R.T alert flagged by drive = No 
-SN = xxxx 
-Firmware Revision = SN03 
+Drive /c0/e252/s1 - Detailed Information:
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature = 22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+SN = xxxx
+Firmware Revision = SN03
 
 Drive /c0/e252/s2 - Detailed Information:
- Shield Counter = 0 
-Media Error Count = 0 
-Other Error Count = 0 
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
 Drive Temperature = 21C (69.80 F)
- Predictive Failure Count = 0 
+Predictive Failure Count = 0
 S.M.A.R.T alert flagged by drive = No
- SN = xxxx 
+SN = xxxx
 Firmware Revision = SN04
 
- Drive /c0/e252/s3 - Detailed Information:
- Shield Counter = 0 
+Drive /c0/e252/s3 - Detailed Information:
+Shield Counter = 0
 Media Error Count = 0
- Other Error Count =
- Drive Temperature = 23C (73.40 F) 
+Other Error Count =
+Drive Temperature = 23C (73.40 F)
 Predictive Failure Count = 0
- S.M.A.R.T alert flagged by drive = No 
+S.M.A.R.T alert flagged by drive = No
 SN = xxxx
-Firmware Revision = SN03  
+Firmware Revision = SN03
 ```
 
 <!--<code><b>/opt/MegaRAID/storcli/storcli64 /c0 show all | less </code></b>-->
@@ -118,52 +118,52 @@ Firmware Revision = SN03  
 This command displays the rebuild status of all drives and the estimated time to complete the rebuild. You see this output when you run the command:
 ```
 ---------------------------------------------
-Drive-ID Progress% Status Estimated Time Left 
+Drive-ID Progress% Status Estimated Time Left
 ---------------------------------------------
 /c0/e252/s0 - Not in progress
- /c0/e252/s1 - Not in progress
- /c0/e252/s2 - Not in progress
- /c0/e252/s3 - Not in progress
---------------------------------------------- 
+/c0/e252/s1 - Not in progress
+/c0/e252/s2 - Not in progress
+/c0/e252/s3 - Not in progress
+---------------------------------------------
 ```
 
 <b>RAID alert "Spam"</b>
-Change the "global" section of the default config (/opt/lsi/mrmonitor/MegaMonitor/config-current.xml): 
+Change the "global" section of the default config (/opt/lsi/mrmonitor/MegaMonitor/config-current.xml):
 ```<global>
- <severity level="FATAL"> 
-<do-systemlog/> 
+<severity level="FATAL">
+<do-systemlog/>
 <do-email/>
- </severity>
-<severity level="CRITICAL"> 
+</severity>
+<severity level="CRITICAL">
 <do-email/>
- <do-systemlog/> 
+<do-systemlog/>
 </severity>
- <severity level="WARNING">
- <do-email/> 
-<do-systemlog/> 
+<severity level="WARNING">
+<do-email/>
+<do-systemlog/>
 </severity>
- <severity level="INFO"> <do-systemlog/>
+<severity level="INFO"> <do-systemlog/>
 </severity>
- </global> 
+</global>
 ```
-to this: 
+to this:
 ```
-<global> 
-<severity level="FATAL"> 
-<do-systemlog/> 
+<global>
+<severity level="FATAL">
+<do-systemlog/>
 <do-email/>
- </severity> 
-<severity level="CRITICAL"> 
-<do-email/> 
-<do-systemlog/> 
-</severity> 
-<severity level="WARNING"> 
-<do-systemlog/> 
-</severity> 
+</severity>
+<severity level="CRITICAL">
+<do-email/>
+<do-systemlog/>
+</severity>
+<severity level="WARNING">
+<do-systemlog/>
+</severity>
 <severity level="INFO">
 <do-systemlog/>
- </severity> 
-</global> 
+</severity>
+</global>
 ```
 **Note:** Remove the "do-email" tag for level "WARNING". Alternatively, change the security level to "INFO".
 
@@ -178,7 +178,7 @@ Link errors can indicate that a cable might need reseated or replaced.
 ## Support ticket information
 
 <b>Adaptec RAID cards</b>
-Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you create a support ticket. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support ticket process. 
+Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you create a support ticket. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support ticket process.
 
 <b>LSI RAID cards</b>
 Use the following commands to obtain the log files for LSI RAID cards. You need to include the full output of these log files with your support ticket.
