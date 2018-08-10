@@ -52,7 +52,7 @@ _GETLOGS_ gives you access to the status and event logs of a controller. _DEVICE
 See the following example for output that is made by using the _GETLOGS_ command:
 ```
 driveErrorEntry
-smartError.. ............................ false 
+smartError.. ............................ false
 vendorID ................................ WDC
 serialNumber ............................ WD-XXX
 wwn ..................................... xxxxxxxxxxxxxxxx - CC_FILTER
