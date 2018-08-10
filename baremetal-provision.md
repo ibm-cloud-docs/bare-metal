@@ -79,7 +79,7 @@ The fields under **Advanced System Configuration** complete your provisioning pr
 |---|---|
 | Hostname | A permanent or temporary name for your server, for example, ```server1```. **Note**: If you're provisioning an SAP Certified Server, your SAP hostname must consist of a maximum of 13 alpha-numeric characters. For more information on SAP hostnames, see [SAP Notes 611361](https://launchpad.support.sap.com/#/notes/2611361) and [129997](https://launchpad.support.sap.com/#/notes/129997). Requires an SAP S-user ID. |
 | Domain | Sub-domain name that should not collide with an internet domain name, for example, ```test.acme.com```. |
-| VLAN Selection | If there is a VLAN under your account because you already ordered at least on server, you can add the new server to that VLAN. |
+| VLAN Selection | If there is a VLAN under your account because you already ordered at least one server, you can add the new server to that VLAN. |
 | Provisioning Script | You can provide a script that allows you to automate certain steps after provisioning. |
 | SSH Keys | You can provide the public key of your SSH key, which will allow you to log in to your server after it's provisioned. |
 {: caption="Table 2. Advanced System Configuration" caption-side="top"}
