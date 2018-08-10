@@ -40,7 +40,7 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
    <td><a href="https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account.</td>
  <tr>
    <td>3. Determine your workload specifications</td>
-   <td>Before your provision your server, determine how it will be used and the size server you need to be successful. For example, do you intend to use it for development and testing, or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed?</td>  
+   <td>Before your provision your server, determine how it will be used and the server size you need to be successful. For example, do you intend to use it for development and testing, or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed?</td>  
  <tr>
    <td>4. Size and cost out your server</td>
    <td>You can use the <a href="https://www.ibm.com/cloud-computing/bluemix/bare-metal-search">bare metal search tool</a> to help you size and cost out your server.</td>
