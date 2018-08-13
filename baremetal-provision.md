@@ -17,13 +17,13 @@ lastupdated: "2018-07-06"
 {:table: .aria-labeledby="caption"}
 
 
-# Building a custom bare metal server
+# Building a custom {{site.data.keyword.baremetal_short}}
 {: #ordering-baremetal-server}
 
 Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
 1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/){:target="_blank"}.   
-2. Select Bare Metal Server.
+2. Select {{site.data.keyword.baremetal_short}}.
 3. Click Create.
 4. Below the server list, look for the statement: **Interested in other configuration options? Click here**. Select this option. The custom server form is displayed.
 1. Select a data center location for your server.
@@ -50,13 +50,13 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
  ## Additional server configuration options
  {: #addl-server-options}
 
- You have additional options available to you when you're provisioning your bare metal server, for example public bandwidth, uplink port speeds, public secondary IP addresses, and more. Table 1 describes your additional options.
+ You have additional options available to you when you're provisioning your {{site.data.keyword.baremetal_short}}, for example public bandwidth, uplink port speeds, public secondary IP addresses, and more. Table 1 describes your additional options.
 
 
  | **Field** | **Description** |
  |-------------------|---------------|
  |Server security|Such as Trusted Execution Technology (Intel TXT)|
- |Software Guard Extensions|Increased security for sensitive code and data (Intel SGX). <br><br>Refer to [Provisioning a bare metal server with Intel SGX](../bare-metal/bare-metal-provision-SGX.html).|
+ |Software Guard Extensions|Increased security for sensitive code and data (Intel SGX). <br><br>Refer to [Provisioning a {{site.data.keyword.baremetal_short}} with Intel SGX](../bare-metal/bare-metal-provision-SGX.html).|
  |RAM|Choose a level of RAM that meets your server needs.|
  |Operating System |Select from CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu, or Other. |
  |Hard Drives |Use the tool in the user interface set-up your hard disks by pre-filling the fields based on your OS selection. <br><br> You can also select to use an Intel Optane SSD drive. Refer to [Provisioning an Intel Optane SSD DC P4800X](../bare-metal/bm-provision_ssd.html).
