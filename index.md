@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018, 2018
-lastupdated: "2018-06-18"
+lastupdated: "2018-08-15"
 
 
 ---
@@ -12,7 +12,7 @@ lastupdated: "2018-06-18"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with Bare Metal Servers
+# Getting started tutorial
 {: #getting-started}
 
 {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you performance and control with low-level access to the hardware resources. Your server isn't shared with "noisy neighbors," it's all yours!
@@ -52,13 +52,13 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
    </td>   
 <tr>   
    <td>6. Provision your server</td>
-   <td>You have three options when it comes to provisioning your server: popular, custom, and SAP-certified. Popular servers are pre-configured servers that meet the needs of most customers and can be ready to configure 30 to 40 minutes after provisioning. 
+   <td>You have three options when it comes to provisioning your server: popular, custom, and SAP-certified. Popular servers are pre-configured servers that meet the needs of most customers and can be ready to configure 30 - 40 minutes after provisioning. 
    
      
-<br>Custom servers are servers you create by selecting specific compute, connectivity, storage, and network options to meet your needs. Note that custom servers take longer to provision, usually 2 to 4 hours, and have higher operating costs. You also have the option to <a href="bm_provision_ssd.html">provision an Intel Optane-compatible bare metal server</a> or one with an <a href="bare-metal-provision-SGX.html">Intel SGX architecture</a>. 
+<br>Custom servers are servers that you create by selecting specific compute, connectivity, storage, and network options to meet your needs. Custom servers take longer to provision, usually 2 - 4 hours, and have higher operating costs. You can <a href="bm_provision_ssd.html">provision an Intel Optane-compatible bare metal server</a> or one with an <a href="bare-metal-provision-SGX.html">Intel SGX architecture</a>. 
      
-<br>SAP-certified servers have been specifically certified to support SAP HANA and SAP NetWeaver landscapes.
-Use the links to be taken to provisioning information for that type of server. Note that with SAP-certified servers, you need to select which type of landscape, SAP HANA or SAP NetWeaver, you are provisioning.  
+<br>SAP-certified servers are certified to support SAP HANA and SAP NetWeaver landscapes.
+Use the links to be taken to provisioning information for that type of server. Note that with SAP-certified servers, you need to select which type of landscape, SAP HANA, or SAP NetWeaver, you are provisioning.  
   <li><a href="baremetal-provision-popular.html">Fast-provisioned bare metal servers</a></li>
   <li><a href="baremetal-provision.html">Custom bare metal servers</a></li>
   <li><a href="bare-metal-sap-applications.html">IBM Cloud SAP-Certified Infrastructure</a></li>
