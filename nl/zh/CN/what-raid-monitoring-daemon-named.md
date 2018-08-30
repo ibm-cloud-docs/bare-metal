@@ -1,18 +1,21 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-13"
+  years: 2017, 2018
+lastupdated: "2018-05-22"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # RAID 监视守护程序的名称和位置
-{{site.data.keyword.cloud}} 主要使用 Adaptec 和 LSI RAID 卡，但对于旧硬件有一些例外情况。下面的图表概述了 RAID 管理器位置、监视器位置、配置和 RAID 警报设置。
+{{site.data.keyword.cloud}} 主要使用 Adaptec 和 LSI RAID 卡，但对于旧硬件有一些例外情况。下表概述了 RAID 管理器位置、监视器位置、配置和 RAID 警报设置。
 
-您可以通过更改给定 RAID 卡的配置中的 SMTP 服务器和通知电子邮件目标来配置 RAID 警报，以绕过门户网站监视进程。更改这些配置后，IBM 即无法通知您 RAID 问题，也无法自动跟踪问题直至解决。因此，除非您了解这些风险，否则请勿更改所提供的配置。
+您可以通过更改 RAID 卡的配置中的 SMTP 服务器和通知电子邮件目标来配置 RAID 警报，以绕过门户网站监视进程。如果更改了这些配置，IBM 将无法向您通知 RAID 问题，也无法自动跟踪问题直至解决。因此，除非您了解这些风险，否则请勿更改所提供的配置。
 
-||LSI - Linux|LSI - Windows|Adaptec - Linux|Adaptec - Windows|
+<caption>表 1. RAID 配置和设置</caption>
+
+||LSI Linux|LSI Windows|Adaptec Linux|Adaptec Windows|
 |---|---|---|---|---|
 |**管理器名称**|LSI MegaRAID Storage Manager|LSI MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
 |**管理器位置**|/opt/MegaRAID/storcli|C:\Program Files (x86)\MegaRAID Storage Manager|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|

@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -14,7 +15,9 @@ lastupdated: "2017-12-14"
 
 尽管大多数 {{site.data.keyword.Bluemix_notm}} 客户都使用服务器随附的其中一个标准操作系统，但您也可以在服务器上装载定制的 ISO（磁盘映像）。有三个用于装载定制 ISO 的选项。
 
-要使方法生效，您需要通过 SL VPN 服务（例如 https://vpn.ams01.softlayer.com/）或通过已连接到网络的其他服务器来连接到专用网络。
+要使方法生效，您需要通过 SL VPN 服务（例如 [SoftLayer SSL VPN 门户网站 - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)）或通过已连接到网络的其他服务器来连接到专用网络。
+
+**注：**大于 50 MB 的 Lenovo 硬件磁盘映像必须使用 IMM 控制台界面中的“介质”选项卡来进行装载。
 
 ## 选项 1（首选）：使用 IPMI（CIFS 共享上的 ISO）
 
@@ -25,7 +28,7 @@ lastupdated: "2017-12-14"
 要从 CIFS 共享安装定制操作系统，请执行以下步骤：
 
 1. 确保已将 ISO 放置在 CIFS 共享上。
-* 通过将 Web 浏览器指向 control.softlayer.com 中指定的 IP，然后在“设备”->“您的服务器（设备详细信息）”->“远程管理”下，登录到 IPMI 管理控制台。用户名和密码也在此处指定。
+* 通过将 Web 浏览器指向 https://control.softlayer.com/ 中指定的 IP，然后在“设备”->“您的服务器（设备详细信息）”->“远程管理”下，登录到 IPMI 管理控制台。用户名和密码也在此处指定。
 * 将鼠标悬停在**虚拟介质**上，然后单击 **CD-ROM 映像**
 * 填写相应的详细信息，单击**保存并装载**。
 * 并非所有用户都有权更改服务器的 BIOS。您可以根据需要向支持人员开具凭单以请求：
@@ -41,7 +44,8 @@ lastupdated: "2017-12-14"
 * 您具有可引导的 ISO
 * 用于存储可引导 ISO 的 Windows CIFS 服务器或 NAS 存储器
 * ISO 已上传到与服务器关联的文件存储器 (NAS)
-* IPMIView 已安装或访问 KVM 控制台
+* IPMIView 已安装或访问 KVM 控制台 <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * ISO 文件可使用 wget 进行下载
 * 您具有 SSH 访问权，有权访问/安装包和创建装载
 
@@ -68,14 +72,14 @@ lastupdated: "2017-12-14"
         wget http://www.linktoyouriso.com/isofilename.iso
   您将看到确认下载成功的消息。
 * 下载 IPMI View，网址为：
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 通过管理 IP 连接到服务器。
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 打开“虚拟介质”选项卡
 * 填写 CD-ROM 映像连接详细信息。
   *
-    * 共享主机 = NAS 存储器的 IP 地址。您可以通过对 NAS 存储服务器名称执行 ping 操作来查找此值。例如：
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * 共享主机 = NAS 存储器的 IP 地址。您可以通过对 NAS 存储服务器名称执行 ping 操作来查找此值。例如，_ping nas501.service.softlayer.com_
     * 共享名称 = NAS 存储器的用户名
     * 映像的路径 = ISO 文件的名称，格式如下：
           \NASusername\isoname.iso (i.e. \SLN123456\centos6.iso)
@@ -98,7 +102,7 @@ lastupdated: "2017-12-14"
 * 将引导顺序更改为“IPMI 虚拟盘”作为第一个引导选项。（由于尚未装载 ISO，因此现在支持人员只应更改引导设备优先级。）
 
 
-1. 通过将 Web 浏览器指向 control.softlayer.com 中指定的 IP，登录到 IPMI 管理控制台。
+1. 通过将 Web 浏览器指向 https://control.softlayer.com/ 中指定的 IP，登录到 IPMI 管理控制台。
 * 单击“设备”>“您的服务器（设备详细信息）”>“远程管理”。指定用户名和密码。
 * 单击“配置”>“远程会话”，然后将连接方式更改为**连接**。在某些较低版本的 IPMI 控制台中，此选项不可用，所以可以跳过此步骤。
 * 单击“系统”>“系统信息”以返回到系统信息页面。您将看到控制台窗口图标。
@@ -118,6 +122,4 @@ lastupdated: "2017-12-14"
 * 您可能需要联系支持人员来更改 BIOS 中的引导顺序。
 * 装载 ISO 时，请使用 SSL VPN (http://vpn.softlayer.com)，而不要使用 PPTP VPN。连接到该 VPN 网络后，还可以通过 IPMI 地址 (https://<private-ip-IPMI-management>) 访问系统的 IPMI。
 * 输入 ISO 的路径时，请对该路径使用 UNC 名称语法（通用命名约定），例如：
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+  _\\<NAS username>\<isoname>.iso_

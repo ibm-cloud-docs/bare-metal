@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +11,13 @@ lastupdated: "2017-12-12"
 
 # 检查 3ware RAID 阵列的运行状况
 
-3ware 支持使用浏览器界面。但是，除非您在本地访问该界面，否则可能会带来安全风险。因此，我们建议使用命令行界面。
+通过 3ware，可以使用浏览器界面。但是，除非您在本地访问该界面，否则可能会带来安全风险。因此，请使用命令行界面。
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **3ware CLI 工具的快速命令参考**
 
-这些设备必须后跟表示所查询对象的编号。
+这些设备必须后跟标识所查询设备的编号。
 
 tw_cli /c0 show（输出显示了解 RAID 阵列运行状况所需的信息）
 

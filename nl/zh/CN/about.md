@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-07-11"
 
 
 ---
@@ -12,19 +12,35 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 开始使用 {{site.data.keyword.baremetal_short}}
+# 关于裸机服务器
+{: #about}
 
-通过 {{site.data.keyword.baremetal_long}}，您将具备卓越性能和控制能力。{{site.data.keyword.baremetal_short}} 并不在系统管理程序中运行，因此您将获取对硬件资源的低级别访问权。此外，没有其他任何客户与您共享该服务器 - 仅供您独家享用！
+{{site.data.keyword.baremetal_long}} 是基础架构即服务解决方案的基础。不管您是需要高速 I/O 的游戏开发人员，还是需要为用户设置高性能服务器，{{site.data.keyword.baremetal_short}} 都可以满足您的计算需求。
 {:shortdesc}
 
-创建 {{site.data.keyword.baremetal_short}} 时，可以定制从处理器和区域到操作系统和硬盘驱动器等各种规范。
+{{site.data.keyword.baremetal_short}} 是专供您使用的每小时或每月单租户服务器；没有任何部分（包括服务器资源）会与其他客户共享。您可以管理服务器（无需系统管理程序进行供应），并可以将服务器部署在一个或多个数据中心。多个 {{site.data.keyword.baremetal_short}} 可以在 {{site.data.keyword.cloud_notm}} 虚拟专用网上就像部署在同一机架上一样进行通信。 
 
-要供应 {{site.data.keyword.baremetal_short}}，请执行以下操作：
-  1. 转至**计算 > {{site.data.keyword.baremetal_short}}**，然后单击**添加**。
-  2. 选择要供应 {{site.data.keyword.baremetal_short}} 实例的位置。这是其中一个 {{site.data.keyword.Bluemix}} 区域中的数据中心。
-  3. 选择服务器的配置。此配置将应用于为此实例创建的所有服务器。
-  4. 选择要为此实例创建的服务器数。对于每个服务器，输入唯一的主机名。
-  5. **可选：**输入已定义的脚本或文本文件的 URL 来配置服务器。供应脚本必须使用 HTTPS 协议。脚本会在实例供应后下载并执行（如果可能）。如果 URL 未与可执行脚本相关联，那么将只下载该脚本。
-  6. 为服务器选择操作系统。此操作系统将应用于为此实例创建的所有服务器。
+## 适用于每种工作负载的服务器
+{: #servers_every_need}
 
-在一小时内，{{site.data.keyword.baremetal_short}} 将得到供应并可供使用。
+{{site.data.keyword.cloud_notm}} 的 {{site.data.keyword.baremetal_short}} 能够适应每种工作负载。 
+
+### 常用服务器
+{: #Popluar}
+
+{{site.data.keyword.cloud_notm}} 提供的是预配置的服务器，可满足大多数用例的需求。这些服务器被视为“快速供应”，因为已预置您的计算选项（内核数、速度、RAM 和驱动器数）。预置服务器在供应后 30 到 40 分钟即准备就绪可开始配置。有关更多信息，请参阅[裸机服务器](https://www.ibm.com/cloud/bare-metal-servers)，然后滚动到**常用裸机选项**部分。
+
+### 基于定制的服务器
+{: #custom_based}
+
+如果其中一个常用服务器不满足工作负载需求，那么可以定制 {{site.data.keyword.baremetal_short}} 以满足您的需求。定制的服务器在 2 到 4 小时内供应，并提供内核数、速度、RAM 和驱动器数的更丰富选项。有关更多信息，请参阅[裸机服务器](https://www.ibm.com/cloud/bare-metal-servers)，然后滚动到**定制裸机**部分。
+
+### 基于 POWER8 的定制服务器
+{: #power8}
+
+{{site.data.keyword.cloud_notm}} 提供了用于供应基于 IBM POWER8 的裸机服务器的选项。POWER8 服务器采用 POWER8 处理器和一个基于 OpenPOWER 的平台进行构建，该平台已专门针对在 Linux 上基于云部署数据、认知和 Web 工作负载而调整。有关更多信息，请参阅 [POWER8 服务器](https://www.ibm.com/cloud/bare-metal-servers/power)。
+
+### SAP 认证的裸机服务器
+{: #SAP}
+
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 经过认证，支持 SAP HANA 和 SAP NetWeaver 工作负载。有关更多信息，请参阅 [SAP 认证的基础架构](https://www.ibm.com/cloud/bare-metal-servers/sap)。

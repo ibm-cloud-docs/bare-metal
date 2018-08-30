@@ -5,8 +5,11 @@
 IBM Cloud Bare Metal Servers
 
     {: .navgroup id="learn"}
-    about.md
     index.md
+    about.md
+    managedPool_about.md
+    about-SGX.md
+    about-Optane.md
 
     {: .topicgroup}
     RAID
@@ -16,44 +19,62 @@ IBM Cloud Bare Metal Servers
     bare-metal-software.md
 
     {: .topicgroup}
-    操作系统选项
+    操作系统
         introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
-    安全选项
+    安全性
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
     bare-metal-vmware.md
+    bare-metal-virtualization.md
+    bare-metal-sap-applications.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     供应
+        baremetal-provision-popular.md
         baremetal-provision.md
+        bm_provision_ssd.md
+        bare-metal-provision-SGX.md
+        managedPool_provision.md
 
     {: .topicgroup}
     配置
-        configuring.md
+        set-bare-metal-server-2.md
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-        set-bare-metal-server.md
 
     {: .topicgroup}
     管理
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        managing_port_control.md
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
+        managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
+        managedPool_managing.md
+
+     {: .topicgroup}
+     备份和恢复
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
+        [启动急救内核](../vsi/vsi_launch_rescue.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    get-help-and-support.md
+    raid-support.md
     faq.md
     [常见问题：服务器（常规）](../vsi/faq_servers_general.html)
     [常见问题：操作系统重装](../infrastructure/software/os-reload-question-faq.html)

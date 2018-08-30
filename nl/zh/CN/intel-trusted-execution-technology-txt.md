@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2017-11-24"
 
 ## 工作方式
 
-Intel TXT 提供了硬件监视和安全性控制，可帮助向企业确保部署或迁移到 {{site.data.keyword.cloud_notm}} 基础架构的工作负载在已知位置的可信硬件上运行。{{site.data.keyword.cloud_notm}} 在一定范围的 {{site.data.keyword.baremetal_short}} 上提供 Intel TXT 支持。要获取完整列表，请参阅 http://www.softlayer.com/intel-txt。
+Intel TXT 提供了硬件监视和安全性控制，可帮助向企业确保部署或迁移到 {{site.data.keyword.cloud_notm}} 基础架构的工作负载在已知位置的可信硬件上运行。{{site.data.keyword.cloud_notm}} 在一定范围的 {{site.data.keyword.baremetal_short}} 上支持 Intel TXT。要获取完整列表，请参阅 http://www.softlayer.com/intel-txt。
 
 Intel TXT 会分析并度量计算系统组件，从操作系统或系统管理程序一直到计算系统的引导固件和硬件。分析包括系统的基本输入/输出系统 (BIOS)、主引导记录 (MBR) 和引导装入程序。度量值会与标准基线进行比较，以确定系统是可信还是不可信。系统软件和本地或远程管理软件可以使用信任决策来允许或拒绝工作负载在计算系统上运行。由于 Intel TXT 是在引导过程中执行分析和度量，因此增强的安全性不会使应用程序增加任何性能开销。
 
@@ -38,6 +38,6 @@ Intel TXT 会分析并度量计算系统组件，从操作系统或系统管理�
 
 有关 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上的 Intel TXT 的更多信息，请访问 http://www.softlayer.com/intel-txt。
 
-以下链接提供了有关使用 [IBM、VMware 和 HyTrust 的可信安全云解决方案](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)向工作负载添加额外安全性和合规性的更多信息。
+以下链接提供了有关使用 [IBM、VMware 和 HyTrust 的可信安全云解决方案](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)向工作负载添加更多安全性和合规性的更多信息。
 
-**特别技术声明**：Intel 可信执行技术 (Intel TXT) 由 Intel&reg; 提供，并在需要特定技术知识来支持和管理的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上运行。通过 {{site.data.keyword.cloud_notm}} 当前交付模型，我们能够启用或禁用 Intel TXT；但**由于客户环境和数据的敏感性，{{site.data.keyword.cloud_notm}} 无法帮助配置 Intel TXT 设置**。建议您为员工提供 Intel TXT 技术培训，或者与掌握成熟专业知识，能编排可信根和度量的启动环境 (MLE) 体系结构的咨询公司合作。
+**特别技术声明**：Intel 可信执行技术 (Intel TXT) 由 Intel&reg; 提供，并在需要特定技术知识来支持和管理的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上运行。{{site.data.keyword.cloud_notm}} 当前交付模型可以开启或禁用 Intel TXT；但**由于客户环境和数据的敏感性，{{site.data.keyword.cloud_notm}} 无法帮助配置 Intel TXT 设置**。建议您聘用受过 Intel TXT 技术培训的员工，或者与掌握成熟专业知识，能编排可信根和度量的启动环境 (MLE) 体系结构的咨询公司合作。

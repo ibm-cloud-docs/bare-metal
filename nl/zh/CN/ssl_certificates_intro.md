@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+
 
 # SSL 证书
 安全套接字层 (SSL) 技术用于加密对话中涉及的客户机应用程序与服务器应用程序之间的流量。此加密通过使用 SSL 证书的公用密钥/专用密钥系统来完成。
