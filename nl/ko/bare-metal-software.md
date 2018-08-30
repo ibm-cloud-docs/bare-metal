@@ -1,13 +1,15 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-13"
+  years: 1994, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 소프트웨어 및 베어메탈 서버
+# 소프트웨어
 
 {{site.data.keyword.BluSoftlayer_full}}는 32비트 및 64비트 호환 가능 소프트웨어에 대해
 월 단위 라이센스를 제공하기 위해 공급업체와 전략적 제휴를 맺고 있습니다. 사용자가 디바이스를 주문할 때 디바이스에 대한 운영 체제 유형 및 소프트웨어를 선택합니다.

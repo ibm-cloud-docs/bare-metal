@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +11,13 @@ lastupdated: "2017-12-12"
 
 # 3ware RAID 어레이의 상태 확인
 
-3ware를 사용하면 브라우저 인터페이스를 사용할 수 있습니다. 하지만 인터페이스에 로컬로 액세스하지 않으면 보안 위험이 있을 수 있습니다. 따라서 명령행 인터페이스를 사용하도록 권장합니다.
+3ware를 사용하여 브라우저 인터페이스를 사용할 수 있습니다. 그러나 로컬로 인터페이스에 액세스하지 않으면 보안 위험이 있을 수 있습니다. 따라서 명령행 인터페이스를 사용합니다.
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **3ware CLI 도구에 대한 빠른 명령 참조**
 
-해당 디바이스 뒤에는 조회되는 대상을 표시하는 번호가 와야 합니다.
+해당 디바이스 다음에는 조회되는 디바이스를 표시하는 번호가 와야 합니다.
 
 tw_cli /c0 show(출력에 RAID 어레이의 상태를 파악하는 데 필요한 정보가 표시됨)
 

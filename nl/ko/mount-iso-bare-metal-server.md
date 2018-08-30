@@ -1,31 +1,34 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 
-# 베어메탈 서버에 ISO 마운트
+# Bare Metal Server에 ISO 마운트
 
 ## 개요
 
 대부분의 {{site.data.keyword.Bluemix_notm}} 고객이 서버와 함께 제공되는 표준 운영 체제 중 하나를 사용하지만 서버에 사용자 정의 ISO(디스크 이미지)를 마운트할 수 있습니다. 세 가지의 사용자 정의 ISO 마운트 옵션이 있습니다.
 
-이 방법을 사용하려면 SL VPN 서비스(예: https://vpn.ams01.softlayer.com/ ) 또는 네트워크에 이미 연결된 다른 서버를 통해 사설 네트워크에 연결해야 합니다.
+이 방법을 사용하려면 SL VPN 서비스(예: [SoftLayer SSL VPN 포털 - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) 또는 네트워크에 이미 연결된 다른 서버를 통해 사설 네트워크에 연결해야 합니다.
+
+**참고:** 50MB보다 큰 Lenovo 하드웨어 디스크 이미지는 IMM 콘솔 인터페이스 > 매체 탭을 사용하여 마운트해야 합니다.
 
 ## 옵션 1(권장): IPMI 사용(CIFS 공유의 ISO)
 
-이미 인프라를 {{site.data.keyword.Bluemix_notm}}에 배치한 경우, CIFS 공유를 내부 네트워크에 제공하도록 기존 서버를 구성할 수 있습니다. 그런 다음 베어메탈 서버에 임의의 ISO를 마운트할 수 있습니다.
+이미 인프라를 {{site.data.keyword.Bluemix_notm}}에 배치한 경우, CIFS 공유를 내부 네트워크에 제공하도록 기존 서버를 구성할 수 있습니다. 그런 다음 Bare Metal Server에 임의의 ISO를 마운트할 수 있습니다.
 
-이 방법은 로컬 네트워크를 통해 설치하므로 매우 빠르고, 로그아웃하거나 관리 인프라와 연결이 끊어진 경우에도 ISO가 마운트된 상태를 유지할 수 있으므로 베어메탈 서버에 사용자 정의 OS를 설치할 때 권장되는 방법입니다.
+이 방법은 로컬 네트워크를 통해 설치하므로 매우 빠르고, 로그아웃하거나 관리 인프라와 연결이 끊어진 경우에도 ISO가 마운트된 상태를 유지할 수 있으므로 Bare Metal Server에 사용자 정의 OS를 설치할 때 권장되는 방법입니다.
 
 다음 단계에 따라 CIFS 공유에서 사용자 정의 OS를 설치하십시오.
 
 1. ISO를 CIFS 공유에 배치하십시오.
-* control.softlayer.com에서 지정된 IP로 웹 브라우저를 지정하고 디바이스 -> 서버(디바이스 세부사항) -> 원격 관리 아래에서 IPMI 관리 콘솔에 로그인하십시오. 사용자 이름 및 비밀번호도 여기에서 지정됩니다.
+* https://control.softlayer.com/에서 지정된 IP로 웹 브라우저를 지정하고 디바이스 -> 서버(디바이스 세부사항) -> 원격 관리 아래에서 IPMI 관리 콘솔에 로그인하십시오. 사용자 이름 및 비밀번호도 여기에서 지정됩니다.
 * **가상 미디어** 위로 마우스를 이동하고 **CD-ROM 이미지**를 클릭하십시오.
 * 적절한 세부사항을 채우고 **저장 및 마운트**를 클릭하십시오.
 * 모든 사용자가 서버의 BIOS를 변경할 수 있는 권한을 갖는 것은 아닙니다. 필요한 경우 다음 요청을 지원하는 티켓을 열 수 있습니다.
@@ -41,7 +44,8 @@ lastupdated: "2017-12-14"
 * 부트 가능한 ISO가 있습니다.
 * 부트 가능한 ISO를 저장하기 위한 Windows CIFS Server 또는 NAS 스토리지가 있습니다.
 * ISO가 서버와 연관된 파일 스토리지(NAS)에 업로드됩니다.
-* IPMIView가 설치되어 있거나 KVM 콘솔에 액세스합니다.
+* IPMIView가 설치되어 있거나 KVM 콘솔에 액세스합니다. <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * wget를 사용하여 ISO 파일을 다운로드할 수 있습니다.
 * 패키지에 대한 액세스 및 설치를 수행하고 마운트를 작성할 수 있는 권한이 있는 SSH 액세스가 있습니다.
 
@@ -68,14 +72,14 @@ lastupdated: "2017-12-14"
         wget http://www.linktoyouriso.com/isofilename.iso
   다운로드를 완료했음을 나타내는 확인 메시지가 표시됩니다.
 * 여기에 IPMI 보기 다운로드:
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 관리 IP를 통해 서버에 연결하십시오.
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 가상 미디어 탭을 여십시오.
 * CD-ROM 이미지 연결 세부사항을 완료하십시오.
   *
-    * 공유 호스트 = NAS 스토리지의 IP 주소. NAS 스토리지 서버 이름을 Ping하여 이 값을 찾을 수 있습니다. 예를 들면, 다음과 같습니다.
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * 공유 호스트 = NAS 스토리지의 IP 주소. NAS 스토리지 서버 이름을 Ping하여 이 값을 찾을 수 있습니다. 예를 들어 _ping nas501.service.softlayer.com_입니다.
     * 공유 이름 = NAS 스토리지의 사용자 이름
     * 이미지의 경로 = 다음 형식의 ISO 파일 이름:
           \NASusername\isoname.iso(예: \SLN123456\centos6.iso)
@@ -98,7 +102,7 @@ Java iKVM 뷰어(콘솔)를 사용하여 로컬 컴퓨터에서 ISO를 마운트
 * 'IPMI 가상 디스크'를 부팅 순서의 첫 번째 옵션으로 변경합니다. (ISO가 아직 마운트되지 않았으므로 지원이 지금 현재는 부트 디바이스 우선순위만 변경해야 합니다.)
 
 
-1. control.softlayer.com에서 지정된 IP로 웹 브라우저를 지정하여 IPMI 관리 콘솔에 로그인하십시오.
+1. https://control.softlayer.com/에서 지정된 IP로 웹 브라우저를 지정하여 IPMI 관리 콘솔에 로그인하십시오.
 * 디바이스 > 서버(디바이스 세부사항) > 원격 관리를 클릭하십시오. 사용자 이름 및 비밀번호를 지정하십시오.
 * 구성 > 원격 세션을 클릭하고 접속 모드를 **접속**으로 변경하십시오. 일부 오래된 IPMI 콘솔에서는 이 옵션을 사용할 수 없으므로 건너뛸 수 있습니다.
 * 시스템 > 시스템 정보를 클릭하여 시스템 정보 페이지로 돌아가십시오. 그러면 콘솔 창 아이콘이 표시됩니다.
@@ -116,8 +120,6 @@ Java iKVM 뷰어(콘솔)를 사용하여 로컬 컴퓨터에서 ISO를 마운트
 * 모든 사용자가 가상 미디어를 마운트할 수 있는 기본 액세스 권한이 있는 것은 아닙니다. 권한 오류가 발생하는 경우, 루트 IPMI 사용자 권한을 업데이트하려면 지원 팀에 문의하십시오.
 * ISO가 이미 마운트된 경우, **마운트된 디스크가 있습니다.**라는 텍스트와 함께 오류 메시지가 표시됩니다. 기존 디스크를 마운트 해제하고 새 ISO로 대체해야 합니다. 두 개의 ISO가 동시에 마운트되지 않을 수 있습니다.
 * BIOS에서 부팅 순서를 변경하기 위해 지원 팀에 문의해야 할 수도 있습니다.
-* ISO를 마운트할 때 PPTP VPN 대신 SSL VPN(http://vpn.softlayer.com) 을 사용하십시오. 일단 VPN 네트워크에 연결되면 IPMI 주소(https://<private-ip-IPMI-management>)를 통해 시스템의 IPMI에 액세스할 수도 있습니다.
-* ISO에 대한 경로를 입력할 때 경로에 대해 UNC 이름 구문(Universal Naming Convention)을 사용하십시오. 예를 들어, 다음과 같습니다.
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+* ISO를 마운트할 때 PPTP VPN 대신 SSL VPN(http://vpn.softlayer.com) 을 사용하십시오.  일단 VPN 네트워크에 연결되면 IPMI 주소(https://<private-ip-IPMI-management>)를 통해 시스템의 IPMI에 액세스할 수도 있습니다.
+* ISO에 대한 경로를 입력할 때 경로에 UNC 이름 구문(유니버설 이름 지정 규칙)을 사용하십시오. 예를 들어 다음과 같습니다.
+  _\\<NAS username>\<isoname>.iso_

@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+
 
 # SSL 인증서
 SSL(Secure Sockets Layer)은 대화와 관련된 클라이언트 애플리케이션 및 서버 애플리케이션 사이의 트래픽을 암호화하는 기술입니다. 이 암호화는 SSL 인증서를 사용하는 공개 키/개인 키 시스템을 통해 수행됩니다.

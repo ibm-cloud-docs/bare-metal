@@ -2,11 +2,14 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html"}
-IBM Cloud 베어메탈 서버
+IBM Cloud Bare Metal Server
 
     {: .navgroup id="learn"}
-    about.md
     index.md
+    about.md
+    managedPool_about.md
+    about-SGX.md
+    about-Optane.md
 
     {: .topicgroup}
     RAID
@@ -16,46 +19,64 @@ IBM Cloud 베어메탈 서버
     bare-metal-software.md
 
     {: .topicgroup}
-    운영 체제 옵션
+    운영 체제
         introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
-    보안 옵션
+    보안
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
     bare-metal-vmware.md
+    bare-metal-virtualization.md
+    bare-metal-sap-applications.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     프로비저닝
+        baremetal-provision-popular.md
         baremetal-provision.md
+        bm_provision_ssd.md
+        bare-metal-provision-SGX.md
+        managedPool_provision.md
 
     {: .topicgroup}
     구성
-        configuring.md
+        set-bare-metal-server-2.md
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-        set-bare-metal-server.md
 
     {: .topicgroup}
     관리
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        managing_port_control.md
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
+        managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
+        managedPool_managing.md
+
+     {: .topicgroup}
+     백업 및 복구
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
+        [Launching a rescue kernel](../vsi/vsi_launch_rescue.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    get-help-and-support.md
+    raid-support.md
     faq.md
-    [FAQ: 서버(일반)](../vsi/faq_servers_general.html)
-    [FAQ: OS 재로드](../infrastructure/software/os-reload-question-faq.html)
-    [FAQ: cpsrvd 이메일](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    [FAQs: Servers (general)](../vsi/faq_servers_general.html)
+    [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
+    [FAQs: cpsrvd email](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
     {: .navgroup-end}

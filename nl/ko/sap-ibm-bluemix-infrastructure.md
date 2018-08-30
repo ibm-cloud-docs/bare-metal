@@ -1,12 +1,22 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-15"
+  years: 1994, 2017, 2018
+lastupdated: "2018-02-27"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# IBM Cloud for SAP 애플리케이션 인프라
+# IBM Cloud SAP-Certified Infrastructure 오퍼링 삭제
 
-{{site.data.keyword.cloud}} for SAP 애플리케이션 인프라 오퍼링을 사용하면 SAP 워크로드를 {{site.data.keyword.cloud_notm}}에서 실행할 수 있습니다. 이는 SAP NetWeaver 및 SAP HANA를 지원하도록 인증된 {{site.data.keyword.baremetal_short}} 기능을 제공합니다. 모든 서버 옵션은 SAP 애플리케이션의 빠른 배치를 위해 확장 가능하고, 보안이 개선되었으며 개방적인 글로벌 엔터프라이즈 클라우드 플랫폼을 제공합니다. 이로 인해 신속한 용량 확장(및 필요 없는 경우의 축소), 클라우드로 SAP 워크로드 마이그레이션 또는 기존의 프라이빗 클라우드 아키텍처 보완 등의 문제를 해결할 수 있습니다. 또한 {{site.data.keyword.cloud_notm}} 서비스 및 제품의 다양한 어레이를 통해 인프라 투자 예산을 최대화하면서 클라우드 아키텍처를 개선할 수 있습니다.
+{{site.data.keyword.cloud}} SAP-Cerftified Infrastructure 오퍼링에서는 전 세계 60개가 넘는 {{site.data.keyword.IBM_notm}} 데이터 센터를 통해 필요할 때 필요한 위치에서 {{site.data.keyword.cloud_notm}}에서 SAP 워크로드를 실행하는 유연성을 제공합니다. 신속한 용량 확장(및 필요 없는 경우의 축소), 클라우드로 SAP 워크로드 마이그레이션 또는 기존의 프라이빗 클라우드 아키텍처 보완 등의 문제를 신속하게 해결할 수 있습니다.{:shortdesc}
+
+자세한 정보는 다음을 참조하십시오. 
+
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-index.html#getting-started): {{site.data.keyword.cloud_notm}} 인프라에서 SAP NetWeaver 구현 방법을 알려주는 포괄적인 안내서입니다.
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started): RHEL 운영 체제를 사용하여 SAP-인증 서버를 신속하게 프로비저닝하기 위한 빠른 시작 안내서입니다.
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started): Windows 운영 체제를 사용하여 SAP 인증 서버를 신속하게 프로비저닝하는 빠른 참조 안내서입니다.
+  
+  * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started): {{site.data.keyword.cloud_notm}} 인프라에서 SAP HANA 구현 방법을 알려주는 포괄적인 안내서입니다.
