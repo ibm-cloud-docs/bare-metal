@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -27,7 +27,7 @@ Intel TXT 會分析及測量從作業系統或 Hypervisor 到運算系統開機�
 
 ## 它可執行的動作
 
-Intel TXT 特別適用於具有規範及審核規定的大型企業，例如保健、金融服務及政府組織。它有助於確定追蹤可以整合、管理及報告相關規範組織（HIPAA、PCI、FedRAMP、ISO、FISMA 及 SSAE 16）上的所有授信資源。第一次時，這些組織將可以認證雲端運算系統可適當地保護工作負載的安全，例如：
+Intel TXT 特別適用於具有規範及審核規定的大型企業，例如保健、金融服務及政府組織。它有助於確定追蹤可以整合、管理及報告相關規範組織（HIPAA、PCI、FedRAMP、ISO、FISMA 及 SSAE 16）上的所有授信資源。這些組織第一次可以認證雲端運算系統可適當地保護工作負載的安全，例如：
 
 * 控管及企業風險
 * 資訊及生命週期管理
@@ -40,4 +40,4 @@ Intel TXT 特別適用於具有規範及審核規定的大型企業，例如保�
 
 下列鏈結的相關資訊是有關使用[含 IBM、VMware 及 HyTrust 的授信安全雲端解決方案](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)來新增工作負載的額外安全及規範。
 
-**特殊技術注意事項**：Intel Trusted Execution Technology (Intel TXT) 由 Intel&reg; 所提供，作用於需要有特定技術知識以進行支援及管理的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。{{site.data.keyword.cloud_notm}} 現行遞送模型容許我們開啟或關閉 Intel TXT；**{{site.data.keyword.cloud_notm}} 因客戶環境及資料的靈敏度而無法協助配置 Intel TXT 設定**。建議您透過編排信任及已測量啟動環境 (MLE) 架構 root 的經過驗證的專門知識，來訓練人員的 Intel TXT 技術或與諮詢公司合作。
+**特殊技術注意事項**：Intel Trusted Execution Technology (Intel TXT) 由 Intel&reg; 所提供，作用於需要有特定技術知識以進行支援及管理的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。{{site.data.keyword.cloud_notm}} 現行遞送模型可以開啟或關閉 Intel TXT；**{{site.data.keyword.cloud_notm}} 因客戶環境及資料的靈敏度而無法協助配置 Intel TXT 設定**。建議您包含受過 Intel TXT 技術訓練的人員，或是讓具備驗證專門知識的顧問公司參與，精心安排信任根 (root of trust) 與測量式啟動環境 (MLE) 架構。

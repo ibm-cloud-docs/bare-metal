@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+
 
 # SSL 憑證
 Secure Sockets Layer (SSL) 技術可加密交談所涉及的用戶端應用程式與伺服器應用程式之間的資料流量。透過使用 SSL 憑證的公開金鑰/私密金鑰系統，可以完成這項加密。

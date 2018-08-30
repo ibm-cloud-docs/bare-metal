@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +11,13 @@ lastupdated: "2017-12-12"
 
 # 檢查 3ware RAID 陣列的性能
 
-3ware 容許您使用瀏覽器介面。不過，除非您在本端存取介面，否則可能會有安全風險。因此，建議您使用指令行介面。
+有了 3ware，您可以使用瀏覽器介面。不過，除非您在本端存取介面，否則可能會有安全風險。因此，請使用指令行介面。
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **3ware CLI 工具的快速指令參考手冊**
 
-這些裝置的後面必須接著表示要查詢的數字。
+這些裝置的後面必須接著識別要查詢哪些裝置的數字。
 
 tw_cli /c0 show（輸出會顯示知道 RAID 陣列性能所需的資訊）
 

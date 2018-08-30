@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -14,7 +15,9 @@ lastupdated: "2017-12-14"
 
 雖然大部分 {{site.data.keyword.Bluemix_notm}} 客戶都會使用我們的伺服器所隨附的其中一個標準「作業系統」，但是您可以在伺服器上裝載自訂 ISO（磁碟映像檔）。有三個選項可讓您用來裝載自訂 ISO。
 
-為了讓方法能夠正常運作，您需要透過 SL VPN 服務（例如：https://vpn.ams01.softlayer.com/）或透過您已連接至網路的另一部伺服器來連接至專用網路。
+為了讓方法能夠正常運作，您需要透過 SL VPN 服務（例如 [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)）或透過您已連接至網路的另一部伺服器來連接至專用網路。
+
+**附註：**大於 50 MB 的 Lenovo 硬體磁碟映像檔，必須使用 IMM 主控台介面 > 媒體標籤來裝載。
 
 ## 選項 1（偏好）：使用 IPMI（CIFS 共用上的 ISO）
 
@@ -25,7 +28,7 @@ lastupdated: "2017-12-14"
 請遵循下列步驟，以從「CIFS 共用」安裝「自訂 OS」：
 
 1. 確定您已將 ISO 放置在「CIFS 共用」上。
-* 藉由將 Web 瀏覽器指向 control.softlayer.com 中所指定的 IP，以及在「裝置」-> 您的伺服器（裝置詳細資料）->「遠端管理」下所指定的 IP，來登入 IPMI 管理主控台。這裡也會指定使用者名稱及密碼。
+* 藉由將 Web 瀏覽器指向 https://control.softlayer.com/ 中所指定的 IP，以及在「裝置」-> 您的伺服器（裝置詳細資料）->「遠端管理」下所指定的 IP，來登入 IPMI 管理主控台。這裡也會指定使用者名稱及密碼。
 * 將游標移至**虛擬媒體**上方，然後按一下 **CD-ROM 映像檔**
 * 填寫適當的詳細資料，然後按一下**儲存並裝載**。
 * 並非所有使用者都有權變更伺服器的 BIOS。必要的話，您可以開啟問題單來支援要求：
@@ -41,7 +44,8 @@ lastupdated: "2017-12-14"
 * 您有可開機的 ISO
 * 用來儲存「可開機 ISO」的「Windows CIFS 伺服器」或「NAS 儲存空間」
 * ISO 已上傳至與伺服器相關聯的「檔案儲存空間 (NAS)」。
-* 已安裝 IPMIView 或存取「KVM 主控台」
+* 已安裝 IPMIView 或存取「KVM 主控台」 <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * 可使用 wget 下載「ISO 檔案」
 * 您的 SSH 存取權具有存取/安裝套件以及建立裝載的專用權
 
@@ -68,14 +72,14 @@ lastupdated: "2017-12-14"
         wget http://www.linktoyouriso.com/isofilename.iso
   您會看到下載成功的確認。
 * 在這裡下載「IPMI 視圖」：
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * 透過「管理 IP」連接至「伺服器」。
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * 開啟「虛擬媒體」標籤
 * 完成「CD-ROM 映像檔」連線詳細資料。
   *
-    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如，
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如 _ping nas501.service.softlayer.com_
     * 共用名稱 = NAS 儲存空間的「使用者名稱」
     * 映像檔的路徑 = ISO 檔案的名稱，格式如下：
           \NASusername\isoname.iso（即 \SLN123456\centos6.iso）
@@ -98,7 +102,7 @@ lastupdated: "2017-12-14"
 * 將開機順序變更為「IPMI 虛擬磁碟」作為第一個開機選項（因為尚未裝載 ISO，所以支援現在應該只會變更開機裝置優先順序）。
 
 
-1. 藉由將 Web 瀏覽器指向 control.softlayer.com 中所指定的 IP，來登入 IPMI 管理主控台。
+1. 藉由將 Web 瀏覽器指向 https://control.softlayer.com/ 中所指定的 IP，來登入 IPMI 管理主控台。
 * 按一下「裝置」> 您的伺服器（裝置詳細資料）>「遠端管理」。指定使用者名稱及密碼。
 * 按一下「配置」>「遠端階段作業」，然後將連接模式變更為 **attach**。在某些較舊的 IPMI 主控台中，無法使用此選項，因此您可以跳過此步驟。
 * 按一下「系統」>「系統資訊」，回到系統資訊頁面。您會看到主控台視窗圖示。
@@ -117,7 +121,5 @@ lastupdated: "2017-12-14"
 * 如果已裝載 ISO，則會出現一則錯誤訊息，其文字為**已裝載磁碟**。您必須卸載現有磁碟，並將它取代為新的 ISO。可能無法同時裝載兩個 ISO。
 * 您可能需要聯絡支援中心，以變更 BIOS 中的開機順序。
 * 裝載 ISO 時，請使用 SSL VPN (http://vpn.softlayer.com)，而非 PPTP VPN。在連接至 VPN 網路之後，您也可以透過 IPMI 位址存取系統的 IPMI (https://<private-ip-IPMI-management>)。
-* 當您輸入 ISO 的路徑時，請使用「UNC 名稱語法」（一般命名慣例）的路徑，例如：
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+* 當您輸入 ISO 的路徑時，請針對路徑使用「UNC 名稱語法」（一般命名慣例），例如：
+  _\\<NAS username>\<isoname>.iso_
