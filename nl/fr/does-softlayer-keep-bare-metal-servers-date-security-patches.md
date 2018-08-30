@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -15,4 +15,4 @@ lastupdated: "2017-11-24"
 
 # Correctifs de sécurité
 
-Le réseau privé {{site.data.keyword.IBM}} utilise des services dédiés (Microsoft Server Update Services et Red Hat Network) pour les mises à jour de sécurité. Au moment de la livraison, la mise à jour automatique des correctifs de sécurité est affectée par défaut à chacun des paramètres {{site.data.keyword.baremetal_short}}. Ce dispositif peut être activé ou désactivé manuellement à tout moment. 
+Le réseau privé {{site.data.keyword.IBM}} utilise des services dédiés (Microsoft Server Update Services et Red Hat Network) pour les mises à jour de sécurité. Par défaut, au moment de la livraison, tous les serveurs bare metal sont définis pour une mise à jour automatique des correctifs de sécurité. 
