@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +11,15 @@ lastupdated: "2017-12-12"
 
 # Den Zustand Ihres 3ware-RAID-Array prüfen
 
-Mit 3ware können Sie eine Browserschnittstelle verwenden. Wenn Sie jedoch nicht lokal auf die Schnittstelle zugreifen, kann dies ein Sicherheitsrisiko darstellen. Daher empfehlen wir, die Befehlszeilenschnittstelle zu verwenden.
+Mit 3ware können Sie eine Browserschnittstelle verwenden. Wenn Sie jedoch nicht lokal auf die Schnittstelle zugreifen, kann dies ein Sicherheitsrisiko darstellen. Daher sollten Sie die Befehlszeilenschnittstelle verwenden. 
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
-**Schnellbefehlreferenz für 3ware-CLI-tools**
+**Kurzbefehlsreferenz für 3ware-CLI-Tools**
 
-Diesen Einheiten muss eine Nummer folgen, die angibt, welche Einheit gerade abgefragt wird.
+Diesen Einheiten muss eine Nummer folgen, die angibt, welche Einheit abgefragt wird. 
 
-tw_cli /c0 show (Ausgabe gibt Informationen an, an denen der Zustand des RAID-Arrays ermittelt werden kann)
+tw_cli /c0 show (Ausgabe enthält Informationen, mit denen der Zustand des RAID-Arrays ermittelt werden kann)
 
 ./tw_cli /c1 show
 

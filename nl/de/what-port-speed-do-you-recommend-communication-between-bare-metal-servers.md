@@ -1,13 +1,14 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-05"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 
-# Kommunikation zwischen {{site.data.keyword.baremetal_short}}n
+# Kommunikation zwischen {{site.data.keyword.baremetal_short}}
 
-In einer Instanz, in der mehrere {{site.data.keyword.baremetal_long}} über ein privates Netz miteinander kommunizieren müssen, empfiehlt {{site.data.keyword.cloud_notm}} ein 100-MB/s-Port-Upgrade für jede Einheit. Wenn die {{site.data.keyword.baremetal_short}} Einheiten mit großem Volumen sind, wird ein Upgrade auf 1000 MB/s für Verbindungen zwischen den Einheiten empfohlen.
+Falls mehrere {{site.data.keyword.baremetal_long}} über das private Netz miteinander kommunizieren müssen, empfiehlt {{site.data.keyword.cloud_notm}} das 100-MB/s-Port-Upgrade für jede Einheit. Wenn die {{site.data.keyword.baremetal_short}} Einheiten mit großem Volumen sind, wird ein Upgrade auf 1000 MB/s für Verbindungen zwischen den Einheiten empfohlen.

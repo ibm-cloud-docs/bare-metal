@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -15,4 +15,4 @@ lastupdated: "2017-11-24"
 
 # Sicherheitspatches
 
-Das private {{site.data.keyword.IBM}}-Netz verwendet für Sicherheitsupdates dedizierte Dienste (Microsoft Server Update Services und Red Hat Network). Bei der Auslieferung werden standardmäßig alle {{site.data.keyword.baremetal_short}}-Einstellungen automatisch für Sicherheitspatches aktualisiert. Diese Funktion kann jederzeit manuell aktiviert oder inaktiviert werden.
+Das private {{site.data.keyword.IBM}}-Netz verwendet für Sicherheitsupdates dedizierte Dienste (Microsoft Server Update Services und Red Hat Network). Bei der Bereitstellung sind alle {{site.data.keyword.baremetal_short}} standardmäßig so eingestellt, dass Sicherheitspatches automatisch aktualisiert werden. 

@@ -5,8 +5,11 @@
 Bare-Metal-Server von IBM Cloud
 
     {: .navgroup id="learn"}
-    about.md
     index.md
+    about.md
+    managedPool_about.md
+    about-SGX.md
+    about-Optane.md
 
     {: .topicgroup}
     RAID
@@ -16,46 +19,64 @@ Bare-Metal-Server von IBM Cloud
     bare-metal-software.md
 
     {: .topicgroup}
-    Betriebssystemoptionen
+    Betriebssysteme
         introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
-    Sicherheitsoptionen
+    Sicherheit
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
     bare-metal-vmware.md
+    bare-metal-virtualization.md
+    bare-metal-sap-applications.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     Bereitstellung
+        baremetal-provision-popular.md
         baremetal-provision.md
+        bm_provision_ssd.md
+        bare-metal-provision-SGX.md
+        managedPool_provision.md
 
     {: .topicgroup}
-    Konfigurieren
-        configuring.md
+    Konfiguration
+        set-bare-metal-server-2.md
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-        set-bare-metal-server.md
 
     {: .topicgroup}
-    Verwalten
+    Verwaltung
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        managing_port_control.md
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
+        managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
+        managedPool_managing.md
+
+     {: .topicgroup}
+     Sicherung und Wiederherstellung
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
+        [Rescue-Kernel starten](../vsi/vsi_launch_rescue.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    get-help-and-support.md
+    raid-support.md
     faq.md
-    [Häufig gestellte Fragen (FAQs: Server (allgemein)](../vsi/faq_servers_general.html)
-    [Häufig gestellte Fragen (FAQs: Neuladen des Betriebssystems](../infrastructure/software/os-reload-question-faq.html)
-    [Häufig gestellte Fragen (FAQs: cpsrvd-E-Mail](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    [Häufig gestellte Fragen: Server (allgemein)](../vsi/faq_servers_general.html)
+    [Häufig gestellte Fragens: Erneutes Laden des Betriebssystems](../infrastructure/software/os-reload-question-faq.html)
+    [Häufig gestellte Fragen: E-Mail zu cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
     {: .navgroup-end}
