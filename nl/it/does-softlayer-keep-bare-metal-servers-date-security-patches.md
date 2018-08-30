@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-24"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
 
 
 ---
@@ -15,4 +15,4 @@ lastupdated: "2017-11-24"
 
 # Patch di sicurezza
 
-La rete privata {{site.data.keyword.IBM}} utilizza dei servizi dedicati (Microsoft Server Update Services e Red Hat Network) per gli aggiornamenti della sicurezza. Al momento della fornitura, tutti i {{site.data.keyword.baremetal_short}} sono impostati, automaticamente, per eseguire automaticamente l'aggiornamento per le patch di sicurezza. Questa funzione può essere attivata o disattivata manualmente in qualsiasi momento.
+La rete privata {{site.data.keyword.IBM}} utilizza dei servizi dedicati (Microsoft Server Update Services e Red Hat Network) per gli aggiornamenti della sicurezza. Al momento della fornitura, tutti i {{site.data.keyword.baremetal_short}} sono impostati, per impostazione predefinita, per eseguire automaticamente l'aggiornamento per le patch di sicurezza.

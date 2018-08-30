@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-07-11"
 
 
 ---
@@ -12,19 +12,35 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Introduzione a {{site.data.keyword.baremetal_short}}
+# Informazioni sui server bare metal
+{: #about}
 
-I {{site.data.keyword.baremetal_long}} ti offrono prestazioni e controllo. I {{site.data.keyword.baremetal_short}} non vengono eseguiti in un hypervisor e ottieni un accesso di basso livello alle risorse hardware. Inoltre, non condividerai il server con altri clienti; è tutto tuo!
+I {{site.data.keyword.baremetal_long}} sono la base per la tua soluzione IaaS (infrastructure-as-a-service). Che tu sia uno sviluppatore di giochi che ha bisogno di I/O ad alta velocità o che tu debba configurare dei server ad elevate prestazioni per i tuoi utenti; i {{site.data.keyword.baremetal_short}} possono rispondere alle tue esigenze di elaborazione.
 {:shortdesc}
 
-Quando crei un {{site.data.keyword.baremetal_short}}, puoi personalizzare le specifiche, da processori e regione a sistema operativo e disco rigido.
+I tuoi {{site.data.keyword.baremetal_short}} sono server orari o mensili a singolo tenant e sono dedicati a te e nessuna loro parte, comprese le risorse server, è condivisa con altri clienti. Se tu a gestire il tuo server, di cui viene eseguito il provisioning senza un hypervisor e che può essere distribuito in uno o più data center. Più {{site.data.keyword.baremetal_short}} possono comunicare sulla VPN (virtual private network) di {{site.data.keyword.cloud_notm}} come se si trovassero sullo stesso rack. 
 
-Per eseguire il provisioning di un {{site.data.keyword.baremetal_short}}:
-  1. Vai a **Calcola > {{site.data.keyword.baremetal_short}}** e fai clic su **Aggiungi**.
-  2. Seleziona l'ubicazione nella quale desideri che venga eseguito il provisioning dell'istanza {{site.data.keyword.baremetal_short}}. Questo è un data center in una delle regioni {{site.data.keyword.Bluemix}}.
-  3. Seleziona la configurazione per i server. Questa configurazione si applica a tutti i server creati per questa istanza.
-  4. Seleziona il numero di server che desideri venga creato per questa istanza Per ciascun server, immetti un nome host univoco.
-  5. **Facoltativo** immetti un URL a uno script o a un file di testo da te definito per configurare il server. Lo script di provisioning deve utilizzare un protocollo HTTPS. Lo script verrà scaricato ed eseguito dopo l'esecuzione del provisioning dell'istanza, se possibile. Se l'URL non è associato a uno script eseguibile, lo script verrà semplicemente scaricato.
-  6. Seleziona il sistema operativo per i server. Questo sistema operativo si applica a tutti i server creati per questa istanza.
+## Server per ogni carico di lavoro
+{: #servers_every_need}
 
-Entro un'ora, verrà eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}} che sarà quindi disponibile per l'uso.
+{{site.data.keyword.cloud_notm}} ha {{site.data.keyword.baremetal_short}} adatti a tutti i carichi di lavoro. 
+
+### Server popolari
+{: #Popluar}
+
+{{site.data.keyword.cloud_notm}} offre dei server preconfigurati che soddisfano le esigenze della maggior parte dei casi d'uso. Questi server sono considerati a "provisioning rapido" perché le tue opzioni di calcolo (numero di core, velocità, RAM e numero di unità) sono preimpostate. I server preimpostati sono pronti per la configurazione 30 - 40 minuti dopo il provisioning. Per ulteriori informazioni, vedi [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers) e scorri alla sezione **Popular bare metal options**.
+
+### Server basati sulla personalizzazione
+{: #custom_based}
+
+Se uno dei server popolari non soddisfa le tue esigenze di carico di lavoro, puoi personalizzare i tuoi {{site.data.keyword.baremetal_short}} per soddisfare le tue esigenze. Dei server personalizzati viene eseguito il provisioning in 2 - 4 ore e offrono una più ampia varietà di core, velocità, RAM e unità. Per ulteriori informazioni, vedi [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers) e scorri alla sezione **Customize bare metal**.
+
+### Server basati su POWER8 personalizzati
+{: #power8}
+
+{{site.data.keyword.cloud_notm}} ti offre l'opzione di eseguire il provisioning di un server bare metal basato su IBM POWER8. I server POWER8 sono sviluppati con il processore POWER8 e una piattaforma basata su OpenPower, che viene regolata in modo specifico per le distribuzioni basate sul cloud per i carichi di lavoro di dati, cognitivi e web su Linux. Per ulteriori informazioni, vedi [POWER8 Servers](https://www.ibm.com/cloud/bare-metal-servers/power).
+
+### Server bare metal certificati per SAP
+{: #SAP}
+
+I {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} sono certificati per supportare i tuoi carichi di lavoro SAP HANA e SAP NetWeaver. Per ulteriori informazioni, vedi [SAP Certified Infrastructure](https://www.ibm.com/cloud/bare-metal-servers/sap).

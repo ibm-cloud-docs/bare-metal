@@ -1,16 +1,23 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-15"
+  years: 1994, 2017, 2018
+lastupdated: "2018-02-27"
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Infrastruttura IBM Cloud per applicazioni SAP
+# Offerta IBM Cloud SAP-Certified Infrastructure
 
-L'offerta di infrastruttura {{site.data.keyword.cloud}} per applicazioni SAP ti consente di eseguire i tuoi carichi di lavoro SAP su {{site.data.keyword.cloud_notm}}. Offre dei {{site.data.keyword.baremetal_short}} che sono stati certificati per supportare SAP NetWeaver e SAP HANA. Tutte le opzioni server offrono una piattaforma cloud aziendale globale, aperta, completa sotto il profilo della sicurezza e scalabile per una rapida distribuzione di applicazioni SAP. Ciò ti lascia libero di occuparti di problemi quali una rapida espansione della capacità (e di una sua contrazione, quando non è necessaria), la migrazione di carichi di lavoro SAP al cloud o l'integrazione dei un'architettura cloud privata esistente.
-Hai anche a tua disposizione un'ampia gamma di servizi e prodotti {{site.data.keyword.cloud_notm}} per migliorare la tua architettura cloud, massimizzando al tempo stesso il tuo budget di investimenti nell'infrastruttura.
+{{site.data.keyword.cloud}} SAP-Cerftified Infrastructure ti offre la flessibilità di eseguire i tuoi carichi di lavoro SAP in {{site.data.keyword.cloud_notm}} quando e dove ne hai bisogno con più di 60 data center {{site.data.keyword.IBM_notm}} in tutto il mondo. Puoi occuparti in poco tempo di problemi quali una rapida espansione della capacità (e di una sua contrazione, quando non è necessaria), la migrazione di carichi di lavoro SAP al cloud o l'integrazione di un'architettura cloud privata esistente.
+{:shortdesc}
 
-Per indicazioni sulla distribuzione, visita ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](/http://knowledgelayer.softlayer.com/procedure/sap-ibm-bluemix-infrastructure).
+Per ulteriori informazioni, vedi 
 
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-index.html#getting-started), una guida completa alla modalità di implementazione di SAP NetWeaver nell'infrastruttura {{site.data.keyword.cloud_notm}}.
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started), una guida rapida per eseguire in tempi brevi il provisioning dei tuoi server con certificazione SAP con il sistema operativo RHEL.
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started), una guida di riferimento rapido per eseguire in tempi brevi il provisioning dei tuoi server con certificazione SAP con il sistema operativo Windows.
+  
+  * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started), una guida completa alla modalità di implementazione di SAP HANA nell'infrastruttura {{site.data.keyword.cloud_notm}}.

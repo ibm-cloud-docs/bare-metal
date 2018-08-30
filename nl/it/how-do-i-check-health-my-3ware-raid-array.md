@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +11,13 @@ lastupdated: "2017-12-12"
 
 # Controllo dello stato del tuo array RAID 3ware
 
-3ware ti consente di utilizzare un'interfaccia browser. Tuttavia, a meno che tu non acceda all'interfaccia localmente, ciò può rappresentare un rischio per la sicurezza. Consigliamo pertanto di utilizzare l'interfaccia riga di comando (CLI).
+Con 3ware, puoi utilizzare un'interfaccia browser. Tuttavia, a meno che tu non acceda all'interfaccia localmente, può rappresentare un rischio per la sicurezza. Utilizzi pertanto l'interfaccia riga di comando (CLI).
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **Guida di riferimento rapida ai comandi per gli strumenti della CLI 3ware**
 
-Questi dispositivi devono essere seguiti da un numero che indica quale sia quello attualmente oggetto della query.
+Questi dispositivi devono essere seguiti da un numero che identifica quali di essi siano attualmente oggetto della query.
 
 tw_cli /c0 show (l'output mostra le informazioni necessarie per conoscere lo stato dell'array RAID)
 
