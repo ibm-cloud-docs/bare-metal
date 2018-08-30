@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-05"
+  years: 1994, 2018
+lastupdated: "2018-07-31"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,4 +11,14 @@ lastupdated: "2017-12-05"
 
 # サーバー IP アドレスの割り当て
 
-{{site.data.keyword.cloud}} では、デバイスに関連付けられている単一の 1 次 IP アドレスを使用してサーバーをプロビジョンします。サーバーごとに割り振ることができる 1 次 IP は、1 つのみです。サーバーに関連付けられている他のすべての IP アドレスは、2 次サブネットからのものでなければなりません。これは、[カスタマー・ポータル](https://control.softlayer.com)または [{{site.data.keyword.cloud_notm}}](www.ibm.com/cloud) Web サイトでいつでも購入可能です。アドレスに関する使用可能なオプションおよび価格設定について詳しくは、『[Networking services in {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/network)』を参照してください。
+{{site.data.keyword.cloud}} では、サーバーは、プライベート・ネットワークでは IPv4 アドレスで構成されます。この IPv4 アドレスは、プライベート・ネットワークで低レベル管理アクセスに使用するものですが、要求があれば、パブリック IPv4 アドレスで構成されます。
+要求があれば、パブリック・ネットワークで IPv6 アドレスを使用することも可能です。これらの IP アドレスはすべて、まとめて **1 次 IP アドレス **と呼ばれます。
+
+[カスタマー・ポータル ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com) から ** 2 次サブネット** を購入すれば、サーバーにバインドする IP アドレスを増やすことができます。ユーザーがカスタマー・ポータルから購入し自分で管理する IP アドレスは **2 次 IP アドレス**と呼ばれます。
+
+IP アドレスの取得について詳しくは、「[サブネットおよび IP](https://console.bluemix.net/docs/infrastructure/subnets/)」を参照してください。
+
+
+# 2 次 IP アドレスのバインド
+
+2 次サブネットを購入した後、1 つ以上の IP アドレスを使用するようにオペレーティング・システムを構成する必要があります。IP アドレスの構成方法は　オペレーティング・システムごとに異なりますが、通常は「インターフェース別名」のセットアップと呼ばれています。 

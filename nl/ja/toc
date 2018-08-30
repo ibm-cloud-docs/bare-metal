@@ -5,8 +5,11 @@
 IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
-    about.md
     index.md
+    about.md
+    managedPool_about.md
+    about-SGX.md
+    about-Optane.md
 
     {: .topicgroup}
     RAID
@@ -16,46 +19,64 @@ IBM Cloud bare metal servers
     bare-metal-software.md
 
     {: .topicgroup}
-    オペレーティング・システム・オプション
+    オペレーティング・システム
         introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
 
     {: .topicgroup}
-    セキュリティー・オプション
+    セキュリティー
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
     bare-metal-vmware.md
+    bare-metal-virtualization.md
+    bare-metal-sap-applications.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     プロビジョニング
+        baremetal-provision-popular.md
         baremetal-provision.md
+        bm_provision_ssd.md
+        bare-metal-provision-SGX.md
+        managedPool_provision.md
 
     {: .topicgroup}
     構成
-        configuring.md
+        set-bare-metal-server-2.md
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-        set-bare-metal-server.md
 
     {: .topicgroup}
     管理
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        managing_port_control.md
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
+        managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
+        managedPool_managing.md
+
+     {: .topicgroup}
+     バックアップとリカバリー
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
+        [レスキュー・カーネルの起動](../vsi/vsi_launch_rescue.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    get-help-and-support.md
+    raid-support.md
     faq.md
-    [FAQs: Servers (general)](../vsi/faq_servers_general.html)
-    [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
-    [FAQs: cpsrvd email](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    [FAQ: サーバー (一般)](../vsi/faq_servers_general.html)
+    [FAQ: OS 再ロード](../infrastructure/software/os-reload-question-faq.html)
+    [FAQ: cpsrvd 失敗の E メール](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
     {: .navgroup-end}

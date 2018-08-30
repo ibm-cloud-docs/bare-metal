@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-07-11"
 
 
 ---
@@ -12,19 +12,35 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.baremetal_short}} 入門
+# ベア・メタル・サーバーについて
+{: #about}
 
-{{site.data.keyword.baremetal_long}} は、パフォーマンスと制御の機能を提供します。{{site.data.keyword.baremetal_short}} は、ハイパーバイザーで実行されず、ハードウェア・リースに対する低レベルのアクセスが可能です。また、サーバーを共有する他のお客様が存在せず、専用で使用することになります。
+{{site.data.keyword.baremetal_long}} は、お客様の Infrastructure as a Service ソリューションの基盤となるものです。高速な入出力が必要なゲーム開発者でも、ユーザー向けに高性能サーバーの性能をさらに向上させる必要がある場合でも、{{site.data.keyword.baremetal_short}} なら、その計算ニーズに応えることができます。
 {:shortdesc}
 
-{{site.data.keyword.baremetal_short}} を作成する際には、プロセッサーや地域からオペレーティング・システムやハード・ディスクに至る各種仕様をカスタマイズできます。
+{{site.data.keyword.baremetal_short}} は、時間課金または月額課金の自分専用シングル・テナント・サーバーです。このサーバーには、他のお客様と共有している部分は、サーバーのリソースを含めて何もありません。サーバーはハイパーバイザーを使用せずにプロビジョンされ、1 つ以上のデータ・センターにデプロイできますが、このサーバーをユーザーはご自分で管理します。複数の {{site.data.keyword.baremetal_short}} が、同じラック上に配置されているかのように、{{site.data.keyword.cloud_notm}} 仮想プライベート・ネットワークで通信できます。 
 
-{{site.data.keyword.baremetal_short}} をプロビジョンするには、以下のようにします。
-  1. **「計算」>「{{site.data.keyword.baremetal_short}}**」に移動し、**「追加」**をクリックします。
-  2. {{site.data.keyword.baremetal_short}} インスタンスをプロビジョンする場所を選択します。これは、{{site.data.keyword.Bluemix}} 地域のいずれかのデータ・センターです。
-  3. サーバーの構成を選択します。この構成は、このインスタンスで作成されたすべてのサーバーに適用されます。
-  4. このインスタンスで作成するサーバーの数を選択します。サーバーごとに固有のホスト名を入力します。
-  5. **オプション:** サーバーを構成するために定義したスクリプトまたはテキスト・ファイルの URL を入力します。プロビジョニング・スクリプトでは、HTTPS プロトコルを使用する必要があります。スクリプトは、インスタンスのプロビジョン後にダウンロードされて実行されます (可能な場合)。URL が実行可能スクリプトに関連付けられていない場合、スクリプトは単にダウンロードされます。
-  6. サーバーのオペレーティング・システムを選択します。このオペレーティング・システムは、このインスタンスで作成されたすべてのサーバーに適用されます。
+## あらゆるワークロードに対応するサーバー
+{: #servers_every_need}
 
-1 時間以内に、{{site.data.keyword.baremetal_short}} がプロビジョンされ、使用可能になります。
+{{site.data.keyword.cloud_notm}} には、あらゆるワークロードに適合する {{site.data.keyword.baremetal_short}} があります。 
+
+### ポピュラーなサーバー
+{: #Popluar}
+
+{{site.data.keyword.cloud_notm}} では、ほとんどのユースケースのニーズを満たす、事前構成済みのサーバーを提供しています。このようなサーバーは、コンピュート・オプション (コアの数、速度、RAM、およびドライブ数) が事前設定されているので、「高速プロビジョン」と考えられています。事前設定されているサーバーは、プロビジョニング後 30 分ないし 40 分で構成の準備が整います。詳しくは、「[Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers)」を参照して、『**Popular bare metal options**』セクションまでスクロールしてください。
+
+### カスタム・ベースのサーバー
+{: #custom_based}
+
+ポピュラーなサーバーのどれを使用してもワークロードのニーズに合わない場合は、ご自分のニーズに合うようにご使用の {{site.data.keyword.baremetal_short}} をカスタマイズできます。カスタマイズされたサーバーがプロビジョンされるのは 2 時間ないし 4 時間後になりますが、提示されるコア、速度、RAM、そしてドライブの種類は大幅に広がります。詳しくは、「[Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers)」を参照して、『**Customize bare metal**』セクションまでスクロールしてください。
+
+### POWER8 ベースのカスタム・サーバー
+{: #power8}
+
+{{site.data.keyword.cloud_notm}} では、IBM POWER8 ベースのベアメタル・サーバーをプロビジョンするオプションを提供しています。POWER8 サーバーは POWER8 プロセッサーと OpenPower ベースのプラットフォームを使用してビルドされており、特に、データ、コグニティブ・システム、および Web のワークロードを Linux にクラウド・ベースでデプロイするようチューニングされています。詳しくは、「[POWER8 Servers](https://www.ibm.com/cloud/bare-metal-servers/power)」を参照してください。
+
+### SAP 認定ベアメタル・サーバー
+{: #SAP}
+
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} は、SAP HANA と SAP NetWeaver のワークロードをサポートしていることが認定されています。詳しくは、「[SAP Certified Infrastructure](https://www.ibm.com/cloud/bare-metal-servers/sap)」を参照してください。
