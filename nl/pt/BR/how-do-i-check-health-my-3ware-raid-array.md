@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +11,16 @@ lastupdated: "2017-12-12"
 
 # Verificando o funcionamento de sua matriz RAID do 3ware
 
-O 3ware permite usar uma interface do navegador. No entanto, a menos que você acesse a interface localmente, isso pode ser um risco de segurança. Portanto, sugerimos usar a interface da linha de comandos.
+Com o 3ware, é possível usar uma interface do navegador. No entanto, a menos que você acesse a interface localmente, isso pode
+ser um risco de segurança. Portanto, use a interface da linha de comandos.
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **Referência rápida de comando para ferramentas da CLI do 3ware**
 
-Esses dispositivos devem ser seguidos por um número denotando que estão sendo consultados.
+Esses dispositivos devem ser seguidos por um número que identifique quais dispositivos estão sendo consultados.
 
-tw_cli /c0 show (a saída mostra as informações necessárias para conhecer o funcionamento da matriz RAID)
+tw_cli /c0 show (A saída mostra as informações necessárias para conhecer o funcionamento da matriz RAID)
 
 ./tw_cli /c1 show
 

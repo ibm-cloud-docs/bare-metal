@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-07-11"
 
 
 ---
@@ -12,19 +12,50 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Introdução aos {{site.data.keyword.baremetal_short}}
+# Sobre servidores bare metal
+{: #about}
 
-Os {{site.data.keyword.baremetal_long}} fornecem a você desempenho e controle. Os {{site.data.keyword.baremetal_short}} não são executados em um hypervisor e você obtém acesso de baixo nível para os recursos de hardware. Além disso, nenhum outro cliente compartilhará o servidor com você -- é todo seu!
+Os {{site.data.keyword.baremetal_long}} são a base para a solução de infraestrutura como serviço. Se você é um
+desenvolvedor de jogos que requer E/S de alta velocidade ou precisa de servidores de alto desempenho para os usuários, os
+{{site.data.keyword.baremetal_short}} podem atender às suas necessidades de computação.
 {:shortdesc}
 
-Ao criar os {{site.data.keyword.baremetal_short}}, é possível customizar as especificações dos processadores e região para o sistema operacional e disco rígido.
+Os {{site.data.keyword.baremetal_short}} são servidores de locatário único, por hora ou mensal, dedicados a você;
+nenhuma parte deles, incluindo os recursos do servidor, é compartilhada com os outros clientes. Você gerencia o servidor, que
+é fornecido sem um hypervisor e pode ser implementado em um ou mais data centers. Múltiplos {{site.data.keyword.baremetal_short}} podem se comunicar na rede privada virtual do {{site.data.keyword.cloud_notm}}
+como se estivessem dispostos no mesmo rack. 
 
-Para provisionar os {{site.data.keyword.baremetal_short}}:
-  1. Acesse **Cálculo > {{site.data.keyword.baremetal_short}}** e clique em **Incluir**.
-  2. Selecione o local em que você deseja que a instância dos {{site.data.keyword.baremetal_short}} seja provisionada. Este é um data center em uma das regiões do {{site.data.keyword.Bluemix}}.
-  3. Selecione a configuração para os servidores. Essa configuração se aplica a todos os servidores criados para esta instância.
-  4. Selecione o número de servidores que você deseja que sejam criados para esta instância. Para cada servidor, insira um nome de host exclusivo.
-  5. **Opcional:** insira uma URL em um arquivo de script ou texto que você definiu para configurar o servidor. O script de fornecimento deve usar um protocolo HTTPS. O script será transferido por download e executado após a instância ser provisionada, se possível. Se a URL não estiver associada a um script executável, o script simplesmente será transferido por download.
-  6. Selecione o sistema operacional para os servidores. Esse sistema operacional se aplica a todos os servidores criados para esta instância.
+## Servidores para cada carga de trabalho
+{: #servers_every_need}
 
-Em uma hora, seus {{site.data.keyword.baremetal_short}} são provisionados e estão disponíveis para uso.
+{{site.data.keyword.cloud_notm}}  tem  {{site.data.keyword.baremetal_short}}  para ajustar cada carga de trabalho. 
+
+### Servidores populares
+{: #Popluar}
+
+O {{site.data.keyword.cloud_notm}} oferece servidores pré-configurados que atendem às necessidades da maioria dos
+casos de uso. Esses servidores são considerados de "fornecimento rápido", pois as suas opções de cálculo (o número de
+núcleos, a velocidade, a RAM e o número de unidades) são pré-configuradas. Os servidores pré-configurados estão prontos para
+a configuração de 30 a 40 minutos após o fornecimento. Para obter mais informações, consulte [Bare Metal Server](https://www.ibm.com/cloud/bare-metal-servers) e role para a seção **Opções de bare metal populares**.
+
+### Servidores baseados em customização
+{: #custom_based}
+
+Se um dos servidores populares não atender às suas necessidades de carga de trabalho, será possível customizar os
+{{site.data.keyword.baremetal_short}} para que elas sejam atendidas. 
+Os servidores customizados são fornecidos em duas a quatro horas e oferecem uma maior variedade de núcleos, de velocidades, de RAM
+e de unidades. Para obter mais informações, consulte [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers) e role para a seção **Customizar bare metal**.
+
+### Servidores baseados em POWER8 customizados
+{: #power8}
+
+O {{site.data.keyword.cloud_notm}} oferece a opção de fornecer um Bare Metal Server baseado no IBM POWER8. Os
+servidores POWER8 são desenvolvidos com o processador POWER8 e uma plataforma baseada em OpenPower que é ajustada
+especificamente para as implementações baseadas em nuvem para os dados, os cognitivos e as cargas de trabalho da web no Linux. Para obter mais informações, consulte [Servidores POWER8](https://www.ibm.com/cloud/bare-metal-servers/power).
+
+### Servidores bare metal certificados por SAP
+{: #SAP}
+
+Os {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} são certificados para suportar as
+cargas de trabalho do SAP HANA e do SAP NetWeaver. Para obter mais informações, consulte
+[Infraestrutura certificada pela SAP](https://www.ibm.com/cloud/bare-metal-servers/sap).

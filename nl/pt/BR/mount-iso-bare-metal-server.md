@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -14,18 +15,24 @@ lastupdated: "2017-12-14"
 
 Embora a maioria dos clientes {{site.data.keyword.Bluemix_notm}} use um dos Sistemas Operacionais padrão que vêm com os nossos servidores, é possível montar os ISOs customizados (imagens do disco) em servidores. Há três opções para montar os ISOs customizados.
 
-Para que os métodos funcionem, você precisará estar conectado à rede privada por meio do serviço de VPN SL (por exemplo, https://vpn.ams01.softlayer.com/) ou por meio de outro servidor já conectado à rede.
+Para que os métodos funcionem, é necessário estar conectado à rede privada por meio do serviço VPN SL, como o
+[SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) ou por meio de outro servidor já conectado à rede.
+
+**Nota:** as imagens do disco de hardware Lenovo maiores que 50 MB devem ser montadas usando a guia Interface do console do IMM > mídia.
 
 ## Opção 1 (preferencial): usando IPMI (ISO em um compartilhamento CIFS)
 
 Se você já tiver a infraestrutura implementada no {{site.data.keyword.Bluemix_notm}}, será possível configurar um servidor existente para oferecer um compartilhamento CIFS para a rede interna. Será possível então montar qualquer ISO em um servidor bare metal.
 
-Esse é o método preferencial para instalar um S.O. customizado em um servidor bare metal porque ele instala sobre a rede local, que é muito rápida e pode manter um ISO montado, mesmo se você efetuar logout ou for desconectado da interface de gerenciamento.
+Esse é o método preferencial para instalar um S.O. customizado em um Bare Metal Server porque ele é instalado sobre a rede
+local, que é muito rápida e pode manter um ISO montado mesmo se você efetuar logout ou for desconectado da interface de
+gerenciamento.
 
 Siga estas etapas para instalar um S.O. customizado por meio de um compartilhamento CIFS:
 
 1. Certifique-se de que tenha colocado o ISO no compartilhamento CIFS.
-* Efetue login no console de gerenciamento do IPMI apontando seu navegador da web para o IP especificado em control.softlayer.com e em dispositivos -> seu servidor (detalhes do dispositivo) -> Gerenciamento remoto. O nome do usuário e a senha também são especificados aqui.
+* Efetue login no console de gerenciamento do IPMI apontando o navegador da web para o IP especificado em
+https://control.softlayer.com/ e em dispositivos -> seu servidor (detalhes do dispositivo) -> Gerenciamento remoto. O nome do usuário e a senha também são especificados aqui.
 * Passe o mouse sobre a **Mídia virtual** e clique em **Imagem de CD-ROM**
 * Preencha os detalhes apropriados, clique em **Salvar e montar**.
 * Nem todos os usuários têm permissão para mudar o BIOS do servidor. Se necessário, é possível abrir um chamado para o suporte solicitando:
@@ -40,8 +47,9 @@ Siga estas etapas para instalar um S.O. customizado por meio de um compartilhame
 Pré-requisitos:<br/>
 * Você tem um ISO inicializável
 * Um Windows CIFS Server ou Armazenamento NAS para armazenar o ISO inicializável
-* O ISO é transferido por upload para o Armazenamento de arquivos (NAS) associado ao servidor.
-* O IPMIView está instalado ou acesso ao Console KVM
+* O ISO é transferido por upload para o File Storage (NAS) associado ao servidor.
+* O IPMIView está instalado ou acesso ao Console KVM <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * O arquivo ISO é transferível por download usando wget
 * Você tem acesso SSH com privilégios para acessar/instalar pacotes e criar uma montagem
 
@@ -68,15 +76,14 @@ Siga as etapas abaixo para montar um ISO com IPMIView.
         wget http://www.linktoyouriso.com/isofilename.iso
   Você verá uma confirmação de que o download foi bem-sucedido.
 * Faça download da Visualização do IPMI aqui:
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Conecte-se ao Servidor sobre o IP de Gerenciamento.
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Abra a guia de Mídia virtual
 * Conclua os detalhes da conexão da imagem de CD-ROM.
   *
-    * Host de compartilhamento = o Endereço IP do Armazenamento NAS. É possível localizar esse valor efetuando ping do nome do servidor de armazenamento NAS. Por
-exemplo,
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * Host de compartilhamento = o Endereço IP do Armazenamento NAS. É possível localizar esse valor efetuando ping do nome do servidor de armazenamento NAS. Por exemplo,  _ ping nas501.service.softlayer.com _
     * Nome de compartilhamento = o Nome do usuário do armazenamento NAS
     * Caminho para a imagem = o nome do arquivo ISO, no formato a seguir:
           \NASusername\isoname.iso (ou seja, \SLN123456\centos6.iso)
@@ -99,7 +106,8 @@ Se você não tem permissão para mudar o BIOS em um servidor, abra um chamado d
 * Para mudar a sequência de inicialização para ‘Disco virtual do IPMI’ como primeira opção de inicialização. (Como o ISO ainda não está montado, o suporte deverá mudar somente a prioridade do dispositivo de inicialização por enquanto).
 
 
-1. Efetue login no console de gerenciamento do IPMI apontando seu navegador da web para o IP especificado em control.softlayer.com.
+1. Efetue login no console de gerenciamento do IPMI apontando o navegador da web para o IP especificado em
+https://control.softlayer.com/.
 * Clique em Dispositivos > seu servidor (detalhes do dispositivo) > Gerenciamento remoto. Especifique o nome do usuário e a senha.
 * Clique em Configuração > Sessão remota e mude o modo de conexão para **conectar**. Em alguns consoles do IPMI mais antigos, essa opção não está disponível, portanto é possível ignorar esta etapa.
 * Clique em Sistema > Informações do sistema para retornar à página de informações do sistema. Você verá um ícone de janela do console.
@@ -117,8 +125,6 @@ Se você não tem permissão para mudar o BIOS em um servidor, abra um chamado d
 * Nem todos os usuários têm acesso padrão para montar a Mídia virtual. Se um erro de permissão ocorrer, entre em contato com o Suporte para uma atualização para as permissões de Usuário raiz do IPMI.
 * Se um ISO já estiver montado, uma mensagem de erro aparecerá com o texto **Há um disco montado**. Deve-se desmontar o disco existente e substituí-lo pelo novo ISO. Dois ISO não podem estar montados ao mesmo tempo.
 * Você pode precisar entrar em contato com o suporte para mudar a ordem de inicialização no BIOS.
-* Ao montar um ISO, use a VPN SSL (http://vpn.softlayer.com) em vez de VPN PPTP. Depois de conectado à rede VPN, também é possível acessar o IPMI do sistema por meio do endereço do IPMI (https://<private-ip-IPMI-management>).
-* Quando você inserir um caminho para um ISO, use a Sintaxe de nome UNC (Convenção Universal de Nomenclatura) para o caminho, por exemplo:
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+* Ao montar um ISO, use a VPN SSL (http://vpn.softlayer.com) em vez de VPN PPTP.  Depois de conectado à rede VPN, também é possível acessar o IPMI do sistema por meio do endereço do IPMI (https://<private-ip-IPMI-management>).
+* Ao inserir um caminho para um ISO, use a sintaxe de nome UNC (Convenção Universal de Nomenclatura) para o caminho, por
+exemplo: _\\<nome do usuário do NAS>\<isoname>.iso _
