@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-12"
+  years: 2017, 2018
+lastupdated: "2018-04-02"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +11,13 @@ lastupdated: "2017-12-12"
 
 # Comprobación del estado de la matriz RAID 3ware
 
-3ware le permite utilizar una interfaz del navegador. Sin embargo, a menos que acceda a la interfaz de forma local, puede ser un riesgo de seguridad. Por lo tanto, se recomienda utilizar la interfaz de línea de mandatos.
+Con 3ware, puede utilizar una interfaz de navegador. Sin embargo, a menos que acceda a la interfaz de forma local, puede ser un riesgo de seguridad. Por lo tanto, utilice la interfaz de línea de mandatos.
 
 <!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
 
 **Referencia rápida de mandato para herramientas de CLI de 3ware**
 
-Estos dispositivos deben ir seguidos por un número que indique cuál se consulta.
+Estos dispositivos deben ir seguidos por un número que identifica a los dispositivos que se están consultando.
 
 tw_cli /c0 show (la salida muestra la información necesaria para conocer el estado de la matriz RAID)
 

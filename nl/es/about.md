@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2016
-lastupdated: "2016-01-19"
+  years: 2016, 2018
+lastupdated: "2018-07-11"
 
 
 ---
@@ -12,19 +12,35 @@ lastupdated: "2016-01-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Iniciación a los {{site.data.keyword.baremetal_short}}
+# Acerca de los servidores nativos
+{: #about}
 
-Los {{site.data.keyword.baremetal_long}} proporcionan rendimiento y control. Los {{site.data.keyword.baremetal_short}} no se ejecutan en un hipervisor, y el usuario obtiene acceso de bajo nivel a los recursos de hardware. Además, el servidor no se comparte con otros clientes, ¡es todo suyo!
+{{site.data.keyword.baremetal_long}} son la piedra angular de la solución de infraestructura como servicio. Ya sea usted un desarrollador de juegos que requiere E/S de alta velocidad o que necesite servidores de alto rendimiento para sus usuarios, {{site.data.keyword.baremetal_short}} puede responder a sus necesidades de cálculo.
 {:shortdesc}
 
-Al crear un dispositivo de {{site.data.keyword.baremetal_short}}, puede personalizar las especificaciones, desde los procesadores y la región hasta el sistema operativo y el disco duro.
+{{site.data.keyword.baremetal_short}} es un servidor de un solo arrendatario por hora o mensual que está dedicado a usted; no se comparte en ninguna parte, incluidos los recursos del servidor, con otros clientes. Puede gestionar el servidor, que se suministra sin un hipervisor, y se puede desplegar en uno o varios centros de datos. Se pueden comunicar varios {{site.data.keyword.baremetal_short}} en la red privada virtual de {{site.data.keyword.cloud_notm}} como si estuvieran en el mismo bastidor. 
 
-Para suministrar un dispositivo de {{site.data.keyword.baremetal_short}}:
-  1. Vaya a **Calcular > {{site.data.keyword.baremetal_short}}** y pulse **Añadir**.
-  2. Seleccione la ubicación en la que desea que se suministre la instancia de {{site.data.keyword.baremetal_short}}. Se trata de un centro de datos en una de las regiones de {{site.data.keyword.Bluemix}}.
-  3. Seleccione la configuración de los servidores. Esta configuración se aplica a todos los servidores creados para esta instancia.
-  4. Seleccione el número de servidores que ha creado para esta instancia. Para cada servidor, especifique un nombre de host exclusivo.
-  5. **Opcional:** especifique un URL a un script o archivo de texto que haya definido para configurar el servidor. El script de suministro debe utilizar un protocolo HTTPS. El script se descargará y se ejecutará después de que se haya suministrado la instancia, si es posible. Si el URL no está asociado a un script ejecutable, el script sólo se descargará.
-  6. Seleccione el sistema operativo de los servidores. Este sistema operativo se aplica a todos los servidores creados para esta instancia.
+## Servidores para cada carga de trabajo
+{: #servers_every_need}
 
-Pasada una hora, se habrá suministrado el dispositivo de {{site.data.keyword.baremetal_short}} y estará disponible para utilizarse.
+{{site.data.keyword.cloud_notm}} tiene {{site.data.keyword.baremetal_short}} para que se adapte a cada carga de trabajo. 
+
+### Servidores populares
+{: #Popluar}
+
+{{site.data.keyword.cloud_notm}} ofrece servidores preconfigurados que satisfacen las necesidades de la mayoría de los casos de uso. Estos servidores se consideran "de suministro rápido" porque sus opciones de cálculo (número de núcleos, velocidad, RAM y número de unidades) están preestablecidos. Los servidores preestablecidos están listos para configurar de 30 a 40 minutos después del suministro. Para obtener más información, consulte [Servidores nativos](https://www.ibm.com/cloud/bare-metal-servers), y desplácese a la sección **Opciones de nativos populares**.
+
+### Servidores basados en la personalización
+{: #custom_based}
+
+Si uno de los servidores populares no satisface sus necesidades de carga de trabajo, puede personalizar el {{site.data.keyword.baremetal_short}} para que se adapte a sus necesidades. Los servidores personalizados se suministran entre 2 y 4 horas y ofrecen una mayor variedad de núcleos, velocidades, RAM y unidades. Para obtener más información, consulte [Servidores nativos](https://www.ibm.com/cloud/bare-metal-servers), y desplácese a la sección **Personalizar nativo**.
+
+### Servidores basados en POWER8 personalizados
+{: #power8}
+
+{{site.data.keyword.cloud_notm}} le ofrece la opción de suministrar un servidor nativo basado en POWER8 de IBM. Los servidores POWER8 están creados con el procesador POWER8 y una plataforma basada en OpenPower, que se adapta específicamente a los despliegues basados en la nube para cargas de trabajo de datos, cognitivas y web en Linux. Para obtener más información, consulte [Servidores POWER8](https://www.ibm.com/cloud/bare-metal-servers/power).
+
+### Servidores dedicados con certificado SAP
+{: #SAP}
+
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} están certificados para dar soporte a las cargas de trabajo de SAP HANA y SAP NetWeaver. Para obtener más información, consulte [Infraestructura certificada de SAP](https://www.ibm.com/cloud/bare-metal-servers/sap).

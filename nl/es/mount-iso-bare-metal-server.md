@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-14"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -14,7 +15,9 @@ lastupdated: "2017-12-14"
 
 Aunque la mayoría de los clientes de {{site.data.keyword.Bluemix_notm}} utilizan uno de los sistemas operativos estándar incluidos con nuestros servidores, puede montar ISO (imágenes de disco) personalizadas en los servidores. Hay tres opciones para montar ISO personalizadas.
 
-Para que los métodos funcionen, debe estar conectado a la red privada a través del servicio VPN de SL (ej.: https://vpn.ams01.softlayer.com/) o a través de otro servidor que ya haya conectado a la red.
+Para que los métodos funcionen, debe estar conectado a la red privada a través del servicio VPN de SL, como por ejemplo, [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login), o a través de otro servidor que ya haya conectado a la red.
+
+**Nota:** Las imágenes de disco de hardware de Lenovo superiores a 50 MB deben montarse utilizando la interfaz de la consola IMM > separador soporte.
 
 ## Opción 1 (preferida): utilizar IPMI (ISO en una compartición de CIFS)
 
@@ -25,7 +28,7 @@ Este es el método preferido para instalar un SO personalizado en un servidor na
 Siga estos pasos para instalar un SO personalizado desde una compartición de CIFS:
 
 1. Asegúrese de que ha colocado la ISO en la compartición de CIFS.
-* Inicie sesión en la consola de gestión de IPMI apuntando su navegador web a la dirección IP especificada en control.softlayer.com y en dispositivos -> su servidor (detalles del dispositivo) -> Gestión remota. El nombre de usuario y la contraseña también se especifican aquí.
+* Inicie sesión en la consola de gestión de IPMI apuntando su navegador web a la dirección IP especificada en https://control.softlayer.com/ y en dispositivos -> su servidor (detalles del dispositivo) -> Gestión remota. El nombre de usuario y la contraseña también se especifican aquí.
 * Pase el ratón sobre **Virtual Media** y pulse **CD-ROM image**.
 * Rellene la información apropiada y pulse **Save and Mount**.
 * No todos los usuarios tienen permiso para cambiar el BIOS del servidor. Si es necesario, puede abrir una incidencia de soporte para solicitar:
@@ -41,7 +44,8 @@ Requisitos previos:<br/>
 * Tener una ISO arrancable
 * Un servidor CIFS de Windows o almacenamiento NAS para almacenar la ISO arrancable
 * Que la ISO esté cargada en el almacenamiento de archivos (NAS) asociado con el servidor.
-* Que IPMIView esté instalado, o acceder a la consola de KVM
+* Que IPMIView esté instalado, o acceder a la consola de KVM <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
 * Que el archivo ISO se pueda descargar con wget
 * Tener acceso de SSH con privilegios para acceder o instalar paquetes y crear un montaje
 
@@ -68,14 +72,14 @@ Siga estos pasos para montar una ISO con IPMIView.
         wget http://www.linktoyouriso.com/isofilename.iso
   Verá una confirmación de que la descarga se ha realizado correctamente.
 * Descargue IPMIView aquí:
+      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
 * Conéctese al servidor mediante la IP de gestión.
+      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
+      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
 * Abra el separador Virtual Media
 * Indique los detalles de conexión de la imagen de CD-ROM.
   *
-    * Share host = la dirección IP del almacenamiento NAS. Puede obtener este valor haciendo ping en el nombre de servidor de almacenamiento NAS. Por ejemplo,
-    ```
-    ping nas501.service.softlayer.com
-    ```
+    * Share host = la dirección IP del almacenamiento NAS. Puede obtener este valor haciendo ping en el nombre de servidor de almacenamiento NAS. Por ejemplo, _ping nas501.service.softlayer.com_
     * Share Name = el nombre de usuario del almacenamiento NAS
     * Path to image = el nombre del archivo ISO, en el formato siguiente:
           \NASusername\isoname.iso (i.e. \SLN123456\centos6.iso)
@@ -98,7 +102,7 @@ Si no tiene permiso para cambiar el BIOS de un servidor, abra una incidencia de 
 * Cambiar la secuencia de arranque a 'IPMI Virtual Disk' como primera opción de arranque. (Puesto que la ISO aún no está montada, por ahora el equipo de soporte solo debe cambiar la prioridad del dispositivo de arranque).
 
 
-1. Inicie sesión en la consola de gestión de IPMI apuntando su navegador web a la dirección IP especificada en control.softlayer.com.
+1. Inicie sesión en la consola de gestión de IPMI apuntando su navegador web a la dirección IP especificada en https://control.softlayer.com/.
 * Pulse Dispositivos > su servidor (detalles del dispositivo) > Gestión remota. Especifique el nombre de usuario y la contraseña.
 * Pulse Configuration > Remote session y cambie la modalidad de Attach a **attach**. En algunas consolas anteriores de IPMI, esta opción no está disponible, así que puede saltarse este paso.
 * Pulse System > System information para volver a la página de información del sistema. Verá un icono de ventana de consola.
@@ -116,8 +120,6 @@ Si no tiene permiso para cambiar el BIOS de un servidor, abra una incidencia de 
 * No todos los usuarios tienen acceso predeterminado para montar medios virtuales. Si se produce un error de permiso, póngase en contacto con el equipo de soporte para actualizar los permisos de usuario root de IPMI.
 * Si una ISO ya está montada, aparecerá un mensaje de error con el texto **There is a disk mounted**. Debe desmontar el disco existente y sustituirlo por la nueva ISO. No se pueden montar dos ISO al mismo tiempo.
 * Quizá sea necesario ponerse en contacto con el equipo de soporte para cambiar el orden de arranque en el BIOS.
-* Al montar un ISO, utilice VPN SSL (http://vpn.softlayer.com) en lugar de VPN PPTP. Una vez conectado a la red de VPN, también puede acceder al IPMI del sistema mediante la dirección de IPMI (https://<private-ip-IPMI-management>).
+* Al montar un ISO, utilice VPN SSL (http://vpn.softlayer.com) en lugar de VPN PPTP.  Una vez conectado a la red de VPN, también puede acceder al IPMI del sistema mediante la dirección de IPMI (https://<private-ip-IPMI-management>).
 * Cuando indique una vía de acceso a una ISO, utilice la sintaxis de nombre UNC (convenio de nomenclatura universal) para la vía de acceso, por ejemplo:
-  ```
-  \\<NAS username>\<isoname>.iso
-  ```
+  _\\<NAS username>\<isoname>.iso_

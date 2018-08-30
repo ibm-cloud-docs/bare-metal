@@ -1,7 +1,9 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-05"
+  years: 1994, 2018
+lastupdated: "2018-07-31"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,4 +11,18 @@ lastupdated: "2017-12-05"
 
 # Asignación de direcciones IP de servidor
 
-{{site.data.keyword.cloud}} suministra a los servidores una única dirección IP primaria asociada con el dispositivo. A cada servidor sólo se le puede asignar una IP primaria. Todas las demás direcciones IP se deben asociar a un servidor desde una subred secundaria, que se puede adquirir en cualquier momento a través del [Portal del cliente](https://control.softlayer.com) o en el [sitio web de {{site.data.keyword.cloud_notm}}](www.ibm.com/cloud). Para obtener más información sobre las opciones y los precios disponibles de las direcciones, consulte [Servicios de red en {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/network).
+{{site.data.keyword.cloud}} configura los servidores con una dirección IPv4 en la red
+privada, una dirección IPv4 para el acceso de gestión de bajo nivel en la
+red privada y, si se solicita, una dirección IPv4 pública.
+Una dirección IPv6 en la red pública, está disponible si se solicita. Todas estas
+direcciones IP se denominan colectivamente como **Direcciones IP principales**.
+
+Se pueden enlazar más direcciones IP a los servidores después de adquirir **Subredes secundarias** a través del [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com). Las direcciones IP que ha adquirido mediante el Portal de clientes y que usted gestiona se denominan **Direcciones IP secundarias**.
+
+Para obtener más información sobre la adquisición de direcciones IP, consulte [Subredes e IP](https://console.bluemix.net/docs/infrastructure/subnets/).
+
+
+# Enlace de direcciones IP secundarias
+
+Después de adquirir una subred secundaria, deberá configurar
+el sistema operativo para que utilice una o varias direcciones IP. Cada sistema operativo configura las direcciones IP de forma distinta, pero se suele hacer referencia a la configuración de los "alias de interfaz". 

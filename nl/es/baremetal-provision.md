@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017, 2018
+lastupdated: "2018-07-06"
 
 
 ---
@@ -16,86 +16,77 @@ lastupdated: "2017-11-29"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Suministro de servidores nativos
 
-## Antes de empezar
-Tiene dos opciones para suministrar {{site.data.keyword.baremetal_long}} públicos. La primera es a través del catálogo de {{site.data.keyword.cloud}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa.
-{:shortdesc}
-
-Antes de empezar, asegúrese de que dispone de las credenciales del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}.
-
-**Nota:** para el catálogo de {{site.data.keyword.cloud_notm}}, debe tener una cuenta actualizada para pedir {{site.data.keyword.baremetal_short}}. Para obtener más información sobre cómo actualizar la cuenta, consulte [Cambiar a IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
-
-## Inicio de sesión
-Asegúrese de que está conectado, ya sea a través del catálogo de {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}:
-
-  <table>
-   <CAPTION>Tabla 1. Elija una ubicación de inicio de sesión</CAPTION>
-   <THEAD>
-   <TR>
-   <th>Si desea iniciar sesión con...</th>
-   <th>Realice lo siguiente:</th>
-   </TR>
-   </THEAD>
-   <TBODY>
-   <tr>
-   <td>Catálogo de IBM Cloud</td>
-   <td>
-   <ol>
-   <li>Abra una nueva ventana del navegador y escriba <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>.</li>
-   <li>Pulse el enlace <b>Iniciar sesión</b>. </li>
-   <li>Escriba su correo electrónico o IBMid y pulse <b>Continuar</b>.</li>
-   <li>Escriba su contraseña y pulse <b>Iniciar sesión</b>.</li>
-   <li>Seleccione <b>Infraestructura</b> > <b>Cálculo</b>.</li>
-   <li>Pulse el mosaico <b>{{site.data.keyword.baremetal_short}}</b>.</li>
-   <li>Pulse <b>Crear</b>. Se abrirá la página principal del {{site.data.keyword.slportal}}.</li>
-   </ol>
-   </td>
-   </tr>
-   <tr>
-   <td>Portal del cliente</td>
-   <td>
-   <ol>
-   <li>Abra una nueva ventana del navegador y escriba <a href="https://control.softlayer.com">https://control.softlayer.com</a>.</li>
-   <li>Escriba su nombre de usuario y contraseña y pulse <b>Iniciar sesión</b>. O bien, pulse <b>Iniciar sesión con ID de IBM</b>. A continuación, escriba su correo electrónico o IBMid y pulse <b>Continuar</b>. Escriba su contraseña y pulse <b>Iniciar sesión</b>. Se abrirá la página principal del {{site.data.keyword.slportal}}.</li>
-   </ol>
-   </td>
-   </tr>
-   </TBODY>
-   </table>
-
-## Suministro de un servidor nativo
+# Creación de un servidor nativo personalizado
 {: #ordering-baremetal-server}
-Una vez que haya iniciado sesión, puede empezar a suministrar un dispositivo de {{site.data.keyword.baremetal_short}}. Puede suministrar el dispositivo de {{site.data.keyword.baremetal_short}} a través del menú **Dispositivos** o del icono **Dispositivos**.
 
-### Suministro de un servidor nativo a través del icono de dispositivos
-Para suministrar el dispositivo de {{site.data.keyword.baremetal_short}} mediante el icono *Dispositivos*, siga estos pasos:
+Efectúe los pasos siguientes para crear un {{site.data.keyword.baremetal_short}} personalizado.
 
-1.  En el {{site.data.keyword.slportal}}, localice la sección **Pedido** y pulse **Dispositivos**.
-2.  En la página Dispositivos, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
-3.  Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor.
-4.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
-5.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.html) para obtener más información sobre cómo hacerlo.
-6.  Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.
-7.  Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
+1. Abra el [catálogo de {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:target="_blank"}.   
+2. Seleccione el servidor nativo.
+3. Pulse Crear.
+4. Debajo de la lista de servidores, busque la sentencia: **¿Está interesado en otras opciones de configuración? Pulse aquí**. Seleccione esta opción. Se visualiza el formulario de servidor personalizado.
+1. Seleccione una ubicación del centro de datos para el servidor.
+* Seleccione un servidor desde las tres categorías de servidores pulsando el enlace **Precio desde**.
+  * Servidores certificados por SAP (Para obtener más información sobre el suministro de un Servidor certificado por SAP, consulte [Infraestructura certificada por SAP de {{site.data.keyword.cloud_notm}}](/docs/bare-metal/bare-metal-sap-applications.html))
+  * Servidores de varios núcleos con un solo procesador
+  * Servidores de varios núcleos de procesador dual
 
- Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico completo de suministro incluye un enlace con la página *Detalles del dispositivo*, después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
+* Seleccione una de las opciones de configuración. **Centro de datos**, **RAM** y **Sistema operativo** son campos necesarios. Los otros campos son opcionales. Para obtener más información sobre los campos opcionales, consulte las **[Opciones de configuración de servidor adicionales](#addl-server-options)**.
 
-### Suministro de un servidor nativo a través del menú Dispositivos
-{: #ordering-baremetal-devices-menu}
+    **Nota**: Se muestra un mensaje de error si existe un conflicto entre el servidor y el sistema operativo. Por ejemplo, si se selecciona Linux en un servidor Microsoft SQL.
+* Pulse **Añadir a pedido**. Se muestra la página de pago.
 
-También puede suministrar el dispositivo de {{site.data.keyword.baremetal_short}} a través del menú *Dispositivos* en la página principal del {{site.data.keyword.slportal}}.
+  En la página Extraer, puede volver a la página de configuración pulsando una de las opciones de Reconfigurar.
+* En la sección Configuración avanzada del sistema, especifique opciones de configuración adicionales. Para obtener más información, consulte **[Configuración avanzada del sistema](#adv-system-config)**.
 
-1. Pulse **Dispositivos > Lista de dispositivos**. La página Dispositivos muestra todos los tipos de dispositivos (host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler) de su cuenta.
-2. Pulse el enlace **Pedir dispositivos** en la esquina superior derecha.
-3. En la página Pedir servicios y productos de SoftLayer, pulse **Por hora** o **Mensualmente** en {{site.data.keyword.baremetal_short}}.
-4. Seleccione el **Centro de datos**, desplácese a través de la página y pulse el enlace **Precio desde** para seleccionar el servidor.
-5.  Rellene la información de la página **Configure el dispositivo de {{site.data.keyword.baremetal_short}}** y pulse el botón **Añadir a pedido**. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo configurar el servidor. Una vez verificado el pedido, se le redirigirá a la página de **pago**.
-6.  Especifique la **Configuración avanzada del sistema** para el servidor. Consulte [Configuración del dispositivo de {{site.data.keyword.baremetal_short}}](../bare-metal/configuring.md) para obtener más información sobre cómo hacerlo.
-7. Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicio de terceros**.
-8. Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
+*   Pulse los recuadros de selección **Términos de los servicios en la nube** y **Acuerdo de servicio de terceros**.
+*   Confirme o especifique la información sobre el pago y pulse **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
 
-Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico completo de suministro incluye un enlace con la página *Detalles del dispositivo*, después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
+  También puede guardar este pedido sin adquirirlo pulsando **Guardar como presupuesto**.
 
-### Pasos siguientes
+ Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo* después de que inicie una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
+
+ ## Opciones de configuración de servidor adicionales
+ {: #addl-server-options}
+
+ Tiene opciones adicionales disponibles al suministrar el servidor nativo, por ejemplo el ancho de banda público, las velocidades de puerto de enlace ascendente, las direcciones IP secundarias públicas, etc. La Tabla 1 describe las opciones adicionales.
+
+
+ | **Campo** | **Descripción** |
+ |-------------------|---------------|
+ |Seguridad del servidor|Por ejemplo, Trusted Execution Technology (Intel TXT)|
+ |Software Guard Extensions|Seguridad aumentada para código y datos confidenciales (Intel SGX). <br><br>Consulte [Suministro de un servidor nativo con Intel SGX](../bare-metal/bare-metal-provision-SGX.html).|
+ |RAM|Elija un nivel de RAM que cumpla con sus necesidades de servidor.|
+ |Sistema operativo |Seleccione entre CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu u Otro. |
+ |Unidades de disco duro |Utilice la herramienta de la interfaz de usuario para configurar los discos duros rellenando los campos en función de la selección del sistema operativo. <br><br> También puede seleccionar para utilizar una unidad Intel Optane SSD. Consulte [Suministro de un Intel Optane SSD DC P4800X](../bare-metal/bm-provision_ssd.html).
+ |Ancho de banda público |Determina la cantidad de datos que se pueden transferir a través de la interfaz pública durante un mes. Para entornos de prueba, que necesitan transferir datos de instalación a través de esta interfaz, los valores deben adaptarse más allá de la cantidad de datos transferidos inicialmente. Considere la [red de entrega de contenidos de {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/cdn) para enviar una carga de datos inicial a uno de los centros de datos de {{site.data.keyword.cloud_notm}}. Todos los {{site.data.keyword.baremetal_short}} se pueden actualizar para incluir un ancho de banda sin límite de uso (ilimitado). Todos los dispositivos sin límite de uso están en puertos privados y dedicados.|
+ |Velocidades de puerto de enlace ascendente |Determina la velocidad de las interfaces internas y externas. |
+ |Direcciones IP secundarias públicas |Asigna más direcciones IP al servidor. Según el caso, puede necesitar que se asignen más direcciones IP al servidor. Existen más direcciones IPv4 disponibles en cantidades de 1, 2, 4, 8, 16 o 32. |
+ |Direcciones IPv6 primarias |Asignadas a las interfaces internas y externas del servidor. |
+ |Direcciones IPv6 estáticas públicas |Asigna más direcciones IPv6 de un bloque /64. |
+ |Complementos de sistema operativo|Seleccione opciones como, por ejemplo, VMware, soluciones de copia de seguridad, panel de control, base de datos, cortafuegos de hardware y software, protección antivirus y de spyware, protección y detección de intrusión. <br><br>Se recomienda encarecidamente que su departamento de seguridad corporativa se ponga de acuerdo con el soporte de {{site.data.keyword.cloud_notm}} para comentar los detalles de estas opciones.
+ |Evault |Una herramienta de copia de seguridad basada en agente que se puede instalar en el servidor para replicar copias de seguridad entre servidores. |
+ |Complementos de servicio|Seleccione los complementos de servicio como, por ejemplo, la supervisión, la respuesta automática y el seguro.|
+ {: caption="Tabla 1. Opciones de servidor adicionales" caption-side="top"}
+
+## Configuración avanzada del sistema
+{: #adv-system-config}
+
+Los campos bajo **Configuración avanzada del sistema** completan el proceso de suministro.
+
+| **Campo** | **Descripción** |
+|---|---|
+| Nombre de host | Un nombre permanente o temporal para el servidor, por ejemplo, _server1_. **Nota**: Si está suministrando un servidor certificado por SAP, el nombre de host de SAP debe estar formado por un máximo de 13 caracteres alfanuméricos. Para obtener más información sobre los nombres de host de SAP, consulte [Notas de SAP 611361](https://launchpad.support.sap.com/#/notes/2611361) y [129997](https://launchpad.support.sap.com/#/notes/129997). Requiere un ID S-user de SAP. |
+| Dominio | Nombre del subdominio, que no debería estar en conflicto con un nombre de dominio de Internet, por ejemplo, _test.acme.com_. |
+| Selección de VLAN | Si hay una VLAN bajo su cuenta porque ya ha solicitado al menos un servidor, puede añadir el nuevo servidor a la VLAN. |
+| Script de suministro | Puede proporcionar un script que le permita automatizar algunos pasos después del suministro. |
+| Claves SSH | Puede proporcionar la clave pública de su clave SSH, que le permitirá iniciar sesión en el servidor una vez que se haya suministrado. |
+{: caption="Tabla 2. Configuración avanzada del sistema" caption-side="top"}
+
+ Consulte el soporte de {{site.data.keyword.cloud_notm}} para obtener más información.
+
+ **NOTA:** Puede solicitar subredes secundarias con los dispositivos de cálculo. Sin embargo, si solicita subredes secundarias, se reclaman cuando se reclama el dispositivo de cálculo. Si solicita la subred secundaria independientemente (no como una opción de complemento de un pedido de cálculo), puede conservar la subred hasta que la cancele explícitamente. Es importante recordar esta distinción, para que no pierda de forma inadvertida algunas direcciones IP si se reclama un dispositivo de cálculo.
+
+## Pasos siguientes
 Una vez suministrado el dispositivo de {{site.data.keyword.baremetal_short}}, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html).
