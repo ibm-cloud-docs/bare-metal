@@ -11,9 +11,12 @@ lastupdated: "2018-07-31"
 
 # Assigning server IP addresses
 
-{{site.data.keyword.cloud}} configures servers with an IPv4 address on the
-private network, an IPv4 address for low-level management access on the
-private network, and if requested, a public IPv4 address.
+{{site.data.keyword.cloud}} configures servers with these addresses:
+An IPv4 address on the private network
+An IPv4 address for low-level management access on the
+private network
+A public IPv4 address, if requested.
+
 An IPv6 address on the public network, is available if requested. All of
 these IP addresses are collectively referred to as **Primary IP addresses**.
 
@@ -27,4 +30,4 @@ For more information about acquiring IP addresses, see [Subnets and IPs](https:/
 # Binding Secondary IP addresses
 
 After you purchase a secondary subnet, you need to
-configure the operating system to use one or more IP addresses. Each operating system configures IP addresses differently, but is typically referred to as setting up "interface aliases". 
+configure the operating system to use one or more IP addresses. Each operating system configures IP addresses differently, but is typically referred to as setting up "interface aliases".
