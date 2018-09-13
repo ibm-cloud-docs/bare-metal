@@ -59,7 +59,6 @@ IBM Cloud bare metal servers
         creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
-        managing_port_control.md
         can-i-back-data-between-bare-metal-servers-private-network.md
         managedPool_managing.md
 
