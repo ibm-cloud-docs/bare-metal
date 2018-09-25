@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bare-metal" audience="compute" arm="2437231" href="/docs/bare-metal/about.html"}
+{: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html"}
 IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
@@ -14,14 +14,13 @@ IBM Cloud bare metal servers
     {: .topicgroup}
     RAID
         what-raid.md
-        what-raid-monitoring-daemon-named.md
-
+     
     bare-metal-software.md
 
     {: .topicgroup}
     Operating systems
-        introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
+        introduction-no-os.md
 
     {: .topicgroup}
     Security
@@ -39,8 +38,8 @@ IBM Cloud bare metal servers
     Provisioning
         baremetal-provision-popular.md
         baremetal-provision.md
-        bm_provision_ssd.md
         bare-metal-provision-SGX.md
+        bm_provision_ssd.md
         managedPool_provision.md
 
     {: .topicgroup}
@@ -49,26 +48,34 @@ IBM Cloud bare metal servers
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-
+        
     {: .topicgroup}
     Managing
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
-        managing_port_control.md
-        creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
-        can-i-back-data-between-bare-metal-servers-private-network.md
+        managing_port_control.md
         managedPool_managing.md
 
-     {: .topicgroup}
-     Backing up and recovering
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+    {: .topicgroup}
+    Using RAID
+        raid-commands.md
+        what-raid-monitoring-daemon-named.md
+        creating-and-adjusting-raid-configurations-adaptec.md
+    
+    {: .topicgroup}
+    Backing up and recovering
+        can-i-back-data-between-bare-metal-servers-private-network.md
         [Launching a rescue kernel](../vsi/vsi_launch_rescue.html)
+        
+    {: .topicgroup}
+    Managing spare pools
+        spare_pools.md
+        add_spare_pool.md
+        cancel_spare_pool.md
+        reactivating_spare_pool_device.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
