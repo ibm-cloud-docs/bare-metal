@@ -78,6 +78,10 @@ IBM Cloud bare metal servers
         reactivating_spare_pool_device.md
     {: .navgroup-end}
 
+    {: .navgroup id="reference"}
+    bm-activity-tracker-events.md
+    {: .navgroup-end}
+
     {: .navgroup id="help"}
     get-help-and-support.md
     raid-support.md
