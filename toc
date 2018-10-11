@@ -54,6 +54,7 @@ IBM Cloud bare metal servers
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
         managing_port_control.md
         managedPool_managing.md
@@ -63,8 +64,7 @@ IBM Cloud bare metal servers
         raid-commands.md
         what-raid-monitoring-daemon-named.md
         creating-and-adjusting-raid-configurations-adaptec.md
-        how-do-i-check-health-my-3ware-raid-array.md
-
+    
     {: .topicgroup}
     Backing up and recovering
         can-i-back-data-between-bare-metal-servers-private-network.md
@@ -77,11 +77,11 @@ IBM Cloud bare metal servers
         cancel_spare_pool.md
         reactivating_spare_pool_device.md
     {: .navgroup-end}
-
+    
     {: .navgroup id="reference"}
     bm-activity-tracker-events.md
     {: .navgroup-end}
-
+    
     {: .navgroup id="help"}
     get-help-and-support.md
     raid-support.md
