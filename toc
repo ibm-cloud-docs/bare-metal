@@ -14,7 +14,7 @@ IBM Cloud bare metal servers
     {: .topicgroup}
     RAID
         what-raid.md
-     
+        
     bare-metal-software.md
 
     {: .topicgroup}
