@@ -65,7 +65,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
     </tr>
     </TBODY>
     </table>
-3. In the Storage Disks, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add EVault Backup to your server.
+3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add EVault Backup to your server.
 4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values.
 3.  In the Order Summary section, select **Hourly** or **Monthly** billing.
 4.  Review your order.

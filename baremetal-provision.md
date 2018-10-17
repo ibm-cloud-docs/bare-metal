@@ -69,7 +69,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
     </tr>
     </TBODY>
     </table>
-5. In the Storage Disks, select your disk specifications. Expand the Add-ons section for more storage options.
+5. In the Storage Disks section, select your disk specifications. Expand the Add-ons section for more storage options.
 4. In the Network Interface section, select the Uplink Port Speeds and Private VLAN options. Expand the Add-ons section to select the appropriate options or use the default values.
 3.  In the Order Summary section, select **Hourly** or **Monthly** billing.
 4.  Review your order.
