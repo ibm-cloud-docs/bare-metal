@@ -39,10 +39,13 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
     <td>Quantity</td>
     <td>Use the + and - icons to specify the number of **identical** servers to provision. The default is 1.<br>If you want to provision multiple servers with **different** specifications, you need to provision them separately.
     <tr>
+    <tr>
+    <td>Billing type</td>
+    <td>Select Hourly or Monthly
+    <tr>
     <td>Hostname and Domain</td>
     <td>These fields are populated with default. You can change them.</td>
     </tr>
-    <tr>
     <td>Location</td>
     <td>Select the region and data center where you want the server to be located.</td>
     </tr>
@@ -62,17 +65,18 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
     </tr>
     <tr>
     <td>Image <br>(Operating System)</td>
-    <td>Select the operating system for the instance. Your Image options may be limited based on the server you selected.</td>
+    <td>Select the operating system for the server. Your Image options may be limited based on the server you selected.</td>
     </tr>
     <td>Add-ons</td>
-    <td>Expand the Add-ons section to select the appropriate options or use the default values. Your Add-on options may be limited based on the server you selected.</td>
+    <td>Expand the Add-ons section to select the appropriate options or use the default values.</td>
     </tr>
     </TBODY>
     </table>
-5. In the Storage Disks section, select your disk specifications. Expand the Add-ons section for more storage options.
+5. In the Storage Disks section, select your disk specifications. Click Add new to add more storage disks.
+Expand the Add-ons section for more storage options.
 4. In the Network Interface section, select the Uplink Port Speeds and Private VLAN options. Expand the Add-ons section to select the appropriate options or use the default values.
-3.  In the Order Summary section, select **Hourly** or **Monthly** billing.
 4.  Review your order.
+4. If you have a promo code to apply to your order, expand Apply Promo Code.
 5.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
 6.  Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.  
 

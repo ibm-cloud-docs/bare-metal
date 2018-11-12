@@ -21,6 +21,6 @@ lastupdated: "2018-04-02"
 
 |Section|Option to select
 |------|------|
-|Server|Single Processor Multi-Core Servers,<br> Intel Xeon E3-1270 v6|
-|Software Guard Extensions|Software Guard Extensions|
-|Operating systems|- Windows Server 2016 Standard Edition (64 bit)<br>- Windows Server 2016 Standard Edition (64 bit)<br> - Windows Server 2016 Datacenter Edition (64 bit) <br>- CentOS 7.x (64 bit) <br> - Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)<br>- CentOS 7.x (64 bit) <br>- Red Hat Enterprise Linux 7.x (64 bit) (per-processor licensing|
+|Server|Single Processor,<br> Intel Xeon E3-1270 v6 with Storage up to 4 drives|
+|Image|- Windows Server 2016 Standard Edition (64 bit)<br>- Windows Server 2016 Standard Edition (64 bit)<br> - Windows Server 2016 Datacenter Edition (64 bit) <br>- CentOS 7.x (64 bit) <br> - Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)<br>- CentOS 7.x (64 bit) <br>- Red Hat Enterprise Linux 7.x (64 bit) (per-processor licensing)|
+|Image Add-ons|Software Guard Extensions|

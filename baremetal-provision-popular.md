@@ -36,12 +36,16 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
     <td>Quantity</td>
     <td>Use the + and - icons to specify the number of **identical** servers to provision. The default is 1.<br>If you want to provision multiple servers with **different** specifications, you need to provision them separately.
     <tr>
+    <tr>
+    <td>Billing type</td>
+    <td>Select Hourly or Monthly
+    <tr>
     <td>Hostname and Domain</td>
     <td>These fields are populated with default. You can change them.</td>
     </tr>
     <tr>
     <td>Location</td>
-    <td>Select the region and data center where you want the server to be located.</td>
+    <td>Select the region where you want the server to be located. Using the drop down list, select and data center in the region. </td>
     </tr>
     <tr>
     <tr>
@@ -58,17 +62,17 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
     </tr>
     <tr>
     <td>Image <br>(Operating System)</td>
-    <td>Select the operating system for the instance. Your Image options may be limited based on the server you selected.</td>
+    <td>Select the operating system for the server. Your Image options may be limited based on the server you selected.</td>
     </tr>
     <td>Add-ons</td>
-    <td>Expand the Add-ons section to select the appropriate options or use the default values.</td>
+    <td>Expand the Add-ons section to select the appropriate options or use the default values./td>
     </tr>
     </TBODY>
     </table>
 3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add EVault Backup to your server.
 4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values.
-3.  In the Order Summary section, select **Hourly** or **Monthly** billing.
 4.  Review your order.
+4. If you have a promo code to apply to your order, expand Apply Promo Code.  
 5.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
 6.  Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
