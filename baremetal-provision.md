@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-11-13"
 
 
 ---
@@ -84,6 +84,19 @@ A series of emails are sent to your administrator: Acknowledgment of the provisi
 
 The _provisioning complete_ email includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
+## Provisioning through the customer portal
+To provision your bare metal server instance through the {{site.data.keyword.slportal}}, complete the following steps:
+
+  1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+  2. Go to **Order** > **Devices**. 
+  3. Click **Hourly SAN**, **Hourly local**, **Monthly**, or **Transient** for one of the bare metal offerings.
+  4. From **Configure your Cloud Server**, complete all the relevant information.
+  5. Click **Add to Order**.
+  6. Confirm or edit the domain information for the server.
+  7. Select **Cloud Service terms** and the **Third-Party Service Agreement**.
+  8. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because if you need a provisioning order receipt.
+
+A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
 After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html).
