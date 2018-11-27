@@ -4,7 +4,7 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-11-27"
 
 
 ---
@@ -18,10 +18,10 @@ lastupdated: "2018-02-02"
 {:table: .aria-labeledby="caption"}
 
 
-# Canceling spare pools 
+# Canceling spare pools
 {: #adding-spare-pools}
 
-Devices added to the spare pool can be canceled only from the Spare Pool screen within the {{site.data.keyword.slportal_full}}. The cancellation of a device in the spare pool is identical to that of a device within the Device List. Complete the following steps to cancel a device in the spare pool.
+Devices that have been added to the spare pool may only be canceled from the Spare Pool screen within the Customer Portal. The cancellation of a device in the spare pool is identical to that of a device within the Device List. Follow the steps below to cancel a device in the spare pool.
 {:shortdesc}
 
 ## Canceling spare pools

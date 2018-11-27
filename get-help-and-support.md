@@ -31,7 +31,7 @@ lastupdated: "2018-04-02"
 # Getting help and support
 {: #gettinghelp}
 
-If you have problems or questions when you are using {{site.data.keyword.cloud_notm}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+If you have problems or questions when you are using {{site.data.keyword.cloud_notm}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
 {:shortdesc}
 
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix}} development teams.
@@ -40,6 +40,6 @@ When you use the forums to ask a question, tag your question so that it is seen 
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){:new_window} forum. Include the "ibm cloud" tags.
 
-See [Getting help](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
+See [Getting help ![External link icon](../icons/launch-glyph.svg "External link icon")](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help){: new_window} for more details about using the forums.
 
 For more information about opening an IBM support ticket, see [Contacting support](/docs/get-support/howtogetsupport.html).

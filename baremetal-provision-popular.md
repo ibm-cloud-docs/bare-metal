@@ -19,7 +19,7 @@ lastupdated: "2018-06-21"
 
 # Selecting from the most popular servers
 The servers in the Most Popular Servers list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
-1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/){:target="_blank"}.   
+1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window}.   
 2. Select Bare Metal Server.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
 2. In the {{site.data.keyword.baremetal_short}} section, select the following information:

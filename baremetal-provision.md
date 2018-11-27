@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-12"
 
 
 ---
@@ -22,7 +22,7 @@ lastupdated: "2018-11-13"
 
 Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
-1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://console.bluemix.net/catalog/){:target="_blank"}.   
+1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window}.   
 2. Select {{site.data.keyword.baremetal_short}}.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
 2. In the {{site.data.keyword.baremetal_short}} section, select the following information:
@@ -88,7 +88,7 @@ The _provisioning complete_ email includes a link to your *Device Details* page 
 To provision your bare metal server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
-  2. Go to **Order** > **Devices**. 
+  2. Go to **Order** > **Devices**.
   3. Click **Hourly SAN**, **Hourly local**, **Monthly**, or **Transient** for one of the bare metal offerings.
   4. From **Configure your Cloud Server**, complete all the relevant information.
   5. Click **Add to Order**.
