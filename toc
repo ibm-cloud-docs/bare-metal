@@ -68,6 +68,7 @@ IBM Cloud bare metal servers
 
     {: .topicgroup}
     Managing spare pools
+        spare-pools-access.md
         add_spare_pool.md
         cancel_spare_pool.md
         reactivating_spare_pool_device.md
