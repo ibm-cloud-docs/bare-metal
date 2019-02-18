@@ -11,4 +11,4 @@ lastupdated: "2018-03-02"
 
 # Managing VMware licenses
 
-When your VMware and {{site.data.keyword.BluSoftlayer_full}} environment is configured, you can manage licenses from the Customer Portal. For more information, see [Managing VMware licenses](/docs/infrastructure/vmware/manage-vmware-licenses.html).
+When your VMware and {{site.data.keyword.BluSoftlayer_full}} environment is configured, you can manage licenses from the Customer Portal. For more information, see [Managing VMware licenses](/docs/infrastructure/vmware?topic=VMware-managing-vmware-licenses).

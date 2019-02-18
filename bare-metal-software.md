@@ -16,4 +16,4 @@ on 32-bit and 64-bit compatible software. When you order a device, you select th
 You can add more software to your device within the customer portal and change to another operating system by performing an OS reload
 on your existing device. The IBM automated system provisions software onto your server by using best practice
 guidelines of each vendor to ensure maximum stability and availability. For more information,
-see [About Software](/docs/infrastructure/software/index.html).
+see [About Software](/docs/infrastructure/software?topic=infrastructure/software-getting-started).
