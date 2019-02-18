@@ -18,7 +18,7 @@ lastupdated: "2018-04-02"
 
 # Provisioning an Intel Optane-compatible bare metal server
 To provision a bare metal server with an Intel Optane drive:
-1. Use the procedure: [Building a custom bare metal server](../bare-metal/baremetal-provision.html).
+1. Use the procedure: [Building a custom bare metal server](/docs/bare-metal/baremetal-provision.html).
 * Select the following options on the order form:
 
 |Section|Option to select
