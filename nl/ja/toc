@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html"}
+{: .toc subcollection="bare-metal" audience="compute" href="/docs/bare-metal/about.html" path="bare-metal"}
 IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
