@@ -23,7 +23,7 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](../vsi/vsi_perform_os_reload.html).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/vsi/vsi_perform_os_reload.html).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?
@@ -50,7 +50,7 @@ EIST is an established technology. It's not common that you need to turn off EIS
 ## What if my bare metal server has out-of-date firmware?
 {: faq}
 
-Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](../infrastructure/software/vsi_reload_os.html) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
+Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](/docs/infrastructure/software/vsi_reload_os.html) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
 
 You can also update the firmware by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
 
