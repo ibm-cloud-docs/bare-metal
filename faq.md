@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-04-02"
 
 
@@ -26,7 +26,7 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 <<<<<<< HEAD
 Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/vsi/vsi_perform_os_reload.html).
 =======
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](../infrastructure/software/vsi_reload_os.html#reloading-the-os).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [Reloading the OS](/docs/infrastructure/software/vsi_reload_os.html#reloading-the-os).
 >>>>>>> origin/master
 
 
