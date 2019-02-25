@@ -82,4 +82,4 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 
 
 ## Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal/managing.html).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-managing).

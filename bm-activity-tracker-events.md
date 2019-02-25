@@ -76,7 +76,7 @@ The following table lists the actions that generate an event:
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that 
 is available in the {{site.data.keyword.Bluemix_notm}} region where the events are generated. For more information, see [Viewing account 
-events](/docs/services/cloud-activity-tracker/how-to/manage-events-ui/viewing_events.html#account_events).
+events](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service 
 in the same region where the action happens.

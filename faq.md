@@ -24,9 +24,9 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 {: faq}
 
 <<<<<<< HEAD
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software/vsi_reload_os.html).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
 =======
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [Reloading the OS](/docs/infrastructure/software/vsi_reload_os.html#reloading-the-os).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os#reloading-the-os).
 >>>>>>> origin/master
 
 
@@ -54,7 +54,7 @@ EIST is an established technology. It's not common that you need to turn off EIS
 ## What if my bare metal server has out-of-date firmware?
 {: faq}
 
-Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](/docs/infrastructure/software/vsi_reload_os.html) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
+Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
 
 You can also update the firmware by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
 

@@ -99,4 +99,4 @@ To provision your bare metal server instance through the {{site.data.keyword.slp
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal/managing.html).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-managing).

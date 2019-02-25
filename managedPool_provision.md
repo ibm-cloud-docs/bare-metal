@@ -9,7 +9,7 @@ lastupdated: "2018-05-15"
 
 # Provisioning customer-managed pools
 
-To provision a customer-managed pool of servers, contact IBM directly: [Getting help and support](/docs/bare-metal/get-help-and-support.html).
+To provision a customer-managed pool of servers, contact IBM directly: [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp).
 
 Provide the following information:
 * The data center that you want your managed pools to be located. (All servers in a managed pool must be located in the same data center.)
@@ -25,4 +25,4 @@ Use the standard provisioning process to order servers in your pool. Your order 
 
 ## Next steps
 
-After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](/docs/bare-metal/managedPool_managing.html)
+After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](/docs/bare-metal?topic=bare-metal-specifying-the-number-of-servers-in-your-customer-managed-pool)

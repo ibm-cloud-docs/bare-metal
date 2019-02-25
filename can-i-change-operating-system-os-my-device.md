@@ -14,4 +14,4 @@ lastupdated: "2018-04-02"
 
 You can change the OS and the software that is installed by reloading the OS. After you select OS Reload on the device, a link is provided to edit the software on your system. You can update the OS, Control Panel, Antivirus packages, and database software by using this edit.
 
-See [OS Reload](/docs/infrastructure/software/vsi_reload_os.html#reloading-an-os) for more information.
+See [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os#reloading-an-os) for more information.

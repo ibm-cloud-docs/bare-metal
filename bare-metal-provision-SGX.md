@@ -16,7 +16,7 @@ lastupdated: "2018-04-02"
 {:table: .aria-labeledby="caption"}
 
 # Provisioning a bare metal server with Intel SGX architecture
-1. Use the procedure: [Building a custom bare metal server](/docs/bare-metal/baremetal-provision.html).
+1. Use the procedure: [Building a custom bare metal server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 * Select the following options on the order form:
 
 |Section|Option to select

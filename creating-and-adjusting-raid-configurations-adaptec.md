@@ -11,13 +11,13 @@ lastupdated: "2018-07-10"
 
 # Creating and adjusting Adaptec RAID configurations
 
-The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using our [No OS](/docs/bare-metal/introduction-no-os.html) option and want to set up a specific drive configuration.
+The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using our [No OS](/docs/bare-metal?topic=bare-metal-the-no-os-option) option and want to set up a specific drive configuration.
 
 ## Accessing the IPMI device to interact with the RAID BIOS
 
 Regardless of whether your machine has an Adaptec controller or an LSI controller you need to access the server that uses IPMI to interact with the RAID BIOS. To interact with IPMI, you first need to connect to the Adaptec {{site.data.keyword.cloud}} VPN.
-1. Log in to the VPN through either [SSL](/docs/infrastructure/iaas-vpn/use-ssl-vpn.html) or PPTP. Refer to the [VPN topic page](/docs/infrastructure/iaas-vpn/getting-started.html).
-* Access the Device List in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Refer to [Access the Device List](/docs/vsi/vsi_managing.html).
+1. Log in to the VPN through either [SSL](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn) or PPTP. Refer to the [VPN topic page](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
+* Access the Device List in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Refer to [Access the Device List](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
 * Click the device that you want to access.
 * Select the Remote Mgmt tab to find your server's IPMI access details.
 * Put the IP of your IPMI device in to the browser and log in.
