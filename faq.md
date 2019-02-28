@@ -23,9 +23,6 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-<<<<<<< HEAD
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
-=======
 Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os).
 >>>>>>> origin/master
 
