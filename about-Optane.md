@@ -6,6 +6,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-05-02"
 
+subcollection: bare-metal
+
 
 ---
 

@@ -3,6 +3,8 @@ copyright:
   years: 1994, 2018
 lastupdated: "2018-5-10"
 
+subcollection: bare-metal
+
 ---
 
 {:shortdesc: .shortdesc}

@@ -4,6 +4,8 @@ copyright:
   years:  2018
 lastupdated: "2018-05-15"
 
+subcollection: bare-metal
+
 ---
 
 # Specifying the number of servers in your customer-managed pool
