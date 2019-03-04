@@ -5,6 +5,8 @@ copyright:
 
 lastupdated: "2018-11-06"
 
+subcollection: bare-metal
+
 ---
 
 {:new_window: target="_blank"}
