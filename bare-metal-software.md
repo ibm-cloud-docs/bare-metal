@@ -1,17 +1,24 @@
 ---
 
 copyright:
-  years: 1994, 2018
+  years: 1994, 2019
 lastupdated: "2018-04-02"
+
+keywords: bare metal, software, {{site.data.keyword.BluSoftlayer_full}}
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Software
+{: #bm-software}
 
 {{site.data.keyword.BluSoftlayer_full}} has strategic relationships with vendors to provide month-to-month licenses
 on 32-bit and 64-bit compatible software. When you order a device, you select the type of operating system and software for your device.
