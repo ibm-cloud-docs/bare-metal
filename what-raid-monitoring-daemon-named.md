@@ -1,16 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Name and location of the RAID monitoring daemon
+{: #bm-raid-monitoring-daemon}
+
 {{site.data.keyword.cloud}} primarily uses Adaptec and LSI RAID cards with a few exceptions for legacy hardware. The following table outlines the RAID manager locations, monitor locations, configurations, and RAID alert settings.
 
 You can configure RAID alerts to bypass the portal monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
