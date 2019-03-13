@@ -1,10 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-06-21"
+
+keywords: bare metal, provision, popular servers, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}
 
 subcollection: bare-metal
 
@@ -20,6 +20,8 @@ subcollection: bare-metal
 
 
 # Selecting from the most popular servers
+{: #bm-select-popular-servers}
+
 The servers in the Most Popular Servers list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
 1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window}.   
 2. Select Bare Metal Server.
@@ -84,4 +86,5 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 
 
 ## Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-managing).
+
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/infrastructure/bare-metal?topic=bare-metal-managing#managing).
