@@ -1,9 +1,10 @@
 ---
 
 copyright:
-
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: set up bare metal server
 
 subcollection: bare-metal
 
@@ -17,7 +18,7 @@ subcollection: bare-metal
 
 
 # Setting Up a Bare Metal Server
-{: #customerportal_setupbaremetal}
+{: #bm-set-up}
 
 You can set up a Bare Metal Server as a dedicated server.
 {:shortdesc}
