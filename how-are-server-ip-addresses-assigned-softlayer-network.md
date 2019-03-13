@@ -1,17 +1,24 @@
 ---
 
 copyright:
-  years: 1994, 2018
+  years: 1994, 2019
 lastupdated: "2018-07-31"
+
+keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Assigning server IP addresses
+{: #bm-assign-ip-address}
 
 {{site.data.keyword.cloud}} configures servers with these addresses:
 An IPv4 address on the private network
@@ -30,6 +37,7 @@ For more information about acquiring IP addresses, see [Subnets and IPs ![Extern
 
 
 # Binding Secondary IP addresses
+{: #bm-bind-secondary-ip-address}
 
 After you purchase a secondary subnet, you need to
 configure the operating system to use one or more IP addresses. Each operating system configures IP addresses differently, but is typically referred to as setting up "interface aliases".
