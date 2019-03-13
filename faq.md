@@ -2,18 +2,24 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2019-02-21"
+
+keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
 subcollection: bare-metal
-
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # FAQs: Bare metal servers
+{: #bm-faq}
 
 ## Why is my BIOS asking for a password?
 {: faq}
@@ -25,8 +31,7 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os).
->>>>>>> origin/master
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?
@@ -63,3 +68,8 @@ You can also update the firmware by selecting the bare metal server from the dev
 Upon cancellation, a server is automatically moved to a reclaim VLAN for a set hold time. Once complete, the reclaim processes start and the drive are wiped by using DOD 5220.22-M algorithms.  The reclaim is tracked by using the serial number on the drive. After completion, the server is moved into provisioning for reassignment. A drive malfunction prompts manual intervention and the drives are then set to end of life.
 
 The end of life process is initiated when there is a malfunction or if the age or size is beyond support. Once any of these conditions occur, the drives are wiped as described earlier. Upon completion of the wiping process, the drive is physically destroyed by breaking, crushing, or shredding the device.  The physical destruction process is tracked by using the serial number on the drive.
+
+## Can I see what bare metal servers are available for purchase?
+{: faq}
+
+Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-selecting-from-the-most-popular-servers#selecting-from-the-most-popular-servers).
