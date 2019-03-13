@@ -1,16 +1,21 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: bare metal, help, support
 
 subcollection: bare-metal
 
-
 ---
 
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 <!-- Common attributes used in the template are defined as follows: -->
 {:tsSymptoms: .tsSymptoms}
 {:tsCauses: .tsCauses}
