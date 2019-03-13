@@ -1,16 +1,24 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: server transation, {{site.data.keyword.Bluemix_notm}}, {{site.data.keyword.Bluemix_short}}
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Understanding a server transaction
+{: #bm-server-transaction}
 
 When a server at {{site.data.keyword.Bluemix_short}} is provisioned, an operating system is loaded, or software is installed, it gets put into a *transaction*.  A transaction is an automated series of steps that are carried out by the {{site.data.keyword.Bluemix_notm}} management systems to configure customer servers.
 
