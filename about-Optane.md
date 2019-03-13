@@ -1,9 +1,13 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-02"
 
+keywords: optane, bare metal
+
 subcollection: bare-metal
+
 ---
 
 {:shortdesc: .shortdesc}
