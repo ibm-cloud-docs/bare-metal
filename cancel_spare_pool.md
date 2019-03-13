@@ -1,13 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-27"
 
-subcollection: bare-metal
+keywords: spare pools, cancel, bare metal
 
+subcollection: bare-metal
 
 ---
 
@@ -21,7 +20,7 @@ subcollection: bare-metal
 
 
 # Canceling spare pools
-{: #adding-spare-pools}
+{: #cancel-spare-pools}
 
 Devices that have been added to the spare pool may only be canceled from the Spare Pool screen within the Customer Portal. The cancellation of a device in the spare pool is identical to that of a device within the Device List. Follow the steps below to cancel a device in the spare pool.
 {:shortdesc}
