@@ -1,16 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-25"
+  years: 2017, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 
 # About RAID
+{: #bm-raid-levels}
 
 RAID (Redundant Array of Independent Disks) creates a single usable data disk, where several physical disks are combined into an array for better speed and fault tolerance. Following are the three key concepts in RAID:
 * **Mirroring**: copying data to more than one disk
