@@ -1,13 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-27"
 
-subcollection: bare-metal
+keywords: spare pool api
 
+subcollection: bare-metal
 
 ---
 
@@ -20,7 +19,7 @@ subcollection: bare-metal
 
 
 # Spare pool API methods
-{: #api-spare-pools}
+{: #bm-api-spare-pools}
 
 You can use API methods to manage your spare pools.
 
