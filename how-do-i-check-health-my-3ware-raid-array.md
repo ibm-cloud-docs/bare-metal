@@ -1,17 +1,24 @@
 ---
 
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: bare metal, 3ware RAID, 
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Checking the health of your 3ware RAID array
+{: #bm-check-health-3ware-raid}
 
 With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Therefore, you use the command line interface.
 
