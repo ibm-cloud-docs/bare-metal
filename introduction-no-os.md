@@ -1,23 +1,30 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2018-04-02"
+
+keywords: bare metal, no os, no operating system
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # The no OS option
+{: #bm-no-os}
 
 No OS is an option to order a bare metal server without an operating system.
 
 ## How to order a bare metal server with no OS?
 
-Start by placing an order for a bare metal server via [SoftLayer.com](https://www.softlayer.com) or the [Customer Portal](https://control.softlayer.com).
+Start by placing an order for a bare metal server via [SoftLayer.com](http://www.softlayer.com/) or the [Customer Portal](https://control.softlayer.com).
 
 1. Select **Other** from **System Configuration > Operating System**.
 2. Select **No Operating System**.
@@ -34,4 +41,4 @@ A bare metal server with no operating system can be set up to boot and load the 
 
 ### Option 2: IPMI device
 
-Install an operating system on to a bare metal server with no operating system by booting from an ISO via the included IPMI device. Click [here](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server) for additional information on booting from an ISO.
+Install an operating system on to a bare metal server with no operating system by booting from an ISO via the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server).
