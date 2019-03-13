@@ -1,13 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
 
-subcollection: bare-metal
+keywords: bare metal server, optane, provision
 
+subcollection: bare-metal
 
 ---
 
@@ -19,8 +18,10 @@ subcollection: bare-metal
 {:table: .aria-labeledby="caption"}
 
 # Provisioning an Intel Optane-compatible bare metal server
+{: #bm-provision-optane-server}
+
 To provision a bare metal server with an Intel Optane drive:
-1. Use the procedure: [Building a custom bare metal server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
+1. Use the procedure: [Building a custom bare metal server](/docs/infrastructure/bare-metal?topic=bare-metal-ordering-baremetal-server).
 * Select the following options on the order form:
 
 |Section|Option to select
