@@ -1,17 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: ssl certificate, sercure sockets layer
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
-
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # SSL certificates
+{: #bm-ssl-certificates}
+
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application that is involved in the conversation. This encryption is accomplished through a public key/private key system that uses an SSL certificate.
 {:shortdesc}
 
