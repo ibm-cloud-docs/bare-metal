@@ -1,26 +1,32 @@
 ---
 
-
 copyright:
-
-  years: 2016, 2018
+  years: 2016, 2019
 lastupdated: "2018-04-02"
+
+keywords: manage bare metal servers, power off, replicate, reload os, delete server, 
 
 subcollection: bare-metal
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Managing bare metal servers
-{: #managing}
+{: #bm-manage-servers}
 
 
 You can stop, start, restart, and cancel servers.
 {:shortdesc}
 
 ## Replicating a server instance
+{: #bm-replicate-server-instance}
+
 You can copy or clone a bare metal server instance to replicate the server configuration and quickly get a new server up and running.
 {:shortdesc}
 
@@ -30,6 +36,8 @@ To clone the instance:
  3. Specify the domain name.
 
 ## Reloading the operating system
+{: #bm-reload-os}
+
 Occasionally, you might want to reload the operating system on your server.
 {:shortdesc}
 
@@ -42,12 +50,16 @@ To reload the operating system:
 During the OS reload, the server will be offline and unavailable for use. Reload time varies based on server capacity and operating system. If you defined a provision script, all configurations will be restored after the reload completes. If your data was backed up prior to the OS reload, you can upload it to the server when it is available.
 
 ## Deleting the server instance
+{: #bm-delete-server-instance}
+
 At any time, you can delete the bare metal server instance if you no longer need the instance and do not want to be charged.
 {:shortdesc}
 
 To delete the instance, go to the menu and select **Cancel Server**.
 
 ## Powering off a server
+{: #bm-power-off}
+
 You can create a server in advance to prepare for usage. After you create the server, power it off to ensure that nothing gets changed and no one can access it. When you're ready, you can power on the server and have it ready in a matter of minutes.
 {:shortdesc}
 
