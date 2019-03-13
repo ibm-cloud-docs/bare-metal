@@ -1,17 +1,24 @@
 ---
+
 copyright:
-  years: 1994, 2018
+  years: 1994, 2019
 lastupdated: "2018-04-02"
 
-subcollection: bare-metal
+keywords: vmware, {{site.data.keyword.BluSoftlayer_full}}, {{site.data.keyword.baremetal_short}}
 
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # VMware and IBM Cloud
+{: #bm-vmware}
 
 {{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated
 {{site.data.keyword.baremetal_short}} upon which you can deploy your own VMware based private cloud. For example, you can enable the
