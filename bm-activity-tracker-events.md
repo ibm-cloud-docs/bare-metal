@@ -1,9 +1,10 @@
 ---
 
 copyright:
-  years: 2016, 2018
-
+  years: 2016, 2019
 lastupdated: "2018-11-06"
+
+keywords: activity tracker, bare metal, {{site.data.keyword.Bluemix}}
 
 subcollection: bare-metal
 
@@ -20,7 +21,7 @@ subcollection: bare-metal
 
 
 # Activity Tracker events 
-{: #at_events}
+{: #bm-at-events}
 
 As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and 
 applications interact with bare metal servers in {{site.data.keyword.Bluemix}}. The account owner and users that are linked 
@@ -49,7 +50,7 @@ An initiator can be a user, a service, or an application. For a user to generate
 
 
 ## Bare metal server instance events
-{: #bare_metal}
+{: #bare-metal-events}
 
 You can audit a bare metal server through its life cycle by using the {{site.data.keyword.cloudaccesstrailshort}} service.
 
@@ -74,7 +75,7 @@ The following table lists the actions that generate an event:
 
 
 ## Viewing events
-{: #ui}
+{: #bm-view-events}
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that 
 is available in the {{site.data.keyword.Bluemix_notm}} region where the events are generated. For more information, see [Viewing account 
