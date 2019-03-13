@@ -1,13 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-11-12"
 
-subcollection: bare-metal
+keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
 
+subcollection: bare-metal
 
 ---
 
@@ -101,4 +100,4 @@ To provision your bare metal server instance through the {{site.data.keyword.slp
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-managing).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/infrastructure/bare-metal?topic=bare-metal-managing).
