@@ -1,31 +1,40 @@
 ---
 
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-07-10"
+
+keywords: bare metal, raid, adaptec, ipmi, raid bios, raid array
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Creating and adjusting Adaptec RAID configurations
+{: #bm-create-raid-config}
 
 The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using our [No OS](/docs/bare-metal?topic=bare-metal-the-no-os-option) option and want to set up a specific drive configuration.
 
 ## Accessing the IPMI device to interact with the RAID BIOS
+{: #bm-access-ipmi}
 
 Regardless of whether your machine has an Adaptec controller or an LSI controller you need to access the server that uses IPMI to interact with the RAID BIOS. To interact with IPMI, you first need to connect to the Adaptec {{site.data.keyword.cloud}} VPN.
-1. Log in to the VPN through either [SSL](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn) or PPTP. Refer to the [VPN topic page](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
-* Access the Device List in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Refer to [Access the Device List](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+1. Log in to the VPN through either [SSL](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ssl-vpn-connections) or PPTP. Refer to the [VPN topic page](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
+* Access the Device List in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Refer to [Access the Device List](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers).
 * Click the device that you want to access.
 * Select the Remote Mgmt tab to find your server's IPMI access details.
 * Put the IP of your IPMI device in to the browser and log in.
 * To start interacting with the remote console, click **Remote Control > Console Redirection**.
 
 ## Creating RAID Arrays
+{: #bm-create-raid-array}
 
 During the start process, press **Ctrl+A** to access the RAID BIOS.
 
@@ -41,11 +50,13 @@ The following example shows how to create an array. You are presented with a lis
 
 After you complete the configuration, select Done and the RAID is created. You can see your new Array by selecting 'Manage Arrays' from the main menu. To exit the configuration utility, press the ESC key until you are prompted to Exit the Adaptec BIOS.
 
-## Removing existing Arrays
+## Removing existing RAID arrays
+{: #bm-remove-raid-array}
 
 If you need to remove an existing array, go to **Manage Arrays**, select the array to remove, press **Delete** and confirm.
 
 ## Example Configurations
+{: #bm-example-config}
 
 1. On a server with six total drives, you can set up two SSDs in a RAID 0 for your Operating System and four more drives in a RAID 10 for your actual data. You use this configuration to quickly reload the server's OS without restoring your site or service data if it is on the secondary array.
 
