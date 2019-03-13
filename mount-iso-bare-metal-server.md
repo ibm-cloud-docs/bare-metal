@@ -1,17 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2018-04-02"
+
+keywords: mount iso bare metal
 
 subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 
 # Mounting an ISO on a bare metal server
+{: #bm-mount-iso}
 
 ## Overview
 
@@ -22,6 +30,7 @@ For the methods to work you will need to be connected to the private network thr
 **Note:** Lenovo hardware disk images larger than 50 MB must be mounted using the IMM console interface > media tab.
 
 ## Option 1 (preferred): using IPMI (ISO on a CIFS share)
+{: #bm-mount-iso-opt-1}
 
 If you already have infrastructure deployed on {{site.data.keyword.Bluemix_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on there to a bare metal server.
 
@@ -30,7 +39,7 @@ This is the preferred method for installing a custom OS on a bare metal server b
 Follow these steps to install a Custom OS from a CIFS Share:
 
 1. Make sure you have placed the ISO on the CIFS Share.
-* Login to the IPMI management console by pointing your webbrowser to the IP specified in https://control.softlayer.com/ and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
+* Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
 * Hover over the **Virtual Media** and click **CD-ROM image**
 * Fill in the appropriate details, click **Save and Mount**.
 * Not all users have permission to change the BIOS of the server. If necessary you can open a ticket to support requesting:
@@ -41,13 +50,13 @@ Follow these steps to install a Custom OS from a CIFS Share:
 
 
 ## Option 2: Using IPMIView (ISO on a CIFS share)
+{: #bm-mount-iso-opt-2}
 
 Prerequisites:<br/>
 * You have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the Bootable ISO
 * The ISO is uploaded to the File Storage (NAS) associated with the server.
-* IPMIView is installed or access KVM Console <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView is installed or access KVM Console
 * ISO File is downloadable using wget
 * You have SSH access with privileges to access / install packages and create a mount
 
@@ -95,6 +104,8 @@ Follow the steps below to mount an ISO with IPMIView.
 * Restart Server
 
 ## Option 3: Mounting an ISO from your local computer
+{: #bm-mount-iso-opt-3}
+
 <a name="option3"></a>
 
 You can mount an ISO from your local computer by using the Java iKVM viewer (console). This will enable you to mount an ISO while connected to the console. The speed at which the installation progresses may vary depending on the upload speed and latency of your internet connection, performance of java and your computer.
@@ -104,7 +115,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not yet mounted, support should only change the boot device priority for now).
 
 
-1. Login to the IPMI management console by pointing your webbrowser to the IP specified in https://control.softlayer.com/.
+1. Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com.
 * Click Devices > your server (device details) > Remote Mgmt. Specify the username and password.
 * Click Configuration > Remote session and change attach mode to **attach**. In some older IPMI consoles this option is not available so you can skip this step.
 * Click System > System information to return to the system information page.You will see a console window icon.
@@ -118,6 +129,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * Reboot the server and use the **boot from the virtual cd-rom drive** option. You may need to use the virtual keyboard in the iKVM viewer to select a boot device.
 
 ## Troubleshooting
+{: #bm-mount-iso-troubleshooting}
 
 * Not all users have default access to mount Virtual Media. If a permission error occurs, contact Support for an update to the Root IPMI User permissions.
 * If an ISO is already mounted, an error message will appear with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs may not be mounted at the same time.
