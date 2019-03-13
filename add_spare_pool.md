@@ -1,13 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
+  years: 2014, 2019
 lastupdated: "2018-11-27"
 
-subcollection: bare-metal
+keywords: bare metal, spare pools
 
+subcollection: bare-metal
 
 ---
 
