@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-03-04"
 
-keywords: SAP NetWeaver, SAP HANA, SAP Reference Architecture, quick reference guides, QRGs, SAP Business One, {{site.data.keyword.cloud}} SAP-Certified Infrastructure
+keywords: {{site.data.keyword.cloud}} SAP-Certified Infrastructure, sap
 
 subcollection: bare-metal
 
