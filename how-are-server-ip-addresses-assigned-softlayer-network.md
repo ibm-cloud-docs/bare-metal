@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-07-31"
 
-keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
+keywords: assign server IP addresses, server IP addresses
 
 subcollection: bare-metal
 
