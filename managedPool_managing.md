@@ -4,7 +4,7 @@ copyright:
   years:  2019
 lastupdated: "2018-05-15"
 
-keywords: bare metal, managed pool, api
+keywords: number servers managed pool, managed pool
 
 subcollection: bare-metal
 
