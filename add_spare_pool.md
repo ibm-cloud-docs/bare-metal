@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2018-11-27"
 
-keywords: bare metal, spare pools
+keywords: add spare pool, spare pools
 
 subcollection: bare-metal
 
