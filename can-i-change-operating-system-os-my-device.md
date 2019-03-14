@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, os, operating system, os reload
+keywords: os, operating system, change os, change operating system
 
 subcollection: bare-metal
 
