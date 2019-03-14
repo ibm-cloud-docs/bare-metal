@@ -41,4 +41,4 @@ A bare metal server with no operating system can be set up to boot and load the 
 
 ### Option 2: IPMI device
 
-Install an operating system on to a bare metal server with no operating system by booting from an ISO via the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server).
+Install an operating system on to a bare metal server with no operating system by booting from an ISO via the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso#bm-mount-iso).
