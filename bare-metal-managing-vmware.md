@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-03-02"
 
-keywords: nare metal, vmware license
+keywords: manage vmware license, vmware license
 
 subcollection: bare-metal
 
