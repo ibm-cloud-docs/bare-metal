@@ -20,4 +20,4 @@ subcollection: bare-metal
 # Managing VMware licenses
 {: #bm-manage-vmware-licenses}
 
-When your VMware and {{site.data.keyword.BluSoftlayer_full}} environment is configured, you can manage licenses from the Customer Portal. For more information, see [Managing VMware licenses](/docs/infrastructure/vmware?topic=VMware-managing-vmware-licenses).
+When your VMware and {{site.data.keyword.BluSoftlayer_full}} environment is configured, you can manage licenses from the Customer Portal. For more information, see [Managing VMware licenses](/docs/infrastructure/vmware?topic=VMware-manage-vmware-licenses#managing-vmware-licenses).
