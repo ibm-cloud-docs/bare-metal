@@ -5,7 +5,7 @@ copyright:
   years: 2019
 lastupdated: "2018-04-02"
 
-keywords: intel sgx, bare metal
+keywords: intel sgx, sgx, Intel Software Guard Extension
 
 subcollection: bare-metal
 
