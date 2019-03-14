@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, intel txt
+keywords: bare metal hardware monitoring, intel txt, hardware monitoring
 
 subcollection: bare-metal
 
