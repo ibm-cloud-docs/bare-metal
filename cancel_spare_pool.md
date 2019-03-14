@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2018-11-27"
 
-keywords: spare pools, cancel, bare metal
+keywords: spare pools, cancel spare pools
 
 subcollection: bare-metal
 
