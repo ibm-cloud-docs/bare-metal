@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-07-10"
 
-keywords: bare metal, raid, adaptec, ipmi, raid bios, raid array
+keywords: raid, adaptec, ipmi, raid bios, raid array, RAID configuration
 
 subcollection: bare-metal
 
