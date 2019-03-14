@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, 3ware RAID, 
+keywords: check 3ware RAID, 3ware raid health
 
 subcollection: bare-metal
 
