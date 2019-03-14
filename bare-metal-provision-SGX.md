@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, provision, sgx
+keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture
 
 subcollection: bare-metal
 
