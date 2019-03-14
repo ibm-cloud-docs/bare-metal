@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, software, {{site.data.keyword.BluSoftlayer_full}}
+keywords: bare metal software, software
 
 subcollection: bare-metal
 
