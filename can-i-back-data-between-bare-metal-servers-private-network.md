@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-04-02"
 
-keywords: back up, recovery, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}, evault, nas, r1soft
+keywords: back up, recovery, evault, nas, r1soft
 
 subcollection: bare-metal
 
