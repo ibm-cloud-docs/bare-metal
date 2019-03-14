@@ -4,7 +4,7 @@ copyright:
   years:  2019
 lastupdated: "2019-02-01"
 
-keywrods: provision managed pool, bare metal
+keywrods: provision managed pool, managed pools
 
 subcollection: bare-metal
 
