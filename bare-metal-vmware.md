@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-04-02"
 
-keywords: vmware, {{site.data.keyword.BluSoftlayer_full}}, {{site.data.keyword.baremetal_short}}
+keywords: vmware and {{site.data.keyword.cloud.notm}}
 
 subcollection: bare-metal
 
