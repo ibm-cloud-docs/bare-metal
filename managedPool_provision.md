@@ -37,4 +37,4 @@ Use the standard provisioning process to order servers in your pool. Your order 
 
 ## Next steps
 
-After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](/docs/bare-metal?topic=bare-metal-specifying-the-number-of-servers-in-your-customer-managed-pool)
+After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](docs/bare-metal?topic=bare-metal-set-amount-servers-pool#set-amount-servers-pool)
