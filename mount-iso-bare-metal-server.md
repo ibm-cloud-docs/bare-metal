@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: mount iso bare metal
+keywords: mount iso bare metal server, mount iso, iso on server, iso
 
 subcollection: bare-metal
 
