@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-07-31"
 
-keywords: assign server IP addresses, server IP addresses
+keywords: assign server IP address, server IP address, secondary ip address, primary ip address
 
 subcollection: bare-metal
 
