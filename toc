@@ -64,7 +64,7 @@ IBM Cloud bare metal servers
     {: .topicgroup}
     Backing up and recovering
         can-i-back-data-between-bare-metal-servers-private-network.md
-        [Launching a rescue kernel](/docs/vsi/vsi_launch_rescue.html)
+        [Launching a rescue kernel](/docs/vsi?topic=virtual-servers-launching-rescue#launch-rescue-kernel)
 
     {: .topicgroup}
     Managing spare pools
@@ -83,7 +83,7 @@ IBM Cloud bare metal servers
     get-help-and-support.md
     raid-support.md
     faq.md
-    [FAQs: Servers (general)](/docs/vsi/faq_servers_general.html)
-    [FAQs: OS Reload](/docs/infrastructure/software/os-reload-question-faq.html)
-    [FAQs: cpsrvd email](/docs/infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    [FAQs: Servers (general)](/docs/vsi?topic=faq_servers_general)
+    [FAQs: OS Reload](/docs/infrastructure/software?topic=os-reload-question-faq)
+    [FAQs: cpsrvd email](/docs/infrastructure/software?topic=why-did-my-cpsrvd-email-fail)
     {: .navgroup-end}
