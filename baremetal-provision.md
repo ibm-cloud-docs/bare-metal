@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-11-12"
 
-keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
+keywords: custom server, build custom {{site.data.keyword.baremetal_short}}
 
 subcollection: bare-metal
 
