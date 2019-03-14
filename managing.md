@@ -4,7 +4,7 @@ copyright:
   years: 2016, 2019
 lastupdated: "2018-04-02"
 
-keywords: manage bare metal servers, power off, replicate, reload os, delete server, 
+keywords: manage bare metal servers, power off, replicate, reload os, delete server, manage server
 
 subcollection: bare-metal
 
