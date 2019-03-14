@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, no os, no operating system
+keywords: no os, no operating system
 
 subcollection: bare-metal
 
