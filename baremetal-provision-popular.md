@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-06-21"
 
-keywords: bare metal, provision, popular servers, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}
+keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
 
 subcollection: bare-metal
 
