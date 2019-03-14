@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2018-04-02"
 
-keywords: manage bare metal port control
+keywords: manage port control, port control
 
 subcollection: bare-metal
 
