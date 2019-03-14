@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-07-10"
 
-keywords: bare metal raid controller commands
+keywords: raid controller commands, raid commands
 
 subcollection: bare-metal
 
