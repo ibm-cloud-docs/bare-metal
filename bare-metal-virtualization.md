@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, virtualization, {{site.data.keyword.BluSoftlayer}}, {{site.data.keyword.BluSoftlayer_notm}}
+keywords: bare metal virtualization
 
 subcollection: bare-metal
 
