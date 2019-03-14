@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-05-02"
 
-keywords: optane, bare metal
+keywords: optane, Intel Optane SSD
 
 subcollection: bare-metal
 
