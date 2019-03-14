@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-21"
 
-keywords: bare metal, faq, {{site.data.keyword.cloud}}
+keywords: bare metal faq, bare metal frequently asked questions
 
 subcollection: bare-metal
 
