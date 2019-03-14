@@ -60,13 +60,13 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
    <td>You have three options when it comes to provisioning your server: popular, custom, and SAP-certified. Popular servers are pre-configured servers that meet the needs of most customers and can be ready to configure 30 - 40 minutes after provisioning. 
    
      
-<br>Custom servers are servers that you create by selecting specific compute, connectivity, storage, and network options to meet your needs. Custom servers take longer to provision, usually 2 - 4 hours, and have higher operating costs. You can [Provision an Intel Optane-compatible bare metal server](/docs/bare-metal?topic=bare-metal-provisioning-an-intel-optane-compatible-bare-metal-server#provisioning-an-intel-optane-compatible-bare-metal-server) or one with an [Intel SGX architecture](/docs/bare-metal?topic=bare-metal-provisioning-a-bare-metal-server-with-intel-sgx-architecture#provisioning-a-bare-metal-server-with-intel-sgx-architecture). 
+<br>Custom servers are servers that you create by selecting specific compute, connectivity, storage, and network options to meet your needs. Custom servers take longer to provision, usually 2 - 4 hours, and have higher operating costs. You can [Provision an Intel Optane-compatible bare metal server](/docs/bare-metal?topic=bare-metal-bm-provision-optane-server#bm-provision-optane-server) or one with an [Intel SGX architecture](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx#bm-server-provision-sgx). 
      
 <br>SAP-certified servers are certified to support SAP HANA and SAP NetWeaver landscapes.
 Use the links to be taken to provisioning information for that type of server. Note that with SAP-certified servers, you need to select which type of landscape, SAP HANA, or SAP NetWeaver, you are provisioning.<br>
-* [Fast-provisioned bare metal servers](/docs/bare-metal?topic=bare-metal-Popluar#Popluar)<br>
+* [Fast-provisioned bare metal servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers)<br>
 * [Custom bare metal servers](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server)<br>
-* [IBM Cloud SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure#ibm-cloud-sap-certified-infrastructure)
+* [IBM Cloud SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure)
   </td>
  <tr>
    <td>7. Configure your bare metal server</td>
