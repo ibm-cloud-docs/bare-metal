@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-5-31"
 
-keywords: bare metal raid support
+keywords: raid support, raid help
 
 subcollection: bare-metal
 
