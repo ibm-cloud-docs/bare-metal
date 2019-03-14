@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal, security patches, {{site.data.keyword.baremetal_short}}
+keywords: bare metal security patches, security patch
 
 subcollection: bare-metal
 
