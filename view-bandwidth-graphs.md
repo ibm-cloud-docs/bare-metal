@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-06-21"
 
-keywords: view bandwidth graph
+keywords: view bandwidth graph, bandwidth graph
 
 subcollection: bare-metal
 
