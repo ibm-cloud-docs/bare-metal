@@ -72,4 +72,4 @@ The end of life process is initiated when there is a malfunction or if the age o
 ## Can I see what bare metal servers are available for purchase?
 {: faq}
 
-Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-selecting-from-the-most-popular-servers#selecting-from-the-most-popular-servers).
+Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers).
