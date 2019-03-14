@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal server, optane, provision
+keywords: provision Intel Optane compatible bare metal server, Intel Optane, optane 
 
 subcollection: bare-metal
 
