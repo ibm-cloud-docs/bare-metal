@@ -4,7 +4,7 @@ copyright:
   years: 2016, 2019
 lastupdated: "2018-11-06"
 
-keywords: activity tracker, bare metal, {{site.data.keyword.Bluemix}}
+keywords: activity tracker, activity tracker events
 
 subcollection: bare-metal
 
