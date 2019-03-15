@@ -83,7 +83,7 @@ IBM Cloud bare metal servers
     get-help-and-support.md
     raid-support.md
     faq.md
-    [FAQs: Servers (general)](/infrastructure/vsi/faq_servers_general)
+    [FAQs: Servers (general)](/infrastructure/vsi/virtual-servers-faqs-servers-general-)
     [FAQs: OS Reload](/infrastructure/software/software-faqs#faqs)
     [FAQs: cpsrvd email](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
     {: .navgroup-end}
