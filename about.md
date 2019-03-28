@@ -4,7 +4,7 @@ copyright:
   years: 2016, 2019
 lastupdated: "2019-03-01"
 
-keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}
+keywords: bare metal, bare metal servers, POWER8, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, about bare metal
 
 subcollection: bare-metal
 
