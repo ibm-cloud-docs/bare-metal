@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-03-25"
 
-keywords: reserved bare metal servers, cost savings, guaranteed capacity
+keywords: reserved bare metal, cost savings, guaranteed capacity
 
 subcollection: bare-metal
 
