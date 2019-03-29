@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-04-01"
 
 keywords: reserved bare metal, cost savings, guaranteed capacity
 
@@ -26,7 +26,7 @@ Reserved bare metal server instances offer many conveniences, including the foll
 
 * **Guaranteed availability**
 
-    When you reserve capacity, this capacity is guaranteed for the life of your contract term.
+    When you reserve capacity, the capacity is guaranteed for the life of your contract term.
 
 * **Global availability**
 
@@ -39,10 +39,6 @@ Reserved bare metal server instances offer many conveniences, including the foll
 * **Cost savings**
 
     Choosing either a 1-year or a 3-year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly bare metal server billing cycles.
-
-* **Cloud strategy** 
-
-    Improve you budgeting and forecasting with a consistent  monthly payment.
 
 ## Limitations
 
