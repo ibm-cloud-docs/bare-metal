@@ -8,6 +8,7 @@ IBM Cloud bare metal servers
     index.md
     about.md
     spare_pools.md
+    bare-metal-reserved.md
     about-SGX.md
     about-Optane.md
     what-raid.md
