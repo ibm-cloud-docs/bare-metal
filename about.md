@@ -2,9 +2,9 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-04-02"
 
-keywords: bare metal, bare metal servers, POWER8, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, about bare metal, available servers
+keywords: bare metal, bare metal servers, POWER8, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, about bare metal, available servers, cascade lake
 
 subcollection: bare-metal
 
@@ -53,6 +53,24 @@ If one of the popular servers doesn't meet your workload needs, you can customiz
 ## Available options for bare metal servers <!--test new section - test as each option goes GA-->
 {: #options-for-bare-metal-servers}
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
+
+### Intel Cascade Lake CPU support
+
+You can now choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
+
+* Intel Xeon 4210 (10-Core, 2.2 GHz, 85 W)
+* Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
+* Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
+* Intel Xeon 8280M (28-Core, 2.7 GHz, 205 W)<br>
+
+<br>Cascade Lake processors are available in the following data centers:
+
+* DAL12  
+* DAL13
+* WDC06
+* WDC07
+* FRA04
+* FRA05
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
