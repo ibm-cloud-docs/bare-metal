@@ -44,9 +44,8 @@ Reserved bare metal server instances offer many conveniences, including the foll
 
 Consider the following limitations before you reserve capacity and provision reserved bare metal server instances:
 
-* Reserved bare metal server instances can use only SAN-backed storage (balanced, memory, compute).
 * You can't upgrade or downgrade your instances.
-* Reserved capacity cannot be canceled; however, you can reclaim bare metal server instances in that capacity.
+* Your reserved capacity contract can't be canceled.
 
 ## Notifications
 
