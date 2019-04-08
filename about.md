@@ -76,6 +76,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
    <td>FRA04</td>
    <td>SYD01</td>
    <td>WDC06</td>
+   <td>TOK02</td>
 </tr>
 
 <tr>
