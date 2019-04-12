@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # A opção Sem S.O.
+{: #bm-no-os}
 
 Sem S.O. é uma opção para pedir um servidor bare metal sem um sistema operacional.
 
