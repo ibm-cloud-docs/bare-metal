@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # Option Sans système d'exploitation
+{: #bm-no-os}
 
 L'option Sans système d'exploitation permet de commander un serveur bare metal sans système d'exploitation.
 
