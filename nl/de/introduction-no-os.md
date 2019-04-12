@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # Die Option "Ohne Betriebssystem"
+{: #bm-no-os}
 
 "Ohne Betriebssystem" ist eine Option, mit der ein Bare-Metal-Server ohne Betriebssystem bestellt wird.
 
