@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # 無 OS 選項
+{: #bm-no-os}
 
 「無 OS」選項是用來訂購沒有作業系統的裸機伺服器。
 
