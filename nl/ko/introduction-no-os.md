@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # OS 없음 옵션
+{: #bm-no-os}
 
 OS 없음은 운영 체제 없이 Bare Metal Server를 주문할 수 있는 옵션입니다.
 
