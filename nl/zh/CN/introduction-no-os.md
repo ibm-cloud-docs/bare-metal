@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # 无操作系统选项
+{: #bm-no-os}
 
 “无操作系统”选项用于订购不带操作系统的裸机服务器。
 
