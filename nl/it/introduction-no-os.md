@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # Opzione di nessun sistema operativo (No OS)
+{: #bm-no-os}
 
 Nessun sistema operativo (No OS) è un'opzione per ordinare un server bare metal senza un sistema operativo.
 
