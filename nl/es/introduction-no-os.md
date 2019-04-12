@@ -10,6 +10,7 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 
 # La opción sin SO
+{: #bm-no-os}
 
 Sin sistema operativo es una opción para solicitar un servidor nativo sin sistema operativo.
 
