@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-03-04"
 
-keywords: {{site.data.keyword.cloud}} SAP-Certified Infrastructure, sap
+keywords: SAP, {{site.data.keyword.cloud}} SAP-Certified Infrastructure
 
 subcollection: bare-metal
 
