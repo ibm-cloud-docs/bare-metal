@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-04-17"
 
 keywords: bare metal, bare metal servers, POWER8, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, about bare metal, available servers, cascade lake
 
@@ -72,25 +72,32 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
    <th colspan="6">Data centers</th>
  </tr>
  <tr>
-   <td>DAL12</td>
-   <td>FRA04</td>
+   <td>DAL10</td>
+   <td>FRA02</td>
+   <td>LON04</td>
    <td>SYD01</td>
-   <td>WDC06</td>
    <td>TOK02</td>
+   <td>WDC04</td>
+   
+</tr>
+
+<tr>
+  <td>DAL12</td>
+  <td>FRA04</td>
+  <td>LON05</td>
+  <td>SYD04</td>
+  <td>TOK04</td>
+  <td>WDC06</td>
+  
 </tr>
 
 <tr>
   <td>DAL13</td>
   <td>FRA05</td>
-  <td>SYD04</td>
-  <td>WDC07</td>
-</tr>
-
-<tr>
-  <td></td>
-  <td></td>
+  <td>LON06</td>
   <td>SYD05</td>
-  
+  <td>TOK05</td>
+  <td>WDC07</td>
 </tr>
 </table>
 
