@@ -58,9 +58,9 @@ EIST is an established technology. It's not common that you need to turn off EIS
 ## What if my bare metal server has out-of-date firmware?
 {: faq}
 
-Like software updates, it is important to keep firmware updated to ensure optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware is out of date, a firmware update may be initiated during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
-
-You can also update the firmware by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
+It is important to keep firmware updated to make sure that your bare metal server has optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware version is out of date, firmware can be updated by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
+ 
+You can initial a firmware update during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
 
 ## What happens to drives in bare metal servers when a customer is finished with them?
 {: faq}
