@@ -61,6 +61,7 @@ IBM Cloud bare metal servers
         raid-commands.md
         what-raid-monitoring-daemon-named.md
         creating-and-adjusting-raid-configurations-adaptec.md
+        enabling-drive-security-using-avago-safestore-encryption-services.md
 
     {: .topicgroup}
     Backing up and recovering
