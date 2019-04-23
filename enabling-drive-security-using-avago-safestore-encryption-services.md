@@ -61,4 +61,4 @@ drives for a volume, then this option is not visible.
 
 To remove drive security, you must first delete secured virtual disks and right-click on Controller 0 to **Disable Drive Security**. This function securely erases the data in it and removes drive security.
 
-You can also set up drive security by using webBIOS and logging in through the IPMI at the start time and entering the RAID BIOS. For more information, see **Avago SafeStore Encryption Services** in the **12 Gb/s MegaRAID SAS Software User Guide**.
+You can also set up drive security by using webBIOS and logging in through the IPMI at the start time and entering the RAID BIOS. <!--For more information, see **Avago SafeStore Encryption Services** in the **12 Gb/s MegaRAID SAS Software User Guide**.-->
