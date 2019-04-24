@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-02"
 
-keywords: bare metal hardware monitoring, intel txt, hardware monitoring
+keywords: bare metal, intel txt
 
 subcollection: bare-metal
 
@@ -24,7 +24,7 @@ The escalation and sophistication of malicious threats has you employing more st
 
 ## How it works
 
-Intel TXT provides hardware monitoring and security controls that help assure businesses that a workload that is deployed on or migrated to the {{site.data.keyword.cloud_notm}} infrastructure is running on trusted hardware in a known location. {{site.data.keyword.cloud_notm}} supports Intel TXT on a range of {{site.data.keyword.baremetal_short}}. See http://www.softlayer.com/intel-txt for a complete list.
+Intel TXT provides hardware monitoring and security controls that help assure businesses that a workload that is deployed on or migrated to the {{site.data.keyword.cloud_notm}} infrastructure is running on trusted hardware in a known location. {{site.data.keyword.cloud_notm}} supports Intel TXT on a range of {{site.data.keyword.baremetal_short}}. See [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt) for a complete list.
 
 Intel TXT analyzes and measures the components of a computing system from the operating system or hypervisor to the computing system’s boot firmware and hardware. The analysis includes the system’s basic input/output system (BIOS), master boot record (MBR), and boot loader. The measurements are compared to a standard baseline to determine if the system is trusted or untrusted. System software and local or remote management software can use the trust decision to permit or deny a workload from running on that a computing system. Since Intel TXT performs the analysis and measuring during boot up, the added security doesn’t add any performance overhead to applications.
 
@@ -41,7 +41,7 @@ Intel TXT is especially advantageous for large enterprises subject to compliance
 * Identity and access management
 * Incident response
 
-For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, visit http://www.softlayer.com/intel-txt.
+For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, see Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt).
 
 The following link has more information about adding more security and compliance to your workloads with a [trusted secure cloud solution with IBM, VMware, and HyTrust](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf).
 
