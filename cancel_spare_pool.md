@@ -32,7 +32,7 @@ Devices that have been added to the spare pool may only be canceled from the Spa
    Canceling a device results in all data being removed from the canceled device. All information that is stored on the device cannot be retrieved after the device is canceled.
    {:tip}
 
-2. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+2. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
 3. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 4. Select **Actions > Cancel Device** for the specific device.
 5. Select the cancellation reason from the **Reason** drop-down list.
