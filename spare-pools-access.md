@@ -22,7 +22,7 @@ subcollection: bare-metal
 {: #bm-access-spare-pools}
 
 Follow these steps to access the Spare Pool screen in the {{site.data.keyword.slportal}}.
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
 2. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 
 
