@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-11-12"
 
-keywords: custom server, build custom {{site.data.keyword.baremetal_short}}
+keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
 
 subcollection: bare-metal
 
@@ -23,7 +23,7 @@ subcollection: bare-metal
 
 Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
 
-1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window}.   
+1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window}.   
 2. Select {{site.data.keyword.baremetal_short}}.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
 2. In the {{site.data.keyword.baremetal_short}} section, select the following information:
@@ -88,7 +88,7 @@ The _provisioning complete_ email includes a link to your *Device Details* page 
 ## Provisioning through the customer portal
 To provision your bare metal server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
-  1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window} by using your unique credentials.
   2. Go to **Order** > **Devices**.
   3. Click **Hourly SAN**, **Hourly local**, **Monthly**, or **Transient** for one of the bare metal offerings.
   4. From **Configure your Cloud Server**, complete all the relevant information.
@@ -100,4 +100,4 @@ To provision your bare metal server instance through the {{site.data.keyword.slp
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers#bm-manage-servers).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/infrastructure/bare-metal?topic=bare-metal-managing).
