@@ -4,7 +4,7 @@ copyright:
   years: 2016, 2019
 lastupdated: "2018-11-06"
 
-keywords: activity tracker, activity tracker events
+keywords: activity tracker, bare metal, {{site.data.keyword.Bluemix}}
 
 subcollection: bare-metal
 
@@ -32,8 +32,7 @@ The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated a
 {{site.data.keyword.Bluemix_notm}}. For more information, see 
 [About {{site.data.keyword.cloudaccesstrailshort}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov ).
 
-To get started monitoring your user's actions, see 
-[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started-with-cla#getting-started-with-cla). 
+To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started#getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console. 
 {: tip}
@@ -71,7 +70,6 @@ The following table lists the actions that generate an event:
 | `audit-log.bare-metal.rescue`                | An event is generated when an initiator rescues a bare metal server. | 
 | `audit-log.bare-metal.reload`                | An event is generated when an initiator performs an operating system (OS) reload for a bare metal server. | 
 {: caption="Table 2. Bare metal actions" caption-side="top"} 
-
 
 
 ## Viewing events
