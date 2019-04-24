@@ -38,7 +38,7 @@ subcollection: bare-metal
 # Getting help and support
 {: #gettinghelp}
 
-If you have problems or questions when you are using {{site.data.keyword.cloud_notm}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
+If you have problems or questions when you are using {{site.data.keyword.cloud_notm}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}.
 {:shortdesc}
 
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix}} development teams.
