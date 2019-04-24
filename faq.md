@@ -24,14 +24,14 @@ subcollection: bare-metal
 ## Why is my BIOS asking for a password?
 {: faq}
 
-Currently, {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS, for a variety of reasons. However, you can change the BIOS. If you need anything to be modified in the BIOS, including boot order, create a ticket under Support > Add Ticket through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and request the specific changes that you need.
+Currently, {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS, for a variety of reasons. However, you can change the BIOS. If you need anything to be modified in the BIOS, including boot order, create a ticket under Support > Add Ticket through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} and request the specific changes that you need.
 
 \*\*NOTE\*\* This requires a reboot of your server to do, so be ready to approve a reboot and/or provide a time frame for when you would like the change made.
 
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}. These include customized OS reloads (changing operating systems, addition/removal of control panels/partition editing, and so on).  For more information on performing an OS Reload, refer to the [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?
@@ -72,7 +72,7 @@ The end of life process is initiated when there is a malfunction or if the age o
 ## Can I see what bare metal servers are available for purchase?
 {: faq}
 
-Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-selecting-from-the-most-popular-servers#selecting-from-the-most-popular-servers).
+Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers).
 
 ## What's included with my reserved bare metal server?
 {: faq}
