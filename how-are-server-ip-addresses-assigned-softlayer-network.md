@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2018-07-31"
 
-keywords: assign server IP address, server IP address, secondary ip address, primary ip address
+keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
 
 subcollection: bare-metal
 
@@ -30,10 +30,10 @@ An IPv6 address on the public network, is available if requested. All of
 these IP addresses are collectively referred to as **Primary IP addresses**.
 
 More IP addresses can be bound to servers after you purchase **Secondary
-Subnets** through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com){: new_window}. IP addresses that you purchased through the Customer Portal
+Subnets** through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){: new_window}. IP addresses that you purchased through the Customer Portal
 and managed by you are called **Secondary IP addresses**.
 
-For more information about acquiring IP addresses, see [Subnets and IPs ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/infrastructure/subnets/).
+For more information about acquiring IP addresses, see [Subnets and IPs ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/infrastructure/subnets/).
 
 
 # Binding Secondary IP addresses
