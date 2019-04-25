@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2018-04-25"
 
-keywords: check 3ware RAID, 3ware raid health
+keywords: bare metal, 3ware 
 
 subcollection: bare-metal
 
@@ -22,7 +22,8 @@ subcollection: bare-metal
 
 With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Therefore, you use the command line interface.
 
-<!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
+You can download the 3ware CLI utilities from the [IBM Cloud CLI Plug-in Repository
+](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI Plug-in for cf CLI](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf).
 
 **Quick command reference for 3ware CLI tools**
 
