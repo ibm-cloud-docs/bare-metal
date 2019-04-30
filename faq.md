@@ -21,6 +21,14 @@ subcollection: bare-metal
 # FAQs: Bare metal servers
 {: #bm-faq}
 
+## What is UEFI boot mode?
+{: faq}
+The Unified Extensible Firmware Interface (UEFI) is a specification for the software interface between an operating system and firmware.
+
+IBM Cloud support for BIOS boot mode is phasing out in favor of UEFI.
+
+For more information about UEFI, see your hardware manufacturer documentation or go to [https://uefi.org/](https://uefi.org/)
+
 ## Why is my BIOS asking for a password?
 {: faq}
 
