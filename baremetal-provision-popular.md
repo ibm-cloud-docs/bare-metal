@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-06-21"
+lastupdated: "2019-05-02"
 
 keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
 
@@ -73,7 +73,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
     </tr>
     </TBODY>
     </table>
-3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add EVault Backup to your server.
+3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
 4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values.
 4.  Review your order.
 4. If you have a promo code to apply to your order, expand Apply Promo Code.  
