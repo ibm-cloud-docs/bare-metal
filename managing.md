@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2019-05-02"
 
 keywords: manage bare metal servers, power off, replicate, reload os, delete server, manage server
 
@@ -41,13 +41,13 @@ To clone the instance:
 Occasionally, you might want to reload the operating system on your server.
 {:shortdesc}
 
-To reload the operating system:
- 1. Back up all data before you start. If this step is skipped, all existing data is lost and it cannot be retrieved.
+To reload the operating system, follow these steps.
+ 1. Back up all data before you start. If you don't back up your data, all data that is on the primary disk is lost. But, secondary disk data stays intact.
  2. Go to the menu and select **OS Reload**. You can select one of these options:
   * Change the operating system to a different one and start over with new configurations.
   * Keep the existing operating system with the current configurations, but wipe out the server to start over.
 
-During the OS reload, the server will be offline and unavailable for use. Reload time varies based on server capacity and operating system. If you defined a provision script, all configurations will be restored after the reload completes. If your data was backed up prior to the OS reload, you can upload it to the server when it is available.
+During the OS reload, the server is offline and unavailable for use. Reload time varies based on server capacity and operating system. If you defined a provision script, all configurations are restored after the reload completes. Data was backed up before the OS reload can be uploaded the server when the server is available.
 
 ## Deleting the server instance
 {: #bm-delete-server-instance}
@@ -60,9 +60,9 @@ To delete the instance, go to the menu and select **Cancel Server**.
 ## Powering off a server
 {: #bm-power-off}
 
-You can create a server in advance to prepare for usage. After you create the server, power it off to ensure that nothing gets changed and no one can access it. When you're ready, you can power on the server and have it ready in a matter of minutes.
+You can create a server in advance to prepare for usage. After you create the server, power it off to make sure that nothing gets changed and that no one can access it. When you're ready, you can power on the server and have it ready in minutes.
 {:shortdesc}
 
-To power off the server, go to the menu and select **Power On/Off**. While the server is powered off, you will still be billed.
+To power off the server, go to the menu and select **Power On/Off**. **Note:** You are still billed for the server while it is powered off.
 
-**Note:** If the server is powered off, it remains in the power off state and you must manually power it on.
+**Note:** If the server is powered off, it stays powered off and you need to manually power it on.
