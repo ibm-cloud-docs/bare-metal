@@ -65,8 +65,8 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 
 <br>Cascade Lake processors are available in the following data centers:
 
-<caption>Table 1. Data centers with Cascade Lake processors</caption>
 <table style="width:100%">
+<caption>Table 1. Data centers with Cascade Lake processors</caption>
  <tr>
    
    <th colspan="6">Data centers</th>
@@ -106,15 +106,15 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 
 You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/infrastructure/bare-metal?topic=bare-metal-selecting-from-the-most-popular-servers#selecting-from-the-most-popular-servers).
 
-### Block and file storage add-on
-{: #bm-block-and-file-add-on}
+<!--### Block and file storage add-on
+{: #bm-block-and-file-add-on}-->
 
-If you need extra storage, IBM makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. 
+<!--If you need extra storage, IBM makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server.--> 
 
-Your add-on storage isn't ordered until your bare metal server is provisioned. {:note} 
+<!--Your add-on storage isn't ordered until your bare metal server is provisioned. {:note}-->
 
-For more information about block and file storage, see the following links.
+<!--For more information about block and file storage, see the following links.
 * [About block storage](https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-About)
-* [About file storage](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about)
+* [About file storage](https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about)-->
 
-Block and file storage add-ons are limited to enhanced data centers. {:important}
+<!--Block and file storage add-ons are limited to enhanced data centers. {:important}-->
