@@ -20,7 +20,7 @@ subcollection: bare-metal
 # RAID support ticket information
 {:# bm-raid-support-ticket}
 
-If you have a problem or question about using RAID on your bare metal server, you might find an answer in the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){:new_window} forum.
+If you have a problem or question about using RAID on your bare metal server, you might find an answer in the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){:new_window} forum.
 You can also open a support ticket. For information about support tickets, see [Opening a support ticket.](https://test.cloud.ibm.com/docs/get-support?topic=get-support-getting-customer-support#open-ticket){:new_window}
 {:shortdesc}
 
