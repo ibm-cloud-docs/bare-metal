@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-04-22"
+lastupdated: "2019-05-16"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -67,8 +67,8 @@ EIST is an established technology. It's not common that you need to turn off EIS
 {: faq}
 
 It is important to keep firmware updated to make sure that your bare metal server has optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware version is out of date, firmware can be updated by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
- 
-You can initial a firmware update during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
+
+You can initial a firmware update during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}.
 
 ## What happens to drives in bare metal servers when a customer is finished with them?
 {: faq}
@@ -80,7 +80,7 @@ The end of life process is initiated when there is a malfunction or if the age o
 ## Can I see what bare metal servers are available for purchase?
 {: faq}
 
-Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers).
+Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers).
 
 ## What's included with my reserved bare metal server?
 {: faq}
@@ -90,4 +90,4 @@ CPU, RAM, disk drive, and RAID are included in the reservation for the contracte
 ## What happens at the end of my reserved bare metal server contract?
 {: faq}
 
-Your cloud service continues on a monthly service period at the charge in effect on the expiration of your contract. 
+Your cloud service continues on a monthly service period at the charge in effect on the expiration of your contract.
