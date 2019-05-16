@@ -39,7 +39,7 @@ This is the preferred method for installing a custom OS on a bare metal server b
 Follow these steps to install a Custom OS from a CIFS Share:
 
 1. Make sure you have placed the ISO on the CIFS Share.
-* Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
+* Login to the IPMI management console by pointing your webbrowser to the IP specified in cloud.ibm.com and under devices -> your server (device details) -> Remote Mgmt. The username and password are also specified here.
 * Hover over the **Virtual Media** and click **CD-ROM image**
 * Fill in the appropriate details, click **Save and Mount**.
 * Not all users have permission to change the BIOS of the server. If necessary you can open a ticket to support requesting:
@@ -64,7 +64,7 @@ Prerequisites:<br/>
 ### Linux and Windows
 Follow the steps below to mount an ISO with IPMIView.
 1. Through a support ticket, request that your server boots their Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
-* Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include .softlayer.com in your Trusted Sites list and keep your JAVA up to date.
+* Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include .softlayer.com and .cloud.ibm.com in your Trusted Sites list and keep your JAVA up to date.
 * Copy ISO Media to NAS or Windows CIFS Server.
   * Connect to your Linux jumpbox using SSH.
   * Mount NAS share on your Linux jumpbox:
@@ -119,7 +119,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not yet mounted, support should only change the boot device priority for now).
 
 
-1. Login to the IPMI management console by pointing your webbrowser to the IP specified in control.softlayer.com.
+1. Login to the IPMI management console by pointing your webbrowser to the IP specified in cloud.ibm.com.
 * Click Devices > your server (device details) > Remote Mgmt. Specify the username and password.
 * Click Configuration > Remote session and change attach mode to **attach**. In some older IPMI consoles this option is not available so you can skip this step.
 * Click System > System information to return to the system information page.You will see a console window icon.
