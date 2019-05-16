@@ -22,7 +22,7 @@ subcollection: bare-metal
 
 Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attributes of storage and memory to create a new storage tier. The drives are available for a selection of {{site.data.keyword.cloud}} bare metal servers.
 
-[{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}
+[{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}
 
 For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: new_window}.
 
