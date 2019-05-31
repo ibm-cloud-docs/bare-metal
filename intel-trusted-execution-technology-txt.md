@@ -41,7 +41,7 @@ Intel TXT is especially advantageous for large enterprises subject to compliance
 * Identity and access management
 * Incident response
 
-For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, see Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt).
+For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, see [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt).
 
 The following link has more information about adding more security and compliance to your workloads with a [trusted secure cloud solution with IBM, VMware, and HyTrust](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf).
 
