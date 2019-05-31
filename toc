@@ -5,7 +5,7 @@
 IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     about.md
     spare_pools.md
     bare-metal-reserved.md
