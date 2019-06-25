@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # IBM Cloud SAP-Infra-estrutura Certificada
+{: #sap-cert-infrastructure}
 
 A infraestrutura certificada pela SAP do {{site.data.keyword.cloud}} fornece a flexibilidade para executar as cargas de
 trabalho do SAP no {{site.data.keyword.cloud_notm}} onde e quando você precisar delas com mais de 60 data centers da
@@ -27,7 +28,7 @@ rápida para fornecer rapidamente os servidores certificados pela SAP com o sist
 
   * [SAP HANA no {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started), um guia abrangente sobre como implementar o SAP HANA na infraestrutura do {{site.data.keyword.cloud_notm}}.
 
-  * 
+  *
 [Arquitetura
 de referência SAP no {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started), uma infraestrutura de exemplo que usa o SAP HANA e o SAP
 NetWeaver para mostrar os conceitos gerais de uma implementação SAP baseada no {{site.data.keyword.cloud_notm}}.

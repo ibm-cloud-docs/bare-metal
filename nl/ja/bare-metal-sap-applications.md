@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # IBM Cloud SAP 認定インフラストラクチャー
+{: #sap-cert-infrastructure}
 
 {{site.data.keyword.cloud}} SAP 認定インフラストラクチャーを使用すれば、SAP ワークロードは、世界中の 60 カ所を超える {{site.data.keyword.IBM_notm}} データ・センターで必要な場合、必要な時に {{site.data.keyword.cloud_notm}} で柔軟に実行できます。迅速なキャパシティー拡張 (および不要になった場合の縮小)、クラウドへの SAP ワークロードのマイグレーション、既存のプライベート・クラウド・アーキテクチャーの補完などの問題に速やかに対処できます。
 {:shortdesc}

@@ -13,17 +13,17 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # Acerca de los servidores nativos
-{: #about}
+{: #about-bm}
 
 {{site.data.keyword.baremetal_long}} son la piedra angular de la solución de infraestructura como servicio. Ya sea usted un desarrollador de juegos que requiere E/S de alta velocidad o que necesite servidores de alto rendimiento para sus usuarios, {{site.data.keyword.baremetal_short}} puede responder a sus necesidades de cálculo.
 {:shortdesc}
 
-{{site.data.keyword.baremetal_short}} es un servidor de un solo arrendatario por hora o mensual que está dedicado a usted; no se comparte en ninguna parte, incluidos los recursos del servidor, con otros clientes. Puede gestionar el servidor, que se suministra sin un hipervisor, y se puede desplegar en uno o varios centros de datos. Se pueden comunicar varios {{site.data.keyword.baremetal_short}} en la red privada virtual de {{site.data.keyword.cloud_notm}} como si estuvieran en el mismo bastidor. 
+{{site.data.keyword.baremetal_short}} es un servidor de un solo arrendatario por hora o mensual que está dedicado a usted; no se comparte en ninguna parte, incluidos los recursos del servidor, con otros clientes. Puede gestionar el servidor, que se suministra sin un hipervisor, y se puede desplegar en uno o varios centros de datos. Se pueden comunicar varios {{site.data.keyword.baremetal_short}} en la red privada virtual de {{site.data.keyword.cloud_notm}} como si estuvieran en el mismo bastidor.
 
 ## Servidores para cada carga de trabajo
 {: #servers_every_need}
 
-{{site.data.keyword.cloud_notm}} tiene {{site.data.keyword.baremetal_short}} para que se adapte a cada carga de trabajo. 
+{{site.data.keyword.cloud_notm}} tiene {{site.data.keyword.baremetal_short}} para que se adapte a cada carga de trabajo.
 
 ### Servidores populares
 {: #Popluar}

@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # Infraestructura de IBM Cloud SAP-Certified
+{: #sap-cert-infrastructure}
 
 La infraestructura de {{site.data.keyword.cloud}} SAP-Certified le proporciona la flexibilidad para ejecutar las cargas de trabajo de SAP en {{site.data.keyword.cloud_notm}} cuando las necesite, donde las necesite con más de 60 centros de datos de {{site.data.keyword.IBM_notm}} en todo el mundo. Puede solucionar rápidamente problemas tales como la rápida expansión de la capacidad (y la contracción cuando no es necesario), la migración de cargas de trabajo de SAP a la nube, o la complementación de una arquitectura de nube privada existente.
 {:shortdesc}

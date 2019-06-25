@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # 关于裸机服务器
-{: #about}
+{: #about-bm}
 
 {{site.data.keyword.baremetal_long}} 是基础架构即服务解决方案的基础。不管您是需要高速 I/O 的游戏开发人员，还是需要为用户设置高性能服务器，{{site.data.keyword.baremetal_short}} 都可以满足您的计算需求。
 {:shortdesc}

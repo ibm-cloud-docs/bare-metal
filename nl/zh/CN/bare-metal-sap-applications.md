@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # IBM Cloud SAP 认证的基础架构
+{: #sap-cert-infrastructure}
 
 使用 {{site.data.keyword.cloud}} SAP 认证的基础架构，在全球 60 多个 {{site.data.keyword.IBM_notm}} 数据中心，不管您何时何地需要运行 SAP 工作负载，都可以在 {{site.data.keyword.cloud_notm}} 中灵活地运行这些工作负载。您可以迅速解决快速容量扩展（以及不需要时收缩）、将 SAP 工作负载迁移到云或补充现有私有云体系结构等问题。
 {:shortdesc}

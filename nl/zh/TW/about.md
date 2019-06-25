@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # 關於裸機伺服器
-{: #about}
+{: #about-bm}
 
 {{site.data.keyword.baremetal_long}} 是基礎架構即服務解決方案的基準。不論您是需要需要高速 I/O 的遊戲開發人員，還是需要為使用者設定高效能伺服器，{{site.data.keyword.baremetal_short}} 都可以回應您的運算需求。
 {:shortdesc}

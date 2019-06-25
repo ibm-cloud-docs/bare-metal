@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # IBM Cloud SAP-Certified Infrastructure
+{: #sap-cert-infrastructure}
 
 {{site.data.keyword.cloud}} SAP-Certified Infrastructure ti offre la flessibilità di eseguire i tuoi carichi di lavoro SAP in {{site.data.keyword.cloud_notm}} quando e dove ne hai bisogno con più di 60 data center {{site.data.keyword.IBM_notm}} in tutto il mondo. Puoi occuparti in poco tempo di problemi quali una rapida espansione della capacità (e di una sua contrazione, quando non è necessaria), la migrazione di carichi di lavoro SAP al cloud o l'integrazione di un'architettura cloud privata esistente.
 {:shortdesc}

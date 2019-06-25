@@ -11,6 +11,7 @@ lastupdated: "2018-06-01"
 {:new_window: target="_blank"}
 
 # IBM Cloud SAP-Certified Infrastructure
+{: #sap-cert-infrastructure}
 
 {{site.data.keyword.cloud}} SAP-Certified Infrastructure에서는 전 세계 60개가 넘는 {{site.data.keyword.IBM_notm}} 데이터 센터를 통해 필요할 때 필요한 위치에서 {{site.data.keyword.cloud_notm}}에서 SAP 워크로드를 실행하는 유연성을 제공합니다. 신속한 용량 확장(및 필요 없는 경우의 축소), 클라우드로 SAP 워크로드 마이그레이션 또는 기존의 프라이빗 클라우드 아키텍처 보완 등의 문제를 신속하게 해결할 수 있습니다.{:shortdesc}
 

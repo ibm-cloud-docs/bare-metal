@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # A propos des serveurs bare metal
-{: #about}
+{: #about-bm}
 
 Les serveurs bare metal constituent la base de votre solution d'infrastructure sous forme de service (IaaS). Que vous soyez un développeur de logiciels de jeux ayant besoin d'un débit élevé d'entrées-sorties ou que vous augmenter les performances élevées de serveurs pour vos clients, {{site.data.keyword.baremetal_short}} peut répondre à ces besoins.
 {:shortdesc}
@@ -23,7 +23,7 @@ Votre serveur bare metal est un serveur à service exclusif horaire ou mensuel q
 ## Des serveurs pour chaque charge de travail
 {: #servers_every_need}
 
-{{site.data.keyword.cloud_notm}} propose un serveur bare metal pour répondre à chaque type de charge de travail. 
+{{site.data.keyword.cloud_notm}} propose un serveur bare metal pour répondre à chaque type de charge de travail.
 
 ### Serveurs classiques
 {: #Popluar}

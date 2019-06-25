@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # ベア・メタル・サーバーについて
-{: #about}
+{: #about-bm}
 
 {{site.data.keyword.baremetal_long}} は、お客様の Infrastructure as a Service ソリューションの基盤となるものです。高速な入出力が必要なゲーム開発者でも、ユーザー向けに高性能サーバーの性能をさらに向上させる必要がある場合でも、{{site.data.keyword.baremetal_short}} なら、その計算ニーズに応えることができます。
 {:shortdesc}

@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # Sobre servidores bare metal
-{: #about}
+{: #about-bm}
 
 Os {{site.data.keyword.baremetal_long}} são a base para a solução de infraestrutura como serviço. Se você é um
 desenvolvedor de jogos que requer E/S de alta velocidade ou precisa de servidores de alto desempenho para os usuários, os

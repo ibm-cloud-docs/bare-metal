@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # Informazioni sui server bare metal
-{: #about}
+{: #about-bm}
 
 I {{site.data.keyword.baremetal_long}} sono la base per la tua soluzione IaaS (infrastructure-as-a-service). Che tu sia uno sviluppatore di giochi che ha bisogno di I/O ad alta velocità o che tu debba configurare dei server ad elevate prestazioni per i tuoi utenti; i {{site.data.keyword.baremetal_short}} possono rispondere alle tue esigenze di elaborazione.
 {:shortdesc}

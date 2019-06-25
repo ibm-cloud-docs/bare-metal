@@ -13,7 +13,7 @@ lastupdated: "2018-07-11"
 {:new_window: target="_blank"}
 
 # Bare Metal Server 정보
-{: #about}
+{: #about-bm}
 
 {{site.data.keyword.baremetal_long}}는 IaaS(Infrastructure-as-a-Service) 솔루션의 기초입니다. 고속 I/O가 필요한 게임 개발자인지 사용자를 위해 고성능 서버를 설정해야 하는지에 상관없이 {{site.data.keyword.baremetal_short}}에서는 컴퓨팅 요구사항에 대한 해결책을 제시할 수 있습니다.
 {:shortdesc}
