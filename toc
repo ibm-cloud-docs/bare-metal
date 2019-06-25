@@ -30,7 +30,7 @@ IBM Cloud bare metal servers
     bare-metal-sap-applications.md
     {: .navgroup-end}
 
-    {: .navgroup id="howto"}
+    {: .navgroup id="howto"}    
     {: .topicgroup}
     Provisioning
         baremetal-provision-popular.md
@@ -45,7 +45,9 @@ IBM Cloud bare metal servers
         what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
         mount-iso-bare-metal-server.md
-
+        
+    /vsi/virtual-servers-navigating-devices
+    
     {: .topicgroup}
     Managing
         managing.md
@@ -66,7 +68,7 @@ IBM Cloud bare metal servers
     {: .topicgroup}
     Backing up and recovering
         can-i-back-data-between-bare-metal-servers-private-network.md
-        [Launching a rescue kernel](/infrastructure/vsi/virtual-servers-launching-rescue#launching-rescue)
+        [Launching a rescue kernel](/infrastructure/vsi/virtual-servers-launching-rescue)
 
     {: .topicgroup}
     Managing spare pools
@@ -86,6 +88,6 @@ IBM Cloud bare metal servers
     raid-support.md
     faq.md
     [FAQs: Servers (general)](/infrastructure/vsi/virtual-servers-faqs-servers-general-)
-    [FAQs: OS Reload](/infrastructure/software/software-faqs#faqs)
+    [FAQs: OS Reload](/infrastructure/software/software-faqs)
     [FAQs: cpsrvd email](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
     {: .navgroup-end}

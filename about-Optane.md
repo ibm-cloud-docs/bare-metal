@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-05-02"
+lastupdated: "2019-06-17"
 
-keywords: optane, Intel Optane SSD
+keywords: optane, bare metal
 
 subcollection: bare-metal
 
@@ -13,20 +13,18 @@ subcollection: bare-metal
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
 # Intel Optane SSD
 {: #ordering-ssd}
 
-Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attributes of storage and memory to create a new storage tier. The drives are available for a selection of {{site.data.keyword.cloud}} bare metal servers.
+Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attributes of storage and memory to create a new storage tier. The drives are available for a selection of {{site.data.keyword.cloud}} {{site.data.keyword.baremetal_long}}.
 
-[{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}
+For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: external}.
 
-For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: new_window}.
-
-Additional information can be found under [Experience next level compute perfomance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/bare-metal-servers/intel){: new_window}.
+Additional information can be found under [Experience next level compute perfomance](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
 
 ## Intel Optane drives and GPUs
 {: #ssd_gpu}

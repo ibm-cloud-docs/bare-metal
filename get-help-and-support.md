@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-19"
 
-keywords: bare metal help, bare metal support
+keywords: bare metal, help, support
 
 subcollection: bare-metal
 
@@ -13,7 +13,7 @@ subcollection: bare-metal
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 <!-- Common attributes used in the template are defined as follows: -->
@@ -38,14 +38,14 @@ subcollection: bare-metal
 # Getting help and support
 {: #gettinghelp}
 
-If you have problems or questions when you are using {{site.data.keyword.cloud_notm}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}.
+If you have problems or questions when you are using {{site.data.keyword.cloud}}, you can get help by searching for information or by asking questions through one of the forums listed in the following section. You can also create a support case in the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
 {:shortdesc}
 
-When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix}} development teams.
+When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 <!--Insert the appropriate Stack Overflow tag for your service for <block-storage> in URL and text below:  -->
-* If you have technical questions about bare metal servers, post your question on [Stack Overflow ![External link icon](../icons/launch-glyph.svg "External link icon")](http://stackoverflow.com/search?q=bare-metal+ibm-cloud){:new_window} and tag your question with "ibm-cloud" and "bare-metal".
+* If you have technical questions about {{site.data.keyword.baremetal_short}}, post your question on [Stack Overflow](http://stackoverflow.com/search?q=bare-metal+ibm-cloud){:external} and tag your question with `ibm-cloud` and `bare-metal`.
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){:new_window} forum. Include the "ibm cloud" tags.
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){:external} forum. Include the `ibm cloud` tag.
 
 <!--See [Getting help ![External link icon](../icons/launch-glyph.svg "External link icon")](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help){: new_window} for more details about using the forums.-->
 

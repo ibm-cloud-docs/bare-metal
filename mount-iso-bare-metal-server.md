@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-04-18"
+lastupdated: "2018-06-03"
 
 keywords: mount iso bare metal
 
@@ -23,7 +23,7 @@ subcollection: bare-metal
 
 ## Overview
 
-Although most {{site.data.keyword.Bluemix_notm}} customers use one of the standard Operating Systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
+Although most {{site.data.keyword.cloud}} customers use one of the standard Operating Systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
 
 For the methods to work, you need to connect to the private network through the SL VPN service, such as [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server that is connected to the network.
 
@@ -32,7 +32,7 @@ For the methods to work, you need to connect to the private network through the 
 ## Option 1 (preferred): using IPMI (ISO on a CIFS share)
 {: #bm-mount-iso-opt-1}
 
-If you already have infrastructure deployed on {{site.data.keyword.Bluemix_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on there to a bare metal server.
+If you already have infrastructure deployed on {{site.data.keyword.cloud_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on there to a bare metal server.
 
 This is the preferred method for installing a custom OS on a bare metal server because it installs over the local network, which is very fast and can keep an ISO mounted even if you log out or get disconnected from the management interface.
 
@@ -119,7 +119,7 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not yet mounted, support should only change the boot device priority for now).
 
 
-1. Login to the IPMI management console by pointing your webbrowser to the IP specified in cloud.ibm.com.
+1. Login to the IPMI management console by pointing your webbrowser to the IP that is specified in cloud.ibm.com.
 * Click Devices > your server (device details) > Remote Mgmt. Specify the username and password.
 * Click Configuration > Remote session and change attach mode to **attach**. In some older IPMI consoles this option is not available so you can skip this step.
 * Click System > System information to return to the system information page.You will see a console window icon.
@@ -138,6 +138,6 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * Not all users have default access to mount Virtual Media. If a permission error occurs, contact Support for an update to the Root IPMI User permissions.
 * If an ISO is already mounted, an error message will appear with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs may not be mounted at the same time.
 * You may need to contact support to change the boot order in the BIOS.
-* When mounting an ISO please use SSL VPN (http://vpn.softlayer.com) instead of PPTP VPN.  Once connected to the VPN network you can also access the system's IPMI through the IPMI address (https://<private-ip-IPMI-management>).
+* When mounting an ISO please use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  Once connected to the VPN network you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
 * When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
   ```\\<NAS username>\<isoname>.iso```

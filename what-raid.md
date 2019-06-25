@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-06-19"
 
 keywords: raid, about raid
 
@@ -13,9 +13,10 @@ subcollection: bare-metal
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 
 # About RAID
@@ -26,10 +27,10 @@ RAID (Redundant Array of Independent Disks) creates a single usable data disk, w
 * **Striping**: splitting data across more than one disk
 * **Error correction** (fault tolerance): redundant data is stored to allow problems to be detected and possibly fixed.
 
-Although many different levels of RAID exist, IBM chooses to support the most common raid types: 0, 1, 5, 6, and 10. The different RAID levels use one or more of the following techniques, depending on the system requirements. The main purpose of using RAID is to improve reliability by using either 3Ware 9550SX Raid SATA or an Adaptec SA-SCSI RAID controller for all RAID solutions deployed.
+Although many different levels of RAID exist, {{site.data.keyword.IBM_notm}} chooses to support the most common RAID types: 0, 1, 5, 6, and 10. The different RAID levels use one or more of the following techniques, depending on the system requirements. The main purpose of using RAID is to improve reliability by using either 3Ware 9550SX Raid SATA or an Adaptec SA-SCSI RAID controller for all RAID solutions deployed.
 
 RAID is not a backup solution. Rather, RAID creates a single usable data disk, where several physical disks are combined into an array for better speed and fault tolerance.
-
+{: note}
 
 **RAID 0** (Striped set without parity / Non-Redundant Array) Implements data striping, where file blocks are written across multiple disks in fragments that require a minimum of two disks. The advantage of a RAID 0 is that the read/write speed is dramatically increased. The more disks that are in the array, the greater the bandwidth. The disadvantage to a RAID 0 is that it has no fault tolerance. If a single drive fails, the array is broken. Also, RAID 0 does not implement error checking. So, any error is also unrecoverable. A common solution for fault tolerance is to have a drive outside of the array that is used as backup storage in a hardware failure.
 

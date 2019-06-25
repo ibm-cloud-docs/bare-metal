@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2019-05-31"
 
 keywords: bare metal, intel txt
 

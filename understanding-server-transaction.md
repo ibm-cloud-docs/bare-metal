@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-03"
 
-keywords: server transaction, 
+keywords: server transation, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.cloud}}
 
 subcollection: bare-metal
 
@@ -20,7 +20,7 @@ subcollection: bare-metal
 # Understanding a server transaction
 {: #bm-server-transaction}
 
-When a server at {{site.data.keyword.Bluemix_short}} is provisioned, an operating system is loaded, or software is installed, it gets put into a *transaction*.  A transaction is an automated series of steps that are carried out by the {{site.data.keyword.Bluemix_notm}} management systems to configure customer servers.
+When a server at {{site.data.keyword.cloud}} is provisioned, an operating system is loaded, or software is installed, it gets put into a *transaction*.  A transaction is an automated series of steps that are carried out by the {{site.data.keyword.cloud_notm}} management systems to configure customer servers.
 
 If one of your servers is in a transaction, a link appears in server notes in hardware listings.  You can click this link to see what transactions are pending for that specific server.  You are then presented with a table listing data for the current transaction that is in progress.
 

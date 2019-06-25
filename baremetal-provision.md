@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2018-11-12"
+lastupdated: "2019-06-24"
 
 keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
 
@@ -13,89 +13,72 @@ subcollection: bare-metal
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 
-# Building a custom {{site.data.keyword.baremetal_short}}
+# Building a custom Bare Metal Server
 {: #ordering-baremetal-server}
 
-Use the following steps to build a custom {{site.data.keyword.baremetal_short}}.
+Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 
-1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window}.   
-2. Select {{site.data.keyword.baremetal_short}}.
+## Provisioning through the {{site.data.keyword.cloud_notm}} catalog
+{: #provision-through-the-catalog}
+
+Use the following steps to provision your {{site.data.keyword.baremetal_short}} through the {{site.data.keyword.cloud_notm}}.
+
+1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/){: external}.   
+2. Select {{site.data.keyword.baremetal_short}} under **Compute**.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
-2. In the {{site.data.keyword.baremetal_short}} section, select the following information:
-    <table>
-    <CAPTION>Table 1. Bare metal selections</CAPTION>
-    <THEAD>
-    <TR>
-    <th>Field</th>
-    <th>Value</th>
-    </TR>
-    </THEAD>
-    <TBODY>
-    <tr>
-    <td>Quantity</td>
-    <td>Use the + and - icons to specify the number of **identical** servers to provision. The default is 1.<br>If you want to provision multiple servers with **different** specifications, you need to provision them separately.
-    <tr>
-    <tr>
-    <td>Billing type</td>
-    <td>Select Hourly or Monthly
-    <tr>
-    <td>Hostname and Domain</td>
-    <td>These fields are populated with default. You can change them.</td>
-    </tr>
-    <td>Location</td>
-    <td>Select the region and data center where you want the server to be located.</td>
-    </tr>
-    <tr>
-    <tr>
-    <td>Select your server</td>
-    <td>1. Select **All Servers**. <br>2. Select the processor type (Single, Dual, Quad, SAP Certified, or GPU) that you need.<br>3. Select the CPU model that you need.
-    </td>
-    </tr>
-    <tr>
-    <td>RAM</td>
-    <td>Select the amount of RAM you need on your machine. Your choices may be limited by the server that you selected.</td>
-    </tr>
-    <tr>
-    <td>SSH Keys</td>
-    <td>Provide a public key of your SSH key, which you use to log in to your server after it is provisioned.</td>
-    </tr>
-    <tr>
-    <td>Image <br>(Operating System)</td>
-    <td>Select the operating system for the server. Your Image options may be limited based on the server you selected.</td>
-    </tr>
-    <td>Add-ons</td>
-    <td>Expand the Add-ons section to select the appropriate options or use the default values.</td>
-    </tr>
-    </TBODY>
-    </table>
-5. In the Storage Disks section, select your disk specifications. Click Add new to add more storage disks.
-Expand the Add-ons section for more storage options.
-4. In the Network Interface section, select the Uplink Port Speeds and Private VLAN options. Expand the Add-ons section to select the appropriate options or use the default values.
-4.  Review your order.
-4. If you have a promo code to apply to your order, expand Apply Promo Code.
-5.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
-6.  Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.  
+4. Enter the **Quantity** of **identical** servers to provision. The default is 1. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately.
+5. **Hostname** is a permanent or temporary name for your servers, for example, baremetal01. Click **Information** for formatting specifics.
+6. **Domain** is the identification string that defines administrative control within the Internet, for example, Customer-123456.cloud. Click **Information** for formatting specifics.
+7. **Billing** is either **Hourly** or **Monthly**.
+8. Select the **Location**, region and data center, where your server is to be located.
+9. Click **All servers** to see a list of processors (Single, Dual, and Quad) and certified servers (SAP and VMware). Select the server that best meets your worklaod.
+10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed. 
 
-A series of emails are sent to your administrator: Acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete.
+For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
+{ :note}
+
+11. Enter an optional public key for your **SSH key**, which you can use to log in to yor server after it's provisioned.
+12. Select an **Image** (operating system) for your server. Your options are based on the your selected server.
+13. Expand **Add-ons** to select options related to the server's configuration.
+14. The **Storage disks** are preconfigured based on your server selection. Expand **Add-ons** to add File or Block storage volumes after your {{site.data.keyword.baremetal_short}} have been provisioned. 
+15. Under **Network Interface**, select the Uplink Port Speeds and Private VLAN options. Expand **Add-ons** to select the appropriate options or use the default values.
+16. Review your order in the Order summary.
+17. Enter any promo codes you have under **Apply Promo Code**.
+18. Click the third-party service agreements for any listed agreements.
+19. Click **Create** to provision your server. You are redirected to a screen with your provisioning order number, which you can print because it's also your receipt.
+
+A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete.
 
 The _provisioning complete_ email includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
-## Provisioning through the customer portal
-To provision your bare metal server instance through the {{site.data.keyword.slportal}}, complete the following steps:
+You also have the option to save the order as a quote or to add it to an estimate. When you save a quote, a link is sent to the email address associated with your account. Open the link to see the saved quote information. Another option is to go to Manage > Billing and usage, and select Sales > Device quotes. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order. Adding to estimate places the configurations proposed cost in the pricing calculator. Click **Information** for more details about the pricing calculator.
 
-  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window} by using your unique credentials.
-  2. Go to **Order** > **Devices**.
-  3. Click **Hourly SAN**, **Hourly local**, **Monthly**, or **Transient** for one of the bare metal offerings.
-  4. From **Configure your Cloud Server**, complete all the relevant information.
-  5. Click **Add to Order**.
-  6. Confirm or edit the domain information for the server.
-  7. Select **Cloud Service terms** and the **Third-Party Service Agreement**.
-  8. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because if you need a provisioning order receipt.
+## Provisioning through the customer portal
+Use the following steps to provision your {{site.data.keyword.baremetal_short}} through the {{site.data.keyword.slportal}}.
+
+1. Log in to the [{{site.data.keyword.slportal}}](control.softlayer.com){: external} by using your unique credentials.
+2. Go to **Account** > **Place an Order**.
+3. Choose **Hourly** or **Monthly**.
+3. Select your data center where your want your {{site.data.keyword.baremetal_short}} located from the list, and then select your certified server (SAP or VMware) or processor (Single, Dual, and Quad) by clicking the **STARTING PRICE**.
+4. Enter the **Quantity** of _identical_ servers to provision. The default is 1. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately.
+5. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed. 
+
+For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
+{ :note}
+
+6. Select your operating system.
+7. Select your hard drives and additional system add ons.
+8. Click **Add to Order** where you are redirected to confirm your order.
+9. Confirm or edit the domain information for the server. **Hostname** is a permanent or temporary name for your servers, for example, baremetal01. 
+10. Select **Cloud Service terms** and the **Third-Party Service Agreement**.
+11. Enter any promo codes you have under **Promo code** and click **Apply**.
+12. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number, which you can print because it's also your receipt. 
 
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 

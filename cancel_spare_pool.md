@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-11-27"
+lastupdated: "2019-05-31"
 
-keywords: spare pools, cancel spare pools
+keywords: spare pools, cancel, bare metal
 
 subcollection: bare-metal
 
@@ -22,7 +22,7 @@ subcollection: bare-metal
 # Canceling spare pools
 {: #cancel-spare-pools}
 
-Devices that have been added to the spare pool may only be canceled from the Spare Pool screen within the Customer Portal. The cancellation of a device in the spare pool is identical to that of a device within the Device List. Follow the steps below to cancel a device in the spare pool.
+Devices that have been added to the spare pool may only be canceled from the Spare Pool screen within the {{site.data.keyword.cloud}} console. The cancellation of a device in the spare pool is identical to that of a device within the Device List. Follow the steps below to cancel a device in the spare pool.
 {:shortdesc}
 
 ## Canceling spare pools
@@ -32,7 +32,7 @@ Devices that have been added to the spare pool may only be canceled from the Spa
    Canceling a device results in all data being removed from the canceled device. All information that is stored on the device cannot be retrieved after the device is canceled.
    {:tip}
 
-2. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
+2. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
 3. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 4. Select **Actions > Cancel Device** for the specific device.
 5. Select the cancellation reason from the **Reason** drop-down list.

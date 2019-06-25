@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2018-11-27"
+lastupdated: "2019-06-03"
 
 keywords: bare metal reactivate spare pool
 
@@ -27,7 +27,7 @@ When a device is added to the spare pool, its status within the Device List chan
 
 ## Reactivating a device from the spare pool
 
-1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.cloud}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
 2. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 3. Select **Actions > Reactivate Device** for the desired device.
 4. Click **Yes** to reactivate the server. Click **No** to cancel the action.
