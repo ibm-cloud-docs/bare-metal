@@ -90,11 +90,11 @@ Follow the steps below to mount an ISO with IPMIView.
       3. Use the IPMI IP address from the hardware object to complete the Server Name and IP address fields.<br>
       4. Double-click the system with the same IP address on the left side and enter ADMIN for Login ID and the IPMI password from the hardware object.
       5. After you connect, you have many tabs available in the window. You can use **Text Console** or **KVM Console** to connect to the server.
-  
+
 * Open the Virtual Media Tab
 * Complete the CD-ROM Image connection details.
   *
-    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example, ```ping nas501.service.softlayer.com```
+    * Share host = The IP Address of the NAS Storage. You can find this value pinging your NAS storage server name. For example, `ping nas501.service.softlayer.com`
     * Share Name = The Username of the NAS storage
     * Path to image = The name of the ISO file, in the following format:
           \NASusername\isoname.iso (i.e. \SLN123456\centos6.iso)
@@ -140,4 +140,4 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * You may need to contact support to change the boot order in the BIOS.
 * When mounting an ISO please use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  Once connected to the VPN network you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
 * When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
-  ```\\<NAS username>\<isoname>.iso```
+  `\\<NAS username>\<isoname>.iso`
