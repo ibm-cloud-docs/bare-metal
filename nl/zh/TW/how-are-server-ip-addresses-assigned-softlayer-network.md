@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2019-06-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-07-31"
 {:new_window: target="_blank"}
 
 # 指派伺服器 IP 位址
+{: #bm-assign-ip-address}
 
 {{site.data.keyword.cloud}} 會為伺服器配置專用網路上的 IPv4 位址、專用網路上進行低階管理存取之用的 IPv4 位址，以及在要求的情況下配置公用 IPv4 位址。如果要求，會提供公用網路上的 IPv6 位址。所有這些 IP 位址統稱為**主要 IP 位址**。
 
@@ -19,5 +20,6 @@ lastupdated: "2018-07-31"
 
 
 # 連結次要 IP 位址
+{: #bm-bind-secondary-ip-address}
 
 購買次要子網路之後，您需要將作業系統配置成使用一個以上的 IP 位址。每一個作業系統會以不同方式配置 IP 位址，但通常稱為「介面別名」。 
