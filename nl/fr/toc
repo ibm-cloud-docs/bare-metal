@@ -1,27 +1,23 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bare-metal" audience="compute" arm="2437231" href="/docs/bare-metal?topic=bare-metal-getting-started" path="bare-metal"}
+{: .toc subcollection="bare-metal" category="compute" audience="compute" arm="2437231" href="/docs/bare-metal?topic=bare-metal-getting-started" path="bare-metal"}
 Serveurs bare metal IBM Cloud
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     about.md
-    managedPool_about.md
+    spare_pools.md
+    bare-metal-reserved.md
     about-SGX.md
     about-Optane.md
-
-    {: .topicgroup}
-    Technologie RAID
-        what-raid.md
-        what-raid-monitoring-daemon-named.md
-
+    what-raid.md
     bare-metal-software.md
 
     {: .topicgroup}
     Systèmes d'exploitation
-        introduction-no-os.md
         can-i-change-operating-system-os-my-device.md
+        introduction-no-os.md
 
     {: .topicgroup}
     Sécurité
@@ -39,9 +35,11 @@ Serveurs bare metal IBM Cloud
     Mise à disposition
         baremetal-provision-popular.md
         baremetal-provision.md
-        bm_provision_ssd.md
         bare-metal-provision-SGX.md
+        bm_provision_ssd.md
         managedPool_provision.md
+
+    /vsi/virtual-servers-navigating-devices
 
     {: .topicgroup}
     Configuration
@@ -55,28 +53,41 @@ Serveurs bare metal IBM Cloud
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
-        managing_port_control.md
-        creating-and-adjusting-raid-configurations-adaptec.md
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
         managing_port_control.md
-        can-i-back-data-between-bare-metal-servers-private-network.md
         managedPool_managing.md
 
-     {: .topicgroup}
-     Sauvegarde et reprise
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
-        [Lancement d'un noyau de secours](../vsi/vsi_launch_rescue.html)
+    {: .topicgroup}
+    Utilisation de RAID
+        raid-commands.md
+        what-raid-monitoring-daemon-named.md
+        creating-and-adjusting-raid-configurations-adaptec.md
+        enabling-drive-security-using-avago-safestore-encryption-services.md
+
+    {: .topicgroup}
+    Sauvegarde et restauration
+        can-i-back-data-between-bare-metal-servers-private-network.md
+        [Lancement d'un noyau de secours](/infrastructure/vsi/virtual-servers-launching-rescue)
+
+    {: .topicgroup}
+    Gestion des pools de secours
+        spare-pools-access.md
+        add_spare_pool.md
+        cancel_spare_pool.md
+        reactivating_spare_pool_device.md
+        spare-pool-API-methods.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    bm-activity-tracker-events.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     get-help-and-support.md
     raid-support.md
     faq.md
-    [Foire aux questions : Serveurs (généralités)](../vsi/faq_servers_general.html)
-    [Foire aux questions : Rechargement de système d'exploitation](../infrastructure/software/os-reload-question-faq.html)
-    [Foire aux questions : E-mail cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+    [Foire aux questions : Serveurs (généralités)](/infrastructure/vsi/virtual-servers-faqs-servers-general-)
+    [Foire aux questions : Rechargement de système d'exploitation](/infrastructure/software/software-faqs)
+    [Foire aux questions : E-mail cpsrvd](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
     {: .navgroup-end}

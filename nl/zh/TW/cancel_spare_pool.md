@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-02"
+  years: 2014, 2019
+lastupdated: "2019-05-31"
 
+keywords: spare pools, cancel, bare metal
+
+subcollection: bare-metal
 
 ---
 
@@ -18,10 +19,10 @@ lastupdated: "2018-02-02"
 {:table: .aria-labeledby="caption"}
 
 
-# 取消備用儲存區 
-{: #adding-spare-pools}
+# 取消備用儲存區
+{: #cancel-spare-pools}
 
-只有從 {{site.data.keyword.slportal_full}} 的「備用儲存區」畫面才能取消新增至備用儲存區的裝置。取消備用儲存區中的裝置，與取消「裝置清單」內的裝置相同。完成下列步驟，以取消備用儲存區中的裝置。
+已新增至備用儲存區的裝置只能從 {{site.data.keyword.cloud}} 主控台的「備用儲存區」畫面取消。取消備用儲存區中的裝置，與取消「裝置清單」內的裝置相同。請遵循下列步驟，以取消備用儲存區中的裝置。
 {:shortdesc}
 
 ## 取消備用儲存區
@@ -31,7 +32,7 @@ lastupdated: "2018-02-02"
    取消裝置會導致移除已取消裝置中的所有資料。取消裝置之後，就無法擷取裝置上所儲存的所有資訊。
    {:tip}
 
-2. 使用您的唯一認證來存取 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
+2. 使用您的唯一認證來存取 [{{site.data.keyword.cloud}} 主控台 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://cloud.ibm.com/){: new_window}。
 3. 從「導覽列」中選取**裝置 > 備用儲存區**，以存取*備用儲存區* 畫面。
 4. 選取特定裝置的**動作 > 取消裝置**。
 5. 從**原因**下拉清單中，選取取消原因。

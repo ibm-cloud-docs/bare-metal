@@ -1,30 +1,28 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # RAID 제어기 명령
+{: #bm-raid-controller-commands}
 
 Adapatec 명령행 유틸리티를 사용하여 RAID 제어기 명령을 실행합니다.
 다음은 사용할 수 있는 가장 일반적인 RAID 제어기 명령입니다.
 {:shortdesc}
-
-**참고:** Windows와 VMware는 storcli 명령을 실행하는 경로가 서로 다릅니다. 적절한 명령 경로는 다음 명령을 참조하십시오.
-
-Windows(CMD 사용)
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-또는
-`C:\Program Files\LSIStorCli>`
-
-VMware(storcli 명령을 실행하기 전에 storcli를 설치해야 함)
-`/opt/lsi/storcli/`
-
-## 명령 RAID 제어기 명령
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_에서는 조작 유형, 논리 드라이브 번호, 논리 드라이브 크기
@@ -168,6 +166,7 @@ to this: 
 **참고:** "WARNING" 레벨의 "do-email" 태그를 제거하십시오. 또는 보안 레벨을 "INFO"로 변경하십시오.
 
 ## 공통 드라이브 오류
+{: #bm-common-drive-errors}
 
 가장 일반적인 드라이버 오류는 스마트 오류, 하드웨어 오류 및 매체 오류입니다. 드라이브에 장애가 발생하면 이 오류가 표시됩니다. 따라서 최대한 빨리 드라이브를 교체해야 합니다.
 
@@ -175,12 +174,13 @@ to this: 
 
 링크 오류에서 케이블을 재고정해야 하거나 교체해야 할 수도 있음을 나타냅니다.
 
-## 지원 티켓 정보
+### 지원 티켓 정보
+{: #bm-raid-support}
 
-<b>Adaptec RAID 카드</b>
+**Adaptec RAID 카드** <br>
 지원 티켓을 작성할 때 `arcconf getconfig 1/arcconf getlogs 1 device tabular`의 전체 출력을 포함하십시오. 이 정보를 제공하면 지원 팀이 드라이브 순서, 어레이 멤버십, 어레이 기하학 및 케이블링 문제를 파악하는 데 도움이 됩니다. 이 정보는 유실된 RAID 구성 복구에 중요합니다. 초기 업데이트에서 다시 시작/전원 끄기 권한을 부여하거나 핫스왑 가능하도록 요청하면 지원 티켓 프로세스 속도가 증가합니다.
 
-<b>LSI RAID cards</b>
+**LSI RAID cards** <br>
 다음 명령을 사용하여 LSI RAID 카드의 로그 파일을 가져오십시오. 지원 티켓으로 해당 로그 파일의 전체 출력을 포함시켜야 합니다.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all

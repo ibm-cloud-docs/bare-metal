@@ -1,19 +1,28 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2018-04-25"
+
+keywords: bare metal, 3ware 
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 檢查 3ware RAID 陣列的性能
+{: #bm-check-health-3ware-raid}
 
 有了 3ware，您可以使用瀏覽器介面。不過，除非您在本端存取介面，否則可能會有安全風險。因此，請使用指令行介面。
 
-<!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
+您可以從 [IBM Cloud CLI 外掛程式儲存庫](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins)下載 3ware CLI 公用程式。如需 CLI 公用程式的相關資訊，請參閱[適用於 cf CLI 的 VPN CLI 外掛程式](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf)。
 
 **3ware CLI 工具的快速指令參考手冊**
 

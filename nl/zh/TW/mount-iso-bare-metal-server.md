@@ -1,34 +1,45 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2018-06-03"
+
+keywords: mount iso bare metal
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 
 # 在裸機伺服器上裝載 ISO
+{: #bm-mount-iso}
 
 ## 概觀
 
-雖然大部分 {{site.data.keyword.Bluemix_notm}} 客戶都會使用我們的伺服器所隨附的其中一個標準「作業系統」，但是您可以在伺服器上裝載自訂 ISO（磁碟映像檔）。有三個選項可讓您用來裝載自訂 ISO。
+雖然大部分 {{site.data.keyword.cloud}} 客戶都會使用我們的伺服器所隨附的其中一個標準「作業系統」，但是您可以在伺服器上裝載自訂 ISO（磁碟映像檔）。有三個選項可讓您用來裝載自訂 ISO。
 
-為了讓方法能夠正常運作，您需要透過 SL VPN 服務（例如 [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)）或透過您已連接至網路的另一部伺服器來連接至專用網路。
+為了讓方法能夠正常運作，您需要透過 SL VPN 服務（例如 [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)）或透過已連接至網路的另一部伺服器來連接至專用網路。
 
 **附註：**大於 50 MB 的 Lenovo 硬體磁碟映像檔，必須使用 IMM 主控台介面 > 媒體標籤來裝載。
 
 ## 選項 1（偏好）：使用 IPMI（CIFS 共用上的 ISO）
+{: #bm-mount-iso-opt-1}
 
-如果您已在 {{site.data.keyword.Bluemix_notm}} 上部署基礎架構，則可以配置現有伺服器，以向內部網路提供 CIFS 共用。然後，您可以將該處的任何 ISO 裝載至裸機伺服器。
+如果您已在 {{site.data.keyword.cloud_notm}} 上部署基礎架構，則可以配置現有伺服器，以向內部網路提供 CIFS 共用。然後，您可以將該處的任何 ISO 裝載至裸機伺服器。
 
 這是在裸機伺服器上安裝自訂 OS 的偏好方法，因為它會安裝在本端網路上，這十分快速，而且仍然會裝載 ISO，即使您登出或中斷與管理介面的連線。
 
 請遵循下列步驟，以從「CIFS 共用」安裝「自訂 OS」：
 
 1. 確定您已將 ISO 放置在「CIFS 共用」上。
-* 藉由將 Web 瀏覽器指向 https://control.softlayer.com/ 中所指定的 IP，以及在「裝置」-> 您的伺服器（裝置詳細資料）->「遠端管理」下所指定的 IP，來登入 IPMI 管理主控台。這裡也會指定使用者名稱及密碼。
+* 藉由將 Web 瀏覽器指向 cloud.ibm.com 中所指定的 IP，以及指向在「裝置」-> 您的伺服器（裝置詳細資料）->「遠端管理」下所指定的 IP，來登入 IPMI 管理主控台。這裡也會指定使用者名稱及密碼。
 * 將游標移至**虛擬媒體**上方，然後按一下 **CD-ROM 映像檔**
 * 填寫適當的詳細資料，然後按一下**儲存並裝載**。
 * 並非所有使用者都有權變更伺服器的 BIOS。必要的話，您可以開啟問題單來支援要求：
@@ -39,13 +50,13 @@ lastupdated: "2018-05-17"
 
 
 ## 選項 2：使用 IPMIView（CIFS 共用上的 ISO）
+{: #bm-mount-iso-opt-2}
 
 必要條件：<br/>
 * 您有可開機的 ISO
 * 用來儲存「可開機 ISO」的「Windows CIFS 伺服器」或「NAS 儲存空間」
 * ISO 已上傳至與伺服器相關聯的「檔案儲存空間 (NAS)」。
-* 已安裝 IPMIView 或存取「KVM 主控台」 <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* 已安裝 IPMIView 或存取「KVM 主控台」
 * 可使用 wget 下載「ISO 檔案」
 * 您的 SSH 存取權具有存取/安裝套件以及建立裝載的專用權
 
@@ -53,7 +64,7 @@ lastupdated: "2018-05-17"
 ### Linux 及 Windows
 請遵循下列步驟，以使用 IPMIView 來裝載 ISO。
 1. 透過支援問題單，要求您的伺服器將其「虛擬 CD-ROM」作為第一個裝置開機。每一個裝置都必須從其關聯的虛擬 CD-ROM 開機。您可以在安裝 OS 之後回復此設定。
-* 建立與 [VPN](http://www.softlayer.com/VPN-Access) 的「VPN 連線」。如果您是使用 Microsoft Internet Explorer，請務必在「信任的網站」清單中包括 .softlayer.com，並讓您的 JAVA 保持最新狀態。
+* 建立與 [VPN](http://www.softlayer.com/VPN-Access) 的「VPN 連線」。如果您是使用 Microsoft Internet Explorer，請務必在「信任的網站」清單中包括 .softlayer.com 及 .cloud.ibm.com，並讓您的 JAVA 保持最新狀態。
 * 將「ISO 媒體」複製到 NAS 或「Windows CIFS 伺服器」。
   * 使用 SSH 連接至 Linux jumpbox。
   * 在 Linux jumpbox 上裝載 NAS 共用：
@@ -72,14 +83,19 @@ lastupdated: "2018-05-17"
         wget http://www.linktoyouriso.com/isofilename.iso
   您會看到下載成功的確認。
 * 在這裡下載「IPMI 視圖」：
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
+      https://www.servethehome.com/download-supermicro-ipmiview-latest-version/
 * 透過「管理 IP」連接至「伺服器」。
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
+      <br>
+      1. 連接至 `winadmin`。
+      2. 開啟 IPMIView，並移至**檔案 > 新建 > 系統**。
+      3. 使用來自硬體物件的 IPMI IP 位址，以完成「伺服器名稱」及「IP 位址」欄位。<br>
+      4. 在左邊按兩下具有相同 IP 位址的系統，然後針對「登入 ID」輸入 ADMIN，並輸入來自硬體物件的 IPMI 密碼。
+      5. 在您連接之後，視窗中會有許多可用的標籤。您可以使用**文字主控台**或 **KVM 主控台**來連接至伺服器。
+
 * 開啟「虛擬媒體」標籤
 * 完成「CD-ROM 映像檔」連線詳細資料。
   *
-    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如 _ping nas501.service.softlayer.com_
+    * 共用主機 =「NAS 儲存空間」的「IP 位址」。您可以對 NAS 儲存空間伺服器名稱進行連線測試，來找到此值。例如 `ping nas501.service.softlayer.com`
     * 共用名稱 = NAS 儲存空間的「使用者名稱」
     * 映像檔的路徑 = ISO 檔案的名稱，格式如下：
           \NASusername\isoname.iso（即 \SLN123456\centos6.iso）
@@ -93,6 +109,8 @@ lastupdated: "2018-05-17"
 * 重新啟動伺服器
 
 ## 選項 3：從本端電腦裝載 ISO
+{: #bm-mount-iso-opt-3}
+
 <a name="option3"></a>
 
 您可以使用 Java iKVM 檢視器（主控台），從本端電腦裝載 ISO。這可讓您在連接至主控台時裝載 ISO。安裝進行的速度會隨著網際網路連線的上傳速度及延遲、Java 及電腦的效能而不同。
@@ -102,7 +120,7 @@ lastupdated: "2018-05-17"
 * 將開機順序變更為「IPMI 虛擬磁碟」作為第一個開機選項（因為尚未裝載 ISO，所以支援現在應該只會變更開機裝置優先順序）。
 
 
-1. 藉由將 Web 瀏覽器指向 https://control.softlayer.com/ 中所指定的 IP，來登入 IPMI 管理主控台。
+1. 將 Web 瀏覽器指向 cloud.ibm.com 中指定的 IP，以登入 IPMI 管理主控台。
 * 按一下「裝置」> 您的伺服器（裝置詳細資料）>「遠端管理」。指定使用者名稱及密碼。
 * 按一下「配置」>「遠端階段作業」，然後將連接模式變更為 **attach**。在某些較舊的 IPMI 主控台中，無法使用此選項，因此您可以跳過此步驟。
 * 按一下「系統」>「系統資訊」，回到系統資訊頁面。您會看到主控台視窗圖示。
@@ -116,10 +134,11 @@ lastupdated: "2018-05-17"
 * 將伺服器重新開機，並使用**從虛擬 CD-ROM 光碟機開機**選項。您可能需要在 iKVM 檢視器中使用虛擬鍵盤，才能選取開機裝置。
 
 ## 疑難排解
+{: #bm-mount-iso-troubleshooting}
 
 * 並非所有使用者都具有裝載「虛擬媒體」的預設存取權。如果發生許可權錯誤，請聯絡「支援中心」以取得「Root IPMI 使用者」許可權的更新。
 * 如果已裝載 ISO，則會出現一則錯誤訊息，其文字為**已裝載磁碟**。您必須卸載現有磁碟，並將它取代為新的 ISO。可能無法同時裝載兩個 ISO。
 * 您可能需要聯絡支援中心，以變更 BIOS 中的開機順序。
-* 裝載 ISO 時，請使用 SSL VPN (http://vpn.softlayer.com)，而非 PPTP VPN。在連接至 VPN 網路之後，您也可以透過 IPMI 位址存取系統的 IPMI (https://<private-ip-IPMI-management>)。
+* 裝載 ISO 時，請使用 [SSL VPN](http://vpn.softlayer.com)，而非 PPTP VPN。在連接至 VPN 網路之後，您也可以透過 IPMI 位址存取系統的 IPMI (`https://private-ip-IPMI-management`)。
 * 當您輸入 ISO 的路徑時，請針對路徑使用「UNC 名稱語法」（一般命名慣例），例如：
-  _\\<NAS username>\<isoname>.iso_
+  `\\<NAS username>\<isoname>.iso`

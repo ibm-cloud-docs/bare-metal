@@ -1,51 +1,64 @@
 ---
 
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-07-10"
+
+keywords: raid, adaptec, ipmi, raid bios, raid array, RAID configuration
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Adaptec RAID 構成の作成および調整
+{: #bm-create-raid-config}
 
-Adaptec RAID BIOS により、RAID セットアップを構成および管理できます。 [OS なし](introduction-no-os.html)オプションを使用し、特定のドライブ構成をセットアップする場合はこの BIOS を使用します。
+Adaptec RAID BIOS により、RAID セットアップを構成および管理できます。 [OS なし](/docs/bare-metal?topic=bare-metal-the-no-os-option)オプションを使用し、特定のドライブ構成をセットアップする場合はこの BIOS を使用します。
 
 ## RAID BIOS と対話するための IPMI デバイスへのアクセス
+{: #bm-access-ipmi}
 
-マシンに Adaptec コントローラーが搭載されているのか LSI コントローラーが搭載されているのかに関係なく、RAID BIOS と対話するには IPMI を使用しているサーバーにアクセスする必要があります。IPMI と対話するには、最初に Adaptec {{site.data.keyword.cloud}} VPN に接続する必要があります。
-1. [SSL](../infrastructure/vpn/ssl-vpn-connections.html) または PPTP のいずれかを介して VPN にログインします。 [VPN トピック・ページ](../infrastructure/vpn/index.html)を参照してください。
-* [カスタマー・ポータル](https://control.softlayer.com/)の「デバイス・リスト」にアクセスします。 [デバイス・リストへのアクセス](../vsi/vsi_managing.html)を参照してください。
+マシンに Adaptec コントローラーが搭載されているのか LSI コントローラーが搭載されているのかに関係なく、RAID BIOS と対話するには IPMI を使用しているサーバーにアクセスする必要があります。 IPMI と対話するには、最初に Adaptec {{site.data.keyword.cloud}} VPN に接続する必要があります。
+1. [SSL](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ssl-vpn-connections#setup-ssl-vpn-connections) または PPTP のいずれかを介して VPN にログインします。
+* [{{site.data.keyword.slportal}}![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com/){: new_window}の「デバイス・リスト」にアクセスします。[デバイス・リストへのアクセス](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers)を参照してください。
 * アクセスしたいデバイスをクリックします。
 * 「リモート管理」タブを選択して、サーバーの IPMI アクセス詳細を見つけます。
 * IPMI デバイスの IP をブラウザーに入力してログインします。
 * リモート・コンソールでの対話を開始するには、**「リモート制御」>「コンソールのリダイレクト (Console Redirection)」**をクリックします。
 
 ## RAID アレイの作成
+{: #bm-create-raid-array}
 
 開始プロセス中に、**Ctrl+A** を押して RAID BIOS にアクセスします。
 
-RAID の構成を開始するには、「Logical Device Configuration」(最初のオプション) を開きます。このオプションは、ドライブのトポロジーがスキャンされ、アレイの管理、アレイの作成、およびその他のドライブ管理タスクの実行が可能なメニューが表示されます。
+RAID の構成を開始するには、「Logical Device Configuration」(最初のオプション) を開きます。 このオプションは、ドライブのトポロジーがスキャンされ、アレイの管理、アレイの作成、およびその他のドライブ管理タスクの実行が可能なメニューが表示されます。
 
 以下の例では、アレイの作成方法を示します。 RAID アレイの作成で使用できるドライブのリストが表示されます。
 
 1. ドライブを選択するには、スペース・バーを押して*「Selected Drives」*ボックスにドライブを追加します。
 * アレイで使用するすべてのドライブの選択が終わったら、ENTER キーを押して RAID 構成ステップに進みます。
-* 使用したい RAID のタイプを選択します。ニーズに最適な RAID セットアップを見つける上で支援が必要なら、以下の「[FAQ from Adaptec](http://www.adaptec.com/en-us/_common/compatibility/_education/raid_level_compar_wp.htm)」を参照してください。
+* 使用したい RAID のタイプを選択します。 ニーズに最適な RAID セットアップを見つける上で支援が必要なら、以下の「[FAQ from Adaptec![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.adaptec.com/en-us/_common/compatibility/_education/raid_level_compar_wp.htm){: new_window}」を参照してください。
 * 構成中にアレイ・ラベルを指定します。 ラベルには RAID のタイプ (例えば RAID10-A) を入れておくことをお勧めします。
 * **Enter キー**を押して残りの設定に進みます。 デフォルト値を使用します。
 
 構成の完了後に、「Done」を選択すると、RAID が作成されます。 メインメニューで「Manage Arrays」を選択すると、新規アレイが表示されます。 構成ユーティリティーを終了するには、Adaptec BIOS を終了するプロンプトが出されるまで、ESC キーを押します。
 
-## 既存のアレイの削除
+## 既存の RAID アレイの削除
+{: #bm-remove-raid-array}
 
 既存のアレイを削除する必要がある場合は、**「Manage Arrays」**に進み、削除するアレイを選択し、**「Delete」**を押して確認します。
 
 ## 構成例
+{: #bm-example-config}
 
-1. 合計 6 台のドライブが搭載されているサーバーでは、2 台の SSD は使用しているオペレーティング・システム用に RAID 0 でセットアップし、残り 4 台のドライブは実際のデータ用に RAID 10 でセットアップできます。この構成は、サーバーの OS が 2 次アレイにあれば、ご使用のサイトとサービスのデータをリストアせず、迅速にその OS を再ロードするために使用します。
+1. 合計 6 台のドライブが搭載されているサーバーでは、2 台の SSD は使用しているオペレーティング・システム用に RAID 0 でセットアップし、残り 4 台のドライブは実際のデータ用に RAID 10 でセットアップできます。 この構成は、サーバーの OS が 2 次アレイにあれば、ご使用のサイトとサービスのデータをリストアせず、迅速にその OS を再ロードするために使用します。
 
 * cPanel サーバーで、別個の SSD RAID アレイ上に /var と /home を配置できます。 これらのディレクトリーは、cPanel サーバーで最も入出力の負荷が高い 2 つのディレクトリーなので、以下の設定を使用すればサイトの応答時間が短縮できる可能性があります。
   * RAID0 (2 個の SATA ドライブ) - /
@@ -53,7 +66,7 @@ RAID の構成を開始するには、「Logical Device Configuration」(最初�
   * RAID0 (2 個の SSD ドライブ) - /home
   * RAID10 (4 個の SATA ドライブ) - /backup
 
-* 単一の RAID アレイを使用して、複数の論理パーティションをセットアップします。 例えば、RAID 1 にセットアップされた 4 TB のドライブを 2 台使用します。この RAID をニーズに合わせてパーティションで区切ります。次の例を参照してください。
+* 単一の RAID アレイを使用して、複数の論理パーティションをセットアップします。 例えば、RAID 1 にセットアップされた 4 TB のドライブを 2 台使用します。この RAID をニーズに合わせてパーティションで区切ります。 次の例を参照してください。
   * オペレーティング・システム用の 100 GB の 1 次パーティション
   * データ用の 500 GB の 2 次パーティション
   * バックアップ用の残りのスペースの 3 次パーティション

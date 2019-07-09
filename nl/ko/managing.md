@@ -1,54 +1,82 @@
 ---
 
-
 copyright:
+  years: 2016, 2019
+lastupdated: "2019-06-17"
 
-  years: 2016, 2018
-lastupdated: "2018-04-02"
+keywords: manage bare metal servers, power off, replicate, reload os, delete server, manage server
+
+subcollection: bare-metal
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:note .note}
 
 # Bare Metal Server 관리
-{: #managing}
+{: #bm-manage-servers}
 
-
-서버를 중지, 시작, 재시작 및 취소할 수 있습니다.
+서버를 취소, 중지 및 다시 시작할 수 있습니다.
 {:shortdesc}
 
-## 서버 인스턴스 복제
-Bare Metal Server 인스턴스를 복사하거나 복제하여 서버 구성을 복제함으로써 신속하게 새 서버를 시작하고 실행할 수 있습니다.
+## 시작하기 전에
+{: #before-you-begin}
+
+* 콘솔의 디바이스 메뉴로 이동하십시오. 자세한 정보는 [디바이스로 이동](/docs/bare-metal?topic=virtual-servers-navigating-devices)을 참조하십시오.
+* 필요한 계정 권한과 디바이스 액세스 권한이 있는지 확인하십시오. 계정 소유자 또는 **사용자 관리** 클래식 인프라 권한이 있는 사용자만 권한을 조정할 수 있습니다.
+
+권한에 대한 자세한 정보는 [클래식 인프라 권한](/docs/iam?topic=iam-infrapermission#infrapermission) 및 [디바이스 액세스 권한 관리](/docs/bare-metal?topic=virtual-servers-managing-device-access)를 참조하십시오. 
+
+
+<!-- ## Replicating a server instance
+{: #bm-replicate-server-instance}
+
+You can copy or clone a bare metal server instance to replicate the server configuration and quickly get a new server up and running.
 {:shortdesc}
 
-인스턴스를 복제하려면 다음을 수행하십시오.
- 1. 메뉴로 이동하여 **복제본 구성**을 선택하십시오. 모든 구성이 복사됩니다. 데이터나 컨텐츠는 복사되지 않습니다.
- 2. 고유 서버 이름을 입력하십시오.
- 3. 도메인 이름을 지정하십시오.
+To clone the instance:
+ 1. Go to the **Device** menu and highlight the device to be copied.
+ 2. Click **Actions** and select **Configure Replica**. All configurations are copied. No data or content is not copied.
+ 3. Enter a unique server name.
+ 4. Specify the domain name. -->
 
-## 운영 체제 재로드
-가끔 운영 체제를 서버에 재로드하려는 경우가 있습니다.
+<!-- ## Reloading the operating system
+{: #bm-reload-os}
+
+Occasionally, you might want to reload the operating system on your server.
 {:shortdesc}
 
-운영 체제를 재로드하려면 다음을 수행하십시오.
- 1. 시작하기 전에 모든 데이터를 백업하십시오. 이 단계를 건너뛰면 모든 기존 데이터가 유실되고 데이터를 검색할 수 없습니다.
- 2. 메뉴로 이동하여 **OS 재로드**를 선택하십시오. 다음 옵션 중 하나를 선택할 수 있습니다.
-  * 운영 체제를 다른 운영 체제로 변경하고 새 구성을 사용하여 시작하십시오.
-  * 현재 구성의 기존 운영 체제를 유지하지만 서버의 기록을 완전히 삭제하고 새로 시작하십시오.
+To reload the operating system, follow these steps.
+ 1. Back up all data before you start. If you don't back up your data, all data that is on the primary disk is lost. But, secondary disk data stays intact.
+ 2. Go to the **Devices** menu and highlight the device to be reloaded.
+ 3. Click **Actions** and select **OS Reload**. You can select one of these options:
+  * Change the operating system to a different one and start over with new configurations.
+  * Keep the existing operating system with the current configurations, but wipe out the server to start over.
 
-OS를 재로드하는 동안 서버가 오프라인이 되어 사용 불가능합니다. 재로드하는 시간은 서버 용량 및 운영 체제에 따라 다릅니다. 프로비저닝 스크립트를 정의한 경우, 재로드가 완료된 후에 모든 구성이 복원됩니다. OS를 재로드하기 전에 데이터가 백업된 경우, 서버가 사용 가능하게 되었을 때 데이터를 서버에 업로드할 수 있습니다.
+During the OS reload, the server is offline and unavailable for use. Reload time varies based on server capacity and operating system. If you defined a provision script, all configurations are restored after the reload completes. Data was backed up before the OS reload can be uploaded the server when the server is available. -->
 
 ## 서버 인스턴스 삭제
+{: #bm-delete-server-instance}
+
 인스턴스가 더 이상 필요하지 않으며 요금이 부과되는 것을 원하지 않으면 언제든지 Bare Metal Server 인스턴스를 삭제할 수 있습니다.
 {:shortdesc}
 
-인스턴스를 삭제하려면 메뉴로 이동하여 **서버 취소**를 선택하십시오.
+1. **디바이스** 메뉴로 이동하여 삭제할 디바이스를 강조 표시하십시오.
+2. **조치**를 클릭하고 **서버 취소**를 선택하십시오.
 
 ## 서버 전원 끄기
-사용할 준비를 하기 위해 서버를 미리 작성할 수 있습니다. 서버를 작성한 다음 아무것도 변경하지 않고 아무도 액세스할 수 없도록 전원을 끄십시오. 준비가 되었을 때 서버의 전원을 켜면 몇 분 내에 서버를 준비할 수 있습니다.
+{: #bm-power-off}
+
+사용할 준비를 하기 위해 서버를 미리 작성할 수 있습니다. 서버가 작성되면 변경을 방지하고 액세스를 차단하도록 전원을 끄십시오. 준비가 되면 서버의 전원을 켜서 몇 분 안에 준비할 수 있습니다.
 {:shortdesc}
 
-서버의 전원을 끄려면 메뉴로 이동하여 **전원 켜기/끄기**를 선택하십시오. 서버의 전원을 끈 동안에도 여전히 요금이 청구됩니다.
+1. **디바이스** 메뉴로 이동하여 전원 켜기/끄기를 수행할 디바이스를 강조 표시하십시오.
+2. **조치**를 클릭하고 **전원 켜기/끄기**를 선택하십시오.
 
-**참고:** 서버의 전원이 꺼진 경우, 전원이 꺼진 상태로 유지되며 다시 수동으로 전원을 켜야 합니다.
+전원이 꺼진 동안 서버에 대해 비용이 청구됩니다. 서버의 전원이 꺼지면 꺼진 상태가 유지되므로 수동으로 전원을 켜야 합니다.
+{: note}

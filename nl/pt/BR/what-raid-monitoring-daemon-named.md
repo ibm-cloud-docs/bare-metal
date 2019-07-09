@@ -1,14 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Nome e local do daemon de monitoramento do RAID
+{: #bm-raid-monitoring-daemon}
+
 O {{site.data.keyword.cloud}} usa principalmente as placas RAID Adaptec e LSI, com algumas exceções para hardware
 anterior. A tabela a seguir descreve os locais do gerenciador RAID, os locais do monitor, as definições e as
 configurações de alerta RAID.

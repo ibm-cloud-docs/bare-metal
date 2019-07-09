@@ -1,10 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-21"
+  years: 2017, 2019
+lastupdated: "2019-05-02"
+
+keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
+
+subcollection: bare-metal
 
 
 ---
@@ -18,11 +20,13 @@ lastupdated: "2018-06-21"
 
 
 # Selezione dai server più popolari
-I server nell'elenco Most Popular Servers sono preconfigurati per soddisfare le esigenze della maggior parte dei casi d'uso dei clienti e sono pronti per l'esecuzione in 30 - 40 minuti dopo che li hai ordinati.
-1. Apri il catalogo [{{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:target="_blank"}.   
+{: #bm-select-popular-servers}
+
+I server nell'elenco dei server più popolari sono preconfigurati per soddisfare le esigenze della maggior parte dei casi di utilizzo del client e sono pronti in 30 - 40 minuti dopo averli ordinati.
+1. Apri il [Catalogo {{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com/catalog/){: new_window}.   
 2. Seleziona Bare Metal Server.
-3. Fai clic su Crea.
-2. Seleziona le seguenti informazioni:
+3. Fai clic su Continua.  Se non visualizzi un pulsante Continua, potresti dover eseguire l'accesso.
+2. Nella sezione {{site.data.keyword.baremetal_short}}, seleziona le seguenti informazioni:
     <table>
     <CAPTION>Tabella 1. Selezioni bare metal</CAPTION>
     <THEAD>
@@ -33,50 +37,53 @@ I server nell'elenco Most Popular Servers sono preconfigurati per soddisfare le 
     </THEAD>
     <TBODY>
     <tr>
-    <td>Quantità</td>
-    <td>Utilizza le icone + e - per specificare il numero di server identici di cui eseguire il provisioning. <br>Se vuoi eseguire il provisioning di più server con specifiche differenti, devi eseguirne il provisioning separatamente.
+    <td>Quantità </td>
+    <td>Utilizza le icone + e - per specificare il numero di server **identici** di cui eseguire il provisioning. Il valore predefinito è 1.<br>Se vuoi eseguire il provisioning di più server con **diverse** specifiche, devi eseguirne il provisioning separatamente.<tr>
+    <tr>
+    <td>Tipo di fatturazione</td>
+    <td>Seleziona oraria o mensile
+    <tr>
+    <td>Nome host e dominio</td>
+    <td>Questi campi vengono popolati con l'impostazione predefinita. Puoi modificarli.</td>
+    </tr>
     <tr>
     <td>Ubicazione</td>
-    <td>Seleziona la regione e il data center in cui desideri che il server sia ubicato.</td>
+    <td>Seleziona la regione in cui desideri ubicare il server. Utilizzando l'elenco a discesa, seleziona il data center nella regione. </td>
     </tr>
     <tr>
-    <tr>
-    <td>Nome host e Dominio</td>
-    <td>Questi campi vengono compilati con il valore predefinito. Puoi modificarli.</td>
-    </tr>
     <tr>
     <td>Seleziona il tuo server</td>
-    <td>In **Server popolari**, seleziona il server che soddisfa le tue esigenze. Questi server sono preconfigurati e sono pronti per l'uso in 30 - 40 minuti.
+    <td>Seleziona **Server popolari** e seleziona il server che soddisfa le tue esigenze. Questi server sono preconfigurati e pronti per l'utilizzo in 30 - 40 minuti.
     </tr>
     <tr>
     <td>RAM</td>
-    <td>Valore predefinito basato sul server da te selezionato.</td>
+    <td>Per impostazione predefinita si basa sul server selezionato.</td>
     </tr>
     <tr>
     <td>Chiavi SSH</td>
     <td>Fornisci una chiave pubblica della tua chiave SSH, che utilizzi per accedere al tuo server dopo che ne è stato eseguito il provisioning.</td>
     </tr>
     <tr>
-    <td>Immagine<br>(Sistema operativo)</td>
-    <td>Seleziona il sistema operativo per l'istanza. **Nota**: viene visualizzato un messaggio di errore se si verifica un conflitto tra il server e il sistema operativo. Un esempio è la selezione di Linux su un server Microsoft SQL.</td>
+    <td>Immagine <br>(Sistema operativo)</td>
+    <td>Seleziona il sistema operativo per il server. Le tue opzioni di immagine possono essere limitate in base al server selezionato.</td>
     </tr>
-    <td>Velocità porta di uplink</td>
-    <td>Determina la velocità delle interfacce interne ed esterne.</td>
-    </tr>
-    <tr>
     <td>Componenti aggiuntivi</td>
-    <td> Seleziona le opzioni appropriate oppure utilizza i valori predefiniti.</td>
+    <td>Espandi la sezione Componenti aggiuntivi per selezionare le opzioni appropriate o utilizzare i valori predefiniti./td>
     </tr>
     </TBODY>
     </table>
+3. Nella sezione Dischi di archiviazione, il disco di archiviazione è già selezionato per la tua selezione di server popolari. Espandi la sezione Componenti aggiuntivi se vuoi aggiungere IBM Cloud Backup al tuo server.
+4. Nella sezione Interfaccia di rete, seleziona le Velocità porta di uplink. Espandi la sezione Componenti aggiuntivi per selezionare le opzioni appropriate o utilizzare i valori predefiniti. 
+4.  Riesamina il tuo ordine. 
+4. Se hai un codice promozionale da applicare al tuo ordine, espandi Applica codice promozionale.  
+5.  Riesamina tutti gli accordi di servizio di terze parti elencati e fai clic sulla casella di spunta **Accordo di servizio di terze parti**.
+6.  Fai clic su **Provisioning**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
 
-3.  Nella sezione Order Summary, seleziona la fatturazione oraria (**Hourly**) o mensile (**Monthly**).
-4.  Riesamina il tuo ordine.
-5.  Riesamina gli eventuali accordi di servizio di terze parti elencati e fai clic sulla casella di spunta **Third-Party Service Agreement**.
-6.  Fai clic su **Provision**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
+ Una serie di email viene inviata al tuo amministratore: il riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione dell'ordine di provisioning e il completamento del provisioning.
 
- Una serie di email viene inviata al tuo amministratore: il riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione dell'ordine di provisioning e il completamento del provisioning. L'email di completamento del provisioning include un link alla tua pagina *Device Details* in modo da consentirti di eseguire l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
+ L'_email di completamento del provisioning_ include un link alla tua pagina *Dettagli dispositivo* in modo che puoi accedere a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
 
 
 ## Passi successivi
-Dopo che è stato eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}}, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione di {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html).
+
+Dopo che è stato eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}}, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione di {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers#bm-manage-servers).

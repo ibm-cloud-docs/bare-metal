@@ -1,25 +1,31 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-05-31"
 
+keywords: bare metal, intel txt
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 硬件监视和安全性控制
+{: #bm-hardware-monitroing-security-controls}
 
 随着恶意威胁的升级和日趋复杂，您应采用更严格的安全需求，并仔细检查执行环境的各个方面。您期待云供应商提供硬件监视和安全性控制，用于确定工作负载是否在已知位置的可信硬件上运行。{{site.data.keyword.cloud}} 在此方面始终走在前列，支持您在部署混合环境和云环境时，使用 Intel&reg; 可信执行技术 (Intel&reg; TXT) 增强启动环境的安全性验证。
 {:shortdesc}
 
 ## 工作方式
 
-Intel TXT 提供了硬件监视和安全性控制，可帮助向企业确保部署或迁移到 {{site.data.keyword.cloud_notm}} 基础架构的工作负载在已知位置的可信硬件上运行。{{site.data.keyword.cloud_notm}} 在一定范围的 {{site.data.keyword.baremetal_short}} 上支持 Intel TXT。要获取完整列表，请参阅 http://www.softlayer.com/intel-txt。
+Intel TXT 提供了硬件监视和安全性控制，可帮助向企业确保部署或迁移到 {{site.data.keyword.cloud_notm}} 基础架构的工作负载在已知位置的可信硬件上运行。{{site.data.keyword.cloud_notm}} 在一定范围的 {{site.data.keyword.baremetal_short}} 上支持 Intel TXT。要获取完整列表，请参阅 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)。
 
 Intel TXT 会分析并度量计算系统组件，从操作系统或系统管理程序一直到计算系统的引导固件和硬件。分析包括系统的基本输入/输出系统 (BIOS)、主引导记录 (MBR) 和引导装入程序。度量值会与标准基线进行比较，以确定系统是可信还是不可信。系统软件和本地或远程管理软件可以使用信任决策来允许或拒绝工作负载在计算系统上运行。由于 Intel TXT 是在引导过程中执行分析和度量，因此增强的安全性不会使应用程序增加任何性能开销。
 
@@ -36,7 +42,7 @@ Intel TXT 会分析并度量计算系统组件，从操作系统或系统管理�
 * 身份和访问权管理
 * 事件响应
 
-有关 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上的 Intel TXT 的更多信息，请访问 http://www.softlayer.com/intel-txt。
+有关 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上 Intel TXT 的更多信息，请参阅 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)。
 
 以下链接提供了有关使用 [IBM、VMware 和 HyTrust 的可信安全云解决方案](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)向工作负载添加更多安全性和合规性的更多信息。
 

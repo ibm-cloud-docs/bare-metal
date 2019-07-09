@@ -1,25 +1,30 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-05-31"
 
+keywords: bare metal, intel txt
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # ハードウェア・モニタリングおよびセキュリティー管理
+{: #bm-hardware-monitroing-security-controls}
 
-悪意のある脅威の増大と高度化のため、お客様は、より厳しいセキュリティー要件を課し、実行環境のあらゆる側面を精査するようになっています。 クラウド・プロバイダーには、ワークロードが既知の場所にある信頼できるハードウェア上で実行されているかどうかを判別できる、ハードウェア・モニタリングとセキュリティー管理を提供することが求められています。 {{site.data.keyword.cloud}} は、Intel&reg; Trusted Execution Technology (Intel&reg; TXT) を使用して起動環境のセキュリティー検査を強化したハイブリッド環境およびクラウド環境をデプロイできるようにすることで、その道を開拓しています。
-{:shortdesc}
+悪意のある脅威の増大と高度化のため、お客様は、より厳しいセキュリティー要件を課し、実行環境のあらゆる側面を精査するようになっています。 クラウド・プロバイダーには、ワークロードが既知の場所にある信頼できるハードウェア上で実行されているかどうかを判別できる、ハードウェア・モニタリングとセキュリティー管理を提供することが求められています。 {{site.data.keyword.cloud}} は、Intel&reg; Trusted Execution Technology (Intel&reg; TXT) を使用して起動環境のセキュリティー検査を強化したハイブリッド環境およびクラウド環境をデプロイできるようにすることで、その道を開拓しています。 {:shortdesc}
 
 ## 仕組み
 
-Intel TXT は、{{site.data.keyword.cloud_notm}} インフラストラクチャーにデプロイまたはマイグレーションされるワークロードが、既知の場所にある信頼できるハードウェアで実行されていることを企業に保証できるようにするハードウェア・モニタリングおよびセキュリティー管理を提供します。 {{site.data.keyword.cloud_notm}} は、各種 {{site.data.keyword.baremetal_short}} で Intel TXT をサポートします。完全なリストについては、http://www.softlayer.com/intel-txt を参照してください。
+Intel TXT は、{{site.data.keyword.cloud_notm}} インフラストラクチャーにデプロイまたはマイグレーションされるワークロードが、既知の場所にある信頼できるハードウェアで実行されていることを企業に保証できるようにするハードウェア・モニタリングおよびセキュリティー管理を提供します。 {{site.data.keyword.cloud_notm}} は、各種 {{site.data.keyword.baremetal_short}} で Intel TXT をサポートします。 完全なリストについては、[Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt) を参照してください。
 
 Intel TXT は、オペレーティング・システムやハイパーバイザーからコンピューティング・システムのブート・ファームウェアやハードウェアに至る、コンピューティング・システムのコンポーネントを分析して測定します。 この分析には、システムの BIOS (Basic Input/Output System)、マスター・ブート・レコード (MBR)、ブート・ローダーが含まれます。 測定値が標準ベースラインと比較され、システムが信頼できるのか信頼できないのかが判別されます。 システム・ソフトウェアおよびローカルまたはリモートの管理ソフトウェアでは、信頼性の判断を使用して、当該コンピューティング・システムでのワークロードの実行を許可または拒否できます。 Intel TXT はブート時に分析および測定を実行するため、セキュリティーの追加によってアプリケーションにパフォーマンスのオーバーヘッドが追加されることはありません。
 
@@ -36,9 +41,8 @@ Intel TXT は、医療、金融サービス、政府組織など、コンプラ�
 * ID およびアクセスの管理
 * インシデント対応
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} での Intel TXT について詳しくは、http://www.softlayer.com/intel-txt を参照してください。
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} での Intel TXT について詳しくは、[Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt) を参照してください。
 
 [IBM、VMware、HyTrust を使用した信頼できるセキュアなクラウド・ソリューション](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)を使用したワークロードへのセキュリティーおよびコンプライアンスの追加について詳しくは、リンク先を参照してください。
 
-**特別な技術的注意** Intel Trusted Execution Technology (Intel TXT) は、Intel&reg; によって提供され、サポートおよび管理のために特定の技術的知識を必要とする {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上で動作します。 
-{{site.data.keyword.cloud_notm}} の現行デリバリー・モデルでは、Intel TXT をオンまたはオフにすることができます。**お客様の環境およびデータの機密性のため、{{site.data.keyword.cloud_notm}} では、Intel TXT 設定の構成を支援できません**。Intel の TXT テクノロジー・スキルを身に付けたスタッフを置くか、信頼の基点 (Root of Trust) および MLE (Measured Launch Environment) アーキテクチャーの統合において確かな専門知識を持つコンサルティング会社と協働することをお勧めします。
+**特別な技術的注意** Intel Trusted Execution Technology (Intel TXT) は、Intel&reg; によって提供され、サポートおよび管理のために特定の技術的知識を必要とする {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上で動作します。 {{site.data.keyword.cloud_notm}} の現行デリバリー・モデルでは、Intel TXT をオンまたはオフにすることができます。**お客様の環境およびデータの機密性のため、{{site.data.keyword.cloud_notm}} では、Intel TXT 設定の構成を支援できません**。 Intel の TXT テクノロジー・スキルを身に付けたスタッフを置くか、信頼の基点 (Root of Trust) および MLE (Measured Launch Environment) アーキテクチャーの統合において確かな専門知識を持つコンサルティング会社と協働することをお勧めします。

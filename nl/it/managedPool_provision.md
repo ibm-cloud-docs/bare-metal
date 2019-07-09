@@ -1,28 +1,40 @@
 ---
 
 copyright:
-  years:  2018
-lastupdated: "2018-05-15"
+  years:  2019
+lastupdated: "2019-02-01"
+
+keywrods: provision managed pool, managed pools
+
+subcollection: bare-metal
 
 ---
 
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Provisioning di pool gestiti dal cliente
+{: #bm-provision-managed-pools}
 
-Per eseguire il provisioning di un pool gestito dal cliente di server, contatta IBM direttamente: [Come ottenere aiuto e supporto](../bare-metal/get-help-and-support.html).
+Per eseguire il provisioning di un pool di server gestito dal cliente, contatta direttamente IBM: [Come ottenere aiuto e supporto](/docs/bare-metal?topic=bare-metal-gettinghelp).
 
 Fornisci le seguenti informazioni:
-* Il data center dove vuoi che siano ubicati i tuoi pool gestiti. (Tutti i server in un pool gestito devono essere ubicati nello stesso data center).
-*  Il numero di server che desideri nel pool
-* Le specifiche di cui hai bisogno per i tuoi server in pool
+* Il data center in cui vuoi ubicare i tuoi pool gestiti. (Tutti i server in un pool gestito devono essere ubicati nello stesso data center.)
+* Il numero di server che vuoi nel tuo pool gestito
+* Le specifiche di cui hai bisogno per i tuoi server nel pool
 
-Dopo che il tuo pool è stato creato, IBM ti fornisce i seguenti valori di parametro. Hai bisogno di questi valori quando invii il comando API per gestire il tuo pool.
+Una volta creato il pool, IBM ti fornisce i seguenti valori di parametro. Hai bisogno di questi valori quando invii il comando API per gestire il tuo pool.
 * poolKeyName
 * backendRouter
 
 ## Ordinazione di server dal tuo pool gestito
-Utilizza il processo di provisioning standard per ordinare i server nel tuo pool. Il tuo ordine viene evaso dal tuo pool e il tuo pool viene reintegrato con il numero di server che hai ordinato.
+{: #bm-order-server-managed-pool}
+Utilizza il processo di provisioning standard per ordinare i server nel tuo pool. Il tuo ordine viene eseguito dal tuo pool e il pool viene rifornito con il numero di server che hai ordinato.
 
 ## Passi successivi
 
-Dopo che hai eseguito il provisioning del tuo pool gestito dal cliente, e dopo che hai ordinato i server dal tuo pool gestito, puoi gestire il numero di server nel tuo pool. Fai riferimento a [Specifica del numero di server nel tuo pool gestito dal cliente](../bare-metal/managedPool_managing.html)
+Dopo aver eseguito il provisioning del tuo pool gestito dal cliente e ordinato i server dal pool gestito, puoi gestire il numero di server presenti nel pool. Fai riferimento a [Specifica del numero di server nel tuo pool gestito dal cliente](/docs/bare-metal?topic=bare-metal-set-amount-servers-pool#set-amount-servers-pool)

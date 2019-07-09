@@ -1,18 +1,19 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-06-17"
 
+keywords: optane, bare metal
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -20,12 +21,17 @@ lastupdated: "2018-04-02"
 {: #ordering-ssd}
 
 O Intel® Optane™ SSD DC P4800X é uma unidade de estado sólido que combina os atributos de armazenamento e de memória para criar
-uma nova camada de armazenamento.
+uma nova camada de armazenamento. As unidades estão disponíveis para uma seleção de {{site.data.keyword.cloud}}{{site.data.keyword.baremetal_long}}.
 
-As unidades Intel® Optane™ SSD DC P4800X estão disponíveis em alguns Bare Metal Servers do {{site.data.keyword.cloud}}.
+Para obter mais informações, consulte
+[Síntese
+do produto: Intel® Optane™ SSD DC P4800X Series](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: external}.
 
-Para obter mais informações sobre o Intel® Optane™ SSD DC P4800X, consulte https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html.
+Informações adicionais podem ser localizadas em
+[Experiência de desempenho
+de cálculo de próximo nível](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
 
-# Unidades de Optane Intel e GPUs
+## Unidades e GPUs Intel Optane
+{: #ssd_gpu}
 
-É possível solicitar um disco Intel® Optane SSD DC P4800X OU uma GPU para o servidor. Não é possível solicitar ambos no mesmo servidor.
+É possível solicitar um disco Intel® Optane™ SSD DC P4800X ou uma GPU para o servidor; não é possível solicitar ambos no mesmo servidor.

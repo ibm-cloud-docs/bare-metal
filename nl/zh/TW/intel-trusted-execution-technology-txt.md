@@ -1,25 +1,31 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-05-31"
 
+keywords: bare metal, intel txt
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 硬體監視及安全控制
+{: #bm-hardware-monitroing-security-controls}
 
 惡意威脅的增加及複雜可讓您運用更嚴格的安全需求，並詳細檢查執行環境的每個層面。您會希望雲端提供者提供硬體監視及安全控制，以判斷工作負載是否在已知位置的授信硬體上執行。{{site.data.keyword.cloud}} 可讓您使用 Intel&reg; Trusted Execution Technology (Intel&reg; TXT)，利用啟動環境的加強型安全驗證來部署混合式及雲端環境。
 {:shortdesc}
 
 ## 運作方式
 
-Intel TXT 提供硬體監視及安全控制，協助確認部署或移轉至 {{site.data.keyword.cloud_notm}} 基礎架構的工作負載是在已知位置的授信硬體上執行的業務。{{site.data.keyword.cloud_notm}} 支援 {{site.data.keyword.baremetal_short}} 範圍上的 Intel TXT。如需完整清單，請參閱 http://www.softlayer.com/intel-txt。
+Intel TXT 提供硬體監視及安全控制，協助確認部署或移轉至 {{site.data.keyword.cloud_notm}} 基礎架構的工作負載是在已知位置的授信硬體上執行的業務。{{site.data.keyword.cloud_notm}} 支援 {{site.data.keyword.baremetal_short}} 範圍上的 Intel TXT。如需完整清單，請參閱 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)。
 
 Intel TXT 會分析及測量從作業系統或 Hypervisor 到運算系統開機韌體及硬體的運算系統元件。分析包括系統的基本輸入/輸出系統 (BIOS)、主要開機記錄 (MBR) 及開機載入器。測量會與標準基準線進行比較，以判斷系統是受信任還是不受信任。系統軟體及本端或遠端管理軟體可以使用信任決策，來允許或拒絕工作負載在該運算系統上執行。因為 Intel TXT 會在開機期間執行分析並測量，所以新增的安全不會為應用程式新增任何效能額外負擔。
 
@@ -36,7 +42,7 @@ Intel TXT 特別適用於具有規範及審核規定的大型企業，例如保�
 * 身分及存取管理
 * 突發事件回應
 
-如需 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 上 Intel TXT 的相關資訊，請造訪 http://www.softlayer.com/intel-txt。
+如需 Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 的相關資訊，請參閱 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)。
 
 下列鏈結的相關資訊是有關使用[含 IBM、VMware 及 HyTrust 的授信安全雲端解決方案](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf)來新增工作負載的額外安全及規範。
 

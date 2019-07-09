@@ -1,36 +1,58 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-24"
+
+keywords: bare metal, no os, no operating system
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:note: .note}
 
 # OS なしオプション
 {: #bm-no-os}
 
-オペレーティング・システムなしのベア・メタル・サーバーを注文するためのオプションです。
+**「OS なし」**は、オペレーティング・システムなしの {{site.data.keyword.baremetal_long}} を注文するためのオプションです。
 
-## OS なしのベア・メタル・サーバーを注文する方法
+## OS なしの {{site.data.keyword.baremetal_short}} の注文
+{: #ordering-no-os}
 
-[SoftLayer.com](https://www.softlayer.com) または[カスタマー・ポータル](https://control.softlayer.com)から、ベア・メタル・サーバーを注文することから開始します。
+1. [カスタム・ベアメタル・サーバーの作成](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)に記載されている手順を使用して、サーバーを注文します。
+2. **「イメージ」**の下の**「OS なし」**を選択します。
+3. サーバーの注文手順を完了します。 
 
-1. **「システム構成」>「オペレーティング・システム」**で**「その他」**を選択します。
-2. **「オペレーティング・システムなし」**を選択します。
+## 「OS なし」への変更
+{: #changing-to-no-os}
 
-## OS なしのサーバーにオペレーティング・システムをインストールする方法
+OS を持たないようにサーバーを再構成できます。再構成は OS 再ロードによって行われます。詳しくは、[OS の再ロード](/docs/infrastructure/software?topic=software-reloading-the-os)を参照してください。
 
-オペレーティング・システムなしのベア・メタル・サーバーにオペレーティング・システムをインストールする方法は 2 つあります。
+1. **「デバイス」** > **「デバイス・リスト」**をクリックします。
+2. OS なしで再構成するサーバーを選択します。
+3. **「OS 再ロード」**をクリックし、該当する情報を入力します。
+
+## OS がないサーバーでのオペレーティング・システムのインストール
+{: #installing-os-on-no-os-server}
+
+オペレーティング・システムを持たない {{site.data.keyword.baremetal_short}} にオペレーティング・システムをインストールする方法は 2 つあります。
 
 ### オプション 1: PXE サーバー
+{: #option-1}
 
-オペレーティング・システムなしのベア・メタル・サーバーは、PXE セットアップから OS をブートしてロードするようにセットアップできます (詳しくは、『[Preboot Execution Environment](https://ja.wikipedia.org/wiki/Preboot_Execution_Environment)』を参照)。 単に、PXE セットアップを持つネットワーク環境にベア・メタル・サーバーをデプロイして (通常、このために DHCP および TFTP デーモンを実行します)、ネットワーク・アダプターからブートするように新規ベア・メタル・サーバーの BIOS を構成します。 OS オプションが正しく機能しない場合、PXE セットアップをベアメタル・サーバーと同じ VLAN 内に配置するか、DHCP フォワードを使用する必要があります。
+PXE セットアップから OS をブートしてロードするように、オペレーティング・システムなしの {{site.data.keyword.baremetal_short}} をセットアップできます。<!--(see [Preboot_Execution_Environment](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) for more information)-->PXE セットアップを持つネットワーク環境に{{site.data.keyword.baremetal_short}}をデプロイして (通常、このために DHCP および TFTP デーモンを実行します)、ネットワーク・アダプターからブートするように新規サーバーの BIOS を構成します。 OS オプションが正しく機能しない場合、PXE セットアップを{{site.data.keyword.baremetal_short}}と同じ VLAN 内に配置するか、DHCP フォワードを使用する必要があります。
 
-**注:** このオプションを機能させるには、スイッチ・ポートを基本モードで再グループ化するように要求するサポート・チケットをオープンしなければならない場合があります。これは、PXE プロトコルでは、リンク集約 (つまり、LACP です。『[Link Aggregation](http://en.wikipedia.org/wiki/Link_aggregation)』を参照) との互換性が不要であるためです。現在、リンク集約は、冗長性を提供するための標準的機能です。別のオプションとしては、未結合アップリンクを備えたサーバー (リンク集約なし) を注文し、OS のインストール後にそれらのアップリンクを冗長アップリンクに変更するという方法があります。
+このオプションを機能させるには、スイッチ・ポートを基本モードで再グループ化するように要求するサポート・チケットをオープンしなければならない場合があります。 これは、冗長性を提供する標準的な機能となっているリンク集約 (LACP)<!--see [Link Aggregation](http://en.wikipedia.org/wiki/Link_aggregation))--> との互換性が、PXE プロトコルでは不要だからです。別のオプションとしては、未結合アップリンクを備えたサーバー (リンク集約なし) を注文し、OS のインストール後にそれらのアップリンクを冗長アップリンクに変更するという方法があります。
+{: note}
 
 ### オプション 2: IPMI デバイス
+{: #option-2}
 
-含まれている IPMI デバイスを介して ISO からブートすることで、オペレーティング・システムなしのベア・メタル・サーバーにオペレーティング・システムをインストールします。 ISO からのブートについて詳しくは、[ここ](mount-iso-bare-metal-server.html)をクリックしてください。
+含まれている IPMI デバイスを介して ISO からブートすることで、オペレーティング・システムのない {{site.data.keyword.baremetal_short}} にオペレーティング・システムをインストールします。ISO からのブートについて詳しくは、[ベアメタル・サーバーでの ISO のマウント](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server)を参照してください。

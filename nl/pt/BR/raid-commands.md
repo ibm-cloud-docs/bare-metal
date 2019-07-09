@@ -1,30 +1,28 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # comandos do controlador RAID
+{: #bm-raid-controller-commands}
 
 Use o utilitário de linha de comandos do Adapatec para executar os comandos do controlador RAID.
 A seguir estão os comandos do controlador RAID mais comuns que podem ser usados.
 {:shortdesc}
-
-**Nota:** o Windows e o VMware têm caminhos diferentes para executar os comandos storcli. Consulte os
-exemplos a seguir para obter o caminho de comando adequado.
-
-Windows (usar CMD)
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-ou  ` C:\Program Files\LSIStorCli> `
-
-VMware (É necessário instalar o storcli antes de executar os comandos storcli)
-`/opt/lsi/storcli/`
-
-## Comandos do Controlador RAID Comum
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ lista o tipo de operação, o número da unidade lógica, o tamanho da unidade lógica e o progresso da
@@ -129,6 +127,7 @@ para este: 
 **Nota:** remova a tag "do-email" para o nível "WARNING". Como alternativa, mude o nível de segurança para "INFO".
 
 ## Erros comuns da unidade
+{: #bm-common-drive-errors}
 
 Os erros de driver mais comuns são os erros inteligentes, os erros de hardware e os erros de mídia. Você verá esses erros se
 uma unidade estiver falhando. Assim, é necessário substituir a unidade o mais rapidamente possível.
@@ -138,15 +137,15 @@ número (como 100), um chamado de suporte deverá ser aberto.
 
 Os erros de link podem indicar que um cabo precisa ser reposicionado ou substituído.
 
-## Informações do chamado de suporte
+### Informações do chamado de suporte
+{: #bm-raid-support}
 
-<b>Placas RAID Adaptec</b> Certifique-se de incluir a saída completa de `arcconf getconfig 1/arcconf getlogs 1
+**Placas RAID Adaptec** <br> Certifique-se de incluir a saída completa de `arcconf getconfig 1/arcconf getlogs 1
 device tabular` ao criar um chamado de suporte. Fornecer essas informações ajuda a equipe de suporte a identificar a ordem
-da unidade, a associação da matriz, a geometria da matriz e os problemas de cabeamento. Essas informações são críticas para a recuperação de uma configuração RAID perdida. 
-Para acelerar o processo de chamado de suporte, conceda permissão para a reinicialização/desligamento da atualização inicial ou
+da unidade, a associação da matriz, a geometria da matriz e os problemas de cabeamento. Essas informações são críticas para a recuperação de uma configuração RAID perdida. Para acelerar o processo de chamado de suporte, conceda permissão para a reinicialização/desligamento da atualização inicial ou
 solicite que ela seja hot swap.
 
-<b>Placas RAID LSI</b> Use os comandos a seguir para obter os arquivos de log para placas RAID LSI. É necessário incluir a
+**Placas RAID LSI** <br> Use os comandos a seguir para obter os arquivos de log para placas RAID LSI. É necessário incluir a
 saída completa desses arquivos de log com o chamado de suporte.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all

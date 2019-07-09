@@ -1,26 +1,27 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # RAID 控制器命令
+{: #bm-raid-controller-commands}
 
 可以使用 Adapecec 命令行实用程序来运行 RAID 控制器命令。下面是可能会使用的最常用 RAID 控制器命令。
 {:shortdesc}
-
-**注：**Windows 和 VMware 具有不同的路径来运行 storcli 命令。请参阅以下示例以获取正确的命令路径。
-
-Windows（使用 CMD）`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-或 `C:\Program Files\LSIStorCli>`
-
-VMware（需要在运行 storcli 命令之前先安装 storcli）`/opt/lsi/storcli/`
-
-## 常用 RAID 控制器命令
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ 用于列出操作类型、逻辑驱动器编号、逻辑驱动器大小和操作进度。您还可以查看正在运行的任何后台命令的状态，例如以下各项：
@@ -163,6 +164,7 @@ Drive-ID Progress% Status Estimated Time Left 
 **注：**除去级别“WARNING”的“do-email”标记。或者，将安全级别更改为“INFO”。
 
 ## 常见驱动器错误
+{: #bm-common-drive-errors}
 
 最常见的驱动器错误是智能错误、硬件错误和介质错误。如果驱动器发生故障，您会看到这些错误。为此，您需要尽快更换该驱动器。
 
@@ -170,12 +172,13 @@ Drive-ID Progress% Status Estimated Time Left 
 
 链接错误可能指示可能需要重新安装或更换电缆。
 
-## 支持凭单信息
+### 支持凭单信息
+{: #bm-raid-support}
 
-<b>Adaptec RAID 卡</b>
+**Adaptec RAID 卡** <br>
 创建支持凭单时，请确保包含 `arcconf getconfig 1/arcconf getlogs 1 device tabular` 的完整输出。提供这些信息可帮助支持团队识别驱动器订单、阵列成员资格、阵列几何以及连线问题。这些信息对于恢复丢失的 RAID 配置至关重要。在初始更新中授予重新启动/关闭电源的许可权或者要求进行热交换，可以加快支持凭单过程的处理速度。 
 
-<b>LSI RAID 卡</b>
+**LSI RAID 卡** <br>
 使用以下命令获取 LSI RAID 卡的日志文件。您需要将这些日志文件的完整输出包含在支持凭单中。
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all

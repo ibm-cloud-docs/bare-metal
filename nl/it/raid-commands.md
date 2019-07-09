@@ -1,54 +1,53 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
-# Comandi controller RAID
+# Comandi del controller RAID
+{: #bm-raid-controller-commands}
 
-Utilizzi l'utilità riga di comando Adaptec per eseguire i comandi controller RAID.
-Di seguito sono riportati i comandi controller RAID più comuni che potresti utilizzare.
+Per eseguire i comandi del controller RAID, utilizza il programma di utilità della riga di comando Adapatec.
+Di seguito sono riportati i comandi del controller RAID più comuni che potresti utilizzare.
 {:shortdesc}
 
-**Nota:** Windows e VMware hanno percorsi differenti per eseguire i comandi storcli. Vedi i seguenti esempi per il corretto percorso del comando.
-
-Windows (utilizza CMD)
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-oppure
-`C:\Program Files\LSIStorCli>`
-
-VMware (devi installare storcli prima di eseguire i comandi storcli)
-`/opt/lsi/storcli/`
-
-## Comandi controller RAID comuni
-
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
-_GETSTATUS_ elenca il tipo di operazione, il numero di unità logica, la dimensione di unità logica e l'avanzamento dell'operazione. Puoi anche vedere lo stato degli eventuali comandi in background in esecuzione, come ad esempio i seguenti elementi:
+_GETSTATUS_ elenca il tipo di operazione, il numero di unità logica, la dimensione
+dell'unità logica e l'avanzamento dell'operazione. Puoi anche vedere lo stato di qualsiasi comando in esecuzione in background, ad esempio i seguenti elementi:
 <ul>
-  <li> Ricompilazione più recente
+  <li> Ricostruzione più recente
   <li> Sincronizzazione
-  <li> Migrazione di unità logica
-  <li> Compattazione/espansione
+  <li> Migrazione unità logica
+  <li> Compressione/espansione
 </ul>
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getconfig 1</b></code> <br>
-_GETCONFIG_ elenca le informazioni su controller, unità logiche e unità fisiche. Puoi vedere informazioni quali i seguenti elementi:
+_GETCONFIG_ elenca le informazioni su controller, unità logiche e unità fisiche. Puoi vedere informazioni come i seguenti elementi:
 <ul>
   <li> Tipo di controller
-  <li> BIOS, blocco di avvio, driver di dispositivo e versioni firmware 
-  <li> Tipo di dispositivo fisico, ID dispositivo, presenza di PFA 
-  <li> Stato dell'unità fisica 
-  <li> Informazioni sull'enclosure: ventola, alimentatore e temperatura
+  <li> BIOS, blocco di avvio, driver dell'unità e versioni del firmware
+  <li> Tipo di dispositivo fisico, ID dispositivo, presenza di PFA
+  <li> Stato del dispositivo fisico
+  <li> Informazioni sulla custodia: ventola, alimentazione e temperatura
   </ul>
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getlogs 1 device tabular</code></b>
-_GETLOGS_ ti fornisce l'accesso ai log di stato ed evento di un controller. _DEVICE xxx_ visualizza un log degli eventuali errori dispositivo riscontrati dal controller.
+_GETLOGS_ ti fornisce l'accesso ai log di stato e di evento di un controller. _DEVICE xxx_ visualizza un log di tutti gli errori del dispositivo rilevati dal controller.
 
-Vedi il seguente esempio per l'output generato utilizzando il comando _GETLOGS_:
+Vedi il seguente esempio relativo all'output che viene generato utilizzando il comando _GETLOGS_:
 ```
 driveErrorEntry
 smartError.. ............................ false 
@@ -66,7 +65,7 @@ smartWarning ............................ 0
 ```
 
 <code><b>/opt/MegaRAID/storcli/storcli64 /c0/eall/sall show all | grep -iE "det|cou|tem|SN|S.M|fir” </code></b><br>
-Utilizzi questo comando per visualizzare le specifiche unità e gli eventuali errori unità possibili che potrebbe presentare  
+Utilizzi questo comando per mostrare le unità specifiche e tutti i possibili errori di unità che potrebbe avere. 
 Il seguente esempio mostra l'output:
 ```
 Drive /c0/e252/s0 - Detailed Information: 
@@ -114,7 +113,7 @@ Firmware Revision = SN03  
 <!--You use this command to view RAID health, size, name, and other important information.-->
 
 <code><b>/opt/MegaRAID/storcli/storcli64 /c0/eall/sall show rebuild</code></b>
-Questo comando visualizza lo stato della ricompilazione di tutte le unità e il tempo stimato di completamento della ricompilazione. Puoi vedere questo output quando esegui il comando:
+Questo comando visualizza lo stato di ricostruzione di tutte le unità e il tempo stimato per completare la ricostruzione. Quando esegui il comando, visualizzi questo output:
 ```
 ---------------------------------------------
 Drive-ID Progress% Status Estimated Time Left 
@@ -145,7 +144,7 @@ Modifica la sezione "global" della configurazione predefinita (/opt/lsi/mrmonito
 </severity>
  </global> 
 ```
-to this: 
+con questo: 
 ```
 <global> 
 <severity level="FATAL"> 
@@ -164,23 +163,25 @@ to this: 
  </severity> 
 </global> 
 ```
-**Nota:** rimuovi la tag "do-email" per il livello "WARNING". In alternativa, modifica il livello di sicurezza in "INFO"
+**Nota:** rimuovi la tag "do-email" per il livello "WARNING". In alternativa, modifica il livello di sicurezza in "INFO".
 
-## Errori unità comuni
+## Errori comuni dell'unità
+{: #bm-common-drive-errors}
 
-Gli errori unità più comuni sono gli errori smart, gli errori hardware e gli errori supporto. Vedi questi errori se si sta verificando un malfunzionamento di un'unità. Devi quindi sostituire l'unità quanto prima possibile.
+Gli errori driver più comuni sono gli errori smart, gli errori hardware e gli errori del supporto. Questi errori vengono visualizzati se un'unità sta smettendo di funzionare. Quindi, devi sostituire l'unità il prima possibile.
 
-Anche se non comuni, i comandi interrotti sono un altro errore comune. Se però i comandi interrotti aumentano di numero (come ad esempio 100), apri un ticket di supporto.  
+Sebbene non insoliti, i comandi interrotti sono un altro errore comune. Tuttavia, se i comandi interrotti aumentano di numero (come 100), apri un ticket di supporto.  
 
 Gli errori di collegamento possono indicare che potrebbe essere necessario riposizionare o sostituire un cavo.
 
-## Informazioni sui ticket di supporto
+### Informazioni sui ticket di supporto
+{: #bm-raid-support}
 
-<b>Schede RAID Adaptec</b>
-Assicurati di includere l'output completo di `arcconf getconfig 1/arcconf getlogs 1 device tabular` quando crei un ticket di supporto. Fornire queste informazioni aiuta il team di supporto a identificare l'ordine di unità, l'appartenenza all'array, la geometria dell'array e i problemi di cablaggio. Queste informazioni sono critiche per il ripristino di una configurazione RAID perduta. Concedere l'autorizzazione a riavviare/spegnere nell'aggiornamento iniziale o richiedere che ne venga eseguito l'hot swap accelera il processo del ticket di supporto. 
+**Schede RAID Adaptec** <br>
+Quando crei un ticket di supporto, assicurati di includere l'output completo di `arcconf getconfig 1/arcconf getlogs 1 device tabular`. Fornendo queste informazioni aiuti il team di supporto a identificare l'ordine di unità, l'appartenenza dell'array, la geometria dell'array e i problemi di cablaggio. Queste informazioni sono fondamentali per il ripristino di una configurazione RAID che è andata persa. Concedere l'autorizzazione di riavvio/spegnimento nell'aggiornamento iniziale o chiederne la sostituzione a sistema acceso aiuta ad accelerare il processo per il ticket di supporto. 
 
-<b>Schede RAID LSI</b>
-Utilizzare i seguenti comandi per ottenere i file di log per le schede RAID LSI. Devi includere l'output completo di questi file di log con il tuo ticket di supporto.
+**Schede RAID LSI** <br>
+Utilizza i seguenti comandi per ottenere i file di log per le schede RAID LSI. Devi includere l'output completo di questi file di log nel tuo ticket di supporto.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog
@@ -188,4 +189,4 @@ Utilizzare i seguenti comandi per ottenere i file di log per le schede RAID LSI.
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog
 ```
 
-**Nota**: assicurati di eseguire il backup dell'eventuale lavoro prima che venga eseguita la risoluzione dei problemi.
+**Nota**: assicurati di eseguire il backup di qualsiasi lavoro prima di effettuare la risoluzione dei problemi.

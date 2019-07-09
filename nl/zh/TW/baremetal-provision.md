@@ -1,92 +1,86 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-06"
+  years: 2017, 2019
+lastupdated: "2019-06-24"
 
+keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 
 # 建置自訂裸機伺服器
 {: #ordering-baremetal-server}
 
-使用下列步驟來建置自訂 {{site.data.keyword.baremetal_short}}。
+使用下列步驟來建置自訂 {{site.data.keyword.baremetal_long}}。
 
-1. 開啟 [{{site.data.keyword.cloud_notm}} 型錄](https://console.bluemix.net/catalog/){:target="_blank"}。   
-2. 選取 Bare Metal Server。
-3. 按一下「建立」。
-4. 在伺服器清單下，尋找陳述：**對其他配置選項感興趣嗎？請按一下這裡**。選取此選項。這時會顯示自訂伺服器表單。
-1. 選取伺服器的資料中心位置。
-* 按一下**開始價格根據**鏈結，從三個伺服器種類選取伺服器。
-  * SAP 認證伺服器（如需佈建 SAP 認證伺服器的相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} SAP 認證基礎架構](/docs/bare-metal/bare-metal-sap-applications.html)）
-  * 單一處理器多核心伺服器
-  * 雙重處理器多核心伺服器
+## 透過 {{site.data.keyword.cloud_notm}} 型錄來佈建
+{: #provision-through-the-catalog}
 
-* 從您的配置選項選取。**資料中心**、**RAM** 和**作業系統**是必要欄位。所有其他欄位都是選用欄位。如需選用欄位的相關資訊，請參閱**[其他伺服器配置選項](#addl-server-options)**。
+請使用下列步驟，透過 {{site.data.keyword.cloud_notm}} 來佈建 {{site.data.keyword.baremetal_short}}。
 
-    **附註**：伺服器和作業系統之間存在衝突時，會顯示錯誤訊息。例如，在 Microsoft SQL Server 上選取 Linux。
-* 按一下**新增至訂單**。即會顯示「結帳」頁面。
+1. 開啟 [{{site.data.keyword.cloud_notm}} 型錄](https://cloud.ibm.com/catalog/){: external}。   
+2. 在**運算**下選取 {{site.data.keyword.baremetal_short}}。
+3. 按一下「繼續」。如果您沒有看到「繼續」按鈕，可能需要登入。
+4. 輸入要佈建之**相同**伺服器的**數量**。預設值為 1。如果您想要佈建具有_不同_ 規格的多部伺服器，則需要個別佈建伺服器。
+5. **主機名稱**是伺服器的永久或暫時名稱，例如 baremetal01。按一下**資訊**可取得格式化特性。
+6. **網域**是識別字串，用來定義網際網路中的管理控制，例如 Customer-123456.cloud。按一下**資訊**可取得格式化特性。
+7. **計費**是**按小時**或**按月**。
+8. 選取您的伺服器所在的**位置**、地區和資料中心。
+9. 按一下**所有伺服器**，以查看處理器清單（單一、雙重及四）及認證伺服器（SAP 和 VMware）。選取最符合您工作負載的伺服器。
+10. 選取 **RAM**。對於部分伺服器，RAM 預設值是以「CPU 模型」為基礎，無法變更。 
 
-  從「結帳」頁面中，您可以按一下其中一個重新配置選項，回到配置頁面。
-* 在「進階系統配置」區段中，指定其他配置選項。如需相關資訊，請參閱**[進階系統配置](#adv-system-config)**。
+對於 SAP 認證伺服器，RAM 和「作業系統」預設值是以您選取的伺服器為基礎。您的本端儲存空間選項預設值也會以您選取的伺服器為基礎。
+{: note}
 
-*   按一下**雲端服務條款**及**協力廠商服務合約**勾選框。
-*   確認或輸入您的付款資訊，然後按一下**提交訂單**。即會將您重新導向至包含佈建訂單號碼的畫面。您可以列印畫面，因為它也是您的佈建訂單收據。
+11. 為您的 **SSH 金鑰**輸入選用性的公開金鑰，您可以在佈建伺服器之後，使用它來登入伺服器。
+12. 選取伺服器的**映像檔**（作業系統）。您的選項是以所選取的伺服器為基礎。
+13. 展開**附加程式**以選取與伺服器配置相關的選項。
+14. **儲存空間磁碟**是根據您選取的伺服器而預先配置。佈建 {{site.data.keyword.baremetal_short}} 之後，展開**附加程式**以新增檔案或區塊儲存空間磁區。 
+15. 在**網路介面**下，選取「上行鏈路埠速度」及「專用 VLAN」選項。展開**附加程式**區段以選取適當的選項，或使用預設值。
+16. 在「訂單摘要」中檢閱您的訂單。
+17. 在**套用促銷代碼**下，輸入您有的任何促銷代碼。
+18. 按一下任何所列出合約的協力廠商服務合約。
+19. 按一下**建立**來佈建伺服器。即會將您重新導向至具有佈建訂單號碼的畫面，您可以列印該畫面，因為它也是您的收據。
 
-  您也可以按一下**另存為報價**，儲存此訂單而不採購。
+將一系列的電子郵件傳送給管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。
 
- 將一系列的電子郵件傳送給管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。在您登入 {{site.data.keyword.cloud_notm}} 之後，佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結。您也可以直接登入 {{site.data.keyword.slportal}}。
+_佈建完成_ 電子郵件會包含*裝置詳細資料* 頁面的鏈結，以便您可以登入 {{site.data.keyword.cloud_notm}}。您也可以直接登入 {{site.data.keyword.slportal}}。
 
- ## 其他伺服器配置選項
- {: #addl-server-options}
+您也可以選擇將訂單儲存為報價，或將其新增至預估。當您儲存報價時，會將鏈結傳送至與您帳戶相關聯的電子郵件位址。請開啟鏈結以查看已儲存的報價資訊。另一個選項是移至「管理」>「計費及用量」，然後選取「銷售」>「裝置報價」。如果您有存取權，則可以按一下報價並確認訂單，以購買所報價的供應項目。新增至預估會將配置所提議成本放在定價計算機中。如需定價計算機的詳細資料，請按一下**資訊**。
 
- 當您佈建裸機伺服器時，可以使用其他選項，例如公用頻寬、上行鏈路埠速度、公用次要 IP 位址等等。表 1 說明您的其他選項。
+## 透過客戶入口網站進行佈建
+請使用下列步驟，透過 {{site.data.keyword.slportal}} 來佈建 {{site.data.keyword.baremetal_short}}。
 
+1. 使用您的唯一認證登入 [{{site.data.keyword.slportal}}](control.softlayer.com){: external}。
+2. 移至**帳戶** > **下訂單**。
+3. 選擇**按小時**或**按月**。
+3. 從清單選取您的 {{site.data.keyword.baremetal_short}} 所在的資料中心，然後按一下**開始價格**來選取認證伺服器（SAP 或 VMware）或處理器（單一、雙重及四）。
+4. 輸入要佈建之**相同**伺服器的_數量_。預設值為 1。如果您想要佈建具有_不同_ 規格的多部伺服器，則需要個別佈建伺服器。
+5. 選取 **RAM**。對於部分伺服器，RAM 預設值是以「CPU 模型」為基礎，無法變更。 
 
- |**欄位** |**說明** |
- |-------------------|---------------|
- |伺服器安全|例如 Trusted Execution Technology (Intel TXT)|
- |Software Guard Extensions|提高機密程式碼和資料的安全 (Intel SGX)。<br><br>請參閱[使用 Intel SGX 佈建裸機伺服器](../bare-metal/bare-metal-provision-SGX.html)。|
- |RAM|選擇符合您伺服器需要的 RAM 層次。|
- |作業系統 |從 CentOS、FreeBSD、Microsoft、Red Hat、Ubuntu 或「其他」中進行選取。|
- |硬碟 |利用使用者介面中的工具，根據您選取的 OS 預先填入欄位，來設定硬碟。<br><br> 您也可以選取使用 Intel Optane SSD 磁碟機。請參閱[佈建 Intel Optane SSD DC P4800X](../bare-metal/bm-provision_ssd.html)。
- |公用頻寬 |決定在一個月的期間，可以透過公用介面傳送的資料量。針對需要透過此介面所傳送之安裝資料的測試環境，需要調整超過一開始所傳送資料量的值。請考慮 [{{site.data.keyword.cloud_notm}} Content Delivery Network](https://www.ibm.com/cloud/cdn)，以將起始資料負載傳送至其中一個 {{site.data.keyword.cloud_notm}} 資料中心。可以升級任何 {{site.data.keyword.baremetal_short}}，以包括未計量（無限制）頻寬。所有未計量的裝置都位在專用的專用埠上。|
- |上行鏈路埠速度 |判定內部及外部介面的速度。|
- |公用次要 IP 位址 |將其他 IP 位址指派給伺服器。根據您的情境，您可能需要進一步指派給伺服器的 IP 位址。可額外使用的數量為 1、2、4、8、16 或 32 的 IPv4 位址。|
- |主要 IPv6 位址 |指派給伺服器的內部及外部介面。|
- |公用靜態 IPv6 位址 |從 /64 區塊指派其他 IPv6 位址。|
- |作業系統附加程式|選取諸如 VMware、備份解決方案、控制台、資料庫、硬體 & 軟體防火牆、防毒軟體、間諜軟體保護、侵入偵測 & 保護等選項。<br><br>強烈建議您讓公司安全部門符合 {{site.data.keyword.cloud_notm}} 支援中心的標準，以討論這些選項的詳細資料。
- |Evault |代理程式型備份工具，可以安裝在伺服器上，以抄寫伺服器之間的備份。|
- |服務附加程式|選取任何服務附加程式，例如監視、自動回應和保險。|
- {: caption="表 1. 其他伺服器選項" caption-side="top"}
+對於 SAP 認證伺服器，RAM 和「作業系統」預設值是以您選取的伺服器為基礎。您的本端儲存空間選項預設值也會以您選取的伺服器為基礎。
+{: note}
 
-## 進階系統配置
-{: #adv-system-config}
+6. 選取您的作業系統。
+7. 選取硬碟和其他系統附加程式。
+8. 按一下**新增至訂單**，在這裡您會被重新導向以確認您的訂單。
+9. 確認或編輯伺服器的網域資訊。**主機名稱**是伺服器的永久或暫時名稱，例如 baremetal01。 
+10. 選取**雲端服務條款**及**協力廠商服務合約**。
+11. 在**促銷代碼**下，輸入您有的任何促銷代碼，然後按一下**套用**。
+12. 確認或輸入您的付款資訊，然後按一下**提交訂單**。即會將您重新導向至具有佈建訂單號碼的畫面，您可以列印該畫面，因為它也是您的收據。 
 
-**進階系統配置**下的欄位會完成您的佈建程序。
-
-|**欄位** |**說明** |
-|---|---|
-|主機名稱 |伺服器的永久或暫時名稱，例如，_server1_。**附註**：如果您要佈建 SAP 認證伺服器，您的 SAP 主機名稱必須由最多 13 個英數字元組成。如需 SAP 主機名稱的相關資訊，請參閱 [SAP Notes 611361](https://launchpad.support.sap.com/#/notes/2611361) 和 [129997](https://launchpad.support.sap.com/#/notes/129997)。需要 SAP S 使用者 ID。|
-|網域 |不應該與網際網路網域名稱衝突的子網域名稱，例如，_test.acme.com_。|
-|VLAN 選擇 |如果您的帳戶下有 VLAN，因為您已訂購至少一部伺服器，則可以將新伺服器新增至該 VLAN。|
-|佈建 Script |您可以提供 Script，以容許您在佈建之後自動執行某些步驟。|
-|SSH 金鑰 |您可以提供 SSH 金鑰的公開金鑰，以容許您在佈建之後登入伺服器。|
-{: caption="表 2. 進階系統配置" caption-side="top"}
-
- 如需進一步資訊，請洽詢 {{site.data.keyword.cloud_notm}} 支援中心。
-
- **附註：**您可以使用運算裝置來訂購次要子網路。不過，如果您訂購次要子網路，則在收回運算裝置時會收回它們。如果您獨立訂購次要子網路（而不是作為運算訂購的附加選項），則可以保留子網路，直到您明確取消它為止。請務必記住這項區別，如此才不會在收回運算裝置時，意外地遺失部分 IP 位址。
+將一系列的電子郵件傳送給管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。在您登入 {{site.data.keyword.Bluemix_notm}} 之後，佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結。您也可以直接登入 {{site.data.keyword.slportal}}。
 
 ## 後續步驟
-佈建 {{site.data.keyword.baremetal_short}} 之後，即可開始進行管理。如需相關資訊，請參閱[管理 {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html)。
+佈建 {{site.data.keyword.baremetal_short}} 之後，即可開始進行管理。如需相關資訊，請參閱[管理 {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers#bm-manage-servers)。

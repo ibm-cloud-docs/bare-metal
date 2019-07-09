@@ -1,14 +1,23 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-03-02"
+  years: 1994, 2019
+lastupdated: "2019-06-17"
+
+keywords: bare metal, vmware license
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Gestión de licencias de VMware
+{: #bm-manage-vmware-licenses}
 
-Cuando está configurado el entorno de {{site.data.keyword.BluSoftlayer_full}} y VMware, puede gestionar las licencias desde el portal de clientes. Para obtener más información, consulte [Gestión de licencias de VMware](/docs/infrastructure/vmware/manage-vmware-licenses.html).
+Una vez que el entorno de VMware y de {{site.data.keyword.cloud}} está configurado, puede gestionar las licencias de VMware desde la [consola de IBM Cloud](https://cloud.ibm.com). Para obtener más información, consulte [Gestión de licencias de VMware](/docs/infrastructure/vmware?topic=VMware-manage-vmware-licenses).

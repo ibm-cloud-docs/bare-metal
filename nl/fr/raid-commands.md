@@ -1,30 +1,28 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Commandes de contrôleur RAID
+{: #bm-raid-controller-commands}
 
 Vous utilisez l'utilitaire de ligne de commande Adapatec pour exécuter des commandes de contrôleur RAID.
 Vous trouverez ci-après les commandes de contrôleur RAID les plus courantes que vous pouvez utiliser.
 {:shortdesc}
-
-**Remarque :** Windows et VMware possèdent des chemins différents pour exécuter des commandes storcli. Voir les exemples ci-après pour le chemin de commande approprié.
-
-Windows (utiliser CMD)
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-ou
-`C:\Program Files\LSIStorCli>`
-
-VMware (vous devez installer storcli avant d'exécuter des commandes storcli)
-`/opt/lsi/storcli/`
-
-## Commandes communes de contrôleur RAID
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ répertorie le type d'opération, le numéro d'unité, la taille
@@ -47,7 +45,7 @@ _GETCONFIG_ répertorie les informations sur les contrôleurs, unités logiques 
   </ul>
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getlogs 1 device tabular</code></b>
-_GETLOGS_ vous donne accès au statut et aux journaux des événements d'un contrôleur. _DEVICE xxx_ affiche un journal des erreurs d'unité rencontrées par le contrôleur. 
+_GETLOGS_ vous donne accès au statut et aux journaux des événements d'un contrôleur. _DEVICE xxx_ affiche un journal des erreurs d'unité rencontrées par le contrôleur.
 
 Voici un exemple de sortie obtenue via la commande _GETLOGS_ :
 ```
@@ -168,20 +166,22 @@ to this: 
 **Remarque :** Retirez la balise "do-email" pour le niveau "WARNING" (avertissement). Ou bien, passez le niveau de sécurité à "INFO".
 
 ## Erreurs communes liées aux unités
+{: #bm-common-drive-errors}
 
 Les erreurs d'unité les plus courantes sont les erreurs smart, matérielles et de support. Vous constatez ces erreurs en cas de panne d'un unité. C'est pourquoi vous devez remplacer l'unité dès que possible.
 
-Bien qu'elles ne soient pas inhabituelles, les commandes annulées ne constituent pas un autre type d'erreur courante. Néanmoins, si le nombre de commandes abandonnées augmente (et passe, par exemple, 100), ouvrez un ticket de demande de service.   
+Bien qu'elles ne soient pas inhabituelles, les commandes annulées ne constituent pas un autre type d'erreur courante. Néanmoins, si le nombre de commandes abandonnées augmente (et passe, par exemple, 100), ouvrez un ticket de demande de service.  
 
 Des erreurs de liaison peuvent indiquer qu'un câble doit peut-être être vérifié ou remplacé.
 
-## Informations de ticket de demande de service
+### Informations de ticket de demande de service
+{: #bm-raid-support}
 
-<b>Cartes RAID Adaptec</b>
+**Cartes RAID Adaptec** <br>
 Veillez à inclure la sortie complète de la commande `arcconf getconfig 1/arcconf getlogs 1 device tabular` lorsque vous créez un ticket de demande de service. Fournir ces informations aidera l'équipe de support à identifier l'ordre d'unité, l'appartenance à la grappe, la géométrie de la grappe et les problèmes de câblage. Ces informations sont essentielles pour la récupération d'une configuration RAID perdue. Accorder des droit pour redémarrer/mettre hors tension la mise à jour initiale ou demander un remplacement à chaud permettent d'accélérer le traitement de ticket de demande de service.
 
-<b>Cartes RAIDE LSI</b>
-Utilisez les commandes suivantes pour obtenir les fichiers journaux de cartes RAID LSI. Vous devez inclure la sortie complète de ces fichiers journaux dans votre ticket de demande de service. 
+**Cartes RAIDE LSI** <br>
+Utilisez les commandes suivantes pour obtenir les fichiers journaux de cartes RAID LSI. Vous devez inclure la sortie complète de ces fichiers journaux dans votre ticket de demande de service.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog

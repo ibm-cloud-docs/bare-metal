@@ -1,19 +1,28 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2018-04-25"
+
+keywords: bare metal, 3ware 
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 3ware RAID アレイの正常性の確認
+{: #bm-check-health-3ware-raid}
 
-3ware の場合、ブラウザー・インターフェースを使用できます。ただし、このインターフェースにはローカルからアクセスしない限り、セキュリティー・リスクになる可能性があります。そのため、コマンド・ライン・インターフェースを使用します。
+3ware の場合、ブラウザー・インターフェースを使用できます。 ただし、このインターフェースにはローカルからアクセスしない限り、セキュリティー・リスクになる可能性があります。 そのため、コマンド・ライン・インターフェースを使用します。
 
-<!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
+3ware CLI ユーティリティーを [IBM Cloud CLI プラグイン・リポジトリー](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins) からダウンロードすることができます。CLI ユーティリティーについて詳しくは、[cf CLI 用の VPN CLI プラグイン](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf)を参照してください。
 
 **3ware CLI ツールのクイック・コマンド・リファレンス**
 

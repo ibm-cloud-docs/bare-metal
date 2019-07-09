@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-04-05"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
+keywords: spare pools
+
+subcollection: bare-metal
 
 ---
 
@@ -17,17 +18,16 @@ lastupdated: "2018-04-05"
 {:table: .aria-labeledby="caption"}
 
 
-# Gestion des pools de secours 
-{: #access-spare-pools}
+# Pools de secours
+{: #bm-about-spare-pools}
 
-L'écran Pool de secours du {{site.data.keyword.slportal}} permet à un utilisateur de gérer le pool de secours des unités associées à un compte. Chaque unité, ou unité de secours à chaud, dans le pool de secours peut être utilisée en tant qu'unité de sauvegarde en cas de défaillance de l'unité principale. Les unités doivent être désignées en tant qu'unités de secours à chaud sur l'écran Pool de secours avant d'être utilisées dans ce processus. L'écran Pool de secours est uniquement accessible par les utilisateurs disposant d'une autorisation spécifique. Pour obtenir une autorisation, contactez l'administrateur du compte. Suivez les instructions ci-dessous pour accéder à l'écran Pool de secours dans le portail {{site.data.keyword.slportal_full}}.
-{:shortdesc}
+L'écran Pool de secours dans {{site.data.keyword.cloud}} permet aux utilisateurs de gérer le pool de secours des unités associées au compte. Chaque unité du pool de secours peut être utilisée en tant qu'unité de secours si des unités additionnelles sont requises. Les unités doivent être désignées en tant qu'unités de secours à chaud sur l'écran Pool de secours avant d'être utilisées dans ce processus. L'écran Pool de secours est uniquement accessible par les utilisateurs disposant d'une autorisation spécifique. 
 
-## Accès aux pools de secours
+## Avant de commencer
+{: #bm-spare-pools-prereq}
 
-1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
-2. Sélectionnez **Unités > Pool de secours** dans la barre de navigation pour accéder à l'écran *Pool de secours*.
-
+Avant de pouvoir utiliser les pools de secours, contactez IBM pour que les attributs Pool de secours et Rechargement du système d'exploitation soient ajoutés à votre compte.
+Pour autoriser une personne de votre organisation à gérer des pools de secours, veuillez contacter l'administrateur du compte.
 
 ## Etapes suivantes
-Après avoir accédé au menu du pool de secours, vous pouvez ajouter, annuler et réactiver le pool de secours des unités. 
+Voir [Accès aux pools de secours](/docs/bare-metal?topic=bare-metal-access-spare-pools).

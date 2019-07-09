@@ -1,15 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-04-02"
+
+keywords: ssl certificate, sercure sockets layer
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
-
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Certificados SSL
+{: #bm-ssl-certificates}
+
 O Secure Sockets Layer (SSL) é uma tecnologia que criptografa o tráfego entre o aplicativo cliente e o aplicativo do servidor
 que está envolvido na conversa. Essa criptografia é realizada por meio de um sistema de chave pública/chave privada que usa um
 certificado SSL.
@@ -20,4 +30,4 @@ o certificado é válido e uma assinatura da autoridade de certificação que o 
 protocolo que são trocadas durante o início de uma sessão, o cliente pode estar bastante seguro de que o servidor é aquele
 com o qual pretende falar.
 
-Para obter mais informações sobre certificados SSL, veja [Introdução a certificados SSL](/docs/infrastructure/ssl-certificates/index.html).
+Para obter mais informações sobre certificados SSL, veja [Introdução a certificados SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-getting-started-tutorial).

@@ -1,16 +1,26 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
+
+keywords: server transation, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.cloud}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # サーバー・トランザクションの理解
+{: #bm-server-transaction}
 
-{{site.data.keyword.Bluemix_short}} におけるサーバーは、プロビジョンされるか、オペレーティング・システムがロードされるか、ソフトウェアがインストールされると、*トランザクション* に入れられます。  トランザクションは、{{site.data.keyword.Bluemix_notm}} 管理システムがお客様のサーバーを構成するために実行する一連の自動化されたステップです。
+{{site.data.keyword.cloud}} におけるサーバーは、プロビジョンされるか、オペレーティング・システムがロードされるか、ソフトウェアがインストールされると、*トランザクション* に入れられます。  トランザクションは、{{site.data.keyword.cloud_notm}} 管理システムがお客様のサーバーを構成するために実行する一連の自動化されたステップです。
 
 サーバーのいずれかがトランザクションに入っている場合、ハードウェア・リストのサーバーのメモにリンクが表示されます。  このリンクをクリックして、その特定のサーバーでどのようなトランザクションが処理中なのかを確認できます。  その後、進行中の現行トランザクションのデータをリストする表が表示されます。
 

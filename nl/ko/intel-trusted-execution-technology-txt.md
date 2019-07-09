@@ -1,25 +1,30 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-05-31"
 
+keywords: bare metal, intel txt
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 하드웨어 모니터링 및 보안 제어
+{: #bm-hardware-monitroing-security-controls}
 
-악성 위협의 확산 및 치밀함으로 인해 더 엄격한 보안 요구사항을 채택하고 실행 환경의 모든 면을 면밀히 관찰해야 할 필요성이 대두되었습니다. 또한 클라우드 제공업체가 알려진 위치의 신뢰할 수 있는 하드웨어에서 워크로드가 실행되는지 여부를 파악할 수 있는 하드웨어 모니터링 및 보안 제어를 제공할 것을 기대합니다. {{site.data.keyword.cloud}}에서는 Intel&reg; TXT(Intel&reg; Trusted Execution Technology)를 사용하여 실행 환경의 개선된 보안 검증과 함께 하이브리드 및 클라우드 환경을 배치할 수 있도록 함으로써 해당 방법을 선도하고 있습니다.
-{:shortdesc}
+악성 위협의 확산 및 치밀함으로 인해 더 엄격한 보안 요구사항을 채택하고 실행 환경의 모든 면을 면밀히 관찰해야 할 필요성이 대두되었습니다. 또한 클라우드 제공업체가 알려진 위치의 신뢰할 수 있는 하드웨어에서 워크로드가 실행되는지 여부를 파악할 수 있는 하드웨어 모니터링 및 보안 제어를 제공할 것을 기대합니다. {{site.data.keyword.cloud}}에서는 Intel&reg; TXT(Intel&reg; Trusted Execution Technology)를 사용하여 실행 환경의 개선된 보안 검증과 함께 하이브리드 및 클라우드 환경을 배치할 수 있도록 함으로써 해당 방법을 선도하고 있습니다. {:shortdesc}
 
 ## 작동 방법
 
-Intel TXT는 {{site.data.keyword.cloud_notm}} 인프라에 배치되거나 마이그레이션된 워크로드가 알려진 위치의 신뢰할 수 있는 하드웨어에서 실행 중인지 여부를 비즈니스에서 확인하는 데 도움이 되는 하드웨어 모니터링 및 보안 제어를 제공합니다. {{site.data.keyword.cloud_notm}}에서는 {{site.data.keyword.baremetal_short}} 범위에서 Intel TXT를 지원합니다. 전체 목록은 http://www.softlayer.com/intel-txt 를 참조하십시오.
+Intel TXT는 {{site.data.keyword.cloud_notm}} 인프라에 배치되거나 마이그레이션된 워크로드가 알려진 위치의 신뢰할 수 있는 하드웨어에서 실행 중인지 여부를 비즈니스에서 확인하는 데 도움이 되는 하드웨어 모니터링 및 보안 제어를 제공합니다. {{site.data.keyword.cloud_notm}}에서는 {{site.data.keyword.baremetal_short}} 범위에서 Intel TXT를 지원합니다. 전체 목록을 보려면 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)를 참조하십시오.
 
 Intel TXT는 운영 체제 또는 하이퍼바이저에서부터 컴퓨팅 시스템의 부팅 펌웨어 및 하드웨어까지의 컴퓨팅 시스템의 컴포넌트를 분석하고 측정합니다. 분석에는 시스템의 기본 입력/출력 시스템(BIOS), 마스터 부팅 레코드(MBR) 및 부팅 로더가 포함됩니다. 측정치는 시스템을 신뢰할 수 있는지 여부를 판별하는 표준 기준선과 비교됩니다. 시스템 소프트웨어 및 로컬 또는 원격 관리 소프트웨어는 신뢰 결정을 사용하여 해당 컴퓨팅 시스템이 실행 중인 워크로드를 승인하거나 거부할 수 있습니다. Intel TXT가 부팅 동안 분석 및 측정을 수행하므로, 추가된 보안때문에 애플리케이션에 성능 오버헤드가 부과되지는 않습니다.
 
@@ -36,7 +41,7 @@ Intel TXT는 의료, 재무 서비스 및 정부 조직과 같이 준수 및 감
 * ID 및 액세스 관리
 * 사고 대응
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}의 Intel TXT에 대한 자세한 정보를 보려면 http://www.softlayer.com/intel-txt 를 참조하십시오.
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}의 Intel TXT에 대한 자세한 정보는 [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt)를 참조하십시오.
 
 [IBM, VMware 및 HyTrust를 사용하는 신뢰할 수 있는 보안 클라우드 솔루션](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf) 링크는 워크로드에 추가 보안 및 규제 준수를 추가하는 방법에 대한 정보를 제공합니다.
 

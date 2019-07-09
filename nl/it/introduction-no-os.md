@@ -1,36 +1,58 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-24"
+
+keywords: bare metal, no os, no operating system
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:note: .note}
 
-# Opzione di nessun sistema operativo (No OS)
+# Opzione di nessun sistema operativo
 {: #bm-no-os}
 
-Nessun sistema operativo (No OS) è un'opzione per ordinare un server bare metal senza un sistema operativo.
+**Nessun sistema operativo** è un'opzione per ordinare {{site.data.keyword.baremetal_long}} senza un sistema operativo.
 
-## Come ordinare un server bare metal senza sistema operativo?
+## Ordinazione di {{site.data.keyword.baremetal_short}} senza sistema operativo
+{: #ordering-no-os}
 
-Inizia ordinando un server bare metal tramite [SoftLayer.com](https://www.softlayer.com) o il [Portale clienti](https://control.softlayer.com).
+1. Utilizza la procedura illustrata in [Creazione di un server bare metal personalizzato](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) per ordinare il tuo server.
+2. Seleziona **Nessun sistema operativo** sotto **Immagine**.
+3. Completa il tuo ordine del server. 
 
-1. Seleziona **Altro** da **Configurazione di sistema > Sistema operativo**.
-2. Seleziona **Nessun sistema operativo**.
+## Passaggio a nessun sistema operativo
+{: #changing-to-no-os}
 
-## Come installare un sistema operativo su un server senza un sistema operativo?
+Un server può essere riconfigurato per non avere alcun sistema operativo. La riconfigurazione viene eseguita tramite un ricaricamento del sistema operativo. Per ulteriori informazioni, vedi [Ricaricamento del SO](/docs/infrastructure/software?topic=software-reloading-the-os).
 
-Ci sono due metodi per installare un sistema operativo su un server bare metal senza un sistema operativo.
+1. Fai clic su **Dispositivi** > **Elenco dispositivi**.
+2. Seleziona il server che deve essere riconfigurato senza sistema operativo.
+3. Fai clic su **Ricaricamento SO** e immetti le informazioni applicabili.
+
+## Installazione di un sistema operativo su un server senza sistema operativo
+{: #installing-os-on-no-os-server}
+
+Esistono due metodi per installare i sistemi operativi su {{site.data.keyword.baremetal_short}} senza sistema operativo.
 
 ### Opzione 1: server PXE
+{: #option-1}
 
-Un server bare metal senza sistema operativo può essere configurato per eseguire l'avvio e il caricamento del sistema operativo da una configurazione PXE (vedi [Preboot Execution Environment](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) per ulteriori informazioni). Distribuisci semplicemente il server bare metal in un ambiente di rete con una configurazione PXE (ciò comporta di norma l'esecuzione di un daemon DHCP e TFTP) e configura il BIOS del nuovo server bare metal per l'avvio dall'adattatore di rete. Perché l'opzione di nessun sistema operativo (No OS) funzioni correttamente, la configurazione PXE deve trovarsi nella stessa VLAN del server bare metal, altrimenti bisogna utilizzare l'inoltro DHCP.
+I {{site.data.keyword.baremetal_short}} senza sistemi operativi possono essere configurati per avviare e caricare un sistema operativo da una configurazione PXE.<!--(see [Preboot_Execution_Environment](http://en.wikipedia.org/wiki/Preboot_Execution_Environment) for more information)--> Distribuisci i {{site.data.keyword.baremetal_short}} in un ambiente di rete con una configurazione PXE (ciò comporta di solito l'esecuzione di un daemon DHCP e TFTP) e configura il BIOS dei nuovi server per l'avvio dall'adattatore di rete. Affinché l'opzione di nessun sistema operativo funzioni correttamente, la configurazione PXE deve trovarsi nella stessa VLAN dei {{site.data.keyword.baremetal_short}} o deve essere utilizzato l'inoltro DHCP.
 
-**Nota:** potrebbe essere necessario aprire un ticket di supporto che richiede che le porte di switch vengano raggruppate nuovamente in modalità di base perché questa opzione funzioni. Ciò è dovuto al fatto che il protocollo PXE non richiede la compatibilità con l'aggregazione di link (ossia LACP; vedi [Link aggregation](http://en.wikipedia.org/wiki/Link_aggregation)), che è ora una funzionalità standard per fornire la ridondanza. Un'altra opzione consiste nell'ordinare il server con gli uplink non associati (nessuna aggregazione di link) e modificarli quindi in uplink ridondanti dopo che il sistema operativo è stato installato.
+Potrebbe essere necessario aprire un ticket di supporto per richiedere che le porte di switch vengano raggruppate nuovamente in modalità di base affinché questa opzione funzioni. Ciò è dovuto al fatto che il protocollo PXE non richiede compatibilità con l'aggregazione di link (LACP), <!--see [Link Aggregation](http://en.wikipedia.org/wiki/Link_aggregation))--> che ora è una funzionalità standard per fornire ridondanza. Un'altra opzione consiste nell'ordinare il server con uplink non associati (nessuna aggregazione di link) e quindi modificarli in uplink ridondanti dopo l'installazione del sistema operativo.
+{: note}
 
 ### Opzione 2: dispositivo IPMI
+{: #option-2}
 
-Installa un sistema operativo su un server bare metal senza un sistema operativo eseguendo l'avvio da una ISO tramite il dispositivo IPMI. Fai clic [qui](mount-iso-bare-metal-server.html) per ulteriori informazioni sull'avvio da una ISO.
+Installa i sistemi operativi sui {{site.data.keyword.baremetal_short}} senza sistemi operativi eseguendo l'avvio da una ISO tramite il dispositivo IPMI incluso. Per ulteriori informazioni sull'avvio da una ISO, vedi [Montaggio di una ISO su un server bare metal](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server).

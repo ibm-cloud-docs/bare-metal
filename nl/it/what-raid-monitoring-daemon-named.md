@@ -1,17 +1,28 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Nome e ubicazione del daemon di monitoraggio RAID
-{{site.data.keyword.cloud}} utilizza soprattutto schede RAID LSI e Adaptec con alcune eccezioni per l'hardware legacy. La seguente tabella mostra le ubicazioni del gestore RAID, le ubicazioni del monitoraggio, le configurazioni e le impostazioni degli avvisi RAID.
+{: #bm-raid-monitoring-daemon}
 
-Puoi configurare gli avvisi RAID per tralasciare il processo di monitoraggio del portale modificando il server SMTP e la destinazione della email di notifica nella configurazione per una scheda RAID. Se modifichi queste configurazioni, IBM non può informarti dei problemi RAID o tenere automaticamente traccia del problema fino alla sua risoluzione. Non modificare la configurazione fornita a meno che tu non sia consapevole dei rischi.
+{{site.data.keyword.cloud}} utilizza principalmente le schede RAID Adaptec e LSI con alcune eccezioni per l'hardware legacy. La seguente tabella illustra le ubicazioni del gestore RAID, le ubicazioni del monitoraggio, le configurazioni e le impostazioni degli avvisi RAID.
+
+Puoi configurare gli avvisi RAID per ignorare il processo di monitoraggio del portale modificando il server SMTP e la destinazione dell'email di notifica nella configurazione per una scheda RAID. Se modifichi queste configurazioni, IBM non può informarti sui problemi RAID o tenere automaticamente traccia del problema fino alla sua risoluzione. Non modificare la configurazione fornita a meno che tu non sia consapevole dei rischi.
 
 <caption>Tabella 1. Configurazioni e impostazioni RAID</caption>
 
@@ -22,9 +33,9 @@ Puoi configurare gli avvisi RAID per tralasciare il processo di monitoraggio del
 |**Nome monitoraggio**|MR_Monitor|MRMonitor|Adaptec Event Manager|Adaptec Event Manager|
 |**Ubicazione monitoraggio**|/opt/lsi/mrmonitor/bin/mrmonitord|C:\Program Files (x86)\LSI\MRMonitor|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|
 |**Nome processo**|/opt/lsi/mrmonitor/bin/mrmonitord|||||
-|**Ubicazione log**|Ubicazione dei log di messaggi predefinita per il sistema operativo, ad es. /var/log/messages|Solo GUI|/usr/StorMan/RaidEvtA.log|Solo GUI|
+|**Ubicazione log**|Ubicazione dei log di messaggi predefinita per il sistema operativo, ad esempio /var/log/messages|Solo GUI|/usr/StorMan/RaidEvtA.log|Solo GUI|
 |**Destinazione email di notifica**|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|
 |**Formato di origine email di notifica**|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|
 |**Porta email**|25|25|25|25|
 |**Server SMTP**|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|
-|**Opzioni di notifica alternative**|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale richiede le appropriate configurazioni del firewall.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale richiede le appropriate configurazioni del firewall.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale richiede le appropriate configurazioni del firewall.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale richiede le appropriate configurazioni del firewall.|
+|**Opzioni di notifica alternative**|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale necessita di configurazioni firewall appropriate.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale necessita di configurazioni firewall appropriate.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale necessita di configurazioni firewall appropriate.|Modifica il server SMTP in un server SMTP locale. Il server SMTP locale necessita di configurazioni firewall appropriate.|

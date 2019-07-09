@@ -1,9 +1,12 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-06-01"
+  years: 2018, 2019
+lastupdated: "2019-03-04"
 
+keywords: SAP, {{site.data.keyword.cloud}} SAP-Certified Infrastructure
+
+subcollection: bare-metal
 
 ---
 
@@ -18,10 +21,12 @@ lastupdated: "2018-06-01"
 
 有关更多信息，请参阅：
 
-  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-index.html#getting-started)，有关如何在 {{site.data.keyword.cloud_notm}} 基础架构上实现 SAP NetWeaver 的综合指南。
-  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Red Hat Enterprise Linux 快速参考指南](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)，迅速向 SAP 认证的服务器供应 RHEL 操作系统的快速入门指南。
-  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Microsoft Windows 的快速参考指南](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)，迅速向 SAP 认证的服务器供应 Windows 操作系统的快速入门指南。
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-netweaver?topic=sap-netweaver-getting-started#getting-started){: new_window}，有关如何在 {{site.data.keyword.cloud_notm}} 基础架构上实施 SAP NetWeaver 的综合指南。
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Red Hat Enterprise Linux ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-netweaver-rhel-qrg?topic=sap-netweaver-rhel-qrg-getting-started-tutorial#getting-started-tutorial){: new_window}，向 SAP 认证的服务器供应 RHEL 操作系统的快速入门指南。
+  * [SAP NetWeaver on {{site.data.keyword.cloud_notm}} - Quick Reference Guide for Microsoft Windows ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started-tutorial#getting-started-tutorial){: new_window}，向 SAP 认证的服务器快速供应 Windows 操作系统的快速参考指南。
 
-  * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)，有关如何在 {{site.data.keyword.cloud_notm}} 基础架构上实现 SAP HANA 的综合指南。
+  * [SAP HANA on {{site.data.keyword.cloud_notm}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started){: new_window}，在 {{site.data.keyword.cloud_notm}} 基础架构上如何实施 SAP HANA 的综合指南。
 
-  * [{{site.data.keyword.cloud_notm}} 上的 SAP 参考体系结构](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)，该示例基础架构使用 SAP HANA 和 SAP NetWeaver 来显示 SAP 基于 {{site.data.keyword.cloud_notm}} 的部署的一般概念。
+  * [SAP Reference Architecture on {{site.data.keyword.cloud_notm}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-reference-architecture?topic=sap-reference-architecture-getting-started#getting-started){: new_window}，一个基础架构示例，该示例使用 SAP HANA 和 SAP NetWeaver 显示基于 SAP {{site.data.keyword.cloud_notm}} 的部署的一般概念。
+
+  * [SAP Business One on {{site.data.keyword.cloud_notm}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/docs/infrastructure/sap-b1?topic=infrastructure/sap-b1-getting-started#getting-started){: new_window}，与如何为小到中型企业设置、管理和支持 SAP Business One 相关。

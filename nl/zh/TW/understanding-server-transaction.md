@@ -1,16 +1,26 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
+
+keywords: server transation, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.cloud}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 瞭解伺服器交易
+{: #bm-server-transaction}
 
-佈建位於 {{site.data.keyword.Bluemix_short}} 的伺服器、載入作業系統或安裝軟體時，會進入*交易* 狀態。交易是 {{site.data.keyword.Bluemix_notm}} 管理系統所執行以配置客戶伺服器的一系列自動步驟。
+佈建位於 {{site.data.keyword.cloud}} 的伺服器、載入作業系統或安裝軟體時，會進入*交易* 狀態。交易是 {{site.data.keyword.cloud_notm}} 管理系統所執行以配置客戶伺服器的一系列自動步驟。
 
 如果其中一個伺服器正處於交易狀態，則會在硬體清單的伺服器附註中出現鏈結。您可以按一下這個鏈結，來查看該特定伺服器處於擱置狀態的交易。您接著會看到一份表格列出目前進行中交易的資料。
 

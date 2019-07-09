@@ -1,17 +1,28 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # RAID モニタリング・デーモンの名前と場所
+{: #bm-raid-monitoring-daemon}
+
 {{site.data.keyword.cloud}} では、レガシー・ハードウェアのいくつかの例外を除き、主に Adaptec および LSI RAID カードを使用します。 以下の表に、RAID マネージャーの場所、モニターの場所、構成、および RAID アラート設定の概要を示します。
 
-RAID カードの構成で SMTP サーバーおよび通知 E メールの宛先を変更することで、ポータル・モニタリング・プロセスをバイパスするように RAID アラートを構成できます。 これらの構成を変更した場合、IBM は RAID の問題を通知したり、解決されるまで問題を自動的に追跡したりすることができなくなります。リスクを理解している場合を除き、提供されている構成を変更しないでください。
+RAID カードの構成で SMTP サーバーおよび通知 E メールの宛先を変更することで、ポータル・モニタリング・プロセスをバイパスするように RAID アラートを構成できます。 これらの構成を変更した場合、IBM は RAID の問題を通知したり、解決されるまで問題を自動的に追跡したりすることができなくなります。 リスクを理解している場合を除き、提供されている構成を変更しないでください。
 
 <caption>表 1. RAID 構成および設定</caption>
 

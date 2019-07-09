@@ -1,14 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # RAID 监视守护程序的名称和位置
+{: #bm-raid-monitoring-daemon}
+
 {{site.data.keyword.cloud}} 主要使用 Adaptec 和 LSI RAID 卡，但对于旧硬件有一些例外情况。下表概述了 RAID 管理器位置、监视器位置、配置和 RAID 警报设置。
 
 您可以通过更改 RAID 卡的配置中的 SMTP 服务器和通知电子邮件目标来配置 RAID 警报，以绕过门户网站监视进程。如果更改了这些配置，IBM 将无法向您通知 RAID 问题，也无法自动跟踪问题直至解决。因此，除非您了解这些风险，否则请勿更改所提供的配置。

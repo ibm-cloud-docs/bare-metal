@@ -1,20 +1,30 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2018-04-25"
+
+keywords: bare metal, 3ware 
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Verificando o funcionamento de sua matriz RAID do 3ware
+{: #bm-check-health-3ware-raid}
 
 Com o 3ware, é possível usar uma interface do navegador. No entanto, a menos que você acesse a interface localmente, isso pode
 ser um risco de segurança. Portanto, use a interface da linha de comandos.
 
-<!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
+É possível fazer download dos utilitários da CLI do 3ware usando o [Repositório de plug-ins da CLI do IBM Cloud
+](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). Para obter mais informações sobre o utilitário da CLI, consulte [Plug-in da CLI VPN para CLI cf](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf).
 
 **Referência rápida de comando para ferramentas da CLI do 3ware**
 
@@ -49,6 +59,6 @@ Exemplo:
 c = controlador<br/>
 O controlador pode ser 0 ou 1<br/>
 u = unidade<br/>
-O número da unidade depende de matrizes de número. É 0 na maioria dos casos.<br/>
+O número da unidade depende das matrizes de número. É 0 na maioria dos casos.<br/>
 p = porta<br/>
-Port denota o número da porta. Na maioria dos casos, é 0 - 4.
+Porta denota o número da porta. Na maioria dos casos, é 0 - 4.

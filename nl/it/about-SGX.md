@@ -2,9 +2,12 @@
 
 
 copyright:
-  years: 2018
+  years: 2019
 lastupdated: "2018-04-02"
 
+keywords: intel sgx, sgx, Intel Software Guard Extension
+
+subcollection: bare-metal
 
 ---
 
@@ -16,6 +19,8 @@ lastupdated: "2018-04-02"
 {:table: .aria-labeledby="caption"}
 
 # Intel SGX
-Intel® SGX (Software Guard Extensions) è un'estensione dell'architettura che è progettata per aumentare la sicurezza utilizzando aree protette in memoria a cui è affidata l'esecuzione del tuo codice e dei tuoi dati sensibili. Per ulteriori informazioni,vedi [Intel® Software Guard Extensions](https://software.intel.com/en-us/sgx).
+{: #bm-intel-sgx}
 
-Per eseguire il provisioning di un server bare metal con Intel SGX, consulta [Provisioning di un server bare metal con Intel SGX](../bare-metal/bare-metal-provision-SGX.html)
+Intel® Software Guard Extension (SGX) è un'estensione dell'architettura progettata per aumentare la sicurezza utilizzando aree protette nella memoria che esegue i dati e il codice sensibili. Per ulteriori informazioni, fai riferimento a [Intel® Software Guard Extensions ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://software.intel.com/en-us/sgx){: new_window}.
+
+Per eseguire il provisioning di un server bare metal con Intel SGX, fai riferimento a [Provisioning di un server bare metal con Intel SGX](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx#bm-server-provision-sgx)

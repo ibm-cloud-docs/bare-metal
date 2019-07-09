@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-02"
+  years: 2014, 2019
+lastupdated: "2019-05-31"
 
+keywords: spare pools, cancel, bare metal
+
+subcollection: bare-metal
 
 ---
 
@@ -18,10 +19,10 @@ lastupdated: "2018-02-02"
 {:table: .aria-labeledby="caption"}
 
 
-# Annulation des pools de secours 
-{: #adding-spare-pools}
+# Annulation des pools de secours
+{: #cancel-spare-pools}
 
-Les unités ajoutées au pool de secours peuvent uniquement être annulées dans l'écran Pool de secours du portail {{site.data.keyword.slportal_full}}. L'annulation d'une unité dans le pool de secours est identique à celle d'une unité dans la liste des unités. Pour annuler une unité dans le pool de secours, procédez comme suit.
+Les unités ajoutées au pool de secours peuvent uniquement être annulées dans l'écran Pool de secours de la console {{site.data.keyword.cloud}}. L'annulation d'une unité dans le pool de secours est identique à celle d'une unité dans la liste des unités. Suivez les étapes décrites ci-dessous pour annuler une unité dans le pool de secours.
 {:shortdesc}
 
 ## Annulation des pools de secours
@@ -31,7 +32,7 @@ Les unités ajoutées au pool de secours peuvent uniquement être annulées dans
    L'annulation d'une unité entraînera la suppression de toutes les données de l'unité annulée. Les informations stockées sur l'unité ne pourront pas être récupérées après l'annulation de l'unité.
    {:tip}
 
-2. Accédez au portail [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
+2. Accédez à la console [{{site.data.keyword.cloud}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://cloud.ibm.com/){: new_window} à l'aide de vos données d'identification uniques.
 3. Sélectionnez **Unités > Pool de secours** dans la barre de navigation pour accéder à l'écran *Pool de secours*.
 4. Sélectionnez **Actions > Annuler unité** pour l'unité concernée.
 5. Sélectionnez la raison de l'annulation dans la liste déroulante **Motif**.

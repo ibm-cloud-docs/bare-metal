@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-02"
+  years: 2014, 2019
+lastupdated: "2019-05-31"
 
+keywords: spare pools, cancel, bare metal
+
+subcollection: bare-metal
 
 ---
 
@@ -18,10 +19,10 @@ lastupdated: "2018-02-02"
 {:table: .aria-labeledby="caption"}
 
 
-# 예비 풀 취소 
-{: #adding-spare-pools}
+# 예비 풀 취소
+{: #cancel-spare-pools}
 
-예비 풀에 추가된 디바이스는 {{site.data.keyword.slportal_full}}에 있는 예비 풀 화면에서만 취소할 수 있습니다. 예비 풀의 디바이스를 취소하는 것은 디바이스 목록에서 디바이스를 취소하는 것과 같습니다. 다음 단계를 완료하여 예비 풀의 디바이스를 취소하십시오.
+예비 풀에 추가된 디바이스는 {{site.data.keyword.cloud}} 콘솔 내의 예비 풀 화면에서만 취소가 가능합니다. 예비 풀의 디바이스를 취소하는 것은 디바이스 목록에서 디바이스를 취소하는 것과 같습니다. 예비 풀의 디바이스를 취소하려면 아래의 단계를 따르십시오.
 {:shortdesc}
 
 ## 예비 풀 취소
@@ -31,7 +32,7 @@ lastupdated: "2018-02-02"
    디바이스를 취소하면 취소된 디바이스에서 모든 데이터가 제거됩니다. 디바이스에 저장된 모든 정보는 디바이스를 취소하고 나면 검색할 수 없습니다.
    {:tip}
 
-2. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+2. 고유 인증 정보를 사용하여 [{{site.data.keyword.cloud}} 콘솔 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://cloud.ibm.com/){: new_window}에 액세스하십시오. 
 3. 탐색줄에서 **디바이스 > 예비 풀**을 선택하여 *예비 풀* 화면에 액세스하십시오.
 4. 특정 디바이스의 **조치 > 디바이스 취소**를 선택하십시오.
 5. **이유** 드롭 다운 목록에서 취소 이유를 선택하십시오.

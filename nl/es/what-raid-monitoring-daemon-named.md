@@ -1,14 +1,25 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Nombre y ubicación del daemon de supervisión de RAID
+{: #bm-raid-monitoring-daemon}
+
 En el hardware existente, {{site.data.keyword.cloud}} utiliza principalmente tarjetas Adaptec y RAID LSI, con algunas excepciones. La siguiente tabla describe las ubicaciones del gestor de RAID, las ubicaciones del supervisor, las configuraciones y los valores de alerta de RAID.
 
 Puede configurar alertas de RAID para eludir el proceso de supervisión del portal cambiando el servidor SMTP y el destino de correo electrónico de notificación en la configuración de una tarjeta RAID. Si cambia estas configuraciones, IBM no puede notificarle los problemas de RAID ni realizar automáticamente un seguimiento del problema hasta su resolución. No modifique la configuración proporcionada a menos que conozca los riesgos.

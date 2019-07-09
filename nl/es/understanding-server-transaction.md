@@ -1,16 +1,26 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
+
+keywords: server transation, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.cloud}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Transacciones de servidor
+{: #bm-server-transaction}
 
-Cuando se suministra un servidor en {{site.data.keyword.Bluemix_short}}, se carga un sistema operativo o se instala un software, se coloca en una *transacción*.  Una transacción es una serie de pasos automatizados realizados por los sistemas de gestión de {{site.data.keyword.Bluemix_notm}} para configurar servidores de clientes.
+Cuando se suministra un servidor en {{site.data.keyword.cloud}}, se carga un sistema operativo o se instala un software, se coloca en una *transacción*.  Una transacción es una serie de pasos automatizados realizados por los sistemas de gestión de {{site.data.keyword.cloud_notm}} para configurar servidores de clientes.
 
 Si uno de los servidores está en una transacción, aparece un enlace en las notas del servidor en los listados de hardware.  Puede pulsar este enlace para ver qué transacciones están pendientes para ese servidor específico.  Aparece una tabla que lista los datos de la transacción actual que está en curso.
 

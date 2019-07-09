@@ -1,18 +1,31 @@
 ---
 
 copyright:
-  years:  2018
+  years:  2019
 lastupdated: "2018-05-15"
+
+keywrods: bare metal, managed pools
+
+subcollection: bare-metal
 
 ---
 
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
 # Acerca de las agrupaciones gestionadas por el cliente
+{: #bm-customer-managed-pools}
 
 Las agrupaciones gestionadas por el cliente le ofrecen acceso a un conjunto de servidores que siempre están disponibles para su organización. Estos servidores están configurados en sus especificaciones. Puede solicitar servidores desde la agrupación cuando los necesite.
 
 Esta característica es ideal si la organización necesita con frecuencia suministrar un gran número de servidores para su uso durante los periodos de máxima actividad. Con esta característica, puede utilizar solo el número mínimo de servidores que necesita, pero siempre dispone de un gran conjunto de servidores disponibles para satisfacer sus necesidades adicionales.
 
 ## Ejemplo de uso
+{: #bm-managed-pools-use-case}
 
 La empresa A está utilizando 1000 servidores activos para las operaciones diarias. Sin embargo, en horas punta, pueden necesitar hasta 500 servidores adicionales. Necesitan los servidores adicionales para estar en funcionamiento rápidamente.
 
@@ -23,4 +36,4 @@ En julio, la empresa A necesita 250 servidores adicionales de su agrupación. So
 
 ## Pasos siguientes
 
-Si su organización desea utilizar una agrupación gestionada por el cliente, consulte [Suministro de agrupaciones gestionadas por el cliente](../bare-metal/managedPool_provision.html)
+Si su organización desea utilizar una agrupación gestionada por el cliente, consulte [Suministro de agrupaciones gestionadas por el cliente](/bare-metal?topic=bare-metal-provisioning-customer-managed-pools)

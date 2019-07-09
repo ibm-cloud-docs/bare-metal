@@ -1,92 +1,86 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-06"
+  years: 2017, 2019
+lastupdated: "2019-06-24"
 
+keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 
-# Creazione di un server bare metal personalizzato
+# Creazione di un Bare Metal Server personalizzato
 {: #ordering-baremetal-server}
 
-Attieniti alla seguente procedura per creare un {{site.data.keyword.baremetal_short}} personalizzato.
+Utilizza la seguente procedura per creare un {{site.data.keyword.baremetal_long}} personalizzato.
 
-1. Apri il catalogo [{{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:target="_blank"}.   
-2. Seleziona Bare Metal Server.
-3. Fai clic su Crea.
-4. Sotto l'elenco di server, cerca l'istruzione: **Sei interessato ad altre opzioni di configurazioni? Fai clic qui**. Seleziona questa opzione. Viene visualizzato il modulo server personalizzato.
-1. Seleziona un'ubicazione del data center per il tuo server.
-* Seleziona un server dalle tre categorie di server facendo clic sul link **Starting Price Per**.
-  * SAP Certified Servers (per ulteriori informazioni sul provisioning di un server con certificazione SAP, vedi [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html))
-  * Single Processor Multi-Core Servers
-  * Dual Processor Multi-Core Servers
+## Provisioning tramite il catalogo {{site.data.keyword.cloud_notm}} 
+{: #provision-through-the-catalog}
 
-* Seleziona dalle tue opzioni di configurazione. I campi relativi a **data center**, **RAM** e **sistema operativo** sono obbligatori. Tutti gli altri campi sono facoltativi. Per ulteriori informazioni sui campi facoltativi, vedi **[Opzioni aggiuntive di configurazione del server](#addl-server-options)** .
+Utilizza la seguente procedura per eseguire il provisioning del tuo {{site.data.keyword.baremetal_short}} tramite {{site.data.keyword.cloud_notm}}.
 
-    **Nota**: viene visualizzato un messaggio di errore se si verifica un conflitto tra il server e il sistema operativo. Un esempio è la selezione di Linux su un server Microsoft SQL.
-* Fai clic su **Add to Order**. Viene visualizzata la pagina Checkout.
+1. Apri il [Catalogo {{site.data.keyword.cloud_notm}}](https://cloud.ibm.com/catalog/){: external}.   
+2. Seleziona {{site.data.keyword.baremetal_short}} in **Calcola**.
+3. Fai clic su Continua.  Se non visualizzi un pulsante Continua, potresti dover eseguire l'accesso.
+4. Immetti una **Quantità** di server **identici** per il provisioning. Il valore predefinito è 1. Se vuoi eseguire il provisioning di più server con _diverse_ specifiche, devi eseguire il provisioning dei server separatamente.
+5. **Nome host** è un nome permanente o temporaneo per i tuoi server, ad esempio, baremetal01. Fai clic su **Informazioni** per la formattazione delle specifiche.
+6. **Dominio** è la stringa di identificazione che definisce il controllo amministrativo in internet, ad esempio, Customer-123456.cloud. Fai clic su **Informazioni** per la formattazione delle specifiche.
+7. **Fatturazione** è **Oraria** o **Mensile**.
+8. Seleziona **Ubicazione**, regione e data center, in cui deve essere posizionato il tuo server.
+9. Fai clic su **Tutti i server** per visualizzare l'elenco di processori (singolo, duale e quadruplo) e i server certificati (SAP e VMware). Seleziona il server che meglio si adatta al tuo carico di lavoro.
+10. Seleziona la tua **RAM**. Per alcuni server, la RAM per impostazione predefinita si basa sul modello di CPU e non può essere modificata. 
 
-  Dalla pagina Checkout, puoi tornare alla pagina di configurazione facendo clic su una delle opzioni di riconfigurazione.
-* Nella sezione Advanced System Configuration, specifica le opzioni aggiuntive di configurazione. Per ulteriori informazioni, vedi **[Configurazione di sistema avanzata](#adv-system-config)**.
+Per i server certificati SAP, la RAM e il sistema operativo per impostazione predefinita si basano sulla tua selezione del server. Anche la tua opzione di archiviazione locale per impostazione predefinita si basa sulla tua selezione del server.
+{ :note}
 
-*   Fai clic sulle caselle di spunta **Termini del servizio cloud** e **Accordo servizi di terze parti**.
-*   Conferma o immetti le tue informazioni di pagamento e fai clic su **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
+11. Immetti una chiave pubblica facoltativa per la tua **chiave SSH**, che puoi utilizzare per accedere al tuo server dopo che ne è stato eseguito il provisioning.
+12. Seleziona un'**Immagine** (sistema operativo) per il tuo server. Le tue opzioni si basano sulla tua selezione del server.
+13. Espandi **Componenti aggiuntivi** per selezionare le opzioni correlate alla configurazione del server.
+14. I **Dischi di archiviazione** vengono preconfigurati in base alla tua selezione del server. Espandi **Componenti aggiuntivi** per aggiungere dei volumi di archiviazione file o blocchi dopo aver eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}}. 
+15. In **Interfaccia di rete**, seleziona le opzioni Velocità porta di uplink e VLAN privata. Espandi **Componenti aggiuntivi** per selezionare le opzioni appropriate o utilizzare i valori predefiniti.
+16. Riesamina il tuo ordine nel Riepilogo ordine.
+17. Immetti tutti i codici promozionali di cui disponi in **Applica codice promozionale**.
+18. Fai clic sugli accordi di servizio di terze parti per tutti gli accordi elencati.
+19. Fai clic su **Crea** per eseguire il provisioning del tuo server. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning, che puoi stampare perché è anche la tua ricevuta.
 
-  Puoi anche salvare questo ordine senza acquistare facendo clic su **Save as Quote**.
+Una serie di email viene inviata al tuo amministratore: il riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione dell'ordine di provisioning e il completamento del provisioning.
 
- Una serie di email viene inviata al tuo amministratore: il riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione dell'ordine di provisioning e il completamento del provisioning. L'email di completamento del provisioning include un link alla tua pagina *Device Details* dopo che hai eseguito l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
+L'email di _completamento del provisioning_ include un link alla tua pagina *Dettagli dispositivo* in modo che puoi accedere a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
 
- ## Opzioni aggiuntive di configurazione del server
- {: #addl-server-options}
+Hai anche l'opzione di salvare l'ordine come una quota o di aggiungerlo a una stima. Quando salvi una quota, viene inviato un link all'indirizzo email associato al tuo account. Apri il link per visualizzare le informazioni sulla quota salvata. Un'altra opzione è di andare a Gestisci > Fatturazione e utilizzo e selezionare Vendite > Quote dispositivo. Se hai accesso puoi acquistare l'offerta quotata facendo clic sulla quota e confermando l'ordine. L'aggiunta della stima inserisce il costo proposto per le configurazioni nel calcolatore del prezzo. Fai clic su **Informazioni** per ulteriori dettagli sul calcolatore del prezzo.
 
- Hai a disposizione delle opzioni aggiuntive quando esegui il provisioning del tuo server bare metal come ad esempio, tra le altre, quelle relative alla larghezza di banda pubblica, alle velocità delle porte di uplink e agli indirizzi IP secondari pubblici. La tabella 1 descrive le opzioni aggiuntive.
+## Provisioning tramite il portale clienti
+Utilizza la seguente procedura per eseguire il provisioning del tuo {{site.data.keyword.baremetal_short}} tramite {{site.data.keyword.slportal}}.
 
+1. Accedi a [{{site.data.keyword.slportal}}](control.softlayer.com){: external} utilizzando le tue credenziali univoche.
+2. Vai a **Account** > **Place an Order**.
+3. Scegli **Hourly** o **Monthly**.
+3. Seleziona il tuo data center in cui vuoi sia posizionato il tuo {{site.data.keyword.baremetal_short}} dall'elenco e poi seleziona il tuo server certificato (SAP o VMware) o processore (singolo, duale o quadruplo) facendo clic su **STARTING PRICE**.
+4. Immetti una **Quantità** di server _identici_ per il provisioning. Il valore predefinito è 1. Se vuoi eseguire il provisioning di più server con _diverse_ specifiche, devi eseguire il provisioning dei server separatamente.
+5. Seleziona la tua **RAM**. Per alcuni server, la RAM per impostazione predefinita si basa sul modello di CPU e non può essere modificata. 
 
- | **Campo** | **Descrizione** |
- |-------------------|---------------|
- |Sicurezza server|Come ad esempio Trusted Execution Technology (Intel TXT)|
- |Software Guard Extensions|Una sicurezza aumentata per il codice e i dati sensibili (Intel SGX). <br><br>Vedi [Provisioning di un server bare metal con Intel SGX](../bare-metal/bare-metal-provision-SGX.html).|
- |RAM|Scegli un livello di RAM che soddisfi le esigenze del tuo server.|
- |Sistema operativo |Seleziona da CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu oppure Other. |
- |Dischi rigidi |Utilizza lo strumento nell'interfaccia utente per configurare i tuoi dischi rigidi ricompilando i campi in base alla tua selezione del sistema operativo. <br><br> Puoi anche scegliere di utilizzare un'unità SSD Intel Optane. Fai riferimento a [Provisioning di una SSD Intel Optane DC P4800X](../bare-metal/bm-provision_ssd.html).
- |Larghezza di banda pubblica |Determina la quantità di dati che può essere trasferita tramite l'interfaccia pubblica durante un mese. Per gli ambienti di test, che richiedono che i dati di installazione vengano trasferiti tramite questa interfaccia, i valori devono essere adattati oltre la quantità di dati trasferita inizialmente. Prendi in considerazione la [Content Delivery Network {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/cdn) per inviare un carico di dati iniziale a uno dei data center {{site.data.keyword.cloud_notm}}. È possibile eseguire un upgrade di tutti i {{site.data.keyword.baremetal_short}} per includere una larghezza di banda illimitata. Tutti i dispositivi illimitati sono su porte private e dedicate.|
- |Velocità porta di uplink |Determina la velocità delle interfacce interne ed esterne. |
- |Indirizzi IP secondari pubblici |Assegna più indirizzi IP al tuo server. A seconda del tuo scenario, potresti aver bisogno di ulteriori indirizzi IP assegnati al tuo server. Ulteriori indirizzi IPv4 sono disponibili in quantità di 1, 2, 4, 8, 16 o 32. |
- |Indirizzi IPv6 primari |Assegnati alle interfacce interne e a quelle esterne del tuo server. |
- |Indirizzi IPv6 statici pubblici |Assegna più indirizzi IPv6 da un blocco /64. |
- |Componenti aggiuntivi del sistema operativo|Seleziona opzioni quali VMware, soluzioni di backup, pannello di controllo, database, Firewall hardware e software, Protezione antivirus e spyware e Rilevamento e prevenzione delle intrusioni. <br><br>Ti consigliamo vivamente di allineare il tuo dipartimento di sicurezza aziendale con il supporto {{site.data.keyword.cloud_notm}} per discutere i dettagli di queste opzioni.
- |Evault |Uno strumento di backup basato sugli agent che può essere installato sul tuo server per replicare i backup tra i server. |
- |Componenti aggiuntivi del servizio|Seleziona eventuali componenti aggiuntivi del servizio, come il monitoraggio, la risposta automatica e l'assicurazione.|
- {: caption="Tabella 1. Opzioni server aggiuntive" caption-side="top"}
+Per i server certificati SAP, la RAM e il sistema operativo per impostazione predefinita si basano sulla tua selezione del server. Anche la tua opzione di archiviazione locale per impostazione predefinita si basa sulla tua selezione del server.
+{ :note}
 
-## Configurazione di sistema avanzata
-{: #adv-system-config}
+6. Seleziona il tuo sistema operativo.
+7. Seleziona i tuoi dischi rigidi e componenti aggiuntivi del sistema.
+8. Fai clic su **Add to Order** da cui vieni reindirizzato per confermare il tuo ordine.
+9. Conferma o modifica le informazioni sul dominio per il server. **Nome host** è un nome permanente o temporaneo per i tuoi server, ad esempio, baremetal01.  
+10. Seleziona **Cloud Service terms** e **Third-Party Service Agreement**.
+11. Immetti tutti i codici promozionali di cui disponi in **Promo code** e fai clic su **Apply**.
+12. Conferma o immetti le informazioni di pagamento e fai clic su **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning, che puoi stampare perché è anche la tua ricevuta. 
 
-I campi in **Configurazione di sistema avanzata** completano il tuo processo di provisioning.
-
-| **Campo** | **Descrizione** |
-|---|---|
-| Nome host | Un nome permanente o temporaneo per il tuo server, ad esempio _server1_. **Nota**: se stai eseguendo il provisioning di un server con certificazione SAP, il tuo nome host SAP deve essere composto da un massimo di 13 caratteri alfanumerici. Per ulteriori informazioni sui nomi host SAP, vedi le note SAP [611361](https://launchpad.support.sap.com/#/notes/2611361) e [129997](https://launchpad.support.sap.com/#/notes/129997). Richiede un ID S-user SAP. |
-| Dominio | Il nome del dominio secondario che non deve essere in conflitto con un nome di dominio Internet, ad esempio _test.acme.com_. |
-| Selezione VLAN | Se c'è una VLAN nel tuo account perché già hai ordinato almeno un server, puoi aggiungere il nuovo server a tale VLAN.|
-| Script di provisioning |Puoi fornire uno script che ti consente di automatizzare alcune operazioni dopo il provisioning. |
-| Chiavi SSH | Puoi fornire la chiave pubblica della tua chiave SSH, che ti consentirà di accedere al tuo server dopo che ne è stato eseguito il provisioning. |
-{: caption="Tabella 2. Configurazione di sistema avanzata" caption-side="top"}
-
- Consulta il supporto {{site.data.keyword.cloud_notm}} per ulteriori informazioni.
-
- **NOTA:** puoi ordinare delle sottoreti secondarie con i tuoi dispositivi di calcolo. Tuttavia, se ordini delle sottoreti secondarie, vengono recuperate quando viene recuperato il dispositivo di calcolo. Se ordini la sottorete secondaria indipendentemente (non come un'opzione di componente aggiuntivo di un ordine di calcolo), puoi conservare la sottorete finché non la annulli esplicitamente. È importante ricordare questa distinzione, così non perdi inavvertitamente qualche indirizzo IP se viene recuperato un dispositivo di calcolo.
+Una serie di email viene inviata al tuo amministratore: il riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione dell'ordine di provisioning e il completamento del provisioning. L'email di completamento del provisioning include un link alla tua pagina *Dettagli dispositivo* dopo l'esecuzione dell'accesso a {{site.data.keyword.Bluemix_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
 
 ## Passi successivi
-Dopo che è stato eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}}, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione di {{site.data.keyword.baremetal_short}}](../bare-metal/managing.html).
+Dopo che è stato eseguito il provisioning del tuo {{site.data.keyword.baremetal_short}}, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione di {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers#bm-manage-servers).

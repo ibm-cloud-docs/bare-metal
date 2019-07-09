@@ -1,16 +1,26 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
+
+keywords: server transation, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.cloud}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 了解服务器事务
+{: #bm-server-transaction}
 
-在 {{site.data.keyword.Bluemix_short}} 上供应了服务器时，会装入操作系统，或安装软件，然后将其放入*事务*。事务是由 {{site.data.keyword.Bluemix_notm}} 管理系统执行的一系列自动化步骤，用于配置客户服务器。
+在 {{site.data.keyword.cloud}} 上供应了服务器时，会装入操作系统，或安装软件，然后将其放入*事务*。事务是由 {{site.data.keyword.cloud_notm}} 管理系统执行的一系列自动化步骤，用于配置客户服务器。
 
 如果其中一个服务器处于事务中，那么会在硬件列表中的服务器注释中显示一个链接。您可以单击此链接来查看该特定服务器的暂挂事务。然后，将向您显示一个表，其中列出当前正在进行的事务的数据。
 

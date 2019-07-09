@@ -1,29 +1,27 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # RAID 控制器指令
+{: #bm-raid-controller-commands}
 
 請使用 Adaptec 指令行公用程式來執行 RAID 控制器指令。以下是您可能使用的最常見 RAID 控制器指令。
 {:shortdesc}
-
-**附註：**Windows 和 VMware 執行 storcli 指令的路徑不同。請參閱下列範例，以取得適當的指令路徑。
-
-Windows（使用 CMD）
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-或
-`C:\Program Files\LSIStorCli>`
-
-VMware（您需要先安裝 storcli，才能執行 storcli 指令）
-`/opt/lsi/storcli/`
-
-## 常見 RAID 控制器指令
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ 會列出作業類型、邏輯磁碟機號碼、邏輯磁碟機大小，及作業的進度。您也可以看到執行中之任何背景指令的狀態，例如下列項目：
@@ -165,6 +163,7 @@ Drive-ID Progress% Status Estimated Time Left 
 **附註：**請移除 "WARNING" 層次的 "do-email" 標籤。或者，將安全層次變更為 "INFO"。
 
 ## 常見磁碟機錯誤
+{: #bm-common-drive-errors}
 
 最常見的驅動程式錯誤是智慧型錯誤、硬體錯誤及媒體錯誤。如果磁碟機故障，您會看到這些錯誤。因此，您需要儘快更換磁碟機。
 
@@ -172,12 +171,13 @@ Drive-ID Progress% Status Estimated Time Left 
 
 鏈結錯誤可以表示纜線可能需要重新安置或更換。
 
-## 支援問題單資訊
+### 支援問題單資訊
+{: #bm-raid-support}
 
-<b>Adaptec RAID 卡</b>
+**Adaptec RAID 卡** <br>
 請確定您在建立支援問題單時，包含 `arcconf getconfig 1/arcconf getlogs 1 device tabular` 的完整輸出。提供此資訊可協助支援團隊識別磁碟機順序、陣列成員資格、陣列幾何佈置及纜線安裝問題。此資訊對於遺失 RAID 配置的回復至關重要。在起始更新授與重新啟動/關閉電源的許可權，或要求將它熱交換，可加速支援問題單程序。
 
-<b>LSI RAID 卡</b>
+**LSI RAID 卡** <br>
 請使用下列指令來取得 LSI RAID 卡的日誌檔。您需要在支援問題單包含這些日誌檔的完整輸出。
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all

@@ -1,19 +1,28 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-02"
+  years: 2017, 2019
+lastupdated: "2018-04-25"
+
+keywords: bare metal, 3ware 
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # 检查 3ware RAID 阵列的运行状况
+{: #bm-check-health-3ware-raid}
 
 通过 3ware，可以使用浏览器界面。但是，除非您在本地访问该界面，否则可能会带来安全风险。因此，请使用命令行界面。
 
-<!--You can download the 3ware CLI utilities the software Library, located in the bottom of Customer Portal.  Please check http://downloads.service.softlayer.com for the latest version (VPN access required to access the downloads page). -->
+您可以从 [IBM Cloud CLI 插件存储库](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins) 下载 3ware CLI 实用程序。有关 CLI 实用程序的更多信息，请参阅 [cf CLI 的 VPN CLI 插件](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf)。
 
 **3ware CLI 工具的快速命令参考**
 
@@ -45,9 +54,8 @@ tw_cli /c0 show（输出显示了解 RAID 阵列运行状况所需的信息）
 
 *注意以下各项：
 
-c = 控制器<br/>
+c = controller<br/>
 控制器可以为 0 或 1<br/>
-u = 单元<br/>
-单元号取决于阵列数。大多数情况下为 0。<br/>
-p = 端口<br/>
-端口表示为端口号。大多数情况下为 0-4。
+u = unit<br/>
+单元号取决于数字数组。大多数情况下为 0。<br/> p = port<br/>
+port 表示端口号。大多数情况下为 0-4。

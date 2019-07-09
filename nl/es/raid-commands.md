@@ -1,30 +1,28 @@
 ---
+
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-5-10"
+  years: 1994, 2019
+lastupdated: "2018-07-10"
+
+keywords: raid controller commands, raid commands
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Mandatos de controlador RAID
+{: #bm-raid-controller-commands}
 
 Utilice el programa de utilidad de línea de mandatos Adaptec para ejecutar mandatos de controlador RAID.
 A continuación se muestran los mandatos de controlador RAID más comunes que se pueden utilizar.
 {:shortdesc}
-
-**Nota:** Windows y VMware tienen vías de acceso diferentes para ejecutar mandatos storcli. Consulte los ejemplos siguientes para ver la vía de acceso de mandatos adecuada.
-
-Windows (utilice CMD)
-`C:\Program Files (x86)\MegaRAID Storage Manager>`      
-o
-`C:\Program Files\LSIStorCli>`
-
-VMware (Debe instalar storcli antes de ejecutar mandatos storcli)
-`/opt/lsi/storcli/`
-
-## Mandatos de controlador RAID comunes
 
 <code><b>/usr/Adaptec_Event_Monitor/arcconf getstatus 1</b></code> <br>
 _GETSTATUS_ lista el tipo de operación, el número de unidad lógica, el tamaño de unidad lógica
@@ -168,6 +166,7 @@ a esto: 
 **Nota:** Elimine la etiqueta "do-email" para el nivel "WARNING". De forma alternativa, cambie el nivel de seguridad a "INFO".
 
 ## Errores de unidad comunes
+{: #bm-common-drive-errors}
 
 Los errores de controlador más comunes son errores inteligentes, errores de hardware y errores de soporte. Verá estos errores si una unidad falla. Por lo tanto, debe sustituir la unidad tan pronto como sea posible.
 
@@ -175,12 +174,13 @@ Aunque no son inusuales, los mandatos terminados anormalmente son otro error com
 
 Los errores de enlace pueden indicar que un cable puede necesitar resetearse o sustituirse.
 
-## Información de incidencia de soporte
+### Información de incidencia de soporte
+{: #bm-raid-support}
 
-<b>Tarjetas RAID de Adaptec</b>
+**Tarjetas RAID de Adaptec** <br>
 Asegúrese de incluir la salida completa de `arcconf getconfig 1/arcconf getlogs 1 device tabular` al crear una incidencia de soporte. Proporcionar esta información ayuda al equipo de soporte a identificar el orden de la unidad, la pertenencia de matriz, la geometría de matriz y los problemas de cableado. Esta información es crítica para la recuperación de una configuración de RAID perdida. Otorgar permiso para reiniciar/apagar en la actualización inicial o solicitarlo para que se intercambien en caliente acelera el proceso de incidencia de soporte. 
 
-<b>Tarjetas RAID de LSI</b>
+**Tarjetas RAID de LSI** <br>
 Utilice los mandatos siguientes para obtener los archivos de registro para las tarjetas RAID de LSI. Debe incluir la salida completa de estos archivos de registro con la incidencia de soporte.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all

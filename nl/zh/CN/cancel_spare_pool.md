@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-02"
+  years: 2014, 2019
+lastupdated: "2019-05-31"
 
+keywords: spare pools, cancel, bare metal
+
+subcollection: bare-metal
 
 ---
 
@@ -18,10 +19,10 @@ lastupdated: "2018-02-02"
 {:table: .aria-labeledby="caption"}
 
 
-# 取消备用池 
-{: #adding-spare-pools}
+# 取消备用池
+{: #cancel-spare-pools}
 
-添加到备用池的设备只能在 {{site.data.keyword.slportal_full}} 中的“备用池”屏幕中取消。取消备用池中的设备与取消“设备列表”中的设备相同。要取消备用池中的设备，请完成以下步骤。
+已添加到备用池的设备只能在 {{site.data.keyword.cloud}} 控制台中的“备用池”屏幕中取消。取消备用池中的设备与取消“设备列表”中的设备相同。请遵循下面的步骤来取消备用池中的设备。
 {:shortdesc}
 
 ## 取消备用池
@@ -31,7 +32,7 @@ lastupdated: "2018-02-02"
    取消设备会导致从取消的设备中除去所有数据。设备取消后，存储在该设备上的所有信息都无法再取回。
    {:tip}
 
-2. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
+2. 使用您的唯一凭证访问 [{{site.data.keyword.cloud}} 控制台 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://cloud.ibm.com/){: new_window}。
 3. 从导航栏中选择**设备 > 备用池**以访问*备用池*屏幕。
 4. 对于特定设备，选择**操作 > 取消设备**。
 5. 从**原因**下拉列表中，选择取消原因。
