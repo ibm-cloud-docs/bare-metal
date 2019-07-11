@@ -1,24 +1,44 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-07-31"
+  years: 1994, 2019
+lastupdated: "2019-06-17"
+
+keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
-# Server-IP-Adressen zuweisen
+# IP-Adressen zuweisen und binden
+{: #bm-assigning-and-binding-ip-addresses
+Gehen Sie anhand der folgenden Informationen vor, um Ihrem Server eine Server-IP-Adresse zuzuweisen und bei Bedarf eine sekundäre IP-Adresse an Ihren Server zu binden.
+{: shortdesc}
 
-{{site.data.keyword.cloud}} konfiguriert Server mit einer IPv4-Adresse im privaten Netz, einer IPv4-Adresse für den maschinennahen Managementzugriff im privaten Netz und, falls angefordert, einer öffentlichen IPv4-Adresse.
-Eine IPv6-Adresse im öffentlichen Netz ist verfügbar, falls angefordert. Alle diese IP-Adressen werden gemeinsam als **primäre IP-Adressen** bezeichnet. 
+## Server-IP-Adressen zuweisen
+{: #bm-assign-ip-address}
 
-Weitere IP-Adressen können an Server gebunden werden, nachdem Sie **sekundäre Teilnetze** über das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com) gekauft haben. IP-Adressen, die Sie über das Kundenportal gekauft haben und die Sie selbst verwalten, werden als **sekundäre IP-Adressen** bezeichnet. 
+{{site.data.keyword.cloud}} konfiguriert Server mit den folgenden Adressen:
+Eine IPv4-Adresse im privaten Netz
+Eine IPv4-Adresse für den maschinennahen Managementzugriff im
+privaten Netz
+Eine öffentliche IPv4-Adresse, falls angefordert.
 
-Weitere Informationen zum Kaufen von IP-Adressen finden Sie unter [Teilnetze und IPs](https://console.bluemix.net/docs/infrastructure/subnets/). 
+Eine IPv6-Adresse im öffentlichen Netz ist verfügbar, falls angefordert. Alle diese IP-Adressen werden gemeinsam als **primäre IP-Adressen** bezeichnet.
+
+Weitere IP-Adressen können an Server gebunden werden, nachdem Sie **sekundäre Teilnetze** über die [{{site.data.keyword.cloud_notm}}-Konsole](https://cloud.ibm.com){: external} gekauft haben. IP-Adressen, die Sie über das Kundenportal gekauft haben und die Sie selbst verwalten, werden als **sekundäre IP-Adressen** bezeichnet.
+
+Weitere Informationen zum Kaufen von IP-Adressen finden Sie unter [Teilnetze und IPs](https://cloud.ibm.com/docs/infrastructure/subnets/){: external}.
 
 
-# Sekundäre IP-Adressen binden
+## Sekundäre IP-Adressen binden
+{: #bm-bind-secondary-ip-address}
 
-Nachdem Sie ein sekundäres Teilnetz gekauft haben, müssen Sie das Betriebssystem so konfigurieren, dass es eine oder mehrere IP-Adressen verwendet. Unter jedem Betriebssystem werden IP-Adressen anders konfiguriert. Dieser Prozess wird in der Regel als Einrichten von "Aliasnamen für Schnittstellen" bezeichnet.  
+Nachdem Sie ein sekundäres Teilnetz gekauft haben, müssen Sie das Betriebssystem so konfigurieren, dass es eine oder mehrere IP-Adressen verwendet. Unter jedem Betriebssystem werden IP-Adressen anders konfiguriert. Dieser Prozess wird in der Regel als Einrichten von "Aliasnamen für Schnittstellen" bezeichnet.

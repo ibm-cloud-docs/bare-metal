@@ -1,34 +1,45 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2018-06-03"
+
+keywords: mount iso bare metal
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 
 # Ein ISO-Image an einen Bare-Metal-Server anhängen
+{: #bm-mount-iso}
 
 ## Übersicht
 
-Obwohl die meisten {{site.data.keyword.Bluemix_notm}}-Kunden eines der Standard-Betriebssysteme verwenden, die mit unseren Servern ausgeliefert werden, können Sie angepasste ISO-Images (Plattenimages) an die Server anhängen. Es gibt drei Optionen, angepasste ISO-Images anzuhängen.
+Obwohl die meisten {{site.data.keyword.cloud}}-Kunden eines der Standard-Betriebssysteme verwenden, die mit unseren Servern ausgeliefert werden, können Sie angepasste ISO-Images (Plattenimages) an die Server anhängen. Es gibt drei Optionen, angepasste ISO-Images anzuhängen.
 
-Damit die Methoden funktionieren, muss über den SL-VPN-Service, z. B. [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login), oder über einen anderen Server, den Sie bereits mit dem Netz verbunden haben, eine Verbindung zum privaten Netz bestehen. 
+Damit die Methoden funktionieren, müssen Sie über den SL-VPN-Service, z. B. [SoftLayer SSL VPN Portal - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login), oder über einen anderen Server, der bereits mit dem Netz verbunden ist, eine Verbindung zum privaten Netz herstellen.
 
-**Hinweis:** Lenovo-Hardwareplattenimages, die größer als 50 MB sind, müssen über die IMM-Konsolenschnittstelle > Registerkarte für Datenträger angehängt werden. 
+**Hinweis:** Lenovo-Hardwareplattenimages, die größer als 50 MB sind, müssen über die IMM-Konsolenschnittstelle > Registerkarte für Datenträger angehängt werden.
 
 ## Option 1 (bevorzugt): Über IPMI (ISO-Image auf einer CIFS-Freigabe)
+{: #bm-mount-iso-opt-1}
 
-Wenn unter {{site.data.keyword.Bluemix_notm}} bereits eine Infrastruktur bereitgestellt wird, können Sie einen bestehenden Server für eine CIFS-Freigabe im internen Netz konfigurieren. Dann kann in diesem Netz ein ISO-Image an einen Bare-Metal-Server angehängt werden.
+Wenn unter {{site.data.keyword.cloud_notm}} bereits eine Infrastruktur bereitgestellt wird, können Sie einen bestehenden Server für eine CIFS-Freigabe im internen Netz konfigurieren. Dann kann in diesem Netz ein ISO-Image an einen Bare-Metal-Server angehängt werden.
 
-Dies ist die bevorzugte Methode, ein angepasstes Betriebssystem auf einem Bare-Metal-Server zu installieren, weil es über das lokale Netz installiert wird. Dies ist die schnellste Methode und das ISO-Image bleibt angehängt, selbst wenn Sie sich abmelden oder von der Managementschnittstelle getrennt werden. 
+Dies ist die bevorzugte Methode, ein angepasstes Betriebssystem auf einem Bare-Metal-Server zu installieren, weil es über das lokale Netz installiert wird. Dies ist die schnellste Methode und das ISO-Image bleibt angehängt, selbst wenn Sie sich abmelden oder von der Managementschnittstelle getrennt werden.
 
 Führen Sie diese Schritte aus, um ein angepasstes Betriebssystem von einer CIFS-Freigabe zu installieren:
 
 1. Stellen Sie sicher, dass Sie das ISO-Image auf der CIFS-Freigabe platziert haben.
-* Melden Sie sich bei der IPMI-Managementkonsole an, indem Sie in Ihrem Web-Browser die IP aufrufen, die in https://control.softlayer.com/ und unter "Einheiten -> Ihr Server (Einheitendetails) -> Fernverwaltung" angegeben ist. Benutzername und Kennwort sind dort auch angegeben.
+* Melden Sie sich bei der IPMI-Managementkonsole an, indem Sie in Ihrem Web-Browser die IP aufrufen, die in cloud.ibm.com und unter "Einheiten -> Ihr Server (Einheitendetails) -> Fernverwaltung" angegeben ist. Benutzername und Kennwort sind dort auch angegeben.
 * Bewegen Sie den Mauszeiger über **Virtueller Datenträger** und klicken Sie auf **CD-ROM-Image**
 * Geben Sie weitere Details an und klicken Sie auf **Speichern und anhängen**.
 * Nicht alle Benutzer haben eine Berechtigung für das Server-BIOS. Sie können ggf. ein Ticket öffnen, um Support anzufordern:
@@ -39,13 +50,13 @@ Führen Sie diese Schritte aus, um ein angepasstes Betriebssystem von einer CIFS
 
 
 ## Option 2: Über IPMIView (ISO-Image auf einer CIFS-Freigabe)
+{: #bm-mount-iso-opt-2}
 
 Voraussetzungen:<br/>
 * Sie haben ein bootbares ISO-Image.
 * Windows-CIFS-Server oder NAS-Speicher zum Speichern des bootbaren ISO-Images.
 * ISO-Image wird auf den Dateispeicher (NAS) hochgeladen, der mit dem Server verbunden ist.
-* IPMIView wird installiert oder es wird auf die KVM-Konsole zugegriffen. <!--  * http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* http://knowledgelayer.softlayer.com/procedure/access-kvm-console -->
+* IPMIView wird installiert oder es wird auf die KVM-Konsole zugegriffen.
 * ISO-Datei ist über "wget" für den Download verfügbar.
 * Sie haben SSH-Zugriff mit der Berechtigung zum Zugreifen/Installieren von Paketen und zum Erstellen eines Mounts.
 
@@ -53,7 +64,7 @@ Voraussetzungen:<br/>
 ### Linux und Windows
 Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhängen.
 1. Fordern Sie mit einem Support-Ticket an, dass Ihr Server die virtuelle CD-ROM als erste Einheit bootet. Jede Einheit muss über ihre zugehörige CD-ROM gebootet werden. Sie können diese Einstellung zurücksetzen, wenn Sie das Betriebssystem installiert haben.
-* Richten Sie eine VPN-Verbindung zum [VPN](http://www.softlayer.com/VPN-Access) ein. Wenn Sie den Microsoft Internet Explorer verwenden, stellen Sie sicher, dass ".softlayer.com" in der Liste vertrauenswürdiger Sites enthalten und JAVA aktuell ist.
+* Richten Sie eine VPN-Verbindung zum [VPN](http://www.softlayer.com/VPN-Access) ein. Wenn Sie den Microsoft Internet Explorer verwenden, stellen Sie sicher, dass ".softlayer.com" und ".cloud.ibm.com" in der Liste vertrauenswürdiger Sites enthalten sind und JAVA aktuell ist.
 * Kopieren Sie den ISO-Datenträger zum NAS oder Windows-CIFS-Server.
   * Stellen Sie eine Verbindung zur Linux Jumpbox mit SSH her.
   * Hängen Sie die NAS-Freigabe an die Linux Jumpbox an:
@@ -72,14 +83,18 @@ Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhänge
         wget http://www.linktoyouriso.com/isofilename.iso
   Es wird eine Bestätigung angezeigt, dass der Download erfolgreich war.
 * Laden Sie IPMIview hier herunter:
-      http://knowledgelayer.softlayer.com/procedure/download-ipmiview
-* Stellen Sie über die Management-IP eine Verbindung zum Server her.
-      http://knowledgelayer.softlayer.com/procedure/log-ipmiview
-      http://knowledgelayer.softlayer.com/procedure/view-ipmi-credentials
+      https://www.servethehome.com/download-supermicro-ipmiview-latest-version/
+* Stellen Sie über die Management-IP eine Verbindung zum Server her.<br>
+      1. Stellen Sie eine Verbindung zu `winadmin` her.
+      2. Öffnen Sie IPMIView und rufen Sie **File > New > System** auf.
+      3. Verwenden Sie die IPMI-IP-Adresse des Hardwareobjekts zum Ausfüllen der Felder für den Servernamen und die IP-Adresse.<br>
+      4. Doppelklicken Sie auf das System mit derselben IP-Adresse auf der linken Seite und geben Sie "ADMIN" für die Anmelde-ID und das IPMI-Kennwort des Hardwareobjekts ein.
+      5. Nachdem Sie die Verbindung hergestellt haben, sind viele Registerkarten im Fenster verfügbar. Sie können die **Textkonsole** oder die **KVM-Konsole** verwenden, um eine Verbindung zum Server herzustellen.
+
 * Öffnen Sie die Registerkarte für den virtuellen Datenträger.
 * Vervollständigen Sie die Verbindungsdetails für das CD-ROM-Image.
   *
-    * Share host = Die IP-Adresse des NAS-Speichers. Sie können diesen Wert finden, indem Sie den Namen Ihres NAS-Speicherservers pingen. Beispiel: _ping nas501.service.softlayer.com_
+    * Share host = Die IP-Adresse des NAS-Speichers. Sie können diesen Wert finden, indem Sie den Namen Ihres NAS-Speicherservers pingen. Beispiel: `ping nas501.service.softlayer.com`
     * Share Name = Der Benutzername des NAS-Speichers.
     * Path to image = Der Name der ISO-Datei in diesem Format:
           \NASusername\isoname.iso (wie \SLN123456\centos6.iso)
@@ -93,6 +108,8 @@ Führen Sie die folgenden Schritte aus, um mit IPMIView ein ISO-Image anzuhänge
 * Starten Sie den Server neu.
 
 ## Option 3: ISO-Image über den lokalen Computer anhängen
+{: #bm-mount-iso-opt-3}
+
 <a name="option3"></a>
 
 Sie können ein ISO-Image über Ihren lokalen Computer mithilfe des Java iKVM Viewer (Konsole) anhängen. Dies ermöglicht das Anhängen eines ISO-Images während einer Verbindung zur Konsole. Die Geschwindigkeit des Installationsprozesses kann von der Uploadgeschwindigkeit und der Latenz Ihrer Internetverbindung sowie der Leistung von Java und des Computers abhängen.
@@ -102,7 +119,7 @@ Wenn Sie keine Berechtigung haben, das BIOS eines Servers zu ändern, öffnen Si
 * Änderung der Bootsequenz als erste Bootoption auf "IPMI Virtual Disk". (Da das ISO-Image noch nicht angehängt wird, sollte der Support erst nur für die Änderung der Booteinheit-Priorität angefordert werden.)
 
 
-1. Melden Sie sich bei der IPMI-Managementkonsole an, indem Sie in Ihrem Web-Browser die IP aufrufen, die in https://control.softlayer.com/ angegeben ist. 
+1. Melden Sie sich bei der IPMI-Managementkonsole an, indem Sie in Ihrem Web-Browser die IP aufrufen, die in cloud.ibm.com angegeben ist.
 * Klicken Sie auf "Einheiten > Ihr Server (Einheitendetails) > Fernverwaltung". Geben Sie den Benutzernamen und das Kennwort an.
 * Klicken Sie auf "Konfiguration > Ferne Sitzung" und ändern Sie den Attach-Modus zu **Anhängen**. In einigen älteren IPMI-Konsolen ist diese Option nicht verfügbar und Sie diesen Schritt überspringen.
 * Klicken Sie auf "System > Systeminformationen", um auf die Seite mit den Systeminformationen zurückzukehren. Es wird ein Symbol für das Konsolenfenster angezeigt.
@@ -116,10 +133,11 @@ Wenn Sie keine Berechtigung haben, das BIOS eines Servers zu ändern, öffnen Si
 * Starten Sie den Server neu und verwenden Sie die Option **Vom virtuellen CD-ROM-Laufwerk booten**. Sie müssen möglicherweise die virtuelle Tastatur im iKVM Viewer nutzen, um eine Booteinheit auszuwählen.
 
 ## Fehlerbehebung
+{: #bm-mount-iso-troubleshooting}
 
 * Nicht alle Benutzer haben einen Standardzugriff, um virtuelle Datenträger anzuhängen. Wenn Berechtigungsfehler auftreten, wenden Sie sich an den Support, um die IPMI-Rootbenutzerberechtigung aktualisieren zu lassen.
 * Wenn bereits ein ISO-Image angehängt wurde, wird eine Fehlernachricht mit dem Text angezeigt, dass **bereits ein Datenträger angehängt wurde**. Sie müssen den vorhandenen Datenträger abhängen und durch ein neues ISO-Image ersetzen. Es können keine zwei ISO-Images gleichzeitig angehängt werden.
 * Sie müssen ggf. Unterstützung anfordern, um die Bootreihenfolge im BIOS zu ändern.
-* Wenn Sie ein ISO-Image anhängen, verwenden Sie bitte das SSL-VPN (http://vpn.softlayer.com) anstatt das PPTP-VPN.  Sobald eine Verbindung zum VPN-Netzwerk hergestellt wurde, könne Sie über die IPMI-Adresse (https://<private-ip-IPMI-management>) auch auf IMPI des System zugreifen.
+* Wenn Sie ein ISO-Image anhängen, verwenden Sie bitte das [SSL-VPN](http://vpn.softlayer.com) anstatt das PPTP-VPN. Sobald eine Verbindung zum VPN-Netzwerk hergestellt wurde, könne Sie über die IPMI-Adresse (https://private-ip-IPMI-management) auch auf IMPI des System zugreifen.
 * Wenn Sie einen Pfad zu einem ISO-Image eingeben, verwenden Sie für den Pfad die Syntax für UNC-Namen (Universal Naming Convention). Beispiel:
-  _\\<NAS-Benutzername>\<isoname>.iso_
+  `\\<NAS username>\<isoname>.iso`

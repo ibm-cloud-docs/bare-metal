@@ -1,91 +1,86 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-06"
+  years: 2017, 2019
+lastupdated: "2019-06-24"
 
+keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.Bluemix_notm}}
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 
 # Angepassten Bare-Metal-Server erstellen
 {: #ordering-baremetal-server}
 
-Führen Sie die folgenden Schritte aus, um einen angepassten {{site.data.keyword.baremetal_short}} zu erstellen. 
+Führen Sie die folgenden Schritte aus, um einen angepassten {{site.data.keyword.baremetal_long}} zu erstellen.
 
-1. Öffnen Sie den [{{site.data.keyword.cloud_notm}}-Katalog](https://console.bluemix.net/catalog/){:target="_blank"}.    
-2. Wählen Sie Bare Metal Servers aus. 
-3. Klicken Sie auf "Erstellen". 
-4. Unterhalb der Serverliste finden Sie den Text **Haben Sie Interesse an weiteren Konfigurationsoptionen? Hier klicken**. Wählen Sie diese Option aus. Das Formular für angepassten Server wird angezeigt. 
-1. Wählen Sie den Standort des Rechenzentrums für Ihren Server aus. 
-* Wählen Sie einen Server aus den drei Serverkategorien aus, indem Sie auf den Link **Beginnend bei** für den Preis klicken. 
-  * Von SAP zertifizierte Server (Weitere Informationen zur Bereitstellung eines von SAP zertifizierten Servers finden Sie unter [Von SAP zertifizierte {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/bare-metal/bare-metal-sap-applications.html).) 
-  * Multi-Core-Server mit Einzelprozessor
-  * Multi-Core-Server mit Dualprozessor
+## Bereitstellung über den {{site.data.keyword.cloud_notm}}-Katalog
+{: #provision-through-the-catalog}
 
-* Wählen Sie aus den Konfigurationsoptionen aus. **Rechenzentrum**, **RAM** und **Betriebssystem** sind erforderliche Felder. Alle anderen Felder sind optional. Weitere Informationen zu den optionalen Feldern finden Sie unter **[Weitere Serverkonfigurationsoptionen](#addl-server-options)**. 
+Führen Sie die folgenden Schritte aus, um Ihren {{site.data.keyword.baremetal_short}} über {{site.data.keyword.cloud_notm}} bereitzustellen.
 
-    **Hinweis**: Es wird eine Fehlernachricht angezeigt, wenn ein Konflikt zwischen dem Server und dem Betriebssystem besteht. Ein Beispiel ist die Auswahl von Linux auf einem Microsoft SQL Server.
-* Klicken Sie auf **Zur Bestellung hinzufügen**. Die Kassenseite wird angezeigt. 
+1. Öffnen Sie den [{{site.data.keyword.cloud_notm}}-Katalog](https://cloud.ibm.com/catalog/){: external}.   
+2. Wählen Sie {{site.data.keyword.baremetal_short}} unter **Datenverarbeitung** aus.
+3. Klicken Sie auf 'Weiter'. Wenn Sie keine Schaltfläche 'Weiter' sehen, müssen Sie sich möglicherweise anmelden. 
+4. Geben Sie die **Menge** **identischer** Server ein, die bereitgestellt werden sollen. Der Standardwert ist 1. Wenn Sie mehrere Server mit _unterschiedlichen_ Spezifikationen bereitstellen möchten, müssen Sie die Server separat bereitstellen.
+5. **Hostname** ist ein permanenter oder temporärer Name für Ihren Server, beispielsweise 'baremetal01'. Klicken Sie auf **Informationen**, um Formatierungsspezifikationen anzuzeigen.
+6. **Domäne** ist die Identifikationszeichenfolge zum Definieren der administrativen Steuerung im Internet, beispielsweise 'Customer-123456.cloud'. Klicken Sie auf **Informationen**, um Formatierungsspezifikationen anzuzeigen.
+7. **Abrechnung** ist entweder **Stündlich** oder **Monatlich**.
+8. Wählen Sie den **Standort**, die Region und das Rechenzentrum für den Standort Ihres Servers aus.
+9. Klicken Sie auf **Alle Server**, um eine Liste der Prozessoren (Einzelprozessor, Dualprozessor und Quad-Prozessor) und der zertifizierten Server (SAP und VMware) anzuzeigen. Wählen Sie den Server aus, der am besten Ihrer Workload entspricht.
+10. Wählen Sie Ihren **RAM** aus. Für einige Server basieren die RAM-Standardwerte auf dem CPU-Modell und können nicht geändert werden. 
 
-  Von der Kassenseite aus können Sie zur Konfigurationsseite zurückkehren, indem Sie auf eine der Optionen für die Rekonfiguration klicken. 
-* Geben Sie im Abschnitt für die erweiterte Systemkonfiguration weitere Konfigurationsoptionen an. Weitere Informationen finden Sie unter **[Erweiterte Systemkonfiguration](#adv-system-config)**. 
+Für SAP-zertifizierte Server basieren die Standardwerte für RAM und Betriebssystem auf Ihrer Serverauswahl. Der Standardwert für die Option für Ihren lokalen Speicher basiert auch auf Ihrer Serverauswahl.
+{ :note}
 
-*   Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
-*   Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung abschicken**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellungsbestellung.
+11. Geben Sie einen optionalen öffentlichen Schlüssel für Ihren **SSH-Schlüssel** ein, den Sie verwenden können, um sich bei Ihrem Server anzumelden, nachdem er bereitgestellt wurde.
+12. Wählen Sie ein **Image** (Betriebssystem) für Ihren Server aus. Ihre Optionen basieren auf dem ausgewählten Server.
+13. Erweitern Sie **Add-ons**, um Optionen zur Konfiguration des Servers auszuwählen.
+14. Die **Speicherplatten** sind auf der Basis Ihrer Serverauswahl vorkonfiguriert. Erweitern Sie **Add-ons**, um Dateispeicher oder Blockdatenträger hinzuzufügen, nachdem Ihre {{site.data.keyword.baremetal_short}} bereitgestellt wurden. 
+15. Wählen Sie unter **Netzschnittstelle** die Optionen für 'Uplink-Port-Geschwindigkeiten' und 'Privates VLAN' aus. Erweitern Sie **Add-ons**, um die entsprechenden Optionen auszuwählen, oder verwenden Sie die Standardwerte.
+16. Überprüfen Sie Ihre Bestellung in der Bestellübersicht.
+17. Geben Sie alle vorhandenen Werbeaktionscodes unter **Werbeaktionscode anwenden** ein.
+18. Klicken Sie auf die Servicevereinbarungen anderer Anbieter, um die vorhandenen Vereinbarungen zu lesen.
+19. Klicken Sie auf **Erstellen**, um Ihren Server bereitzustellen. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt, die Sie drucken können, da sie auch Ihr Beleg ist.
 
-  Sie können diese Bestellung auch ohne Einkauf speichern, indem Sie auf **Als Angebot speichern** klicken. 
+Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung.
 
- Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu Ihrer Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
+Die Fertigstellungsnachricht enthält einen Link zu Ihrer Seite *Einheitendetails*, sodass Sie sich bei {{site.data.keyword.cloud_notm}} anmelden können. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
- ## Weitere Serverkonfigurationsoptionen
- {: #addl-server-options}
+Sie haben auch die Option, die Bestellung als Angebot zu speichern oder einer Schätzung hinzufügen. Wenn Sie ein Angebot speichern, wird ein Link an die E-Mail-Adresse gesendet, die Ihrem Konto zugeordnet ist. Öffnen Sie den Link, um die gespeicherten Angebotsinformationen anzuzeigen. Eine weitere Option besteht darin, 'Verwalten' > 'Abrechnung und Nutzung' aufzurufen und 'Vertrieb' > 'Geräteangebote' auszuwählen. Wenn Sie Zugriff haben, können Sie das Angebot kaufen, indem Sie auf das Angebot klicken und die Bestellung bestätigen. Durch Hinzufügen zur Schätzung werden die vorgeschlagenen Kosten der Konfiguration in den Preisrechner platziert. Klicken Sie auf **Informationen**, um weitere Details zum Preisrechner anzuzeigen.
 
- Wenn Sie Ihren Bare-Metal-Server bereitstellen, sind weitere Optionen verfügbar, z. B. öffentliche Bandbreite, Uplink-Port-Geschwindigkeiten, öffentliche sekundäre IP-Adressen und mehr. In Tabelle 1 sind die weiteren Optionen beschrieben. 
+## Bereitstellung über das Kundenportal
+Führen Sie die folgenden Schritte aus, um Ihren {{site.data.keyword.baremetal_short}} über {{site.data.keyword.slportal}} bereitzustellen.
 
+1. Melden Sie sich mit Ihren eindeutigen Berechtigungsnachweisen beim [{{site.data.keyword.slportal}}](control.softlayer.com){: external} an.
+2. Rufen Sie **Konto** > **Bestellung aufgeben** auf.
+3. Wählen Sie **Stündlich** oder **Monatlich** aus.
+3. Wählen Sie in der Liste das Rechenzentrum aus, in dem sich Ihr {{site.data.keyword.baremetal_short}} befinden soll, und wählen Sie dann Ihren zertifizierten Server (SAP oder VMware) oder Prozessor (Einzelprozessor, Dualprozessor und Quad-Prozessor) aus, indem Sie auf den **Anfangspreis** klicken.
+4. Geben Sie die **Menge** _identischer_ Server ein, die bereitgestellt werden sollen. Der Standardwert ist 1. Wenn Sie mehrere Server mit _unterschiedlichen_ Spezifikationen bereitstellen möchten, müssen Sie die Server separat bereitstellen.
+5. Wählen Sie Ihren **RAM** aus. Für einige Server basieren die RAM-Standardwerte auf dem CPU-Modell und können nicht geändert werden. 
 
- | **Feld** | **Beschreibung** |
- |-------------------|---------------|
- |Serversicherheit|Beispielsweise Trusted Execution Technology (Intel TXT)|
- |Software Guard Extensions|Höhere Sicherheit für sensiblen Code und Daten (Intel SGX). <br><br>Siehe [Bare-Metal-Server mit Intel SGX bereitstellen](../bare-metal/bare-metal-provision-SGX.html). |
- |RAM|Wählen Sie die RAM-Größe aus, die Ihre Serveranforderungen erfüllt. |
- |Betriebssystem |Wählen Sie CentOS, FreeBSD, Microsoft, Red Hat, Ubuntu oder "Andere" aus. |
- |Festplatten |Verwenden Sie das Tool in der Benutzerschnittstelle zum Einrichten Ihrer Festplatten, das die Felder auf der Basis Ihrer Auswahl für das Betriebssystem vorab ausfüllt. <br><br> Sie können auch ein Intel Optane SSD-Laufwerk verwenden. Siehe [Intel Optane SSD DC P4800X bereitstellen](../bare-metal/bm-provision_ssd.html).
- |Öffentliche Bandbreite |Bestimmt das Datenvolumen, das in einem Monat über die öffentliche Schnittstelle übertragen werden kann. In Testumgebungen, bei denen Installationsdaten über diese Schnittstelle übertragen werden müssen, müssen die Werte so angepasst werden, dass sie das ursprünglich übertragene Datenvolumen übersteigen. Beachten Sie, dass das [{{site.data.keyword.cloud_notm}} Content Delivery Network](https://www.ibm.com/cloud/cdn) ein anfängliches Datenvolumen an eines der {{site.data.keyword.cloud_notm}}-Rechenzentren sendet. Alle {{site.data.keyword.baremetal_short}} können auf eine uneingeschränkte (unbegrenzte) Bandbreite aktualisiert werden. Alle uneingeschränkten Einheiten sind private, dedizierte Ports.|
- |Uplink-Port-Geschwindigkeiten |Bestimmt die Geschwindigkeit der internen und externen Schnittstellen. |
- |Sekundäre öffentliche IP-Adressen |Weist Ihrem Server weitere IP-Adressen zu. Sie benötigen je nach Szenario möglicherweise weitere IP-Adressen, die Ihrem Server zugewiesen werden. Weitere IPv4-Adressen sind in den Mengen 1, 2, 4, 8, 16 oder 32 verfügbar. |
- |Primäre IPv6-Adressen |Werden den internen sowie externen Schnittstellen Ihres Servers zugewiesen. |
- |Statische öffentliche IPv6-Adressen |Weist weitere IPv6-Adressen aus einem /64-Block zu. |
- |Betriebssystem-Add-ons|Wählen Sie Optionen wie VMware, Sicherungslösungen, Steuerkonsole, Datenbank, Hardware- & Software-Firewalls, Viren- & Spywareschutz, Angriffserkennung & -schutz aus. <br><br>Es wird dringend empfohlen, dass sich die für die Sicherheit verantwortliche Unternehmensabteilung mit dem {{site.data.keyword.cloud_notm}}-Support abstimmt, um die Details dieser Optionen zu besprechen.  |EVault |Ein agentenbasiertes Sicherungstool, das auf Ihrem Server installiert werden kann, um Sicherungen zwischen Servern zu replizieren. |
- |Service-Add-ons|Wählen Sie alle Service-Add-ons aus, wie z. B. Überwachung, automatische Antwort und Versicherung. |
- {: caption="Tabelle 1. Weitere Serveroptionen" caption-side="top"}
+Für SAP-zertifizierte Server basieren die Standardwerte für RAM und Betriebssystem auf Ihrer Serverauswahl. Der Standardwert für die Option für Ihren lokalen Speicher basiert auch auf Ihrer Serverauswahl.
+{ :note}
 
-## Erweiterte Systemkonfiguration
-{: #adv-system-config}
+6. Wählen sie Ihr Betriebssystem aus.
+7. Wählen Sie Ihre Festplatten und zusätzliche System-Add-ons aus.
+8. Klicken Sie auf **Zur Bestellung hinzufügen**. Anschließend werden Sie weitergeleitet, um Ihre Bestellung zu bestätigen.
+9. Bestätigen Sie die Domäneninformationen für den Server oder bearbeiten Sie sie. **Hostname** ist ein permanenter oder temporärer Name für Ihren Server, beispielsweise 'baremetal01'. 
+10. Wählen Sie die Cloud-Service-Bedingungen**** und die Servicevereinbarungen Dritter**** aus.
+11. Geben Sie alle vorhandenen Werbeaktionscodes unter **Werbeaktionscode** ein und klicken Sie auf **Anwenden**.
+12. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung abschicken**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt, die Sie drucken können, da sie auch Ihr Beleg ist. 
 
-Mit den Feldern unter **Erweiterte Systemkonfiguration** wird der Bereitstellungsprozess abgeschlossen. 
-
-| **Feld** | **Beschreibung** |
-|---|---|
-| Hostname | Ein permanenter oder temporärer Name für Ihren Server, beispielsweise _server1_. **Hinweis**: Wenn Sie einen von SAP zertifizierten Server bereitstellen, muss der SAP-Hostname aus maximal 13 alphanumerischen Zeichen bestehen. Weitere Informationen zu SAP-Hostnamen finden Sie unter [SAP Notes 611361](https://launchpad.support.sap.com/#/notes/2611361) und [129997](https://launchpad.support.sap.com/#/notes/129997). Erfordert eine SAP-S-Benutzer-ID. |
-| Domäne | Name der Unterdomäne, die nicht mit dem Internetdomänennamen identisch sein darf, beispielsweise _test.acme.com_. |
-| VLAN-Auswahl | Wenn sich in Ihrem Konto ein VLAN befindet, weil Sie bereits mindestens einen Server bestellt haben, können Sie den neuen Server diesem VLAN hinzufügen. |
-| Bereitstellungsscript | Sie können ein Script zur Verfügung stellen, mit dem bestimmte Schritte nach der Bereitstellung automatisiert werden. |
-| SSH-Schlüssel | Sie können den öffentlichen Schlüssel Ihres SSH-Schlüssels bereitstellen, mit dem Sie sich bei Ihrem Server anmelden können, nachdem er bereitgestellt wurde. |
-{: caption="Tabelle 2. Erweiterte Systemkonfiguration" caption-side="top"}
-
- Wenn Sie weitere Informationen wünschen, wenden Sie sich an den {{site.data.keyword.cloud_notm}}-Support. 
-
- **HINWEIS:** Sie können sekundäre Teilnetze mit Ihren Recheneinheiten bestellen. Wenn Sie sekundäre Teilnetze bestellen, werden sie jedoch zurückgefordert, wenn die Recheneinheit zurückgefordert wird. Wenn Sie das sekundäre Teilnetz separat bestellen (d. h. nicht als Add-on-Option einer Recheneinheit), können Sie das Teilnetz behalten, bis Sie es explizit stornieren. Diese Unterscheidung ist wichtig, damit Sie nicht versehentlich einige IP-Adressen verlieren, wenn eine Recheneinheit zurückgefordert wird. 
+Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu Ihrer Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 ## Nächste Schritte
-Nachdem Ihr {{site.data.keyword.baremetal_short}} bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.baremetal_short}} verwalten](../bare-metal/managing.html).
+Nachdem Ihr {{site.data.keyword.baremetal_short}} bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.baremetal_short}} verwalten](/docs/bare-metal?topic=bare-metal-bm-manage-servers#bm-manage-servers).

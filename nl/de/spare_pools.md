@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-04-05"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
+keywords: spare pools
+
+subcollection: bare-metal
 
 ---
 
@@ -17,17 +18,16 @@ lastupdated: "2018-04-05"
 {:table: .aria-labeledby="caption"}
 
 
-# Ersatzpools verwalten 
-{: #access-spare-pools}
+# Ersatzpools
+{: #bm-about-spare-pools}
 
-Mithilfe der Anzeige für Ersatzpool im {{site.data.keyword.slportal}} kann ein Benutzer den Ersatzpool der Einheiten verwalten, die einem Konto zugeordnet sind. Jede Einheit bzw. Hot-Spare-Einheit im Ersatzpool kann als Ausweicheinheit verwendet werden, wenn die primäre Einheit ausfällt. Die Einheiten müssen in der Anzeige für Ersatzpool als Hot-Spare-Einheit definiert werden, bevor sie für diesen Prozess verwendet werden können. Auf die Anzeige für Ersatzpool können nur Benutzer mit einer bestimmten Berechtigung zugreifen. Wenden Sie sich an den Kontoadministrator, wenn Sie Zugriff wünschen. Führen Sie die folgenden Schritte aus, um auf die Anzeige für Ersatzpool im {{site.data.keyword.slportal_full}} zuzugreifen.
-{:shortdesc}
+Mithilfe der Anzeige für Ersatzpool im {{site.data.keyword.cloud}} können Benutzer den Ersatzpool der Einheiten verwalten, die dem Konto zugeordnet sind. Jede Einheit im Ersatzpool kann als Ausweicheinheit verwendet werden, wenn zusätzliche Einheiten benötigt werden. Die Einheiten müssen in der Anzeige für Ersatzpool als Hot-Spare-Einheit definiert werden, bevor sie für diesen Prozess verwendet werden können. Auf die Anzeige für Ersatzpool können nur Benutzer mit einer bestimmten Berechtigung zugreifen.
 
-## Auf Ersatzpools zugreifen
+## Vorbereitungen
+{: #bm-spare-pools-prereq}
 
-1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) zu. 
-2. Wählen Sie in der Navigationsleiste **Einheiten > Ersatzpool** aus, um auf die Anzeige *Ersatzpool* zuzugreifen. 
-
+Bevor Sie Ersatzpools verwenden können, wenden Sie sich an IBM, damit die Attribute für Ersatzpool und erneutes Laden des Ersatzpool-Betriebssystems Ihrem Konto hinzugefügt werden.
+Wenden Sie sich an den Administrator des Kontos, damit eine Person in Ihrer Organisation die Berechtigung zum Verwalten von Ersatzpools erhält.
 
 ## Nächste Schritte
-Nach dem Zugriff auf das Menü für Ersatzpool können Sie den Ersatzpool der Einheiten hinzufügen, stornieren und reaktivieren.  
+Weitere Informationen finden Sie unter [Auf Ersatzpools zugreifen](/docs/bare-metal?topic=bare-metal-access-spare-pools).

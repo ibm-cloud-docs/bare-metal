@@ -1,15 +1,26 @@
 ---
+
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 lastupdated: "2018-05-22"
+
+keywords: raid monitoring daemon
+
+subcollection: bare-metal
 
 ---
 
 {:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
 {:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 
 # Name und Position des RAID-Überwachungsdämons
-{{site.data.keyword.cloud}} verwendet hauptsächlich Adaptec- und LSI-RAID-Karten mit einigen Ausnahmen für ältere Hardware. In der folgenden Tabelle sind die Positionen des RAID-Managers, die Überwachungspositionen, die Konfigurationen und die RAID-Alerteinstellungen aufgeführt. 
+{: #bm-raid-monitoring-daemon}
+
+{{site.data.keyword.cloud}} verwendet hauptsächlich Adaptec- und LSI-RAID-Karten mit einigen Ausnahmen für ältere Hardware. In der folgenden Tabelle sind die Positionen des RAID-Managers, die Überwachungspositionen, die Konfigurationen und die RAID-Alerteinstellungen aufgeführt.
 
 Sie können RAID-Alerts so konfigurieren, dass der Portalüberwachungsprozess umgangen wird, indem Sie den SMTP-Server und das Ziel der Benachrichtigungs-E-Mail in der Konfiguration für eine bestimmte RAID-Karte ändern. Wenn Sie diese Konfigurationen ändern, kann IBM Sie weder über RAID-Probleme informieren noch das Problem bis zur Problemlösung automatisch verfolgen. Ändern Sie die bereitgestellte Konfiguration nur, wenn Sie die Risiken kennen.
 
