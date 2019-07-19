@@ -91,3 +91,13 @@ CPU, RAM, disk drive, and RAID are included in the reservation for the contracte
 {: faq}
 
 Your cloud service continues on a monthly service period at the charge in effect on the expiration of your contract.
+
+## How do I use IPMI?
+{: faq}
+
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under Devices -> your server (device details) -> Remote Mgmt. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+
+## How do I reboot my server?
+{: faq}
+
+To reboot an infrastructure resource, first access the IBM Cloud infrastructure customer portal. From the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal. Or you can go directly to the [customer portal](https://control.softlayer.com/).  Once in the portal, click the Support tab, then click reboot. For complete instructions, review [Rebooting your server](/docs/customer-portal?topic=customer-portal-customerportal_rebootserver#customerportal-rebootserver).
