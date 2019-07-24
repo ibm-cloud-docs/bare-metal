@@ -50,7 +50,7 @@ IBM Cloud bare metal servers
 
     {: .topicgroup}
     Managing
-        managing.md
+        /vsi/virtual-servers-managing-virtual-servers
         understanding-server-transaction.md
         view-bandwidth-graphs.md
         how-do-i-check-health-my-3ware-raid-array.md
