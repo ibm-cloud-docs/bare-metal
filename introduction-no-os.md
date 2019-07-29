@@ -55,4 +55,4 @@ It might be necessary to open a support ticket to request that the switch ports 
 ### Option 2: IPMI device
 {: #option-2}
 
-Install operating systems on {{site.data.keyword.baremetal_short}} with no operating systems by booting from an ISO via the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-mounting-an-iso-on-a-bare-metal-server).
+Install operating systems on {{site.data.keyword.baremetal_short}} with no operating systems by booting from an ISO via the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
