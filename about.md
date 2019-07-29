@@ -107,7 +107,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 ### Dynamic inventory
 {: #bm-dynamic-inv}
 
-You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
+You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
 ### Block and file storage add-on
 {: #bm-block-and-file-add-on}
