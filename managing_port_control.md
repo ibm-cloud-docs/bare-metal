@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-07-30"
 
 keywords: manage bare metal port control
 
@@ -31,13 +31,8 @@ For more information about permissions, see [Classic infrastructure permissions]
 ## Manage the port control for a device
 
 1. Access the **Device List** and select the **Device Name** to update.  
-2. Click the **Actions** drop-down list for the device.
-3. Select **Port Control**.
-4. Update the *Public Network* and/or *Private Network* drop-down boxes by completing one of the following actions:
-   * Select desired speed to enable network access.
-   * Select Disconnected to disable network access.
-5. Click the Update button.
-6. Click the Close button to close the window.
+2. Click the **Speed** drop-down and select a network port speed.
+3. Confirm your selected speed and click **Update**.
 
 ## Next Steps
 
