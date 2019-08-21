@@ -1,5 +1,5 @@
 {
-    "what-is-uefi-boot-mode-":[
+    "what-is-uefi-boot-mode-": [
       "Unified Extensible Firmware Interface",
       "UEFI boot",
       "boot mode",
@@ -9,7 +9,7 @@
       "UEFI boot mode",
       "booting mode for UEFI"
     ],
-    "why-is-my-bios-asking-for-a-password-":[
+    "why-is-my-bios-asking-for-a-password-": [
       "BIOS wants a password",
       "password needed for my BIOS",
       "password for BIOS",
@@ -17,8 +17,8 @@
       "requesting p/word for BIOS",
       "BIOS asking for a password"
     ],
-    "do-you-provide-complimentary-os-reloads-":[
-      "provide complimentary reload"
+    "do-you-provide-complimentary-os-reloads-": [
+      "provide complimentary reload",
       "Automated OS reloads free",
       "OS update for free",
       "can I change my OS for nothing",
@@ -26,7 +26,7 @@
       "free os uploads?",
       "free reloading of operating system"
     ],
-    "the-primary-drive-on-my-bare-metal-server-shows-up-as-dev-sdb-what-is-wrong-":[
+    "the-primary-drive-on-my-bare-metal-server-shows-up-as-dev-sdb-what-is-wrong-": [
       "why is my server showing /dev/sdb",
       "I can not see /dev/sda - why?",
       "server drive is /dev/sdb",
@@ -34,14 +34,14 @@
       "primary drive issue with /dev/sdb",
       "what is /dev/sdb"
     ],
-    "why-is-the-cpu-speed-wrong-":[
+    "why-is-the-cpu-speed-wrong-": [
       "cpu speed of the processors is incorrect",
       "CPU speed is different to normal",
       "speed of CPU has changed",
       "CPU speed incorrectly recorded",
       "incorrect CPU speed"
     ],
-    "what-if-my-bare-metal-server-has-out-of-date-firmware-":[
+    "what-if-my-bare-metal-server-has-out-of-date-firmware-": [
       "firmware update required",
       "firmware updates",
       "firmware version is out of date",
@@ -49,14 +49,14 @@
       "upgrade firmware regularly",
       "firmware out of date"
     ],
-    "what-happens-to-drives-in-bare-metal-servers-when-a-customer-is-finished-with-them-":[
+    "what-happens-to-drives-in-bare-metal-servers-when-a-customer-is-finished-with-them-": [
       "server is at end of life",
       "no longer need my server drive",
       "reuse server drives",
       "if I cancel is my drive reclaimed",
       "finished with my bare metal server drive"
     ],
-    "can-i-see-what-bare-metal-servers-are-available-for-purchase-":[
+    "can-i-see-what-bare-metal-servers-are-available-for-purchase-": [
       "what servers are available",
       "purchase a server",
       "server provision for selection",
@@ -64,25 +64,25 @@
       "servers availablity",
       "select my own server"
     ],
-    "what-s-included-with-my-reserved-bare-metal-server-":[
+    "what-s-included-with-my-reserved-bare-metal-server-": [
       "get with reserved bms",
       "what does bare metal server include",
       "is RAID included in reservation",
       "get CPU with bare metal reservation",
       "reserve bare metal server"
     ],
-    "what-happens-at-the-end-of-my-reserved-bare-metal-server-contract-":[
+    "what-happens-at-the-end-of-my-reserved-bare-metal-server-contract-": [
       "end of my reserved bare metal contract",
       "happens at end of contract for bms"
     ],
-    "how-do-i-use-ipmi-":[
+    "how-do-i-use-ipmi-": [
       "IPMI use",
       "using IPMI",
       "connecting to IPMI",
       "IPMI connection",
       "IPMI usage"
     ],
-    "how-do-i-restart-my-server-":[
+    "how-do-i-restart-my-server-": [
       "server re-start",
       "restarting my server",
       "retart the server",
