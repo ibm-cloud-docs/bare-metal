@@ -3,3 +3,5 @@ https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix
 https://cloud.ibm.com/gen1/infrastructure/provision/bm
 https://private-ip-IPMI-management
 https://cloud.ibm.com.com/
+utterances.json
+IgnoreList.txt
