@@ -19,12 +19,8 @@ subcollection: bare-metal
 {:important: .important}
 {:note: .note}
 
-# About bare metal servers
+# Bare metal server options
 {: #about-bm}
-
-{{site.data.keyword.baremetal_long}} are the cornerstone for your infrastructure-as-a-service solution. Whether you're a gaming developer who requires high-speed I/O or you need to up high-performance servers for your users, {{site.data.keyword.baremetal_short}} can answer your compute needs.
-{:shortdesc}
-
 Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenant server that is dedicated to you; it is not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and deployed in one or more data centers. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack.
 
 ## Servers for every workload
@@ -35,12 +31,12 @@ Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenan
 ### Fast provisioning servers
 {: #Popular-bm}
 
-{{site.data.keyword.cloud_notm}} offers preconfigured servers that meet the needs of most use cases. These servers are considered "fast provision" because your compute options (number of cores, speed, RAM, and number of drives) are preset. Preset servers are ready to configure 30 - 40 minutes after provisioning. 
+{{site.data.keyword.cloud_notm}} offers preconfigured servers that meet the needs of most use cases. These servers are considered "fast provision" because your compute options (number of cores, speed, RAM, and number of drives) are preset. Preset servers are ready to configure 30 - 40 minutes after provisioning.
 
 ### Custom-based servers
 {: #custom-based-bm}
 
-If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are provisioned in 2 - 4 hours and offer a greater variety of cores, speeds, RAM, and drives. 
+If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are provisioned in 2 - 4 hours and offer a greater variety of cores, speeds, RAM, and drives.
 
 ### Custom POWER8-based servers
 {: #bm-power8}
@@ -70,7 +66,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 <table style="width:100%">
 <CAPTION>Table 1. Data centers with Cascade Lake processors</CAPTION>
  <tr>
-   
+
    <th colspan="6">Data centers</th>
  </tr>
  <tr>
@@ -80,7 +76,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
    <td>SYD01</td>
    <td>TOK02</td>
    <td>WDC04</td>
-   
+
 </tr>
 
 <tr>
@@ -90,7 +86,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
   <td>SYD04</td>
   <td>TOK04</td>
   <td>WDC06</td>
-  
+
 </tr>
 
 <tr>
@@ -112,10 +108,10 @@ You can now see what servers are available in what data center when you provisio
 ### Block and file storage add-on
 {: #bm-block-and-file-add-on}
 
-If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. 
+If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server.
 
 Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions.
-{: note} 
+{: note}
 
 <!--The add-on storage shares the data center that your bare metal server is on.-->
 

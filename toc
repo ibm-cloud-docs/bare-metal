@@ -6,7 +6,8 @@ IBM Cloud bare metal servers
 
     {: .navgroup id="learn"}
     getting-started.md
-    about.md
+    [About bare metal servers](https://www.ibm.com/cloud/bare-metal-servers)
+    bare-metal-server-options.md
     spare_pools.md
     bare-metal-reserved.md
     about-SGX.md
