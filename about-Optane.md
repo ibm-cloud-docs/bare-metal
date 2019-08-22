@@ -24,7 +24,7 @@ Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attribu
 
 For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: external}.
 
-Additional information can be found under [Experience next level compute perfomance](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
+Additional information can be found under [Experience next level compute performance](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
 
 ## Intel Optane drives and GPUs
 {: #ssd_gpu}

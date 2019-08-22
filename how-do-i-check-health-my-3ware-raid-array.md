@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2018-04-25"
 
-keywords: bare metal, 3ware 
+keywords: bare metal, 3ware
 
 subcollection: bare-metal
 
@@ -20,14 +20,14 @@ subcollection: bare-metal
 # Checking the health of your 3ware RAID array
 {: #bm-check-health-3ware-raid}
 
-With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Therefore, you use the command line interface.
+With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Use the command-line interface instead.
 
 You can download the 3ware CLI utilities from the [IBM Cloud CLI Plug-in Repository
 ](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI Plug-in for cf CLI](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf).
 
 **Quick command reference for 3ware CLI tools**
 
-These devices must be followed by a number that identifies which devices is being queried.
+These devices must be followed by a number that identifies which devices are being queried.
 
 tw_cli /c0 show (Output shows information that is needed to know the health of the RAID array)
 
@@ -39,7 +39,7 @@ Example:
 
     ------------------------------------------------------------------------------
 
-    u0    RAID-5    OK             -      64K     465.641   OFF    OFF      OFF    
+    u0    RAID-5    OK             -      64 K     465.641   OFF    OFF      OFF    
 
     Port   Status           Unit   Size        Blocks        Serial
 
@@ -53,7 +53,7 @@ Example:
 
     p3     NOT-PRESENT      -      -           -             -
 
-*note the following:
+*Notes*:
 
 c = controller<br/>
 Controller can be 0 or 1<br/>
