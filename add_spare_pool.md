@@ -37,4 +37,5 @@ Spare pooling is a form of holding certain devices that are designated as spares
 6. Click **Confirm** to add the devices to the spare pool.
 
 ## Next Steps
+{: #add-spare-pool-next}
 After initiating a device's transfer to the spare pool, the device is transitioned to the spare pool within one hour. After the device is active in the spare pool, it is displayed on the Spare Pool screen and can be designated as a hot spare for a primary device.

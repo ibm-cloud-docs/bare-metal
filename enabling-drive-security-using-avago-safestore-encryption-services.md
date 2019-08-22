@@ -14,7 +14,7 @@ keywords: Avago SafeStore, encryption
 # Enabling drive security by using Avago SafeStore Encryption Services
 {: #enabling-drive-security-by-using-avago-safestore-encryption-services}
 
-Setting up drive security helps prevent access to stored data on removed disks without a security key. The drive data can't be recovered without this key. {{site.data.keyword.BluSoftlayer_full}} provides Self-Encrypting Drives (SED) at select data centers for the drives that can be bought on a Bare metal server. 10 TB SATA drives are available in our US data centers.
+Setting up drive security helps prevent access to stored data on removed disks without a security key. The drive data can't be recovered without this key. {{site.data.keyword.cloud}} provides Self-Encrypting Drives (SED) at select data centers for the drives that can be bought on a Bare metal server. 10 TB SATA drives are available in our US data centers.
 
 ## Prerequisites
 {: #prerequisites-enabling-drive-security-by-using-avago-safestore-encryption-services}

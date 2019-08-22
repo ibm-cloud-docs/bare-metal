@@ -33,4 +33,5 @@ When a device is added to the spare pool, its status within the Device List chan
 4. Click **Yes** to reactivate the server. Click **No** to cancel the action.
 
 ## Next Steps
+{: #reactivate-device-spare-pool-next}
 After initiating the reactivation process, the device is taken offline, firmware is updated, and the device is available for regular use. The reactivation process takes approximately one hour. Devices that are removed from the spare pool are no longer eligible for use as a failover method. The device can return to the spare pool at any time by adding the device to the spare pool again. For more information, see [Adding a device to the spare pool](/docs/bare-metal?topic=bare-metal-adding-spare-pools#adding-spare-pools).

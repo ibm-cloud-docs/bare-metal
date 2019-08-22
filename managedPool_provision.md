@@ -36,5 +36,6 @@ After your pool is created, IBM provides you with the following parameter values
 Use the standard provisioning process to order servers in your pool. Your order is fulfilled from your pool and your pool is replenished with the number of servers that you ordered.
 
 ## Next steps
+{: #manage-pool-provision-next}
 
 After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](/docs/bare-metal?topic=bare-metal-set-amount-servers-pool#set-amount-servers-pool)

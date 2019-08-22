@@ -25,7 +25,7 @@ You can cancel, stop, and restart servers.
 {:shortdesc}
 
 ## Before you begin
-{: #before-you-begin}
+{: #bm-managing-before-you-begin}
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.

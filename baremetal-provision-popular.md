@@ -86,5 +86,5 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 
 
 ## Next Steps
-
+{: #prov-popular-next}
 After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

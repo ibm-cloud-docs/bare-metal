@@ -23,6 +23,7 @@ subcollection: bare-metal
 Each device that is associated with an account has two network ports that receive incoming traffic – one for public network traffic and one for private network traffic. You can enable or disable these ports at any time to control the network traffic that a device receives. Complete the following steps to update the port control settings for a device.
 
 ## Before you begin
+{: #bm-port-control-before}
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
@@ -35,5 +36,6 @@ For more information about permissions, see [Classic infrastructure permissions]
 3. Confirm your selected speed and click **Update**.
 
 ## Next Steps
+{: #manage-portal-control-next}
 
 If you selected **Disabled**, network access for the disabled port ceases for the device interface. If you selected **Enabled**, network access is available for the enabled port. Port control remains in the selected setting until manually changed.

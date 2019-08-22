@@ -28,4 +28,5 @@ Follow these steps to access the Spare Pool screen in the {{site.data.keyword.sl
 
 
 ## Next Steps
+{: #access-spare-pool-next}
 From the spare pool menu you can add, cancel, and reactivate the spare pool of devices.

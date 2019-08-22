@@ -22,6 +22,7 @@ subcollection: bare-metal
 {: #bm-mount-iso}
 
 ## Overview
+{: #bm-mounting-iso-overview}
 
 Although most {{site.data.keyword.cloud}} customers use one of the standard Operating Systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
 

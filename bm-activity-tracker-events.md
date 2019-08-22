@@ -4,7 +4,7 @@ copyright:
   years: 2016, 2019
 lastupdated: "2018-11-06"
 
-keywords: activity tracker, bare metal, {{site.data.keyword.Bluemix}}
+keywords: activity tracker, bare metal, {{site.data.keyword.cloud}}
 
 subcollection: bare-metal
 
@@ -24,17 +24,17 @@ subcollection: bare-metal
 {: #bm-at-events}
 
 As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and
-applications interact with bare metal servers in {{site.data.keyword.Bluemix}}. The account owner and users that are linked
+applications interact with bare metal servers in {{site.data.keyword.cloud}}. The account owner and users that are linked
 with the account can trigger bare metal server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
 {:shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.Bluemix_notm}}. For more information, see
+{{site.data.keyword.cloud_notm}}. For more information, see
 [About {{site.data.keyword.cloudaccesstrailshort}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov ).
 
 To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started#getting-started).
 
-An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console.
+An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.cloud}} console.
 {: tip}
 
 ## Bare metal server instance events
@@ -65,7 +65,7 @@ The following table lists the actions that generate an event:
 {: #bm-view-events}
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
-is available in the {{site.data.keyword.Bluemix_notm}} region where the events are generated. For more information, see [Viewing account
+is available in the {{site.data.keyword.cloud_notm}} region where the events are generated. For more information, see [Viewing account
 events](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service

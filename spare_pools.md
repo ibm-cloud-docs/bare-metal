@@ -30,4 +30,5 @@ Before you can use spare pools, contact IBM to have the Spare Pool and Spare Poo
 For an individual in your organization to gain permission to manage spare pools, please contact the account's administrator.
 
 ## Next Steps
+{: #spare-pool-next}
 Refer to [Accessing spare pools](/docs/bare-metal?topic=bare-metal-bm-access-spare-pools).

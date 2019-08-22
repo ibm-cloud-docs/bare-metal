@@ -42,4 +42,5 @@ Devices that have been added to the spare pool may only be canceled from the Spa
 9. Click **Cancel Device** to cancel the device. Click **Close** to stop the cancellation process and return to the Spare Pool screen.
 
 ## Next Steps
+{: #cancel-spare-next}
 After requesting cancellation of a device in the spare pool, the device is scheduled for cancellation. The device is then immediately reclaimed and removed from the account.

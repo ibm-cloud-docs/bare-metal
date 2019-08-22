@@ -100,4 +100,4 @@ IPMI is a way to manage a server remotely through a network interface. Gather th
 ## How do I restart my server?
 {: faq}
 
-To restart an infrastructure resource, first access the IBM Cloud infrastructure customer portal. From the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal. Or you can go directly to the [customer portal](https://control.softlayer.com/). In the portal, click the Support tab, then click restart. <!--For complete instructions, review [Restartinging your server](/docs/customer-portal?topic=customer-portal-customerportal_rebootserver#customerportal%20rebootserver).-->
+To restart an infrastructure resource, first access the IBM Cloud infrastructure customer portal. From the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal.

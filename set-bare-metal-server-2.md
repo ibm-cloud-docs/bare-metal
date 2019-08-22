@@ -24,6 +24,7 @@ You can set up a Bare Metal Server as a dedicated server.
 {:shortdesc}
 
 ## Before you begin
+{: #bm-set-up-before}
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 

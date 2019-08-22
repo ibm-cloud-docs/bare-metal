@@ -20,7 +20,7 @@ subcollection: bare-metal
 # Creating and adjusting Adaptec RAID configurations
 {: #bm-create-raid-config}
 
-The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using our [No OS](/docs/bare-metal?topic=bare-metal-the-no-os-option) option and want to set up a specific drive configuration.
+The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using our [No OS](/docs/bare-metal?topic=bare-metal-bm-no-os) option and want to set up a specific drive configuration.
 
 ## Accessing the IPMI device to interact with the RAID BIOS
 {: #bm-access-ipmi}

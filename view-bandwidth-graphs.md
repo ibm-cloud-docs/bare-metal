@@ -21,10 +21,12 @@ subcollection: bare-metal
 {: #bm-view-bandwidth-graphs}
 
 ## Overview
+{: #bm-bandwidth-graphs-overview}
 
 Bandwidth graphs display public and private network usage for all network traffic that is associated with your device for a time period. Follow these steps to view bandwidth graphs for your device:
 
 ## Before you begin
+{: #bm-bandwidth-graphs-before}
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
