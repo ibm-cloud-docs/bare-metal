@@ -37,4 +37,4 @@ In July, Company A needs 250 extra servers from their pool. They order 250 serve
 ## Next steps
 {: #manage-pool-next}
 
-If your organization wants to use a customer-managed pool, see [Provisioning customer-managed pools](/bare-metal?topic=bare-metal-provisioning-customer-managed-pools)
+If your organization wants to use a customer-managed pool, see [Provisioning customer-managed pools](/docs/bare-metal?topic=bare-metal-provisioning-customer-managed-pools)

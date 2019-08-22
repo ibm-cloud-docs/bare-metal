@@ -51,7 +51,7 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
    <td>You can use the <a href="https://cloud.ibm.com/gen1/infrastructure/provision/bm">bare metal search tool</a> to help you size and cost out your server.</td>
  <tr>
    <td>5. Log in to your IBM Cloud account</td>
-   <td>You can access the Bare Metal Server Order Form from either the IBM Cloud Catalog or the IBM Cloud infrastructure customer portal. You need an <a href="https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-getting-started#getting-started">IBMid and password</a> to access the Catalog and infrastructure customer portal.
+   <td>You can access the Bare Metal Server Order Form from the IBM Cloud Catalog or the IBM Cloud console. You need an <a href="https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-getting-started#getting-started">IBMid and password</a> to access the Catalog and IBM Cloud console.
    <li><a href="https://cloud.ibm.com/catalog/">IBM Cloud Catalog</a></li>
    <li><a href="https://cloud.ibm.com">IBM Cloud console</a></li>  
    </td>   
