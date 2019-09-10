@@ -22,7 +22,7 @@ subcollection: bare-metal
 
 {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you performance and control with low-level access to the hardware resources. Your server isn’t shared with “noisy neighbors,” it’s all yours!
 
-To watch technical experts walk through common use cases, highlight features and capabilities, or take a product tour, see <a href=“https://www.ibm.com/demos/collection/IBM-Cloud-Bare-Metal-Servers/?lc=null“>IBM Cloud bare metal server overview</a>
+To watch technical experts walk through common use cases, highlight features and capabilities, or take a product tour, see <a href=“https://www.ibm.com/demos/collection/IBM-Cloud-Bare-Metal-Servers>IBM Cloud bare metal server overview</a>
 {: shortdesc} 
 
 Table 1 contains steps to help you quickly get your {{site.data.keyword.baremetal_short}} provisioned and configured.
