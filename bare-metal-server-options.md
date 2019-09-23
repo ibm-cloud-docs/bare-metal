@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-19"
+lastupdated: "2019-09-23"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake
 
@@ -61,49 +61,10 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 * Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
 <!--Intel Xeon 8280M (28-Core, 2.7 GHz, 205 W)--><br>
 
-<br>Cascade Lake processors are available in the following data centers:
-
-<table style="width:100%">
-<CAPTION>Table 1. Data centers with Cascade Lake processors</CAPTION>
- <tr>
-
-   <th colspan="6">Data centers</th>
- </tr>
- <tr>
-   <td>DAL10</td>
-   <td>FRA02</td>
-   <td>LON04</td>
-   <td>SYD01</td>
-   <td>TOK02</td>
-   <td>WDC04</td>
-
-</tr>
-
-<tr>
-  <td>DAL12</td>
-  <td>FRA04</td>
-  <td>LON05</td>
-  <td>SYD04</td>
-  <td>TOK04</td>
-  <td>WDC06</td>
-
-</tr>
-
-<tr>
-  <td>DAL13</td>
-  <td>FRA05</td>
-  <td>LON06</td>
-  <td>SYD05</td>
-  <td>TOK05</td>
-  <td>WDC07</td>
-</tr>
-</table>
-
-
 ### Dynamic inventory
 {: #bm-dynamic-inv}
 
-You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
+You can now see what servers are available in what data center when you provision a bare metal server. If a server is not available in the data center you selected, hover over the server name. A list is displayed that indicates the data centers in which the server is available. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
 ### Block and file storage add-on
 {: #bm-block-and-file-add-on}
