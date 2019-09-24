@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-04"
+lastupdated: "2019-09-24"
 
 keywords: SAP, {{site.data.keyword.cloud}} SAP-Certified Infrastructure
 
@@ -28,5 +28,3 @@ For more information, see
   * [SAP HANA on {{site.data.keyword.cloud_notm}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started){: new_window}, a comprehensive guide on how to implement SAP HANA on the {{site.data.keyword.cloud_notm}} infrastructure.
 
   * [SAP Reference Architecture on {{site.data.keyword.cloud_notm}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/infrastructure/sap-reference-architecture?topic=sap-reference-architecture-getting-started#getting-started){: new_window}, an example infrastructure that uses SAP HANA, and SAP NetWeaver to show the general concepts of an SAP {{site.data.keyword.cloud_notm}}-based deployment.
-
-  * [SAP Business One on {{site.data.keyword.cloud_notm}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/infrastructure/sap-b1?topic=infrastructure/sap-b1-getting-started#getting-started){: new_window} on how to set up, manage, and support SAP Business One for your small-to-medium enterprise.
