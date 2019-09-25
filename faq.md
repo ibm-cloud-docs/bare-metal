@@ -95,7 +95,7 @@ Your cloud service continues on a monthly service period at the charge in effect
 ## How do I use IPMI?
 {: faq}
 
-IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under Devices -> your server (device details) -> Remote Mgmt. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under Devices -> your server (device details) -> Remote Mgmt. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
 
 ## How do I restart my server?
 {: faq}
