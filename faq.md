@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-09-16"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -39,7 +39,7 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}. These include customized OS reloads (changing operating systems, addition or removal of control panels and partition editing, and so on).  For more information about performing an OS Reload, see [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}. These include customized OS reloads (changing operating systems, addition or removal of control panels, and partition editing, and so on). For more information about performing an OS Reload, see [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?
@@ -51,7 +51,7 @@ This problem can be caused by the IPMI's Virtual Disk taking up the /dev/sda slo
 ## Why is the CPU speed wrong?
 {: faq}
 
-If you log in to a server and notice that the speed of the processors is incorrect, this discrepancy might be caused by Enhanced Intel SpeedStep Technology (EIST). EIST is the Intel name for dynamic frequency scaling technology.  \This technology is also called *CPU throttling* or *bus slewing* in older systems. Some AMD systems use similar technologies that are called *Cool'N'Quiet* or *PowerNow!*. Though these technologies are not all the same, they have the same goal, which is to reduce the power consumption and heat production when the processor is not under heavy use by slowing the CPU speed. When the server is back under load, they raise the clock speed as necessary.
+If you log in to a server and notice that the speed of the processors is incorrect, this discrepancy might be caused by Enhanced Intel SpeedStep Technology (EIST). EIST is the Intel name for dynamic frequency scaling technology. This technology is also called *CPU throttling* or *bus slewing* in older systems. Some AMD systems use similar technologies that are called *Cool'N'Quiet* or *PowerNow!*. Though these technologies are not all the same, they have the same goal, which is to reduce the power consumption and heat production when the processor is not under heavy use by slowing the CPU speed. When the server is back under load, they raise the clock speed as necessary.
 
 If you want to know whether the Intel processor on your server supports SpeedStep, use this procedure from the customer portal:
 1. Click **Devices**.
@@ -95,7 +95,7 @@ Your cloud service continues on a monthly service period at the charge in effect
 ## How do I use IPMI?
 {: faq}
 
-IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under Devices -> your server (device details) -> Remote Mgmt. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
 
 ## How do I restart my server?
 {: faq}
