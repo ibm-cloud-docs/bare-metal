@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-09-23"
+lastupdated: "2019-10-10"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake
 
@@ -18,6 +18,7 @@ subcollection: bare-metal
 {:table: .aria-labeledby="caption"}
 {:important: .important}
 {:note: .note}
+{:tip: .tip}
 
 # Bare metal server options
 {: #about-bm}
@@ -59,12 +60,32 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 * Intel Xeon 4210 (10-Core, 2.2 GHz, 85 W)
 * Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
 * Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
-<!--Intel Xeon 8280M (28-Core, 2.7 GHz, 205 W)--><br>
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
 
 You can now see what servers are available in what data center when you provision a bare metal server. If a server is not available in the data center you selected, hover over the server name. A list is displayed that indicates the data centers in which the server is available. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
+
+### Network redundancy 
+
+**Port redundancy** provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables. 
+
+Only one port is active at a time. 
+{:note}
+
+**Automatic redundancy (Recommended)** automatically configures the redundant ports through LCAP bonding to preserve connectivity during routine maintenance.
+
+**User-managed redundancy** must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved.
+
+VMWare requires user-managed links.
+{:tip}
+
+**No redundancy** is not recommended in a new data center.
+
+In legacy data centers that don’t support automatic redundancy, no redundancy is the only option.
+{:note}
+
+**Interface teaming** or link aggregation combines, in parallel, multiple network connections to provide redundancy and increase network throughput.
 
 ### Block and file storage add-on
 {: #bm-block-and-file-add-on}
