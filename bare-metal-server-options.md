@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-10"
+lastupdated: "2019-10-22"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake
 
@@ -73,7 +73,7 @@ You can now see what servers are available in what data center when you provisio
 Only one port is active at a time. 
 {:note}
 
-**Automatic redundancy (Recommended)** automatically configures the redundant ports through LCAP bonding to preserve connectivity during routine maintenance.
+**Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
 
 **User-managed redundancy** must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved.
 
