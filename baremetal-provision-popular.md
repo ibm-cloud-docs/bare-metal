@@ -27,52 +27,21 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 2. Select Bare Metal Server.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
 2. In the {{site.data.keyword.baremetal_short}} section, select the following information:
-    <table>
-    <CAPTION>Table 1. Bare metal selections</CAPTION>
-    <THEAD>
-    <TR>
-    <th>Field</th>
-    <th>Value</th>
-    </TR>
-    </THEAD>
-    <TBODY>
-    <tr>
-    <td>Quantity</td>
-    <td>Use the + and - icons to specify the number of **identical** servers to provision. The default is 1.<br>If you want to provision multiple servers with **different** specifications, you need to provision them separately.
-    <tr>
-    <tr>
-    <td>Billing type</td>
-    <td>Select Hourly or Monthly
-    <tr>
-    <td>Hostname and Domain</td>
-    <td>These fields are populated with default. You can change them.</td>
-    </tr>
-    <tr>
-    <td>Location</td>
-    <td>Select the region where you want the server to be located. Using the drop down list, select and data center in the region. </td>
-    </tr>
-    <tr>
-    <tr>
-    <td>Select your server</td>
-    <td>Select **Popular Servers** and select the server that meets your needs. These servers are preconfigured and are ready to use in 30 - 40 minutes.
-    </tr>
-    <tr>
-    <td>RAM</td>
-    <td>Default based on the server you selected.</td>
-    </tr>
-    <tr>
-    <td>SSH Keys</td>
-    <td>Provide a public key of your SSH key, which you use to log in to your server after it is provisioned.</td>
-    </tr>
-    <tr>
-    <td>Image <br>(Operating System)</td>
-    <td>Select the operating system for the server. Your Image options may be limited based on the server you selected.</td>
-    </tr>
-    <td>Add-ons</td>
-    <td>Expand the Add-ons section to select the appropriate options or use the default values./td>
-    </tr>
-    </TBODY>
-    </table>
+
+| Field | Value |
+|------|------|
+| Quantity | Use the + and - icons to specify the number of identical servers to provision. The default is 1. If you want to provision multiple servers with different specifications, you need to provision them separately. |
+| Billing type | Select Hourly or Monthly |
+| Hostname and Domain | These fields are populated with default values. You can change them. |
+| Location | Select the region where you want the server to be located. Using the drop down list, select and data center in the region. |
+| Select your server | Select **Popular Servers** and select the server that meets your needs. These servers are preconfigured and are ready to use in 30 - 40 minutes. |
+| RAM | Default based on the server you selected. |
+| SSH keys | Provide a public key of your SSH key, which you use to log in to your server after it is provisioned. |
+| Image (operating system) | Select the operating system for the server. Your Image options may be limited based on the server you selected. |
+| Add-ons | Expand the Add-ons section to select the appropriate options or use the default values. |
+
+<caption>Table 1: Bare metal server selections</caption>
+
 3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
 4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values.
 4.  Review your order.
