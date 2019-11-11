@@ -41,7 +41,7 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed.
 
 For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
-{ :note}
+{:note}
 
 11. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it is provisioned.
 12. Select an **Image** (operating system) for your server. Your options are based on your selected server.
