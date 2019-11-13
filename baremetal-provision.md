@@ -38,11 +38,7 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 7. **Billing** is either **Hourly** or **Monthly**.
 8. Select the **Location**, region and data center, where your server is to be located.
 9. Click **All servers** to see a list of processors (Single, Dual, and Quad) and certified servers (SAP and VMware). Select the server that best meets your workload.
-10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed.
-
-For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
-{:note}
-
+10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed. **Note:** For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
 11. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it is provisioned.
 12. Select an **Image** (operating system) for your server. Your options are based on your selected server.
 13. Expand **Add-ons** to select options related to the server's configuration.
