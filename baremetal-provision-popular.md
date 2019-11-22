@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-10-23"
+lastupdated: "2019-11-22"
 
 keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
 
@@ -43,7 +43,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 <caption>Table 1: Bare metal server selections</caption>
 
 3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
-4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values. For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values. For more information about network options, see [Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
 4.  Review your order.
 4. If you have a promo code to apply to your order, expand Apply Promo Code.  
 5.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
