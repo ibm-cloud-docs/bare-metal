@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-22"
+lastupdated: "2019-11-22"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake
 
@@ -73,7 +73,7 @@ You can now see what servers are available in what data center when you provisio
 Only one port is active at a time. 
 {:note}
 
-For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+For more information about network options, see [Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
 
 **Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
 
