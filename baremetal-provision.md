@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-11-22"
 
 keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -26,7 +26,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 
 ## Before you begin
 
-Make sure that you review the [Getting started tutorial](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
+Make sure that you review the [Getting started tutorial](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
 
 ## Provisioning through the {{site.data.keyword.cloud_notm}} catalog
 {: #provision-through-the-catalog}
