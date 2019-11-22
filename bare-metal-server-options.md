@@ -73,6 +73,8 @@ You can now see what servers are available in what data center when you provisio
 Only one port is active at a time. 
 {:note}
 
+For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+
 **Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
 
 **User-managed redundancy** must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved.
