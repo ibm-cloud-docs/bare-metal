@@ -24,6 +24,10 @@ subcollection: bare-metal
 
 Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 
+## Before you begin
+
+Make sure that you review the [Getting started tutorial](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
+
 ## Provisioning through the {{site.data.keyword.cloud_notm}} catalog
 {: #provision-through-the-catalog}
 
