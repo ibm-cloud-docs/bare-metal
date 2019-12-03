@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-22"
+lastupdated: "2019-12-03"
 
 keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
 
@@ -26,9 +26,9 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window}.   
 2. Select Bare Metal Server.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
-2. In the {{site.data.keyword.baremetal_short}} section, select the following information:
+4. In the {{site.data.keyword.baremetal_short}} section, select the following information:
 
-| Field | Value |
+å| Field | Value |
 |------|------|
 | Quantity | Use the + and - icons to specify the number of identical servers to provision. The default is 1. If you want to provision multiple servers with different specifications, you need to provision them separately. |
 | Billing type | Select Hourly or Monthly |
@@ -41,17 +41,17 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 | Add-ons | Expand the Add-ons section to select the appropriate options or use the default values. |
 
 <caption>Table 1: Bare metal server selections</caption>
+    
+5. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
+6. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values. For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+7.  Review your order.
+8.  If you have a promo code to apply to your order, expand Apply Promo Code.  
+9.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
+10.  Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
-3. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
-4. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values. For more information about network options, see [Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
-4.  Review your order.
-4. If you have a promo code to apply to your order, expand Apply Promo Code.  
-5.  Review any third-party service agreements that are listed and click the **Third-Party Service Agreement** check box.
-6.  Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+A series of emails are sent to your administrator: Acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete.
 
- A series of emails are sent to your administrator: Acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete.
-
- The _provisioning complete email_ includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
+ The _provisioning complete email_ includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud}} console.
 
 
 ## Next Steps
