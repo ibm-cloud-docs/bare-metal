@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-12-03"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -53,7 +53,7 @@ This problem can be caused by the IPMI's Virtual Disk taking up the /dev/sda slo
 
 If you log in to a server and notice that the speed of the processors is incorrect, this discrepancy might be caused by Enhanced Intel SpeedStep Technology (EIST). EIST is the Intel name for dynamic frequency scaling technology. This technology is also called *CPU throttling* or *bus slewing* in older systems. Some AMD systems use similar technologies that are called *Cool'N'Quiet* or *PowerNow!*. Though these technologies are not all the same, they have the same goal, which is to reduce the power consumption and heat production when the processor is not under heavy use by slowing the CPU speed. When the server is back under load, they raise the clock speed as necessary.
 
-If you want to know whether the Intel processor on your server supports SpeedStep, use this procedure from the customer portal:
+If you want to know whether the Intel processor on your server supports SpeedStep, use this procedure from the customer {{site.data.keyword.cloud}} console:
 1. Click **Devices**.
 * Identify your server in the list.
 * Click the server name to view **Device Details**.
@@ -95,9 +95,9 @@ Your cloud service continues on a monthly service period at the charge in effect
 ## How do I use IPMI?
 {: faq}
 
-IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the customer portal under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
 
-## How do I restart my server?
-{: faq}
+<!--## How do I restart my server?
+{: faq}-->
 
-To restart an infrastructure resource, first access the IBM Cloud infrastructure customer portal. From the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal.
+<!--To restart an infrastructure resource from the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal.--> <!--this FAQ needs clarity-->
