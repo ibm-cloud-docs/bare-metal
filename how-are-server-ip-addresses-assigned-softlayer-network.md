@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-12-03"
 
 keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
 
@@ -35,8 +35,7 @@ An IPv6 address on the public network, is available if requested. All of
 these IP addresses are collectively referred to as **Primary IP addresses**.
 
 More IP addresses can be bound to servers after you purchase **Secondary
-Subnets** through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. IP addresses that you purchased through the Customer Portal
-and managed by you are called **Secondary IP addresses**.
+Subnets** through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. IP addresses that you purchased and managed by you are called **Secondary IP addresses**.
 
 For more information about acquiring IP addresses, see [Subnets and IPs](https://cloud.ibm.com/docs/infrastructure/subnets/){: external}.
 
