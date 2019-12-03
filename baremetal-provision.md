@@ -55,7 +55,7 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete.
 
-The _provisioning complete_ email includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
+The _provisioning complete_ email includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud}} console.
 
 You can also order as a quote or to add it to an estimate. When you save a quote, a link is sent to the email address associated with your account. Open the link to see the saved quote information. Another option is to go to Manage > Billing and usage, and select Sales > Device quotes. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order. Adding to estimate places the configurations proposed cost in the pricing calculator. Click **Information** for more details about the pricing calculator.
 
