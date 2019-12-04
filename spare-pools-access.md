@@ -22,7 +22,7 @@ subcollection: bare-metal
 {: #bm-access-spare-pools}
 
 Follow these steps to access the Spare Pool screen from the {{site.data.keyword.cloud}} console.
-1. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){: new_window} by using your unique credentials.
 2. Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 3. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 
