@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2019
+  years: 2017, 2020
 lastupdated: "2019-12-03"
 
 keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
@@ -28,7 +28,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
 4. In the {{site.data.keyword.baremetal_short}} section, select the following information:
 
-å| Field | Value |
+| Field | Value |
 |------|------|
 | Quantity | Use the + and - icons to specify the number of identical servers to provision. The default is 1. If you want to provision multiple servers with different specifications, you need to provision them separately. |
 | Billing type | Select Hourly or Monthly |
