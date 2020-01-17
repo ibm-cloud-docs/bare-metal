@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2019
+  years: 2017, 2020
 lastupdated: "2019-06-19"
 
 keywords: bare metal, help, support
@@ -43,9 +43,9 @@ If you have problems or questions when you are using {{site.data.keyword.cloud}}
 
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 <!--Insert the appropriate Stack Overflow tag for your service for <block-storage> in URL and text below:  -->
-* If you have technical questions about {{site.data.keyword.baremetal_short}}, post your question on [Stack Overflow](http://stackoverflow.com/search?q=bare-metal+ibm-cloud){:external} and tag your question with `ibm-cloud` and `bare-metal`.
+* If you have technical questions about {{site.data.keyword.baremetal_short}}, post your question on [Stack Overflow](http://stackoverflow.com/search?q=bare-metal+ibm-cloud){: external} and tag your question with `ibm-cloud` and `bare-metal`.
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){:external} forum. Include the `ibm cloud` tag.
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/ibm-cloud/?smartspace=bluemix){: external} forum. Include the `ibm cloud` tag.
 
 <!--See [Getting help ![External link icon](../icons/launch-glyph.svg "External link icon")](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help){: new_window} for more details about using the forums.-->
 
