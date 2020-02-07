@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2019-12-03"
+lastupdated: "2020-02-07"
 
-keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision
+keywords: provision bare metal, popular servers, {{site.data.keyword.baremetal_short}}, provision, fast provisioning
 
 subcollection: bare-metal
 
@@ -22,7 +22,7 @@ subcollection: bare-metal
 # Selecting from the most popular servers
 {: #bm-select-popular-servers}
 
-The servers in the Most Popular Servers list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
+The servers in the fast provisioning list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
 1. Open the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/){: new_window}.   
 2. Select Bare Metal Server.
 3. Click Continue.  If you do not see a Continue button, you may need to log in.
@@ -34,7 +34,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 | Billing type | Select Hourly or Monthly |
 | Hostname and Domain | These fields are populated with default values. You can change them. |
 | Location | Select the region where you want the server to be located. Using the drop down list, select and data center in the region. |
-| Select your server | Select **Popular Servers** and select the server that meets your needs. These servers are preconfigured and are ready to use in 30 - 40 minutes. |
+| Select your server | Select **Fast provisioning servers** and select the server that meets your needs. These servers are preconfigured and are ready to use in 30 - 40 minutes. |
 | RAM | Default based on the server you selected. |
 | SSH keys | Provide a public key of your SSH key, which you use to log in to your server after it is provisioned. |
 | Image (operating system) | Select the operating system for the server. Your Image options may be limited based on the server you selected. |
@@ -42,7 +42,7 @@ The servers in the Most Popular Servers list are preconfigured to meet the needs
 
 <caption>Table 1: Bare metal server selections</caption>
     
-5. In the Storage Disks section, the Storage Disk is already selected for your Popular servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
+5. In the Storage Disks section, the Storage Disk is already selected for your fast provisioning servers selection. Expand the Add-ons section if you want to add IBM Cloud Backup to your server.
 6. In the Network Interface section, select the Uplink Port Speeds. Expand the Add-ons section to select the appropriate options or use the default values. For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
 7.  Review your order.
 8.  If you have a promo code to apply to your order, expand Apply Promo Code.  
