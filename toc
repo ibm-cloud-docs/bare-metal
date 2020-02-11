@@ -74,6 +74,7 @@ IBM Cloud bare metal servers
     Backing up and recovering
         can-i-back-data-between-bare-metal-servers-private-network.md
         [Launching a rescue kernel](/infrastructure/vsi/virtual-servers-launching-rescue)
+        bare-metal-veeam-o365.md
 
     {: .topicgroup}
     Managing spare pools
