@@ -18,7 +18,7 @@ subcollection: bare-metal
 {:table: .aria-labeledby="caption"}
 
 # Assigning and binding IP addresses
-{: #bm-assigning-and-binding-ip-addresses
+{: #bm-assigning-and-binding-ip-addresses}
 Use the following information to assign a server IP address to your server, and bind a secondary IP address to your server, if requried.
 {: shortdesc}
 
