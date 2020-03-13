@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2019
+  years: 2018, 2020
 lastupdated: "2019-11-22"
 
 keywords: bare metal, getting started, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
@@ -29,7 +29,7 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
 
 | Task | Details |
 |------|------|
-| 1. Review content that can help with your implementation | New to IBM Cloud and bare metal servers? The following sites provide useful information to help you plan your environment. <li><a href="https://ibm.com/cloud-computing/">What is IBM Cloud</a></li> <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li> <li><a href="https://www.ibm.com/cloud/bare-metal-servers">Bare Metal Servers</a></li> <li>[Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options)</li> |
+| 1. Review content that can help with your implementation | New to IBM Cloud and bare metal servers? The following sites provide useful information to help you plan your environment. <li><a href="https://www.ibm.com/cloud">What is IBM Cloud</a></li> <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li> <li><a href="https://www.ibm.com/cloud/bare-metal-servers">Bare Metal Servers</a></li> <li>[Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options)</li> |
 | 2. Sign up for IBM Cloud | <a href="https://cloud.ibm.com/docs/account?topic=account-signup#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account. |
 | 3. Determine your workload specifications | Before your provision your server, determine how it will be used and the server size you need to be successful. For example, do you intend to use it for development and testing, or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed? |
 | 4. Size and cost out your server | You can use the <a href="https://cloud.ibm.com/gen1/infrastructure/provision/bm">bare metal search tool</a> to help you size and cost out your server. |
