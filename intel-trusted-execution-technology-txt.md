@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-05-31"
+  years: 2017, 2020
+lastupdated: "2020-03-18"
 
 keywords: bare metal, intel txt
 
@@ -43,6 +43,6 @@ Intel TXT is especially advantageous for large enterprises subject to compliance
 
 For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, see [Intel Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt).
 
-The following link has more information about adding more security and compliance to your workloads with a [trusted secure cloud solution with IBM, VMware, and HyTrust](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf).
+<!--The following link has more information about adding more security and compliance to your workloads with a [trusted secure cloud solution with IBM, VMware, and HyTrust](http://wpc.c320.edgecastcdn.net/00C320/DeploymentGuide_IBM_Intel_HyTrust_VMware_v1%200.pdf).-->
 
 **Special Technical Notice** Intel Trusted Execution Technology (Intel TXT) is provided by Intel&reg; and operates on the {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that require specific technical knowledge to support and manage. The {{site.data.keyword.cloud_notm}} current delivery model can turn Intel TXT either on or off; **{{site.data.keyword.cloud_notm}} cannot assist with configuration of Intel TXT settings due to the sensitivity of customer environments and data**. It is recommended that you either include staff who are trained in Intel TXT technologies or engage with a consulting firm with proven expertise in orchestrating root of trust and measured launch environment (MLE) architecture.
