@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2018-11-06"
+  years: 2016, 2020
+lastupdated: "2020-03-18"
 
 keywords: activity tracker, bare metal, {{site.data.keyword.cloud}}
 
@@ -18,6 +18,7 @@ subcollection: bare-metal
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:download: .download}
+{:external: .exernal}
 
 
 # Activity Tracker events
@@ -29,10 +30,7 @@ with the account can trigger bare metal server events that are logged in {{site.
 {:shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.cloud_notm}}. For more information, see
-[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov ).
-
-To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started#getting-started).
+{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started#getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.cloud}} console.
 {: tip}
@@ -66,7 +64,7 @@ The following table lists the actions that generate an event:
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
 is available in the {{site.data.keyword.cloud_notm}} region where the events are generated. For more information, see [Viewing account
-events](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events).
+events](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-view_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service
 in the same region where the action happens.
