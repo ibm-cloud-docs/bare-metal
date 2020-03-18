@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-03"
+  years: 2017, 2020
+lastupdated: "2020-03-18"
 
 keywords: mount iso bare metal
 
@@ -13,9 +13,11 @@ subcollection: bare-metal
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:tip: .tip}
+{:note: .note}
 
 
 # Mounting an ISO on a bare metal server
@@ -24,16 +26,17 @@ subcollection: bare-metal
 ## Overview
 {: #bm-mounting-iso-overview}
 
-Although most {{site.data.keyword.cloud}} customers use one of the standard Operating Systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
+Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
 
 For the methods to work, you need to connect to the private network through the SL VPN service, such as [IBM Cloud SSL VPN - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server that is connected to the network.
 
-**Note:** Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console **interface > media tab**.
+Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console **interface > media tab**.
+{ :note}
 
 ## Option 1 (preferred): using IPMI (ISO on a CIFS share)
 {: #bm-mount-iso-opt-1}
 
-If your infrastructure is already deployed on {{site.data.keyword.cloud_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on there to a bare metal server.
+If your infrastructure is already deployed on {{site.data.keyword.cloud_notm}}, you can configure an existing server to offer a CIFS share to the internal network. You can then mount any ISO on the internal network to a bare metal server.
 
 This option the preferred method for installing a custom OS on a bare metal server. IPMI installs over the local network, which is fast and can keep an ISO mounted even if you log out or get disconnected from the management interface.
 
@@ -41,9 +44,9 @@ Follow these steps to install a Custom OS from a CIFS Share:
 
 1. Make sure that the ISO is on the CIFS Share.
 * Log in to the IPMI management console by pointing your web browser to the IP specified in cloud.ibm.com. 
-* Go to **Devices** > your server (device details)** > **Remote Mgmt**. **Note:** The username and password are also specified here.
-* Hover over the **Virtual Media** and click **CD-ROM image**
-* Fill in the appropriate details and click **Save and Mount**.
+* Go to **Devices** > your server (device details)** > **Remote Mgmt**. **Note:** The username and password are also specified in the details.
+* Hover over **Virtual Media** and click **CD-ROM image**
+* Compelte the appropriate details and click **Save and Mount**.
 
 Not all users have permission to change the BIOS of the server. If necessary, you can open a ticket to support requesting:
   * Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode).
@@ -52,8 +55,10 @@ Not all users have permission to change the BIOS of the server. If necessary, yo
   
 ### What next
 
-After you make these changes, go back to the IPMI management console and go to configuration -> Remote session and change attach mode to; **attach**. In some older IPMI consoles, you can skip this option.
-* Reboot the server and boot from the virtual media.
+After you make these changes, go back to the **IPMI management console** and go to **Configuration > Remote session** and change attach mode to **Attach**. Then, reboot the server and boot from the virtual media.
+
+In some older IPMI consoles, you can skip this option. 
+{: note}
 
 
 ## Option 2: Using IPMIView (ISO on a CIFS share)
@@ -62,18 +67,18 @@ After you make these changes, go back to the IPMI management console and go to c
 Prerequisites:<br/>
 * Have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the Bootable ISO
-* The ISO is uploaded to the File Storage (NAS) associated with the server.
+* The ISO is uploaded to the File Storage (NAS) associated with the server
 * IPMIView is installed or access KVM Console
 * ISO File is downloadable using wget
 * SSH access with privileges to access / install packages and create a mount
 
 
 ### Linux and Windows
-Follow the steps below to mount an ISO with IPMIView.
-1. Through a support ticket, request that your server boots their Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
-* Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include .softlayer.com and .cloud.ibm.com in your Trusted Sites list and keep your JAVA up to date.
+Use the following steps to mount an ISO by using IPMIView:
+1. Open a support ticket and request that your server starts the Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
+* Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include `.softlayer.com` and `.cloud.ibm.com` in your Trusted Sites list and keep your Java installation up to date.
 * Copy ISO Media to NAS or Windows CIFS Server.
-  * Connect to your Linux jumpbox using SSH.
+  * Connect to your Linux jumpbox by using SSH.
   * Mount NAS share on your Linux jumpbox:
 
         mkdir /mnt/nasmount
@@ -88,7 +93,7 @@ Follow the steps below to mount an ISO with IPMIView.
         cd /mnt/nasmount
   * Download the iso file using wget.
         wget http://www.linktoyouriso.com/isofilename.iso
-  You will see a confirmation that the download was successful.
+  Look for the confirmation that the download was successful.
 * Download IPMI View here:
       https://www.servethehome.com/download-supermicro-ipmiview-latest-version/
 * Connect to Server over the Management IP.<br>
@@ -119,7 +124,7 @@ Follow the steps below to mount an ISO with IPMIView.
 
 <a name="option3"></a>
 
-You can mount an ISO from your local computer by using the Java iKVM viewer (console). This will enable you to mount an ISO while connected to the console. The speed at which the installation progresses may vary depending on the upload speed and latency of your internet connection, performance of java and your computer.
+You can mount an ISO from your local computer by using the Java iKVM viewer (console). This enables you to mount an ISO while connected to the console. The speed at which the installation progresses can vary depending on the upload speed and latency of your internet connection, performance of java and your computer.
 
 If you do not have permission to change the BIOS on a server, open a ticket to support requesting the following changes:
 * Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode)
@@ -133,16 +138,16 @@ If you do not have permission to change the BIOS on a server, open a ticket to s
 * When the console connects, you see login prompt.
 * Click **Virtual Media** > **Virtual Storage**.
 * Go to the **CDROM&ISO** tab and select the ISO File under **Logical Drive Type**
-* Click **Open Image** and select the ISO on your local computer.
+* Click **Open image** and select the ISO on your local computer.
 * Click **Plug-in** to insert the ISO into the virtual CD-ROM drive and click **OK**.
 * Restart the server and use the **boot from the virtual CD-ROM drive** option. You might need to use the virtual keyboard in the iKVM viewer to select a boot device.
 
 ## Troubleshooting
 {: #bm-mount-iso-troubleshooting}
 
-* Not all users have default access to mount Virtual Media. If a permission error occurs, contact Support for an update to the Root IPMI User permissions.
-* If an ISO is already mounted, an error message will appear with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs may not be mounted at the same time.
-* You may need to contact support to change the boot order in the BIOS.
-* When mounting an ISO please use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  Once connected to the VPN network you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
+* Not all users have default access to mount Virtual Media. If a permission error occurs, contact [Support](docs/bare-metal?topic=bare-metal-gettinghelp) for an update to the Root IPMI User permissions.
+* If an ISO is already mounted, an error message will appear with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
+* You might need to contact support to change the boot order in the BIOS.
+* When you mount an ISO, use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  After you connect to the VPN, you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
 * When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
   `\\<NAS username>\<isoname>.iso`
