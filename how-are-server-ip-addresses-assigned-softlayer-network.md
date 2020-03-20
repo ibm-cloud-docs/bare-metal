@@ -37,7 +37,7 @@ these IP addresses are collectively referred to as **Primary IP addresses**.
 More IP addresses can be bound to servers after you purchase **Secondary
 Subnets** through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. IP addresses that you purchased and managed by you are called **Secondary IP addresses**.
 
-For more information about acquiring IP addresses, see [Subnets and IPs](https://cloud.ibm.com/docs/infrastructure/subnets/){: external}.
+For more information about acquiring IP addresses, see [Subnets and IPs](https://cloud.ibm.com/docs/subnets/){: external}.
 
 
 ## Binding Secondary IP addresses

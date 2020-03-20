@@ -39,7 +39,7 @@ Currently, {{site.data.keyword.cloud}} does not provide you with direct access t
 ## Do you provide complimentary OS Reloads?
 {: faq}
 
-Automated OS reloads are free and can be performed through the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}. These include customized OS reloads (changing operating systems, addition or removal of control panels, and partition editing, and so on). For more information about performing an OS Reload, see [OS Reload procedure](/docs/infrastructure/software?topic=software-reloading-the-os).
+Automated OS reloads are free and can be performed through the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}. These include customized OS reloads (changing operating systems, addition or removal of control panels, and partition editing, and so on). For more information about performing an OS Reload, see [OS Reload procedure](/docs/software?topic=software-reloading-the-os).
 
 
 ## The primary drive on my bare metal server shows up as /dev/sdb. What is wrong?
@@ -68,7 +68,7 @@ EIST is an established technology. It's not common that you need to turn off EIS
 
 It is important to keep firmware updated to make sure that your bare metal server has optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware version is out of date, firmware can be updated by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
 
-You can initialize a firmware update during the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}.
+You can initialize a firmware update during the [OS Reload](/docs/software?topic=software-reloading-the-os) process within the [{{site.data.keyword.cloud_notm}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window}.
 
 ## What happens to drives in bare metal servers when a customer is finished with them?
 {: faq}
@@ -95,7 +95,7 @@ Your cloud service continues on a monthly service period at the charge in effect
 ## How do I use IPMI?
 {: faq}
 
-IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
 
 <!--## How do I restart my server?
 {: faq}-->

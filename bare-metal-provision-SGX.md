@@ -20,7 +20,7 @@ subcollection: bare-metal
 # Provisioning a bare metal server with Intel Software Guard Extension architecture
 {: #bm-server-provision-sgx}
 
-1. Use the procedure: [Building a custom bare metal server](/docs/infrastructure/bare-metal?topic=bare-metal-ordering-baremetal-server).
+1. Use the procedure: [Building a custom bare metal server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 * Select the following options on the order form:
 
 |Section|Option to select|

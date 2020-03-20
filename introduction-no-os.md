@@ -33,7 +33,7 @@ subcollection: bare-metal
 ## Changing to no OS
 {: #changing-to-no-os}
 
-A server can be reconfigured to having no OS. The reconfiguration is done through an OS reload. For mor information, see [Reloading the OS](/docs/infrastructure/software?topic=software-reloading-the-os).
+A server can be reconfigured to having no OS. The reconfiguration is done through an OS reload. For mor information, see [Reloading the OS](/docs/software?topic=software-reloading-the-os).
 
 1. Click **Devices** > **Device List**.
 2. Select the server that is to be reconfigured with no OS.

@@ -100,5 +100,5 @@ Your add-on storage isn't automatically connected to your bare metal server. You
 <!--The add-on storage shares the data center that your bare metal server is on.-->
 
 For more information about block and file storage, see the following links.
-* [About block storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-About)
-* [About file storage](/docs/infrastructure/FileStorage?topic=FileStorage-about)
+* [About block storage](/docs/BlockStorage?topic=BlockStorage-About)
+* [About file storage](/docs/FileStorage?topic=FileStorage-about)
