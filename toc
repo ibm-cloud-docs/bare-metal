@@ -40,6 +40,7 @@ IBM Cloud Bare Metal Servers
     Provisioning
         baremetal-provision-popular.md
         baremetal-provision.md
+        bm-datacenter-overview.md
         bare-metal-provision-SGX.md
         bm_provision_ssd.md
         managedPool_provision.md
