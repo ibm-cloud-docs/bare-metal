@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-03-23"
 
-keywords: bare metal, data centers
+keywords: data centers
 
 subcollection: bare-metal
 
@@ -22,15 +22,15 @@ subcollection: bare-metal
 {:external: .external}
 
 
-# Bare metal data centers overview
+# Data centers overview
 {: #bm-data-centers-overview}
 
-When you provision a bare metal server, you select the data center where you want it provisioned. To keep latency to a minimum, you typically select a data center location that is closest to where your workloads are located. If you see a location that has multiple selections (example: DAL05, DAL06, DAL07), these data centers are part of a multi-zone region (MZR). MZRs make sure that you have high availability and capacity within these regions.
+When you select a data center, you want to keep latency to a minimum. So, you typically select a data center location that is closest to where your workloads are located. If you see a location that has multiple selections (example: DAL05, DAL06, DAL07), these data centers are part of a multi-zone region (MZR). MZRs make sure that you have high availability and capacity within these regions.
 
-Choosing one data center over another in the same region does not offer different capabilities.
+Choosing one data center over another in the same region does not offer different capabilities.  
 {: note}
 
-The following data centers are available when you provision a bare metal server.
+The following data centers are available for your provisioning needs.
 
 | Region | Data centers |
 | ----- | ----- |
@@ -81,4 +81,4 @@ The following data centers are available when you provision a bare metal server.
 | Tokyo | TOK02 |
 | | TOK04 |
 | | TOK05 |
-{: caption="Table 1. Bare metal server data center locations" caption-side="top"}
+{: caption="Table 1. Data center locations" caption-side="top"}
