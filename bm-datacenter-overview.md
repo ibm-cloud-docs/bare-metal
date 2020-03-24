@@ -45,6 +45,8 @@ The following data centers are available for your provisioning needs.
 | | DAL07 |
 | | DAL09 |
 | | DAL10 |
+| | DAL12 |
+| | DAL13 |
 | **NA East** |
 | Montreal | MON01 |
 | Toronto | TOR01 |
