@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-03-23"
+lastupdated: "2020-03-24"
 
 keywords: data centers
 
@@ -32,55 +32,41 @@ Choosing one data center over another in the same region does not offer differen
 
 The following data centers are available for your provisioning needs.
 
-| Region | Data centers |
-| ----- | ----- |
-| **NA West** | |
-| Seattle | SEA01 |
-| San Jose | SJC01 |
-| | SJC03 |
-| | SJC04 |
-| **NA South** | |
-| Dallas | DAL05 |
-| | DAL06 |
-| | DAL07 |
-| | DAL09 |
-| | DAL10 |
-| | DAL12 |
-| | DAL13 |
-| **NA East** |
-| Montreal | MON01 |
-| Toronto | TOR01 |
-| Washington DC | WDC01 |
-| | WDC04 |
-| | WDC06 |
-| **South America** | |
-| Sal Paulo | SAO01 |
-| **Europe** | |
-| Amsterdam | AMS01 |
-| |  AMS03 |
-| Frankfurt | FRA02 |
-| | FRA04 |
-| | FRA05 |
-| London | |
-| | LON02 |
-| | LON04 |
-| | LON05 |
-| | LON06 |
-| Milan | |
-| | MIL01 |
-| Oslo | |
-| | OLS01 |
-| Paris | |
-| | PAR01 |
-| **Asia-Pacific** | |
-| Chennai | CHE01 |
-| Melbourne | MEL01 |
-| Seoul |  SEO01 |
-| Singapore | SNG01 |
-| Sydney | SYD01 |
-| | SYD04 |
-| | SYD05 |
-| Tokyo | TOK02 |
-| | TOK04 |
-| | TOK05 |
+| {{site.data.keyword.CloudDataCent_notm}} | Location | Region |
+|:----------------------|:---------|:---------------|
+| AMS03 | Amsterdam | Europe | 
+| CHE01 | Chennai | Asia-Pacific | 
+| DAL09 | Dallas | NA South | 
+| DAL10 | Dallas | NA South | 
+| DAL12 | Dallas | NA South | 
+| DAL13 | Dallas | NA South |
+| FRA02 | Frankfurt | Europe | 
+| FRA04 | Frankfurt | Europe | 
+| FRA05 | Frankfurt | Europe | 
+| HKG02 | Hong Kong | Asia-Pacific |
+| LON02 | London | Europe | 
+| LON04 | London | Europe | 
+| LON05 | London | Europe | 
+| LON06 | London | Europe | 
+| MEL01 | Melbourne | Asia-Pacific | 
+| MEX01 | Queretaro | NA South | 
+| MIL01 | Milan | Europe | 
+| MON01 | Montreal | NA East |  
+| OSL01 | Oslo | Europe | 
+| PAR01 | Paris | Europe | 
+| SAO01 | Sao Paulo | South America |
+| SEO01 | Seoul | Asia-Pacific |
+| SJC03 | San Jose | NA West |
+| SJC04 | San Jose | NA West | 
+| SNG01 | Singapore | Asia-Pacific | 
+| SYD01 | Sydney | Asia-Pacific | 
+| SYD04 | Sydney | Asia-Pacific | 
+| SYD05 | Sydney | Asia-Pacific | 
+| TOK02 | Tokyo | Asia-Pacific |
+| TOK04 | Tokyo | Asia-Pacific | 
+| TOK05 | Tokyo | Asia-Pacific | 
+| TOR01 | Toronto | NA East | 
+| WDC04 | Washington, DC | NA East | 
+| WDC06 | Washington, DC | NA East | 
+| WDC07 | Washington, DC | NA East | 
 {: caption="Table 1. Data center locations" caption-side="top"}
