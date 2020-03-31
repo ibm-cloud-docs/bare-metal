@@ -25,7 +25,7 @@ IBM Cloud Bare Metal Servers
         ssl_certificates_intro.md
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
-        
+
      {: topicgroup}
     Network
         network-options.md
@@ -88,6 +88,7 @@ IBM Cloud Bare Metal Servers
 
     {: .navgroup id="reference"}
     bm-activity-tracker-events.md
+    high-availability.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
