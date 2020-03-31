@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-11-22"
+  years: 2016, 2020
+lastupdated: "2020-03-31"
 
-keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake
+keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
 subcollection: bare-metal
 
@@ -53,6 +53,52 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 {: #options-for-bare-metal-servers}
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
 
+### AMD CPU support
+{: bm-amd-procs}
+
+When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
+
+You can choose from the following AMD EPYC "Rome" CPUs:
+* AMD EPYC 7F72 (24-core, 3.2 Ghz)
+<!--* AMD EPYC 7552 (48-core, 2.2 Ghz)-->
+<!--* AMD EPYC 7542 (32-core, 2.9 Ghz)-->
+<!--* AMD EPYC 7642 (48-core 2.3 Ghz)-->
+
+The following operating systems support AMD EPYC "Rome" CPUs:
+* RHEL 7
+* Ubuntu 18.04
+* **COMING SOON:** Microsoft Server 2019/2016 and CentOS 7.6 <br>
+
+
+Systems must be started in UEFI mode.
+{: note} 
+
+EPYC processors are available only in the **DAL13 and WDC06 data centers**.
+{: important}
+
+<!--| Multi-Zone Region | | |
+|:---|:---|:---|
+| Dallas | Frankfurt | Tokyo |
+| Sydney | London | Washington DC |-->
+
+<!--{: caption="Table 1. MZRs that offer AMD EPYC "Rome" CPUs" caption-side="top"}-->
+
+<!--| {{site.data.keyword.CloudDataCent_notm}} | Location | 
+|:----------------------|:---------|
+| DAL09 | Dallas |
+| DAL10 | Dallas |
+| DAL12 | Dallas | 
+| DAL13 | Dallas |
+| FRA02 | Frankfurt | 
+| FRA04 | Frankfurt | 
+| FRA05 | Frankfurt | 
+| TOK02 | Tokyo |
+| TOK04 | Tokyo |
+| TOK05 | Tokyo |
+| SYD01 | Sydney |
+| SYD04 | Sydney |
+| SYD05 | Sydney |-->
+
 ### Intel Cascade Lake CPU support
 <!--Need to add which servers are also available for SAP once the certification is done-->
 You can now choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
@@ -73,7 +119,7 @@ You can now see what servers are available in what data center when you provisio
 Only one port is active at a time. 
 {:note}
 
-For more information about network options, see [Network options](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
 
 **Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
 
