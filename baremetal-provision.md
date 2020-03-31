@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-22"
+  years: 2017, 2020
+lastupdated: "2020-03-31"
 
 keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -61,4 +61,4 @@ You can also order as a quote or to add it to an estimate. When you save a quote
 
 ## Next Steps
 {: #prov-next}
-After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers).
