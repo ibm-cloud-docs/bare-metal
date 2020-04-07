@@ -31,7 +31,7 @@ Although most {{site.data.keyword.cloud}} customers use one of the standard oper
 For the methods to work, you need to connect to the private network through the SL VPN service, such as [IBM Cloud SSL VPN - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server that is connected to the network.
 
 Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console and clicking **Interface > Media tab**.
-{ :note}
+{: note}
 
 ## Option 1 (preferred): using IPMI (ISO on a CIFS share)
 {: #bm-mount-iso-opt-1}
