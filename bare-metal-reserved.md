@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-04-08"
+  years: 2019, 2020
+lastupdated: "2020-04-27"
 
-keywords: reserved bare metal, cost savings, guaranteed capacity
+keywords: reserved bare metal, bare metal reserved
 
 subcollection: bare-metal
 
@@ -20,33 +20,25 @@ subcollection: bare-metal
 # Reserved bare metal servers
 {: #about-reserved-bare-metal-servers}
 
-{{site.data.keyword.baremetal_long}} reserved instances offering is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a 1-year or a 3-year contract. You are guaranteed reserved instances within the POD and data center of your choice for the life of the contract term.
+{{site.data.keyword.baremetal_long}} reserved servers offering is a great option if you want guaranteed resources for future deployments. You choose between either a 1-year or a 3-year contract. 
 
-Reserved bare metal server instances offer many conveniences, including the following advantages:
+Reserved bare metal servers offer many conveniences, including the following advantages:
 
 * **Guaranteed availability**
 
-    When you reserve capacity, the capacity is guaranteed for the life of your contract term.
+  Your reserved bare metal capacity is maintained in the data center and POD that you selected for the life of your contract term.
 
 * **Global availability**
 
-    The reserved bare metal server offering is available in data centers across the globe.
-
-* **Reliable provisioning**
-
-   You can provision and reclaim bare metal server instances at any time.
-
-* **Cost savings**
-
-    Choosing either a 1-year or a 3-year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly bare metal server billing cycles.
+   Reserved bare metal servers are available in all MZRs and SZRs globally. 
 
 ## Limitations
 
-Consider the following limitations before you reserve capacity and provision reserved bare metal server instances:
+Consider the following limitations before you reserve capacity and provision a reserved bare metal server:
 
-* You can't upgrade or downgrade your instances.
+* Your reserved bare metal server configuration can't be changed after your order is complete. 
 * Your reserved capacity contract can't be canceled.
 
 ## Notifications
 
-An email notification is sent one month before the end of the term on your reserved bare metal server capacity.
+An email notification is sent one month before the end of the term on your reserved bare metal server.
