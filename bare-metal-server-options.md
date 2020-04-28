@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-04-20"
+lastupdated: "2020-04-28"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
@@ -60,21 +60,19 @@ When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now 
 
 You can choose from the following AMD EPYC "Rome" CPUs:
 * AMD EPYC 7642 (24-core, 3.2 Ghz)
+<!--* **COMING SOON** AMD EPYC 7F72 (48-core, 3.2 Ghz)-->
 
-
-The following operating systems support AMD EPYC "Rome" CPUs:
+The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 * RHEL 7
 * Ubuntu 18.04
 * CentOS 7.6 
-* **COMING SOON:** Microsoft Server 2019/2016
-
+* Microsoft Server 2019/2016
 
 Systems must be started in UEFI mode.
 {: note} 
 
-EPYC processors are available only in the **DAL13 and WDC06 data centers**.
+EPYC processors are available in the following data centers. **DAL13 and WDC06 data centers**.
 {: important}
-
 
 ### Intel Cascade Lake CPU support
 
@@ -96,7 +94,7 @@ You can now see what servers are available in what data center when you provisio
 Only one port is active at a time. 
 {: note}
 
-For more information about network options, see [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options).
+For more information about network options, see [Network options](/docs/bare-metal?topic=bare-metal-network-options).
 
 **Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
 
