@@ -12,6 +12,7 @@ IBM Cloud Bare Metal Servers
     bare-metal-reserved.md
     about-SGX.md
     about-Optane.md
+    about-NVMe.md
     what-raid.md
     bare-metal-software.md
 
