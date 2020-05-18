@@ -65,11 +65,11 @@ You can choose from the following AMD EPYC "Rome" CPUs:
 The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 * RHEL 7
 * Ubuntu 18.04
-* CentOS 7.6 
+* CentOS 7.6
 * Microsoft Server 2019/2016
 
 Systems must be started in UEFI mode.
-{: note} 
+{: note}
 
 EPYC processors are available in the following data centers. **DAL13 and WDC06 data centers**.
 {: important}
@@ -82,16 +82,21 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 * Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
 * Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
 
+### NVIDIA GPU support
+{: #bm-gpu-support}
+
+For certain bare metal servers, you can add the processing power of NVIDIA GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You will need to install the appropriate drivers. See [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.nvidia.com/Download/index.aspx?lang=en-us){: new_window}
+
 ### Dynamic inventory
 {: #bm-dynamic-inv}
 
 You can now see what servers are available in what data center when you provision a bare metal server. If a server is not available in the data center you selected, hover over the server name. A list is displayed that indicates the data centers in which the server is available. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
-### Network redundancy 
+### Network redundancy
 
-**Port redundancy** provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables. 
+**Port redundancy** provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
 
-Only one port is active at a time. 
+Only one port is active at a time.
 {: note}
 
 For more information about network options, see [Network options](/docs/bare-metal?topic=bare-metal-network-options).
