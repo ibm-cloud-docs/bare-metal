@@ -29,8 +29,8 @@ NVMe SSDs use the same NAND flash as SATA SSDs but with a faster memory interfac
 
 You cannot select an NVMe SSD drive as the boot disk for a server.
 
-NVMe SSD drives must be selected as individual drives. You cannot select NVMe SSD drives from RAID storage groups
+NVMe SSD drives must be selected as individual drives. You cannot select NVMe SSD drives from RAID storage groups.
 
 No limitations exist on the number of NVMe SSDs you can provision. The number depends on the server and PCI slots on the system board. Currently, you are limited to 3.
 
-The GPUs share PCI slots as the NVMe SSDs. You cannot configure more NVMe SSDs than GPUs. This limit is also dependent on the server's system board.
+The GPUs share PCI slots with the NVMe SSDs. You cannot configure more NVMe SSDs than GPUs. This limit is also dependent on the server's system board.
