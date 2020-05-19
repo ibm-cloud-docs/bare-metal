@@ -82,6 +82,11 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 * Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
 * Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
 
+### NVIDIA GPU support
+{: #bm-gpu-support}
+
+For certain bare metal servers, you can add the processing power of NVIDIA GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You will need to install the appropriate drivers. See [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.nvidia.com/Download/index.aspx?lang=en-us){: new_window}
+
 ### Dynamic inventory
 {: #bm-dynamic-inv}
 
