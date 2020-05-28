@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-04-28"
+lastupdated: "2020-05-26"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
@@ -59,7 +59,7 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
 
 You can choose from the following AMD EPYC "Rome" CPUs:
-* AMD EPYC 7642 (24-core, 3.2 Ghz)
+* AMD EPYC 7642 (48-core, 2.3 Ghz)
 <!--* **COMING SOON** AMD EPYC 7F72 (48-core, 3.2 Ghz)-->
 
 The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
