@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-12-03"
+  years: 2014, 2020
+lastupdated: "2020-05-26"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -81,16 +81,6 @@ The end of life process is initiated when the drive malfunctions or if the age o
 {: faq}
 
 Yes! You can now see what servers are available in what data center when you provision a bare metal server. But, this option is available for only the hourly offering. You cannot see server availability with the monthly offering. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers#bm-select-popular-servers).
-
-## What's included with my reserved bare metal server?
-{: faq}
-
-CPU, RAM, disk drive, and RAID are included in the reservation for the contracted term. If you need higher network bandwidth, greater storage capacity, operating system, and third-party software, these add-ons are charged monthly.
-
-## What happens at the end of my reserved bare metal server contract?
-{: faq}
-
-Your cloud service continues on a monthly service period at the charge in effect on the expiration of your contract.
 
 ## How do I use IPMI?
 {: faq}
