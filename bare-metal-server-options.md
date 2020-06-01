@@ -60,7 +60,7 @@ When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now 
 
 You can choose from the following AMD EPYC "Rome" CPUs:
 * AMD EPYC 7642 (48-core, 2.3 Ghz)
-<!--* **COMING SOON** AMD EPYC 7F72 (48-core, 3.2 Ghz)-->
+* AMD EPYC 7F72 (48-core, 3.2 Ghz)
 
 The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 * RHEL 7
@@ -71,7 +71,7 @@ The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 Systems must be started in UEFI mode.
 {: note}
 
-EPYC processors are available in the following data centers. **DAL13 and WDC06 data centers**.
+EPYC processors are available in select data centers.
 {: important}
 
 ### Intel Cascade Lake CPU support
