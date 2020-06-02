@@ -46,7 +46,7 @@ IBM Cloud Bare Metal Servers
         managedPool_provision.md
         bm-datacenter-overview.md
 
-    /vsi/virtual-servers-navigating-devices
+    /virtual-servers/virtual-servers-navigating-devices
 
     {: .topicgroup}
     Configuring
@@ -75,7 +75,7 @@ IBM Cloud Bare Metal Servers
     {: .topicgroup}
     Backing up and recovering
         can-i-back-data-between-bare-metal-servers-private-network.md
-        [Launching a rescue kernel](/infrastructure/vsi/virtual-servers-launching-rescue)
+        [Launching a rescue kernel](/virtual-servers/virtual-servers-launching-rescue)
         bare-metal-veeam-o365.md
 
     {: .topicgroup}
@@ -96,7 +96,7 @@ IBM Cloud Bare Metal Servers
     get-help-and-support.md
     raid-support.md
     faq.md
-    [FAQs: Servers (general)](/infrastructure/vsi/virtual-servers-faqs-servers-general-)
-    [FAQs: OS Reload](/infrastructure/software/software-faqs)
-    [FAQs: cpsrvd email](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
+    [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
+    [FAQs: OS Reload](/software/software-faqs)
+    [FAQs: cpsrvd email](/software/software-faqs#why-did-my-cpsrvd-email-fail-)
     {: .navgroup-end}
