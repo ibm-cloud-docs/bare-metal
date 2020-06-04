@@ -20,7 +20,8 @@ subcollection: bare-metal
 # Hardware monitoring and security controls
 {: #bm-hardware-monitroing-security-controls}
 
-The escalation and sophistication of malicious threats has you employing more stringent security requirements and scrutinizing every aspect of your execution environment. You're looking to your cloud providers to offer hardware monitoring and security controls that can determine whether a workload is running on trusted hardware in a known location. {{site.data.keyword.cloud}} is leading the way by enabling you to deploy hybrid and cloud environments with enhanced security verification of your launch environment by using Intel&reg; Trusted Execution Technology (Intel&reg; TXT). {: shortdesc}
+The escalation and sophistication of malicious threats has you employing more stringent security requirements and scrutinizing every aspect of your execution environment. You're looking to your cloud providers to offer hardware monitoring and security controls that can determine whether a workload is running on trusted hardware in a known location. {{site.data.keyword.cloud}} is leading the way by enabling you to deploy hybrid and cloud environments with enhanced security verification of your launch environment by using Intel&reg; Trusted Execution Technology (Intel&reg; TXT). 
+{: shortdesc}
 
 ## How it works
 
