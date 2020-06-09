@@ -85,7 +85,7 @@ Yes! You can now see what servers are available in what data center when you pro
 ## How do I use IPMI?
 {: faq}
 
-IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [system-specific tool](/docs/iaas-vpn?topic=VPN-use-ssl-vpn#product-specific-impi-instructions).
+IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [Standalone VPN clinet](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
 
 <!--## How do I restart my server?
 {: faq}-->
