@@ -49,17 +49,62 @@ The pool definitions are listed in the following table:
 
 | Pool      | Location          |
 | ------------- |:-------------:|
-| US & Canada | DAL01<br/><br/>DAL02<br/><br/>DAL04<br/><br/>DAL07<br/><br/>DAL09<br/><br/>DAL10<br/><br/>DAL12<br/><br/>DAL13<br/><br/>HOU02<br/><br/>MON01<br/><br/>SEA01<br/><br/>SJC01<br/><br/>SJC03<br/><br/>SJC04<br/><br/>TOR01<br/><br/>WDC01<br/><br/>WDC04<br/><br/>WDC06<br/><br/>WDC07|
-| Amsterdam, London & Paris | AMS01<br/><br/>AMS03<br/><br/>LON01<br/><br/>LON02<br/><br/>LON04<br/><br/>LON05<br/><br/>LON06<br/><br/>PAR01 |
-| Australia | MEL01<br/><br/>SYD01<br/><br/>SYD04<br/><br/>SYD05 |
-| Brazil | SAO01 |
-| Frankfurt | FRA02<br/><br/>FRA04<br/><br/>FRA05 |
-| India | CHE01 |
-| Italy | MIL01 |
-| South Korea | SEO01 | 
-| Mexico | MEX01 | 
-| Norway | OSL01 | 
-| Singapore, Hong Kong & Tokyo | HKG02<br/><br/>SNG01<br/><br/>TOK02<br/><br/>TOK04<br/><br/>TOK05 |
+| US & Canada | |
+| | DAL01 |
+| | DAL02 |
+| | DAL04 |
+| | DAL07 | 
+| | DAL09 | 
+| | DAL10 | 
+| | DAL12 | 
+| | DAL13 | 
+| | HOU02 | 
+| | MON01 | 
+| | SEA01 | 
+| | SJC01 | 
+| | SJC03 |
+| | SJC04 |
+| | TOR01 | 
+| | WDC01 | 
+| | WDC04 | 
+| | WDC06 |
+| | WDC07 |
+| Amsterdam London Paris | |
+| | AMS01 |
+| | AMS03 |
+| | LON01 | 
+| | LON02 |
+| | LON04 |
+| | LON05 | 
+| | LON06 |
+| | PAR01 |
+| Australia | | 
+| | MEL01 |
+| | SYD01 |
+| | SYD04 |
+| | SYD05 |
+| Brazil |  |
+| | SAO01 |
+| Frankfurt |  |
+| | FRA02 |
+| | FRA04 |
+| | FRA05 |
+| India |  |
+| | CHE01 |
+| Italy |  | 
+| | MIL01 |
+| South Korea | 
+| | SEO01 | 
+| Mexico |  | 
+| | MEX01 |
+| Norway |  | 
+| | OSL01 |
+| Singapore, Hong Kong & Tokyo | |
+| | HKG02 |
+| | SNG01 |
+| | TOK02 |
+| | TOK04 |
+| | TOK05 |
 {:caption="Table 1. Pooling definitions" caption-side="top"}
 
 To add a pool, click **Network** > **Bandwidth** > **Pools** > **Add**. 
