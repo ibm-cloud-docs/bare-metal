@@ -27,10 +27,7 @@ IBM Cloud Bare Metal Servers
         intel-trusted-execution-technology-txt.md
         does-softlayer-keep-bare-metal-servers-date-security-patches.md
 
-     {: topicgroup}
-    Network
-        network-options.md
-
+    network-options.md
     bare-metal-vmware.md
     bare-metal-virtualization.md
     bare-metal-sap-applications.md
