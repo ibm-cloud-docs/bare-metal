@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-18"
+lastupdated: "2020-08-10"
 
 keywords: mount iso bare metal
 
@@ -26,7 +26,7 @@ subcollection: bare-metal
 ## Overview
 {: #bm-mounting-iso-overview}
 
-Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have three options for mounting custom ISOs.
+Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have two options for mounting custom ISOs.
 
 For the methods to work, you need to connect to the private network through the SL VPN service, such as [IBM Cloud SSL VPN - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server that is connected to the network.
 
@@ -63,19 +63,19 @@ In some older IPMI consoles, you can skip this option.
 {: note}
 
 
-## Option 2: Using IPMIView (ISO on a CIFS share)
-{: #bm-mount-iso-opt-2}
+<!--## Option 2: Using IPMIView (ISO on a CIFS share)
+{: #bm-mount-iso-opt-2}-->
 
-Prerequisites:
+<!--Prerequisites:
 * Have a bootable ISO
 * A Windows CIFS Server or NAS Storage to store the bootable ISO
 * The ISO is uploaded to the File Storage (NAS) that is associated with the server
 * IPMIView installed or access to the KVM console
 * ISO File is downloadable by using _wget_
-* SSH access with privileges to access / installation packages and create a mount
+* SSH access with privileges to access / installation packages and create a mount-->
 
 
-### Linux and Windows
+<!--### Linux and Windows
 Use the following steps to mount an ISO by using IPMIView:
 1. Open a support ticket and request that your server starts the Virtual CD-ROM as the first device. Each device must boot from their associated virtual CD-ROM. You can revert this setting after you install the OS.
 * Establish a VPN Connection to [VPN](http://www.softlayer.com/VPN-Access). If you are using Microsoft Internet Explorer, make sure to include `.softlayer.com` and `.cloud.ibm.com` in your Trusted Sites list and keep your Java installation up to date.
@@ -85,8 +85,8 @@ Use the following steps to mount an ISO by using IPMIView:
 
         mkdir /mnt/nasmount
         mount -t cifs //NAS_SERVER_NAME_ORIP/SLN#####-2 -o username=SLN#####-2,
-        password=NAS_STORAGE_PW,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755 /mnt/nasmount
-  * Mount Command parameter key:
+        password=NAS_STORAGE_PW,rw,nounix,iocharset=utf8,file_mode=0644,dir_mode=0755 /mnt/nasmount-->
+  <!--* Mount Command parameter key:
         NAS_SERVER_NAME_ORIP = The name or IP of the NAS storage.
         /SLN#####-2 = The username and folder name to connect to your NAS storage.
         NAS_STORAGE_PW = The password to your NAS storage.
@@ -103,9 +103,9 @@ Use the following steps to mount an ISO by using IPMIView:
       2. Open IPMIView and go to **File > New > System**.
       3. Use the IPMI IP address from the hardware object to complete the Server Name and IP address fields.<br>
       4. Double-click the system with the same IP address on the left side and enter ADMIN for Login ID and the IPMI password from the hardware object.
-      5. After you connect, you have many tabs available in the window. You can use **Text Console** or **KVM Console** to connect to the server.
+      5. After you connect, you have many tabs available in the window. You can use **Text Console** or **KVM Console** to connect to the server.-->
 
-* Open the Virtual Media Tab
+<!--* Open the Virtual Media Tab
 * Complete the CD-ROM Image connection details.
   *
     * Share host = The IP address of the NAS Storage. You can find this value pinging your NAS storage server name. For example, `ping nas501.service.softlayer.com`
@@ -119,9 +119,9 @@ Use the following steps to mount an ISO by using IPMIView:
 * Follow system prompts to _Boot the BOOTABLE ISO_
 * Install OS
 * Unmount the Virtual Media
-* Restart Server
+* Restart Server-->
 
-## Option 3: Mounting an ISO from your local computer
+## Option 2: Mounting an ISO from your local computer
 {: #bm-mount-iso-opt-3}
 
 <a name="option3"></a>
@@ -155,5 +155,5 @@ In some older IPMI consoles this option is not available so you can skip this st
 * If an ISO is already mounted, an error message appears with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
 * You might need to contact support to change the boot order in the BIOS.
 * When you mount an ISO, use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  After you connect to the VPN, you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
-* When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
-  `\\<NAS username>\<isoname>.iso`
+<!--* When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
+  `\\<NAS username>\<isoname>.iso`-->
