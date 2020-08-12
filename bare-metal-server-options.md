@@ -81,6 +81,7 @@ You can now choose from the following Intel Cascade Lake CPUs when you provision
 * Intel Xeon 4210 (10-Core, 2.2 GHz, 85 W)
 * Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
 * Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
+* Intel Xeon 6250 (8-Core, 3.9 GHz, 185 W)
 
 ### NVIDIA GPU support
 {: #bm-gpu-support}
