@@ -49,4 +49,4 @@ When you use the forums to ask a question, tag your question so that it is seen 
 
 <!--See [Getting help ![External link icon](../icons/launch-glyph.svg "External link icon")](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help){: new_window} for more details about using the forums.-->
 
-For more information about opening an IBM support ticket, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For more information about opening an IBM support ticket, see [Contacting support](/docs/get-support?topic=get-support-using-avatar).
