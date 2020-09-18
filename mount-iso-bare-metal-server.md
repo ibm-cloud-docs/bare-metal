@@ -28,7 +28,7 @@ subcollection: bare-metal
 
 Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have two options for mounting custom ISOs.
 
-For the methods to work, you need to connect to the private network through the SL VPN service, such as [IBM Cloud SSL VPN - AMS01](https://vpn.ams01.softlayer.com/prx/000/http/localhost/login) or through another server that is connected to the network.
+For the methods to work, you need to connect to the private network through the SL VPN service, such as `IBM Cloud SSL VPN - AMS01`<!--(https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)--> or through another server that is connected to the network.
 
 Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console and clicking **Interface > Media tab**.
 {: note}
@@ -151,9 +151,9 @@ In some older IPMI consoles this option is not available so you can skip this st
 ## Troubleshooting
 {: #bm-mount-iso-troubleshooting}
 
-* Not all users have default access to mount Virtual Media. If a permission error occurs, contact [Support](docs/bare-metal?topic=bare-metal-gettinghelp) for an update to the Root IPMI User permissions.
+* Not all users have default access to mount Virtual Media. If a permission error occurs, contact [Support](/docs/bare-metal?topic=bare-metal-gettinghelp) for an update to the Root IPMI User permissions.
 * If an ISO is already mounted, an error message appears with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
 * You might need to contact support to change the boot order in the BIOS.
-* When you mount an ISO, use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  After you connect to the VPN, you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).
+<!--* When you mount an ISO, use [SSL VPN](http://vpn.softlayer.com) instead of PPTP VPN.  After you connect to the VPN, you can also access the system's IPMI through the IPMI address (https://private-ip-IPMI-management).-->
 <!--* When you input a path to an ISO, use the UNC Name Syntax (Universal Naming Convention) for the path, for example:
   `\\<NAS username>\<isoname>.iso`-->
