@@ -47,7 +47,7 @@ The following example shows how to create an array. You are presented with a lis
 
 1. To select the drives, press the SPACE bar to populate the *Selected Drives* box.
 * After you select all the drives you would like to use in your array, press ENTER to go to the RAID configuration step.
-* Choose the type of RAID that you want to use. If you need assistance to figure out which RAID setup best suits your needs, see the following [FAQ from Adaptec](http://www.adaptec.com/en-us/_common/compatibility/_education/raid_level_compar_wp.htm){: external}.
+* Choose the type of RAID that you want to use. <!--If you need assistance to figure out which RAID setup best suits your needs, see the following [FAQ from Adaptec](http://www.adaptec.com/en-us/_common/compatibility/_education/raid_level_compar_wp.htm){: external}.-->
 * Provide an Array Label during the configuration. It is a good practice to include the type of RAID in the label (for example: RAID10-A).
 * Press **Enter** to go to the remaining settings. Use the default values.
 
