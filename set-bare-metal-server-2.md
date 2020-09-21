@@ -17,7 +17,7 @@ subcollection: bare-metal
 {:new_window: target="_blank"}
 
 
-# Setting Up a Bare Metal Server
+# Setting up a bare metal server
 {: #bm-set-up}
 
 You can set up a Bare Metal Server as a dedicated server.
@@ -30,7 +30,7 @@ You can set up a Bare Metal Server as a dedicated server.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
-## Setting Up a Bare Metal Server
+## Setting up a bare metal server
 
 Use the following steps to set up a Bare Metal Server:
 
