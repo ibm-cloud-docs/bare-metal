@@ -64,7 +64,7 @@ The following table lists the actions that generate an event:
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
 is available in the {{site.data.keyword.cloud_notm}} region where the events are generated. For more information, see [Viewing account
-events](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-view_events).
+events](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-view_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service
 in the same region where the action happens.
