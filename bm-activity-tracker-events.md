@@ -30,7 +30,7 @@ with the account can trigger bare metal server events that are logged in {{site.
 {:shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.cloud}} console.
 {: tip}
