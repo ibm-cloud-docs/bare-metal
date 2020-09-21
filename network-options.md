@@ -95,7 +95,7 @@ Applicable when a public network interface is requested, this option places a fi
 The following network options and services are always included with your {{site.data.keyword.baremetal_short}}:
 - **Private network interface** - All {{site.data.keyword.baremetal_short}} include access to the private network, which allows access to other IBM Services.
 - **Primary IP addresses** - A private IPv4 address is included with a private network interface. If a public network interface is selected, a public IPv4 address is also included. These addresses provide basic connectivity to the server. Learn more about [primary IP addresses](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets).
-- **VPN Management** - Manage access to the subnet the server resides on for users when connecting through [VPN](/docs/iaas-vpn?topic=VPN-about-iaas-vpn).
+- **VPN Management** - Manage access to the subnet the server resides on for users when connecting through [VPN](/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn).
 
 ## Understanding network options on your invoice
 {: #server-invoice-network}
