@@ -23,7 +23,7 @@ subcollection: bare-metal
 {:# bm-raid-support-ticket}
 
 If you have a question about using RAID on your bare metal server, you might find an answer in the [IBM Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){:new_window} forum.
-You can also open a support ticket. For more information about support tickets, see [Opening a support ticket.](https://cloud.ibm.com/docs/get-support?topic=get-support-getting-customer-support#open-ticket){:new_window}
+You can also open a support ticket. For more information about support tickets, see [Opening a support ticket.](/docs/get-support?topic=get-support-using-avatar#open-ticket)
 {:shortdesc}
 
 When a support ticket is created, you need to provide RAID log files. The information in RAID log files is critical to the recovery of a lost RAID configuration. Providing your log files helps the support team identify drive order, array membership, array geometry, and cabling issues. Depending on the type of RAID controller that you are using, Adaptec or LSI, use the following commands to retrieve RAID log files.
