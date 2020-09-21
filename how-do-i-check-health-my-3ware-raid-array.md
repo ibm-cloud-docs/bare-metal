@@ -23,7 +23,7 @@ subcollection: bare-metal
 With 3ware, you can use a browser interface. However, unless you access the interface locally, it can be a security risk. Use the command-line interface instead.
 
 You can download the 3ware CLI utilities from the [IBM Cloud CLI Plug-in Repository
-](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI Plug-in for cf CLI](https://cloud.ibm.com/docs/cli?topic=cloud-cli-vpn_cli_for_cf).
+](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI Plug-in for cf CLI](/docs/cli?topic=cli-ibmcloud-admincli).
 
 **Quick command reference for 3ware CLI tools**
 
