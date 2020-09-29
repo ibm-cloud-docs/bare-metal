@@ -14,12 +14,14 @@ Bare Metal Servers
     about-Optane.md
     about-NVMe.md
     what-raid.md
-    bare-metal-software.md
+    about-software.md
 
     {: .topicgroup}
     Operating systems
         can-i-change-operating-system-os-my-device.md
         introduction-no-os.md
+        microsoft-windows-update-instructions.md
+        redhat-update-instructions.md
 
     {: .topicgroup}
     Security
@@ -82,6 +84,25 @@ Bare Metal Servers
         cancel_spare_pool.md
         reactivating_spare_pool_device.md
         spare-pool-API-methods.md
+
+    {: .topicgroup}
+    Software
+        order.md
+        vsi_reload_os.md
+        vsi_reload_os_image.md
+        cpcompmanlic.md
+        software-passwords.md
+        adding-ipv6-ubuntu-systems.md
+        install-clamav.md
+        notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+        local-wsus.md
+
+        {: .topicgroup}
+        R1Soft
+            prov-R1Soft.md
+            configR1Soft.md
+            r1SoftUpgrade.md
+            r1soft-cdp-bare-metal-restore-procedures.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -94,6 +115,5 @@ Bare Metal Servers
     raid-support.md
     faq.md
     [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
-    [FAQs: OS Reload](/software/software-faqs)
-    [FAQs: cpsrvd email](/software/software-faqs#why-did-my-cpsrvd-email-fail-)
+    os-reload-question-faq.md
     {: .navgroup-end}
