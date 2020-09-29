@@ -27,4 +27,4 @@ If two or more {{site.data.keyword.baremetal_short}} exist on an account, data f
 
 * [IBM Cloud Backup](/docs/Backup?topic=Backup-getting-started#getting-started) is an enterprise backup solution that can automate backups across multiple servers. Data is stored to an enterprise SAN (storage area network).
 * [Veeam on IBM Cloud](https://www.ibm.com/cloud/veeam){: external} delivers reliable backup and predicable disaster recovery for virtual and physical workloads.
-* [R1Soft CDP](/docs/software?topic=software-ordering-r1soft#ordering-r1soft) provides high-performance disk-to-disk server backup that features a central management and data repository. R1Soft CDP protects data at block level, and unique disk blocks on the server are stored only once across all recovery points, increasing storage efficiency.
+* [R1Soft CDP](/docs/bare-metal?topic=bare-metal-ordering-r1soft#ordering-r1soft) provides high-performance disk-to-disk server backup that features a central management and data repository. R1Soft CDP protects data at block level, and unique disk blocks on the server are stored only once across all recovery points, increasing storage efficiency.
