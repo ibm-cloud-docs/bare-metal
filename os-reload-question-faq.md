@@ -19,7 +19,7 @@ subcollection: software
 {:note: .note}
 
 # FAQs: Software
-{: #software-faqs}
+{: #faqs}
 
 ## Can the Operating System (OS) be changed on the device?
 {: #can-the-operating-system-os-be-changed-on-the-device-}
