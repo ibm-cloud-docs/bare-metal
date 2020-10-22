@@ -22,6 +22,7 @@
     "Automated OS reloads free",
     "OS update for free",
     "os reload",
+    "free os reloads",
     "how to os reload",
     "can I change my OS for nothing",
     "are OS reloads complimentary",
@@ -64,6 +65,13 @@
     "server provision for selection",
     "bare metal server provision selection",
     "servers availablity",
+	  "order bare metal",
+	  "creating a baremetal server",  
+  	"to buy a new Bare Metal Server",
+    "how do I order a baremetal server",
+  	"I want to create a bare metal server",  
+  	"want to create a baremetal server" ,
+	  "help to create a bare metal server",
     "select my own server"
   ],
   "how-do-i-use-ipmi-": [
@@ -72,6 +80,7 @@
     "connecting to IPMI",
     "IPMI connection",
     "Where is IPMI Remote Management permissions located",
+   	"Where is IPMI Remote Management",  
     "IPMI Remote Management",
     "ipmi",
     "IPMI usage"
