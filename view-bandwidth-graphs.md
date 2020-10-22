@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-31"
+lastupdated: "2020-10-22"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -65,11 +65,13 @@ The pool definitions are listed in the following table:
 | | SJC03 |
 | | SJC04 |
 | | TOR01 | 
+| | TOR04 |
+| | TOR05 |
 | | WDC01 | 
 | | WDC04 | 
 | | WDC06 |
 | | WDC07 |
-| Amsterdam London Paris | |
+| Amsterdam, London & Paris | |
 | | AMS01 |
 | | AMS03 |
 | | LON01 | 
@@ -89,22 +91,25 @@ The pool definitions are listed in the following table:
 | | FRA02 |
 | | FRA04 |
 | | FRA05 |
-| India |  |
-| | CHE01 |
-| Italy |  | 
-| | MIL01 |
-| South Korea | 
-| | SEO01 | 
-| Mexico |  | 
-| | MEX01 |
-| Norway |  | 
-| | OSL01 |
-| Singapore, Hong Kong & Tokyo | |
+| Hong Kong, Japan & Singapore | |
 | | HKG02 |
+| | OSA21 |
+| | OSA22 |
+| | OSA23 |
 | | SNG01 |
 | | TOK02 |
 | | TOK04 |
 | | TOK05 |
+| India |  |
+| | CHE01 |
+| Italy |  | 
+| | MIL01 |
+| Mexico |  | 
+| | MEX01 |
+| Norway |  | 
+| | OSL01 |
+| South Korea | 
+| | SEO01 | 
 {:caption="Table 1. Pooling definitions" caption-side="top"}
 
 To add a pool, click **Network** > **Bandwidth** > **Pools** > **Add**. 
