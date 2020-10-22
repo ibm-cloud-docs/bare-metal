@@ -5,7 +5,7 @@ lastupdated: "2020-06-17"
 
 keywords: OS Reload, Operating System, cpsrvd email,
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 

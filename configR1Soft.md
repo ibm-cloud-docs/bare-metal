@@ -6,7 +6,7 @@ lastupdated: "2018-08-14"
 
 keywords: R1Soft , backup manager, firewall
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 

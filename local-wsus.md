@@ -5,7 +5,7 @@ lastupdated: "2018-05-16"
 
 keywords: WSUS, Microsoft Windows
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 

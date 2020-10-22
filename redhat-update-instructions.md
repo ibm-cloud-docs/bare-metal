@@ -5,7 +5,7 @@ lastupdated: "2020-02-27"
 
 keywords: Red Hat, RedHat
 
-subcollection: software
+subcollection: bare-metal
 ---
 
 {:shortdesc: .shortdesc}

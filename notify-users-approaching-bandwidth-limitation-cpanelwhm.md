@@ -5,7 +5,7 @@ lastupdated: "2017-09-24"
 
 keywords: OS Reload, Operating System, cpsrvd email, Email, Cpanel, whm
 
-subcollection: software
+subcollection: bare-metal
 ---
 
 {:shortdesc: .shortdesc}

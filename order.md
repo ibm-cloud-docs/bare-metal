@@ -5,7 +5,7 @@ lastupdated: "2020-05-20"
 
 keywords: software
 
-subcollection: software
+subcollection: bare-metal
 ---
 
 {:shortdesc: .shortdesc}

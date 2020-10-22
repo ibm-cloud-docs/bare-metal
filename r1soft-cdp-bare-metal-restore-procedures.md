@@ -6,7 +6,7 @@ lastupdated: "2018-04-08"
 
 keywords: R1Soft, restoring OS, restoring bare metal
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 {:new_window: target="_blank"}

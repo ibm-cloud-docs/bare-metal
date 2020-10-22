@@ -5,7 +5,7 @@ lastupdated: "2017-09-27"
 
 keywords: Microsoft Windows Update, software update services
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 

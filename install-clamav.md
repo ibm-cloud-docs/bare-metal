@@ -5,7 +5,7 @@ lastupdated: "2017-09-26"
 
 keywords: ClamAV
 
-subcollection: software
+subcollection: bare-metal
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}

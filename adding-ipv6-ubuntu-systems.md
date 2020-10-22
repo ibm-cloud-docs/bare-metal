@@ -5,7 +5,7 @@ lastupdated: "2017-09-26"
 
 keywords: IPv6
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 {:shortdesc: .shortdesc}

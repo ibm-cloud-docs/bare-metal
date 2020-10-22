@@ -6,7 +6,7 @@ lastupdated: "2018-04-10"
 
 keywords: R1Soft
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 

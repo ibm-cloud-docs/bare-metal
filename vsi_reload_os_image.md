@@ -6,7 +6,7 @@ lastupdated: "2019-05-02"
 
 keywords: image template, OS Reload, operating system
 
-subcollection: software
+subcollection: bare-metal
 ---
 
 {:shortdesc: .shortdesc}

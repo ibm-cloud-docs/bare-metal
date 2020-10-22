@@ -8,7 +8,7 @@ lastupdated: "2020-01-30"
 
 keywords: OS Reload, operating system
 
-subcollection: software
+subcollection: bare-metal
 ---
 
 {:shortdesc: .shortdesc}

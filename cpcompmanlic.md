@@ -8,7 +8,7 @@ lastupdated: "2019-07-19"
 
 keywords: active control panel software, control panel licenses window, download license files, devices, canceling license
 
-subcollection: software
+subcollection: bare-metal
 
 ---
 
