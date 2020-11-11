@@ -19,7 +19,7 @@ subcollection: bare-metal
 {:faq: data-hd-content-type='faq'}
 {:support: data-reuse='support'}
 
-# FAQs for custom image templates
+# FAQs for custom image templates (Beta)
 {: #faqs-image-templates}
 
 ## Why don’t I see some of my disks as choices on the Create image template page?
