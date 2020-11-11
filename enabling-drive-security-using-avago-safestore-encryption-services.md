@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2014, 2018
-lastupdated: "2019-04-22"
+  years: 2014, 2020
+lastupdated: "2020-11-11"
 
 subcollection: bare-metal
 
@@ -20,7 +20,7 @@ Setting up drive security helps prevent access to stored data on removed disks w
 {: #prerequisites-enabling-drive-security-by-using-avago-safestore-encryption-services}
 
 * Bare metal server with SED Drives – 10 TB SATA
-* LSI/AVAGO MegaRAID SAS 9361 -8i or Similar LSI/AVAGO RAID cards
+* Broadcom/AVAGO MegaRAID SAS 9361 -8i or Similar Broadcom/AVAGO RAID cards
 * Installed Mega RAID Storage Manager Software
 
 ## Enabling drive security by using MegaRAID Storage Manager (MSM)
