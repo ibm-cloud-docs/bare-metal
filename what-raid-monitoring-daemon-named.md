@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-12-03"
+  years: 2017, 2020
+lastupdated: "2020-11-11"
 
 keywords: raid monitoring daemon
 
@@ -20,19 +20,19 @@ subcollection: bare-metal
 # Name and location of the RAID monitoring daemon
 {: #bm-raid-monitoring-daemon}
 
-{{site.data.keyword.cloud}} primarily uses Adaptec and LSI RAID cards with a few exceptions for legacy hardware. The following table outlines the RAID manager locations, monitor locations, configurations, and RAID alert settings.
+{{site.data.keyword.cloud}} primarily uses Adaptec and Broadcom RAID cards with a few exceptions for legacy hardware. The following table outlines the RAID manager locations, monitor locations, configurations, and RAID alert settings.
 
 You can configure RAID alerts to bypass the monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
 
 <caption>Table 1. RAID configurations and settings</caption>
 
-||LSI Linux|LSI Windows|Adaptec Linux|Adaptec Windows|
+||Broadcom Linux|Broadcom Windows|Adaptec Linux|Adaptec Windows|
 |---|---|---|---|---|
-|**Manager Name**|LSI MegaRAID Storage Manager|LSI MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
+|**Manager Name**|Broadcom MegaRAID Storage Manager|Broadcom MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
 |**Manager Location**|/opt/MegaRAID/storcli|C:\Program Files (x86)\MegaRAID Storage Manager|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|
 |**Monitor Name**|MR_Monitor|MRMonitor|Adaptec Event Manager|Adaptec Event Manager|
-|**Monitor Location**|/opt/lsi/mrmonitor/bin/mrmonitord|C:\Program Files (x86)\LSI\MRMonitor|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|
-|**Process Name**|/opt/lsi/mrmonitor/bin/mrmonitord|||||
+|**Monitor Location**|/opt/Broadcom/mrmonitor/bin/mrmonitord|C:\Program Files (x86)\Broadcom\MRMonitor|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|
+|**Process Name**|/opt/Broadcom/mrmonitor/bin/mrmonitord|||||
 |**Log Location**|Default Message Log Location for OS such as /var/log/messages|GUI Only|/usr/StorMan/RaidEvtA.log|GUI Only|
 |**Notification E-Mail Destination**|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|
 |**Notification E-Mail Source Format**|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|
