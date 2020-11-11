@@ -8,6 +8,7 @@ Bare Metal Servers
     getting-started.md
     [About bare metal servers](https://www.ibm.com/cloud/bare-metal-servers)
     bare-metal-server-options.md
+    bm-about-custom-image-templates.md
     spare_pools.md
     bare-metal-reserved.md
     about-SGX.md
@@ -59,10 +60,18 @@ Bare Metal Servers
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
+        [IBM Cloud monitoring services](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring)
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
         managing_port_control.md
         managedPool_managing.md
+
+    {: .topicgroup}
+    Using custom image templates (Beta)
+        bm-create-custom-image-template.md
+        bm-delete-custom-image-template.md
+        bm-importing-custom-image-template.md
+        bm-order-bm-from-image-template.md
 
     {: .topicgroup}
     Using RAID
@@ -111,9 +120,13 @@ Bare Metal Servers
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    get-help-and-support.md
-    raid-support.md
-    faq.md
-    [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
-    os-reload-question-faq.md
+      get-help-and-support.md
+      raid-support.md
+
+    {: .topicgroup}
+    FAQs
+        faq.md
+        [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
+        os-reload-question-faq.md
+        faqs-image-templates.md
     {: .navgroup-end}
