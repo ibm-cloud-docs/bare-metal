@@ -24,7 +24,7 @@ subcollection: bare-metal
 # Creating a custom bare metal server image template (Beta)
 {: #bm-create-custom-image-template}
 
-With custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. Image templates provide an imaging option for all {{site.data.keyword.baremetal_short, regardless of operating system. When your image template is complete, you can use it to create another bare metal server.
+With custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. Image templates provide an imaging option for all {{site.data.keyword.baremetal_short}}, regardless of operating system. When your image template is complete, you can use it to create another bare metal server.
 {:shortdesc}
 
 The {{site.data.keyword.baremetal_long}} custom image templates feature is classified as beta and is available for evaluation and testing purposes. Which means that it might be unstable and can change frequently. Beta features also might not provide the same level of performance or compatibility that generally available features provide and are not intended for use in a production environment.
