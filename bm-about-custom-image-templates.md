@@ -38,7 +38,7 @@ Image templates are not intended for backing up your data.
 
 The two main actions for any image template are _create_ and _deploy_. When you request to create an image a compressed backup of your data is created. The configuration information is recorded and the image template is stored on the {{site.data.keyword.cloud_notm}}. During the deployment stage of the image template, the automated system constructs a new server that is based on the data that is gathered from the selected image. The deployment process makes adjustments for volume, restores the copied data, and then makes final configuration changes (for example, network configurations) for the new host.
 
-## Prereqs 
+## Prerequisites 
 {: #bm-custom-image-prereqs}
 
 * Compatible system configurations 
