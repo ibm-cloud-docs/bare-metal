@@ -21,11 +21,8 @@ subcollection: bare-metal
 {:note: .note}
 {:beta: .beta}
 
-# Ordering a bare metal server from an image template (Beta)
+# Ordering a bare metal server from an image template
 {: #ordering-bm-from-image-template}
-
-The {{site.data.keyword.baremetal_long}} custom image templates feature is classified as beta and is available for evaluation and testing purposes. Which means that it might be unstable and can change frequently. Beta features also might not provide the same level of performance or compatibility that generally available features provide and are not intended for use in a production environment.
-{: beta}
 
 ## Before you begin
 {: #byb-bm-order-image-template}
@@ -43,7 +40,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 Use the following steps to order a bare metal server from an image template. 
 
 1. Go to the Image templates page by going to **Devices > Manage > Images**.
-2. Click the Action menu icon ![Actions menu icon](../icons/action-menu-icon.svg) for the image template that you want to use and select the type of bare metal server that you want to order.
+2. Click the Action menu icon  ![Actions menu icon](../icons/action-menu-icon.svg)  for the image template that you want to use and select the type of bare metal server that you want to order.
 3. Click **Order Bare Metal**.
 4. Enter the **Quantity** of servers to provision. 
 5. **Hostname** is a permanent or temporary name for your servers, for example, baremetal01. Click **Information** for formatting specifics.
