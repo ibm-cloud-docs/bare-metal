@@ -21,10 +21,10 @@ subcollection: bare-metal
 {:note: .note}
 {:beta: .beta}
 
-# Importing a custom image (Beta)
+# Importing a custom image
 {: #import-bm-custom-image}
 
-You can create a bare metal server by using an imported image template. The new bare metal servers have the same configurations <!--explain better what these configurations are--> that are included in the imported custom image template.
+You can create a bare metal server by using an imported image template. The new bare metal servers have the same configurations that are included in the imported custom image template.
 {:shortdesc}
 
 The {{site.data.keyword.baremetal_long}} custom image templates feature is classified as beta and is available for evaluation and testing purposes. Which means that it might be unstable and can change frequently. Beta features also might not provide the same level of performance or compatibility that generally available features provide and are not intended for use in a production environment.
