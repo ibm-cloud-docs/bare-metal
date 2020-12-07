@@ -46,7 +46,7 @@ The two main actions for any image template are _create_ and _deploy_. When you 
   - RAID 0, 1, 10 
   
 * Supported OSs
- - CentOS 6 and 7
+  - CentOS 6 and 7
   <!--- Debian 9-->
   - RHEL 6 and 7
   - Ubuntu 16 and 18
