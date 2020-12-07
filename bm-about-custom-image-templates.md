@@ -46,10 +46,10 @@ The two main actions for any image template are _create_ and _deploy_. When you 
   - RAID 0, 1, 10 
   
 * Supported OSs
-  - CentOS 6.10 and 7.6 <!--8-->
+ - CentOS 6 and 7
   <!--- Debian 9-->
-  <!--- RHEL 6.10, 7.6, 8-->
-  - Ubuntu 16.04 and 18.04
+  - RHEL 6 and 7
+  - Ubuntu 16 and 18
   <!--- Windows 2012 r2, 2016, 2019-->
 
 ## Limitations
