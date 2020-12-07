@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-08-12"
+lastupdated: "2020-12-07"
 
 keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
@@ -54,7 +54,7 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
 
 ### AMD CPU support
-{: bm-amd-procs}
+{: #bm-amd-procs}
 
 When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
 
@@ -75,6 +75,7 @@ EPYC processors are available in select data centers.
 {: important}
 
 ### Intel Cascade Lake CPU support
+{: #bm-cascade-lake-support}
 
 You can now choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
 
@@ -94,27 +95,27 @@ For certain bare metal servers, you can add the processing power of NVIDIA GPUs.
 You can now see what servers are available in what data center when you provision a bare metal server. If a server is not available in the data center you selected, hover over the server name. A list is displayed that indicates the data centers in which the server is available. For more information about provisioning a bare metal server, see [Selecting from fast provisioning servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
 ### Network redundancy
-
-**Port redundancy** provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
+{: #bm-network-redundancy}
+ 
+Port redundancy provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
 
 Only one port is active at a time.
 {: note}
 
-For more information about network options, see [Network options](/docs/bare-metal?topic=bare-metal-network-options).
+The following network redunancy options are availble for bare metal servers.
 
-**Automatic redundancy (Recommended)** automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance.
-
-**User-managed redundancy** must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved.
+| Redundancy options | Description |
+| ---- | ----|
+| Automatic redundancy (Recommended option) | Automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance. |
+| User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
+| No redundancy | In legacy data centers that don’t support automatic redundancy, no redundancy is the only option and isn't recommended in a new data center. |
+| Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
+{: caption="Table 1. Network redunancy options" caption-side="top"}
 
 VMWare requires user-managed links.
 {: tip}
 
-**No redundancy** is not recommended in a new data center.
-
-In legacy data centers that don’t support automatic redundancy, no redundancy is the only option.
-{: note}
-
-**Interface teaming** or link aggregation combines, in parallel, multiple network connections to provide redundancy and increase network throughput.
+For more information about network options, see [Network options](/docs/bare-metal?topic=bare-metal-network-options).
 
 ### Block and file storage add-on
 {: #bm-block-and-file-add-on}
