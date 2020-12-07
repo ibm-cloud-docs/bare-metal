@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-11"
+lastupdated: "2020-12-07"
 
 keywords: custom image template, bare metal image, image template
 
