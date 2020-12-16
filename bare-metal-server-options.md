@@ -108,7 +108,7 @@ The following network redunancy options are availble for bare metal servers.
 | ---- | ----|
 | Automatic redundancy (Recommended option) | Automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance. |
 | User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
-| No redundancy | In legacy data centers that don’t support automatic redundancy, no redundancy is the only option and isn't recommended in a new data center. |
+| No redundancy | This is the only option for legacy data centers that don’t support automatic redundancy. This option is not recommended in a new data center.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
 {: caption="Table 1. Network redunancy options" caption-side="top"}
 
