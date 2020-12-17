@@ -67,7 +67,7 @@ Bare Metal Servers
         managedPool_managing.md
 
     {: .topicgroup}
-    Using custom image templates (Beta)
+    Using custom image templates
         bm-create-custom-image-template.md
         bm-delete-custom-image-template.md
         bm-importing-custom-image-template.md
