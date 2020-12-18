@@ -60,7 +60,7 @@ Bare Metal Servers
         managing.md
         understanding-server-transaction.md
         view-bandwidth-graphs.md
-        [IBM Cloud monitoring services](/cloud-infrastructure?topic=cloud-infrastructure-monitoring)
+        [IBM Cloud monitoring services](/cloud-infrastructure/cloud-infrastructure-monitoring)
         how-do-i-check-health-my-3ware-raid-array.md
         bare-metal-managing-vmware.md
         managing_port_control.md
