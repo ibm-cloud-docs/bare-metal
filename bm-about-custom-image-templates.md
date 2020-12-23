@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-07"
+lastupdated: "2020-12-23"
 
 keywords: custom image template, bare metal image, image template
 
@@ -46,10 +46,10 @@ The two main actions for any image template are _create_ and _deploy_. When you 
   - RAID 0, 1, 10 
   
 * Supported OSs
-  - CentOS 6 and 7
+  - CentOS 6, 7<!--, 8-->
   <!--- Debian 9-->
-  - RHEL 6 and 7
-  - Ubuntu 16 and 18
+  - RHEL 6, 7<!--, 8-->
+  - Ubuntu 16, 18
   <!--- Windows 2012 r2, 2016, 2019-->
 
 ## Limitations
