@@ -20,6 +20,7 @@ subcollection: bare-metal
 {:important: .important}
 {:note: .note}
 {:external: target="_blank" .external}
+{:tip: .tip}
 
 # FAQs: Bare metal servers
 {: #bm-faq}
