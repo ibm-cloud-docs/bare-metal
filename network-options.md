@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-01"
+  years: 2019, 2021
+lastupdated: "2021-01-12"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -27,7 +27,7 @@ subcollection: bare-metal
 {{site.data.keyword.baremetal_long}} have a number of network choices available to suit your unique needs.
 {: shortdesc}
 
-## Interface(s)
+## Interface
 {: #network-interfaces}
 
 Select this option to choose whether you want your server to have public internet access, or only a private interface. Private network access is always included so the decision here is if you want your server to also have public internet access. If so, select **Public and Private**. Keep in mind that it is not possible to add a public interface to a server after it is provisioned with only a private interface.
@@ -53,7 +53,7 @@ Network maintenance is normal. While you are notified, you can avoid disruption 
 ## Port speed
 {: #network-port-speed}
 
-Select this option to choose the maximum operating speed of all network interfaces.
+Select either 100 Mbps, 1 Gbps, or 10 Gbps as the maximum operating speed of all network interfaces. 
 
 If you selected **None** for port redundancy, you might see an option that includes the word **unbonded**. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`sjc01.pod01`**, and **`wdc01.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active; this allows for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
 
