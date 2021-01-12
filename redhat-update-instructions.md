@@ -107,6 +107,10 @@ IBM update servers are in the private service network with the following locatio
 | TOK02 |	rhnsattok0201 |
 | TOK04	| rhnsattok0201 |
 | TOK05	| rhnsattok0201 |
+| **Osaka** |          |
+| OSA21 |	rhnsatosa2101a |
+| OSA22	| rhnsatosa2101a |
+| OSA23	| rhnsatosa2101a |
 | **Hong Kong** |      |
 | HKG02	| rhnsattok0201 |
 | **Seoul** |          |
