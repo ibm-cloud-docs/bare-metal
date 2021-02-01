@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-01-12"
+lastupdated: "2021-02-01"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -53,9 +53,35 @@ Network maintenance is normal. While you are notified, you can avoid disruption 
 ## Port speed
 {: #network-port-speed}
 
-Select either 100 Mbps, 1 Gbps, or 10 Gbps as the maximum operating speed of all network interfaces. 
+Select either 100 Mbps, 1 Gbps, 10 Gbps, or 25 Gbps as the maximum operating speed of all network interfaces. 
+
+The 25 Gbps port speed option is limited to select bare metal server options. For more information, see [25 Gbps port speed](/docs/bare-metal?topic=bare-metal-network-options#25gb-port-speed). 
+{: important}
 
 If you selected **None** for port redundancy, you might see an option that includes the word **unbonded**. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`sjc01.pod01`**, and **`wdc01.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active; this allows for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
+
+### 25 Gbps port speed
+{: 25gb-port-speed}
+
+The 25 Gbps port speed option is compatible with only 2U (12 drive) Cascade Lake processor servers and is available in select pods in only the following data centers:
+
+| 25 Gbps data centers | | |
+| ----- | ----- | --- |
+| DAL12 | DAL13 | |
+| FRA02 |  | |
+| LON04 | | |
+| SYD04 | SYD05 | |
+| TOK02 | TOK04 | TOK05 |
+| TOR04 | | |
+| WDC06 | WDC07 | |
+{: caption="Table 1. 25 GB network data centers" caption-side="top"}
+
+25 Gbps port speeds are available with the following operating systems:
+
+* CentOS 8.2
+* RHEL 8.2 
+* RHEL 8.2 for SAP
+* Windows server 2016, 2019
 
 ## Public egress bandwidth
 {: #network-bandwidth-public}
