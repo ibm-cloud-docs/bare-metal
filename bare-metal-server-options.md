@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2016, 2020
-lastupdated: "2020-12-07"
+  years: 2016, 2021
+lastupdated: "2021-02-02"
 
-keywords: bare metal, bare metal servers, POWER8, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
+keywords: bare metal, bare metal servers, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
 subcollection: bare-metal
 
@@ -38,11 +38,6 @@ Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenan
 {: #custom-based-bm}
 
 If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are provisioned in 2 - 4 hours and offer a greater variety of cores, speeds, RAM, and drives.
-
-### Custom POWER8-based servers
-{: #bm-power8}
-
-{{site.data.keyword.cloud_notm}} offers you the option to provision an IBM POWER8-based bare metal server. POWER8 servers are built with the POWER8 processor and an OpenPower-based platform, which is tuned specifically for cloud-based deployments for data, cognitive, and web workloads on Linux. For more information, see [POWER8 Servers](https://www.ibm.com/cloud/bare-metal-servers/power){: external}.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
@@ -79,10 +74,13 @@ EPYC processors are available in select data centers.
 
 You can now choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
 
-* Intel Xeon 4210 (10-Core, 2.2 GHz, 85 W)
-* Intel Xeon 5218 (16-Core, 2.3 GHz, 125 W)
-* Intel Xeon 6248 (20-Core, 2.6 GHz, 150 W)
-* Intel Xeon 6250 (8-Core, 3.9 GHz, 185 W)
+| Cascade Lake CPUs | Specifications |
+|-----|-----|
+| Intel Xeon 4210 | 10-Core, 2.2 GHz, 85 W |
+| Intel Xeon 5218 | 16-Core, 2.3 GHz, 125 W |
+| Intel Xeon 6248 | 20-Core, 2.6 GHz, 150 W |
+| Intel Xeon 6250 | 8-Core, 3.9 GHz, 185 W |
+{: caption="Table 1. Cascade Lake CPU options" caption-side="top"}
 
 ### NVIDIA GPU support
 {: #bm-gpu-support}
