@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-01-08"
+lastupdated: "2021-02-09"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -20,7 +20,6 @@ subcollection: bare-metal
 {:important: .important}
 {:note: .note}
 {:external: target="_blank" .external}
-{:tip: .tip}
 
 # FAQs: Bare metal servers
 {: #bm-faq}
@@ -98,7 +97,7 @@ Yes! You can now see what servers are available in what data center when you pro
 
 IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under *Devices* > _your server (device details)_> *Remote Mgmt*. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [Standalone VPN clinet](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
 
-<!--## How do I restart my server?
-{: faq}-->
+## What is business continuance insurance (BCI)?
+{: faq}
 
-<!--To restart an infrastructure resource from the IBM Cloud console, select Classic Infrastructure from the menu to get to the portal.--> <!--this FAQ needs clarity-->
+Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.
