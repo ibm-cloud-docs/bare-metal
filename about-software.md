@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-10-15"
+  years: 2017, 2021
+lastupdated: "2021-03-02"
 
 keywords: software
 
@@ -27,21 +27,21 @@ See the following list for currently supported software: [{{site.data.keyword.Bl
 Not all software options are available for all server types and not all software options are the same for monthly and hourly billing.
 {: note}
 
-If you need software that is not currently supported, use your root access to the server to install and configure your own version of that software.  To return to a supported version on your device, reload the OS.
+If you need software that isn't supported, use your root access to the server to install and configure your own version of that software. To return to a supported version on your device, reload the OS.
 
-IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment. For software documentation, see the documentation of the vendor who produces the software.
+IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment. For more information about specific software, see the vendor-specific software documentation.
 
-## Anti-Virus, Spyware, and host IDs information
+## Anti-virus, spyware, and host IDs information
 {: #anti-virus-spyware-and-host-ids-information}
 
-IBM offers multiple solutions for both Anti-Virus, Spyware, and host ID protection on every device. Anti-Virus and Spyware products are provided by McAfee. You can get a standard, free solution for Windows. You can also get a Total Protection for Windows for a monthly fee.
+IBM offers multiple solutions for both anti-virus, spyware, and host ID protection on every device. Anti-virus and spyware products are provided by McAfee. You can get a standard, free solution for Windows. You can also get Total Protection for Windows for a monthly fee.
 
-You must add Anti-Virus, Spyware, and host ID solutions to your device for it to be protected. You can manage these solutions in the IBM Customer Portal.
+You must add anti-virus, spyware, and host ID solutions to your device. You can manage these solutions in the IBM Customer Portal.
 
-## Supported operating systems for IBM Cloud virtual servers
-{: #supported-operating-systems-for-ibm-cloud-virtual-servers}
+## Supported operating systems for {{site.data.keyword.BluSoftlayer_full}} server software
+{: #supported-operating-systems-for-ibm-cloud-servers}
 
-IBM Cloud virtual servers support the following operating systems.
+{{site.data.keyword.BluSoftlayer_full}} server software supports the following operating systems.
 
 - Cent OS 6 (PV)
 - Cent OS 7 (HVM)
@@ -59,12 +59,12 @@ IBM Cloud virtual servers support the following operating systems.
 - Windows 2016 (HVM)
 - Windows 2019 (HVM)
 
-Cent OS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These OSs also don't support the **Provision script** and **User data** selections for virtual server configuration options. If you are migrating from a server that has "Add On" software configurations, you can choose migrate to an earlier version.
+Cent OS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These OSs also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
 Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
 {: note}
 
 For more information about toggling between PV and HVM boot modes, see the following links:
-* [Virtual guest supported boot modes ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: new_window}
-* [Add boot mode option ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: new_window}
+* [Virtual guest supported boot modes](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: external}
+* [Add boot mode option](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: external}
