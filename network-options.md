@@ -63,26 +63,35 @@ If you selected **None** for port redundancy, you might see an option that inclu
 ### 25 Gbps port speed
 {: 25gb-port-speed}
 
-The 25 Gbps port speed option is compatible with only 2U (12 drive) Cascade Lake processor servers and is available in select pods in only the following data centers:
+The 25 Gbps port speed option is compatible with only the following 2U (12 drive) Cascade Lake processor servers:
 
-| 25 Gbps data centers | | |
-| ----- | ----- | --- |
-| DAL12 | DAL13 | |
-| FRA02 |  | |
-| LON04 | | |
-| SYD04 | SYD05 | |
-| TOK02 | TOK04 | TOK05 |
-| TOR04 | | |
-| WDC06 | WDC07 | |
-{: caption="Table 1. 25 GB network data centers" caption-side="top"}
+* Intel Xeon 4210
+* Intel Xeon 5218
+* Intel Xeon 6248
+* Intel Xeon 6250
+* Intel Xeon 8260
+
+Select pods in only the following data centers support the 25 Gbps port speed option:
+
+| Location | Data center | 
+| ----- | ----- |
+| Dallas | DAL12<br>DAL13 |
+| Frankfurt| FRA02 | 
+| London | LON04 |
+| Sydney | SYD04<br>SYD05 |
+| Tokyo | TOK02<br>TOK04<br>TOK05 |
+| Toronto| TOR04 |
+| Washington DC | WDC06<br>WDC07
+{: caption="Table 1. 25 Gbps network data centers" caption-side="top"}
 
 25 Gbps port speeds are available with the following operating systems:
 
 * CentOS 8.2
+* ESXi for {{site.data.keyword.baremetal_short}}
 * RHEL 8.2 
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
-* ESXi for {{site.data.keyword.baremetal_short}}<!-- - for more information about {{site.data.keyword.cloud}} and VMWare, see [VMware and IBM Cloud](/docs/vmware?topic=vmware-vmware-getting-started)-->
+* No OS option
 
 ## Public egress bandwidth
 {: #network-bandwidth-public}
