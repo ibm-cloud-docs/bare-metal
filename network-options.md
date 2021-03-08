@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-01"
+lastupdated: "2021-03-08"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -82,6 +82,7 @@ The 25 Gbps port speed option is compatible with only 2U (12 drive) Cascade Lake
 * RHEL 8.2 
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
+* ESXi for {{site.data.keyword.baremetal_short}}<!-- - for more information about {{site.data.keyword.cloud}} and VMWare, see [VMware and IBM Cloud](/docs/vmware?topic=vmware-vmware-getting-started)-->
 
 ## Public egress bandwidth
 {: #network-bandwidth-public}
