@@ -91,7 +91,6 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 * RHEL 8.2 
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
-* No OS option
 
 ## Public egress bandwidth
 {: #network-bandwidth-public}
