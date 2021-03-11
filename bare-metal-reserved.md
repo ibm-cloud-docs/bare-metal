@@ -20,7 +20,9 @@ subcollection: bare-metal
 # Reserved bare metal servers
 {: #about-reserved-bare-metal-servers}
 
-{{site.data.keyword.baremetal_long}} reserved servers offering is a great option if you want guaranteed resources for future deployments. You choose between either a 1-year or a 3-year contract. To configure, price, and quote a 1 or 3-year contract, see [Bare metal server preview mode](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=reserved){: external}.
+Reserved {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lower price by signing a contract term. You choose between either a 1-year or a 3-year contract. A reserved bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available. 
+
+To order a bare metal server with a 1 or 3-year contract, click [here](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=reserved){: external} to order a reserved bare metal server and lock-in your lower price.
 
 Reserved bare metal servers offer many conveniences, including the following advantages:
 
