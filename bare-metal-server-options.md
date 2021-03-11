@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2021
-lastupdated: "2021-02-02"
+lastupdated: "2021-03-10"
 
 keywords: bare metal, bare metal servers, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
@@ -44,6 +44,11 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are certified to support your SAP HANA and SAP NetWeaver workloads. For more information, see [SAP-certified infrastructure](https://www.ibm.com/cloud/sap/certified-infrastructure){: external}.
 
+ ### VMware-certified servers
+{: #vmware-certified-servers}
+
+{{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
+
 ## Available options for bare metal servers
 {: #options-for-bare-metal-servers}
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
@@ -72,7 +77,7 @@ EPYC processors are available in select data centers.
 ### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
 
-You can now choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
+You can choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
 
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
