@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-02-09"
+lastupdated: "2021-03-11"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -80,7 +80,7 @@ You can't initialize a firmware update when a bare metal server is powered ON. M
 ## What happens to drives in bare metal servers when a customer is finished with them?
 {: faq}
 
-When a server is cancelled, the reclaim processes starts and any associated drives are wiped by using `DOD 5220.22-M` algorithms. The reclaim is tracked through the serial numbers on the drives. After the drives are wiped, the server moves into provisioning for reassignment. 
+When a server is cancelled, the reclaim process starts and any associated drives are wiped by using `DOD 5220.22-M` algorithms. These algorithms use a 3-pass overwrite process to securely erase data. The reclaim is tracked through the serial numbers on the drives. After the drives are wiped, the server moves into provisioning for reassignment. 
 
 ## What happens to a bare metal drive if it malfunctions?
 {: faq}
