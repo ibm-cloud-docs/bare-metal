@@ -2,6 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="bare-metal" category="compute_baremetal" audience="service" href="/docs/bare-metal?topic=bare-metal-getting-started" path="bare-metal"}
+Bare Metal Servers
 
     {: .navgroup id="learn"}
     getting-started.md
