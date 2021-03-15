@@ -1,8 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bare-metal" category="compute_baremetal" audience="compute" arm="2437231" href="/docs/bare-metal?topic=bare-metal-getting-started" path="bare-metal"}
-Bare Metal Servers
+{: .toc subcollection="bare-metal" category="compute_baremetal" audience="service" href="/docs/bare-metal?topic=bare-metal-getting-started" path="bare-metal"}
 
     {: .navgroup id="learn"}
     getting-started.md
