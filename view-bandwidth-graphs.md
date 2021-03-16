@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-10-22"
+  years: 2017, 2021
+lastupdated: "2021-03-15"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -87,6 +87,8 @@ The pool definitions are listed in the following table:
 | | SYD05 |
 | Brazil |  |
 | | SAO01 |
+| | SAO04 |
+| | SAO05 |
 | Frankfurt |  |
 | | FRA02 |
 | | FRA04 |
