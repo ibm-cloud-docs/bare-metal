@@ -43,9 +43,9 @@ You must add anti-virus, spyware, and host ID solutions to your device. You can 
 
 {{site.data.keyword.BluSoftlayer_full}} server software supports the following operating systems.
 
-- Cent OS 6 (PV)
-- Cent OS 7 (HVM)
-- Cent OS 8 (HVM)*
+- CentOS 6 (PV)
+- CentOS 7 (HVM)
+- CentOS 8 (HVM)*
 - Debian 8 (HVM)
 - Debian 9 (HVM)
 - Debian 10 (HVM)*
@@ -59,7 +59,7 @@ You must add anti-virus, spyware, and host ID solutions to your device. You can 
 - Windows 2016 (HVM)
 - Windows 2019 (HVM)
 
-Cent OS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These OSs also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
+CentOS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These OSs also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
 Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
