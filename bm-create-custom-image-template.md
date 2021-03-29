@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-11"
+  years: 2020, 2021
+lastupdated: "2021-03-29"
 
 keywords: create bare metal image template, bare metal image template, create image template
 
@@ -36,7 +36,7 @@ Make sure that you have the correct account permissions to complete the tasks.
 2. Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 3. Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Creating an image template
 {: #create-bm-custom-image}
@@ -51,7 +51,7 @@ Use the following steps to capture a bare metal server image.
   {: tip}
 
 4. Enter a unique name for the image in the **Image name** field.
-5. Enter any notes for the image in the **Note** field. <!--a step after this will be to "Select the boot volume".--><!--then another update to Select any other volumes", if they exist-->
+5. Enter any notes for the image in the **Note** field. <!--possible step after this "Select the boot volume".--><!--then another update to Select any other volumes", if they exist-->
 6. Select the **Agree** checkbox after you enter all the required information.
 7. Click **Create custom image** to create the custom image.
 
@@ -61,5 +61,4 @@ Your server is offline until the imaging process is complete. The image template
 ## Next steps
 {: #bm-custom-image-next-steps}
 
-After an image is created, more bare metal servers can be created by using the template. The new bare metal servers have the same configurations that are included in the image template. 
-
+After an image is created, more bare metal servers can be created by using the template. The new bare metal servers have the same configurations that are included in the image template. For more information, see [Ordering a bare metal server from an image template](/docs/bare-metal?topic=bare-metal-ordering-bm-from-image-template).
