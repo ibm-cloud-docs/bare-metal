@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-11"
+  years: 2020, 2021
+lastupdated: "2021-03-29"
 
 keywords: custom image template, bare metal image, image template, order image template
 
@@ -24,15 +24,7 @@ subcollection: bare-metal
 # Ordering a bare metal server from an image template
 {: #ordering-bm-from-image-template}
 
-## Before you begin
-{: #byb-bm-order-image-template}
-
-Navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
-
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/image-templates?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
-
-For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+After you create an image template, you are ready to create more bare metal servers by using the template.{: shortdesc}
 
 ## Ordering a bare metal server from an image template
 {: #ordering-bm-from-image-template_steps}
@@ -56,4 +48,3 @@ Use the following steps to order a bare metal server from an image template.
 15. Review your order in the Order summary.
 16. Click the **Third-Party Service Agreement** checkbox.
 17. Click **Create**. An email is sent when your bare metal server is provisioned.
-
