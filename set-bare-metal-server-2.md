@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2020-08-18"
+lastupdated: "2021-03-30"
 
 keywords: set up bare metal server
 
@@ -49,7 +49,7 @@ Use the following steps to set up a Bare Metal Server:
 
 5. Access your server on the private network. You can use the {{site.data.keyword.cloud_notm}} infrastructure private network to interact with your devices through remote desktop (RDP) by using SSH and KVM over IP. You can use the VPN Access tool for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services. To access the private network, edit the user’s VPN access from the User List. To access the User List, click **Account** > **Users** > **User list**. Use the [Virtual Private Network ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/vpn-access){:new_window} page to connect to one of the various VPN options.
 
-6. After you have your infrastructure and environments up and running, you are ready to set up your monitoring service. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
+6. After you have your infrastructure and environments up and running, you are ready to set up your monitoring service. {{site.data.keyword.mon_full_notm}} gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
 
 7. Secure your system. Use the available hardware firewalls to secure your device. You can provision hardware firewalls on demand with no downtime, if rules are established properly, to protect your server from unwanted activity. After you order your firewall, it must be enabled and rules must be set.
 
