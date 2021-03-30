@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2016, 2020
-lastupdated: "2020-03-18"
+  years: 2016, 2021
+lastupdated: "2021-03-30"
 
-keywords: activity tracker, bare metal, {{site.data.keyword.cloud}}
+keywords: activity tracker, bare metal, {{site.data.keyword.cloud}}, {{site.data.keyword.cloudaccesstrailfull}} 
 
 subcollection: bare-metal
 
@@ -18,19 +18,18 @@ subcollection: bare-metal
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:download: .download}
-{:external: .exernal}
 
 
 # Activity Tracker events
 {: #bm-at-events}
 
-As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and
+As a security officer, auditor, or manager, you can use {{site.data.keyword.cloudaccesstrailfull}} to track how users and
 applications interact with bare metal servers in {{site.data.keyword.cloud}}. The account owner and users that are linked
 with the account can trigger bare metal server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
 {:shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with The IBM Cloud Activity Tracker](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
+{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with {{site.data.keyword.cloudaccesstrailfull}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.cloud}} console.
 {: tip}
@@ -38,7 +37,7 @@ An initiator can be a user, a service, or an application. For a user to generate
 ## Bare metal server instance events
 {: #bare-metal-events}
 
-You can audit a bare metal server through its life cycle by using the {{site.data.keyword.cloudaccesstrailshort}} service.
+You can audit a bare metal server through its life cycle by using {{site.data.keyword.cloudaccesstrailshort}}.
 
 The following table lists the actions that generate an event:
 
