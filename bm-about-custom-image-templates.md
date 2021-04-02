@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-01-11"
+lastupdated: "2021-04-02"
 
 keywords: custom image template, bare metal image, image template
 
@@ -50,7 +50,7 @@ The two main actions for any image template are _create_ and _deploy_. When you 
   <!--- Debian 9-->
   - RHEL 7, 8
   - Ubuntu 16, 18
-  <!--- Windows 2012 r2, 2016, 2019-->
+  - Windows 2012 R2, 2016, 2019
 
 ## Limitations
 {: #bm-custom-image-limitations}
