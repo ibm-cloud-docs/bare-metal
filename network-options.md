@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-03-11"
+lastupdated: "2021-04-07"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -75,13 +75,14 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 
 | Location | Data center | 
 | ----- | ----- |
-| Dallas | DAL12<br>DAL13 |
-| Frankfurt| FRA02 | 
-| London | LON04 |
+| Dallas | DAL10<br>DAL12<br>DAL13 |
+| Frankfurt| FRA02<br>FRA05 | 
+| London | LON04<br>LON06 |
+| Paris | PAR04<br>PAR05<br>PAR06 |
 | Sydney | SYD04<br>SYD05 |
 | Tokyo | TOK02<br>TOK04<br>TOK05 |
 | Toronto| TOR04 |
-| Washington DC | WDC06<br>WDC07
+| Washington DC | WDC04<br>WDC06<br>WDC07 |
 {: caption="Table 1. 25 Gbps network data centers" caption-side="top"}
 
 25 Gbps port speeds are available with the following operating systems:
@@ -92,7 +93,7 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
 
-For more information about 25 Gbps port speeds, check out this [blog post](https://www.ibm.com/cloud/blog/announcements/newly-released-25gbe-standard-on-ibm-cloud-bare-metal-servers){: external} from one of our Bare Metal Offering Managers.
+For more information about 25 Gbps port speeds, check out this [blog post](https://www.ibm.com/cloud/blog/announcements/newly-released-25gbe-standard-on-ibm-cloud-bare-metal-servers){: external}.
 
 ## Public egress bandwidth
 {: #network-bandwidth-public}
