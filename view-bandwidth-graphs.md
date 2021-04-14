@@ -51,6 +51,9 @@ The pool definitions are listed in the following table:
 
 | Pool      | Location  |
 |------------------|-------|
+| Brazil | SAO01 |
+| | SAO04 |
+| | SAO05 |
 | Dallas         | DAL01 |
 |         | DAL02 |
 | | DAL04 |
@@ -84,9 +87,6 @@ The pool definitions are listed in the following table:
 |--------------|-------|
 |Amsterdam  | AMS01 |
 |           | AMS03 |
-| Brazil | SAO01 |
-| | SAO04 |
-| | SAO05 |
 | Frankfurt | FRA02 |
 | | FRA04 |
 | | FRA05 |
