@@ -129,5 +129,6 @@ Your add-on storage isn't automatically connected to your bare metal server. You
 {: note}
 
 For more information about block and file storage, see the following links.
-* [About block storage](/docs/BlockStorage?topic=BlockStorage-About)
-* [About file storage](/docs/FileStorage?topic=FileStorage-about)
+* [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
+* [Getting started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
+
