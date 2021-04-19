@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-12-03"
+  years: 2014, 2021
+lastupdated: "2021-04-19"
 
 keywords: access spare pools
 
@@ -21,7 +21,8 @@ subcollection: bare-metal
 # Accessing spare pools
 {: #bm-access-spare-pools}
 
-Follow these steps to access the Spare Pool screen from the {{site.data.keyword.cloud}} console.
+Follow these steps to access the *Spare Pool* screen from the {{site.data.keyword.cloud}} console.
+
 1. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){: new_window} by using your unique credentials.
 2. Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 3. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
@@ -29,4 +30,9 @@ Follow these steps to access the Spare Pool screen from the {{site.data.keyword.
 
 ## Next Steps
 {: #access-spare-pool-next}
-From the spare pool menu you can add, cancel, and reactivate the spare pool of devices.
+
+From the spare pool menu you have the following options:
+ 
+* [Add a spare pool](/docs/bare-metal?topic=bare-metal-adding-spare-pools) 
+* [Cancel a spare pool](/docs/bare-metal?topic=bare-metal-cancel-spare-pools) 
+* [Reactivate a device from the spare pool](/docs/bare-metal?topic=bare-metal-bm-reactivating-spare-pools).
