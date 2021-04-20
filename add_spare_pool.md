@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-05-31"
+  years: 2014, 2021
+lastupdated: "2021-04-20"
 
 keywords: bare metal, spare pools
 
@@ -22,20 +22,20 @@ subcollection: bare-metal
 # Adding spare pools
 {: #adding-spare-pools}
 
-Spare pooling is a form of holding certain devices that are designated as spares and have the ability to take over the workflow of a primary device or act as a new device in the customer fleet. For a device to be designated as a spare, it must be added to the spare pool and associated to a primary device. Follow the steps below to add a device to the spare pool.
+A spare pool holds certain devices that are designated as spares take over device workflow or act as a new device. To designate a device as a spare, the device must be added to the spare pool. Use the following steps to add a device to the spare pool.
 {:shortdesc}
 
 1. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
 2. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
 3. Click the **Add to Spare Pool** link.
 
-   A list of devices eligible to be added to the spare pool will be populated.
+   A list of devices that are eligible to add to the spare pool are populated.
    {:tip}
 
-4. Select the devices to be added to the spare pool.
-5. Click **Add Selected Devices**.
-6. Click **Confirm** to add the devices to the spare pool.
+4. Select the devices that you want to add to the spare pool.
+5. Click **Add**.
+6. Click the confirmation checkbox and click **Confirm** to add the devices to the spare pool.
 
 ## Next Steps
 {: #add-spare-pool-next}
-After initiating a device's transfer to the spare pool, the device is transitioned to the spare pool within one hour. After the device is active in the spare pool, it is displayed on the Spare Pool screen and can be designated as a hot spare for a primary device.
+After a device's transfer to the spare pool initiates, the device moves to the spare pool typically within 1 hour. After the device is active in the spare pool, it is displayed on the *Spare Pool* screen.
