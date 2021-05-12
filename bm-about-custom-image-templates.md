@@ -55,13 +55,12 @@ The two main actions for any image template are _create_ and _deploy_. When you 
 ## Limitations
 {: #bm-custom-image-limitations}
 
-  - No multiple RAID configurations
-  - No multiple drive capture
-  - No RAID 5 and 6
-  - UEFI boot mode not supported
-    - No TPM support
-    - No LVM support
-  - Custom and non-IBM kernels not supported
+- No multiple RAID configurations
+- No RAID 5 and 6
+- UEFI boot mode not supported
+- No Trusted Platform Module (TPM) encryption support
+- Logical Volume Management (LVM) not supported
+- Custom and non-IBM kernels not supported
 
 ## Next steps
 {: #next-steps-bm-custom-image}
