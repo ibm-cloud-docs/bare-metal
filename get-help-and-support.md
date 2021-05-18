@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2019-06-19"
+  years: 2017, 2021
+lastupdated: "2021-05-18"
 
-keywords: bare metal, help, support
+keywords: bare metal, help, support, support case
 
 subcollection: bare-metal
 
@@ -49,4 +49,4 @@ When you use the forums to ask a question, tag your question so that it is seen 
 
 <!--See [Getting help ![External link icon](../icons/launch-glyph.svg "External link icon")](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help){: new_window} for more details about using the forums.-->
 
-For more information about opening an IBM support ticket, see [Contacting support](/docs/get-support?topic=get-support-using-avatar).
+For more information about opening an IBM support case, see [Contacting support](/docs/get-support?topic=get-support-using-avatar).
