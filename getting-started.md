@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-01-22"
+  years: 2018, 2021
+lastupdated: "2021-05-31"
 
 keywords: bare metal, getting started, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
 
