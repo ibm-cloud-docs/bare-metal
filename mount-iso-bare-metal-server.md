@@ -29,7 +29,7 @@ subcollection: bare-metal
 Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have two options for mounting custom ISOs.
 
 For the methods to work, you need to connect to the private network through the SL VPN service, such as `IBM Cloud SSL VPN - AMS01` or through another server that is connected to the network. 
-<!--(https://vpn.ams01.softlayer.com/prx/000/http/localhost/login)--> 
+<!--https://vpn.ams01.softlayer.com/prx/000/http/localhost/login--> 
 
 Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console and clicking **Interface > Media tab**.
 {: note}
