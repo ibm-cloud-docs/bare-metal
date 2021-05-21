@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "20201-05-31"
+lastupdated: "2021-05-31"
 
 keywords: mount iso bare metal
 
