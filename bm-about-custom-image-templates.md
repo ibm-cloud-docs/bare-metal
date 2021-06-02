@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-02"
+lastupdated: "2021-06-02"
 
 keywords: custom image template, bare metal image, image template
 
@@ -30,7 +30,7 @@ With {{site.data.keyword.baremetal_long}} custom image templates, you can captur
 Image templates are not intended for backing up your data.
 {: important}
 
-## How bare metal custom image template work
+## How bare metal custom image templates work
 {: #how-bm-custom-image-templates-work}
 
 The two main actions for any image template are _create_ and _deploy_. When you request to create an image a compressed backup of your data is created. The configuration information is recorded and the image template is stored on the {{site.data.keyword.cloud_notm}}. During the deployment stage of the image template, the automated system constructs a new server that is based on the data that is gathered from the selected image. The deployment process makes adjustments for volume, restores the copied data, and then makes final configuration changes (for example, network configurations) for the new host.
@@ -41,7 +41,7 @@ The two main actions for any image template are _create_ and _deploy_. When you 
 * Compatible system configurations 
   - UEFI and BIOS server images must be deployed on respective servers
   - Only available for X10, X11, and Lenovo systems
-  - Supports single drives up to 2 TB drives
+  - Supports multiple drives up to 2 TB 
   - vGPU support
   - RAID 0, 1, 10 
   
