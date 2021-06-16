@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2021
-lastupdated: "2021-03-10"
+lastupdated: "2021-06-15"
 
 keywords: bare metal, bare metal servers, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
 
@@ -37,7 +37,7 @@ Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenan
 ### Custom-based servers
 {: #custom-based-bm}
 
-If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are provisioned in 2 - 4 hours and offer a greater variety of cores, speeds, RAM, and drives.
+If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options. 
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
