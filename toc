@@ -43,7 +43,6 @@ Bare Metal Servers
         baremetal-provision.md
         bare-metal-provision-SGX.md
         bm_provision_ssd.md
-        managedPool_provision.md
         bm-datacenter-overview.md
 
     /virtual-servers/virtual-servers-navigating-devices
