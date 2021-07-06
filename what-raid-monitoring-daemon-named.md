@@ -20,7 +20,7 @@ subcollection: bare-metal
 # Name and location of the RAID monitoring daemon
 {: #bm-raid-monitoring-daemon}
 
-{{site.data.keyword.cloud}} primarily uses Adaptec and Broadcom RAID cards with a few exceptions for legacy hardware. The following table outlines the RAID manager locations, monitor locations, configurations, and RAID alert settings.
+{{site.data.keyword.cloud}} primarily uses Adaptec and Broadcom RAID cards with a few exceptions for traditional hardware. The following table outlines the RAID manager locations, monitor locations, configurations, and RAID alert settings.
 
 You can configure RAID alerts to bypass the monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
 
