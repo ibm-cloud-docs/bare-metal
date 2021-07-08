@@ -128,4 +128,9 @@ Bare Metal Servers
         [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
         os-reload-question-faq.md
         faqs-image-templates.md
+        
+    {: .topicgroup}
+    Troubleshooting  
+        troubleshooting-bare-metal.md
+    {: .navgroup-end}
     {: .navgroup-end}
