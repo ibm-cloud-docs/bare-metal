@@ -2,9 +2,9 @@
 
 copyright:
   years: 2016, 2021
-lastupdated: "2021-06-15"
+lastupdated: "2021-07-12"
 
-keywords: bare metal, bare metal servers, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome
+keywords: bare metal options, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome, bare metal add-ons, bare metal addons, bare metal add ons
 
 subcollection: bare-metal
 
@@ -22,12 +22,12 @@ subcollection: bare-metal
 
 # Bare metal server options
 {: #about-bm}
-Your {{site.data.keyword.baremetal_short}} is an hourly or monthly, single-tenant server that is dedicated to you; it is not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and deployed in one or more data centers. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack.
+Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, single-tenant server that is dedicated to you. Your server isn't shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and deployed in one or more data centers. Multiple {{site.data.keyword.baremetal_short}} can communicate on the {{site.data.keyword.cloud_notm}} virtual private network as if stationed on the same rack.
 
 ## Servers for every workload
 {: #servers-every-need}
 
-{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare Metal Servers](https://www.ibm.com/cloud/bare-metal-servers){: external}
+{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){:external}
 
 ### Fast provisioning servers
 {: #Popular-bm}
@@ -47,9 +47,9 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
  ### VMware-certified servers
 {: #vmware-certified-servers}
 
-{{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
+{{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware&reg;-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
 
-## Available options for bare metal servers
+## Available options for a bare metal server
 {: #options-for-bare-metal-servers}
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
 
@@ -66,7 +66,7 @@ The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 * RHEL 7
 * Ubuntu 18.04
 * CentOS 7.6
-* Microsoft Server 2019/2016
+* Microsoft&reg; Server 2019/2016
 
 Systems must be started in UEFI mode.
 {: note}
@@ -77,7 +77,7 @@ EPYC processors are available in select data centers.
 ### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
 
-You can choose from the following Intel Cascade Lake CPUs when you provision a bare metal server:
+You can choose from the following Intel&reg; Cascade Lake CPUs when you provision a bare metal server:
 
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
@@ -90,7 +90,7 @@ You can choose from the following Intel Cascade Lake CPUs when you provision a b
 ### NVIDIA GPU support
 {: #bm-gpu-support}
 
-For certain bare metal servers, you can add the processing power of NVIDIA GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You will need to install the appropriate drivers. See [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.nvidia.com/Download/index.aspx?lang=en-us){: new_window}
+For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You need to install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){:external}
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
@@ -105,7 +105,7 @@ Port redundancy provides networking failover by maintaining a primary and second
 Only one port is active at a time.
 {: note}
 
-The following network redunancy options are availble for bare metal servers.
+The following network redundancy options are available for bare metal servers.
 
 | Redundancy options | Description |
 | ---- | ----|
@@ -132,3 +132,21 @@ For more information about block and file storage, see the following links.
 * [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
 * [Getting started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
 
+## Bare metal server add-ons
+{: #bm-add-ons}
+
+The following add-ons are available when you provision a bare metal server.
+
+| Option | Description |
+|--------|-------------|
+| Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternate power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
+| IBM Cloud Backup | IBM Cloud Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with IBM Cloud Backup](/docs/Backup?topic=Backup-getting-started).|
+| Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure.|
+| Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
+| Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. For more information, see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).|
+| Monitoring - host ping | Basic monitoring is used to initiate service and slow pings to make sure that the device is online and responsive. For more information, see [Basic monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).|
+| Notification | You can define an alert on a single metric or a set of metrics to notify you of events or issues that you want to monitor. For more information, see [Working with alerts](/docs/monitoring?topic=monitoring-alerts).|
+| Response | Automated response to your monitored metrics notifications. |
+| Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets)<br>If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|
+| IPv6 IP addresses | An IPv6 is the most recent numeric label that is used to identify and locate a network interface of a computer or a network node that participates in a computer network by using the IPv6 protocol. A single IPv6 address is included.|
+{: caption="Table 3. Bare metal server provisioning options" caption-side="top"}
