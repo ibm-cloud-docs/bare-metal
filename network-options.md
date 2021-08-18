@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-08-18"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -78,7 +78,6 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 | Dallas | DAL10<br>DAL12<br>DAL13 |
 | Frankfurt| FRA02<br>FRA05 | 
 | London | LON04<br>LON06 |
-| Paris | PAR04<br>PAR05<br>PAR06 |
 | Sydney | SYD04<br>SYD05 |
 | Tokyo | TOK02<br>TOK04<br>TOK05 |
 | Toronto| TOR04 |
