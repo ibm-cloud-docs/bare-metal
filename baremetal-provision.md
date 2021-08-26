@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-03-31"
+  years: 2017, 2021
+lastupdated: "2021-08-26"
 
 keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -26,7 +26,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 
 ## Before you begin
 
-Make sure that you review the [Getting started tutorial](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
+Make sure that you review the [Getting started tutorial](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
 
 ## Provisioning through the {{site.data.keyword.cloud_notm}} catalog
 {: #provision-through-the-catalog}
@@ -39,7 +39,7 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 4. Enter the **Quantity** of **identical** servers to provision. The default is 1. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately.
 5. **Hostname** is a permanent or temporary name for your servers, for example, baremetal01. Click **Information** for formatting specifics.
 6. **Domain** is the identification string that defines administrative control within the internet, for example, Customer-123456.cloud. Click **Information** for formatting specifics.
-7. **Billing** is either **Hourly** or **Monthly**.
+7. **Billing**, select either **Hourly**, **Monthly**, **1-year term**, or a **3-year term**.
 8. Select the **Location**, region and data center, where your server is to be located.
 9. Click **All servers** to see a list of processors (Single, Dual, and Quad) and certified servers (SAP and VMware). Select the server that best meets your workload.
 10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed. **Note:** For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
