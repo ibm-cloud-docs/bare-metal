@@ -42,7 +42,7 @@ Consider the following limitations before you reserve capacity and provision a c
 
 * Your contract term bare metal server configuration can't be changed after your order is complete. 
 * Your contract term can't be canceled.
-* Available on only dual processor Intel Xeon and AMD EPYC offerings. 
+* Available on only dual processor Intel® Xeon® and AMD EPYC™ offerings. 
 
 ## Converting to a contract term bare metal server
 {: #convert-to-reserved-bm}
