@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-07"
 
 keywords: reserved bare metal, bare metal reserved, contract term bare metal, contract term bare metal server, contracr term server, contract term, 1 year server, 3 year server, 1 year bare metal, 3 year bare metal, 1 year bare metal server, 3 year bare metal server  
  
@@ -49,7 +49,9 @@ Consider the following limitations before you reserve capacity and provision a c
 
 Are you ready to take your monthly server and turn it into a 1 or 3-year bare metal server? Use the following steps to make the change.
 
-1. Log in to your IBM Cloud [dashboard](https://cloud.ibm.com/){:external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){:external}. 
+1. Log in to your IBM Cloud [dashboard](https://cloud.ibm.com/){:external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){:external}. Alternatively, if you're already logged in you can use the following links with the term preselected:
+  - [1-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=oneYearTerm)
+  - [3-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=threeYearTerm)
 2. From your **Device List**, click the server that you want to upgrade.
 3. Under **Server Details**, next to your Billing term, click **Modify**.
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
