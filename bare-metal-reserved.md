@@ -66,4 +66,4 @@ Are you ready to take your monthly server and turn it into a 1 or 3-year bare me
 An email notification is sent one month before the end of the term.
 {:note}
 
-For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/blog/announcements/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers)
+For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/blog/announcements/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers).
