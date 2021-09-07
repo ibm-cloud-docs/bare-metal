@@ -47,7 +47,7 @@ Consider the following limitations before you provision a contract term bare met
 ## Ordering a contract term bare metal server
 {: #provision-contract-term-bm}
  
-To order a bare metal server with a 1 or 3-year contract, click one of the following links to order a contract term bare metal server and lock-in your lower price. For more information about ordering a bare metal server, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
+To order a bare metal server with a 1 or 3-year contract, click one of the following links to lock-in your lower price. For more information about ordering a bare metal server, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 
 * [1-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=oneYearTerm){:external} 
 * [3-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=threeYearTerm){:external} 
