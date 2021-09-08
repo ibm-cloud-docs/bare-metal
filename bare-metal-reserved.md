@@ -57,7 +57,7 @@ To order a bare metal server with a 1 or 3-year contract, click one of the follo
 
 Are you ready to take your monthly server and turn it into a 1 or 3-year bare metal server? Use the following steps to make the change.
 
-1. Log in to your IBM Cloud [Dashboard](https://cloud.ibm.com/){:external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){:external}.\
+1. Log in to your IBM Cloud [**Dashboard**](https://cloud.ibm.com/){:external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){:external}.
 2. From your **Device List**, click the server that you want to upgrade.
 3. Under **Server Details**, next to your Billing term, click **Modify**.
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
