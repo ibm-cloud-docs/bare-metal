@@ -29,4 +29,4 @@ Additional information can be found under [Experience next level compute perform
 ## Intel Optane drives and GPUs
 {: #ssd_gpu}
 
-You can either order an Intel® Optane™ SSD DC P4800X disk OR a GPU for your server; you can't order both on the same server.
+You can either [order](https://cloud.ibm.com/gen1/infrastructure/provision/bm){: external} an Intel® Optane™ SSD DC P4800X disk OR a GPU for your server; you can't order both on the same server.
