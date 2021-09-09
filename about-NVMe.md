@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-05-18"
+  years: 2017, 2021
+lastupdated: "2021-09-09"
 
 keywords: NVMe, bare metal, SSD, U.2
 
@@ -34,3 +34,8 @@ NVMe SSD drives must be selected as individual drives. You cannot select NVMe SS
 No limitations exist on the number of NVMe SSDs you can provision. The number depends on the server and PCI slots on the system board. Currently, you are limited to 3.
 
 The GPUs share PCI slots with the NVMe SSDs. You cannot configure more NVMe SSDs than GPUs. This limit is also dependent on the server's system board.
+
+### Ordering an NVMe SSD drive
+{: order-NVMe-ssd}
+
+When you [provision](https://cloud.ibm.com/gen1/infrastructure/provision/bm){: external} a bare metal server, follow the [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) steps and select the NVMe option in the **Storage disks** section. 
