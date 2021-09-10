@@ -42,7 +42,7 @@ Consider the following limitations before you provision a contract term bare met
 
 * Your contract term bare metal server configuration can't be changed after your order is complete. 
 * Your contract term can't be canceled.
-* Available on only Intel® dual processors from Skylake to the most recent and and AMD EPYC™ offerings. 
+* Available on only Intel® dual processors from Skylake to the most recent and AMD EPYC™ offerings. 
 * Not available for enterprise-bundled solutions.
 
 ## Ordering a contract term bare metal server
