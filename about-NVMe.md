@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-09"
+lastupdated: "2021-09-10"
 
 keywords: NVMe, bare metal, SSD, U.2
 
