@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-09-07"
+lastupdated: "2021-09-10"
 
 keywords: reserved bare metal, bare metal reserved, contract term bare metal, contract term bare metal server, contract term server, contract term, 1 year server, 3 year server, 1 year bare metal, 3 year bare metal, 1 year bare metal server, 3 year bare metal server  
  
@@ -43,6 +43,7 @@ Consider the following limitations before you provision a contract term bare met
 * Your contract term bare metal server configuration can't be changed after your order is complete. 
 * Your contract term can't be canceled.
 * Available on only dual processor Intel® Xeon® and AMD EPYC™ offerings. 
+* Not available for enterprise-bundled solutions.
 
 ## Ordering a contract term bare metal server
 {: #provision-contract-term-bm}
