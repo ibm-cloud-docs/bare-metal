@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-17"
+  years: 2017, 2021
+lastupdated: "2021-09-10"
 
 keywords: optane, bare metal
 
