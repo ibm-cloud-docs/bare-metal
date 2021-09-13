@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-19"
+lastupdated: "2021-09-13"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -54,21 +54,17 @@ The pool definitions are listed in the following table:
 | Brazil | SAO01 |
 | | SAO04 |
 | | SAO05 |
-| Dallas         | DAL01 |
-|         | DAL02 |
-| | DAL04 |
-| | DAL07 | 
+| Dallas  | DAL05 |  
+| | DAL06 | 
 | | DAL09 | 
 | | DAL10 | 
 | | DAL12 | 
 | | DAL13 | 
-| Houston        | HOU02 |
 | Mexico         | MEX01 |
 | Montreal       | MON01 |
 | San Jose       | SJC01 |
 |       | SJC03 |
-|       | SJC04 |
-| Seattle        | SEA01 |
+|       | SJC04 | 
 | Toronto        | TOR01 |
 | | TOR04 |
 | | TOR05 |
@@ -90,8 +86,7 @@ The pool definitions are listed in the following table:
 | Frankfurt | FRA02 |
 | | FRA04 |
 | | FRA05 |
-| London  | LON01 |
-| | LON02 |
+| London  | LON02 | 
 | | LON04 |
 | | LON05 |
 | | LON06 |
@@ -107,11 +102,10 @@ The pool definitions are listed in the following table:
 
 | Pool | Location  |
 |--------------|-------|
-| Australia | MEL01 | 
-| | SYD01 |
+| Australia | SYD01 |
 | | SYD04 |
 | | SYD05 |
-| Hong Kong  | HK02 |
+| Hong Kong  | HKG02 |
 | India | CHE01 |
 | Japan         | OSA21 |
 | | OSA22 |
@@ -127,6 +121,68 @@ The pool definitions are listed in the following table:
 {: tab-group="pool-locations"}
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
+
+
+<!--| Pool      | Location          |
+| ------------- |:-------------:|
+| US & Canada | |
+| | DAL05 | 
+| | DAL06 | 
+| | DAL09 | 
+| | DAL10 | 
+| | DAL12 | 
+| | DAL13 |  
+| | MON01 |  
+| | SJC01 | 
+| | SJC03 |
+| | SJC04 |
+| | TOR01 | 
+| | TOR04 |
+| | TOR05 |
+| | WDC01 | 
+| | WDC04 | 
+| | WDC06 |
+| | WDC07 |
+| Amsterdam, London & Paris | |
+| | AMS01 |
+| | AMS03 | 
+| | LON02 |
+| | LON04 |
+| | LON05 | 
+| | LON06 |
+| | PAR01 |
+| Australia | |  
+| | SYD01 |
+| | SYD04 |
+| | SYD05 |
+| Brazil |  |
+| | SAO01 |
+| | SAO04 |
+| | SAO05 |
+| Frankfurt |  |
+| | FRA02 |
+| | FRA04 |
+| | FRA05 |
+| Hong Kong, Japan & Singapore | |
+| | HKG02 |
+| | OSA21 |
+| | OSA22 |
+| | OSA23 |
+| | SNG01 |
+| | TOK02 |
+| | TOK04 |
+| | TOK05 |
+| India |  |
+| | CHE01 |
+| Italy |  | 
+| | MIL01 |
+| Mexico |  | 
+| | MEX01 |
+| Norway |  | 
+| | OSL01 |
+| South Korea | 
+| | SEO01 | 
+{: caption="Table 1. Pooling definitions" caption-side="top"}-->
 
 ## Adding a bandwidth pool
 {: #bm-add-bandwidth-pool}
