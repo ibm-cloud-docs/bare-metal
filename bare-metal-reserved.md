@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-09-10"
+lastupdated: "2021-09-15"
 
 keywords: reserved bare metal, bare metal reserved, contract term bare metal, contract term bare metal server, contract term server, contract term, 1 year server, 3 year server, 1 year bare metal, 3 year bare metal, 1 year bare metal server, 3 year bare metal server  
  
@@ -23,6 +23,7 @@ subcollection: bare-metal
 {: #about-reserved-bare-metal-servers}
 
 {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lower price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. 
+{: shortdesc}
 
 ## Advantages
 
@@ -42,29 +43,29 @@ Consider the following limitations before you provision a contract term bare met
 
 * Your contract term bare metal server configuration can't be changed after your order is complete. 
 * Your contract term can't be canceled.
-* Available on only Intel® dual processors from Skylake to the most recent and AMD EPYC™ offerings. 
+* Available on only Intel® dual processors from Skylake to the most recent and AMD EPYC™ offerings.
 * Not available for enterprise-bundled solutions.
 
 ## Ordering a contract term bare metal server
 {: #provision-contract-term-bm}
  
-To order a bare metal server with a 1 or 3-year contract, click one of the following links to lock-in your lower price. For more information about ordering a bare metal server, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
+To order a bare metal server with a 1 or 3-year contract, click one of the following links and lock-in your lower price. For more information about ordering a bare metal server, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 
-* [1-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=oneYearTerm){:external} 
-* [3-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=threeYearTerm){:external} 
+* [1-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=oneYearTerm){: external} 
+* [3-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=threeYearTerm){: external} 
 
 ## Converting to a contract term bare metal server
 {: #convert-to-reserved-bm}
 
-Are you ready to take your monthly server and turn it into a 1 or 3-year bare metal server? Use the following steps to make the change.
+Are you ready to take your eligible, existing monthly server and turn it into a 1 or 3-year bare metal server? Use the following steps to make the change.
 
-1. Log in to your IBM Cloud [**Dashboard**](https://cloud.ibm.com/){:external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){:external}.
+1. Log in to your IBM Cloud [**Dashboard**](https://cloud.ibm.com/){: external} and go to your [**Device list**](https://cloud.ibm.com/gen1/infrastructure/devices){: external}.
 2. From your **Device List**, click the server that you want to upgrade.
 3. Under **Server Details**, next to your Billing term, click **Modify**.
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term. 
 
-An email notification is sent one month before the end of the term.
-{:note}
+An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle. 
+{: note}
 
 For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/blog/announcements/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers).
