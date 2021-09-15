@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-01-30"
+  years: 2019, 2021
+lastupdated: "2020-09-15"
 
 keywords: OS Reload, operating system
 
@@ -17,6 +17,7 @@ subcollection: bare-metal
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 #  Reloading the OS
 {: #reloading-the-os}
@@ -39,11 +40,11 @@ For more information about permissions, see [Classic infrastructure permissions]
 2. From the **Actions** menu, select **OS Reload**.
 3. Determine whether you want to reload the existing configuration or reload the device with a new configuration.
 
-| Reload type | Steps |
-|-------------|-------|
-| If you want to reload a new configuration... | 1. Click <b>Edit</b> for the Category that requires an update.<br>2. Select the new software to apply to the device from the **Select Software** drop down list. |  
-| If you want to reload the existing configuration... | Proceed to the next step. |
-{: caption="Table 1. OS reload options" caption-side="top"}
+   | Reload type | Steps |
+   |-------------|-------|
+   | If you want to reload a new configuration... | 1. Click <b>Edit</b> for the Category that requires an update.<br>2. Select the new software to apply to the device from the **Select Software** drop down list. |  
+   | If you want to reload the existing configuration... | Proceed to the next step. |
+   {: caption="Table 1. OS reload options" caption-side="top"}
 
 4. Determine whether to apply a post-installation script after the device is provisioned.
 
@@ -51,18 +52,19 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 5. For physical devices, determine whether to add or remove installed partitions or if they should remain unchanged.
 
-| Partition action | Steps |
-|------------------|-------|
-| To add installed partitions... | 1. Click **Add Another Partition**.<br> 2. Enter the exact name of the partition.<br> 3. Enter the partition size (in GBs). If you want, you can select Grow to grow the partition to fill the remaining disk space.<br><br> **Note**: Only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the Grow partition is calculated by subtracting the combined size of all other partitions from the Total Capacity number that is provided in the Installed Partitions section. |
-| To delete installed partitions... | Click **Delete** to delete the partition. |
-| To remain unchanged... | Proceed to the next step. |
-{: caption="2. Partition action options" caption-side="top"}
+   | Partition action | Steps |
+   |------------------|-------|
+   | To add installed partitions... | 1. Click **Add Another Partition**.<br> 2. Enter the exact name of the partition.<br> 3. Enter the partition size (in GBs). If   you want, you can select Grow to grow the partition to fill the remaining disk space.<br><br> **Note**: Only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the Grow partition is calculated by subtracting the combined size of all other partitions from the Total Capacity number that is provided in the Installed Partitions section. |
+   | To delete installed partitions... | Click **Delete** to delete the partition. |
+   | To remain unchanged... | Proceed to the next step. |
+   {: caption="2. Partition action options" caption-side="top"}
 
 6. Determine whether to apply one or more SSH Keys to the device.
 
 7. Select the applicable checkboxes for the options that you want to apply to the device during or after the OS reload.
 
-   **Note:** Options vary based on device. Not all options are available for every device.
+   Options vary based on device. Not all options are available for every device.
+   {:note: .note}
       <dl>
    <dt>Post Install script</dt>
    <dd>Adds an existing or new post-installation script.</dd>
