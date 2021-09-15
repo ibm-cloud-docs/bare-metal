@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-05-02"
+  years: 2019, 2021
+lastupdated: "2021-09-15"
 
 keywords: image template, OS Reload, operating system
 
@@ -15,6 +15,7 @@ subcollection: bare-metal
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
 
 # Reloading an OS using an image template
 {: #reloading-an-os-using-an-image-template}
@@ -44,7 +45,8 @@ For more information about permissions, see [Classic infrastructure permissions]
 2. From the **Actions** menu, select **Load from Image**.
 3. Select the image template check box to for the image template to load on to the device.
 
-   **Note:** Before completing the reload, the image template is copied to the data center that contains the device, if it is not already located in the same data center. If the image template must be copied to the data center, an fee might be charged if the template is not deleted from the location after the OS Reload occurs.
+   Before completing the reload, the image template is copied to the data center that contains the device, if it is not already located in the same data center. If the image template must be copied to the data center, an fee might be charged if the template is not deleted from the location after the OS Reload occurs.
+   {:note: .note}
 
 4. Determine whether you want to add any features. Any features that you select are added to the device as part of the reload process.
 
@@ -101,7 +103,8 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 7. Review the image configuration and click **Next** to proceed to the next screen or **Cancel** to cancel the action.
 
-   **Note:** After you click **Next**, all network ports for the device are systematically shut down and the device is unavailable for up to 15 minutes. During this time, the action can be canceled at any time by clicking **Cancel**. The next step must be completed within 15 minutes of clicking **Next** or the previous steps must be completed again. This process is in place as a safeguard to ensure that no additional data is added to a device between the configuration confirmation and the OS Reload initiation.
+   After you click **Next**, all network ports for the device are systematically shut down and the device is unavailable for up to 15 minutes. During this time, the action can be canceled at any time by clicking **Cancel**. The next step must be completed within 15 minutes of clicking **Next** or the previous steps must be completed again. This process is in place as a safeguard to ensure that no additional data is added to a device between the configuration confirmation and the OS Reload initiation.
+   {:note: .note}
 
 8. Click **Confirm OS Reload** to confirm the action and begin the OS reload process. Click **Cancel** to cancel the action.
 
