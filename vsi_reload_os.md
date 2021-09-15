@@ -4,7 +4,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2020-09-15"
+lastupdated: "2021-09-15"
 
 keywords: OS Reload, operating system
 
@@ -23,7 +23,7 @@ subcollection: bare-metal
 {: #reloading-the-os}
 
 You can reload the operating system (OS) on a device at any time to restore a device to its original working order, or to reconfigure a device with different software. An OS reload removes all data from the device and applies a "like new" configuration, as specified during the configuration process of the OS Reload setup. Because OS reloads clear all data from the device, if the data is not backed up before the reload, it's permanently deleted and cannot be retrieved.
-{:shortdesc}
+{: shortdesc}
 
 **Important:** If you want to retain your data, back up all data before you perform an OS reload.
 
@@ -54,35 +54,33 @@ For more information about permissions, see [Classic infrastructure permissions]
 
    | Partition action | Steps |
    |------------------|-------|
-   | To add installed partitions... | 1. Click **Add Another Partition**.<br> 2. Enter the exact name of the partition.<br> 3. Enter the partition size (in GBs). If   you want, you can select Grow to grow the partition to fill the remaining disk space.<br><br> **Note**: Only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the Grow partition is calculated by subtracting the combined size of all other partitions from the Total Capacity number that is provided in the Installed Partitions section. |
+   | To add installed partitions... | 1. Click **Add Another Partition**.<br> 2. Enter the exact name of the partition.<br> 3. Enter the partition size (in GBs). If you want, you can select Grow to grow the partition to fill the remaining disk space.<br><br> **Note**: Only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the Grow partition is calculated by subtracting the combined size of all other partitions from the Total Capacity number that is provided in the Installed Partitions section. |
    | To delete installed partitions... | Click **Delete** to delete the partition. |
    | To remain unchanged... | Proceed to the next step. |
-   {: caption="2. Partition action options" caption-side="top"}
+   {: caption="Table 2. Partition action options" caption-side="top"}
 
 6. Determine whether to apply one or more SSH Keys to the device.
 
 7. Select the applicable checkboxes for the options that you want to apply to the device during or after the OS reload.
 
    Options vary based on device. Not all options are available for every device.
-   {:note: .note}
-      <dl>
-   <dt>Post Install script</dt>
-   <dd>Adds an existing or new post-installation script.</dd>
-   <dt>SSH key</dt>
-   <dd>Adds an SSH key to the device upon the reload action. </dd>
-   <dt>Reset IPMI Password</dt>
-   <dd> This option is only available for physical devices. </dd>
-   <dt>Apply system board BIOS upgrades</dt>
-   <dd>This option is only available for physical devices. </dd>
-   <dt>Apply firmware updates for all hard disks</dt>
-   <dd>This option is only available for physical devices.</dd>
-   <dt>Add to Spare Pool after OS Reload</dt>
-   <dd>This option is available only on physical devices and requires internal approval before being available on an account.</dd>
-   <dt>Erase all hard disks</dt>
-   <dd> This option is available only on physical devices and requires special user permissions set by the Account's administrator.</dd>
-   <dt>OS Reload with Disk Preservation</dt>
-   <dd>This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.</dd>
-   </dl>
+   {: note}
+   
+   **Post Install script** Adds an existing or new post-installation script.
+   
+   **SSH key** Adds an SSH key to the device upon the reload action.
+   
+   **Reset IPMI Password** This option is only available for physical devices.
+   
+   **Apply system board BIOS upgrades** This option is only available for physical devices.
+   
+   **Apply firmware updates for all hard disks** This option is only available for physical devices.
+   
+   **Add to Spare Pool after OS Reload** This option is available only on physical devices and requires internal approval before being available on an account.
+   
+   **Erase all hard disks** This option is available only on physical devices and requires special user permissions set by the Account's administrator.
+   
+   **OS Reload with Disk Preservation** This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.
 
 8. Click **Reload Above Configuration** to proceed to review. Click **Cancel** to cancel the changes to the device and exit the screen.
 
