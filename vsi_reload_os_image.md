@@ -50,54 +50,39 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 4. Determine whether you want to add any features. Any features that you select are added to the device as part of the reload process.
 
-   <table>
-   <CAPTION>Table 1. Optional features</CAPTION>
-   <THEAD>
-   <TR>
-   <th>Optional Features</th>
-   <th>Steps</th>
-   </TR>
-   </THEAD>
-   <TBODY>
-   <tr>
-   </tr>
-   <tr>
-   <td>Yes, I want to add optional features.</td>
-   <td>
-   <ol>
-   <li>Click <b>Load Selected Image</b>.</li>
-   <li>Review the Image Configuration and proceed or cancel.</li>
-   <li>Click <b>Confirm OS Reload</b> to confirm the action and begin the OS reload process.</li>
-   </ol>
-   </td>
-   </tr>
-   <tr>
-   <td>No, I do not want to add optional features.</td>
-   <td>Click <b>View Optional Features</b>.</td>
-   </tr>
-   </TBODY>
-   </table>
+   table
+   
+   | Optional Features| Steps |
+   | -------------- | -------------- |
+   | Yes, I want to add optional features. | i. Click Load Selected Image. ii. Review the Image Configuration and proceed or cancel. iii. Click Confirm OS Reload to confirm the action and begin the OS reload process. |
+   | No, I do not want to add optional features. | Click View Optional Features. |
+   {: caption="Table 1. Optional features" caption-side="top"}
 
 5. Configure options, as relevant. Refer to the following information for more details.
 
-   <dl>
-   <dt>Post Install script</dt>
-   <dd>Adds an existing or new post-installation script.</dd>
-   <dt>SSH key</dt>
-   <dd>Adds an SSH key to the device upon the reload action. </dd>
-   <dt>Reset IPMI Password</dt>
-   <dd> This option is only available for physical devices. </dd>
-   <dt>Apply system board BIOS upgrades</dt>
-   <dd>This option is only available for physical devices. </dd>
-   <dt>Apply firmware updates for all hard disks</dt>
-   <dd>This option is only available for physical devices.</dd>
-   <dt>Add to Spare Pool after OS Reload</dt>
-   <dd>This option is available only on physical devices and requires internal approval before being available on an account.</dd>
-   <dt>Erase all hard disks</dt>
-   <dd> This option is available only on physical devices and requires special user permissions set by the Account's administrator.</dd>
-   <dt>OS Reload with Disk Preservation</dt>
-   <dd>This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.</dd>
-   </dl>
+   **Post Install script**
+   Adds an existing or new post-installation script.
+   
+   **SSH key**
+   Adds an SSH key to the device upon the reload action.
+   
+   **Reset IPMI Password**
+   This option is only available for physical devices.
+   
+   **Apply system board BIOS upgrades**
+   This option is only available for physical devices.
+   
+   **Apply firmware updates for all hard disks**
+   This option is only available for physical devices.
+   
+   **Add to Spare Pool after OS Reload**
+   This option is available only on physical devices and requires internal approval before being available on an account.
+   
+   **Erase all hard disks**
+   This option is available only on physical devices and requires special user permissions set by the Account's administrator.
+   
+   **OS Reload with Disk Preservation**
+   This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.
 
 6. Click **Load Selected Image**.
 
