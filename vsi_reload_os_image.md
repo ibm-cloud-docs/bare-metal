@@ -38,7 +38,7 @@ Use the following steps to reload an OS from an image template by using the Load
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
-##Reload an OS
+## Reload an OS
 {: #reload-an-os-image}
 
 1. From the **Device List**, click the server that needs an OS Reload to show the Device Details page.
@@ -49,12 +49,10 @@ For more information about permissions, see [Classic infrastructure permissions]
    {:note: .note}
 
 4. Determine whether you want to add any features. Any features that you select are added to the device as part of the reload process.
-
-   table
    
    | Optional Features| Steps |
    | -------------- | -------------- |
-   | Yes, I want to add optional features. | i. Click Load Selected Image. ii. Review the Image Configuration and proceed or cancel. iii. Click Confirm OS Reload to confirm the action and begin the OS reload process. |
+   | Yes, I want to add optional features. | i. Click Load Selected Image.  \n ii. Review the Image Configuration and proceed or cancel.  \n iii. Click Confirm OS Reload to confirm the action and begin the OS reload process. |
    | No, I do not want to add optional features. | Click View Optional Features. |
    {: caption="Table 1. Optional features" caption-side="top"}
 
