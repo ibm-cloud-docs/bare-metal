@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-09-16"
 
 keywords: reserved bare metal, bare metal reserved, contract term bare metal, contract term bare metal server, contract term server, contract term, 1 year server, 3 year server, 1 year bare metal, 3 year bare metal, 1 year bare metal server, 3 year bare metal server  
  
@@ -65,7 +65,7 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term. 
 
-An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle. 
+An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same - it doesn't increase.  
 {: note}
 
 For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/blog/announcements/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers).
