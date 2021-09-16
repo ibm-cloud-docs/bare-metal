@@ -22,7 +22,7 @@ subcollection: bare-metal
 # Contract term pricing for bare metal servers
 {: #about-reserved-bare-metal-servers}
 
-{{site.data.keyword.baremetal_long}} gives you the option to lock-in a lower price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. 
+{{site.data.keyword.baremetal_long}} gives you the option to lock-in a lower price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, you keep your contracted price on a month-to-month basis. 
 {: shortdesc}
 
 ## Advantages
