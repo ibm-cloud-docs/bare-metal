@@ -31,7 +31,7 @@ Contract term pricing offers many conveniences, including the following advantag
 
 * **Guaranteed availability**
 
-  Your bare metal capacity is maintained in the data center and POD that you selected for the life of your contract term.
+   Your bare metal capacity is maintained in the data center and POD that you selected for the life of your contract term.
 
 * **Global availability**
 
