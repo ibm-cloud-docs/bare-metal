@@ -23,7 +23,7 @@ subcollection: bare-metal
 # Veeam backup for Office 365 
 
 Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software defined solution that protects Office 365, performs granular restores, and recovers data to anywhere.
-{:shortdesc}
+{: shortdesc}
 
 ## Features
 
@@ -39,4 +39,4 @@ For more information about Veeam and IBM, see [Veeam on IBM Cloud](https://www.i
 
 
 Veeam backup for Office 365 is available on bare metal and virtual servers on only a monthly basis. 
-{:note}
+{: note}
