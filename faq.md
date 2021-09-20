@@ -26,6 +26,7 @@ subcollection: bare-metal
 
 ## What is UEFI boot mode?
 {: faq}
+
 The Unified Extensible Firmware Interface (UEFI) is a specification for the software interface between an operating system and firmware.
 
 IBM Cloud support for BIOS boot mode is phasing out in favor of UEFI.
@@ -38,7 +39,7 @@ For more information about UEFI, see your hardware manufacturer documentation or
 Currently, {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS, for various reasons. However, you can change the BIOS. If you need to modify anything in the BIOS, including boot order, create a support case by going to **Support > Create a Case** through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external} and request the specific changes that you need.
 
 This change requires a restart of your server, so be ready to approve a restart and provide a timeframe for when you want to implement like the changes.
-{:note}
+{: note}
 
 ## Do you provide complimentary OS Reloads?
 {: faq}
