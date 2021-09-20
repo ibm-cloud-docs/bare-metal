@@ -31,6 +31,5 @@ To provision a bare metal server with an Intel&reg; Optane drive, follow these s
 |Server|1. Select **All servers**<br>2. Select *Dual processors*<br>3. Select one of the following servers<br>Intel&reg; Xeon 4110, up to 12 drives<br>Intel&reg; Xeon 5120  with up to 12 drives<br>Intel&reg; Xeon 6140  with up to 12 drives|
 |Operating system|For Intel&reg;-provided Optane drivers the following operating systems are certified by Intel&reg;:<br>Windows Server 2016 (all Editions)<br>Windows Server 2012 R2 (all Editions)<br><br>For In-box, open source, non-Intel&reg; drivers, compatibility, and functionality is validated but not certified:<br>Red Hat Enterprise Linux&reg; 7.x (64 bit)<br>Red Hat Enterprise Linux&reg; 6.x (64 bit).
 |Image Add-ons| Select an Intel&reg; Optane drive for either or both the first and second PCIe Components.|
-
-<caption>Table 1. Provisioning an Intel&reg; Optane-compatible bare metal server</caption>
+{: caption="Table 1. Provisioning an Intel&reg; Optane-compatible bare metal server" caption-side="top"}
 
