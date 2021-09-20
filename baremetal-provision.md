@@ -60,5 +60,6 @@ The _provisioning complete_ email includes a link to your *Device Details* page 
 You can also order as a quote or to add it to an estimate. When you save a quote, a link is sent to the email address associated with your account. Open the link to see the saved quote information. Another option is to go to Manage > Billing and usage, and select Sales > Device quotes. If you have access, you can purchase the quoted offering by clicking the quote and confirming the order. Adding to estimate places the configurations proposed cost in the pricing calculator. Click **Information** for more details about the pricing calculator.
 
 ## Next Steps
-{: #prov-next}
+{: #provision-next-steps}
+
 After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers).
