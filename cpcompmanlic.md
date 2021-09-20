@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 1994, 2019
+  years: 1994, 2021
 
-lastupdated: "2019-07-19"
+lastupdated: "2021-09-20"
 
 keywords: active control panel software, control panel licenses window, download license files, devices, canceling license
 
@@ -22,7 +22,7 @@ subcollection: bare-metal
 {: #cp_compacclisc}
 
 You can manage the licenses for active control panel software, like cPanel and Parallels, from the {{site.data.keyword.cloud_notm}} console on the Control Panel Licenses window. You can view licenses and their associated IPs, download license files, and cancel individual licenses.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
@@ -53,11 +53,7 @@ Control panel licenses are invoiced monthly, based on the agreed-upon terms at t
 3. Select **Actions** > **Cancel** for the control panel license you want to cancel.
 4. Enter any notes about the cancellation in the **Notes** text box.
 5. Click **Continue** to advanced to the confirmation screen.
-6. Select the **Data Loss Acknowledgement** check box.
-
-  If you didn't back up any important data, return to the first step and back up all data before canceling the license.
-  {: tip}
-
+6. Select the **Data Loss Acknowledgement** check box. If you didn't back up any important data, return to the first step and back up all data before canceling the license.
 7. Click **Cancel License**.
 
 After you start the cancellation process, the control panel license is scheduled for cancellation for the upcoming billing anniversary date. If the cancellation was made in error, you can void the cancellation on the Cancellations screen in the {{site.data.keyword.cloud_notm}} console.
