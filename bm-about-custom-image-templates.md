@@ -25,7 +25,7 @@ subcollection: bare-metal
 {: #getting-started-bm-custom-image-templates}
 
 With {{site.data.keyword.baremetal_long}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. Image templates provide an imaging option for all {{site.data.keyword.baremetal_short}}, regardless of operating system. 
-{:shortdesc}
+{: shortdesc}
 
 Image templates are not intended for backing up your data.
 {: important}
@@ -39,28 +39,28 @@ The two main actions for any image template are _create_ and _deploy_. When you 
 {: #bm-custom-image-prereqs}
 
 * Compatible system configurations 
-  - UEFI and BIOS server images must be deployed on respective servers
-  - Only available for X10, X11, and Lenovo systems
-  - Supports multiple drives up to 2 TB 
-  - vGPU support
-  - RAID 0, 1, 10 
+   - UEFI and BIOS server images must be deployed on respective servers
+   - Only available for X10, X11, and Lenovo systems
+   - Supports multiple drives up to 2 TB 
+   - vGPU support
+   - RAID 0, 1, 10 
   
 * Supported OSs
-  - CentOS 7, 8
-  <!--- Debian 9-->
-  - RHEL 7, 8
-  - Ubuntu 16, 18
-  - Windows 2012 R2, 2016, 2019
+   - CentOS 7, 8
+   <!--- Debian 9-->
+   - RHEL 7, 8
+   - Ubuntu 16, 18
+   - Windows 2012 R2, 2016, 2019
 
 ## Limitations
 {: #bm-custom-image-limitations}
 
-- No multiple RAID configurations
-- No RAID 5 and 6
-- UEFI boot mode not supported
-- No Trusted Platform Module (TPM) encryption support
-- Logical Volume Management (LVM) not supported
-- Custom and non-IBM kernels not supported
+* No multiple RAID configurations
+* No RAID 5 and 6
+* UEFI boot mode not supported
+* No Trusted Platform Module (TPM) encryption support
+* Logical Volume Management (LVM) not supported
+* Custom and non-IBM kernels not supported
 
 ## Next steps
 {: #next-steps-bm-custom-image}
