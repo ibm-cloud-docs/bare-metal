@@ -27,7 +27,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ## Servers for every workload
 {: #servers-every-need}
 
-{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){:external}
+{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){: external}
 
 ### Fast provisioning servers
 {: #Popular-bm}
@@ -58,6 +58,9 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
 
+EPYC processors are available in select data centers.
+{: important}
+
 You can choose from the following AMD EPYC "Rome" CPUs:
 * AMD EPYC 7642 (48-core, 2.3 Ghz)
 * AMD EPYC 7F72 (48-core, 3.2 Ghz)
@@ -70,9 +73,6 @@ The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
 
 Systems must be started in UEFI mode.
 {: note}
-
-EPYC processors are available in select data centers.
-{: important}
 
 ### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
@@ -90,7 +90,7 @@ You can choose from the following Intel&reg; Cascade Lake CPUs when you provisio
 ### NVIDIA GPU support
 {: #bm-gpu-support}
 
-For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You need to install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){:external}
+For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You need to install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
@@ -126,7 +126,6 @@ For more information about network options, see [Network options](/docs/bare-met
 If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server.
 
 Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions.
-{: note}
 
 For more information about block and file storage, see the following links.
 * [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
