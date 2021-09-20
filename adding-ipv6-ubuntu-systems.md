@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2021
-lastupdated: "2021-09-16"
+lastupdated: "2021-09-20"
 
 keywords: IPv6
 
@@ -14,12 +14,13 @@ subcollection: bare-metal
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:codeblock: .codeblock}
 
 # Adding IPv6 to Ubuntu systems
 {: #adding-ipv6-to-ubuntu-systems}
 
 Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
-{:shortdesc}
+{: shortdesc}
 
 1. Edit your **/etc/network/interfaces** file and add the following lines to the end of the file.
 
@@ -31,20 +32,20 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    netmask 64</br>
    gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
    ```
-   {: pre}
+   {: codeblock}
    
-   * The first line defines the interface on which the system uses IPv6.</br>
-   * The second line loads the module for IPv6.<br/>
-   * The third line identifies the IPv6 address.<br/>
-   * The fourth line defines the netmask for the IPv6 subnet.<br/>
-   * The fifth line defines the default gateway for the IPv6 subnet.
+  * The first line defines the interface on which the system uses IPv6.
+  * The second line loads the module for IPv6.
+  * The third line identifies the IPv6 address.
+  * The fourth line defines the netmask for the IPv6 subnet.
+  * The fifth line defines the default gateway for the IPv6 subnet.
 
 2. Restart networking with the following command:
 
    ```
    /etc/init.d/networking restart
    ```
-   {: pre}
+   {: codeblock}
 
 ## Verifying IPv6 connectivity
 {: #verifying-ipv6-connectivity}
@@ -56,13 +57,12 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    root@server:~# ip -6 address show eth1
    3: eth1: mtu 1500 qlen 1000
        inet6 2607:f0d0:2001::/64 scope global
-         valid_lft forever preferred_lft forever
+          valid_lft forever preferred_lft forever
        inet6 fe80::230:48ff:fe7e:330a/64 scope link
-           valid_lft forever preferred_lft forever
+          valid_lft forever preferred_lft forever
    root@server:~#
    ```
-   {: pre}
-
+   {: codeblock}
 
 ### IPv6 Neighbor Cache
 {: #ipv6-neighbor-cache}
@@ -72,7 +72,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
    root@server:~#
    ```
-   {: pre}
+   {: codeblock}
 
 If the neighbor cache shows a fe80 entry, one of the following conditions can apply:
 - The gateway is not set
@@ -90,7 +90,7 @@ If the neighbor cache shows a fe80 entry, one of the following conditions can ap
    default via 2607:f0d0:2001::1  metric 1024  mtu 1500 advmss 1440 hoplimit 4294967295
    root@server:~#
    ```
-   {: pre}
+   {: codeblock}
 
 If the default gateway is not listed, you can use the `ping6` command to find your default gateway then add it manually using this IP command:
 
@@ -98,4 +98,4 @@ If the default gateway is not listed, you can use the `ping6` command to find yo
    root@server:~# ip -6 route add default via 2607:f0d0:2001::1
    root@server:~#
    ```
-   {: pre}
+   {: codeblock}
