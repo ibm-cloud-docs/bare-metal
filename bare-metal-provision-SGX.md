@@ -40,8 +40,8 @@ To provision a bare metal server with SGX, follow these steps:
 
 | Section | Option to select |
 |------|------|
-| Server | Single processor,<br> Intel Xeon E3-1270 v6 with Storage up to four drives |
-| Image | - Windows Server 2016 Standard Edition (64 bit)<br> - Windows Server 2016 Standard Edition (64 bit)<br> - Windows Server 2016 Datacenter Edition (64 bit) <br> - CentOS 7.x (64 bit) <br> - Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)<br> - CentOS 7.x (64 bit) <br> - Red Hat Enterprise Linux 7.x (64 bit) (per-processor licensing) |
+| Server | Single processor Intel Xeon E3-1270 v6 with Storage up to four drives |
+| Image | - Windows Server 2016 Standard Edition (64 bit) - Windows Server 2016 Standard Edition (64 bit) - Windows Server 2016 Datacenter Edition (64 bit) - CentOS 7.x (64 bit) - Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit) - CentOS 7.x (64 bit) - Red Hat Enterprise Linux 7.x (64 bit) (per-processor licensing) |
 | Image Add-ons | Software Guard Extensions (SGX) |
 {: caption="Table 1. Order form options" caption-side="top"}
 
