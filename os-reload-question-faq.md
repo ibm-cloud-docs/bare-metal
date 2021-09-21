@@ -19,13 +19,13 @@ subcollection: bare-metal
 {:note: .note}
 
 # FAQs: Software
-{: #faqs}
+{: #bm-software-faqs}
 
 ## Can the Operating System (OS) be changed on the device?
 {: #can-the-operating-system-os-be-changed-on-the-device-}
+{: faq}
 
 You can change your OS and the software that you installed by reloading an OS. After you select OS Reload on the device, the system displays a link to update the software on your system. You can update the OS, control panel, antivirus packages, and database software.
-{:shortdesc}
 
 ## Do you provide complimentary OS Reloads?
 {: #do-you-provide-complimentary-os-reloads-}
