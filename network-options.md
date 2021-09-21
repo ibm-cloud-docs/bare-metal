@@ -75,13 +75,13 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 
 | Location | Data center | 
 | ----- | ----- |
-| Dallas | DAL10<br>DAL12<br>DAL13 |
-| Frankfurt| FRA02<br>FRA05 | 
-| London | LON04<br>LON06 |
-| Sydney | SYD04<br>SYD05 |
-| Tokyo | TOK02<br>TOK04<br>TOK05 |
+| Dallas | DAL10, DAL12, DAL13 |
+| Frankfurt| FRA02, FRA05 | 
+| London | LON04, LON06 |
+| Sydney | SYD04, SYD05 |
+| Tokyo | TOK02, TOK04, TOK05 |
 | Toronto| TOR04 |
-| Washington DC | WDC04<br>WDC06<br>WDC07 |
+| Washington DC | WDC04, WDC06, WDC07 |
 {: caption="Table 1. 25 Gbps network data centers" caption-side="top"}
 
 25 Gbps port speeds are available with the following operating systems:
