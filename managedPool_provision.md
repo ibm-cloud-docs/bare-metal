@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2019
-lastupdated: "2019-02-01"
+  years:  2019, 2021
+lastupdated: "2021-09-21"
 
 keywrods: provision managed pool, managed pools
 
@@ -21,6 +21,7 @@ subcollection: bare-metal
 {: #bm-provision-managed-pools}
 
 To provision a customer-managed pool of servers, contact IBM directly: [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp).
+{: shortdesc}
 
 Provide the following information:
 * The data center that you want your managed pools to be located. (All servers in a managed pool must be located in the same data center.)
@@ -33,9 +34,10 @@ After your pool is created, IBM provides you with the following parameter values
 
 ## Ordering servers from your managed pool
 {: #bm-order-server-managed-pool}
+
 Use the standard provisioning process to order servers in your pool. Your order is fulfilled from your pool and your pool is replenished with the number of servers that you ordered.
 
 ## Next steps
 {: #manage-pool-provision-next}
 
-After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. Refer to [Specifying the number of servers in your customer-managed pool](/docs/bare-metal?topic=bare-metal-set-amount-servers-pool#set-amount-servers-pool)
+After you provision your customer-managed pool, and ordering servers from your managed pool, you can manage the number of servers in your pool. For more information, see [Specifying the number of servers in your customer-managed pool](/docs/bare-metal?topic=bare-metal-set-amount-servers-pool#set-amount-servers-pool).
