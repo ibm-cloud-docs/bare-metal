@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2019
+  years: 1994, 2021
 lastupdated: "2019-12-03"
 
-keywords: server IP addresses, bare metal, {{site.data.keyword.cloud}}
+keywords: server IP addresses, {{site.data.keyword.cloud}}, bind ip address, assign server ip address
 
 subcollection: bare-metal
 
@@ -19,6 +19,7 @@ subcollection: bare-metal
 
 # Assigning and binding IP addresses
 {: #bm-assigning-and-binding-ip-addresses}
+
 Use the following information to assign a server IP address to your server, and bind a secondary IP address to your server, if requried.
 {: shortdesc}
 
