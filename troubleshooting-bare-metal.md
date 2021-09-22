@@ -167,7 +167,8 @@ If firewall is not an issue, check whether the public gateway IP is configured f
 
 Check whether you can ping IBM DNS servers (_10.0.80.11_, _10.0.80.12_), if you configured DNS servers for the public network card.
 
-If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:<br>
+If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:
+
 `nameserver 10.0.80.11` and `nameserver 10.0.80.12` 
 
 ## Why does the portal show that my server is disconnected even though it's running?
