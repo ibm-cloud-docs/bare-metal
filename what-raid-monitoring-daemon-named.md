@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2020
+  years: 2017, 2021
 lastupdated: "2020-11-11"
 
 keywords: raid monitoring daemon
@@ -24,8 +24,6 @@ subcollection: bare-metal
 
 You can configure RAID alerts to bypass the monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
 
-<caption>Table 1. RAID configurations and settings</caption>
-
 ||Broadcom Linux|Broadcom Windows|Adaptec Linux|Adaptec Windows|
 |---|---|---|---|---|
 |**Manager Name**|Broadcom MegaRAID Storage Manager|Broadcom MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
@@ -35,7 +33,8 @@ You can configure RAID alerts to bypass the monitoring process by changing the S
 |**Process Name**|/opt/Broadcom/mrmonitor/bin/mrmonitord|||||
 |**Log Location**|Default Message Log Location for OS such as /var/log/messages|GUI Only|/usr/StorMan/RaidEvtA.log|GUI Only|
 |**Notification E-Mail Destination**|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|[hwraid@softlayer.com](mailto:hwraid@softlayer.com)|
-|**Notification E-Mail Source Format**|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|accountid_privatemac<br /><br />@softlayer.com|
+|**Notification E-Mail Source Format**|accountid_privatema@softlayer.com|accountid_privatemac@softlayer.com|accountid_privatemac@softlayer.com|accountid_privatemac@softlayer.com|
 |**E-Mail Port**|25|25|25|25|
 |**SMTP Server**|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|raidalerts-smtp.networklayer.com|
 |**Alternate Notification Options**|Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations.|Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations.|Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations.|Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations.|
+{: caption="Table 1. RAID configurations and settings" caption-side="top"}
