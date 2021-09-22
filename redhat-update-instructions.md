@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-02-27"
+  years: 1994, 2021
+lastupdated: "2021-09-22"
 
 keywords: Red Hat, RedHat
 
@@ -15,11 +15,11 @@ subcollection: bare-metal
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Red Hat Update Instructions
+# Red Hat update instructions
 {: #red-hat-update-instructions}
 
 IBM provides OS and software update services for Red Hat environments free of charge.
-{:shortdesc}
+{: shortdesc}
 
 All update services at IBM share the following features:
 * Update traffic is routed from your server (over your private VLAN) to the private service network
@@ -31,7 +31,7 @@ All update services at IBM share the following features:
 
 IBM update servers are in the private service network with the following location identifiers:
 
-| DATACENTER | SATELLITE |
+| Data center | Satellite |
 |------------|-----------|
 | **Dallas** |          |
 | DAL01 | rhnsatdal0902 |
@@ -62,12 +62,9 @@ IBM update servers are in the private service network with the following locatio
 | WDC04 |	rhnsatmon0102	|
 | WDC06 |	rhnsatmon0102 |
 | WDC07 |	rhnsatmon0102 |
+{: caption="Table 1. Data center regions" caption-side="top"}
 
-<caption>Datacenter regions Table 1</caption>
-
-<br>
-
-| DATACENTER | SATELLITE |
+| Data center | Satellite |
 |------------|-----------|
 | **Amsterdam** |       |
 | AMS01 |	rhnsatfra0201 |
@@ -94,12 +91,9 @@ IBM update servers are in the private service network with the following locatio
 | SYD05 |	rhnsatsyd0102 |
 | **Singapore** |      |
 | SNG01 |	rhnsatsyd0102 |
+{: caption="Table 2. Data center regions 2" caption-side="top"}
 
-<caption>Datacenter regions Table 2</caption>
-
-<br>
-
-| DATACENTER | SATELLITE |
+| Data center | Satellite |
 |------------|-----------|
 | **Chennai** |         |	
 | CHE01	| rhnsattok0201 |
@@ -111,16 +105,13 @@ IBM update servers are in the private service network with the following locatio
 | HKG02	| rhnsattok0201 |
 | **Seoul** |          |
 | SEO01 |	rhnsattok0201 |
-
-<caption>Datacenter regions Table 3</caption>
-
-<br>
+{: caption="Table 3. Data center regions 3" caption-side="top"}
 
 Always test kernel or service pack upgrades before you install them in production environments. You can find technical information for specific hardware, OS, and applications deployed in the FAQ or drivers section inside the control portal.
 
 IBM tests kernel and service pack upgrades and displays related information and drivers to help your upgrade process.
 
-## RHN Subscription
+## RHN subscription
 {: #rhn-subscription}
 
 For Red Hat operating systems, IBM provides Red Hat Network Satellite servers to install critical and non-critical security updates.
