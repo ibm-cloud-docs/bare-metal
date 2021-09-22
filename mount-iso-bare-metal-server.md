@@ -70,8 +70,8 @@ You can mount an ISO from your local computer by using the Java iKVM viewer (con
 
 If you do not have permission to change the BIOS on a server, open a support case to request the following changes:
 
-   * Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode)
-   * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not mounted, support can change only the boot device priority for now).
+* Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode)
+* To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not mounted, support can change only the boot device priority for now).
 
 1. Log in to the IPMI management console by pointing your web browser to the IP that is specified in cloud.ibm.com.
 2. Go to **Devices** > **your server (device details)** > **Remote Mgmt**. Specify the username and password.
