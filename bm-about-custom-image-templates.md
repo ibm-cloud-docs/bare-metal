@@ -41,19 +41,19 @@ Make sure that your image works fine during deployment before you reclaim the so
 ### Compatible system configurations
 {: #bm-image-template-compatible-system-configurations}
 
-   - UEFI and BIOS image support (images must be deployed on their respective servers)
-   - Only available for X10, X11, and Lenovo systems
-   - Supports multiple drives up to 2 TB 
-   - vGPU support
-   - RAID 0, 1, 10 
+- UEFI and BIOS image support (images must be deployed on their respective servers)
+- Only available for X10, X11, and Lenovo systems
+- Supports multiple drives up to 2 TB 
+- vGPU support
+- RAID 0, 1, 10 
   
 ### Supported operating systems
 {: #bm-image-template-supported-os}
 
-   - CentOS 7, 8<!--- Debian 9-->
-   - RHEL 7, 8
-   - Ubuntu 16, 18
-   - Windows 2012 R2, 2016, 2019
+- CentOS 7, 8<!--- Debian 9-->
+- RHEL 7, 8
+- Ubuntu 16, 18
+- Windows 2012 R2, 2016, 2019
    
 ### Limitations
 {: #bm-custom-image-limitations}
