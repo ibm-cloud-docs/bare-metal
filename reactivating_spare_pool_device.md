@@ -34,4 +34,5 @@ When you add a device to the spare pool, the device status within the **Device L
 
 ## Next Steps
 {: #reactivate-device-spare-pool-next}
+
 When the reactivation process begins, the device is taken offline, device firmware is updated, and the device is available for regular use. The reactivation process takes approximately 1 hour. The device can return to the spare pool at any time by adding the device to the spare pool again. For more information, see [Adding a device to the spare pool](/docs/bare-metal?topic=bare-metal-adding-spare-pools#adding-spare-pools).
