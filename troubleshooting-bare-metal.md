@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-08"
+lastupdated: "2021-06-21"
 
-keywords: bare metal, troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
+keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
 subcollection: bare-metal
 
@@ -30,7 +30,7 @@ subcollection: bare-metal
 {: #troubleshooting-bare-metal}
 
 The following topics cover common difficulties that you might encounter, and offers some helpful tips.
-{:shortdesc}
+{: shortdesc}
 
 ## Why can't I log in to a bare metal server through SSH?
 {: #bm-troubleshoot-cannot-ssh-into-server}
@@ -53,14 +53,19 @@ For security reasons, it is recommended that you don't enable root for remote SS
 
 1. Log in to IPMI console for your server. 
 2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_ 
-  `nano /etc/ssh/sshd_config`
+   `nano /etc/ssh/sshd_config`
 3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
 
-`#LoginGraceTime 2m`<br>
-`PermitRootLogin yes`<br>
-`#StrictModes yes`<br>
-`#MaxAuthTries 6`<br>
-`#MaxSessions 10`<br>
+`#LoginGraceTime 2m`
+
+`PermitRootLogin yes`
+
+`#StrictModes yes`
+
+`#MaxAuthTries 6`
+
+`#MaxSessions 10`
+
 Save the updated _/etc/ssh/sshd_config_ file.    
 
 Restart sshd service on an Ubuntu or Debian Linux by using the following command:    
@@ -181,7 +186,7 @@ If you receive Purple Screen of Diagnostics (PSOD) on an ESXi server, it might b
 
 * Memory fault or error 
 * VMWareare kernel issues. 
- - Try restarting the server to resolve kernel issues. 
- - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+   - Try restarting the server to resolve kernel issues. 
+   - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 For more information, see this VMWare [technote](https://kb.vmware.com/s/article/1004250). 
