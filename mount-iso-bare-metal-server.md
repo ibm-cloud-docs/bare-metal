@@ -45,9 +45,7 @@ Follow these steps to install a custom OS from a CIFS Share:
 
 1. Make sure that the ISO is on the CIFS Share.
 2. Log in to the IPMI management console by pointing your web browser to the IP specified in cloud.ibm.com. 
-3. From the {{site.data.keyword.cloud_notm}} console, go to **Devices** > **Your server (device details)** > **Remote Mgmt**. 
-   The username and password are also specified in the details.
-   {: note}
+3. From the {{site.data.keyword.cloud_notm}} console, go to **Devices** > **Your server (device details)** > **Remote Mgmt**. The username and password are also specified in the details.
 4. Hover over **Virtual Media** and click **CD-ROM image**
 5. Complete the appropriate details and click **Save and Mount**.
 
@@ -57,6 +55,7 @@ Not all users have permission to change the BIOS of the server. If necessary, yo
 * Change the boot sequence to ‘IPMI Virtual Disk’ as first boot option.
   
 ### What next
+{: #bm-what-next-mount-iso}
 
 After you make these changes, go back to the **IPMI management console** and go to **Configuration > Remote session**. Change the attach mode to **Attach**. Then, restart the server and boot from the virtual media.
 
