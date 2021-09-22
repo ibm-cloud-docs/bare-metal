@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-14"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -26,9 +26,10 @@ Public data network traffic transferred Outbound from {{site.data.keyword.Bluemi
 
 ## Before you begin
 {: #bm-bandwidth-graphs-before}
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
+
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
-<br>
+
 For more information about permissions, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Viewing your bandwidth graphs
@@ -37,10 +38,10 @@ For more information about permissions, see [Managing device access](/docs/vsi?t
 To view your bandwidth graphs, follow these steps:
 
 1. Click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Classic Infrastructure** > **Network** > **Bandwidth**.
-4. Select the type of network usage (public or private) from the **View** list.
-5. Select the time period for the graph from the **View By** drop-down list. <br>Preset date ranges are most commonly queried. For a custom date range, select **Custom Date Range**.{: note}
-6. Select the start and end dates from the corresponding drop-down calendars.
-7. Click **Draw Graph**.
+2. Select the type of network usage (public or private) from the **View** list.
+3. Select the time period for the graph from the **View By** drop-down list. Preset date ranges are most commonly queried. For a custom date range, select **Custom Date Range**.
+4. Select the start and end dates from the corresponding drop-down calendars.
+5. Click **Draw Graph**.
 
 ## Optimizing your bandwidth usage
 {: #bm-optimize-bandwidth-usage}
@@ -90,8 +91,7 @@ The pool definitions are listed in the following table:
 | | LON04 |
 | | LON05 |
 | | LON06 |
-| Milan | MIL01 |
-| Oslo  | OSL01 |
+| Milan | MIL01 | 
 | Paris | PAR01 |
 {: caption="Table 1. Pool definitions Europe" caption-side="top"}
 {: #europe}
@@ -121,68 +121,6 @@ The pool definitions are listed in the following table:
 {: tab-group="pool-locations"}
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
-
-
-<!--| Pool      | Location          |
-| ------------- |:-------------:|
-| US & Canada | |
-| | DAL05 | 
-| | DAL06 | 
-| | DAL09 | 
-| | DAL10 | 
-| | DAL12 | 
-| | DAL13 |  
-| | MON01 |  
-| | SJC01 | 
-| | SJC03 |
-| | SJC04 |
-| | TOR01 | 
-| | TOR04 |
-| | TOR05 |
-| | WDC01 | 
-| | WDC04 | 
-| | WDC06 |
-| | WDC07 |
-| Amsterdam, London & Paris | |
-| | AMS01 |
-| | AMS03 | 
-| | LON02 |
-| | LON04 |
-| | LON05 | 
-| | LON06 |
-| | PAR01 |
-| Australia | |  
-| | SYD01 |
-| | SYD04 |
-| | SYD05 |
-| Brazil |  |
-| | SAO01 |
-| | SAO04 |
-| | SAO05 |
-| Frankfurt |  |
-| | FRA02 |
-| | FRA04 |
-| | FRA05 |
-| Hong Kong, Japan & Singapore | |
-| | HKG02 |
-| | OSA21 |
-| | OSA22 |
-| | OSA23 |
-| | SNG01 |
-| | TOK02 |
-| | TOK04 |
-| | TOK05 |
-| India |  |
-| | CHE01 |
-| Italy |  | 
-| | MIL01 |
-| Mexico |  | 
-| | MEX01 |
-| Norway |  | 
-| | OSL01 |
-| South Korea | 
-| | SEO01 | 
-{: caption="Table 1. Pooling definitions" caption-side="top"}-->
 
 ## Adding a bandwidth pool
 {: #bm-add-bandwidth-pool}
