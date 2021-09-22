@@ -30,9 +30,9 @@ You can download the 3ware&reg; CLI utilities from the [IBM Cloud CLI plug-in re
 
 These devices must be followed by a number that identifies which devices are being queried.
 
-_tw_cli /c0 show_ (Output shows information that is needed to know the health of the RAID array)
+tw_cli /c0 show (Output shows information that is needed to know the health of the RAID array)
 
-_./tw_cli /c1 show_
+./tw_cli /c1 show
 
 Example:
 
@@ -54,7 +54,7 @@ Example:
 
     p3     NOT-PRESENT      -      -           -             -
 
-*Notes*:
+Quick reference notes:
 
 c = controller (Controller can be 0 or 1)
 
