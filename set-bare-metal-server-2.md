@@ -14,23 +14,25 @@ subcollection: bare-metal
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 
 # Setting up a bare metal server
 {: #bm-set-up}
 
 You can set up a Bare Metal Server as a dedicated server.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #bm-set-up-before}
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-mngclassicinfra) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Setting up a bare metal server
+{: #bm-setting-up-server}
 
 Use the following steps to set up a Bare Metal Server:
 
@@ -47,7 +49,7 @@ Use the following steps to set up a Bare Metal Server:
 
 4. Update the credentials for operating systems and other software. All of the software that was loaded onto your device during the provisioning process was assigned temporary credentials. You can view and manage these credentials on the Passwords tab of each device in the {{site.data.keyword.cloud}} console. Use these temporary credentials to access your software for the first time. Then, change the password to your software by following strong password practices. Create a password that consists of a combination of letters, numbers, and symbols. Optionally, you can store password updates on the Passwords tab for each device. However, when you store passwords, any person with access to the account and appropriate permissions can view the passwords that are stored on the Passwords screen.
 
-5. Access your server on the private network. You can use the {{site.data.keyword.cloud_notm}} infrastructure private network to interact with your devices through remote desktop (RDP) by using SSH and KVM over IP. You can use the VPN Access tool for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services. To access the private network, edit the user’s VPN access from the User List. To access the User List, click **Account** > **Users** > **User list**. Use the [Virtual Private Network ![External link icon](../icons/launch-glyph.svg)](https://www.ibm.com/cloud/vpn-access){:new_window} page to connect to one of the various VPN options.
+5. Access your server on the private network. You can use the {{site.data.keyword.cloud_notm}} infrastructure private network to interact with your devices through remote desktop (RDP) by using SSH and KVM over IP. You can use the VPN Access tool for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services. To access the private network, edit the user’s VPN access from the User List. To access the User List, click **Account** > **Users** > **User list**. Use the [Virtual Private Network](https://www.ibm.com/cloud/vpn-access){: external} page to connect to one of the various VPN options.
 
 6. After you have your infrastructure and environments up and running, you are ready to set up your monitoring service. {{site.data.keyword.mon_full_notm}} gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
 
