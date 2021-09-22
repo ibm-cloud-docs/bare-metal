@@ -3,7 +3,7 @@ copyright:
   years: 1994, 2021
 lastupdated: "2021-09-20"
 
-keywords: IPv6
+keywords: IPv6, ipv6 ubuntu
 
 subcollection: bare-metal
 
@@ -27,18 +27,18 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    ```
    #IPV6 configuration
    iface eth1 inet6 static
-   pre-up modprobe ipv6 </br>
-   address 2607:f0d0:2001:0000:0000:0000:0000:0010</br>
-   netmask 64</br>
-   gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
+   pre-up modprobe ipv6 
+   address 2607:f0d0:2001:0000:0000:0000:0000:0010
+   netmask 64
+   gateway 2607:f0d0:2001:0000:0000:0000:0000:0001
    ```
    {: codeblock}
    
-  * The first line defines the interface on which the system uses IPv6.
-  * The second line loads the module for IPv6.
-  * The third line identifies the IPv6 address.
-  * The fourth line defines the netmask for the IPv6 subnet.
-  * The fifth line defines the default gateway for the IPv6 subnet.
+   - The first line defines the interface on which the system uses IPv6.
+   - The second line loads the module for IPv6.
+   - The third line identifies the IPv6 address.
+   - The fourth line defines the netmask for the IPv6 subnet.
+   - The fifth line defines the default gateway for the IPv6 subnet.
 
 2. Restart networking with the following command:
 
@@ -64,7 +64,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    ```
    {: codeblock}
 
-### IPv6 Neighbor Cache
+### IPv6 neighbor cache
 {: #ipv6-neighbor-cache}
 
    ```
@@ -80,7 +80,7 @@ If the neighbor cache shows a fe80 entry, one of the following conditions can ap
 - The IP is not bound correctly to the public interface
 - The software firewall is blocking IPv6 ICMP.
 
-### IPv6 Default Gateway
+### IPv6 default gateway
 {: #ipv6-default-gateway}
 
    ```
