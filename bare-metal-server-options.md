@@ -51,8 +51,8 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 {{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware&reg;-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
 
 ## Available options for a bare metal server
-
 {: #options-for-bare-metal-servers}
+
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
 
 ### AMD CPU support
