@@ -26,7 +26,7 @@ subcollection: bare-metal
 As a security officer, auditor, or manager, you can use {{site.data.keyword.cloudaccesstrailfull}} to track how users and
 applications interact with bare metal servers in {{site.data.keyword.cloud}}. The account owner and users that are linked
 with the account can trigger bare metal server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
-{:shortdesc}
+{: shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
 {{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with {{site.data.keyword.cloudaccesstrailfull}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
