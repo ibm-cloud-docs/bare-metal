@@ -192,11 +192,13 @@ Link errors can indicate that a cable might need reseated or replaced.
 
 The following information is needed when you open support case.
 
-**Adaptec RAID cards** 
+#### Adaptec RAID cards
+{: #adaptec-raid-cards-support}
 
 Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you open a support case. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support ticket process. 
 
-**Broadcom RAID cards** 
+#### Broadcom RAID cards
+{: #broadcom-raid-cards-support}
 
 Use the following commands to obtain the log files for Broadcom RAID cards. You need to include the full output of these log files with your support ticket.
 ```
