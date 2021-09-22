@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-09-22"
 
 keywords: image template, OS Reload, operating system
 
@@ -16,6 +16,7 @@ subcollection: bare-metal
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:note: .note}
+{:important: .important}
 
 # Reloading an OS using an image template
 {: #reloading-an-os-using-an-image-template}
@@ -24,17 +25,19 @@ subcollection: bare-metal
 {: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
 
 During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template.
+{: shortdesc}
 
-In an image template reload, you can still add features before reloading the OS.
+In an image template reload, you can still add features before you reload the OS.
 
-Use the following steps to reload an OS from an image template by using the Load from Image feature in the Customer Portal.
+Use the following steps to reload an OS from an image template by using the Load from Image feature.
 
-**Important:** If you want to retain your data, back up all data before reloading the OS. An OS reload clears all data from the device, so, if you did not back up the data before the reload, it is permanently deleted and cannot be retrieved.
-{:shortdesc}
+If you want to retain your data, back up all data before reloading the OS. An OS reload clears all data from the device, so, if you did not back up the data before the reload, it is permanently deleted and cannot be retrieved.
+{: important}
+
 
 ## Before you begin
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
@@ -45,15 +48,15 @@ For more information about permissions, see [Classic infrastructure permissions]
 2. From the **Actions** menu, select **Load from Image**.
 3. Select the image template check box to for the image template to load on to the device.
 
-   Before completing the reload, the image template is copied to the data center that contains the device, if it is not already located in the same data center. If the image template must be copied to the data center, an fee might be charged if the template is not deleted from the location after the OS Reload occurs.
-   {:note: .note}
+   Before the reload completes, the image template is copied to the data center that contains the device, if it is not already located in the same data center. If the image template must be copied to the data center, an fee might be charged if the template is not deleted from the location after the OS Reload occurs.
+   {: note}
 
 4. Determine whether you want to add any features. Any features that you select are added to the device as part of the reload process.
    
    | Optional Features| Steps |
    | -------------- | -------------- |
-   | Yes, I want to add optional features. | i. Click Load Selected Image.  \n ii. Review the Image Configuration and proceed or cancel.  \n iii. Click Confirm OS Reload to confirm the action and begin the OS reload process. |
-   | No, I do not want to add optional features. | Click View Optional Features. |
+   | Yes, I want to add optional features. | i. Click **Load Selected Image**.  \n ii. Review the Image Configuration and proceed or cancel.  \n iii. Click Confirm OS Reload to confirm the action and begin the OS reload process. |
+   | No, I do not want to add optional features. | Click **View Optional Features**. |
    {: caption="Table 1. Optional features" caption-side="top"}
 
 5. Configure options, as relevant. Refer to the following information for more details.
@@ -101,4 +104,4 @@ The time frame timeframe that is displayed is an estimate made by the system and
 
 When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved.
 
-You will need to re-register your device with IBM Cloud Backup.
+You need to re-register your device with IBM Cloud Backup.
