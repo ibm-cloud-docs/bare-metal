@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2019
+  years: 2014, 2021
 lastupdated: "2019-06-03"
 
 keywords: spare pools
@@ -31,4 +31,5 @@ For an individual in your organization to gain permission to manage spare pools,
 
 ## Next Steps
 {: #spare-pool-next}
+
 Refer to [Accessing spare pools](/docs/bare-metal?topic=bare-metal-bm-access-spare-pools).
