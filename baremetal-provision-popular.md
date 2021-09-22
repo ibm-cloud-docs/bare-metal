@@ -53,4 +53,5 @@ A series of emails are sent to your administrator: Acknowledgment of the provisi
 
 ## Next Steps
 {: #prov-popular-next}
+
 After your {{site.data.keyword.baremetal_short}} is provisioned, you can start managing it. For more information, see [Managing {{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-manage-servers).
