@@ -25,7 +25,8 @@ With 3ware&reg;, you can use a browser interface. However, unless you access the
 You can download the 3ware&reg; CLI utilities from the [IBM Cloud CLI plug-in repository
 ](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI plug-in for cf CLI](/docs/cli?topic=cli-ibmcloud-admincli).
 
-**Quick command reference for 3ware&reg; CLI tools**
+## Quick command reference for 3ware&reg; CLI tools
+{: #3ware-quick-cli-command-ref}
 
 These devices must be followed by a number that identifies which devices are being queried.
 
