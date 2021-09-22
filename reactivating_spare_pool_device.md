@@ -23,7 +23,7 @@ subcollection: bare-metal
 {: #bm-reactivating-spare-pools}
 
 When you add a device to the spare pool, the device status within the **Device List** changes from *Active*, indicating that the device is eligible for standard interactions, to *Spare Pool*. Devices that are part of the spare pool are dedicated to the spare pool and can't be used for traditional, day-to-day actions like other devices. To remove a device from the spare pool so that it can return to its traditional function, the device must be reactivated.
-{:shortdesc}
+{: shortdesc}
 
 ## Reactivating a device from the spare pool
 
