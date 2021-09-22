@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-02"
+lastupdated: "2021-09-22"
 
 keywords: custom image template, bare metal image, image template
 
@@ -24,7 +24,7 @@ subcollection: bare-metal
 # About bare metal custom image templates
 {: #getting-started-bm-custom-image-templates}
 
-With {{site.data.keyword.baremetal_long}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. Image templates provide an imaging option for all {{site.data.keyword.baremetal_short}}, regardless of operating system. 
+Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. 
 {: shortdesc}
 
 Image templates are not intended for backing up your data.
@@ -33,34 +33,37 @@ Image templates are not intended for backing up your data.
 ## How bare metal custom image templates work
 {: #how-bm-custom-image-templates-work}
 
-The two main actions for any image template are _create_ and _deploy_. When you request to create an image a compressed backup of your data is created. The configuration information is recorded and the image template is stored on the {{site.data.keyword.cloud_notm}}. During the deployment stage of the image template, the automated system constructs a new server that is based on the data that is gathered from the selected image. The deployment process makes adjustments for volume, restores the copied data, and then makes final configuration changes (for example, network configurations) for the new host.
+The two main actions for any image template are _create_ and _deploy_. When you request to create an image, a compressed backup of your data is created. The configuration information is recorded and the image template is stored on the {{site.data.keyword.cloud_notm}}. During the deployment stage of the image template, the automated system constructs a new server that is based on the data that is gathered from the selected image. The deployment process makes adjustments for volume, restores the copied data, and then makes final configuration changes (for example, network configurations) for the new host.
 
-## Prerequisites 
-{: #bm-custom-image-prereqs}
+Make sure that your image works fine during deployment before you reclaim the source server.
+{: tip}
 
-* Compatible system configurations 
-   - UEFI and BIOS server images must be deployed on respective servers
+### Compatible system configurations
+{: #bm-image-template-compatible-system-configurations}
+
+   - UEFI and BIOS image support (images must be deployed on their respective servers)
    - Only available for X10, X11, and Lenovo systems
    - Supports multiple drives up to 2 TB 
    - vGPU support
    - RAID 0, 1, 10 
   
-* Supported OSs
-   - CentOS 7, 8
-   <!--- Debian 9-->
+### Supported operating systems
+{: #bm-image-template-supported-os}
+
+   - CentOS 7, 8<!--- Debian 9-->
    - RHEL 7, 8
    - Ubuntu 16, 18
    - Windows 2012 R2, 2016, 2019
-
-## Limitations
+   
+### Limitations
 {: #bm-custom-image-limitations}
 
-* No multiple RAID configurations
-* No RAID 5 and 6
-* UEFI boot mode not supported
-* No Trusted Platform Module (TPM) encryption support
-* Logical Volume Management (LVM) not supported
-* Custom and non-IBM kernels not supported
+- No multiple RAID configurations
+- No RAID 5 and 6
+- No Trusted Platform Module (TPM) encryption support
+- Logical Volume Management (LVM) not supported
+- Custom and non-IBM kernels not supported
+- CentOS with UEFI not supported 
 
 ## Next steps
 {: #next-steps-bm-custom-image}
