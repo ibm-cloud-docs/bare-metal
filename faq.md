@@ -22,7 +22,7 @@ subcollection: bare-metal
 {:external: target="_blank" .external}
 
 # FAQs: Bare metal servers
-{: #bm-faq}
+{: #faqs}
 
 ## What is UEFI boot mode?
 {: faq}
