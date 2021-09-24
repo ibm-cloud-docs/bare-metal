@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-02"
+lastupdated: "2021-09-24"
 
 keywords: software
 
@@ -43,17 +43,14 @@ You must add anti-virus, spyware, and host ID solutions to your device. You can 
 
 {{site.data.keyword.BluSoftlayer_full}} server software supports the following operating systems.
 
-- CentOS 6 (PV)
 - CentOS 7 (HVM)
 - CentOS 8 (HVM)*
-- Debian 8 (HVM)
 - Debian 9 (HVM)
 - Debian 10 (HVM)*
-- RHEL 6 (PV)
 - RHEL 7 (HVM)
 - RHEL 8 (HVM)*
-- Ubuntu 16 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode
-- Ubuntu 18 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode
+- Ubuntu 18 (HVM)
+- Ubuntu 20 (HVM)
 - Windows 2012 (HVM)
 - Windows 2012 R2 (HVM)
 - Windows 2016 (HVM)
