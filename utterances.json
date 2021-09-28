@@ -1,22 +1,4 @@
 {
-  "what-is-uefi-boot-mode-": [
-    "Unified Extensible Firmware Interface",
-    "UEFI boot",
-    "boot mode",
-    "Whats UEFI boot",
-    "boot UEFI",
-    "Help with booting UEFI",
-    "UEFI boot mode",
-    "booting mode for UEFI"
-  ],
-  "why-is-my-bios-asking-for-a-password-": [
-    "BIOS wants a password",
-    "password needed for my BIOS",
-    "password for BIOS",
-    "BIOS password requested",
-    "requesting p/word for BIOS",
-    "BIOS asking for a password"
-  ],
   "do-you-provide-complimentary-os-reloads-": [
     "provide complimentary reload",
     "Automated OS reloads free",
@@ -29,49 +11,19 @@
     "free os uploads?",
     "free reloading of operating system"
   ],
-  "the-primary-drive-on-my-bare-metal-server-shows-up-as-dev-sdb-what-is-wrong-": [
-    "why is my server showing /dev/sdb",
-    "I can not see /dev/sda - why?",
-    "server drive is /dev/sdb",
-    "/dev/sdb on my drive",
-    "primary drive issue with /dev/sdb",
-    "what is /dev/sdb"
-  ],
-  "why-is-the-cpu-speed-wrong-": [
-    "cpu speed of the processors is incorrect",
-    "CPU speed is different to normal",
-    "speed of CPU has changed",
-    "CPU speed incorrectly recorded",
-    "incorrect CPU speed"
-  ],
-  "what-if-my-bare-metal-server-has-out-of-date-firmware-": [
-    "firmware update required",
-    "firmware updates",
-    "firmware version is out of date",
-    "updating my server firmware",
-    "upgrade firmware regularly",
-    "firmware out of date"
-  ],
-  "what-happens-to-drives-in-bare-metal-servers-when-a-customer-is-finished-with-them-": [
-    "server is at end of life",
-    "no longer need my server drive",
-    "reuse server drives",
-    "if I cancel is my drive reclaimed",
-    "finished with my bare metal server drive"
-  ],
   "can-i-see-what-bare-metal-servers-are-available-for-purchase-": [
     "what servers are available",
     "purchase a server",
     "server provision for selection",
     "bare metal server provision selection",
     "servers availablity",
-	  "order bare metal",
-	  "creating a baremetal server",  
-  	"to buy a new Bare Metal Server",
+    "order bare metal",
+    "creating a baremetal server",
+    "to buy a new Bare Metal Server",
     "how do I order a baremetal server",
-  	"I want to create a bare metal server",  
-  	"want to create a baremetal server" ,
-	  "help to create a bare metal server",
+    "I want to create a bare metal server",
+    "want to create a baremetal server",
+    "help to create a bare metal server",
     "select my own server"
   ],
   "how-do-i-use-ipmi-": [
@@ -80,9 +32,25 @@
     "connecting to IPMI",
     "IPMI connection",
     "Where is IPMI Remote Management permissions located",
-   	"Where is IPMI Remote Management",  
+    "Where is IPMI Remote Management",
     "IPMI Remote Management",
     "ipmi",
     "IPMI usage"
+  ],
+  "bm-troubleshoot-IPMI-not-accessible-browser": [
+    "Can you access thru IPMI",
+    "I don't have access to the IPMI",
+    "cannot access to my server on IPMI",
+    "IPMI support",
+    "cannot connect to IPMI console",
+    "unable to connect with IPMI management console",
+    "could not use IPMI on a bare metal device"
+  ],
+  "bm-troubleshoot-cannot-ssh-into-server": [
+    "How to ssh bare metal server",
+    "Why can't I log in to bare metal server through SSH",
+    "login to my bare metal server using ssh",
+    "ssh not working on bare metal",
+    "How to add ssh access to bare metal server"  
   ]
 }
