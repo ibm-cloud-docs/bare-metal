@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2021
 lastupdated: "2021-09-30"
 
-keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing,
+keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing
 
 subcollection: bare-metal
 
