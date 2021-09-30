@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-09-20"
+lastupdated: "2021-09-30"
 
 keywords: getting started, getting started bare metal, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}, bare metal
 
@@ -22,7 +22,7 @@ subcollection: bare-metal
 
 {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you performance and control with low-level access to the hardware resources. Your server isn’t shared with “noisy neighbors,” it’s all yours!
 
-Check out the following [videos](https://www.ibm.com/demos/collection/IBM-Cloud-Bare-Metal-Servers){: external} to learn more about the features and capabilities of {{site.data.keyword.baremetal_short}}.
+Check out the following [videos](https://www.ibm.com/demos/?search=bare%20metal){: external} to learn more about the features and capabilities of {{site.data.keyword.baremetal_short}}.
 {: shortdesc} 
 
 Table 1 contains steps to help you quickly get your {{site.data.keyword.baremetal_short}} provisioned and configured.
