@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-29"
+lastupdated: "2021-10-01"
 
 keywords: create bare metal image template, bare metal image template, create image template
 
@@ -32,8 +32,8 @@ With custom image templates, you can capture an image of a bare metal server to 
 
 Make sure that you have the correct account permissions to complete the tasks.
 
-1. Navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
-2. Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
+1. Go to the device menu and ensure you have the correct account permissions to complete the tasks.
+2. Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 3. Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
@@ -42,6 +42,9 @@ For more information about permissions, see [Classic infrastructure permissions]
 {: #create-bm-custom-image}
 
 Use the following steps to capture a bare metal server image.
+
+For tips and best practices about creating am image template, see this [blog post](https://www.ibm.com/cloud/blog/best-practices-for-successfully-creating-custom-images-on-ibm-cloud-bare-metal-servers).
+{: tip}
 
 1. Go to your console's device menu and make sure that you have the correct account permissions to complete the tasks.
 2. From the **Devices** menu, select **Device List**, and click the device that you want to use to create an image template.
