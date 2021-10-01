@@ -84,10 +84,10 @@ Systems must be started in UEFI mode.
 
 For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd) blog post.{: external} 
 
-### Intel&reg Cascade Lake CPU support
+### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
 
-You can choose from the following Intel; Xeon&reg Cascade Lake CPUs when you provision a bare metal server:
+You can choose from the following Intel&reg; Xeon&reg; Cascade Lake CPUs when you provision a bare metal server:
 
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
