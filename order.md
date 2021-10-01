@@ -1,9 +1,9 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2020-05-20"
+lastupdated: "2021-10-21"
 
-keywords: software
+keywords: software, order software
 
 subcollection: bare-metal
 ---
@@ -32,10 +32,3 @@ Not all software options are available for all server types and not all software
 If you need software that is not supported, use your root access to the server to install and configure your own version of that software. To return to a supported version on your device, reload the OS.
 
 IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment. For more information, see the documentation of the vendor who produces the software.
-
-Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
-{: note}
-
-For more information about PV and HVM boot modes, see the following links:
-* [PV](/docs/overview?topic=overview-glossary#x9736806){: external}
-* [HVM](/docs/overview?topic=overview-glossary#x9736811){: external}
