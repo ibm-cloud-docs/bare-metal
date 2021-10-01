@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-08-18"
+lastupdated: "2021-10-01"
 
 keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
 
@@ -59,6 +59,8 @@ The 25 Gbps port speed option is limited to select bare metal server options. Fo
 {: important}
 
 If you selected **None** for port redundancy, you might see an option that includes the word **unbonded**. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`dal12.pod01`**, and **`wdc04.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active, allowing for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
+
+For more information about network performance on {{site.data.keyword.baremetal_long}}, check out this [blog post](https://www.ibm.com/cloud/blog/how-fast-is-the-network-on-ibm-cloud-part-1-bare-metal-servers).
 
 ### 25 Gbps port speed
 {: 25gb-port-speed}
