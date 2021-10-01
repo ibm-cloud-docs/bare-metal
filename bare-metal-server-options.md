@@ -58,7 +58,7 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 ### AMD CPU support
 {: #bm-amd-procs}
 
-When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
+When you provision a bare metal server, AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
 
 EPYC processors are available in select data centers.
 {: important}
