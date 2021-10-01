@@ -26,7 +26,7 @@ Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that s
 
 NVMe SSDs use the same NAND flash as SATA SSDs but with a faster memory interface. NMVe U.2 SSDs are the same form factor as SATA SSDs (2.5”) and can be use in the same server drive bays when hybrid drive bay connectivity is present in the server design.
 
-Check out this [blog post](https://www.ibm.com/cloud/blog/benefits-of-running-high-io-applications-on-ibm-cloud-bare-metal-servers-with-nvme-storage) to see the benefits of running high IO applications NVMe storage.
+Check out this [blog post](https://www.ibm.com/cloud/blog/benefits-of-running-high-io-applications-on-ibm-cloud-bare-metal-servers-with-nvme-storage) to see the benefits of running high IO applications with NVMe storage.
 {: tip}
 
 ## Considerations for NVMe SSD drives
