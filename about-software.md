@@ -1,11 +1,12 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-24"
+lastupdated: "2021-10-01"
 
-keywords: software
+keywords: software, supported operationg systems, oses, os supported, operating system support
 
 subcollection: bare-metal
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -41,9 +42,44 @@ You must add anti-virus, spyware, and host ID solutions to your device. You can 
 ## Supported operating systems for {{site.data.keyword.BluSoftlayer_full}} server software
 {: #supported-operating-systems-for-ibm-cloud-servers}
 
-{{site.data.keyword.BluSoftlayer_full}} server software supports the following operating systems.
+{{site.data.keyword.BluSoftlayer_full}} server software supports the following operating systems. 
 
-- CentOS 7 (HVM)
+Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
+{: note}
+
+| Operating system | Version |
+| --- | --- |
+| CentOS | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV  \n 6.x LAMP (64 bit) |
+| Debian | 9.x Minimal (64 bit) - HVM  \n 9.x LAMP Stable (64 bit) - HVM  \n 10.x Minimal (64 bit) - HVM |
+| Microsoft Windows | 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - FOR BYOL TESTING  \n 2012 R2 Datacenter (64 bit)  \n 2008 R2 Standard (64 bit) |
+| Red Hat | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV |
+| Ubuntu | 20.04 Minimal LTS (64 bit) - HVM  \n 18.04 Minimal LTS (64 bit) - HVM |
+{: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
+{: #virtual-servers-oses}
+{: tab-title="Virtual servers"}
+{: tab-group="operating-systems"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the hardware class."}
+
+| Operating system | Version |
+| --- | --- | 
+| AT&T vRouter | 18.x (64 Bit) 20 Gbps |
+| CentOS | 7.x (64 bit) |
+| Citrix | 8.2 | 
+| Debian | 9.x Minimal Stable (64 bit)  \n 9.x Stable (64 bit) |
+| FreeBSD | 12.x (64 bit) |
+| Microsoft Windows | 2016 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Datacenter (64 bit) |
+| OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
+| Red Hat | 7.x (64 bit)
+| VMWare | 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
+{: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
+{: #bare-metal-oses}
+{: tab-title="Bare metal servers"}
+{: tab-group="operating-systems"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the hardware class."}
+
+<!--- CentOS 7 (HVM)
 - CentOS 8 (HVM)*
 - Debian 9 (HVM)
 - Debian 10 (HVM)*
@@ -54,14 +90,11 @@ You must add anti-virus, spyware, and host ID solutions to your device. You can 
 - Windows 2012 (HVM)
 - Windows 2012 R2 (HVM)
 - Windows 2016 (HVM)
-- Windows 2019 (HVM)
+- Windows 2019 (HVM)-->
 
-CentOS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These OSs also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
+CentOS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These operating systems also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
-Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
-{: note}
-
-For more information about toggling between PV and HVM boot modes, see the following links:
-* [Virtual guest supported boot modes](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: external}
-* [Add boot mode option](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: external}
+For more information about paravirtualized (PV) and hardware virtual machine (HVM) boot modes, see the following links:
+* [PV](/docs/overview?topic=overview-glossary#x9736806){: external}
+* [HVM](/docs/overview?topic=overview-glossary#x9736811){: external}
