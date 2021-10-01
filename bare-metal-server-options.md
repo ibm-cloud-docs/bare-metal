@@ -82,7 +82,7 @@ The following operating systems are supported by AMD EPYC "Rome" CPUs:
 Systems must be started in UEFI mode.
 {: note}
 
-For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd) blog post.{: external} 
+For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external} 
 
 ### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
