@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-10-01"
 
 keywords: bare metal options, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome, bare metal add-ons, bare metal addons, bare metal add ons
 
@@ -28,7 +28,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ## Servers for every workload
 {: #servers-every-need}
 
-{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){: external}
+{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){: external}.
 
 ### Fast provisioning servers
 {: #Popular-bm}
@@ -63,31 +63,39 @@ When you provision a bare metal server, AMD EPYC "Rome" generation CPUs are now 
 EPYC processors are available in select data centers.
 {: important}
 
-You can choose from the following AMD EPYC "Rome" CPUs:
-* AMD EPYC 7642 (48-core, 2.3 Ghz)
-* AMD EPYC 7F72 (48-core, 3.2 Ghz)
+You can choose from the following AMD EPYC "Rome" CPUs when you provision a bare metal server:
 
-The following operating systems are supported by 7642 AMD EPYC "Rome" CPUs:
-* RHEL 7
+| AMD EPYC CPUs | Specifications |
+| --- | --- |
+| AMD EPYC 7642 | 48-core, 2.3 Ghz |
+| AMD EPYC 7F72 | 48-core, 3.2 Ghz |
+| AMD EPYC 7763 | 64-core, 2.45 Ghz |
+{: caption="Table 1. AMD EPYC CPUs options" caption-side="top"}
+
+The following operating systems are supported by AMD EPYC "Rome" CPUs:
+* RHEL 7.x, 8.x
 * Ubuntu 18.04
-* CentOS 7.6
-* Microsoft&reg; Server 2019/2016
+* CentOS 7.x, 8.x
+* Microsoft&reg; Server 2016, 2019
+* Ubuntu 16.04, 18.04
 
 Systems must be started in UEFI mode.
 {: note}
 
-### Intel Cascade Lake CPU support
+For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd) blog post.{: external} 
+
+### Intel&reg Cascade Lake CPU support
 {: #bm-cascade-lake-support}
 
-You can choose from the following Intel&reg; Cascade Lake CPUs when you provision a bare metal server:
+You can choose from the following Intel; Xeon&reg Cascade Lake CPUs when you provision a bare metal server:
 
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
-| Intel Xeon 4210 | 10-Core, 2.2 GHz, 85 W |
-| Intel Xeon 5218 | 16-Core, 2.3 GHz, 125 W |
-| Intel Xeon 6248 | 20-Core, 2.6 GHz, 150 W |
-| Intel Xeon 6250 | 8-Core, 3.9 GHz, 185 W |
-{: caption="Table 1. Cascade Lake CPU options" caption-side="top"}
+| Intel Xeon 4210 | 10-Core, 2.2 GHz |
+| Intel Xeon 5218 | 16-Core, 2.3 GHz |
+| Intel Xeon 6248 | 20-Core, 2.6 GHz |
+| Intel Xeon 6250 | 8-Core, 3.9 GHz |
+{: caption="Table 2. Cascade Lake CPU options" caption-side="top"}
 
 ### NVIDIA GPU support
 {: #bm-gpu-support}
@@ -115,7 +123,7 @@ The following network redundancy options are available for bare metal servers.
 | User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
 | No redundancy | This is the only option for legacy data centers that don’t support automatic redundancy. This option is not recommended in a new data center.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
-{: caption="Table 2. Network redunancy options" caption-side="top"}
+{: caption="Table 3. Network redunancy options" caption-side="top"}
 
 VMWare requires user-managed links.
 {: tip}
@@ -150,4 +158,4 @@ The following add-ons are available when you provision a bare metal server.
 | Response | Automated response to your monitored metrics notifications. |
 | Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets). If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|
 | IPv6 IP addresses | An IPv6 is the most recent numeric label that is used to identify and locate a network interface of a computer or a network node that participates in a computer network by using the IPv6 protocol. A single IPv6 address is included.|
-{: caption="Table 3. Bare metal server provisioning options" caption-side="top"}
+{: caption="Table 4. Bare metal server provisioning options" caption-side="top"}
