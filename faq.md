@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-03-11"
+lastupdated: "2021-10-04"
 
 keywords: bare metal, faq, {{site.data.keyword.cloud}}
 
@@ -73,7 +73,7 @@ EIST is an established technology. It's not common that you need to turn off EIS
 
 It is important to keep firmware updated to make sure that your bare metal server has optimal device compatibility and stability. If a {{site.data.keyword.baremetal_short}} firmware version is out of date, firmware can be updated by selecting the bare metal server from the device list and selecting **Update Firmware** from the action menu.
 
-You can initialize a firmware update during the [OS Reload](/docs/bare-metal?topic=bare-metal-reloading-the-os) process within the [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com/){: external}.
+You can also initialize a firmware update during the [OS Reload](/docs/bare-metal?topic=bare-metal-reloading-the-os) process within the [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com/){: external}.
 
 You can't initialize a firmware update when a bare metal server is powered ON. Make sure that the bare metal server is powered OFF before you initialize a firmware update. 
 {: important}
