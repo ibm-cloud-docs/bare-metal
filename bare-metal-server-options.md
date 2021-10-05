@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-10-05"
 
 keywords: bare metal options, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome, bare metal add-ons, bare metal addons, bare metal add ons
 
@@ -95,6 +95,7 @@ You can choose from the following Intel&reg; Xeon&reg; Cascade Lake CPUs when yo
 | Intel Xeon 5218 | 16-Core, 2.3 GHz |
 | Intel Xeon 6248 | 20-Core, 2.6 GHz |
 | Intel Xeon 6250 | 8-Core, 3.9 GHz |
+| Intel Xeon 8260 | 48-core, 2.4 Ghz |
 {: caption="Table 2. Cascade Lake CPU options" caption-side="top"}
 
 ### NVIDIA GPU support
