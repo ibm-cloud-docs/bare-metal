@@ -56,10 +56,10 @@ toc:
           label: Provisioning
           topics: 
           - baremetal-provision-popular.md
-          - baremetal-provision.md
-          - bm-datacenter-overview.md
+          - baremetal-provision.md       
           - bare-metal-provision-SGX.md
           - bm_provision_ssd.md
+          - bm-datacenter-overview.md
       - /virtual-servers/virtual-servers-navigating-devices
       - topicgroup: 
           label: Configuring
