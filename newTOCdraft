@@ -1,0 +1,162 @@
+---
+toc:
+  properties:
+    subcollection: bare-metal
+    version: 2
+    category: compute_classic
+    audience: service
+    href: /docs/bare-metal
+    console-page: "/classic"
+    product-page: "https://www.ibm.com/cloud/bare-metal"
+    path: bare-metal
+    label: Bare Metal Servers
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries: 
+  
+  - navgroup: 
+      id: learn
+      topics:
+      - getting-started.md
+      links:
+       - link:
+          label: About bare metal servers
+          href: https://www.ibm.com/cloud/bare-metal-servers
+       - bare-metal-server-options.md
+       - bm-about-custom-image-templates.md
+       - spare_pools.md
+       - bare-metal-reserved.md
+       - about-SGX.md
+       - about-Optane.md
+       - about-NVMe.md
+       - what-raid.md
+       - about-software.md     
+       - topicgroup: 
+           label: Operating systems
+           topics: 
+           - can-i-change-operating-system-os-my-device.md
+           - introduction-no-os.md
+           - microsoft-windows-update-instructions.md
+           - redhat-update-instructions.md            
+       - topicgroup: 
+           label: Security
+           topics: 
+           - ssl_certificates_intro.md
+           - intel-trusted-execution-technology-txt.md
+           - does-softlayer-keep-bare-metal-servers-date-security-patches.md
+       - network-options.md
+       - bare-metal-vmware.md
+       - bare-metal-virtualization.md
+       - bare-metal-sap-applications.md
+       - release-notes.md    
+
+  - navgroup: 
+      id: howto
+      topics:
+      - topicgroup: 
+          label: Provisioning
+          topics: 
+          - baremetal-provision-popular.md
+          - baremetal-provision.md
+          - bm-datacenter-overview.md
+          - bare-metal-provision-SGX.md
+          - bm_provision_ssd.md
+      - /virtual-servers/virtual-servers-navigating-devices
+      - topicgroup: 
+          label: Configuring
+          topics: 
+          - set-bare-metal-server-2.md
+          - what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
+          - how-are-server-ip-addresses-assigned-softlayer-network.md
+          - mount-iso-bare-metal-server.md   
+      - topicgroup: 
+           label: Managing
+           topics: 
+           - managing.md
+           - understanding-server-transaction.md
+           - view-bandwidth-graphs.md
+        links:
+           - link:
+              label: IBM Cloud monitoring services
+              href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+           - how-do-i-check-health-my-3ware-raid-array.md
+           - bare-metal-managing-vmware.md
+           - managing_port_control.md
+           - managedPool_managing.md
+      - topicgroup: 
+          label: Using custom image templates
+          topics: 
+          - bm-create-custom-image-template.md
+          - bm-delete-custom-image-template.md
+          - bm-importing-custom-image-template.md
+          - bm-order-bm-from-image-template.md        
+      - topicgroup: 
+          label: Using RAID
+          topics: 
+          - raid-commands.md
+          - what-raid-monitoring-daemon-named.md
+          - creating-and-adjusting-raid-configurations-adaptec.md
+          - enabling-drive-security-using-avago-safestore-encryption-services.md
+
+      - topicgroup: 
+          label: Backing up and recovering
+          topics: 
+          - can-i-back-data-between-bare-metal-servers-private-network.md
+        links:
+           - link:
+              label: Launching a rescue kernel
+              href: /virtual-servers/virtual-servers-launching-rescue
+           - bare-metal-veeam-o365.md    
+      - topicgroup: 
+          label: Managing spare pools
+          topics: 
+          - spare-pools-access.md
+          - add_spare_pool.md
+          - cancel_spare_pool.md
+          - reactivating_spare_pool_device.md
+          - spare-pool-API-methods.md
+
+      - topicgroup: 
+          label: Software
+          topics: 
+          - order.md
+          - vsi_reload_os.md
+          - vsi_reload_os_image.md
+          - cpcompmanlic.md
+          - software-passwords.md
+          - adding-ipv6-ubuntu-systems.md
+          - install-clamav.md
+          - notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+          - local-wsus.md
+          - topicgroup:
+              label: R1Soft  
+              topics:
+              - prov-R1Soft.md
+              - configR1Soft.md
+              - r1SoftUpgrade.md
+              - r1soft-cdp-bare-metal-restore-procedures.md
+                                        
+  - navgroup:
+      id: reference
+      topics: 
+      - bm-activity-tracker-events.md
+      - high-availability.md
+              
+  - navgroup:
+      id: help
+      topics: 
+      - get-help-and-support.md
+      - raid-support.md        
+      - topicgroup: 
+          label: FAQs
+          topics: 
+          - faq.md
+        links:
+           - link:
+              label: Servers (general)
+              href: /virtual-servers/virtual-servers-faqs-servers-general-
+           - os-reload-question-faq.md
+           - faqs-image-templates.md
+      - topicgroup: 
+          label:  Troubleshooting  
+          topics: 
+          - troubleshooting-bare-metal.md
