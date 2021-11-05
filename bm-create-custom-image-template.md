@@ -43,7 +43,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 Use the following steps to capture a bare metal server image.
 
-For tips and best practices about creating am image template, see this [blog post](https://www.ibm.com/cloud/blog/best-practices-for-successfully-creating-custom-images-on-ibm-cloud-bare-metal-servers).
+For tips and best practices about creating an image template, see this [blog post](https://www.ibm.com/cloud/blog/best-practices-for-successfully-creating-custom-images-on-ibm-cloud-bare-metal-servers).
 {: tip}
 
 1. Go to your console's device menu and make sure that you have the correct account permissions to complete the tasks.
