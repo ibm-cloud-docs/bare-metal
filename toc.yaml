@@ -3,7 +3,7 @@ toc:
   properties:
     subcollection: bare-metal
     version: 2
-    category: compute_classic
+    category: compute_baremetal
     audience: service
     href: /docs/bare-metal
     console-page: "/classic"
