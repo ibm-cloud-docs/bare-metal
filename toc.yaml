@@ -88,7 +88,8 @@ toc:
           - bm-create-custom-image-template.md
           - bm-delete-custom-image-template.md
           - bm-importing-custom-image-template.md
-          - bm-order-bm-from-image-template.md        
+          - bm-order-bm-from-image-template.md
+          - bm-migrate-bare-metal-add-on-software.md        
       - topicgroup: 
           label: Using RAID
           topics: 
