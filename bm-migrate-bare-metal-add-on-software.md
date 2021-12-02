@@ -23,7 +23,7 @@ subcollection: bare-metal
 # Migrating bare metal servers with add-on software
 {: #bm-migrate-custom-image-control-panel}
 
-If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. See the following table for the add-on software documentation links.
+If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. See the following table for the add-on software documentation links.
 {: shortdesc}
 
 Use this table to find the migration documentation link for the add-on software that your bare metal server uses. 
@@ -33,5 +33,5 @@ Use this table to find the migration documentation link for the add-on software 
 | cPanel | [cPanel migration documentation](https://docs.cpanel.net/whm/transfers/transfer-tool/) |
 | MS SQL | [SQL Server migration documentation](https://docs.microsoft.com/en-us/sql/sql-server/migrate/?view=sql-server-ver15) |
 | Plesk | [Plesk migration documentation](https://docs.plesk.com/en-US/onyx/migration-guide/migrating-from-supported-hosting-platfoms/migrating-via-the-plesk-interface.75721/) |
-| R1Soft | [R1Soft migration documentation](http://wiki.r1soft.com/display/ServerBackup/Migrate+Server+Backup+Manager) |
+| R1Soft Backup Agent | [R1Soft Backup Agent migration documentation](http://wiki.r1soft.com/display/ServerBackup/Migrate+Server+Backup+Manager) |
 {: caption="Table 1. Add-on software migration documentation links" caption-side="top"}
