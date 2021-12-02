@@ -69,7 +69,7 @@ The following add-ons are compatible with image templates.
 - Microsoft SQL Server 
 - R1Soft client 
 
-If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-bare-metal-add-on-software).
+If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-custom-image-control-panel).
 {: note}
 
 #### Notes for add-ons
