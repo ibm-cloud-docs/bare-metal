@@ -21,7 +21,7 @@ subcollection: bare-metal
 {:note: .note}
 
 # Migrating bare metal servers with add-on software
-{: #bm-migrate-custom-image-control-panel}
+{: #bm-bm-migrate-with-add-on-software}
 
 If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. See the following table for the add-on software documentation links.
 {: shortdesc}
