@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-12-02"
 
 keywords: custom image template, bare metal image, image template
 
@@ -41,7 +41,9 @@ Make sure that your image works fine during deployment before you reclaim the so
 ### Compatible system configurations
 {: #bm-image-template-compatible-system-configurations}
 
-- UEFI and BIOS image support (images must be deployed on their respective servers)
+The following features and configurations are supported when you create an image template. 
+
+- Full traditional BIOS boot mode support and limited UEFI boot mode support (images must be deployed on their respective servers)
 - Only available for X10, X11, and Lenovo systems
 - Supports multiple drives up to 2 TB 
 - vGPU support
@@ -50,13 +52,38 @@ Make sure that your image works fine during deployment before you reclaim the so
 ### Supported operating systems
 {: #bm-image-template-supported-os}
 
+The following operating systems are supported when you create an image template. 
+
 - CentOS 7, 8<!--- Debian 9-->
 - RHEL 7, 8
 - Ubuntu 16, 18
 - Windows 2012 R2, 2016, 2019
-   
+
+### Supported add-ons
+{: #bm-image-template-supported-addons}
+
+The following add-ons are compatible with image templates. 
+
+- McAfee (free license add-on) 
+- MySQL (free license add-on) 
+- Microsoft SQL Server 
+- R1Soft client 
+
+If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-bare-metal-add-on-software).
+{: note}
+
+#### Notes for add-ons
+{: #bm-image-template-addon-notes}
+
+Keep the following notes in mind when you capture an image and deploy a server from an image.
+
+- When a MySQL server is deployed from an image, the administrator user keeps the same password as the original server when the image was captured.
+- If an R1soft client is installed and you capture and deploy an image and deploy a new server from that image, you need to reinstall, configure, and add the client again to the R1soft server because the new server has a different IP address.
+
 ### Limitations
 {: #bm-custom-image-limitations}
+
+Customs images have some limitations that you need to be aware of before you create an image template. 
 
 - No multiple RAID configurations
 - No RAID 5 and 6
@@ -64,6 +91,11 @@ Make sure that your image works fine during deployment before you reclaim the so
 - Logical Volume Management (LVM) not supported
 - Custom and non-IBM kernels not supported
 - CentOS with UEFI not supported 
+- Control panels (for example cPanel and Plesk) are not supported 
+- R1Soft Backup Agent isn't supported for image capture
+
+Any software (for example MySQL) that maintains its own internal password files and database stays unmodified on provision. Access to the software on a provisioned server from the image uses the same username and passwords as the source server that the image was created from.
+{: important}
 
 ## Next steps
 {: #next-steps-bm-custom-image}
@@ -72,3 +104,4 @@ Make sure that your image works fine during deployment before you reclaim the so
 * If you want to order and deploy a bare metal server from a custom image, see [Ordering a bare metal server from an image template](/docs/bare-metal?topic=bare-metal-ordering-bm-from-image-template).
 * If you want to delete an image template, see [Deleting a custom image](/docs/bare-metal?topic=bare-metal-delete-bm-custom-image).
 * If you want to import a custom image, see [Importing a custom image](/docs/bare-metal?topic=bare-metal-import-bm-custom-image).
+* If you want to migrate a bare metal server with add-on software, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-bare-metal-add-on-software).
