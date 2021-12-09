@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2021
 
-lastupdated: "2021-10-26"
+lastupdated: "2021-12-09"
 
 keywords: bare metal release notes
 
@@ -31,6 +31,23 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## December 2021
+{: #subcollection-dec21}
+
+### 02 December 2021
+{: #subcollection-dec0221}
+{: release-note}
+
+**Custom image template add-ons**
+:    Custom image templates now support the following add-ons. For more information, see the supported add-ons section in [About bare metal custom image templates](/docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates#bm-image-template-supported-addons).
+
+     - McAfee (free license add-on)
+     - MySQL (free license add-on)
+     - Microsoft SQL Server
+     - R1Soft client
+     
+:    You can now migrate a bare metal server by using add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-with-add-on-software).
 
 ## October 2021
 {: #subcollection-oct21}
