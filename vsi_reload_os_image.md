@@ -18,7 +18,7 @@ subcollection: bare-metal
 {:note: .note}
 {:important: .important}
 
-# Reloading an OS using an image template
+# Reloading an OS by using an image template
 {: #reloading-an-os-using-an-image-template}
 
 ## Differences between a standard OS reload and a reload from an image template
@@ -34,14 +34,13 @@ Use the following steps to reload an OS from an image template by using the Load
 If you want to retain your data, back up all data before reloading the OS. An OS reload clears all data from the device, so, if you did not back up the data before the reload, it is permanently deleted and cannot be retrieved.
 {: important}
 
-
 ## Before you begin
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
-## Reload an OS
+## Reloading an OS
 {: #reload-an-os-image}
 
 1. From the **Device List**, click the server that needs an OS Reload to show the Device Details page.
