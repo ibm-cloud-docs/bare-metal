@@ -122,6 +122,7 @@ toc:
           - order.md
           - vsi_reload_os.md
           - vsi_reload_os_image.md
+          - migrating-to-centos-stream.md
           - cpcompmanlic.md
           - software-passwords.md
           - adding-ipv6-ubuntu-systems.md
