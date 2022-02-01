@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 lastupdated: "2021-06-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
@@ -176,7 +176,7 @@ If you have Linux servers, add the following entries in the _/etc/resolv.conf_ f
 {: troubleshoot}
 {: support}
 
-If your portal shows that the server is disconnected, but the server is running, it might be caused by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](https://cloud.ibm.com/docs/security-groups?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
+If your portal shows that the server is disconnected, but the server is running, it might be caused by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](/docs/security-groups?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
 
 ## Why does ESXi server show Purple Screen of Diagnostics (PSOD)
 {: #bm-troubleshoot-bm-esxi-psod}
