@@ -147,7 +147,8 @@ toc:
       id: help
       topics: 
       - get-help-and-support.md
-      - raid-support.md        
+      - raid-support.md
+      - device-status.md
       - topicgroup: 
           label: FAQs
           topics: 
