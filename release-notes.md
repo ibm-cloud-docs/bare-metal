@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2022
 
 lastupdated: "2021-12-09"
 
@@ -84,7 +84,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: release-note}
 
 **Custom images templates now available**
-:   Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. For more information, see [About bare metal custom image templates](docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates).
+:   Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. For more information, see [About bare metal custom image templates](/docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates).
 
 ## July 2020
 {: #subcollection-jul20}
