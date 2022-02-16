@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2021
+  years: 2018, 2022
 lastupdated: "2018-04-10"
 
 keywords: R1Soft, order r1soft, provision r1soft
@@ -22,7 +22,7 @@ You have two options to order R1Soft for your bare metal server. You can order i
 ## Provisioning R1Soft with a new bare metal server
 {: #provisioning-r1soft-with-a-new-bare-metal-server}
 
-Use the [custom bare metal server provisioning](docs/bare-metal/baremetal-provision.html#building-a-custom-bare-metal-server) procedure and select the following options:
+Use the [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) procedure and select the following options:
 
 * A bare metal with monthly billing. Hourly billing does not have the R1Soft option.
 * In the CDP Addon section, select the number of agents to add. You need one agent for every system you need to backup.
