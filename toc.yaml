@@ -9,7 +9,7 @@ toc:
     console-page: "/classic"
     product-page: "https://www.ibm.com/cloud/bare-metal"
     path: bare-metal
-    label: Bare Metal Servers
+    label: Bare Metal Servers for Classic
 
   entries: 
   - navgroup: 
