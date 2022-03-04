@@ -7,7 +7,7 @@ toc:
     audience: service
     href: /docs/bare-metal
     console-page: "/classic"
-    product-page: "https://www.ibm.com/cloud/bare-metal"
+    product-page: "https://www.ibm.com/cloud/bare-metal-servers"
     path: bare-metal
     label: Bare Metal Servers for Classic
 
