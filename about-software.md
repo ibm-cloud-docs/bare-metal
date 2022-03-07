@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-10-01"
+  years: 2017, 2022
+lastupdated: "2022-03-07"
 
 keywords: software, supported operationg systems, oses, os supported, operating system support
 
@@ -68,7 +68,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | Citrix | 8.2 | 
 | Debian | 9.x Minimal Stable (64 bit)  \n 9.x Stable (64 bit) |
 | FreeBSD | 12.x (64 bit) |
-| Microsoft Windows | 2016 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Datacenter (64 bit) |
+| Microsoft Windows | 2022 Datacenter (64 bit)  \n 2022 Standard (64 bit)  \n 2019 Datacenter (64 bit)  \n 2019 Datacenter with Hyper-V (64 bit)  \n 2019 Standard (64 bit)  \n 2016 Datacenter (64 bit)  \n 2016 Datacenter with Hyper-V (64 bit)  \n 2016 Standard (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Standard (64 bit)  \n 2012 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
 | Red Hat | 7.x (64 bit)
 | VMWare | 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
