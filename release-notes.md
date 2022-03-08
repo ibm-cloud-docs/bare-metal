@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2022
 
-lastupdated: "2021-12-09"
+lastupdated: "2022-03-08"
 
 keywords: bare metal release notes
 
@@ -32,6 +32,16 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## March 2022
+{: #subcollection-mar22}
+
+### 08 March 2022
+{: #subcollection-mar0822}
+{: release-note}
+
+**Windows server 2022**
+:   IBM Cloud&reg; server software now supports Windows&reg; server 2022 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
+
 ## December 2021
 {: #subcollection-dec21}
 
@@ -57,7 +67,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: release-note}
 
 **Intel Xeon 8260 CPU**
-:   You can now select the Intel Xeon 8260 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
+:   You can now select the Intel&reg; Xeon 8260 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
 
 ## February 2021
 {: #subcollection-feb21}
@@ -77,7 +87,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: release-note}
 
 **Intel Xeon 6250 CPU**
-:   You can now select the Intel Xeon 6250 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
+:   You can now select the Intel&reg; Xeon 6250 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
 
 ### 10 August 2020
 {: #subcollection-aug1020}
