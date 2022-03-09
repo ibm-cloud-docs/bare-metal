@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2020-11-11"
+  years: 1994, 2022
+lastupdated: "2022-03-09"
 
 keywords: raid controller commands, raid commands
 
@@ -153,7 +153,7 @@ Change the "global" section of the default config (/opt/Broadcom/mrmonitor/MegaM
 ```
 {: codeblock}
 
-to this:
+to read like this:
 
 ```
 <global> 
@@ -183,7 +183,7 @@ Remove the "do-email" tag for level "WARNING". Alternatively, change the securit
 
 The most common driver errors are smart errors, hardware errors, and medium errors. You see these errors if a drive is failing. So, you need to replace the drive as soon as possible.
 
-Although not unusual, aborted commands are another common error. But, if aborted commands increase in number (such as 100), open a support ticket.  
+Although not unusual, aborted commands are another common error. But, if aborted commands increase in number (such as 100), open a support case.  
 
 Link errors can indicate that a cable might need reseated or replaced.
 
@@ -195,12 +195,12 @@ The following information is needed when you open support case.
 #### Adaptec RAID cards
 {: #adaptec-raid-cards-support}
 
-Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you open a support case. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support ticket process. 
+Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you open a support case. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot swapped speeds up the support case process.
 
 #### Broadcom RAID cards
 {: #broadcom-raid-cards-support}
 
-Use the following commands to obtain the log files for Broadcom RAID cards. You need to include the full output of these log files with your support ticket.
+Use the following commands to obtain the log files for Broadcom RAID cards. You need to include the full output of these log files with your support case.
 ```
 /opt/MegaRAID/storcli/storcli64 /c0 show all
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog
