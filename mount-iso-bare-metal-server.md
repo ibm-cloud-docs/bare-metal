@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-09-21"
+  years: 2017, 2022
+lastupdated: "2022-03-09"
 
 keywords: mount iso bare metal
 
@@ -49,7 +49,7 @@ Follow these steps to install a custom OS from a CIFS Share:
 4. Hover over **Virtual Media** and click **CD-ROM image**
 5. Complete the appropriate details and click **Save and Mount**.
 
-Not all users have permission to change the BIOS of the server. If necessary, you can open a support ticket and request the following items:
+Not all users have permission to change the BIOS of the server. If necessary, you can open a support case and request the following items:
 
 * Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode).
 * Change the boot sequence to ‘IPMI Virtual Disk’ as first boot option.
@@ -65,7 +65,7 @@ In some older IPMI consoles, you can skip this option.
 ## Option 2: Mounting an ISO from your local computer
 {: #bm-mount-iso-opt-3}
 
-You can mount an ISO from your local computer by using the Java iKVM viewer (console). By using the Java iKVM viewer, you can mount an ISO while it is connected to the console. The speed at which the installation progresses can vary depending on the upload speed and latency of your internet connection, performance of java and your computer.
+You can mount an ISO from your local computer by using the Java&reg; iKVM viewer (console). By using the Java iKVM viewer, you can mount an ISO while it is connected to the console. The speed at which the installation progresses can vary depending on the upload speed and latency of your internet connection, performance of Java and your computer.
 
 If you do not have permission to change the BIOS on a server, open a support case to request the following changes:
 
@@ -89,5 +89,5 @@ If you do not have permission to change the BIOS on a server, open a support cas
 {: #bm-mount-iso-troubleshooting}
 
 * Not all users have default access to mount Virtual Media. If a permission error occurs, contact [Support](/docs/bare-metal?topic=bare-metal-gettinghelp) for an update to the Root IPMI User permissions.
-* If an ISO is already mounted, an error message appears with the text **There is a disk mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
+* If an ISO is already mounted, an error message appears with the text **A disk is mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
 * You might need to contact support to change the boot order in the BIOS.
