@@ -34,7 +34,8 @@ toc:
           - can-i-change-operating-system-os-my-device.md
           - introduction-no-os.md
           - microsoft-windows-update-instructions.md
-          - redhat-update-instructions.md            
+          - redhat-update-instructions.md
+          - classic-guest-os-lifecycle.md 
       - topicgroup: 
           label: Security
           topics: 
