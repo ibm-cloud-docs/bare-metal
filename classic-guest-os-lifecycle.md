@@ -44,7 +44,7 @@ The following table describes the end of support date for Debian operating syste
 ## FreeBSD
 {: #freebsd-classic}
 
-The following table describes the end of support date for FreeBSD operating systems. This guest OS is a free operating system. For more information, see [FreeBSD.org](freebsd.org). 
+The following table describes the end of support date for FreeBSD operating systems. This guest OS is a free operating system. For more information, see [FreeBSD.org](freebsd.org){: external}. 
 
 | Operating sytem | End of support |
 |-----------------|----------------|
