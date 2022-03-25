@@ -27,15 +27,7 @@ toc:
       - about-Optane.md
       - about-NVMe.md
       - what-raid.md
-      - about-software.md     
-      - topicgroup: 
-          label: Operating systems
-          topics: 
-          - can-i-change-operating-system-os-my-device.md
-          - introduction-no-os.md
-          - microsoft-windows-update-instructions.md
-          - redhat-update-instructions.md
-          - classic-guest-os-lifecycle.md 
+      - about-software.md
       - topicgroup: 
           label: Security
           topics: 
@@ -80,6 +72,14 @@ toc:
            - bare-metal-managing-vmware.md
            - managing_port_control.md
            - managedPool_managing.md
+           - topicgroup:
+                label: Managing operating systems
+                topics:
+                - can-i-change-operating-system-os-my-device.md
+                - introduction-no-os.md
+                - microsoft-windows-update-instructions.md
+                - redhat-update-instructions.md
+                - classic-guest-os-lifecycle.md
       - topicgroup: 
           label: Using custom image templates
           topics: 
