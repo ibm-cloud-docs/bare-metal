@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2021
+  years: 2020, 2022
 lastupdated: "2021-03-29"
 
-keywords: custom image template, bare metal image, image template, order image template
+keywords: custom image template, order from image, order image template
 
 subcollection: bare-metal
 
@@ -43,7 +43,7 @@ Use the following steps to order a bare metal server from an image template.
 10. Select your **RAM**. For some servers, RAM defaults based on the CPU model and cannot be changed. 
 11. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it is provisioned.
 12. Expand **Add-ons** to select options that are related to the image configuration.
-13. Your storage selection defaults to the storage disks that were used during the image capture. <!--Keep the default selection.-->**Note:** You can't mix RAID and non-RAID storage disks.
+13. Your storage selection defaults to the storage disks that were used during the image capture. **Note:** You can't mix RAID and non-RAID storage disks.
 14. Under **Network Interface**, select the Uplink Port Speeds and Private VLAN options. Expand **Add-ons** to select the appropriate options or use the default values.
 15. Review your order in the Order summary.
 16. Click the **Third-Party Service Agreement** checkbox.
