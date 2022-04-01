@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2021
+  years: 2020, 2022
 lastupdated: "2021-12-02"
 
-keywords: custom image template, bare metal image, image template
+keywords: custom image template, image template
 
 subcollection: bare-metal
 
@@ -54,7 +54,7 @@ The following features and configurations are supported when you create an image
 
 The following operating systems are supported when you create an image template. 
 
-- CentOS 7, 8<!--- Debian 9-->
+- CentOS 7, 8
 - RHEL 7, 8
 - Ubuntu 16, 18
 - Windows 2012 R2, 2016, 2019
