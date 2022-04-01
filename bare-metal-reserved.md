@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2022
 lastupdated: "2021-09-20"
 
-keywords: reserved bare metal, bare metal reserved, contract term bare metal, contract term bare metal server, contract term server, contract term, 1 year server, 3 year server, 1 year bare metal, 3 year bare metal, 1 year bare metal server, 3 year bare metal server  
+keywords: contract term, contract term server   
  
 
 subcollection: bare-metal
@@ -26,6 +26,7 @@ subcollection: bare-metal
 {: shortdesc}
 
 ## Advantages
+{: #contract-term-bare-metal-advantages}
 
 Contract term pricing offers many conveniences, including the following advantages:
 
@@ -38,6 +39,7 @@ Contract term pricing offers many conveniences, including the following advantag
    Your contract term bare metal servers are available globally. 
 
 ## Limitations
+{: #contract-term-bare-metal-limitations}
 
 Consider the following limitations before you provision a contract term bare metal server:
 
