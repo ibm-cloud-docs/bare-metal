@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2022
 lastupdated: "2021-09-20"
 
 keywords: spare pools, cancel, bare metal
@@ -10,14 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:tip: .tip}
-{:important: .important}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Canceling spare pools
 {: #cancel-spare-pools}
@@ -26,6 +19,7 @@ Devices that are added to the spare pool can be canceled only from anywhere with
 {: shortdesc}
 
 ## Canceling a spare pool
+{: #how-to-cancel-spare-pool}
 
 Use the following steps to remove a device from the spare pool.
 
@@ -33,9 +27,9 @@ Canceling a device results in removing all data from the canceled device. All in
 {: important}
 
 1. Back up any data that you want to keep from the device that you are canceling.
-2. Access the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} by using your unique credentials.
+2. Access your [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/){: external} by using your unique credentials.
 3. Select **Devices > Spare Pool** from the Navigation Bar to access the *Spare Pool* screen.
-4. Select the Actions icon ![Actions icon](../icons/action-menu-icon.svg). Then select **Cancel Device** for the specific device.
+4. Select the Actions icon ![Actions icon](../icons/action-menu-icon.svg). Then, select **Cancel Device** for the specific device.
 5. Select the cancellation reason from the **Reason** drop-down list.
 6. Enter a brief cancellation explanation in the text box.
 7. Click **Continue** to proceed to the next screen. Click **Cancel** to stop the cancellation process and return to the *Spare Pool* screen.
