@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2021
+  years: 1994, 2022
 lastupdated: "2021-09-20"
 
 keywords: IPv6, ipv6 ubuntu
@@ -24,7 +24,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
 1. Edit your **/etc/network/interfaces** file and add the following lines to the end of the file.
 
-   ```
+   ```text
    #IPV6 configuration
    iface eth1 inet6 static
    pre-up modprobe ipv6 
@@ -32,7 +32,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
    netmask 64
    gateway 2607:f0d0:2001:0000:0000:0000:0000:0001
    ```
-   {: codeblock}
+   {: pre}
    
    - The first line defines the interface on which the system uses IPv6.
    - The second line loads the module for IPv6.
@@ -42,10 +42,10 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
 2. Restart networking with the following command:
 
-   ```
+   ```text
    /etc/init.d/networking restart
    ```
-   {: codeblock}
+   {: pre}
 
 ## Verifying IPv6 connectivity
 {: #verifying-ipv6-connectivity}
@@ -53,7 +53,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 ### Verify that IPv6 IP is bound
 {: #verify-that-ipv6-ip-is-bound}
 
-   ```
+   ```text
    root@server:~# ip -6 address show eth1
    3: eth1: mtu 1500 qlen 1000
        inet6 2607:f0d0:2001::/64 scope global
@@ -62,17 +62,17 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
           valid_lft forever preferred_lft forever
    root@server:~#
    ```
-   {: codeblock}
+   {: pre}
 
 ### IPv6 neighbor cache
 {: #ipv6-neighbor-cache}
 
-   ```
+   ```text
    root@server:~# ip -6 neighbor show dev eth1
    2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
    root@server:~#
    ```
-   {: codeblock}
+   {: pre}
 
 If the neighbor cache shows a fe80 entry, one of the following conditions can apply:
 - The gateway is not set
@@ -83,19 +83,19 @@ If the neighbor cache shows a fe80 entry, one of the following conditions can ap
 ### IPv6 default gateway
 {: #ipv6-default-gateway}
 
-   ```
+   ```text
    root@server:~# ip -6 route show dev eth1
    2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295
    fe80::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295
    default via 2607:f0d0:2001::1  metric 1024  mtu 1500 advmss 1440 hoplimit 4294967295
    root@server:~#
    ```
-   {: codeblock}
+   {: pre}
 
 If the default gateway is not listed, you can use the `ping6` command to find your default gateway then add it manually using this IP command:
 
-   ```
+   ```text
    root@server:~# ip -6 route add default via 2607:f0d0:2001::1
    root@server:~#
    ```
-   {: codeblock}
+   {: pre}
