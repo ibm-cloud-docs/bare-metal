@@ -99,8 +99,6 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 7.9  | 30 June 2024 | 
 {: caption="Table 7. Lifecycle for RHEL operating systems" caption-side="bottom"}
 
-<!--**BYOL**: For Red Hat Enterprise Linux® (RHEL) operating systems, you can bring your own license (BYOL) to {{site.data.keyword.vpc_short}} when you import a custom image. These images are registered and licensed by you. You maintain control over your license and incur no additional costs by using your license. Acquisition and activation of the license is between you and the OS vendor. BYOL is not supported on Red Hat Enterprise Linux for SAP.-->
-
 ### Rocky Linux
 {: #rocky-linux-classic}
 
