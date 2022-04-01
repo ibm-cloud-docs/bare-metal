@@ -79,19 +79,6 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the hardware class."}
 
-<!--- CentOS 7 (HVM)
-- CentOS 8 (HVM)*
-- Debian 9 (HVM)
-- Debian 10 (HVM)*
-- RHEL 7 (HVM)
-- RHEL 8 (HVM)*
-- Ubuntu 18 (HVM)
-- Ubuntu 20 (HVM)
-- Windows 2012 (HVM)
-- Windows 2012 R2 (HVM)
-- Windows 2016 (HVM)
-- Windows 2019 (HVM)-->
-
 CentOS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These operating systems also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
