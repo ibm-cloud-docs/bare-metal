@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2021-12-02"
+lastupdated: "2022-04-05"
 
-keywords: custom image template, image template
+keywords: custom image templates, image, image templates
 
 subcollection: bare-metal
 
@@ -45,7 +45,6 @@ The following features and configurations are supported when you create an image
 
 - Full traditional BIOS boot mode support and limited UEFI boot mode support (images must be deployed on their respective servers)
 - Only available for X10, X11, and Lenovo systems
-- Supports multiple drives up to 2 TB 
 - vGPU support
 - RAID 0, 1, 10 
   
@@ -54,9 +53,9 @@ The following features and configurations are supported when you create an image
 
 The following operating systems are supported when you create an image template. 
 
-- CentOS 7, 8
-- RHEL 7, 8
-- Ubuntu 16, 18
+- CentOS 7.x <!--- Debian 9-->
+- RHEL 7.x, 8.x
+- Ubuntu 18, 20
 - Windows 2012 R2, 2016, 2019
 
 ### Supported add-ons
@@ -69,7 +68,7 @@ The following add-ons are compatible with image templates.
 - Microsoft SQL Server 
 - R1Soft client 
 
-If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-with-add-on-software).
+If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-custom-image-control-panel).
 {: note}
 
 #### Notes for add-ons
@@ -88,10 +87,9 @@ Customs images have some limitations that you need to be aware of before you cre
 - No multiple RAID configurations
 - No RAID 5 and 6
 - No Trusted Platform Module (TPM) encryption support
-- Logical Volume Management (LVM) not supported
-- Custom and non-IBM kernels not supported
-- CentOS with UEFI not supported 
-- Control panels (for example cPanel and Plesk) are not supported 
+- Logical Volume Management (LVM) isn't supported
+- Custom and non-IBM kernels aren't supported
+- Control panels (for example cPanel and Plesk) aren't supported 
 - R1Soft Backup Agent isn't supported for image capture
 
 Any software (for example MySQL) that maintains its own internal password files and database stays unmodified on provision. Access to the software on a provisioned server from the image uses the same username and passwords as the source server that the image was created from.
