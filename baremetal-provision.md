@@ -1,22 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-08-26"
+  years: 2017, 2022
+lastupdated: "2022-04-06"
 
-keywords: custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
+keywords: custom server
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Building a custom Bare Metal Server
@@ -25,6 +19,7 @@ subcollection: bare-metal
 Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 
 ## Before you begin
+{: #byb-custom-baremetal-server}
 
 Make sure that you review the [Getting started tutorial](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
 
@@ -35,17 +30,17 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 
 1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/){: external}.   
 2. Select {{site.data.keyword.baremetal_short}} under **Compute**.
-3. Click Continue. If you do not see a Continue button, you might need to log in.
-4. Enter the **Quantity** of **identical** servers to provision. The default is 1. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately.
+3. Click **Continue**. If you do not see a **Continue** button, you might need to log in.
+4. Enter the **Quantity** of **identical** servers to provision. The default quantity is _1_. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately.
 5. **Hostname** is a permanent or temporary name for your servers, for example, baremetal01. Click **Information** for formatting specifics.
 6. **Domain** is the identification string that defines administrative control within the internet, for example, Customer-123456.cloud. Click **Information** for formatting specifics.
 7. **Billing**, select either **Hourly**, **Monthly**, **1-year term**, or a **3-year term**.
 8. Select the **Location**, region and data center, where your server is to be located.
 9. Click **All servers** to see a list of processors (Single, Dual, and Quad) and certified servers (SAP and VMware). Select the server that best meets your workload.
-10. Select your **RAM**. For some servers, RAM defaults based on the CPU Model and cannot be changed. **Note:** For SAP certified servers, RAM and Operating System default based on your server selection. Your local storage option also defaults based on your server selection.
+10. Select your **RAM**. For some servers, RAM defaults are based on the CPU model and can't be changed. **Note:** For SAP certified servers, RAM, and operating system default based on your server selection. Your local storage option also defaults based on your server selection.
 11. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it is provisioned.
 12. Select an **Image** (operating system) for your server. Your options are based on your selected server.
-13. Expand **Add-ons** to select options related to the server's configuration.
+13. Expand **Add-ons** to select options that are related to the server's configuration.
 14. The **Storage disks** are preconfigured based on your server selection. Expand **Add-ons** to add File or Block storage volumes after your {{site.data.keyword.baremetal_short}} are provisioned.
 15. Under **Network Interface**, select the Uplink Port Speeds and Private VLAN options. Expand **Add-ons** to select the appropriate options or use the default values.
 16. Review your order in the Order summary.
