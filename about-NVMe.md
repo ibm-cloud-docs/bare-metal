@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-01"
+lastupdated: "2022-04-08"
 
 keywords: NVMe
 
@@ -39,6 +39,8 @@ NVMe SSD drives must be selected as individual drives. You cannot select NVMe SS
 No limitations exist on the number of NVMe SSDs you can provision. The number depends on the server and PCI slots on the system board. Currently, you are limited to three.
 
 The GPUs share PCI slots with the NVMe SSDs. You can't configure more NVMe SSDs than GPUs. This limit is also dependent on the server's system board.
+
+Because of compatibility issues, you can’t select NMVe drives if you’re going to install Windows&reg;. 
 
 ## Order an NVMe SSD drive
 {: #order-NVMe-ssd}
