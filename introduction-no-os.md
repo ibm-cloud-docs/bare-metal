@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-03-09"
+lastupdated: "2022-04-07"
 
 keywords: no os, no operating system, server with no os
 
@@ -10,13 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # No OS options
 {: #bm-no-os}
@@ -26,7 +20,13 @@ subcollection: bare-metal
 ## Ordering {{site.data.keyword.baremetal_short}} with no OS
 {: #ordering-no-os}
 
+Use the following steps to order a bare metal server without an OS.
+
 1. Use the steps that are outlined in [Building a Custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) to order your server.
+
+   Because of compatibility issues, you can't select NMVe drives if you're going to install Windows&reg;. 
+   {: important}
+
 2. Select **No OS** under **Image**.
 3. Complete your server order.
 
