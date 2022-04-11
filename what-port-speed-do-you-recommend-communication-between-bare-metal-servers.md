@@ -1,23 +1,19 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2018-04-02"
+  years: 2017, 2022
+lastupdated: "2022-04-011"
 
-keywords: port speed, communicate between {{site.data.keyword.baremetal_short}}
+keywords: port speed
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
-# Communicating between {{site.data.keyword.baremetal_short}}
+# Communicating between bare metal servers
 {: #bm-port-speed}
 
-In the instance that multiple {{site.data.keyword.baremetal_long}} must communicate with each other over the private network, {{site.data.keyword.cloud_notm}} recommends the 100 Mbps port upgrade for each device. If the {{site.data.keyword.baremetal_short}} are high volume devices, it's recommended that you upgrade to 1000Mbps for connections between the devices.
+If you have multiple {{site.data.keyword.baremetal_long}} that must communicate with each other over the private network, {{site.data.keyword.cloud_notm}} recommends the 100 Mbps port upgrade for each device. If the {{site.data.keyword.baremetal_short}} are high volume devices, the recommendation that you upgrade to 1000 Mbps for connections between the devices.
+{: shortdesc}
