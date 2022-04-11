@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-30"
+lastupdated: "2022-04-11"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -24,7 +24,7 @@ In the lifecycle of a product, end of support (EOS) is the last date that {{site
 ### AT&T vRouter (Vyatta)
 {: #vrouter-classic}
 
-AT&T vRouter is updated on a regular basis, with the previous release being deprecated when a new version is released. This guest OS is a free operating system. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-release-notes-for-ibm-virtual-router-appliance){: external}. 
+AT&T vRouter is updated on a regular basis, with the previous release being deprecated when a new version is released. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-release-notes-for-ibm-virtual-router-appliance){: external}. 
 
 | Operating sytem | End of support | 
 |-----------------|----------------|
@@ -42,6 +42,7 @@ The following table describes the end of support date for CentOS operating syste
 | Stream 8 (available only on bare metal servers) | 31 May 2024 | 
 | CentOS 8.x | 31 December 2021  | 
 | CentOS 7.9 | 30 June 2024 |
+| CentOS 6 | 30 November 2020 |
 {: caption="Table 2. Lifecycle for CentOS operating systems" caption-side="bottom"}
 
 ### Citrix XenServer
@@ -97,7 +98,10 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 8.2  | 30 April 2022 |  
 | RHEL 8.1  | 30 November 2021 | 
 | RHEL 7.9  | 30 June 2024 | 
+| RHEL 6 | 30 November 2020 |
 {: caption="Table 7. Lifecycle for RHEL operating systems" caption-side="bottom"}
+
+<!--**BYOL**: For Red Hat Enterprise Linux® (RHEL) operating systems, you can bring your own license (BYOL) to {{site.data.keyword.vpc_short}} when you import a custom image. These images are registered and licensed by you. You maintain control over your license and incur no additional costs by using your license. Acquisition and activation of the license is between you and the OS vendor. BYOL is not supported on Red Hat Enterprise Linux for SAP.-->
 
 ### Rocky Linux
 {: #rocky-linux-classic}
@@ -163,3 +167,4 @@ The following table describes the end of support date for product add-ons.
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/) | No EOS date announced |
 | [Veam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html) | 29 Febuary 2024 |
 {: caption="Table 12. Lifecycle for add-ons" caption-side="bottom"}
+
