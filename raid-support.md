@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2021
+  years: 1994, 2022
 lastupdated: "2020-11-11"
 
 keywords: raid support, raid help
@@ -10,17 +10,10 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # RAID support case information
-{:# bm-raid-support-case}
+{: #bm-raid-support-case}
 
 If you have a question about using RAID on your bare metal server, you might find an answer in the [IBM Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} forum.
 You can also open a support case. For more information about support cases, see [Getting support](/docs/get-support?topic=get-support-using-avatar#getting-support).
@@ -37,7 +30,7 @@ Granting permission to restart or power down in the initial update or by asking 
 
 Use the following command to obtain the log files for Adaptec RAID cards. Remember to include the full output of this log file in your support case.
 
-```
+```text
 arcconf getconfig 1/arcconf getlogs 1 device tabular
 ```
 {: codeblock}
@@ -48,7 +41,7 @@ arcconf getconfig 1/arcconf getlogs 1 device tabular
 
 Use the following commands to obtain the log files for Broadcom RAID cards. Remember to include full output of these log files in your support case.
 
-```
+```text
 /opt/MegaRAID/storcli/storcli64 /c0 show all
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog
 /opt/MegaRAID/storcli/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
