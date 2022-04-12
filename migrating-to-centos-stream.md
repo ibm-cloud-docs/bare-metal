@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 lastupdated: "2021-12-15"
 
 keywords: centos stream, migrate to centos stream
@@ -10,16 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
+{{site.data.keyword.attribute-definition-list}}
 
 # Migrating to CentOS Stream from CentOS 8
 {: #bm-migrate-to-centos-stream}
@@ -35,7 +26,7 @@ Use the following steps to migrate from CentOS 8 to CentOS Stream.
 1. Back up your data before you proceed with the update. 
 2. Update your data by using the update command.
    
-   ```
+   ```text
    sudo dnf update
    ```
    {: pre}
@@ -43,21 +34,21 @@ Use the following steps to migrate from CentOS 8 to CentOS Stream.
 3. If you made any updates, restart to load the most recent kernels.
 4. To enable the CentOS Stream repo, use the following command.  
    
-   ```
+   ```text
    sudo dnf install centos-release-stream
    ```
    {: pre}
    
 5. Run the following command to replace your CentOS 8 repos with CentOS Stream.
    
-   ```
+   ```text
    sudo dnf swap centos-{linux,stream}-repos
    ```
    {: pre}
    
 6. To migrate CentOS 8 to CentOS Stream, run the following command.
    
-   ```
+   ```text
    sudo dnf distro-sync
    ```
    {: pre}
@@ -67,7 +58,7 @@ Use the following steps to migrate from CentOS 8 to CentOS Stream.
 
 After the migration completes, run the following command to verify that the migration is complete.
 
-   ```
+   ```text
    cat /etc/redhat-release
    ```
    {: pre}
