@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2020
+  years: 2020, 2022
 lastupdated: "2020-12-03"
 
 subcollection: bare-metal
@@ -9,15 +9,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs for custom image templates
 {: #faqs-image-templates}
