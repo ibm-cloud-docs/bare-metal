@@ -10,16 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
+{{site.data.keyword.attribute-definition-list}}
 
 # About bare metal custom image templates
 {: #getting-started-bm-custom-image-templates}
@@ -53,7 +44,7 @@ The following features and configurations are supported when you create an image
 
 The following operating systems are supported when you create an image template. 
 
-- CentOS 7.x <!--- Debian 9-->
+- CentOS 7.x 
 - RHEL 7.x, 8.x
 - Ubuntu 18, 20
 - Windows 2012 R2, 2016, 2019
