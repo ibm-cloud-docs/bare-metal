@@ -10,16 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:faq: data-hd-content-type='faq'}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:note: .note}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: Bare metal servers
 {: #bm-faq}
