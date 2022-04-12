@@ -10,13 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # RAID controller commands
 {: #bm-raid-controller-commands}
@@ -49,7 +43,7 @@ You use the Adapatec Command Line Utility to run RAID controller commands. The f
 
 See the following example for output that is made by using the _GETLOGS_ command:
 
-```
+```text
 driveErrorEntry
 smartError.. ............................ false 
 vendorID ................................ WDC
@@ -71,7 +65,7 @@ smartWarning ............................ 0
 You use this command to show the specific drives and any possible drive errors that it might have.  
 The following example shows the output:
 
-```
+```text
 Drive /c0/e252/s0 - Detailed Information: 
 Shield Counter = 0
  Media Error Count = 0
@@ -118,7 +112,7 @@ Firmware Revision = SN03 
 
 This command displays the rebuild status of all drives and the estimated time to complete the rebuild. You see this output when you run the command:
 
-```
+```text
 ---------------------------------------------
 Drive-ID Progress% Status Estimated Time Left 
 ---------------------------------------------
@@ -134,7 +128,8 @@ Drive-ID Progress% Status Estimated Time Left 
 
 Change the "global" section of the default config (/opt/Broadcom/mrmonitor/MegaMonitor/config-current.xml):
 
-```<global>
+```text
+<global>
  <severity level="FATAL"> 
 <do-systemlog/> 
 <do-email/>
@@ -155,7 +150,7 @@ Change the "global" section of the default config (/opt/Broadcom/mrmonitor/MegaM
 
 to read like this:
 
-```
+```text
 <global> 
 <severity level="FATAL"> 
 <do-systemlog/> 
@@ -201,7 +196,7 @@ Make sure that you include the full output of `arcconf getconfig 1/arcconf getlo
 {: #broadcom-raid-cards-support}
 
 Use the following commands to obtain the log files for Broadcom RAID cards. You need to include the full output of these log files with your support case.
-```
+```text
 /opt/MegaRAID/storcli/storcli64 /c0 show all
 /opt/MegaRAID/storcli/storcli64 /c0 show TermLog
 /opt/MegaRAID/storcli/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
