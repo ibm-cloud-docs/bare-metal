@@ -1,35 +1,30 @@
 ---
 copyright:
-  years: 2018, 2021
-lastupdated: "2018-05-16"
+  years: 2018, 2022
+lastupdated: "2022-04-13"
 
-keywords: WSUS, Microsoft Windows
+keywords: 
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Updating an instance to use a local WSUS server
 {: #updating-an-instance-to-use-a-local-wsus-server}
 
-If your virtual server instance that is running Microsoft Windows was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers.
+If your virtual server instance that is running Windows&reg; was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft&reg; WSUS servers.
 {: shortdesc}
 
 If you order a virtual server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or advanced monitoring, it is likely that your server is provisioned with a cloud-init image. With cloud-init provisions, the WSUS server defaults to the Microsoft WSUS server.
 
 If you want to update the virtual server to use the {{site.data.keyword.cloud_notm}} local WSUS server, use the following .reg file after your server is provisioned. Make the following changes before you use this file.
 - Change *wsusdal0102* to the local data center where your virtual server is provisioned.  
-- The line that includes *"DoNotConnectToWindowsUpdateInternetLocations"* forces the server to use the WSUS server. You can leave it out if you'd like to be able to check against Windows Update and WSUS.
+- The line that includes *"DoNotConnectToWindowsUpdateInternetLocations"* forces the server to use the WSUS server. You can leave it out if you'd want to check against Windows Update and WSUS.
 
 
-```
+```text
  Windows Registry Editor Version 5.00
 
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
