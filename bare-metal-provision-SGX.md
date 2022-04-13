@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018, 2021
-lastupdated: "2021-09-30"
+  years: 2018, 2022
+lastupdated: "2022-04-08"
 
-keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing
+keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing,
 
 subcollection: bare-metal
 
@@ -24,8 +24,6 @@ subcollection: bare-metal
 Intel Software Guard Extensions (SGX) can protect data that uses hardware-based server security. With Intel SGX applications, you can protect select code and data from disclosure or modification. By using trusted execution environments (TEE), known as enclaves, you can encrypt the pieces of your application memory that contains sensitive data while it is in use.
 {: shortdesc}
 
-![An example SGX application.](images/cc-bare-metal.png){: caption="Figure 1. Example SGX application set up" caption-side="bottom"}
-
 Even if you don't have an application that uses Intel SGX, you can still take advantage of the technology. Check out [IBM Cloud Data Shield](/docs/data-shield?topic=data-shield-getting-started).
 {: tip}
 
@@ -38,10 +36,10 @@ To provision a bare metal server with SGX, follow these steps:
 
 2. On the [bare metal provisioning page](https://cloud.ibm.com/gen1/infrastructure/provision/bm), select the following options on the order form:
 
-| Section | Option to select |
+| Field | Value |
 |------|------|
 | Server | Single processor Intel Xeon&reg; 2174 with storage up to four drives |
-| Image | Windows&reg; 2019 - Windows Server 2016 Standard Edition (64 bit) - Windows Server 2016 Standard Edition (64 bit) - Windows Server 2016 Datacenter Edition (64 bit) - CentOS 7.x (64 bit) - Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit) - CentOS 8.x (64 bit) - Red Hat Enterprise Linux&reg; 8.x (64 bit) (per-processor licensing) |
+| Image | Windows&reg; 2019  \n Windows Server 2016 Standard Edition (64 bit)  \n Windows Server 2016 Standard Edition (64 bit)  \n Windows Server 2016 Datacenter Edition (64 bit)  \n CentOS 7.x (64 bit)  \n Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)  \n CentOS 8.x (64 bit)  \n RHEL&reg; 8.x (64 bit) (per-processor licensing) |
 | Image Add-ons | Software Guard Extensions (SGX) |
 {: caption="Table 1. SGX order form options" caption-side="top"}
 
