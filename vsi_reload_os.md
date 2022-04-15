@@ -3,7 +3,7 @@
 
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2022
 lastupdated: "2021-09-15"
 
 keywords: OS Reload, operating system
@@ -11,14 +11,7 @@ keywords: OS Reload, operating system
 subcollection: bare-metal
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 #  Reloading the OS
 {: #reloading-the-os}
@@ -30,8 +23,10 @@ If you want to retain your data, back up all data before you perform an OS reloa
 {: important}
 
 ## Before you begin
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+{: #byb-reloading-os}
+
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
