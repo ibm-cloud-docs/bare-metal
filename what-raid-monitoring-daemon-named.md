@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2020-11-11"
 
 keywords: raid monitoring daemon
@@ -10,12 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Name and location of the RAID monitoring daemon
 {: #bm-raid-monitoring-daemon}
