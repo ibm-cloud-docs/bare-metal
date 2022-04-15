@@ -1,31 +1,26 @@
 ---
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2022
 lastupdated: "2021-09-22"
 
-keywords: image template, OS Reload, operating system
+keywords: 
 
 subcollection: bare-metal
+
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # Reloading an OS by using an image template
 {: #reloading-an-os-using-an-image-template}
 
-## Differences between a standard OS reload and a reload from an image template
-{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
-
 During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template.
 {: shortdesc}
+
+
+## Differences between a standard OS reload and a reload from an image template
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
 
 In an image template reload, you can still add features before you reload the OS.
 
@@ -35,6 +30,8 @@ If you want to retain your data, back up all data before reloading the OS. An OS
 {: important}
 
 ## Before you begin
+{: byb-os=reload}
+
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
