@@ -47,6 +47,6 @@ Intel TXT is especially advantageous for large enterprises subject to compliance
 For more information about Intel TXT on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, see [Intel&reg; Trusted Execution Technology](https://www.ibm.com/cloud/bare-metal-servers/intel-txt).
 
 ## Special technical notice
-{: #bm-special-txt-technical-notice
+{: #bm-special-txt-technical-notice}
 
 Intel TXT is provided by Intel&reg; and operates on the {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that require specific technical knowledge to support and manage. The {{site.data.keyword.cloud_notm}} current delivery model can turn Intel&reg; TXT either on or off. {{site.data.keyword.cloud_notm}} can't assist with configuration of Intel TXT settings because of the sensitivity of customer environments and data. The recommendation is that you either include staff who is trained in Intel TXT technologies or engage with a consulting firm with expertise in orchestrating root of trust and measured launch environment (MLE) architecture.
