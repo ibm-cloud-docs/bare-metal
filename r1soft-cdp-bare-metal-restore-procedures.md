@@ -1,16 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2018-04-08"
 
-keywords: R1Soft, restoring OS, restoring bare metal
+keywords:
 
 subcollection: bare-metal
 
 ---
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
+
+{{site.data.keyword.attribute-definition-list}}
 
 # Restoring your server from an R1Soft image
 {: #restoring-your-server-from-an-r1soft-image}
@@ -21,6 +21,8 @@ Use this procedure to complete a restore to public or private {{site.data.keywor
 Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){: external}.
 
 ## Before you begin
+{: #byb-restore-r1soft}
+
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
