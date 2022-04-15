@@ -4,7 +4,7 @@ copyright:
   years: 2019, 2022
 lastupdated: "2022-02-21"
 
-keywords: network port options, port options, network options, custom server, {{site.data.keyword.baremetal_short}}, {{site.data.keyword.cloud_notm}}
+keywords: 
 
 subcollection: bare-metal
 
@@ -63,7 +63,7 @@ If you selected **None** for port redundancy, you might see an option that inclu
 For more information about network performance on {{site.data.keyword.baremetal_long}}, check out this [blog post](https://www.ibm.com/cloud/blog/how-fast-is-the-network-on-ibm-cloud-part-1-bare-metal-servers).
 
 ### 25 Gbps port speed
-{: 25gb-port-speed}
+{: #25gb-port-speed}
 
 The 25 Gbps port speed option is compatible with only the following 2U (12 drive) Cascade Lake processor servers:
 
