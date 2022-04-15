@@ -4,20 +4,13 @@ copyright:
   years: 2017, 2022
 lastupdated: "2022-03-09"
 
-keywords: mount iso bare metal
+keywords: 
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:tip: .tip}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Mounting an ISO on a bare metal server
@@ -44,10 +37,10 @@ This option is the preferred method for installing a custom OS on a bare metal s
 Follow these steps to install a custom OS from a CIFS Share:
 
 1. Make sure that the ISO is on the CIFS Share.
-2. Log in to the IPMI management console by pointing your web browser to the IP specified in cloud.ibm.com. 
-3. From the {{site.data.keyword.cloud_notm}} console, go to **Devices** > **Your server (device details)** > **Remote Mgmt**. The username and password are also specified in the details.
-4. Hover over **Virtual Media** and click **CD-ROM image**
-5. Complete the appropriate details and click **Save and Mount**.
+1. Log in to the IPMI management console by pointing your web browser to the IP specified in cloud.ibm.com. 
+1. From the {{site.data.keyword.cloud_notm}} console, go to **Devices** > **Your server (device details)** > **Remote Mgmt**. The username and password are also specified in the details.
+1. Hover over **Virtual Media** and click **CD-ROM image**
+1. Complete the appropriate details and click **Save and Mount**.
 
 Not all users have permission to change the BIOS of the server. If necessary, you can open a support case and request the following items:
 
@@ -73,17 +66,18 @@ If you do not have permission to change the BIOS on a server, open a support cas
 * To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not mounted, support can change only the boot device priority for now).
 
 1. Log in to the IPMI management console by pointing your web browser to the IP that is specified in cloud.ibm.com.
-2. Go to **Devices** > **your server (device details)** > **Remote Mgmt**. Specify the username and password.
-3. Click **Configuration** > **Remote session** and change attach mode to **attach**. 
+1. Go to **Devices** > **your server (device details)** > **Remote Mgmt**. Specify the username and password.
+1. Click **Configuration** > **Remote session** and change attach mode to **attach**. 
    In some older IPMI consoles this option is not available so you can skip this step.
    {: note}
-4. To return to the system information page, go to **System** > **System information** and click the console window icon. * *  * Accept all security warnings.
-5. When the console connects, you see login prompt.
-6. Click **Virtual Media** > **Virtual Storage**.
-7. Go to the **CDROM&ISO** tab and select the ISO File under **Logical Drive Type**
-8. Click **Open image** and select the ISO on your local computer.
-9. Click **Plug-in** to insert the ISO into the virtual CD-ROM drive and click **OK**.
-10. Restart the server and use the **boot from the virtual CD-ROM drive** option. You might need to use the virtual keyboard in the iKVM viewer to select a boot device.
+
+1. To return to the system information page, go to **System** > **System information** and click the console window icon. * *  * Accept all security warnings.
+1. When the console connects, you see login prompt.
+1. Click **Virtual Media** > **Virtual Storage**.
+1. Go to the **CDROM&ISO** tab and select the ISO File under **Logical Drive Type**
+1. Click **Open image** and select the ISO on your local computer.
+1. Click **Plug-in** to insert the ISO into the virtual CD-ROM drive and click **OK**.
+1. Restart the server and use the **boot from the virtual CD-ROM drive** option. You might need to use the virtual keyboard in the iKVM viewer to select a boot device.
 
 ## Troubleshooting
 {: #bm-mount-iso-troubleshooting}
