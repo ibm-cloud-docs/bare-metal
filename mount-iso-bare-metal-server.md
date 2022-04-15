@@ -71,7 +71,7 @@ If you do not have permission to change the BIOS on a server, open a support cas
    In some older IPMI consoles this option is not available so you can skip this step.
    {: note}
 
-1. To return to the system information page, go to **System** > **System information** and click the console window icon. * *  * Accept all security warnings.
+1. To return to the system information page, go to **System** > **System information** and click the console window icon. Accept all security warnings.
 1. When the console connects, you see login prompt.
 1. Click **Virtual Media** > **Virtual Storage**.
 1. Go to the **CDROM&ISO** tab and select the ISO File under **Logical Drive Type**
