@@ -54,7 +54,7 @@ Use the following steps to migrate from CentOS 8 to CentOS Stream.
    {: pre}
 
 ## What's next?
-{: bm-what-next-migrate-centos-stream}
+{: #bm-what-next-migrate-centos-stream}
 
 After the migration completes, run the following command to verify that the migration is complete.
 
