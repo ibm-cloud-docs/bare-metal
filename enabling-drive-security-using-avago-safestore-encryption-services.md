@@ -48,8 +48,7 @@ Click the **Physical** tab and click the drives that are available on the system
    - When drive security is enabled, a yellow key image appears for **Controller 0 AVAGO MegaRAID SAS 9361-8i**.
 
 1. Now create a secure volume by using the SEDs. Right-click **Controller0** from the **Logical** tab and select **Create Virtual Drive**.
-1. Choose the **Advanced** option. The screen needs to specify the **RAID level** and the **Drive security method** as
-**Full Disk encryption (FDE)**. 
+1. Choose the **Advanced** option. The screen needs to specify the **RAID level** and the **Drive security method** as **Full Disk encryption (FDE)**. 
 1. Select the FDE Drives that are required and click **Add** > **Create Drive Group** > **Next**.
 1. Review the virtual drive settings and make any necessary changes. 
    - The suggested setting for the **Read Policy** is **Always Read Ahead**. 
