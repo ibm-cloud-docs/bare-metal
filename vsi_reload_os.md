@@ -39,9 +39,9 @@ For more information about permissions, see [Classic infrastructure permissions]
 
    | Reload type | Steps |
    |-------------|-------|
-   | If you want to reload a new configuration... | 1. Click **Edit** for the category that requires an update.  \n 2. Select the new software from the **Select software** drop-down list. |  
+   | If you want to reload a new configuration... | **1.** Click **Edit** for the category that requires an update.  \n **2.** Select the new software from the **Select software** drop-down list. |  
    | If you want to reload the existing configuration... | Proceed to the next step. |
-   | If you want to change the operating system... | 1. Click **Edit OS** > **Change version or manufacturer**. |
+   | If you want to change the operating system... | **1.** Click **Edit OS** > **Change version or manufacturer**. |
    {: caption="Table 1. OS and software reload options" caption-side="top"}
 
 4. Determine whether to apply a postinstallation script after the device is provisioned.
@@ -52,7 +52,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 
    | Partition action | Steps |
    |------------------|-------|
-   | To add installed partitions... | 1. Click **Add another partition**.  \n 2. Enter the exact name of the partition.  \n 3. Enter the partition size (in GB).  \n Optionally, you can select **Grow** to grow the partition to fill the remaining disk space. Keep in mind that you can only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the grow partition is calculated by subtracting the combined size of all other partitions from the total capacity number that is provided in the Installed Partitions section. |
+   | To add installed partitions... | **1.** Click **Add another partition**.  \n **2.** Enter the exact name of the partition.  \n **3.** Enter the partition size (in GB).  \n Optionally, you can select **Grow** to grow the partition to fill the remaining disk space. Keep in mind that you can only one partition can be selected to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the grow partition is calculated by subtracting the combined size of all other partitions from the total capacity number that is provided in the Installed Partitions section. |
    | To delete installed partitions... | Click **Delete** to delete the partition. |
    | To remain unchanged... | Proceed to the next step. |
    {: caption="Table 2. Partition action options" caption-side="top"}
