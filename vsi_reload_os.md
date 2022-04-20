@@ -1,14 +1,14 @@
 ---
 
 
-
 copyright:
   years: 2019, 2022
-lastupdated: "2021-09-15"
+lastupdated: "2022-04-20"
 
 keywords: OS Reload, operating system
 
 subcollection: bare-metal
+
 ---
 
 {{site.data.keyword.attribute-definition-list}}
@@ -16,7 +16,7 @@ subcollection: bare-metal
 #  Reloading the OS
 {: #reloading-the-os}
 
-You can reload the operating system (OS) on a device at any time to restore a device to its original working order, or to reconfigure a device with different software. An OS reload removes all data from the device and applies a "like new" configuration, as specified during the configuration process of the OS Reload setup. Because OS reloads clear all data from the device, if the data is not backed up before the reload, it's permanently deleted and cannot be retrieved.
+You can reload the operating system (OS) on a device at any time to restore a device to its original working order. Or you can reconfigure a device with a different operating system or software. An OS reload removes all data from the device and applies a "like new" configuration, as specified during the configuration process of the OS Reload setup. Because OS reloads clear all data from the device, if the data is not backed up before the reload, it's permanently deleted and cannot be retrieved.
 {: shortdesc}
 
 If you want to retain your data, back up all data before you perform an OS reload.
