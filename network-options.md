@@ -2,35 +2,26 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-02-21"
+lastupdated: "2022-04-25"
 
-keywords: 
+keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed 
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
-{:tip: .tip}
-{:important: .important}
-{:shortdesc: .shortdesc}
+{{site.data.keyword.attribute-definition-list}}
 
 # Network options
 {: #network-options}
 
-{{site.data.keyword.baremetal_long}} have a number of network choices available to suit your unique needs.
+{{site.data.keyword.baremetal_long}} have a number of network options available to suit your unique needs
 {: shortdesc}
 
 ## Interface
 {: #network-interfaces}
 
-Select this option to choose whether you want your server to have public internet access, or only a private interface. Private network access is always included so the decision here is if you want your server to also have public internet access. If so, select **Public and Private**. Keep in mind that it is not possible to add a public interface to a server after it is provisioned with only a private interface.
+Select the interface option to choose whether you want your server to have public internet access, or only a private interface. Private network access is always included so the decision here is if you want your server to also have public internet access. If so, select **Public and Private**. Keep in mind that it is not possible to add a public interface to a server after it is provisioned with only a private interface.
 
 The user that places the server order must have the **Add Compute with Public Network Port** permission to select an interface option, which contains a public interface.
 {: note}
@@ -38,14 +29,14 @@ The user that places the server order must have the **Add Compute with Public Ne
 ## Port redundancy
 {: #network-port-redundancy}
 
-Select this option to determine how you'd like to handle network connection redundancy. Choose from these options:
+Select this option to determine how you'd want to handle network connection redundancy. Choose from the following options.
 
 
-- **Automatic** is the default and recommended setting. It provides two physical network ports that are configured with LACP bonding on both the network and the operating system at time of provisioning. Automatic is the most hands-free option for continuous network availability.
+- **Automatic** is the default and recommended setting. Automatic port redundancy provides two physical network ports that are configured with LACP bonding on both the network and the operating system at time of provisioning. Automatic is the most hands-free option for continuous network availability.
 
 - **User Managed** is available for advanced configurations. It provides two physical network ports, but the ports are configured independently on both the network and the operating system. For this option to provide redundancy, you must perform an action in your application, operating system, or both to use the secondary port. If you use the second port in a manner that does not provide redundant connectivity to your application, you can't have redundant connectivity. By selecting this option, you are communicating that you have the knowledge and skill to configure redundancy on your system (or within your application) and are aware that not doing so results in a lack of network communication redundancy during routine network maintenance.
 
-- **None** provides a single physical port to each network. It is maintained as an option for customers who continue to order within legacy data centers and that might require PXE booting capability. (See [Port speed](#network-port-speed) for information that concerns the specialized need for **unbonded**.) While it is possible to choose this option in all data centers, you need to select **None** only in consultation with IBM Sales or Support under specific conditions.
+- **None** provides a single physical port to each network. It is maintained as an option for customers who continue to order within legacy data centers and that might require PXE booting capability. For more information about specialized needs for unbonded, see [Port speed](#network-port-speed). While it is possible to choose this option in all data centers, you need to select **None** only in consultation with IBM Sales or Support under specific conditions.
 
 Network maintenance is normal. While you are notified, you can avoid disruption only when you use **Automatic** redundancy, or making a special effort under the **User Managed** redundancy option.
 {: note}
@@ -98,14 +89,14 @@ For more information about 25 Gbps port speeds, check out this [blog post](https
 ## Public egress bandwidth
 {: #network-bandwidth-public}
 
-Select this option to choose the amount of included outbound, or egress, public traffic that you'd like with your server. The selected value is per billing period. Any traffic that is recorded over the selection for the period is charged per gigabyte (GB) as an overage. A value of `0 GB` means that _all_ traffic is charged. Inbound, or ingress, public traffic is free of charge.
+Select the public egress bandwidth option to choose the amount of included outbound, or egress, public traffic that you want for your server. The selected value is per billing period. Any traffic that is recorded over the selection for the period is charged per gigabyte (GB) as an overage. A value of `0 GB` means that _all_ traffic is charged. Inbound, or ingress, public traffic is free of charge.
 
-## Provisioning VLAN selection
+## Provision VLAN selection
 {: #network-vlan-selection}
 
-When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs located within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod, in which your server resides. VLAN selection becomes more relevant when you take advantage of [gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you are looking to deploy a specific network topology before server provisioning.
+When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs located that are within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs that are available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod, in which your server resides. VLAN selection becomes more relevant when you take advantage of [gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you want to deploy a specific network topology before server provisioning.
 
-## Provisioning subnet selection
+## Provision subnet selection
 {: #network-subnet-selection}
 
 If a VLAN is selected for a network connection, you are presented with a list of [primary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) from which to choose. This selection is also optional, and it is recommended to retain the default option of **Auto assigned**. Primary IP addresses and subnets are assigned as needed. Selecting a subnet for multiple device orders can cause that subnet to no longer have available IP addresses. If you request a specific subnet that no longer has IP addresses available, IBM must contact you, which drastically increases provisioning time, and reduces ordering convenience. Use this advanced feature only when a specific procedure is needed.
@@ -113,7 +104,7 @@ If a VLAN is selected for a network connection, you are presented with a list of
 ## Primary IP addresses
 {: #network-ip-address-primary}
 
-Primary IP addresses are the name that we give the IP addresses assigned to your private and public network interfaces by default. An IPv4 address is included with the price of your server for each network. These addresses provide server-unique connectivity on their respective network, and are non-transferable. It is important to understand what primary IP addresses, and thus what [primary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) do and do not allow. It is highly recommended to use [secondary IP addresses](#network-ip-address-secondary) when you announce external services so your IP addresses are not tightly coupled to any particular server.
+Primary IP addresses are the names that are given to IP addresses that are assigned to your private and public network interfaces by default. An IPv4 address is included with the price of your server for each network. These addresses provide server-unique connectivity on their respective network, and are nontransferable. It's important to understand what primary IP addresses, and thus what [primary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets) do and don't allow. It is highly recommended to use [secondary IP addresses](#network-ip-address-secondary) when you announce external services so your IP addresses are not tightly coupled to any particular server.
 
 **IPv6** - Within the **Add-ons** section of the network options is the **IPv6 address** option. If you want a public primary IPv6 address, select this option. Your server must have a primary IPv6 address to interact with any other products that use IPv6 connectivity.
 
