@@ -39,7 +39,7 @@ The following topics cover common difficulties that you might encounter, and off
 
 If you can't log in to a server through SSH, it might be caused by one of the following reasons.
 .
-* [Remote logins through SSH for root are disabled](#bm-remote-ssh-logins-disabled)
+* [Remote logins through SSH for root are disabled](#bm-remote-ssh-logins-disabled).
 * [Port not configured for SSH](#bm-port-number-configuration).
 * [Firewall is blocking SSH traffic](#bm-firewall-blocking-ssh-traffic).
 
@@ -54,6 +54,7 @@ For security reasons, it is recommended that you don't enable root for remote SS
 1. Log in to IPMI console for your server. 
 2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_.
    `nano /etc/ssh/sshd_config`
+
 3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
 
 `#LoginGraceTime 2m`
@@ -68,22 +69,20 @@ For security reasons, it is recommended that you don't enable root for remote SS
 
 Save the updated _/etc/ssh/sshd_config_ file.    
 
-Restart sshd service on Ubuntu or Debian Linux by using the following command:    
+4. Restart sshd service on Ubuntu or Debian Linux by using the following command:    
 
-`sudo systemctl restart ssh.service`
-{: pre}
+   `sudo systemctl restart ssh.service`
 
-RHEL and CentOS Linux users, run the following command to restart sshd service:
+   RHEL and CentOS Linux users, run the following command to restart sshd service:
 
-`sudo systemctl restart sshd.service`
-{: pre}  
+   `sudo systemctl restart sshd.service`
 
 ### Port not configured for SSH
 {: #bm-port-number-configuration}
 
-Check that the port number configured for ssh in the _/etc/ssh/sshd_config_ file. 
+* Check that the port number configured for ssh in the _/etc/ssh/sshd_config_ file. 
 
-Check the port number that is configured for SSH in the _/etc/ssh/sshd_config_ file. By default, SSH is configured with port 22. However, for security reasons, your administrator might change the port.
+* Check the port number that is configured for SSH in the _/etc/ssh/sshd_config_ file. By default, SSH is configured with port 22. However, for security reasons, your administrator might change the port.
 
 ### Firewall is blocking SSH traffic
 {: #bm-firewall-blocking-ssh-traffic}
@@ -153,9 +152,9 @@ If you can't connect to a server through the public IP, it might be caused by on
 
 If your internet is disconnected, it might be caused by one of the following reasons.
 
-* [Internet is blocked by firewall or gateway](#bm-internet-blocked-by-firewall-or-gateway)
-* [Public gateway IP configuration](#bm-public-gateway-ip-configuration)
-* [No ping from DNS servers](#bm-ping-DNS-servers)
+* [Internet is blocked by firewall or gateway](#bm-internet-blocked-by-firewall-or-gateway).
+* [Public gateway IP configuration](#bm-public-gateway-ip-configuration).
+* [No ping from DNS servers](#bm-ping-DNS-servers).
 
 ### Internet is blocked by firewall or gateway
 {: #bm-internet-blocked-by-firewall-or-gateway}
@@ -170,18 +169,20 @@ If firewall is not an issue, check whether the public gateway IP is configured f
 ### No ping from DNS servers
 {: #bm-ping-DNS-servers}
 
-Check whether you can ping IBM DNS servers (_10.0.80.11_, _10.0.80.12_), if you configured DNS servers for the public network card.
+If you configured DNS servers for the public network card, check whether you can ping {{site.data.keyword.cloud}} DNS servers (_10.0.80.11_ and _10.0.80.12_).
 
 If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:
 
-`nameserver 10.0.80.11` and `nameserver 10.0.80.12` 
+`nameserver 10.0.80.11` and `nameserver 10.0.80.12`
 
 ## Why does the portal show that my server is disconnected even though it's running?
 {: #bm-troubleshoot-portal-shows-server-disconnected-but-running}
 {: troubleshoot}
 {: support}
 
-If your portal shows that the server is disconnected, but the server is running, it might be caused by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate). If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](/docs/security-groups?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
+If your portal shows that the server is disconnected, but the server is running, it might be caused by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate).
+
+If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](/docs/security-groups?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
 
 ## Why does ESXi server show Purple Screen of Diagnostics (PSOD)
 {: #bm-troubleshoot-bm-esxi-psod}
@@ -190,8 +191,9 @@ If your portal shows that the server is disconnected, but the server is running,
 
 If you receive Purple Screen of Diagnostics (PSOD) on an ESXi server, it might be caused by one of the following reasons. 
 
-* Memory fault or error 
-* VMWareare kernel issues. 
+* A memory fault or error can cause a PSOD.
+
+* VMWare kernel issues
    - Try restarting the server to resolve kernel issues. 
    - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
