@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-05-09"
+lastupdated: "2022-05-11"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -11,20 +11,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:note: .note}
-{:external: target="_blank" .external}
-{:support: data-reuse='support'}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Troubleshooting your bare metal server
 {: #troubleshooting-bare-metal}
@@ -38,7 +25,7 @@ The following topics cover common difficulties that you might encounter, and off
 {: support} 
 
 If you can't log in to a server through SSH, it might be caused by one of the following reasons.
-.
+
 * [Remote logins through SSH for root are disabled](#bm-remote-ssh-logins-disabled).
 * [Port not configured for SSH](#bm-port-number-configuration).
 * [Firewall is blocking SSH traffic](#bm-firewall-blocking-ssh-traffic).
@@ -122,7 +109,7 @@ If you can access your server, but RDP isn't working, it might be caused by one 
 ### RDP traffic is blocked
 {: #bm-blocked-RDP-traffic}
 
-RDP traffic (port 3389) might be blocked by the Windows firewall, firewall, or gateway (Vyatta, AT&T, Juniper, FortiGate). Check that your firewall allows RDP port 3389.
+RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, FortiGate). Check that your firewall allows RDP traffic.
 
 ### The server has inadequate client access licenses
 {: #bm-inadequate-client-access-licenses}
@@ -141,9 +128,9 @@ If your server has pending Windows updates, install the latest updates, restart 
 
 If you can't connect to a server through the public IP, it might be caused by one of the following reasons. 
 
-* Public traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate). 
+* Public traffic is blocked by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate). 
 * If the firewall isn't an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
-* Check whether you can ping IBM DNS servers (10.0.80.11, 10.0.80.12), if that they are configured in the public network card. 
+* Check whether you can ping {{site.data.keyword.cloud}} DNS servers (10.0.80.11, 10.0.80.12), if that they are configured in the public network card. 
 
 ## Why is the internet disconnected?
 {: #bm-troubleshoot-internet-disconnected}
@@ -164,10 +151,11 @@ If you can't access the internet, your internet access might be blocked by your 
 ### Public gateway IP isn't configured for the network card
 {: #bm-public-gateway-ip-configuration}
 
-If firewall is not an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+If the firewall is not an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ### No ping from DNS servers
 {: #bm-ping-DNS-servers}
+![image](https://media.github.ibm.com/user/103460/files/375e7400-d118-11ec-960e-5dce8e55bc1b)
 
 If you configured DNS servers for the public network card, check whether you can ping {{site.data.keyword.cloud}} DNS servers (_10.0.80.11_ and _10.0.80.12_).
 
@@ -180,7 +168,7 @@ If you have Linux servers, add the following entries in the _/etc/resolv.conf_ f
 {: troubleshoot}
 {: support}
 
-If your portal shows that the server is disconnected, but the server is running, it might be caused by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate).
+If your portal shows that the server is disconnected, but the server is running, it might be your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate).
 
 If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](/docs/security-groups?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
 
@@ -192,9 +180,10 @@ If your ping traffic is blocked, then the status of your servers shows "disconne
 If you receive Purple Screen of Diagnostics (PSOD) on an ESXi server, it might be caused by one of the following reasons. 
 
 * A memory fault or error can cause a PSOD.
-
-* VMWare kernel issues
-   - Try restarting the server to resolve kernel issues. 
+   - Restart the server to clear the memory.
    - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
-For more information, see this VMWare [technote](https://kb.vmware.com/s/article/1004250). 
+* VMWare kernel issues
+   - Restart the server to resolve kernel issues. 
+   - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+   - For more information about VMWare kernel issues, see this VMWare [technote](https://kb.vmware.com/s/article/1004250). 
