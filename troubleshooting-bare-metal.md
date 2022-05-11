@@ -155,7 +155,6 @@ If the firewall is not an issue, check whether the public gateway IP is configur
 
 ### No ping from DNS servers
 {: #bm-ping-DNS-servers}
-![image](https://media.github.ibm.com/user/103460/files/375e7400-d118-11ec-960e-5dce8e55bc1b)
 
 If you configured DNS servers for the public network card, check whether you can ping {{site.data.keyword.cloud}} DNS servers (_10.0.80.11_ and _10.0.80.12_).
 
