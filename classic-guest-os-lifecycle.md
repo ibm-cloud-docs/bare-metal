@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-05-09"
+lastupdated: "2022-05-24"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -28,7 +28,9 @@ AT&T vRouter is updated regularly, with the previous release deprecating when a 
 
 | Operating system | End of support | 
 |-----------------|----------------|
-| 18.x (available only on bare metal servers)  | N/A |
+| 20.x (available only on bare metal servers) | 30 June 2024 |
+| 19.x (available only on bare metal servers) | 30 June 2022 |
+| 18.x (available only on bare metal servers)  | 01 January 2022 |
 {: caption="Table 1. Lifecycle for vRouter operating systems" caption-side="bottom"}
 
 ### CentOS
@@ -63,7 +65,7 @@ The following table describes the end of support date for Debian operating syste
 | Operating system | End of support | 
 |-----------------|----------------|
 | Debian 10 | 01 June 2024 | 
-| Debian 9  | 01 June 2022 | 
+| Debian 9  | 30 June 2022 | 
 {: caption="Table 4. Lifecycle for Debian operating systems" caption-side="bottom"}
 
 ### FreeBSD
