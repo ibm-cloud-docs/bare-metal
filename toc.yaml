@@ -21,7 +21,6 @@ toc:
           href: https://www.ibm.com/cloud/bare-metal-servers
       - bare-metal-server-options.md
       - bm-about-custom-image-templates.md
-      - spare_pools.md
       - bare-metal-reserved.md
       - about-SGX.md
       - about-Optane.md
