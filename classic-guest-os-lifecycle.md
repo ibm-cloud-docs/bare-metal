@@ -153,18 +153,19 @@ The following table describes the end of support date for Windows Server operati
 | Windows Server 2012 R2 full standard | 10 January 2023 | 
 {: caption="Table 11. Lifecycle for Windows Server operating systems" caption-side="bottom"}
 
-## Add-on lifecycles
+## Add-on software lifecycles
 {: #add-on-lifecycles-classic}
 
 The following table describes the end of support date for product add-ons. 
 
 | Add-on | End of support | 
 |--------|----------------|
-| [Citrix Hypervisor 8.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html) | 25 June 2030 |
-| [Citrix XenServer 7.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html) | 15 August 2022 |
-| [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes) | No EOS date announced |
-| [cPanel 11.x](https://endoflife.software/applications/control-panels/cpanel) | No EOS date announced |
-| [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/) | No EOS date announced |
-| [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html) | 29 February 2024 |
+| [Citrix Hypervisor 8.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external) | 25 June 2030 |
+| [Citrix XenServer 7.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external) | 15 August 2022 |
+| [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external) | No EOS date announced |
+| [cPanel 11.x](https://endoflife.software/applications/control-panels/cpanel){: external} | No EOS date announced |
+| [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
+| [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
+| [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
 {: caption="Table 12. Lifecycle for add-ons" caption-side="bottom"}
 
