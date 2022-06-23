@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-04-25"
+lastupdated: "2022-06-23"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed 
 
@@ -71,7 +71,6 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 | Dallas | DAL10, DAL12, DAL13 |
 | Frankfurt| FRA02, FRA04, FRA05 | 
 | London | LON06 |
-| Paris | PAR04, PAR05, PAR06 |
 | Tokyo | TOK02, TOK04, TOK05 |
 | Toronto| TOR04 |
 | Washington DC | WDC04, WDC06, WDC07 |
