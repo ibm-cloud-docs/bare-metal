@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-05-24"
+lastupdated: "2022-05-29"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -149,8 +149,8 @@ The following table describes the end of support date for Windows Server operati
 | Windows Server 2019 full standard | 09 January 2029 | 
 | Windows Server 2016 core | 11 January 2027 | 
 | Windows Server 2016 full standard  | 11 January 2027  |  
-| Windows Server 2012 full standard | 10 January 2023 | 
-| Windows Server 2012 R2 full standard | 10 January 2023 | 
+| Windows Server 2012 full standard | 10 October 2023 | 
+| Windows Server 2012 R2 full standard | 10 October 2023 | 
 {: caption="Table 11. Lifecycle for Windows Server operating systems" caption-side="bottom"}
 
 ## Add-on software lifecycles
