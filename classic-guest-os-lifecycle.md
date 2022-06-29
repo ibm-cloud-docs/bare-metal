@@ -168,4 +168,3 @@ The following table describes the end of support date for product add-ons.
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
 | [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
 {: caption="Table 12. Lifecycle for add-ons" caption-side="bottom"}
-
