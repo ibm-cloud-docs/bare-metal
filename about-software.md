@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2022
-lastupdated: "2022-03-07"
+lastupdated: "2022-07-08"
 
 keywords: software, supported operationg systems, oses, os supported, operating system support
 
@@ -32,12 +32,12 @@ If you need software that isn't supported, use your root access to the server to
 
 IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment. For more information about specific software, see the vendor-specific software documentation.
 
-## Anti-virus, spyware, and host IDs information
+## Anti-virus, Adaptive Threat Protection (ATP), ENS Firewall, ENS Threat Prevention, ENS Web Control
 {: #anti-virus-spyware-and-host-ids-information}
 
-IBM offers multiple solutions for both anti-virus, spyware, and host ID protection on every device. Anti-virus and spyware products are provided by McAfee. You can get a standard, free solution for Windows. You can also get Total Protection for Windows for a monthly fee.
+IBM offers Trellix solutions for anti-virus, Adaptive Threat Protection (ATP), ENS Firewall, ENS Threat Prevention, ENS Web Control on Windows&reg; devices. You can get protection for Windows for a monthly fee.
 
-You must add anti-virus, spyware, and host ID solutions to your device. You can manage these solutions in the IBM Customer Portal.
+You can manage your Trellix offerings from your server. IBM does not manage Trellix offerings on your server.
 
 ## Supported operating systems for {{site.data.keyword.BluSoftlayer_full}} server software
 {: #supported-operating-systems-for-ibm-cloud-servers}
