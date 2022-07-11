@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-11"
 
 keywords: software, supported operationg systems, oses, os supported, operating system support
 
@@ -51,7 +51,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | --- | --- |
 | CentOS | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV  \n 6.x LAMP (64 bit) |
 | Debian | 9.x Minimal (64 bit) - HVM  \n 9.x LAMP Stable (64 bit) - HVM  \n 10.x Minimal (64 bit) - HVM |
-| Microsoft Windows | 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - FOR BYOL TESTING  \n 2012 R2 Datacenter (64 bit)  \n 2008 R2 Standard (64 bit) |
+| Microsoft Windows | 2022 Standard (64 bit) - HVM \n 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - FOR BYOL TESTING  \n 2012 R2 Datacenter (64 bit) |
 | Red Hat | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV |
 | Ubuntu | 20.04 Minimal LTS (64 bit) - HVM  \n 18.04 Minimal LTS (64 bit) - HVM |
 {: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
