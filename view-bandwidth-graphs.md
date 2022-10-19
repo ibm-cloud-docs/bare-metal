@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-09-14"
+  years: 2017, 2022
+lastupdated: "2022-10-19"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -55,13 +55,11 @@ The pool definitions are listed in the following table:
 | Brazil | SAO01 |
 | | SAO04 |
 | | SAO05 |
-| Dallas  | DAL05 |  
-| | DAL06 | 
+| Dallas  | DAL05 |   
 | | DAL09 | 
 | | DAL10 | 
 | | DAL12 | 
-| | DAL13 | 
-| Mexico         | MEX01 |
+| | DAL13 |  
 | Montreal       | MON01 |
 | San Jose       | SJC01 |
 |       | SJC03 |
@@ -82,8 +80,7 @@ The pool definitions are listed in the following table:
 
 | Pool  | Location  |
 |--------------|-------|
-|Amsterdam  | AMS01 |
-|           | AMS03 |
+|Amsterdam  | AMS03 |
 | Frankfurt | FRA02 |
 | | FRA04 |
 | | FRA05 |
@@ -104,8 +101,7 @@ The pool definitions are listed in the following table:
 |--------------|-------|
 | Australia | SYD01 |
 | | SYD04 |
-| | SYD05 |
-| Hong Kong  | HKG02 |
+| | SYD05 | 
 | India | CHE01 |
 | Japan         | OSA21 |
 | | OSA22 |
@@ -114,7 +110,6 @@ The pool definitions are listed in the following table:
 | | TOK04 |
 | | TOK05 |
 | Singapore | SNG01 |
-| South Korea | SEO01 |
 {: caption="Table 1. Pool definitions Asia Pacific" caption-side="top"}
 {: #asia-pacific}
 {: tab-title="Asia Pacific"}
