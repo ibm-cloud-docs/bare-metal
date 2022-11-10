@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-11-10"
 
-keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed 
+keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
 subcollection: bare-metal
 
@@ -44,9 +44,9 @@ Network maintenance is normal. While you are notified, you can avoid disruption 
 ## Port speed
 {: #network-port-speed}
 
-Select either 100 Mbps, 1 Gbps, 10 Gbps, or 25 Gbps as the maximum operating speed of all network interfaces. 
+Select either 100 Mbps, 1 Gbps, 10 Gbps, or 25 Gbps as the maximum operating speed of all network interfaces.
 
-The 25 Gbps port speed option is limited to select bare metal server options. For more information, see [25 Gbps port speed](/docs/bare-metal?topic=bare-metal-network-options#25gb-port-speed). 
+The 25 Gbps port speed option is limited to select bare metal server options. For more information, see [25 Gbps port speed](/docs/bare-metal?topic=bare-metal-network-options#25gb-port-speed).
 {: important}
 
 If you selected **None** for port redundancy, you might see an option that includes the word **unbonded**. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`sjc01.pod01`**, and **`sng01.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active, allowing for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
@@ -66,10 +66,10 @@ The 25 Gbps port speed option is compatible with only the following 2U (12 drive
 
 Select pods in only the following data centers support the 25 Gbps port speed option:
 
-| Location | Data center | 
+| Location | Data center |
 | ----- | ----- |
 | Dallas | DAL10, DAL12, DAL13 |
-| Frankfurt| FRA02, FRA04, FRA05 | 
+| Frankfurt| FRA02, FRA04, FRA05 |
 | London | LON06 |
 | Tokyo | TOK02, TOK04, TOK05 |
 | Toronto| TOR04 |
@@ -80,7 +80,7 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 
 * CentOS 8.2
 * ESXi for {{site.data.keyword.baremetal_short}}
-* RHEL 8.2 
+* RHEL 8.2
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
 
@@ -94,7 +94,12 @@ Select the public egress bandwidth option to choose the amount of included outbo
 ## Provision VLAN selection
 {: #network-vlan-selection}
 
-When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs located that are within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs that are available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod, in which your server resides. VLAN selection becomes more relevant when you take advantage of [gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you want to deploy a specific network topology before server provisioning.
+When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs located that are within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs that are available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod your server resides. VLAN selection becomes more relevant when you take advantage of [gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you want to deploy a specific network topology before server provisioning.
+
+### VLAN trunks
+{: #bare-metal-vlan-trunks}
+
+If you have VLANs available in the same pod as your server, you can attach them to a bare metal server from the server details page. In the **VLAN trunking** section, click **Attach trunk**. Then, select the VLANs that you want to attach to your server and click **Submit**. For more information about VLAN trunks, see [Configuring VLAN trunks](/docs/vlans?topic=vlans-configuring-vlan-trunks).
 
 ## Provision subnet selection
 {: #network-subnet-selection}
