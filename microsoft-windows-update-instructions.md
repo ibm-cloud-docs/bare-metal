@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2021
-lastupdated: "2017-09-27"
+  years: 1994, 2022
+lastupdated: "2022-11-10"
 
 keywords: Microsoft Windows Update, software update services
 
@@ -16,7 +16,7 @@ subcollection: bare-metal
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Microsoft Windows Update Information
+# Microsoft Windows update information
 {: #microsoft-windows-update-information}
 
 IBM provides OS and software update services for Microsoft Windows Server environments free of charge.
@@ -43,6 +43,6 @@ Always test kernel or service pack upgrades before you install them in productio
 
 In many cases, Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers. However, if your server is provisioned with a cloud-init enabled image, you might need to manually update the Windows registry to use local {{site.data.keyword.cloud_notm}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers.
 
-If you order a virtual server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or advanced monitoring, it is likely that your server is provisioned with a cloud-init image. For more information about updating your registry to point to {{site.data.keyword.cloud_notm}} WSUS servers, see [Updating instance to use local WSUS server](/docs/bare-metal?topic=bare-metal-updating-an-instance-to-use-a-local-wsus-server).
+If you order a virtual server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or monitoring, it is likely that your server is provisioned with a cloud-init image. For more information about updating your registry to point to {{site.data.keyword.cloud_notm}} WSUS servers, see [Updating instance to use local WSUS server](/docs/bare-metal?topic=bare-metal-updating-an-instance-to-use-a-local-wsus-server).
 
-For Microsoft Windows operating systems, servers are configured by default to download and install patches as soon as they become available. The server restarts automatically if a restart is required. Updates are completed to protect servers from crucial vulnerabilities. If you prefer to schedule your updates differently, you can change the update schedule through the **Windows Updates** feature in the control panel.
+For Microsoft Windows operating systems, servers are configured by default to download and install updates as soon as they become available. The server restarts automatically if a restart is required. Updates are completed to protect servers from crucial vulnerabilities. If you prefer to schedule your updates differently, you can change the update schedule through the **Windows Updates** feature in the control panel.
