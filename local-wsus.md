@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2022
-lastupdated: "2022-04-13"
+lastupdated: "2022-11-10"
 
 keywords: 
 
@@ -11,17 +11,17 @@ subcollection: bare-metal
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Updating an instance to use a local WSUS server
+# Updating a server to use a local WSUS server
 {: #updating-an-instance-to-use-a-local-wsus-server}
 
-If your virtual server instance that is running Windows&reg; was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft&reg; WSUS servers.
+If your server that is running Windows&reg; was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft&reg; WSUS servers.
 {: shortdesc}
 
-If you order a virtual server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or advanced monitoring, it is likely that your server is provisioned with a cloud-init image. With cloud-init provisions, the WSUS server defaults to the Microsoft WSUS server.
+If you order a server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or monitoring, it is likely that your server is provisioned with a cloud-init image. With cloud-init provisions, the WSUS server defaults to the Microsoft WSUS server.
 
-If you want to update the virtual server to use the {{site.data.keyword.cloud_notm}} local WSUS server, use the following .reg file after your server is provisioned. Make the following changes before you use this file.
-- Change *wsusdal0102* to the local data center where your virtual server is provisioned.  
-- The line that includes *"DoNotConnectToWindowsUpdateInternetLocations"* forces the server to use the WSUS server. You can leave it out if you'd want to check against Windows Update and WSUS.
+If you want to update the server to use the {{site.data.keyword.cloud_notm}} local WSUS server, use the following _.reg_ file after you provision the server. Make the following changes before you use this file.
+- Change *wsusdal0102* to the local data center where your server is provisioned.  
+- The line that includes *"DoNotConnectToWindowsUpdateInternetLocations"* forces the server to use the WSUS server. You can leave it out if want to check against Windows Update and WSUS.
 
 
 ```text
