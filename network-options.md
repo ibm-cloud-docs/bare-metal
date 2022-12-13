@@ -138,7 +138,7 @@ The way that you select your network interface options during ordering differs f
 
 `1 Gbps Public & Private Network Uplinks`
 
-This entry indicates a private and public network connection was requested at a speed of 1 gigabit per second. The speed is always represented first, and indicates the speed of both the private and public network interfaces (if applicable). More keywords can be present:
+This entry indicates a private and public network connection was requested at a speed of 1 Gbps. The speed is always represented first, and indicates the speed of both the private and public network interfaces (if applicable). More keywords can be present:
 
 - **Redundant** - Indicates that you selected **Automatic** for the **Port redundancy** option.
 - **Dual** - Indicates that you selected **User Managed** for the **Port redundancy** option.
