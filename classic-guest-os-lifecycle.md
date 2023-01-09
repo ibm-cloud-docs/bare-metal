@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-10-21"
+  years: 2022, 2023
+lastupdated: "2023-01-09"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -70,16 +70,6 @@ The following table describes the end of support date for Debian operating syste
 | Debian 10 | 01 June 2024 | 
 | Debian 9  | 30 June 2022 | 
 {: caption="Table 4. Lifecycle for Debian operating systems" caption-side="bottom"}
-
-### FreeBSD
-{: #freebsd-classic}
-
-The following table describes the end of support date for FreeBSD operating systems. This guest OS is a free operating system. For more information, see [FreeBSD.org](freebsd.org){: external}. 
-
-| Operating system | End of support |
-|-----------------|----------------|
-| FreeBSD 12.x (available only on bare metal servers)  | 30 June 2024 | 
-{: caption="Table 5. Lifecycle for FreeBSD operating systems" caption-side="bottom"}
 
 ### OSNEXUS (QuantaStor)
 {: #osnexus-classic}
