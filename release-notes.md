@@ -1,11 +1,11 @@
 ---
 
 copyright:
-  years: 2019, 2022
+  years: 2019, 2023
 
-lastupdated: "2022-03-30"
+lastupdated: "2023-01-09"
 
-keywords: 
+keywords: bare metal release notes
 
 subcollection: bare-metal
 
@@ -14,6 +14,7 @@ content-type: release-note
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+{:external: target="_blank" .external}
 {:release-note: data-hd-content-type='release-note'}
 
 # Release notes for {{site.data.keyword.baremetal_long}}
@@ -21,6 +22,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## January 2023
+{: #bare-metal-jan2023}
+
+### 09 January 2023 
+{: #bare-metal-jan092023}
+{: release-note}
+
+Debian 11
+:   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers) 
 
 ## March 2022
 {: #bare-metal-mar22}
@@ -31,6 +42,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 Windows server 2022
 :   IBM Cloud&reg; server software now supports Windows&reg; server 2022 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
+
 
 ## December 2021
 {: #bare-metal-dec21}
@@ -77,7 +89,7 @@ Intel Xeon 8260 CPU
 {: release-note}
 
 Intel Xeon 6250 CPU
-:   You can now select the Intel&reg; Xeon 6250 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
+:   You can now select the Intel Xeon 6250 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
 
 ### 10 August 2020
 {: #bare-metal-aug1020}
