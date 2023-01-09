@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2023
-lastupdated: "2023-01-05"
+lastupdated: "2023-01-09"
 
 keywords: software, supported operationg systems, oses, os supported, operating system support
 
@@ -67,7 +67,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | AT&T vRouter | 18.x (64 Bit) 20 Gbps |
 | CentOS | 7.x (64 bit) |
 | Citrix | 8.2 | 
-| Debian | 10.x Minimal Stable (64 bit)  \n 10.x Stable (64 bit) |
+| Debian | 11.x  \n 10.x |
 | Microsoft Windows | 2022 Datacenter (64 bit)  \n 2022 Standard (64 bit)  \n 2019 Datacenter (64 bit)  \n 2019 Datacenter with Hyper-V (64 bit)  \n 2019 Standard (64 bit)  \n 2016 Datacenter (64 bit)  \n 2016 Datacenter with Hyper-V (64 bit)  \n 2016 Standard (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Standard (64 bit)  \n 2012 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
 | Red Hat | 7.x (64 bit)
