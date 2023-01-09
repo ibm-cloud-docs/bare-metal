@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-07-11"
+  years: 2017, 2023
+lastupdated: "2023-01-09"
 
 keywords: software, supported operationg systems, oses, os supported, operating system support
 
@@ -49,11 +49,12 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 
 | Operating system | Version |
 | --- | --- |
-| CentOS | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV  \n 6.x LAMP (64 bit) |
-| Debian | 9.x Minimal (64 bit) - HVM  \n 9.x LAMP Stable (64 bit) - HVM  \n 10.x Minimal (64 bit) - HVM |
-| Microsoft Windows | 2022 Standard (64 bit) - HVM \n 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - FOR BYOL TESTING  \n 2012 R2 Datacenter (64 bit) |
-| Red Hat | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit)  \n 6.x Minimal (64 bit) - PV |
-| Ubuntu | 20.04 Minimal LTS (64 bit) - HVM  \n 18.04 Minimal LTS (64 bit) - HVM |
+| CentOS | 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit) |
+| Debian | 11.x Minimal (64 bit) - HVM  \n 10.x Minimal (64 bit) - HVM |
+| Microsoft Windows | 2022 Standard (64 bit) - HVM \n 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM |
+| Red Hat | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit) - HVM |
+| Rocky Linux | 8.x Minimal (64 bit) - HVM |
+| Ubuntu | 20.04 Minimal LTS (64 bit) - HVM  \n 18.04 Minimal LTS (64 bit) - HVM  \n 18.04 LTS LAMP (64 bit) - HVM |
 {: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
 {: #virtual-servers-oses}
 {: tab-title="Virtual servers"}
@@ -66,8 +67,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | AT&T vRouter | 18.x (64 Bit) 20 Gbps |
 | CentOS | 7.x (64 bit) |
 | Citrix | 8.2 | 
-| Debian | 9.x Minimal Stable (64 bit)  \n 9.x Stable (64 bit) |
-| FreeBSD | 12.x (64 bit) |
+| Debian | 11.x  \n 10.x |
 | Microsoft Windows | 2022 Datacenter (64 bit)  \n 2022 Standard (64 bit)  \n 2019 Datacenter (64 bit)  \n 2019 Datacenter with Hyper-V (64 bit)  \n 2019 Standard (64 bit)  \n 2016 Datacenter (64 bit)  \n 2016 Datacenter with Hyper-V (64 bit)  \n 2016 Standard (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Standard (64 bit)  \n 2012 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
 | Red Hat | 7.x (64 bit)
