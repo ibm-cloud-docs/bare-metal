@@ -30,7 +30,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: #bare-metal-jan102023}
 {: release-note}
 
-Intel Sapphire Rapids CPU support
+Intel Sapphire Rapids CPU support (Beta)
 :   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support)
 
 ### 09 January 2023 
