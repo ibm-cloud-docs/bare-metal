@@ -68,8 +68,8 @@ Sapphire Rapids processors support the following operating systems:
 * RHEL 8.6
 * No OS option
 
-Sapphire Rapids processors are currently available only in the DAL10 data center. More data center support is planned.
-{: note}
+Sapphire Rapids processors are currently available as a beta offering and is only in the DAL10 data center. More data center support is planned.
+{: beta}
 
 ### AMD CPU support
 {: #bm-amd-procs}
