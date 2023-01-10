@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-01-09"
+lastupdated: "2023-01-10"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -21,17 +21,17 @@ In the lifecycle of a product, end of support (EOS) is the last date that {{site
 ## Operating system lifecycles
 {: #os-lifecycles-classic}
 
-### AT&T vRouter (Vyatta)
+### Ciena vRouter (Vyatta)
 {: #vrouter-classic}
 
-AT&T vRouter is updated regularly, with the previous release deprecating when a new version is released. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-release-notes-for-ibm-virtual-router-appliance){: external}. 
+Ciena vRouter is updated regularly, with the previous release deprecating when a new version is released. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-release-notes-for-ibm-virtual-router-appliance){: external}. 
 
 | Operating system | End of support | 
 |-----------------|----------------|
 | 2208 (available only on bare metal servers) | 18 February 2025 |
-| 2204 (available only on bare metal servers) | 18 October 2024 |
+| 2204 (available only on bare metal servers) | 04 October 2024 |
 | 2110 (available only on bare metal servers) | 19 April 2024 |
-| 2012 (available only on bare metal servers) | 14 June 2023 |
+| 2012 (available only on bare metal servers) | 14 December 2023 |
 | 1912 (available only on bare metal servers) | 31 December 2022 |
 | 1908 (available only on bare metal servers)  | 31 December 2022 |
 {: caption="Table 1. Lifecycle for vRouter operating systems" caption-side="bottom"}
@@ -67,6 +67,7 @@ The following table describes the end of support date for Debian operating syste
 
 | Operating system | End of support | 
 |-----------------|----------------|
+| Debian 11 | 01 July 2024 |
 | Debian 10 | 01 June 2024 | 
 | Debian 9  | 30 June 2022 | 
 {: caption="Table 4. Lifecycle for Debian operating systems" caption-side="bottom"}
