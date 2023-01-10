@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-01-09"
+lastupdated: "2023-01-10"
 
 keywords: bare metal release notes
 
@@ -25,6 +25,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## January 2023
 {: #bare-metal-jan2023}
+
+### 10 January 2023
+{: #bare-metal-jan102023}
+{: release-note}
+
+Intel Sapphire Rapids CPU support
+:   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support)
 
 ### 09 January 2023 
 {: #bare-metal-jan092023}
@@ -69,7 +76,7 @@ Custom image template add-ons
 {: release-note}
 
 Intel Xeon 8260 CPU
-:   You can now select the Intel&reg; Xeon 8260 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
+:   You can now select the Intel Xeon 8260 CPU when you provision a bare metal server. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-cascade-lake-support).
 
 ## February 2021
 {: #bare-metal-feb21}
