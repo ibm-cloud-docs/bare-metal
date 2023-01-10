@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2016, 2021
-lastupdated: "2021-10-05"
+  years: 2016, 2023
+lastupdated: "2023-01-10"
 
-keywords: bare metal options, SAP-certified, {{site.data.keyword.baremetal_long}}, {{site.data.keyword.baremetal_short}}, available bare metal, cascade lake, amd EPYC, amd, Rome, bare metal add-ons, bare metal addons, bare metal add ons
+keywords:
 
 subcollection: bare-metal
 
@@ -38,7 +38,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ### Custom-based servers
 {: #custom-based-bm}
 
-If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options. 
+If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
@@ -55,10 +55,26 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 {{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
 
+### Intel Sapphire Rapids CPU support
+{: bm-sapphire-rapids-support}
+
+You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provision a bare metal server.
+
+| Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
+| --- | --- | --- | --- |
+| 8474C | 48 core, 2.1 GHz | 256 GB, 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
+
+Sapphire Rapids processors support the following operating systems:
+* RHEL 8.6
+* No OS option
+
+Sapphire Rapids processors are currently available only in the DAL10 data center. More data center support is planned.
+{: note}
+
 ### AMD CPU support
 {: #bm-amd-procs}
 
-When you provision a bare metal server, AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.  
+When you provision a bare metal server, AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -82,12 +98,12 @@ The following operating systems are supported by AMD EPYC "Rome" CPUs:
 Systems must be started in UEFI mode.
 {: note}
 
-For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external} 
+For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external}
 
 ### Intel Cascade Lake CPU support
 {: #bm-cascade-lake-support}
 
-You can choose from the following Intel&reg; Xeon&reg; Cascade Lake CPUs when you provision a bare metal server:
+You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you provision a bare metal server:
 
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
@@ -110,7 +126,7 @@ You can now see what servers are available in what data center when you provisio
 
 ### Network redundancy
 {: #bm-network-redundancy}
- 
+
 Port redundancy provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
 
 Only one port is active at a time.
