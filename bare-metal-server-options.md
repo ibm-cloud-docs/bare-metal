@@ -60,6 +60,9 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provision a bare metal server.
 
+Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center. 
+{: beta}
+
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
 | 8474C | 48 core, 2.1 GHz | 256 GB, 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
@@ -67,9 +70,6 @@ You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provis
 Sapphire Rapids processors support the following operating systems:
 * RHEL 8.6
 * No OS option
-
-Sapphire Rapids processors are currently available as a beta offering and is only in the DAL10 data center. More data center support is planned.
-{: beta}
 
 ### AMD CPU support
 {: #bm-amd-procs}
