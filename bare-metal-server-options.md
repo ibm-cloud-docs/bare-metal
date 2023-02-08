@@ -42,31 +42,32 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 {{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware&reg;-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
 
-## Available options for a bare metal server
+## Advanced hardware options
 {: #options-for-bare-metal-servers}
 
-{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} options that you can customize to fit your needs.
+{{site.data.keyword.cloud_notm}} offers advanced hardware options to fit your workload needs.
 
-### Intel Sapphire Rapids CPU support
-{: bm-sapphire-rapids-support}
+### Intel Sapphire Rapids CPUs
+{: #bm-sapphire-rapids-support}
+
+Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center.
+{: beta}
 
 You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provision a bare metal server.
-
-Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center. 
-{: beta}
 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
 | 8474C | 48 core, 2.1 GHz | 256 GB, 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
+{: caption="Table 1. Sapphire Rapids CPU options" caption-side="top"}
 
 Sapphire Rapids processors support the following operating systems:
 * RHEL 8.6
 * No OS option
 
-### AMD CPU support
+### AMD CPUs
 {: #bm-amd-procs}
 
-When you provision a bare metal server, AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
+ AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -78,7 +79,7 @@ You can choose from the following AMD EPYC "Rome" CPUs when you provision a bare
 | AMD EPYC 7642 | 48-core, 2.3 Ghz |
 | AMD EPYC 7F72 | 48-core, 3.2 Ghz |
 | AMD EPYC 7763 | 64-core, 2.45 Ghz |
-{: caption="Table 1. AMD EPYC CPUs options" caption-side="top"}
+{: caption="Table 2. AMD EPYC CPU options" caption-side="top"}
 
 The following operating systems are supported by AMD EPYC "Rome" CPUs:
 * RHEL 7.x, 8.x
@@ -92,7 +93,7 @@ Systems must be started in UEFI mode.
 
 For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external}
 
-### Intel Cascade Lake CPU support
+### Intel Cascade Lake CPUs
 {: #bm-cascade-lake-support}
 
 You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you provision a bare metal server:
@@ -104,12 +105,17 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 | Intel Xeon 6248 | 20-Core, 2.6 GHz |
 | Intel Xeon 6250 | 8-Core, 3.9 GHz |
 | Intel Xeon 8260 | 48-core, 2.4 Ghz |
-{: caption="Table 2. Cascade Lake CPU options" caption-side="top"}
+{: caption="Table 3. Cascade Lake CPU options" caption-side="top"}
 
-### NVIDIA GPU support
+### NVIDIA GPUs
 {: #bm-gpu-support}
 
-For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. You need to install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
+For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. Make sure that you install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
+
+## Server enhancement options
+{: #bm-server-enhancements}
+
+When you provision a bare metal server, you have the following enhancement options to help make managing your server easier. Keep in mind that these options might vary depending on your server configuration.
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
@@ -132,7 +138,7 @@ The following network redundancy options are available for bare metal servers.
 | User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
 | No redundancy | This is the only option for legacy data centers that don’t support automatic redundancy. This option is not recommended in a new data center.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
-{: caption="Table 3. Network redunancy options" caption-side="top"}
+{: caption="Table 4. Network redunancy options" caption-side="top"}
 
 VMWare requires user-managed links.
 {: tip}
@@ -167,4 +173,4 @@ The following add-ons are available when you provision a bare metal server.
 | Response | Automated response to your monitored metrics notifications. |
 | Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets). If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|
 | IPv6 IP addresses | An IPv6 is the most recent numeric label that is used to identify and locate a network interface of a computer or a network node that participates in a computer network by using the IPv6 protocol. A single IPv6 address is included.|
-{: caption="Table 4. Bare metal server provisioning options" caption-side="top"}
+{: caption="Table 5. Bare metal server provisioning options" caption-side="top"}
