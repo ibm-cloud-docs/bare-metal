@@ -10,9 +10,10 @@ toc:
     product-page: "https://www.ibm.com/cloud/bare-metal-servers"
     path: bare-metal
     label: Bare Metal Servers for Classic
+#  List the getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
 
-  entries: 
-  - navgroup: 
+  - navgroup:
       id: learn
       topics:
       - getting-started.md
@@ -27,46 +28,43 @@ toc:
       - about-NVMe.md
       - what-raid.md
       - about-software.md
-      - topicgroup: 
-          label: Security
-          topics: 
-          - ssl_certificates_intro.md
-          - intel-trusted-execution-technology-txt.md
-          - does-softlayer-keep-bare-metal-servers-date-security-patches.md
+      - topicgroup:
+           label: Security
+           topics:
+           - ssl_certificates_intro.md
+           - intel-trusted-execution-technology-txt.md
+           - does-softlayer-keep-bare-metal-servers-date-security-patches.md
       - network-options.md
       - bare-metal-vmware.md
       - bare-metal-virtualization.md
       - bare-metal-sap-applications.md
-      - release-notes.md    
+      - release-notes.md
 
-  - navgroup: 
+  - navgroup:
       id: howto
       topics:
-      - topicgroup: 
+      - topicgroup:
           label: Provisioning
-          topics: 
+          topics:
           - baremetal-provision-popular.md
-          - baremetal-provision.md       
+          - baremetal-provision.md
           - bare-metal-provision-SGX.md
           - bm_provision_ssd.md
           - bm-datacenter-overview.md
-      - /virtual-servers/virtual-servers-navigating-devices
-      - topicgroup: 
+      - include: ../virtual-servers/logging-in-to-console.md
+      - topicgroup:
           label: Configuring
-          topics: 
+          topics:
           - set-bare-metal-server-2.md
           - what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
           - how-are-server-ip-addresses-assigned-softlayer-network.md
-          - mount-iso-bare-metal-server.md   
-      - topicgroup: 
+          - mount-iso-bare-metal-server.md
+      - topicgroup:
            label: Managing
-           topics: 
+           topics:
            - managing.md
            - understanding-server-transaction.md
            - view-bandwidth-graphs.md
-           - link:
-              label: IBM Cloud monitoring services
-              href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
            - how-do-i-check-health-my-3ware-raid-array.md
            - bare-metal-managing-vmware.md
            - managing_port_control.md
@@ -79,42 +77,45 @@ toc:
                 - microsoft-windows-update-instructions.md
                 - redhat-update-instructions.md
                 - classic-guest-os-lifecycle.md
-      - topicgroup: 
+      - link:
+         label: IBM Cloud monitoring services
+         href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+      - topicgroup:
           label: Using custom image templates
-          topics: 
+          topics:
           - bm-create-custom-image-template.md
           - bm-delete-custom-image-template.md
           - bm-importing-custom-image-template.md
           - bm-order-bm-from-image-template.md
-          - bm-migrate-bare-metal-add-on-software.md        
-      - topicgroup: 
+          - bm-migrate-bare-metal-add-on-software.md
+      - topicgroup:
           label: Using RAID
-          topics: 
+          topics:
           - raid-commands.md
           - what-raid-monitoring-daemon-named.md
           - creating-and-adjusting-raid-configurations-adaptec.md
           - enabling-drive-security-using-avago-safestore-encryption-services.md
 
-      - topicgroup: 
+      - topicgroup:
           label: Backing up and recovering
-          topics: 
+          topics:
           - can-i-back-data-between-bare-metal-servers-private-network.md
           - link:
-             label: Launching a rescue kernel
-             href: /virtual-servers/virtual-servers-launching-rescue
-          - bare-metal-veeam-o365.md    
-      - topicgroup: 
+              label: Launching a rescue kernel
+              href: /virtual-servers/virtual-servers-launching-rescue
+          - bare-metal-veeam-o365.md
+      - topicgroup:
           label: Managing spare pools
-          topics: 
+          topics:
           - spare-pools-access.md
           - add_spare_pool.md
           - cancel_spare_pool.md
           - reactivating_spare_pool_device.md
           - spare-pool-API-methods.md
 
-      - topicgroup: 
+      - topicgroup:
           label: Software
-          topics: 
+          topics:
           - order.md
           - vsi_reload_os.md
           - vsi_reload_os_image.md
@@ -126,35 +127,35 @@ toc:
           - notify-users-approaching-bandwidth-limitation-cpanelwhm.md
           - local-wsus.md
           - topicgroup:
-              label: R1Soft  
+              label: R1Soft
               topics:
               - prov-R1Soft.md
               - configR1Soft.md
               - r1SoftUpgrade.md
               - r1soft-cdp-bare-metal-restore-procedures.md
-                                        
+
   - navgroup:
       id: reference
-      topics: 
+      topics:
       - bm-activity-tracker-events.md
       - high-availability.md
-              
+
   - navgroup:
       id: help
-      topics: 
+      topics:
       - get-help-and-support.md
       - raid-support.md
       - device-status.md
-      - topicgroup: 
+      - topicgroup:
           label: FAQs
-          topics: 
+          topics:
           - faq.md
           - link:
-             label: Servers (general)
-             href: /virtual-servers/virtual-servers-faqs-servers-general-
+              label: Servers (general)
+              href: /virtual-servers/virtual-servers-faqs-servers-general-
           - os-reload-question-faq.md
           - faqs-image-templates.md
-      - topicgroup: 
-          label:  Troubleshooting  
-          topics: 
+      - topicgroup:
+          label:  Troubleshooting
+          topics:
           - troubleshooting-bare-metal.md
