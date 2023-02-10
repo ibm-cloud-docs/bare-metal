@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2022
+  years: 2017, 2023
 lastupdated: "2020-11-11"
 
 keywords: raid monitoring daemon
