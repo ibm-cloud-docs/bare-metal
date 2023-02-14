@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-01-10"
+lastupdated: "2023-02-14"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## February 2023
+{: #bare-metal-feb2023}
+
+### 14 February 2023
+{: #bare-metal-feb142023}
+{: release-note}
+
+Ubuntu 22.04
+:   IBM Cloud&reg; server software now supports Ubuntu 22.04 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
 
 ## January 2023
 {: #bare-metal-jan2023}
@@ -49,7 +59,6 @@ Debian 11
 
 Windows server 2022
 :   IBM Cloud&reg; server software now supports Windows&reg; server 2022 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
-
 
 ## December 2021
 {: #bare-metal-dec21}
