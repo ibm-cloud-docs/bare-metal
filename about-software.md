@@ -1,29 +1,22 @@
 ---
 copyright:
   years: 2017, 2023
-lastupdated: "2023-01-09"
+lastupdated: "2023-02-14"
 
-keywords: software, supported operationg systems, oses, os supported, operating system support
+keywords: software, supported operationg systems, oses, os supported, operating system support, classic os, classic operating system
 
 subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # About software
 {: #about-software}
 
 {{site.data.keyword.BluSoftlayer_full}} has strategic relationships with vendors to provide month-to-month licenses on 32-bit and 64-bit compatible software. When you order a device, you select the type of operating system and software for your device. You can add more software to your device within the {{site.data.keyword.slportal_full}} and change to another operating system by reloading the OS on your existing device. The IBM automated system provisions software onto your server by following best practice guidelines of each vendor to make sure that you have maximum stability and availability.
 
-See the following list for currently supported software: [{{site.data.keyword.BluSoftlayer_full}} software solutions](https://cloud.ibm.com/catalog#software){: external}.
+See [{{site.data.keyword.BluSoftlayer_full}} software solutions](https://cloud.ibm.com/catalog#software){: external} for a complete list of {{site.data.keyword.BluSoftlayer_full}} supported software.
 
 Not all software options are available for all server types and not all software options are the same for monthly and hourly billing.
 {: note}
@@ -49,12 +42,12 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 
 | Operating system | Version |
 | --- | --- |
-| CentOS | 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit) |
-| Debian | 11.x Minimal (64 bit) - HVM  \n 10.x Minimal (64 bit) - HVM |
-| Microsoft Windows | 2022 Standard (64 bit) - HVM \n 2019 Standard (64 bit) - HVM  \n 2016 Standard (64 bit) - HVM  \n 2012 Standard (64 bit) - HVM  \n 2012 R2 Standard (64 bit) - HVM |
-| Red Hat | 8.x Minimal (64 bit) - HVM  \n 7.x Minimal (64 bit) - HVM  \n 7.x LAMP (64 bit) - HVM |
-| Rocky Linux | 8.x Minimal (64 bit) - HVM |
-| Ubuntu | 20.04 Minimal LTS (64 bit) - HVM  \n 18.04 Minimal LTS (64 bit) - HVM  \n 18.04 LTS LAMP (64 bit) - HVM |
+| CentOS | 8.x  \n 7.x  \n 6.x Minimal |
+| Debian | 11.x  \n 10.x |
+| Microsoft Windows | 2022 Standard  \n 2019 Standard  \n 2016 Standard  \n 2012 R2 Standard  \n 2012 R2 Datacenter  \n 2012 Standard |
+| Red Hat | 8.x  \n 7.x  \n 6.x |
+| Rocky Linux | 8.x |
+| Ubuntu | 20.04  \n 18.04 |
 {: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
 {: #virtual-servers-oses}
 {: tab-title="Virtual servers"}
@@ -64,14 +57,16 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 
 | Operating system | Version |
 | --- | --- | 
-| AT&T vRouter | 18.x (64 Bit) 20 Gbps |
-| CentOS | 7.x (64 bit) |
+| CentOS | 7.x |
 | Citrix | 8.2 | 
 | Debian | 11.x  \n 10.x |
-| Microsoft Windows | 2022 Datacenter (64 bit)  \n 2022 Standard (64 bit)  \n 2019 Datacenter (64 bit)  \n 2019 Datacenter with Hyper-V (64 bit)  \n 2019 Standard (64 bit)  \n 2016 Datacenter (64 bit)  \n 2016 Datacenter with Hyper-V (64 bit)  \n 2016 Standard (64 bit)  \n 2012 R2 Datacenter (64 bit)  \n 2012 R2 Datacenter with Hyper-V (64 bit)  \n 2012 R2 Standard (64 bit)  \n 2012 Datacenter (64 bit)  \n 2012 Datacenter with Hyper-V (64 bit)  \n 2012 Standard (64 bit) |
+| Microsoft Windows | 2022 Datacenter  \n 2022 Standard  \n 2019 Datacenter  \n 2019 Standard  \n 2016 Datacenter  \n 2016 Standard  \n 2012 R2 Datacenter  \n 2012 R2 Standard  \n 2012 Datacenter  \n 2012 Standard |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
-| Red Hat | 7.x (64 bit)
-| VMWare | 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
+| Red Hat | 8.x. \n 7.x |
+| Rocky Linux | 8.x |
+| VMWare | 7.0 Update 2  \n 7.0 Update 1. \n 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
+| Unbuntu | 22.04  \n 20.04  \n 18.04 |
+| SUSE Linux Enterprise Server (SLES) | 15 SP2  \n 15 SP1  \n 12 SP5  \n 12 SP4  \n 12 SP3 | 
 {: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
 {: #bare-metal-oses}
 {: tab-title="Bare metal servers"}
