@@ -19,8 +19,8 @@ subcollection: bare-metal
 
 You can configure RAID alerts to bypass the monitoring process by changing the SMTP server and notification email destination in the configuration for a RAID card. If you change these configurations, IBM cannot notify you of RAID issues or automatically track the problem until resolution. Do not alter the provided configuration unless you are aware of the risks.
 
-||Broadcom Linux|Broadcom Windows|Adaptec Linux|Adaptec Windows|
-|---|---|---|---|---|
+|Broadcom Linux|Broadcom Windows|Adaptec Linux|Adaptec Windows|
+|---|---|---|---|
 |**Manager Name**|Broadcom MegaRAID Storage Manager|Broadcom MegaRAID Storage Manager|Adaptec Storage Manager|Adaptec Storage Manager|
 |**Manager Location**|/opt/MegaRAID/storcli|C:\Program Files (x86)\MegaRAID Storage Manager|/usr/StorMan|C:\Program Files\Adaptec\Adaptec Storage Manager|
 |**Monitor Name**|MR_Monitor|MRMonitor|Adaptec Event Manager|Adaptec Event Manager|
