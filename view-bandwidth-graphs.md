@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-09-14"
+  years: 2017, 2023
+lastupdated: "2023-03-08"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -10,18 +10,12 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:note: .note}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Viewing bandwidth graphs
 {: #bm-view-bandwidth-graphs}
 
-Public data network traffic transferred Outbound from {{site.data.keyword.Bluemix}} data centers around the globe are assessed as outbound bandwidth charges. Bandwidth graphs display public and private network usage for all network traffic that is associated with your device for a time period.
+Public data network traffic that is transferred Outbound from {{site.data.keyword.Bluemix}} data centers around the globe are assessed as outbound bandwidth charges. Bandwidth graphs display public and private network usage for all network traffic that is associated with your device for a time period.
 {: shortdesc}
 
 ## Before you begin
@@ -46,26 +40,26 @@ To view your bandwidth graphs, follow these steps:
 ## Optimizing your bandwidth usage
 {: #bm-optimize-bandwidth-usage}
 
-You can optimize bandwidth usage by "pooling" all of the bandwidth together for servers into a bandwidth pool. Bandwidth averages for servers in a bandwidth pool are summed up as a whole. Averages are calculated only if the total bandwidth of all servers exceeds the total allocated bandwidth for all servers versus metering at the individual server level. 
+You can optimize bandwidth usage by "pooling" all of the bandwidth together for servers into a bandwidth pool. Bandwidth averages for servers in a bandwidth pool are summed up as a whole. Averages are calculated only if the total bandwidth of all servers exceeds the total allocated bandwidth for all servers versus metering at the individual server level.
 
-The pool definitions are listed in the following table: 
+The pool definitions are listed in the following table:
 
 | Pool      | Location  |
 |------------------|-------|
 | Brazil | SAO01 |
 | | SAO04 |
 | | SAO05 |
-| Dallas  | DAL05 |  
-| | DAL06 | 
-| | DAL09 | 
-| | DAL10 | 
-| | DAL12 | 
-| | DAL13 | 
+| Dallas  | DAL05 |
+| | DAL06 |
+| | DAL09 |
+| | DAL10 |
+| | DAL12 |
+| | DAL13 |
 | Mexico         | MEX01 |
 | Montreal       | MON01 |
 | San Jose       | SJC01 |
 |       | SJC03 |
-|       | SJC04 | 
+|       | SJC04 |
 | Toronto        | TOR01 |
 | | TOR04 |
 | | TOR05 |
@@ -87,11 +81,14 @@ The pool definitions are listed in the following table:
 | Frankfurt | FRA02 |
 | | FRA04 |
 | | FRA05 |
-| London  | LON02 | 
+| London  | LON02 |
 | | LON04 |
 | | LON05 |
 | | LON06 |
-| Milan | MIL01 | 
+| Madrid | MAD02 |
+| | MAD04 |
+| | MAD05 |
+| Milan | MIL01 |
 | Paris | PAR01 |
 {: caption="Table 1. Pool definitions Europe" caption-side="top"}
 {: #europe}
@@ -105,7 +102,7 @@ The pool definitions are listed in the following table:
 | Australia | SYD01 |
 | | SYD04 |
 | | SYD05 |
-| Hong Kong  | HKG02 |
+| Hong Kong S.A.R. of the PRC | HKG02 |
 | India | CHE01 |
 | Japan         | OSA21 |
 | | OSA22 |
@@ -114,7 +111,6 @@ The pool definitions are listed in the following table:
 | | TOK04 |
 | | TOK05 |
 | Singapore | SNG01 |
-| South Korea | SEO01 |
 {: caption="Table 1. Pool definitions Asia Pacific" caption-side="top"}
 {: #asia-pacific}
 {: tab-title="Asia Pacific"}
@@ -125,7 +121,7 @@ The pool definitions are listed in the following table:
 ## Adding a bandwidth pool
 {: #bm-add-bandwidth-pool}
 
-To add a bandwidth pool, click **Network** > **Bandwidth** > **Pools** > **Add**. 
+To add a bandwidth pool, click **Network** > **Bandwidth** > **Pools** > **Add**.
 
 ## What happens next
 {: #bm-bandwidth-pool-what-next}
