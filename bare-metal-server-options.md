@@ -62,9 +62,9 @@ You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provis
 
 Sapphire Rapids processors support the following operating systems:
 
-* Debian
+* Debian 11
 * RHEL 8.6
-* Rocky Linux
+* Rocky Linux 8
 * Ubuntu 22.04
 * No OS option
 
