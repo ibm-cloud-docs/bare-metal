@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2023
-lastupdated: "2023-01-10"
+lastupdated: "2023-03-23"
 
 keywords:
 
@@ -61,7 +61,11 @@ You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provis
 {: caption="Table 1. Sapphire Rapids CPU options" caption-side="top"}
 
 Sapphire Rapids processors support the following operating systems:
+
+* Debian
 * RHEL 8.6
+* Rocky Linux
+* Ubuntu 22.04
 * No OS option
 
 ### AMD CPUs
