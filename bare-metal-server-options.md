@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2023
-lastupdated: "2023-03-23"
+lastupdated: "2023-03-28"
 
 keywords:
 
@@ -47,7 +47,7 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 {{site.data.keyword.cloud_notm}} offers advanced hardware options to fit your workload needs.
 
-### Intel Sapphire Rapids CPUs
+### Intel Sapphire Rapids CPUs (Beta)
 {: #bm-sapphire-rapids-support}
 
 Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center.
@@ -63,6 +63,7 @@ You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provis
 Sapphire Rapids processors support the following operating systems:
 
 * Debian 11
+* Microsoft Windows 19 & 2022
 * RHEL 8.6
 * Rocky Linux 8
 * Ubuntu 22.04
@@ -71,7 +72,7 @@ Sapphire Rapids processors support the following operating systems:
 ### AMD CPUs
 {: #bm-amd-procs}
 
- AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
+AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
