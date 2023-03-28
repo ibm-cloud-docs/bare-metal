@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-02-14"
+lastupdated: "2023-03-28"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## March 2023
+{: #bare-metal-mar2023}
+
+### 28 March 2023
+{: #bare-metal-mar282023}
+
+Intel Sapphire Rapids CPU support (Beta)
+:   Intel&reg; Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support)
 
 ## February 2023
 {: #bare-metal-feb2023}
