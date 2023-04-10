@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-04-05"
+  years: 2020, 2023
+lastupdated: "2023-04-10"
 
 keywords: custom image templates, image, image templates
 
@@ -75,6 +75,7 @@ Keep the following notes in mind when you capture an image and deploy a server f
 
 Customs images have some limitations that you need to be aware of before you create an image template. 
 
+- Servers that are on a private network, can't create a custom image
 - No multiple RAID configurations
 - No RAID 5 and 6
 - No Trusted Platform Module (TPM) encryption support
