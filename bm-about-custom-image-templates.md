@@ -75,7 +75,7 @@ Keep the following notes in mind when you capture an image and deploy a server f
 
 Customs images have some limitations that you need to be aware of before you create an image template. 
 
-- Servers that are on a private network, can't create a custom image
+- You can't create custom images on servers that are on a private network
 - No multiple RAID configurations
 - No RAID 5 and 6
 - No Trusted Platform Module (TPM) encryption support
