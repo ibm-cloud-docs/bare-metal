@@ -62,7 +62,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | Debian | 11.x  \n 10.x |
 | Microsoft Windows | 2022 Datacenter  \n 2022 Standard  \n 2019 Datacenter  \n 2019 Standard  \n 2016 Datacenter  \n 2016 Standard  \n 2012 R2 Datacenter  \n 2012 R2 Standard  \n 2012 Datacenter  \n 2012 Standard |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
-| Red Hat | 8.x. \n 7.x |
+| Red Hat | 9.x  \n 8.x. \n 7.x |
 | Rocky Linux | 8.x |
 | VMWare | ESXi 7.0u3i (Cascade Lake only) | 7.0 Update 2  \n 7.0 Update 1. \n 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
 | vSphere | 7.0 |
@@ -75,7 +75,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the hardware class."}
 
-CentOS 8, Debian 10, and RHEL 8 don't support "Add On" software configurations. These operating systems also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
+CentOS 8, Debian 10, and RHEL 8 and 9 don't support "Add On" software configurations. These operating systems also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add On" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
 For more information about paravirtualized (PV) and hardware virtual machine (HVM) boot modes, see the following links:
