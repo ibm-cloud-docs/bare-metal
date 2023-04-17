@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2022
+  years: 2018, 2023
 lastupdated: "2022-02-17"
 
 keywords: getting started, getting started bare metal, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}, bare metal
