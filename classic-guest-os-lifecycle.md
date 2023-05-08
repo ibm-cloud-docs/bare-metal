@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-05-01"
+lastupdated: "2023-05-08"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -116,7 +116,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 |-----------------|----------------|
 | Ubuntu 22.04 minimal | 30 April 2027 |
 | Ubuntu 20.04 minimal | 30 April 2025 |
-| Ubuntu 18.04 minimal | 15 May 2023  |
+| Ubuntu 18.04 minimal | 31 May 2023  |
 | Ubuntu 16.04 minimal | 01 April 2021  |
 {: caption="Table 8. Lifecycle for Ubuntu LTS operating systems" caption-side="bottom"}
 
