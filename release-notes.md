@@ -23,6 +23,15 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## May 2023
+{: #bare-metal-apr2023}
+
+### 11 May 2023
+{: #bare-metal-apr262023}
+
+RAID controllers to support Intel&reg; Sapphire Rapids CPUs
+:   Two new RAID controllers are available to support Intel&reg; Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
+
 ## March 2023
 {: #bare-metal-mar2023}
 
