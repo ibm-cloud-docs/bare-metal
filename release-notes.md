@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-03-28"
+lastupdated: "2023-05-11"
 
 keywords: bare metal release notes
 
