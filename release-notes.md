@@ -247,7 +247,7 @@ Intel Software Guard Extension
 {: release-note}
 
 Block and file storage add-on
-:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-on section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
+:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-ons section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
 
 ### 02 March 2018
 {: #bare-metal-mar0218}
