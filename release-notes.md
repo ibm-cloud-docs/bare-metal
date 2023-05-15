@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-05-11"
+lastupdated: "2023-05-15"
 
 keywords: bare metal release notes
 
@@ -26,11 +26,21 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## May 2023
 {: #bare-metal-may2023}
 
+### 15 May 2023
+{: #bare-metal-may112023}
+
+Red Hat Enterprise Linux 9 (RHEL 9)
+:   IBM Cloud&reg; server software now supports RHEL 9 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
+
 ### 11 May 2023
 {: #bare-metal-may112023}
 
 RAID controllers to support Intel&reg; Sapphire Rapids CPUs
-:   Two new RAID controllers are available to support Intel&reg; Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
+:   Two new RAID controllers are available to support Intel Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
+
+     - [Lenovo 9350-16i](https://lenovopress.lenovo.com/lp1437-thinksystem-raid-9350-16i-9350-8i-advanced-raid-adapters){: external} RAID controller for SATA SSDs
+
+     <!-- [Microsemi 3154-16i](https://storage.microsemi.com/en-us/support/raid/sas_raid/asr-3154-16i/){: external} RAID controller for SATA SSDs-->
 
 ## March 2023
 {: #bare-metal-mar2023}
@@ -39,7 +49,7 @@ RAID controllers to support Intel&reg; Sapphire Rapids CPUs
 {: #bare-metal-mar282023}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   Intel&reg; Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support)
+:   Intel&reg; Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ## February 2023
 {: #bare-metal-feb2023}
@@ -59,14 +69,14 @@ Ubuntu 22.04
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support)
+:   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
-### 09 January 2023 
+### 09 January 2023
 {: #bare-metal-jan092023}
 {: release-note}
 
 Debian 11
-:   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers) 
+:   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
 
 ## March 2022
 {: #bare-metal-mar22}
@@ -86,14 +96,14 @@ Windows server 2022
 {: release-note}
 
 Custom image template add-ons
-:    Custom image templates now support the following add-ons. For more information, see the supported add-ons section in [About bare metal custom image templates](/docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates#bm-image-template-supported-addons).
+:   Custom image templates now support the following add-ons. For more information, see the supported add-ons section in [About bare metal custom image templates](/docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates#bm-image-template-supported-addons).
 
      - McAfee (free license add-on)
      - MySQL (free license add-on)
      - Microsoft SQL Server
      - R1Soft client
-     
-:    You can now migrate a bare metal server by using add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-with-add-on-software).
+
+:   You can now migrate a bare metal server by using add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-with-add-on-software).
 
 ## October 2021
 {: #bare-metal-oct21}
@@ -140,7 +150,7 @@ Custom images templates now available
 {: release-note}
 
 IBM Cloud Monitoring
-:   {{site.data.keyword.mon_full_notm}} collects basic classic infrastructure and VPC virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
+:   {{site.data.keyword.mon_full_notm}} collects basic Classic infrastructure and VPC virtual server metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
 
 ## May 2020
 {: #bare-metal-may20}
@@ -150,7 +160,7 @@ IBM Cloud Monitoring
 {: release-note}
 
 NVM solid-state drives
-:   Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU via the PCIe interface. The NVMe protocol capitalizes on parallel, low latency data paths to the underlying media. This protocol offers significantly higher performance and lower latencies compared to legacy SAS and SATA protocols. For more information, see [NVMe solid-state drives](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
+:   Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol capitalizes on parallel, low latency data paths to the underlying media. This protocol offers significantly higher performance and smaller latencies compared to traditional SAS and SATA protocols. For more information, see [NVMe solid-state drives](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
 
 ## March 2020
 {: #bare-metal-mar20}
@@ -170,7 +180,7 @@ AMD CPU support
 {: release-note}
 
 Veeam backup for Office 365
-:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-backup-for-office-365).
+:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software-defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-backup-for-office-365).
 
 ## October 2019
 {: #bare-metal-oct19}
@@ -210,7 +220,7 @@ Cascade Lake CPU support
 {: release-note}
 
 Contract term pricing
-:   {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lower price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, you keep your contracted price on a month-to-month basis. For more information, see [Contract term pricing for bare metal servers](/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers).
+:   {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lesser price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, you keep your contracted price on a month-to-month basis. For more information, see [Contract term pricing for bare metal servers](/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers).
 
 ## April 2018
 {: #bare-metal-apr18}
