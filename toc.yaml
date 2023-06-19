@@ -56,7 +56,6 @@ toc:
           label: Configuring
           topics:
           - set-bare-metal-server-2.md
-          - what-port-speed-do-you-recommend-communication-between-bare-metal-servers.md
           - how-are-server-ip-addresses-assigned-softlayer-network.md
           - mount-iso-bare-metal-server.md
       - topicgroup:
