@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-03-08"
+lastupdated: "2023-06-19"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
