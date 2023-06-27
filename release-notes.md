@@ -38,10 +38,6 @@ Red Hat Enterprise Linux 9 (RHEL 9)
 RAID controllers to support Intel&reg; Sapphire Rapids CPUs
 :   Two new RAID controllers are available to support Intel Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
 
-     - [Lenovo 9350-16i](https://lenovopress.lenovo.com/lp1437-thinksystem-raid-9350-16i-9350-8i-advanced-raid-adapters){: external} RAID controller for SATA SSDs
-
-     <!-- [Microsemi 3154-16i](https://storage.microsemi.com/en-us/support/raid/sas_raid/asr-3154-16i/){: external} RAID controller for SATA SSDs-->
-
 ## March 2023
 {: #bare-metal-mar2023}
 
