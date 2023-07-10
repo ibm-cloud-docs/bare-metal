@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-05-15"
+lastupdated: "2023-07-10"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## July 2023
+{: #bare-metal-jun2023}
+
+## 10 July August
+{: #bare-metal-jul102023}
+
+Mirrored M.2 SATA drives (VMWare only)
+:   You can now order mirrored M.2 SATA drives. To select this drive option, you need to select VMWare as the OS and the PCIe add-on.
 
 ## May 2023
 {: #bare-metal-may2023}
@@ -243,7 +252,7 @@ Intel Software Guard Extension
 {: release-note}
 
 Block and file storage add-on
-:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-ons section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
+:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-on section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
 
 ### 02 March 2018
 {: #bare-metal-mar0218}
