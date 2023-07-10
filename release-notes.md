@@ -29,8 +29,8 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## 10 July August
 {: #bare-metal-jul102023}
 
-Mirrored M.2 SATA drives (VMWare only)
-:   You can now order mirrored M.2 SATA drives. To select this drive option, you need to select VMWare as the OS and the PCIe add-on.
+Mirrored M.2 SATA boot drives (VMWare ESXi only)
+:   You can now order mirrored M.2 SATA boot drives drives. To select this drive option, you need to select VMWare ESXi as the boot OS and the PCIe add-on.
 
 ## May 2023
 {: #bare-metal-may2023}
