@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2021-09-20"
+  years: 2019, 2023
+lastupdated: "2023-08-01"
 
 keywords: contract term, contract term server   
  
@@ -11,13 +11,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Contract term pricing for bare metal servers
 {: #about-reserved-bare-metal-servers}
@@ -46,7 +40,7 @@ Consider the following limitations before you provision a contract term bare met
 * Your contract term bare metal server configuration can't be changed after your order is complete. 
 * Your contract term can't be canceled.
 * Available on only Intel® dual processors from Skylake to the most recent and AMD EPYC™ offerings when you convert an existing server.
-* Not available for enterprise-bundled solutions.
+* Not available for VMWare, SAP, and other enterprise-bundled solutions.
 
 ## Ordering a contract term bare metal server
 {: #provision-contract-term-bm}
