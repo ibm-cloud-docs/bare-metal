@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-08-01"
+lastupdated: "2023-08-09"
 
 keywords: contract term, contract term server   
  
@@ -64,4 +64,4 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same - it doesn't increase.  
 {: note}
 
-For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/blog/announcements/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers).
+For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/blog/announcement/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers/).
