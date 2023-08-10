@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2023
-lastupdated: "2023-03-28"
+lastupdated: "2023-08-10"
 
 keywords:
 
@@ -47,7 +47,7 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 
 {{site.data.keyword.cloud_notm}} offers advanced hardware options to fit your workload needs.
 
-### Intel Sapphire Rapids CPUs (Beta)
+### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
 Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center.
@@ -64,15 +64,15 @@ Sapphire Rapids processors support the following operating systems:
 
 * Debian 11
 * Microsoft Windows 19 & 2022
-* RHEL 8.6
-* Rocky Linux 8
+* RHEL 8.6, 9
+* Rocky Linux
 * Ubuntu 22.04
 * No OS option
 
 ### AMD CPUs
 {: #bm-amd-procs}
 
-AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
+ AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -141,7 +141,7 @@ The following network redundancy options are available for bare metal servers.
 | ---- | ----|
 | Automatic redundancy (Recommended option) | Automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance. |
 | User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
-| No redundancy | This is the only option for legacy data centers that don’t support automatic redundancy. This option is not recommended in a new data center.|
+| No redundancy | This option is not recommended.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
 {: caption="Table 4. Network redunancy options" caption-side="top"}
 
