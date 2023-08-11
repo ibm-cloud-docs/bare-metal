@@ -42,7 +42,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 
 | Operating system | Version |
 | --- | --- |
-| CentOS | 8.x  \n 7.x  \n |
+| CentOS | 7.x |
 | Debian | 11.x  \n 10.x |
 | Microsoft Windows | 2022 Standard  \n 2019 Standard  \n 2016 Standard  \n 2012 R2 Standard  \n 2012 Standard |
 | Red Hat | 9.x  \n 8.x  \n 7.x |
@@ -60,13 +60,13 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 | CentOS | 7.x |
 | Citrix | 8.2 |
 | Debian | 11.x  \n 10.x |
-| Microsoft Windows | 2022 Datacenter  \n 2022 Standard  \n 2019 Datacenter  \n 2019 Standard  \n 2016 Datacenter  \n 2016 Standard  \n 2012 R2 Standard  \n 2012 Datacenter  \n 2012 Standard |
+| Microsoft Windows | 2022 Datacenter  \n 2022 Standard  \n 2019 Datacenter  \n 2019 Standard  \n 2016 Datacenter  \n 2016 Standard  \n 2012 R2 Standard  \n 2012 Standard |
 | OSNEXUS | 5.x (4 TB)  \n 5.x (16 TB)  \n 5.x (48 TB) |
 | Red Hat | 9.x  \n 8.x.  \n 7.x |
 | Rocky Linux | 8.x |
 | VMWare | ESXi 7.0u3i (Cascade Lake only) | 7.0 Update 2  \n 7.0 Update 1.  \n 6.7 Update 3  \n 6.5 Update 3  \n 6.5 Update 2 |
 | vSphere | 7.0 |
-| Unbuntu | 22.04  \n 20.04  |
+| Unbuntu | 20.04  \n 22.04 |
 | SUSE Linux Enterprise Server (SLES) | 15 SP2  \n 15 SP1  \n 12 SP5  \n 12 SP4  \n 12 SP3 |
 {: caption="Table 1. {{site.data.keyword.baremetal_short}} supported operating systems" caption-side='top"}
 {: #bare-metal-oses}
