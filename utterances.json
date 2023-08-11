@@ -1,17 +1,5 @@
 {
-  "do-you-provide-complimentary-os-reloads-": [
-    "provide complimentary reload",
-    "Automated OS reloads free",
-    "OS update for free",
-    "os reload",
-    "free os reloads",
-    "how to os reload",
-    "can I change my OS for nothing",
-    "are OS reloads complimentary",
-    "free os uploads?",
-    "free reloading of operating system"
-  ],
-  "can-i-see-what-bare-metal-servers-are-available-for-purchase-": [
+  "can-see-available-bms": [
     "what servers are available",
     "purchase a server",
     "server provision for selection",
@@ -26,7 +14,7 @@
     "help to create a bare metal server",
     "select my own server"
   ],
-  "how-do-i-use-ipmi-": [
+  "how-do-i-use-ipmi": [
     "IPMI use",
     "using IPMI",
     "connecting to IPMI",
