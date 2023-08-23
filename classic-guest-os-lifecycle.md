@@ -165,8 +165,8 @@ The following table describes the end of support date for product add-ons and hy
 | [Microsoft SQL 2012 Web](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL 2012 Standard](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL 2012 Enterprise](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
-| MongoDB Community Edition 1.0 | 20 November 2023 |
-| MySQL 5.7 on IBM Cloud Bare Metal | 20 November 2023 |
+| [MongoDB Community Edition 1.0](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mongodb-eos) | 20 November 2023 |
+| [MySQL 5.7 on IBM Cloud Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
