@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-08-23"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -165,8 +165,61 @@ The following table describes the end of support date for product add-ons and hy
 | [Microsoft SQL 2012 Web](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL 2012 Standard](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL 2012 Enterprise](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
+| [MongoDB Community Edition 1.0](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mongodb-eos) | 20 November 2023 |
+| [MySQL 5.7 on IBM Cloud Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
 | [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
 {: caption="Table 11. Lifecycle for add-ons" caption-side="bottom"}
+
+## End of Support (EOS) announcements
+{: #classic-eos-announcements}
+
+End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. 
+
+### MongoDB Community Edition 1.0 EOS
+{: #classic-mongodb-eos}
+
+MongoDB Community Edition 1.0 is free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023. 
+
+This deprecation has no impact on IBM Cloud Databases for MongoDB.
+{: note}
+
+Review the following details for this deprecation:
+
+* After 20 November 2023, MongoDB Community Edition 1.0 is no longer supported. Which includes updates, bug fixes, and technical support for the product. After deprecation, clients can't download the software.
+* If you are using MongoDB Community Edition 1.0, the software will continue to run after the EOS date. However, after this date, IBM will not provide support, including bug fixes or security updates. 
+* If you don't upgrade to the latest version, you do so at your own risk. The lack of support and updates can expose your systems and apps to security vulnerabilities and compatibility issues. See the following details about upgrading to the latest version.
+
+For existing customers, upgrade to the latest version.
+
+* To continue using MongoDB on IBM Cloud Bare Metal Servers, it is recommended that you upgrade to the latest supported version of MongoDB. By doing so, you can take advantage of new features, performance improvements, and security patches.
+* To upgrade to the latest version of MongoDB, you can use either the open source version of MongoDB or bring your licensed copies to IBM Cloud Bare Metal servers. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MongoDB service. By using IBM Cloud Databases, you can make sure that your database service remains supported and secure.
+* For more information, see the following resources:  
+   * [BYOL: Install MongoDB](https://www.mongodb.com/docs/manual/installation/){: external}
+   * [Migrating to Databases for MongoDB](/docs/databases-for-mongodb?topic=databases-for-mongodb-upgrading&interface=ui)
+* IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MongoDB. However, this migration support does come with a cost.
+
+### MySQL 5.7 on IBM Cloud Bare Metal EOS
+{: #classic-mysql-eos}
+
+MySQL 5.7 on IBM Bare Metal Classic is free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023. The service will be removed from the IBM Cloud catalog on 21 September 2023.
+
+This deprecation has no impact on IBM Cloud Databases for MySQL.
+{: note}
+
+Review the following details for this deprecation.
+
+* After 20 November 2023, MySQL 5.7 on IBM Bare Metal Servers is no longer supported. Which includes updates, bug fixes, and technical support for the product. Clients can no longer be able to download the software.
+* If you are using MySQL 5.7, the software will continue to run after the end-of-support date. However, after this date, IBM will not provide support, including bug fixes or security updates. 
+* If you don't upgrade to the latest version of MySQL and continue using MySQL 5.7, you do so at your own risk. The lack of support and updates can expose your systems and apps to security vulnerabilities and compatibility issues. See the following details about upgrading to the latest version.
+
+For existing customers, upgrade to the latest version.
+
+* To continue using MySQL, it is recommended that you upgrade to the latest supported version of MySQL, Version 8.0. By doing so, you can take advantage of new features, performance improvements, and security patches.
+* To upgrade to the latest version of MySQL, you can use either the open source version of MySQL or bring your licensed copies to IBM Cloud Bare Metal. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MySQL service. By using IBM Cloud Databases, you can ensure that your database service remains supported and secure.
+* For more information, see the following resources:  
+   * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
+   * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
+* IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MySQL. However, this migration support does come with a cost.
