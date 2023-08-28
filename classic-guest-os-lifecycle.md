@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-08-23"
+lastupdated: "2023-08-28"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -15,7 +15,7 @@ subcollection: bare-metal
 # Lifecycle for operating systems and add-ons
 {: #product-lifecycle-classic}
 
-In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. It's also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
+In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
 {: shortdesc}
 
 ## Operating system lifecycles
@@ -198,7 +198,7 @@ For existing customers, upgrade to the latest version.
 * To upgrade to the latest version of MongoDB, you can use either the open source version of MongoDB or bring your licensed copies to IBM Cloud Bare Metal servers. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MongoDB service. By using IBM Cloud Databases, you can make sure that your database service remains supported and secure.
 * For more information, see the following resources:  
    * [BYOL: Install MongoDB](https://www.mongodb.com/docs/manual/installation/){: external}
-   * [Migrating to Databases for MongoDB](/docs/databases-for-mongodb?topic=databases-for-mongodb-upgrading&interface=ui)
+   * [Upgrading to a new Major Version](/docs/databases-for-mongodb?topic=databases-for-mongodb-upgrading&interface=ui)
 * IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MongoDB. However, this migration support does come with a cost.
 
 ### MySQL 5.7 on IBM Cloud Bare Metal EOS
