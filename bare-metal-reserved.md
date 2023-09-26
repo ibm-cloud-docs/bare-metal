@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-08-09"
+lastupdated: "2023-09-26"
 
 keywords: contract term, contract term server   
  
@@ -61,7 +61,7 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term. 
 
-An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same - it doesn't increase.  
+An email notification is sent one month before the end of the term.
 {: note}
 
 For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/blog/announcement/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers/).
