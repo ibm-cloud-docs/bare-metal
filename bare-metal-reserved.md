@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-09-26"
+lastupdated: "2023-10-04"
 
 keywords: contract term, contract term server   
  
@@ -50,6 +50,9 @@ To order a bare metal server with a 1 or 3-year contract, click one of the follo
 * [1-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=oneYearTerm){: external} 
 * [3-year term](https://cloud.ibm.com/gen1/infrastructure/provision/bm?type=threeYearTerm){: external} 
 
+Use the [cost estimator](https://cloud.ibm.com/estimator) to estimate the cost of your term.
+{: tip}
+
 ## Converting to a contract term bare metal server
 {: #convert-to-reserved-bm}
 
@@ -61,7 +64,7 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 4. Select either a _1-year term_ or a _3-year term_ and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term. 
 
-An email notification is sent one month before the end of the term.
+An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same - it doesn't increase.  
 {: note}
 
 For our blog about contract term bare metal servers, see [Consistent Pricing with Contract-Term IBM Cloud Bare Metal Servers](https://www.ibm.com/blog/announcement/consistent-pricing-with-contract-term-ibm-cloud-bare-metal-servers/).
