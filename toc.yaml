@@ -2,6 +2,7 @@
 toc:
   properties:
     subcollection: bare-metal
+    service-name: bare-metal
     version: 2
     category: compute_baremetal
     audience: service
