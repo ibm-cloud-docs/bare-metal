@@ -23,6 +23,15 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## October 2023
+{: #bare-metal-oct2023}
+
+### 09 October 2023
+{: #bare-metal-oct092023}
+
+cPanel support for Rocky Linux 8 for Classic bare metal and virtual servers
+:   Rocky Linux 8 now supports cPanel as an add-on for Classic bare metal and virtual servers. For more information about cPanel, see [cPanel](https://docs.cpanel.net/installation-guide/system-requirements-rockylinux/).
+
 ## July 2023
 {: #bare-metal-jun2023}
 
