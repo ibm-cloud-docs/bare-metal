@@ -24,69 +24,75 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: shortdesc}
 
 ## October 2023
-{: #bare-metal-oct2023}
+{: #bare-metal-oct23}
 
 ### 09 October 2023
-{: #bare-metal-oct092023}
+{: #bare-metal-oct0923}
+{: release-note}
 
 cPanel support for Rocky Linux 8 for Classic bare metal and virtual servers
 :   Rocky Linux 8 now supports cPanel as an add-on for Classic bare metal and virtual servers. For more information about cPanel, see [cPanel](https://docs.cpanel.net/installation-guide/system-requirements-rockylinux/).
 
 ## July 2023
-{: #bare-metal-jun2023}
+{: #bare-metal-jun23}
 
 ## 10 July August
-{: #bare-metal-jul102023}
+{: #bare-metal-jul1023}
+{: release-note}
 
 Mirrored M.2 SATA boot drives (VMWare ESXi only)
 :   You can now order mirrored M.2 SATA boot drives drives. To select this drive option, you need to select VMWare ESXi as the boot OS and the PCIe add-on.
 
 ## May 2023
-{: #bare-metal-may2023}
+{: #bare-metal-may23}
 
 ### 15 May 2023
-{: #bare-metal-may112023}
+{: #bare-metal-may1123}
+{: release-note}
 
 Red Hat Enterprise Linux 9 (RHEL 9)
 :   IBM Cloud&reg; server software now supports RHEL 9 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
 
 ### 11 May 2023
-{: #bare-metal-may112023}
+{: #bare-metal-may1123}
+{: release-note}
 
 RAID controllers to support Intel&reg; Sapphire Rapids CPUs
 :   Two new RAID controllers are available to support Intel Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
 
 ## March 2023
-{: #bare-metal-mar2023}
+{: #bare-metal-mar23}
 
 ### 28 March 2023
-{: #bare-metal-mar282023}
+{: #bare-metal-mar2823}
+{: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
 :   Intel&reg; Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ## February 2023
-{: #bare-metal-feb2023}
+{: #bare-metal-feb23}
+{: release-note}
 
 ### 14 February 2023
-{: #bare-metal-feb142023}
+{: #bare-metal-feb1423}
 {: release-note}
 
 Ubuntu 22.04
 :   IBM Cloud&reg; server software now supports Ubuntu 22.04 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
 
 ## January 2023
-{: #bare-metal-jan2023}
+{: #bare-metal-jan23}
 
 ### 10 January 2023
-{: #bare-metal-jan102023}
+{: #bare-metal-jan1023}
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
 :   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ### 09 January 2023
-{: #bare-metal-jan092023}
+{: #bare-metal-jan0923}
 {: release-note}
 
 Debian 11
