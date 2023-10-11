@@ -20,7 +20,7 @@ You can reload the operating system (OS) on a device at any time to restore a de
 {: shortdesc}
 
 If you want to retain your data, back up all data before you perform an OS reload.
-{: important}
+{: tip}
 
 ## Before you begin
 {: #byb-reloading-os}
@@ -32,6 +32,9 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 ## Reloading the OS and software
 {: #reload-the-os}
+
+If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'Reloading the OS' option on ESXi bare metal servers that are part of a VCS instance.
+{: important}
 
 1. From the **Device list**, click the server that needs an OS reload to show the _Device details_ page.
 2. From the **Actions** menu, select **OS reload**.
