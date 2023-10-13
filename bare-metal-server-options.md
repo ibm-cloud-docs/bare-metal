@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2023
-lastupdated: "2023-08-10"
+lastupdated: "2023-10-13"
 
 keywords:
 
@@ -171,6 +171,7 @@ The following add-ons are available when you provision a bare metal server.
 | Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternate power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
 | IBM Cloud Backup | IBM Cloud Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with IBM Cloud Backup](/docs/Backup?topic=Backup-getting-started).|
 | Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure.|
+| Intel Software Guard Extensions (SGX) | Intel SGX is used to partition sensitive data into secure enclaves by using a set of security-related application code. |
 | Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
 | Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. For more information, see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).|
 | Monitoring - host ping | Basic monitoring is used to initiate service and slow pings to make sure that the device is online and responsive. For more information, see [Basic monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).|
