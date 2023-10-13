@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-07-10"
+lastupdated: "2023-10-13"
 
 keywords: bare metal release notes
 
@@ -26,6 +26,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## October 2023
 {: #bare-metal-oct23}
 
+### 13 October 2023
+{: #bare-metal-oct1323}
+{: release-note}
+
+Intel SGX support for Sapphire Rapids-based Lenovo and Supermicro bare metal servers
+:   Intel&reg; Sapphire Rapids CPU-based Lenovo and Supermicro bare metal servers now support Intel Software Guards Extensions (SGX). For more information about provisioning a bare metal server with SGX, see [Provisioning a bare metal server with Intel® Software Guard Extension architecture](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx#bm-server-provision-sgx).
+
 ### 09 October 2023
 {: #bare-metal-oct0923}
 {: release-note}
@@ -36,7 +43,7 @@ cPanel support for Rocky Linux 8 for Classic bare metal and virtual servers
 ## July 2023
 {: #bare-metal-jun23}
 
-## 10 July August
+### 10 July 2023
 {: #bare-metal-jul1023}
 {: release-note}
 
@@ -57,7 +64,7 @@ Red Hat Enterprise Linux 9 (RHEL 9)
 {: #bare-metal-may1123}
 {: release-note}
 
-RAID controllers to support Intel&reg; Sapphire Rapids CPUs
+RAID controllers to support Intel Sapphire Rapids CPUs
 :   Two new RAID controllers are available to support Intel Sapphire Rapids CPUs. For more information about RAID, see [About RAID](/docs/bare-metal?topic=bare-metal-bm-raid-levels).
 
 ## March 2023
@@ -68,11 +75,10 @@ RAID controllers to support Intel&reg; Sapphire Rapids CPUs
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   Intel&reg; Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   Intel Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ## February 2023
 {: #bare-metal-feb23}
-{: release-note}
 
 ### 14 February 2023
 {: #bare-metal-feb1423}
