@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-10-13"
+lastupdated: "2023-10-23"
 
 keywords: bare metal release notes
 
@@ -14,8 +14,6 @@ content-type: release-note
 ---
 
 {{site.data.keyword.attribute-definition-list}}
-{:external: target="_blank" .external}
-{:release-note: data-hd-content-type='release-note'}
 
 # Release notes for {{site.data.keyword.baremetal_long}}
 {: #release-notes}
@@ -41,7 +39,7 @@ cPanel support for Rocky Linux 8 for Classic bare metal and virtual servers
 :   Rocky Linux 8 now supports cPanel as an add-on for Classic bare metal and virtual servers. For more information about cPanel, see [cPanel](https://docs.cpanel.net/installation-guide/system-requirements-rockylinux/).
 
 ## July 2023
-{: #bare-metal-jun23}
+{: #bare-metal-jul23}
 
 ### 10 July 2023
 {: #bare-metal-jul1023}
@@ -54,7 +52,7 @@ Mirrored M.2 SATA boot drives (VMWare ESXi only)
 {: #bare-metal-may23}
 
 ### 15 May 2023
-{: #bare-metal-may1123}
+{: #bare-metal-may1523}
 {: release-note}
 
 Red Hat Enterprise Linux 9 (RHEL 9)
