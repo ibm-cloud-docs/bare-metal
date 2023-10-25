@@ -28,7 +28,12 @@ toc:
       - about-Optane.md
       - about-NVMe.md
       - what-raid.md
-      - about-software.md
+      - topicgroup:
+           label: Software
+           topics:
+           - about-software.md
+           - classic-guest-os-lifecycle.md
+           - eos-os-considerations-classic-bm.md
       - topicgroup:
            label: Security
            topics:
@@ -76,7 +81,6 @@ toc:
                 - introduction-no-os.md
                 - microsoft-windows-update-instructions.md
                 - redhat-update-instructions.md
-                - classic-guest-os-lifecycle.md
       - link:
          label: IBM Cloud monitoring services
          href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
