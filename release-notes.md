@@ -24,6 +24,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## October 2023
 {: #bare-metal-oct23}
 
+### 27 October 2023
+{: #bare-metal-oct2723}
+{: release-note}
+
+Microsoft&reg; SQL Server 2019 and 2022
+:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}. 
+
 ### 13 October 2023
 {: #bare-metal-oct1323}
 {: release-note}
