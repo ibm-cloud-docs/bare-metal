@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2023
-lastupdated: "2023-10-13"
+lastupdated: "2023-10-27"
 
 keywords:
 
@@ -30,7 +30,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ### Custom-based servers
 {: #custom-based-bm}
 
-If one of the fast provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
+If one of the fast-provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
@@ -50,10 +50,10 @@ If one of the fast provisioning servers don't meet your workload needs, you can 
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
-Sapphire Rapids processors are currently available as a beta offering and are available in only the DAL10 data center.
-{: beta}
+Intel&reg; Sapphire Rapids processors are available as a select offering. They are available only in select data centers in the DAL, MAD, TOK, TOR, and WDC regions.
+{: preview}
 
-You can now choose the following Intel&reg; Sapphire Rapids CPUs when you provision a bare metal server.
+You can now choose the following Sapphire Rapids CPUs when you provision a bare metal server.
 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
@@ -158,6 +158,7 @@ If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can
 Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions.
 
 For more information about block and file storage, see the following links.
+
 * [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
 * [Getting started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
 
@@ -170,10 +171,11 @@ The following add-ons are available when you provision a bare metal server.
 |--------|-------------|
 | Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternate power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
 | IBM Cloud Backup | IBM Cloud Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with IBM Cloud Backup](/docs/Backup?topic=Backup-getting-started).|
-| Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure.|
+| Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure. |
 | Intel Software Guard Extensions (SGX) | Intel SGX is used to partition sensitive data into secure enclaves by using a set of security-related application code. You can add SGX when you [provision your bare metal server](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx). |
 | Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
 | Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. For more information, see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).|
+| Microsoft SQL Server | A relational database management system that manages data storage and retrieval. For more information, see [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.|
 | Monitoring - host ping | Basic monitoring is used to initiate service and slow pings to make sure that the device is online and responsive. For more information, see [Basic monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).|
 | Notification | You can define an alert on a single metric or a set of metrics to notify you of events or issues that you want to monitor. For more information, see [Working with alerts](/docs/monitoring?topic=monitoring-alerts).|
 | Response | Automated response to your monitored metrics notifications. |
