@@ -33,7 +33,6 @@ toc:
            topics:
            - about-software.md
            - classic-guest-os-lifecycle.md
-           - eos-os-considerations-classic-bm.md
       - topicgroup:
            label: Security
            topics:
