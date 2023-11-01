@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-26"
+lastupdated: "2023-11-01"
 
 keywords:
 
@@ -18,8 +18,8 @@ subcollection: bare-metal
 If you use an operating system (OS) that is at or past its end-of-support (EOS) date, security and stability risks are possible. The vendor no longer provides updates or security fixes for deprecated OS versions.
 {: short-desc}
 
-Follow the guidance from your OS vendor on when to upgrade. IBM® doesn't require you to migrate your active instances to a supported OS, but you assume the risks that are associated with using an outdated OS. Unsupported operating systems don't receive security updates or fixes and can't be used to deploy new instances. Plan to modernize the instances' OS before the EOS date. For more information, see [About software](/docs/bare-metal?topic=bare-metal-about-software).
-Available options when you modernize your OS
+Follow the guidance from your OS vendor on when to upgrade. IBM® doesn't require you to migrate your active instances to a supported OS, but you assume the risks that are associated with using an outdated OS. Unsupported operating systems don't receive security updates or fixes and can't be used to deploy new instances. Plan to modernize the instances' OS before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
+Available options when you modernize your OS.
 
 When you plan for an OS EOS, keep the following information in mind:
 -You can use the assistance of an IBM partner.
