@@ -21,16 +21,6 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
-## November 2023
-{: #bare-metal-nov23}
-
-### 27 November 2023
-{: #bare-metal-nov0323}
-{: release-note}
-
-Mirrored M.2 NVMe OS boot drives now support VMWare ESXi
-:   When you provision a bare metal server with VMWare ESXi, you can now select mirrored M.2 NVMe OS boot drives.
-
 ## October 2023
 {: #bare-metal-oct23}
 
