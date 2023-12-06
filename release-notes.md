@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-11-27"
+lastupdated: "2023-12-06"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## December 2023
+{: #bare-metal-dec23}
+
+### 06 December 2023
+{: #bare-metal-dec0623}
+
+Intel&reg; Sapphire Rapids-based bare metal servers now support GPUs
+:   When you provision a Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
 
 ## October 2023
 {: #bare-metal-oct23}
