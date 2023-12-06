@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2023
-lastupdated: "2022-02-17"
+lastupdated: "2023-12-06"
 
 keywords: getting started, getting started bare metal, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}, bare metal
 
@@ -10,20 +10,12 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.cloud}}
 
 # Getting started tutorial
 {: #getting-started}
 
 {{site.data.keyword.baremetal_long}} for Classic are single-tenant physical servers that provide you performance and control with low-level access to the hardware resources. Your server isn’t shared with “noisy neighbors,” it’s all yours!
-
-Check out the following [videos](https://www.ibm.com/demos/?search=bare%20metal){: external} to learn more about the features and capabilities of {{site.data.keyword.baremetal_short}}.
-{: shortdesc} 
 
 Table 1 contains steps to help you quickly get your {{site.data.keyword.baremetal_short}} provisioned and configured.
 
