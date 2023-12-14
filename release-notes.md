@@ -32,6 +32,14 @@ SSL Certificate Order is deprecated
 :   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
 {: deprecated}
 
+{: #bare-metal-dec23}
+
+### 06 December 2023
+{: #bare-metal-dec0623}
+
+Intel&reg; Sapphire Rapids-based bare metal servers now support GPUs
+:   When you provision a Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
+
 ## October 2023
 {: #bare-metal-oct23}
 
