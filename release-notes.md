@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2023
 
-lastupdated: "2023-12-06"
+lastupdated: "2023-12-15"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: shortdesc}
 
 ## December 2023
+{: #virtual-servers-dec23}
+
+### 15 December 2023
+{: #virtual-servers-dec1523}
+{: release-note}
+
+SSL Certificate Order is deprecated
+:   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
+
 {: #bare-metal-dec23}
 
 ### 06 December 2023
