@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-12-07"
+  years: 2022, 2024
+lastupdated: "2024-01-04"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -120,7 +120,7 @@ Rocky Linux is updated regularly, with the previous release deprecating when a n
 
 | Operating system | End of support |
 |-----------------|----------------|
-| Rocky Linux 8.x | N/A |
+| Rocky Linux 8.x | 31 May 2029 |
 {: caption="Table 7. Lifecycle for Rocky Linux operating systems" caption-side="bottom"}
 
 ### Ubuntu LTS
@@ -174,8 +174,9 @@ The following table describes the end of support date for product add-ons and hy
 | [Citrix Hypervisor 8.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external} | 25 June 2030 |
 | [Citrix XenServer 7.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external} | 15 August 2022 |
 | [cPanel 11.x](https://endoflife.software/applications/control-panels/cpanel){: external} | No EOS date announced |
-| [Microsoft SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external} | 11 January 2033 |
-| [Microsoft SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} | 28 February 2025 |
+| [Microsoft SQL Server 2022](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2022){: external} | 11 January 2033 |
+| [Microsoft SQL Server 2019](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2019){: external} | 8 January 2030 |
+| [Microsoft SQL Server 2017](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2017){: external} | 12 October 2027 |
 | [Microsoft SQL Server 2014](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2014){: external} | 9 July 2024 |
 | [Microsoft SQL Server 2012 Web](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL Server 2012 Standard](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
