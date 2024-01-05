@@ -109,7 +109,7 @@ Red Hat Enterprise Linux 7 EOS date is 30 June 2024. Support for this software d
 For existing customers, upgrade to the latest version. For more information, see the [Red Hat Enterprise Linux documentation](https://access.redhat.com/support/policy/updates/errata).
 
 ### Windows 2012 and Windows 2012 R2 EOS
-{: #windows-2012-bm-clssic}
+{: #windows-2012-bm-classic}
 
 Windows Server 2012 and Windows Server 2012 R2 EOS date is 10 October 2023. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
 No additional licensing costs are incurred to move to a newer software version when you use IBM’s License Included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
