@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-11-01"
+lastupdated: "2024-01-05"
 
 keywords:
 
@@ -100,6 +100,13 @@ End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers 
 
 Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version.
 For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){external}.
+
+### Red Hat Enterprise Linux 7
+{: #upgrading-rhel-7-os-bm-classic}
+
+Red Hat Enterprise Linux 7 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software.
+
+For existing customers, upgrade to the latest version. For more information, see the [Red Hat Enterprise Linux documentation](https://access.redhat.com/support/policy/updates/errata).
 
 ### Windows 2012 and Windows 2012 R2 EOS
 {: #windows-2012-bm-clssic}
