@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-01-13"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -239,3 +239,29 @@ For existing customers, upgrade to the latest version.
    * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
    * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
 * IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MySQL. However, this migration support does come with a cost.
+
+### Microsoft SQL Server 2014 EOS
+{: classic-ms-sql-server-2014-eos}
+
+Microsoft SQL Server 2014 is a database software that is available as an add-on to IBM Bare Metal Servers. Support for this software ends on 9 July 2024. Which includes updates, bug fixes, and technical support for the product. After this date, clients can't download the software.
+
+Review the following details for this deprecation:
+
+* If you are using MS SQL Server 2014, the software will continue to 
+run after the EOS date. However, after this date, IBM will not 
+provide support, including bug fixes or security updates.
+* If you don't upgrade to the latest version of Microsoft SQL Server 2022, the 
+lack of support and updates can expose your systems and apps to 
+security vulnerabilities and compatibility issues.
+
+For existing customers, upgrade to the latest version.
+
+* To continue using MS SQL Server on IBM Cloud Bare Metal and VSI 
+Servers, it is recommended that you upgrade to the latest 
+supported version of MS SQL Server 2022. By doing so, you can 
+take advantage of new features, performance improvements, and 
+security patches.
+* IBM partners can provide [migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly 
+transition to the latest version of Microsoft SQL Server 2014. However, 
+this migration support does come with a cost.
+
