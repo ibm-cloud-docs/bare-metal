@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-01-13"
+lastupdated: "2024-01-16"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -73,6 +73,7 @@ The following table describes the end of support date for Debian operating syste
 
 | Operating system | End of support |
 |-----------------|----------------|
+| Debian 12 | 30 June 2028 |
 | Debian 11 | 30 June 2026 |
 | Debian 10 | 30 June 2024 |
 | Debian 9  | 30 June 2022 |
@@ -227,14 +228,14 @@ This deprecation has no impact on IBM Cloud Databases for MySQL.
 
 Review the following details for this deprecation.
 
-* After 20 November 2023, MySQL 5.7 on IBM Bare Metal Servers is no longer supported. Which includes updates, bug fixes, and technical support for the product. Clients can no longer be able to download the software.
+* After 20 November 2023, MySQL 5.7 on IBM Bare Metal Servers is no longer supported. Which includes updates, bug fixes, and technical support for the product. After this date, clients can't download the software.
 * If you are using MySQL 5.7, the software will continue to run after the end-of-support date. However, after this date, IBM will not provide support, including bug fixes or security updates.
 * If you don't upgrade to the latest version of MySQL and continue using MySQL 5.7, you do so at your own risk. The lack of support and updates can expose your systems and apps to security vulnerabilities and compatibility issues. See the following details about upgrading to the latest version.
 
 For existing customers, upgrade to the latest version.
 
 * To continue using MySQL, it is recommended that you upgrade to the latest supported version of MySQL, Version 8.0. By doing so, you can take advantage of new features, performance improvements, and security patches.
-* To upgrade to the latest version of MySQL, you can use either the open source version of MySQL or bring your licensed copies to IBM Cloud Bare Metal. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MySQL service. By using IBM Cloud Databases, you can ensure that your database service remains supported and secure.
+* To upgrade to the latest version of MySQL, you can use either the open source version of MySQL or bring your licensed copies to IBM Cloud Bare Metal. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MySQL service. By using IBM Cloud Databases, you can make sure that your database service remains supported and secure.
 * For more information, see the following resources:
    * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
    * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
@@ -264,4 +265,3 @@ security patches.
 * IBM partners can provide [migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly 
 transition to the latest version of Microsoft SQL Server 2014. However, 
 this migration support does come with a cost.
-
