@@ -4,7 +4,7 @@ copyright:
   years: 2022, 2024
 lastupdated: "2024-01-16"
 
-keywords: operating system end of support (eos), add on end of support (eos)
+keywords: operating system end of support (eos), add on end of support (eos), lifecycle
 
 subcollection: bare-metal
 
