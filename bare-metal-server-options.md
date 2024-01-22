@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2023
-lastupdated: "2023-10-27"
+  years: 2016, 2024
+lastupdated: "2024-01-22"
 
 keywords:
 
@@ -72,18 +72,18 @@ Sapphire Rapids processors support the following operating systems:
 ### AMD CPUs
 {: #bm-amd-procs}
 
- AMD EPYC&reg; "Rome" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC "Rome" family offers several CPU options that offer up to 48 cores per socket.
+AMD EPYC&reg; "Rome" and "Milan" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC family of processors offer several CPU options that offer up to 64 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
 
-You can choose from the following AMD EPYC "Rome" CPUs when you provision a bare metal server:
+You can choose from the following AMD EPYC "Rome" and "Milan" CPUs when you provision a bare metal server:
 
 | AMD EPYC CPUs | Specifications |
 | --- | --- |
-| AMD EPYC 7642 | 48-core, 2.3 Ghz |
-| AMD EPYC 7F72 | 48-core, 3.2 Ghz |
-| AMD EPYC 7763 | 64-core, 2.45 Ghz |
+| AMD EPYC 7642 | 48-core, 2.3 GHz |
+| AMD EPYC 7F72 | 24-core, 3.2 GHz |
+| AMD EPYC 7763 | 64-core, 2.45 GHz | 
 {: caption="Table 2. AMD EPYC CPU options" caption-side="top"}
 
 The following operating systems are supported by AMD EPYC "Rome" CPUs:
