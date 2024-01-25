@@ -28,7 +28,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: #bare-metal-jan252024}
 
 Intel&reg; Sapphire Rapids CPU support (Select availability)
-:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, WDC, TOR, TOK, and MAD regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ## December 2023
 {: #bare-metal-dec23}
