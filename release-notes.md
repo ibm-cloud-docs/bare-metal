@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2019, 2023
+  years: 2019, 2024
 
-lastupdated: "2023-12-15"
+lastupdated: "2024-01-25"
 
 keywords: bare metal release notes
 
@@ -21,24 +21,41 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## January 2024
+{: #bare-metal-jan24
+
+### 25 January 2024
+{: #bare-metal-jan252024}
+
+Intel&reg; Sapphire Rapids CPU support (Select availability)
+:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, WDC, TOR, TOK, and MAD regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+
 ## December 2023
-{: #virtual-servers-dec23}
+{: #bare-metal-dec23}
 
 ### 15 December 2023
-{: #virtual-servers-dec1523}
+{: #bare-metal-dec1523}
 {: release-note}
 
 SSL Certificate Order is deprecated
 :   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
 {: deprecated}
 
-{: #bare-metal-dec23}
-
 ### 06 December 2023
 {: #bare-metal-dec0623}
 
 Intel&reg; Sapphire Rapids-based bare metal servers now support GPUs
 :   When you provision a Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
+
+## November 2023
+{: #bare-metal-nov23}
+
+### 27 November 2023
+{: #bare-metal-nov2723}
+{: release-note}
+
+Mirrored M.2 NVMe OS boot drives now support VMWare ESXi
+:   When you provision a bare metal server with VMWare ESXi, you can now select mirrored M.2 NVMe OS boot drives.
 
 ## October 2023
 {: #bare-metal-oct23}
@@ -55,7 +72,7 @@ Microsoft&reg; SQL Server 2019 and 2022
 {: release-note}
 
 Intel SGX support for Sapphire Rapids-based Lenovo and Supermicro bare metal servers
-:   Intel&reg; Sapphire Rapids CPU-based Lenovo and Supermicro bare metal servers now support Intel Software Guards Extensions (SGX). For more information about provisioning a bare metal server with SGX, see [Provisioning a bare metal server with Intel® Software Guard Extension architecture](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx#bm-server-provision-sgx).
+:   Intel Sapphire Rapids CPU-based Lenovo and Supermicro bare metal servers now support Intel Software Guards Extensions (SGX). For more information about provisioning a bare metal server with SGX, see [Provisioning a bare metal server with Intel® Software Guard Extension architecture](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx#bm-server-provision-sgx).
 
 ### 09 October 2023
 {: #bare-metal-oct0923}
@@ -119,7 +136,7 @@ Ubuntu 22.04
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   You can now select an Intel&reg; Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   You can now select an Intel Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ### 09 January 2023
 {: #bare-metal-jan0923}
