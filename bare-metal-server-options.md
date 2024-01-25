@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-01-25"
 
 keywords:
 
@@ -50,7 +50,7 @@ If one of the fast-provisioning servers don't meet your workload needs, you can 
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
-Intel&reg; Sapphire Rapids processors are available as a select offering. They are available only in select data centers in the DAL, MAD, TOK, TOR, and WDC regions.
+Intel&reg; Sapphire Rapids processors are available only in the DAL, MAD, TOK, TOR, and WDC regions.
 {: preview}
 
 You can now choose the following Sapphire Rapids CPUs when you provision a bare metal server.
