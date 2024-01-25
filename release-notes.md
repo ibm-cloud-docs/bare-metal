@@ -22,7 +22,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: shortdesc}
 
 ## January 2024
-{: #bare-metal-jan24
+{: #bare-metal-jan24}
 
 ### 25 January 2024
 {: #bare-metal-jan252024}
