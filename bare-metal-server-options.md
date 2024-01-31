@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2024
-lastupdated: "2024-01-25"
+lastupdated: "2024-01-31"
 
 keywords:
 
@@ -64,7 +64,7 @@ Sapphire Rapids processors support the following operating systems:
 
 * Debian 11
 * Microsoft Windows 19 & 2022
-* RHEL 8.6, 9
+* RHEL 9.x
 * Rocky Linux
 * Ubuntu 22.04
 * No OS option
@@ -83,15 +83,15 @@ You can choose from the following AMD EPYC "Rome" and "Milan" CPUs when you prov
 | --- | --- |
 | AMD EPYC 7642 | 48-core, 2.3 GHz |
 | AMD EPYC 7F72 | 24-core, 3.2 GHz |
-| AMD EPYC 7763 | 64-core, 2.45 GHz | 
+| AMD EPYC 7763 | 64-core, 2.45 GHz |
 {: caption="Table 2. AMD EPYC CPU options" caption-side="top"}
 
 The following operating systems are supported by AMD EPYC "Rome" CPUs:
+
+* CentOS 7.9
+* Microsoft&reg; Server 2019
 * RHEL 7.x, 8.x
 * Ubuntu 18.04
-* CentOS 7.x, 8.x
-* Microsoft&reg; Server 2016, 2019
-* Ubuntu 16.04, 18.04
 
 Systems must be started in UEFI mode.
 {: note}
