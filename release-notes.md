@@ -21,16 +21,6 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
-## Febuary 2024
-{: #bare-metal-feb24}
-
-### 07 Febuary 2024
-{: #bare-metal-jan072024}
-{: release-note}
-
-VMWare vSphere and vSAN (ESXi) 8.0u1x on Sapphire Rapids servers
-:   Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support VMWare vSphere and vSAN (ESXi) 8.0u1x.
-
 ## January 2024
 {: #bare-metal-jan24}
 
