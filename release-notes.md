@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-02-07"
+lastupdated: "2024-02-15"
 
 keywords: bare metal release notes
 
@@ -21,13 +21,24 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## Febuary 2024
+{: #bare-metal-feb24}
+
+### 15 Febuary 2024
+{: #bare-metal-feb152024}
+{: release-note}
+
+VMWare vSphere (ESXi) 7.0u3i and 8.0u1x
+:   Intel&reg; Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support VMWare vSphere (ESXi) versions 7.0u3i and 8.0u1x.
+
 ## January 2024
 {: #bare-metal-jan24}
 
 ### 25 January 2024
 {: #bare-metal-jan252024}
+{: release-note}
 
-Intel&reg; Sapphire Rapids CPU support (Select availability)
+Intel Sapphire Rapids CPU support (Select availability)
 :   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
 
 ## December 2023
@@ -43,8 +54,9 @@ SSL Certificate Order is deprecated
 
 ### 06 December 2023
 {: #bare-metal-dec0623}
+{: release-note}
 
-Intel&reg; Sapphire Rapids-based bare metal servers now support GPUs
+Intel&reg Sapphire Rapids-based bare metal servers now support GPUs
 :   When you provision a Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
 
 ## November 2023
@@ -65,7 +77,7 @@ Mirrored M.2 NVMe OS boot drives now support VMWare ESXi
 {: release-note}
 
 Microsoft&reg; SQL Server 2019 and 2022
-:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}. 
+:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.
 
 ### 13 October 2023
 {: #bare-metal-oct1323}
