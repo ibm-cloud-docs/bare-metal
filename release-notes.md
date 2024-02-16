@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-02-15"
+lastupdated: "2024-02-16"
 
 keywords: bare metal release notes
 
@@ -20,16 +20,6 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
-
-## Febuary 2024
-{: #bare-metal-feb24}
-
-### 15 Febuary 2024
-{: #bare-metal-feb152024}
-{: release-note}
-
-VMWare vSphere (ESXi) 7.0u3i and 8.0u1x
-:   Intel&reg; Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support VMWare vSphere (ESXi) versions 7.0u3i and 8.0u1x.
 
 ## January 2024
 {: #bare-metal-jan24}
