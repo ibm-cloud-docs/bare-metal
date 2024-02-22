@@ -199,7 +199,7 @@ End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers 
 ### MongoDB Community Edition 1.0 EOS
 {: #classic-mongodb-eos}
 
-MongoDB Community Edition 1.0 is free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023.
+MongoDB Community Edition 1.0 is a free software that is available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023.
 
 This deprecation has no impact on IBM Cloud Databases for MongoDB.
 {: note}
