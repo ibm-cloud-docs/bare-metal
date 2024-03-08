@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-02-22"
+lastupdated: "2024-03-08"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -85,7 +85,7 @@ Debian 10 doesn't support "Add on" software configurations. Debian 10 also doesn
 ### OSNEXUS (QuantaStor)
 {: #osnexus-classic}
 
-The following table describes the end of support date for OSNEXUS QuantaStor operating systems. This guest OS is a free operating system. For more information, see [OSNEXUS product notifications](https://wiki.osnexus.com/index.php?title=Product_EOL_Notifications){: external}.
+The following table describes the end of support date for OSNEXUS QuantaStor operating systems. For more information, see [OSNEXUS product notifications](https://wiki.osnexus.com/index.php?title=Product_EOL_Notifications){: external}.
 
 | Operating system | End of support |
 |-----------------|----------------|
@@ -122,6 +122,7 @@ Rocky Linux is updated regularly, with the previous release deprecating when a n
 | Operating system | End of support |
 |-----------------|----------------|
 | Rocky Linux 8.x | 31 May 2029 |
+| Rocky Linux 9.x | 31 May 2032 |
 {: caption="Table 7. Lifecycle for Rocky Linux operating systems" caption-side="bottom"}
 
 ### Ubuntu LTS
@@ -186,7 +187,7 @@ The following table describes the end of support date for product add-ons and hy
 | [MySQL 5.7 on IBM Cloud Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
-| [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
+[ [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
 | [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
 {: caption="Table 11. Lifecycle for add-ons" caption-side="bottom"}
