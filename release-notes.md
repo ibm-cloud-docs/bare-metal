@@ -29,7 +29,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: release-note}
 
 Intel&reg; 'Speed Select' for the Sapphire Rapids processors 
-:   You can now select the available core count and clock speed of a 6426Y, 6416H, or 8474C processor when you order a Sapphire Rapids-based {{site.data.keyword.baremetal_long}}.
+:   You can now select the available core count and clock speed of a 8474C processor when you order a Sapphire Rapids-based {{site.data.keyword.baremetal_long}}.
 
 ## January 2024
 {: #bare-metal-jan24}
