@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-02-16"
+lastupdated: "2024-03-13"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## March 2024
+{: #bare-metal-mar24}
+
+### 15 March 2024
+{: #bare-metal-mar132024}
+{: release-note}
+
+Intel&reg; 'Speed Select' for the Sapphire Rapids processors 
+:   You can now select the available core count and clock speed of a 6426Y, 6416H, or 8474C processor when you order a Sapphire Rapids-based {{site.data.keyword.baremetal_long}}.
 
 ## January 2024
 {: #bare-metal-jan24}
