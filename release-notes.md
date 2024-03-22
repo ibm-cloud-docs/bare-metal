@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-03-13"
+lastupdated: "2024-03-22"
 
 keywords: bare metal release notes
 
@@ -24,11 +24,18 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## March 2024
 {: #bare-metal-mar24}
 
+### 22 March 2024
+{: #bare-metal-mar222024}
+{: release-note}
+
+OSNEXUS (QuantaStor) 6.2
+:  OSNEXUS (QuantaStor) 6.2 is now available for {{site.data.keyword.baremetal_long}}. For more information, see [IBM Cloud QuantaStor Provisioning Guide Overview](https://wiki.osnexus.com/index.php?title=IBM_Cloud_Provisioning_Guide){: external}.
+
 ### 15 March 2024
 {: #bare-metal-mar132024}
 {: release-note}
 
-Intel&reg; 'Speed Select' for the Sapphire Rapids processors 
+Intel&reg; 'Speed Select' for the Sapphire Rapids processors
 :   You can now select the available core count and clock speed of a 8474C processor when you order a Sapphire Rapids-based {{site.data.keyword.baremetal_long}}.
 
 ## January 2024
