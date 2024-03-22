@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-12"
+lastupdated: "2024-03-22"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -89,7 +89,8 @@ The following table describes the end of support date for OSNEXUS QuantaStor ope
 
 | Operating system | End of support |
 |-----------------|----------------|
-| 5.x (available only on bare metal servers) | 30 April 2025 |
+| 6.2 (available only on bare metal servers) | 30 April 2025 |
+| 5.x (available only on bare metal servers) | 30 April 2023 |
 {: caption="Table 5. Lifecycle for OSNEXUS QuantaStor operating systems" caption-side="bottom"}
 
 ### Red Hat Enterprise Linux (RHEL)
@@ -187,7 +188,7 @@ The following table describes the end of support date for product add-ons and hy
 | [MySQL 5.7 on IBM Cloud Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
-[ [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
+[Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
 | [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
 {: caption="Table 11. Lifecycle for add-ons" caption-side="bottom"}
@@ -250,20 +251,20 @@ Microsoft SQL Server 2014 is a database software that is available as an add-on 
 
 Review the following details for this deprecation:
 
-* If you are using MS SQL Server 2014, the software will continue to 
-run after the EOS date. However, after this date, IBM will not 
+* If you are using MS SQL Server 2014, the software will continue to
+run after the EOS date. However, after this date, IBM will not
 provide support, including bug fixes or security updates.
-* If you don't upgrade to the latest version of Microsoft SQL Server 2022, the 
-lack of support and updates can expose your systems and apps to 
+* If you don't upgrade to the latest version of Microsoft SQL Server 2022, the
+lack of support and updates can expose your systems and apps to
 security vulnerabilities and compatibility issues.
 
 For existing customers, upgrade to the latest version.
 
-* To continue using MS SQL Server on IBM Cloud Bare Metal and VSI 
-Servers, it is recommended that you upgrade to the latest 
-supported version of MS SQL Server 2022. By doing so, you can 
-take advantage of new features, performance improvements, and 
+* To continue using MS SQL Server on IBM Cloud Bare Metal and VSI
+Servers, it is recommended that you upgrade to the latest
+supported version of MS SQL Server 2022. By doing so, you can
+take advantage of new features, performance improvements, and
 security patches.
-* IBM partners can provide [migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly 
-transition to the latest version of Microsoft SQL Server 2014. However, 
+* IBM partners can provide [migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly
+transition to the latest version of Microsoft SQL Server 2014. However,
 this migration support does come with a cost.
