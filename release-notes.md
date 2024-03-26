@@ -28,6 +28,9 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: #bare-metal-mar242024}
 {: release-note}
 
+NVMe support for RHEL, Rocky Linux, and CentOS
+:   {{site.data.keyword.baremetal_long}} with NVMe SSD now support RHEL, Rocky Linux, and CentOS. For more information about NVMe, see [NVMe solid-state drives (SSD)](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
+
 Support for CentOS Stream 9
 :   {{site.data.keyword.baremetal_long}} now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
 
