@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-24"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -46,7 +46,7 @@ The following table describes the end of support date for CentOS operating syste
 
 | Operating system | End of support |
 |-----------------|----------------|
-| Stream 9 (available only on virtual servers) | [End of RHEL 9 full support phase](https://access.redhat.com/support/policy/updates/errata#Full_Support_Phase){: external}. |
+| Stream 9 | [End of RHEL 9 full support phase](https://access.redhat.com/support/policy/updates/errata#Full_Support_Phase){: external}. |
 | Stream 8 (available only on bare metal servers) | 31 May 2024 |
 | CentOS 8.x | 31 December 2021  |
 | CentOS 7.9 | 30 June 2024 |
