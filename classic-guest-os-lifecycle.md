@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-03-24"
+lastupdated: "2024-04-12"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
