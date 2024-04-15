@@ -30,7 +30,7 @@ If you want to retain your data, back up all data before reloading the OS. An OS
 {: important}
 
 ## Before you begin
-{: #byb-os=reload}
+{: #byb-os-reload}
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
