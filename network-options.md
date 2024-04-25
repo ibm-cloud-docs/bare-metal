@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-03-26"
+lastupdated: "2024-04-25"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
@@ -62,18 +62,6 @@ The 25 Gbps port speed option is compatible with only the following 2U (12 drive
 * Intel Xeon 6250
 * Intel Xeon 8260
 
-Select pods in only the following data centers support the 25 Gbps port speed option:
-
-| Location | Data center |
-| ----- | ----- |
-| Dallas | DAL10, DAL12, DAL13 |
-| Frankfurt| FRA02, FRA04, FRA05 |
-| London | LON06 |
-| Tokyo | TOK02, TOK04, TOK05 |
-| Toronto| TOR04 |
-| Washington DC | WDC04, WDC06, WDC07 |
-{: caption="Table 1. 25 Gbps network data centers" caption-side="top"}
-
 25 Gbps port speeds are available with the following operating systems:
 
 * CentOS 8.2
@@ -81,6 +69,8 @@ Select pods in only the following data centers support the 25 Gbps port speed op
 * RHEL 8.2
 * RHEL 8.2 for SAP
 * Windows server 2016, 2019
+
+25 Gbps port speeds are available only in select data centers.
 
 You can't upgrade a 10 Gbps port speed network interface to 25 Gbps. If you want 25 Gbps, you need to order a new server and select the 25 Gbps port speed option.
 {: note}
