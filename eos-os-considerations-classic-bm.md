@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-23"
+lastupdated: "2024-06-06"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: bare-metal
 
 {{site.data.keyword.attribute-definition-list}}
 
-# End of support operating system considerations
+# End of support for operating systems considerations
 {: #eos-os-considerations-bm-classic-intro}
 
 If you use an operating system (OS) that is at or past its end-of-support (EOS) date, security and stability risks are possible. The vendor no longer provides updates or security fixes for deprecated OS versions.
@@ -70,7 +70,7 @@ Best practices for side-by-side upgrades:
 With OS Reload, you can reconfigure a device with a different operating system. Along with the OS reload feature, you can use the OS reload with disk preservation option.
 
 **OS reload with disk preservation**
-OS reload with disk preservation option configures your current primary disk as a secondary disk while retaining all data and creates a new primary disk. 
+OS reload with disk preservation option configures your current primary disk as a secondary disk while all data is retained and creates a new primary disk. 
 Disk preservation converts the primary drive to a portable storage device. This option is available only on virtual devices and incurs charges based on the billing patterns of the device. Charges can be canceled by canceling the portable storage device anytime after it was created.
 
 **Best practices for OS Reload upgrades:**
@@ -109,7 +109,7 @@ Red Hat Enterprise Linux 7 EOS date is 30 June 2024. Support for this software d
 For existing customers, upgrade to the latest version. For more information, see the [Red Hat Enterprise Linux documentation](https://access.redhat.com/support/policy/updates/errata).
 
 ### Windows 2012 and Windows 2012 R2 EOS
-{: #windows-2012-bm-classic}
+{: #windows-2012-bm-clssic}
 
 Windows Server 2012 and Windows Server 2012 R2 EOS date is 10 October 2023. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
 No additional licensing costs are incurred to move to a newer software version when you use IBM’s License Included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
@@ -121,5 +121,4 @@ CentOS 7 EOS date is 30 June 2024. Support for this software discontinues on 30 
 
 CentOS Stream 8 EOS date is 31 May 2024. Support for this software discontinues on 31 May 2024. After deprecation, clients can't download the software.
 
-To migrate workloads from CentOS, you can switch to a compatible OS distribution, or choose to a different operating system. Compatible distributions include CentOS Stream 9, Rocky Linux 8/9, and RHEL 8/9. You can also migrate to a different OS such as Debian or Ubuntu LTS. Options for migration include performing an OS reload, a side-by-side upgrade, or migrating to a new server.
-
+To migrate workloads from CentOS, you can switch to a compatible OS distribution, or choose a different operating system. Compatible distributions include CentOS Stream 9, Rocky Linux 8 and 9, and RHEL 8 and 9. You can also migrate to a different OS such as Debian or Ubuntu LTS. Options when you migrate includes an OS reload, a side-by-side upgrade, or you can migrate to a new server.
