@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-03-09"
+  years: 1994, 2024
+lastupdated: "2024-06-06"
 
 keywords: raid controller commands, raid commands
 
@@ -204,5 +204,61 @@ Use the following commands to obtain the log files for Broadcom RAID cards. You 
 ```
 {: codeblock}
 
-Make sure that you back up any work before troubleshooting is done.
+#### install Storcli 
+Linux :
+1) SSH into your server
+2) cd /tmp (Or any directory you demand)
+3) wget  http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip
+4) unzip x.xx.xx_StorCLI.zip
+5) cd /tmp/storcli_all_os/Linux/ (or go to the downloaded directory)
+6) rpm -ivh storcli-x.xx.xx-x.noarch.rpm
+7) Check if storcli is successfully installed
+
+Vmware ESXi server :
+
+1) Go to your /tmp directory.
+
+   `# cd /tmp `
+
+2) Download the storcli.
+
+   `# wget http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip`
+
+3) Uncompress the file.
+ 
+   `# unzip 1.14.12_StorCLI.zip'
+
+4) Go to /tmp/storcli_all_os/Vmware-NDS/.
+ 
+   `# cd /tmp/storcli_all_os/Vmware-NDS/'
+
+5) Install the storcli.
+ 
+   `# esxcli software vib install -v=/tmp/storcli_all_os/Vmware-NDS/vmware-esx-storcli-1.14.12.vib --no-sig-check` 
+
+After the storcli is installed, you can run these two commands to confirm the disk health of the server.
+ 
+For ESXi 7.X, use the following commands.
+
+   ```text
+   /opt/lsi/storcli64/storcli64 /c0 show all
+   /opt/lsi/storcli64/storcli64 /c0 show eventloginfo
+   /opt/lsi/storcli64/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
+   /opt/lsi/storcli64/storcli64 /c0 show TermLog
+   ```
+   {: codeblock}
+
+#### Check the RAID configuration
+
+Use the following commands to check the RAID configuration.
+
+   ```text
+   /opt/lsi/storcli64/storcli64 /c0 show all
+   /opt/MegaRAID/storcli/storcli64 /c0 /eall /sall show all
+   ```
+   {: codeblock}
+
+From the output, look for the topology section where the RAID type is listed as a column.
+
+Make sure that you back up any work before you troubleshoot.
 {: important}
