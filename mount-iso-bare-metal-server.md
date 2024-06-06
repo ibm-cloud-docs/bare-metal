@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-03-09"
+  years: 2017, 2024
+lastupdated: "2024-06-06"
 
 keywords: 
 
@@ -22,7 +22,7 @@ Although most {{site.data.keyword.cloud}} customers use one of the standard oper
 ## Overview
 {: #bm-mounting-iso-overview}
 
-For the two mounting methods to work, you need to connect to the private network through the SL VPN service, such as `IBM Cloud SSL VPN - AMS01` or through another server that is connected to the network.
+For the two mounting methods to work, you need to connect to the private network through the SL VPN service, such as `IBM Cloud SSL VPN - AMS01`, or through another server that is connected to the network.
 
 Lenovo hardware disk images larger than 50 MB must be mounted by using the IMM console and clicking **Interface > Media tab**.
 {: note}
@@ -42,10 +42,7 @@ Follow these steps to install a custom OS from a CIFS Share:
 1. Hover over **Virtual Media** and click **CD-ROM image**
 1. Complete the appropriate details and click **Save and Mount**.
 
-Not all users have permission to change the BIOS of the server. If necessary, you can open a support case and request the following items:
-
-* Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode).
-* Change the boot sequence to ‘IPMI Virtual Disk’ as first boot option.
+Not all users have permission to change the BIOS of the server. If necessary, you can open a support case and request to change the boot sequence to ‘IPMI Virtual Disk’ as the first boot option.
   
 ### What next
 {: #bm-what-next-mount-iso}
@@ -58,12 +55,12 @@ In some older IPMI consoles, you can skip this option.
 ## Option 2: Mounting an ISO from your local computer
 {: #bm-mount-iso-opt-3}
 
-You can mount an ISO from your local computer by using the Java&reg; iKVM viewer (console). By using the Java iKVM viewer, you can mount an ISO while it is connected to the console. The speed at which the installation progresses can vary depending on the upload speed and latency of your internet connection, performance of Java and your computer.
+You can mount an ISO from your local computer by using the Java&reg; iKVM viewer (console). By using the Java iKVM viewer, you can mount an ISO while it is connected to the console. The speed of the installation progresses can vary depending on the upload speed and latency of your internet connection and the performance of Java.
 
-If you do not have permission to change the BIOS on a server, open a support case to request the following changes:
+If you don't have permission to change the server BIOS, open a [support case](/docs/get-support?topic=get-support-open-case) to request a change to the boot sequence to ‘IPMI Virtual Disk’ as the first boot option. 
 
-* Root user administrator privileges on IPMI (to be able to change the Virtual Media Attach mode)
-* To change the boot sequence to ‘IPMI Virtual Disk’ as first boot option. (Because ISO is not mounted, support can change only the boot device priority for now).
+Because ISO isn't mounted, support can change only the boot device priority.
+{: note}
 
 1. Log in to the IPMI management console by pointing your web browser to the IP that is specified in cloud.ibm.com.
 1. Go to **Devices** > **your server (device details)** > **Remote Mgmt**. Specify the username and password.
@@ -82,6 +79,6 @@ If you do not have permission to change the BIOS on a server, open a support cas
 ## Troubleshooting
 {: #bm-mount-iso-troubleshooting}
 
-* Not all users have default access to mount Virtual Media. If a permission error occurs, contact [Support](/docs/bare-metal?topic=bare-metal-gettinghelp) for an update to the Root IPMI User permissions.
+* Not all users have default access to mount Virtual Media or open the KVM console. If a permission error occurs, try updating the [firmware](/docs/bare-metal?topic=bare-metal-bm-faq#bm-out-of-date-firmware) of only the IPMI (even if it says no update available). If issues persist, contact [support](/docs/bare-metal?topic=bare-metal-gettinghelp).
 * If an ISO is already mounted, an error message appears with the text **A disk is mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
 * You might need to contact support to change the boot order in the BIOS.
