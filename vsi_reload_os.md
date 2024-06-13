@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2022-07-07"
+  years: 2019, 2023
+lastupdated: "2023-10-11"
 
 keywords: OS Reload, operating system
 
@@ -42,7 +42,7 @@ If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'R
 
    | Reload type | Steps |
    |-------------|-------|
-   | If you want to reload a new configuration... | Click **Edit** for the category that requires an update. Select the new software from the **Select software** drop-down list. |  
+   | If you want to reload a new configuration... | Click **Edit** for the category that requires an update. Select the new software from the **Select software** drop-down list. |
    | If you want to reload the existing configuration... | Proceed to the next step. |
    | If you want to change the operating system... | Click **Edit OS** > **Change version or manufacturer**. |
    {: caption="Table 1. OS and software reload options" caption-side="top"}
@@ -66,36 +66,35 @@ If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'R
 
    Options vary based on device. Not all options are available for every device.
    {: note}
-   
-   **Postinstallation script** Adds an existing or new postinstallation script.
-   
-   **SSH key** Adds an SSH key to the device upon the reload action.
-   
-   **Reset IPMI password** This option is available only for physical devices.
-   
-   **Apply system board BIOS upgrades** This option is available only for physical devices.
-   
-   **Apply firmware updates for all hard disks** This option is available only for physical devices.
-   
-   **Add to spare pool after OS reload** This option is available only on physical devices and requires internal approval before it's available on an account.
-   
-   **Erase all hard disks** This option is available only on physical devices and requires special user permissions set by the account administrator.
-   
-   **OS reload with disk preservation** This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS reload process. Retains all data on the current primary disk during the OS reload process. Disk preservation converts the primary drive to a portable storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the portable storage device anytime after it was created.
+
+   | Options | Description |
+   | --- | --- |
+   | Postinstallation script | Adds an existing or new postinstallation script. |
+   | SSH key | Adds an SSH key to the device upon the reload action. |
+   | Reset IPMI password | This option is available only for physical devices.|
+   | Apply system board BIOS upgrades | This option is available only for physical devices.|
+   | Apply firmware updates for all hard disks | This option is available only for physical devices. |
+   | Add to spare pool after OS reload | This option is available only on physical devices and requires internal approval before it's available on an account.|
+   | Erase all hard disks| This option is available only on physical devices and requires special user permissions set by the account administrator.|
+   | OS reload with disk preservation | This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS reload process. Retains all data on the current primary disk during the OS reload process. Disk preservation converts the primary drive to a portable storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the portable storage device anytime after it was created. |
+   {: caption="Table 3. Post OS reload options" caption-side="top"}
 
 8. Click **Reload with configuration** to proceed to review. Click **Cancel** to cancel the changes to the device and exit the screen.
 
-9. Verify that all details in the _New configuration_ section are correct.  
+9. Verify that all details in the _New configuration_ section are correct.
 
 10. Click **Confirm OS reload** to confirm and initiate the OS reload. Click **Cancel** to cancel the action.
+
+If you receive an error during the OS reload process, check whether the operating system is supported or obsolete. For more help, [open a support case](/docs/get-support?topic=get-support-using-avatar).
+{: tip}
 
 ## What's next?
 {: #what-s-next-reloading-the-os}
 
-After you initiate the OS reload process, the device is taken offline and the OS reload process begins.
+After you start the OS reload process, the device is taken offline, and the OS reload process begins.
 The time period in which an OS reload takes place varies based on the current and new configuration of the device.
 Throughout the configuration process, the minimum time for the OS reload is displayed on each screen.
-The timeframe that is displayed is an estimate that is generated by the system. If the reload takes longer than 24 hours, contact [{{site.data.keyword.cloud}} Support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+The time frame that is displayed is an estimate that is generated by the system. If the reload takes longer than 24 hours, contact [{{site.data.keyword.cloud}} Support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 When the device returns online, it functions as specified in the new configuration for the OS reload. All data that was saved to the device is lost, but can be restored if you created a backup of the device before the OS reload. If data wasn't backed up, it cannot be retrieved.
 

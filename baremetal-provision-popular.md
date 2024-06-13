@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2022
+  years: 2017, 2023
 lastupdated: "2021-09-20"
 
 keywords: popular servers, fast provisioning
@@ -18,7 +18,7 @@ subcollection: bare-metal
 {: #bm-select-popular-servers}
 
 The servers in the fast provisioning list are preconfigured to meet the needs of most client use cases, and they are ready to run in 30 - 40 minutes after you order them.
-1. Open the [{{site.data.keyword.cloud}} catalog](https://cloud.ibm.com/catalog){: external}.   
+1. Open the [{{site.data.keyword.cloud}} catalog](https://cloud.ibm.com/catalog/){: external}.   
 2. Select **Bare Metal Server**.
 3. Click **Continue**. If you do not see **Continue**, you might need to log in.
 4. In the {{site.data.keyword.baremetal_short}} section, select the following information:
@@ -44,7 +44,6 @@ The servers in the fast provisioning list are preconfigured to meet the needs of
 10. Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The _provisioning complete email_ includes a link to your *Device Details* page so that you can log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud}} console.
-
 
 ## Next Steps
 {: #prov-popular-next}

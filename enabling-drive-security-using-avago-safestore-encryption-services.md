@@ -14,7 +14,6 @@ subcollection: bare-metal
 {: #enabling-drive-security-by-using-avago-safestore-encryption-services}
 
 Setting up drive security helps prevent access to stored data on removed disks without a security key. The drive data can't be recovered without this key. {{site.data.keyword.cloud}} provides Self-Encrypting Drives (SED) at select data centers for the drives that can be bought on a Bare metal server. 10 TB SATA drives are available in our US data centers.
-{: shortdesc}
 
 ## Prerequisites
 {: #prerequisites-enabling-drive-security-by-using-avago-safestore-encryption-services}
@@ -37,8 +36,7 @@ You can open MegaRAID Storage Manager by using the system credentials. In the ex
 
 When you start MSM, you must enter **User name** and **Password** which is the privileged user (Administrator) and password.
 
-Click the **Physical** tab and click the drives that are available on the system. The **Properties** pane has the
-**Drive Security Properties** section that includes **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
+Click the **Physical** tab and click the drives that are available on the system. The **Properties** pane has the **Drive Security Properties** section that includes **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
 
 ### Enabling drive security on the controller
 {: #enabling-drive-security-at-the-controller}

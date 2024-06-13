@@ -2,7 +2,9 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-03-15"
+
+lastupdated: "2024-06-06"
+
 
 keywords: no os, no operating system, server with no os
 
@@ -24,11 +26,24 @@ Use the following steps to order a bare metal server without an operating system
 
 1. Use the steps that are outlined in [Building a Custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) to order your server.
 
-   Because of compatibility issues, you can't select NMVe drives if you're installing Windows&reg;. 
+
+   Because of compatibility issues, you can't select NMVe drives if you're going to install Windows&reg;.
    {: important}
 
 2. Select **No OS** under **Image**.
 3. Complete your server order.
+
+## Reloading to no OS
+{: #reloading-to-no-os}
+
+If you ordered your server without an OS you want to reset it to a like-new configuration without an OS again, this reconfiguration is done through an OS Reload. For more information, see [Reloading the OS](/docs/bare-metal?topic=bare-metal-reloading-the-os).
+
+1. Click **Devices** > **Device List**.
+2. Select the server that you want to reconfigure with no OS.
+3. Click **OS Reload** and enter the applicable information.
+
+If you ordered a server with an operating system that is licensed through {{site.data.keyword.cloud}}, or if you reloaded your no OS server to have an operating system from {{site.data.keyword.cloud}}, the "no OS" option is no longer available. To revert to a no OS server, you need to cancel the existing server and order it again with the no OS option.
+   {: important}
 
 ## Installing an operating system on a no OS server
 {: #installing-os-on-no-os-server}

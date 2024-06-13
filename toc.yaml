@@ -13,7 +13,6 @@ toc:
     label: Bare Metal Servers for Classic
 #  List the getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
-
   - navgroup:
       id: learn
       topics:
@@ -25,7 +24,6 @@ toc:
       - bm-about-custom-image-templates.md
       - bare-metal-reserved.md
       - about-SGX.md
-      - about-Optane.md
       - about-NVMe.md
       - what-raid.md
       - topicgroup:
@@ -45,7 +43,6 @@ toc:
       - bare-metal-virtualization.md
       - bare-metal-sap-applications.md
       - release-notes.md
-
   - navgroup:
       id: howto
       topics:
@@ -99,7 +96,6 @@ toc:
           - what-raid-monitoring-daemon-named.md
           - creating-and-adjusting-raid-configurations-adaptec.md
           - enabling-drive-security-using-avago-safestore-encryption-services.md
-
       - topicgroup:
           label: Backing up and recovering
           topics:
@@ -116,12 +112,12 @@ toc:
           - cancel_spare_pool.md
           - reactivating_spare_pool_device.md
           - spare-pool-API-methods.md
-
       - topicgroup:
           label: Software
           topics:
           - order.md
           - vsi_reload_os.md
+          - vsi_reload_os_image.md
           - migrating-to-centos-stream.md
           - cpcompmanlic.md
           - software-passwords.md
@@ -136,13 +132,11 @@ toc:
               - configR1Soft.md
               - r1SoftUpgrade.md
               - r1soft-cdp-bare-metal-restore-procedures.md
-
   - navgroup:
       id: reference
       topics:
       - bm-activity-tracker-events.md
       - high-availability.md
-
   - navgroup:
       id: help
       topics:
@@ -162,3 +156,28 @@ toc:
           label:  Troubleshooting
           topics:
           - troubleshooting-bare-metal.md
+      - topicgroup:
+          label:  Troubleshooting server connectivity
+          topics:
+          - troubleshooting_connectivity_issues.md
+          - troubleshooting_cannot_access_internet.md
+          - troubleshooting_port_disconnected.md
+          - troubleshooting_IPMI_not_accessible.md
+          - troubleshooting_cannot_connect_remote_console.md
+          - troubleshooting_packet_loss.md
+          - troubleshooting_rdp_not_working.md
+          - troubleshooting_firewall_blocking_ssh.md
+          - troubleshooting_port_not_configured_ssh_.md
+          - troubleshooting_server_not_responding.md
+          - troubleshooting_cannot_connect_public_ip.md
+          - troubleshooting_public_gateway_not_configured.md
+          - troubleshooting_ping_DNS_servers.md
+      - topicgroup:
+          label:  Troubleshooting managing the server
+          topics:
+          - troubleshooting_firmware.md
+          - troubleshooting_reclaim.md
+          - troubleshooting_disks_not_displaying_OS.md
+          - troubleshooting_pending_windows_update.md
+          - troubleshooting_esxi_server_psod.md
+          - troubleshooting_cannot_access_cPanel.md
