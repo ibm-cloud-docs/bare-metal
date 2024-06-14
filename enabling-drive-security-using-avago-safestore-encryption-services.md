@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2022
+  years: 2014, [{CURRENT_YEAR}]
 lastupdated: "2022-04-01"
 
 subcollection: bare-metal
@@ -14,6 +14,7 @@ subcollection: bare-metal
 {: #enabling-drive-security-by-using-avago-safestore-encryption-services}
 
 Setting up drive security helps prevent access to stored data on removed disks without a security key. The drive data can't be recovered without this key. {{site.data.keyword.cloud}} provides Self-Encrypting Drives (SED) at select data centers for the drives that can be bought on a Bare metal server. 10 TB SATA drives are available in our US data centers.
+{: shortdesc}
 
 ## Prerequisites
 {: #prerequisites-enabling-drive-security-by-using-avago-safestore-encryption-services}
