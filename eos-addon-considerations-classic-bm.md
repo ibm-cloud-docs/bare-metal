@@ -1,7 +1,8 @@
+<staging>
 ---
 
 copyright:
-  years: 2023
+  years: 2023, [{CURRENT_YEAR}]
 lastupdated: "2023-10-17"
 
 keywords:
@@ -15,7 +16,6 @@ subcollection: bare-metal
 # End of support add ons considerations
 {: #eos-os-addon-bm-classic-intro}
 
-intro text
 
 ### MongoDB Community Edition 1.0 EOS
 
@@ -63,3 +63,4 @@ For existing customers, upgrade to the latest version.
    * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
    * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
 * IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MySQL. However, this migration support does come with a cost.
+</staging>
