@@ -123,7 +123,6 @@ toc:
           - software-passwords.md
           - adding-ipv6-ubuntu-systems.md
           - install-clamav.md
-          - notify-users-approaching-bandwidth-limitation-cpanelwhm.md
           - local-wsus.md
           - topicgroup:
               label: R1Soft
