@@ -166,7 +166,6 @@ toc:
           - troubleshooting_rdp_not_working.md
           - troubleshooting_firewall_blocking_ssh.md
           - troubleshooting_port_not_configured_ssh_.md
-          - troubleshooting_server_not_responding.md
           - troubleshooting_cannot_connect_public_ip.md
       - topicgroup:
           label:  Troubleshooting managing the server
