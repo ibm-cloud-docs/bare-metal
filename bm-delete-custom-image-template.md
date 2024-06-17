@@ -32,7 +32,7 @@ When you delete an image template, it can't be retrieved and is permanently remo
 
 Use the following steps to delete an image.
 
-1. From your Devices images list, find the image that you want to delete and click the **Action menu** icon ![Actions icon](../../icons/action-menu-icon.svg).
+1. From your Devices images list, find the image that you want to delete and click the **Action menu** icon ![Action menu icon](../../icons/action-menu-icon.svg).
 2. Click **Delete image**. 
 3. In the Delete dialog box, click **Delete**.
 4. The image is deleted.

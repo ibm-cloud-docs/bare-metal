@@ -42,9 +42,9 @@ Bare Metal Servers
     Provisioning
         baremetal-provision-popular.md
         baremetal-provision.md
+        bm-datacenter-overview.md
         bare-metal-provision-SGX.md
         bm_provision_ssd.md
-        bm-datacenter-overview.md
 
     /virtual-servers/virtual-servers-navigating-devices
 
@@ -120,8 +120,8 @@ Bare Metal Servers
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-      get-help-and-support.md
-      raid-support.md
+    get-help-and-support.md
+    raid-support.md
 
     {: .topicgroup}
     FAQs
@@ -129,9 +129,8 @@ Bare Metal Servers
         [FAQs: Servers (general)](/virtual-servers/virtual-servers-faqs-servers-general-)
         os-reload-question-faq.md
         faqs-image-templates.md
-        
+
     {: .topicgroup}
     Troubleshooting  
         troubleshooting-bare-metal.md
-    {: .navgroup-end}
     {: .navgroup-end}

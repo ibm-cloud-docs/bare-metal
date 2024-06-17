@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-04-01"
+  years: 2014, 2024
+lastupdated: "2024-06-17"
 
 subcollection: bare-metal
 
@@ -35,10 +35,9 @@ MegaRAID Storage Manager comes preinstalled on most supported operating systems.
 
 You can open MegaRAID Storage Manager by using the system credentials. In the example, a Windows environment is used and MSM is preinstalled.
 
-When you start MSM, you must enter **User name** and **Password** which is the privileged user (Administrator) and password.
+When you start MSM, you must enter your **Username** and **Password that is the privileged user (Administrator) and password.
 
-Click the **Physical** tab and click the drives that are available on the system. The **Properties** pane has the
-**Drive Security Properties** section that includes **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
+Click the **Physical** tab and click the drives that are available on the system. The **Properties** pane has the **Drive Security Properties** section that includes the **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
 
 ### Enabling drive security on the controller
 {: #enabling-drive-security-at-the-controller}
@@ -48,14 +47,14 @@ Click the **Physical** tab and click the drives that are available on the system
    - When drive security is enabled, a yellow key image appears for **Controller 0 AVAGO MegaRAID SAS 9361-8i**.
 
 1. Now create a secure volume by using the SEDs. Right-click **Controller0** from the **Logical** tab and select **Create Virtual Drive**.
-1. Choose the **Advanced** option. The screen needs to specify the **RAID level** and the **Drive security method** as **Full Disk encryption (FDE)**. 
+1. Choose the **Advanced** option. The screen needs to specify the **RAID level** and the **Drive security method** as **Full Disk encryption (FDE)**.
 1. Select the FDE Drives that are required and click **Add** > **Create Drive Group** > **Next**.
-1. Review the virtual drive settings and make any necessary changes. 
-   - The suggested setting for the **Read Policy** is **Always Read Ahead**. 
-   - The suggested setting for the **Write policy** is **Write Back**. 
+1. Review the virtual drive settings and make any necessary changes.
+   - The suggested setting for the **Read Policy** is **Always Read Ahead**.
+   - The suggested setting for the **Write policy** is **Write Back**.
 
-1. Click **Create Virtual Drive**. 
-1. Accept the Write Back policy impact due to BBU by clicking **Yes**. Then, click **Next** and review the summary screen. 
+1. Click **Create Virtual Drive**.
+1. Accept the Write Back policy impact due to BBU by clicking **Yes**. Then, click **Next** and review the summary screen.
 1. Click **Finish**.
 1. To confirm that the virtual disk is secured, click the **Logical** tab and the virtual drive that was created. You see in the **Drive Security Properties** that the **Secured** field is marked **Yes**.
 
@@ -64,11 +63,11 @@ Click the **Physical** tab and click the drives that are available on the system
 
 If the server came with RAID volumes that are already created by using SED drives, you can make the volume secure by completing the following step.
 
-1. In the **Logical** tab, right-click **Drive Group** and select **Secure Using FDE**. 
+1. In the **Logical** tab, right-click **Drive Group** and select **Secure Using FDE**.
 
    If you mixed FDE and Non-FDE drives for a volume, then this option is not visible.
    {: note}
-   
+
 You can also set up drive security by using webBIOS and logging in through the IPMI at the start time and entering the RAID BIOS.
 
 ### Removing drive security

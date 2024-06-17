@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-13"
+lastupdated: "2022-06-16"
 
-keywords: 
+keywords:
 
 subcollection: bare-metal
 

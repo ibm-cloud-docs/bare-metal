@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2021
 lastupdated: "2018-08-14"
 
-keywords: R1Soft , backup manager, firewall
+keywords: R1Soft, backup manager, firewall
 
 subcollection: bare-metal
 

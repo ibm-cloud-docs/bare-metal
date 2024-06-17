@@ -44,7 +44,7 @@ The following features and configurations are supported when you create an image
 
 The following operating systems are supported when you create an image template. 
 
-- CentOS 7.x 
+- CentOS 7.x
 - RHEL 7.x, 8.x
 - Ubuntu 18, 20
 - Windows 2012 R2, 2016, 2019
