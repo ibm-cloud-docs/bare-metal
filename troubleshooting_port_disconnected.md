@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-04"
+  years: 2023, 2024
+lastupdated: "2024-06-17"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -19,7 +19,7 @@ content-type: troubleshoot
 {: troubleshoot}
 {: support}
 
-Your bare metal server is showing as down or disconnected, but it's up and running. 
+Your bare metal server is showing as down or disconnected, but it's up and running.
 {: tsSymptoms}
 
 {{site.data.keyword.cloud}} uses a ping test to determine whether your bare metal server is connected or disconnected. If you see that your server status is disconnected, but the server is running, then one of the following issues might be the cause.
@@ -65,7 +65,7 @@ Use one of the following options to resolve the issue.
    Ping monitoring is enabled when a server is provisioned, but it needs to be configured. Use the following steps to configure the server.
 
    1. Log in to {{site.data.keyword.cloud}} and open the device details for the server.
-   1. Click **Monitoring**. You can configure the IP address to be pinged, the type of ping, and the users to be notified. 
+   1. Click **Monitoring**. You can configure the IP address to be pinged, the type of ping, and the users to be notified.
    1. If you are getting many false alerts, select **Slow ping** and use a private IP. Slow ping doesn't fail because of slow server response that is caused by high latency or high server load.
 
-If your server status is still down or disconnected, see [Getting help and support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp) and contact IBM Support. When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.  
+If your server status is still down or disconnected, see [Getting help and support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp) and contact IBM Support. When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.

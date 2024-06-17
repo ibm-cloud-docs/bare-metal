@@ -169,7 +169,6 @@ toc:
           - troubleshooting_server_not_responding.md
           - troubleshooting_cannot_connect_public_ip.md
           - troubleshooting_public_gateway_not_configured.md
-          - troubleshooting_ping_DNS_servers.md
       - topicgroup:
           label:  Troubleshooting managing the server
           topics:
