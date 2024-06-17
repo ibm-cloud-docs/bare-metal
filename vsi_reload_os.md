@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2019, 2023
+  years: 2019, 2024
 lastupdated: "2023-10-11"
 
 keywords: OS Reload, operating system
