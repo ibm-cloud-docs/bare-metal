@@ -168,7 +168,6 @@ toc:
           - troubleshooting_port_not_configured_ssh_.md
           - troubleshooting_server_not_responding.md
           - troubleshooting_cannot_connect_public_ip.md
-          - troubleshooting_public_gateway_not_configured.md
       - topicgroup:
           label:  Troubleshooting managing the server
           topics:
