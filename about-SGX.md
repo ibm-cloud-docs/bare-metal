@@ -3,7 +3,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-06-07"
+lastupdated: "2024-06-17"
 
 keywords: intel sgx, sgx, Intel Software Guard Extension
 
