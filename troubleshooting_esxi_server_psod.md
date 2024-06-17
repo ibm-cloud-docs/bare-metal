@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-08-24"
+  years: 2023, 2024
+lastupdated: "2024-06-17"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -14,27 +14,23 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why does ESXi server show Purple Screen of Diagnostics (PSOD)
+# Why does my ESXi server show Purple Screen of Diagnostics (PSOD)
 {: #bm-troubleshoot-bm-esxi-psod}
 {: troubleshoot}
 {: support}
 
-If you receive Purple Screen of Diagnostics (PSOD) on an ESXi server, it might be caused by one of the following reasons. 
+If you receive a Purple Screen of Diagnostics (PSOD) on an ESXi server, it might be caused by one of the following reasons.
 
-* A memory fault or error can cause a PSOD.
-   - Restart the server to clear the memory.
-   - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+* A memory fault or other memory errors can cause a PSOD.
 
-* VMWare kernel issues
-   - Restart the server to resolve kernel issues. 
-   - If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
-   - For more information about VMWare kernel issues, see this VMWare [technote](https://kb.vmware.com/s/article/1004250). 
+To fix a memory fault, restart the server to clear the memory.
 
-If your service has this problem, you'll see this symptom.
-{: tsSymptoms}
+If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
-This problem is caused by this action happening.
-{: tsCauses}
+* VMWare kernel issues.
 
-You can fix the problem by taking this action.
-{: tsResolve}
+To fix a VMWare kernel issue, restart the server.
+
+If the problem persists, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+For more information about VMWare kernel issues, see [VMWare technote](https://kb.vmware.com/s/article/1004250).{: external}

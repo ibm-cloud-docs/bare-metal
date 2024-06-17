@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2023, [{CURRENT_YEAR}]
+  years: 2023
 lastupdated: "2023-11-27"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
@@ -24,7 +24,7 @@ You are trying to access the admin console for cpanel by opening the URL with ei
 - Server name: https://servername:2083
 - Server IP address: https://youripaddress:2083
 
-However, when you try to access the cPanel console by using these methods, you can't connect.
+However, when you try to access the cPanel console using these methods, you are unable to connect. 
 {: tsSymptoms}
 
 This problem can be caused by a few different issues.
@@ -36,9 +36,9 @@ This problem can be caused by a few different issues.
 You can check the cPanel status. You can also stop and restart the service if required.
 {: tsResolve}
 
-Log in to your server and run the following commands.
+Log onto your server and run the following commands.
 
-1. Check the service status by using the following command.
+1. First, check the Service Status
 
    ```
    service cpanel status
@@ -46,18 +46,17 @@ Log in to your server and run the following commands.
    ```
    {: pre}
 
-2. If the service status displays *Stop*, then start the service by using the following command.
-
+2. If the Service Status is Stop, then start the Service
+ 
    ```
    service cpanel start
    /etc/init.d/cpanel start
    ```
    {: pre}
 
-3. If the service is started, then stop and restart it by using the following commands.
+3. If the service is started, then stop the Service and restart it.
 
    - Stop the service
-
       ```
       service cpanel stop
       /etc/init.d/cpanel stop
@@ -72,6 +71,11 @@ Log in to your server and run the following commands.
       ```
       {: pre}
 
-For more information, see the [cPanel documentation](https://docs.cpanel.net/knowledge-base/accounts/from-whm-to-website/#overview){: external}.
+For more information, see the [cPanel documentation](https://docs.cpanel.net/knowledge-base/accounts/from-whm-to-website/#overview){: external} 
 
-If you are still unable to access the cPanel console, create a support case for assistance. For more information, see [Getting help and support for virtual servers](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support). In the support case, provide all the details of the troubleshooting steps that you completed.
+If you are still unable to access the cPanel console, create a support case for assistance. For more information, see [Getting help and support for virtual servers](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support). In the support case, provide all the details of the troubleshooting steps you completed.
+
+
+
+
+

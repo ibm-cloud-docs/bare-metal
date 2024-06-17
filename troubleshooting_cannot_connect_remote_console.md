@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-04"
+  years: 2023, 2024
+lastupdated: "2024-06-17"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -43,5 +43,5 @@ Always make sure that the IPMI firmware is up to date. Use the following steps t
 2. On the left menu, click **Firmware** to check whether the IPMI firmware is up to date.
 
 If none of these suggestions fixes the issue, [contact support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp), providing details on the troubleshooting steps you carried out and on their results.
- 
+
 {: tsResolve}

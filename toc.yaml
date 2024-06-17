@@ -163,7 +163,6 @@ toc:
           - troubleshooting_port_disconnected.md
           - troubleshooting_IPMI_not_accessible.md
           - troubleshooting_cannot_connect_remote_console.md
-          - troubleshooting_packet_loss.md
           - troubleshooting_rdp_not_working.md
           - troubleshooting_firewall_blocking_ssh.md
           - troubleshooting_port_not_configured_ssh_.md
@@ -176,7 +175,5 @@ toc:
           topics:
           - troubleshooting_firmware.md
           - troubleshooting_reclaim.md
-          - troubleshooting_disks_not_displaying_OS.md
-          - troubleshooting_pending_windows_update.md
           - troubleshooting_esxi_server_psod.md
           - troubleshooting_cannot_access_cPanel.md
