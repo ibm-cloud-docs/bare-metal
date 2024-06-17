@@ -172,6 +172,5 @@ toc:
           label:  Troubleshooting managing the server
           topics:
           - troubleshooting_firmware.md
-          - troubleshooting_reclaim.md
           - troubleshooting_esxi_server_psod.md
           - troubleshooting_cannot_access_cPanel.md
