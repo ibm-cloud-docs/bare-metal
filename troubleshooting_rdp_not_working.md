@@ -47,7 +47,6 @@ To resolve RDP issues, try the following troubleshooting tasks:
    You can verify whether the VPN connection is working by sending a ping the IBM Cloud DNS resolver IPs at 10.0.80.11 and 10.0.80.12. If successful, then the VPN connection is working.
 {: tip}
 
-
 - RDP traffic is blocked by the Windows firewall
 
    Verify that the RDP traffic is being blocked by the Windows firewall by logging in to the server by using the IPMI emote console, disable the Windows firewall, and then try logging in to the server by using RDP again.
@@ -121,7 +120,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
    Use the following steps
 
    1. Connect to your bare metal server by using IPMI remote console.
-   1. Verify whether the RDP service is running by running `  net start | find “Remote Desktop Services”` in PowerShell. If the service is running, the output of the command is displayed.
+   1. Verify whether the RDP service is running by running `net start | find “Remote Desktop Services”` in PowerShell. If the service is running, the output of the command is displayed.
    1. To verify that your bare metal server is listening on port 3389, run `netstat -an` in PowerShell. If it is listening, you see a line like this in the output.
 
       ```screen
