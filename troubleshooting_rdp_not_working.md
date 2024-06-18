@@ -78,19 +78,9 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
    If more than two users attempt to RDP to a server at the same time, you might see the following error messages.
 
-   ```markdown
-   > This remote session was disconnected because you don't have any Remote Desktop License Servers available to provide a license.
-   ```
-   {: codeblock}
-
-   ```markdown
-   > The remote session was disconnected because of an error that is related to licensing in terminal server.
-   ```
-   {: codeblock}
-
-   ```markdown
-   > The remote session was disconnected because you don't have any Remote Desktop client access licenses available for this computer.
-   {: codeblock}
+   * This remote session was disconnected because you don't have any Remote Desktop License Servers available to provide a license.
+   * The remote session was disconnected because of an error that is related to licensing in the terminal server.
+   * The remote session was disconnected because you don't have any Remote Desktop client access licenses available for this computer.
 
    You can check the number of licenses that are installed on your bare metal server and determine how many of the licenses were issued by using the following steps.
 
@@ -110,7 +100,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
    If your server has pending Windows updates, use the following steps.
 
-   1. Connect to the server by using RDP.
+   1. Connect to the server by using the IPMI remote desktop.
    1. Install the most recent Windows updates.
    1. After the updates are installed, restart the server.
    1. Access RDP.
@@ -120,13 +110,10 @@ To resolve RDP issues, try the following troubleshooting tasks:
    Use the following steps
 
    1. Connect to your bare metal server by using IPMI remote console.
-   1. Verify whether the RDP service is running by running `net start | find “Remote Desktop Services”` in PowerShell. If the service is running, the output of the command is displayed.
-   1. To verify that your bare metal server is listening on port 3389, run `netstat -an` in PowerShell. If it is listening, you see a line like this in the output.
+   1. Verify whether the RDP service is running by running `net start | find “Remote Desktop Services”` in PowerShell. If the service is running, the output is displayed.
+   1. To verify that your bare metal server is listening on port 3389, run `netstat -an` in PowerShell. If it is listening, you see a line like the following example in the output.
 
-      ```screen
-      TCP 0.0.0.0:3389 0.0.0.0:0 LISTENING
-      ```
-      {: codeblock}
+      `TCP 0.0.0.0:3389 0.0.0.0:0 LISTENING`
 
 - The network interfaces are not enabled
 
@@ -174,7 +161,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
    1. Log in to your server by using IPMI remote desktop.
    1. Open **File Explorer**.
-   1. Right-click on  **This PC**, then click **Properties**.
+   1. Right-click **This PC**, then click **Properties**.
    1. Click **Remote Setting**.
    1. Clear **Allow connections only from computers that are running Remote desktop with Network Level Authentication (recommended)**.
 
@@ -183,6 +170,6 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
 - Extra resources
 
-For additional information on possible RDP issues, see the [General Remote Desktop connection Troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external} documentation by Microsoft.
+For more information about possible RDP issues, see [General Remote Desktop connection Troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external}.
 
-If you are still unable to connect to your server by using RDP, see [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting you completed.
+If you still can't connect to your server by using RDP, see [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting that you completed.
