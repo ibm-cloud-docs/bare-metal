@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-03-22"
+lastupdated: "2024-07-10"
 
 keywords: bare metal release notes
 
@@ -21,10 +21,20 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
+## July 2024
+{: #bare-metal-jul24}
+
+### 10 July 2024
+{: #bare-metal-jul102024}
+{: release-note}
+
+Ubuntu 24.04
+:   {{site.data.keyword.baremetal_long}} now supports Ubuntu 24.04. For more information. see [Ubuntu 24.04 (Noble Numbat)](https://releases.ubuntu.com/noble/){: external}.
+
 ## March 2024
 {: #bare-metal-mar24}
 
-26 March 2024
+### 26 March 2024
 {: #bare-metal-mar242024}
 {: release-note}
 
