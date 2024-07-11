@@ -18,7 +18,7 @@ content-type: release-note
 # Release notes for {{site.data.keyword.baremetal_long}}
 {: #release-notes}
 
-Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
+Use the release notes to learn about the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
 ## July 2024
