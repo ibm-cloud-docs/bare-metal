@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-07-10"
+lastupdated: "2024-07-11"
 
 keywords: bare metal release notes
 
@@ -23,6 +23,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## July 2024
 {: #bare-metal-jul24}
+
 
 ### 10 July 2024
 {: #bare-metal-jul102024}
