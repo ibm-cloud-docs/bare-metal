@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-07-10"
+lastupdated: "2024-07-11"
 
 keywords: bare metal release notes
 
@@ -23,6 +23,14 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## July 2024
 {: #bare-metal-jul24}
+
+### 11 July 2024
+{: #bare-metal-jul112024}
+{: release-note}
+
+Custom power profiles for VMware ESXi
+:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions.
+
 
 ### 10 July 2024
 {: #bare-metal-jul102024}
