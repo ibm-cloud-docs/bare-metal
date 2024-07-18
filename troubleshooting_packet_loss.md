@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-07-18"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -57,10 +57,6 @@ MTR
 
    Keep in mind that what might look like a packet loss, it might not be a packet loss.
 
-   The following image is an example of an MTR output from Windows to google.com
-
-![image](https://media.github.ibm.com/user/278715/files/5172bd00-425e-4f7b-9b9b-19458d71e092)
-
    Although you might think that a packet loss happened on the 5th hop, but it isn't a packet loss because the subsequent and final hops show no losses. A packet loss at one hop on the path doesn’t mean that something is wrong with routing. Nor does it mean that the path is congested. When you see an output that shows a loss, it’s usually because of ICMP limits that are set on the router (ICMP rate limiting). If the loss increases with every hop and continues to the end point, then a packet loss is probably the issue.
 
 Packet loss can be caused by the following issues.
@@ -77,5 +73,5 @@ Packet loss can be caused by the following issues.
 
    * Determine whether the packet loss is happening at a specific time of day and whether something is running on your server during that time of day.
 
-   If you can't fix the packet loss issue, then [contact IBM Cloud support](/docs/bare-metal?topic=bare-metal-gettinghelp), providing the ping, traceroute and MTR outputs as described.
+   If you can't fix the packet loss issue, then [contact IBM Cloud support](/docs/bare-metal?topic=bare-metal-gettinghelp), providing the ping, traceroute, and MTR outputs as described.
    {: tsResolve}
