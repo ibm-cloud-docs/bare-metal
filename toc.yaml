@@ -168,7 +168,6 @@ toc:
           - troubleshooting_firewall_blocking_ssh.md
           - troubleshooting_port_not_configured_ssh_.md
           - troubleshooting_cannot_connect_public_ip.md
-          - troubleshooting_packet_loss.html
       - topicgroup:
           label:  Troubleshooting managing the server
           topics:
