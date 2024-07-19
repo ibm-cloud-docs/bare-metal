@@ -106,14 +106,6 @@ toc:
               href: /virtual-servers/virtual-servers-launching-rescue
           - bare-metal-veeam-o365.md
       - topicgroup:
-          label: Managing spare pools
-          topics:
-          - spare-pools-access.md
-          - add_spare_pool.md
-          - cancel_spare_pool.md
-          - reactivating_spare_pool_device.md
-          - spare-pool-API-methods.md
-      - topicgroup:
           label: Software
           topics:
           - order.md
