@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-06-19"
+  years: 2017, 2024
+lastupdated: "2024-07-19"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -21,8 +21,8 @@ Public data network traffic that is transferred Outbound from {{site.data.keywor
 ## Before you begin
 {: #bm-bandwidth-graphs-before}
 
-* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+* Go to your console's device menu.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
@@ -33,9 +33,9 @@ To view your bandwidth graphs, follow these steps:
 
 1. Click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Classic Infrastructure** > **Network** > **Bandwidth**.
 2. Select the type of network usage (public or private) from the **View** list.
-3. Select the time period for the graph from the **View By** drop-down list. Preset date ranges are most commonly queried. For a custom date range, select **Custom Date Range**.
+3. Select the time period for the graph from the **View By** drop-down list. Preset date ranges are most commonly queried. For a custom date range, select **Custom date range**.
 4. Select the start and end dates from the corresponding drop-down calendars.
-5. Click **Draw Graph**.
+5. Click **Draw graph**.
 
 ## Optimizing your bandwidth usage
 {: #bm-optimize-bandwidth-usage}
