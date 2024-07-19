@@ -42,7 +42,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
 ## The VPN is not connected
 {: #bm-ts-vpn-not-connected}
 
-   To connect to a server's private IP through RDP, you must first establish an SSL VPN connection to {{site.data.keyword.cloud}} as described in [Getting started with {{site.data.keyword.cloud}} Virtual Private Networking](https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started)
+   To connect to a server's private IP through RDP, you must first establish an SSL VPN connection to {{site.data.keyword.cloud}} as described in [Getting started with {{site.data.keyword.cloud}} Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started)
 
    You can verify whether the VPN connection is working by sending a ping to the {{site.data.keyword.cloud}} DNS resolver IPs at 10.0.80.11 and 10.0.80.12. If successful, then the VPN connection is working.
 {: tip}
