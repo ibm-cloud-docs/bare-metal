@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-17"
+lastupdated: "2024-07-19"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -41,4 +41,4 @@ If you are still seeing connectivity problems, gather the following information 
 
 For more information about collecting MTR information, see [How do you collect MTR data](https://www.ibm.com/support/pages/how-do-you-collect-mtr-data)?
 
-When you contact Support, provide the MTR, traceroute, ping information, and the source and destination IP addresses for all tests. Without this information, the support team cannot investigate network connectivity issues. For more information about contacting support, see [Getting help and support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp).
+When you contact Support, provide the MTR, traceroute, ping information, and the source and destination IP addresses for all tests. Without this information, the support team cannot investigate network connectivity issues. For more information about contacting support, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar).
