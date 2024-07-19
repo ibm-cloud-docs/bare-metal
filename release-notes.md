@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-07-11"
+lastupdated: "2024-07-19"
 
 keywords: bare metal release notes
 
@@ -73,7 +73,7 @@ Intel&reg; 'Speed Select' for the Sapphire Rapids processors
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Select availability)
-:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ## December 2023
 {: #bare-metal-dec23}
@@ -162,7 +162,7 @@ RAID controllers to support Intel Sapphire Rapids CPUs
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   Intel Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   Intel Sapphire Rapids CPUs now support Debian 11, Microsoft Windows 19 & 2022, Rocky Linux 8, Ubuntu 22.04. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ## February 2023
 {: #bare-metal-feb23}
@@ -182,7 +182,7 @@ Ubuntu 22.04
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   You can now select an Intel Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#intel-sapphire-rapids-cpu-support).
+:   You can now select an Intel Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ### 09 January 2023
 {: #bare-metal-jan0923}
@@ -236,7 +236,7 @@ Intel Xeon 8260 CPU
 {: release-note}
 
 25 Gbps port space is now available
-:   You can now use 25 Gbps port speed on select Cascade Lake processor servers. For more information about 25 Gbps port speed, see the 25 Gbps port speed section of the Bare Metal Servers [Network options](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-network-options#25-gbps-port-speed) topic.
+:   You can now use 25 Gbps port speed on select Cascade Lake processor servers. For more information about 25 Gbps port speed, see the 25 Gbps port speed section of the Bare Metal Servers [Network options](/docs/bare-metal?topic=bare-metal-network-options#25-gbps-port-speed) topic.
 
 ## Aug 2020
 {: #bare-metal-aug20}
@@ -293,7 +293,7 @@ AMD CPU support
 {: release-note}
 
 Veeam backup for Office 365
-:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software-defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-backup-for-office-365).
+:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software-defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-for-o365).
 
 ## October 2019
 {: #bare-metal-oct19}
@@ -343,7 +343,7 @@ Contract term pricing
 {: release-note}
 
 Spare pools
-:   The Spare Pool screen in the {{site.data.keyword.cloud}} allows users to manage the spare pool of devices associated with the account. Each device in the spare pool can be used as a backup device if more devices are needed. For more information, see [Spare pools](/docs/bare-metal?topic=bare-metal-bm-about-spare-pools).
+:   The Spare Pool screen in the {{site.data.keyword.cloud}} allows users to manage the spare pool of devices associated with the account. Each device in the spare pool can be used as a backup device if more devices are needed.
 
 ## March 2018
 {: #bare-metal-mar18}
