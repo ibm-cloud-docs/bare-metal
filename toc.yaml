@@ -158,7 +158,7 @@ toc:
           - troubleshooting_cannot_connect_remote_console.md
           - troubleshooting_rdp_not_working.md
           - troubleshooting_firewall_blocking_ssh.md
-          - troubleshooting_port_not_configured_ssh_.md
+          - troubleshooting_port_not_configured_SSH.md
           - troubleshooting_cannot_connect_public_ip.md
       - topicgroup:
           label:  Troubleshooting managing the server
