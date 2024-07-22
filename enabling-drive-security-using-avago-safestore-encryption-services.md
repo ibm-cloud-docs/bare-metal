@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-06-17"
+lastupdated: "2024-07-22"
 
 subcollection: bare-metal
 
@@ -20,30 +20,30 @@ Setting up drive security helps prevent access to stored data on removed disks w
 {: #prerequisites-enabling-drive-security-by-using-avago-safestore-encryption-services}
 
 * Bare metal server with SED Drives – 10 TB SATA
-* Broadcom/AVAGO MegaRAID SAS 9361 -8i or Similar Broadcom/AVAGO RAID cards
+* AVAGO MegaRAID SAS 9361 -8i or Similar AVAGO RAID cards
 * Installed Mega RAID Storage Manager Software
 
 ## Enabling drive security by using MegaRAID Storage Manager (MSM)
 {: #enabling-drive-security-by-using-megaraid-storage-manager-msm-}
 
-Use can set the security key and safe guard data in a removed disk by using the MegaRAID Storage Manager. You can also use the WebBIOS interface that requires a security key at server start time to enter the MegaRAID card BIOS to configure the drive security setting. For more information about MegaRAID Controller Card SAS 9361-8i, see the Broadcom [MegaRAID SAS 9361-8i](https://www.broadcom.com/products/storage/raid-controllers/megaraid-sas-9361-8i#documentation){: external}.
+Use can set the security key and safe guard data in a removed disk by using the MegaRAID Storage Manager. You can also use the WebBIOS interface that requires a security key at server start time to enter the MegaRAID card BIOS to configure the drive security setting.
 
 ### Identifying preinstalled SED drives
 {: #identifying-preinstalled-sed-drives}
 
-MegaRAID Storage Manager comes preinstalled on most supported operating systems. If they are not present, you can manually install it from theBroadcom site. For more information, see [MegaRAID SAS 9361-8i downloads](https://www.broadcom.com/products/storage/raid-controllers/megaraid-sas-9361-8i#downloads){: external}.
+MegaRAID Storage Manager comes preinstalled on most supported operating systems. If they are not present, you can manually install it from theBroadcom site.
 
-You can open MegaRAID Storage Manager by using the system credentials. In the example, a Windows environment is used and MSM is preinstalled.
+You can open MegaRAID Storage Manager by using the system credentials. In the example, a Windows environment is used to and MSM is preinstalled.
 
-When you start MSM, you must enter your **Username** and **Password that is the privileged user (Administrator) and password.
+When you start MSM, you must enter your **username** and password that is the privileged user (Administrator) and password.
 
-Click the **Physical** tab and click the drives that are available on the system. The **Properties** pane has the **Drive Security Properties** section that includes the **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
+Click the **Physical** tab and click the drives that are available on the system. The **Properties** page has the **Drive Security Properties** section that includes the **Full Disk Encryption capable** field, which shows **Yes**. In the example used, two non-SED disks and four SED disks are used.
 
 ### Enabling drive security on the controller
 {: #enabling-drive-security-at-the-controller}
 
 1. To enable Drive security, right-click the **Controller 0 :AVAGO MegaRAID SAS 9361-8i** from the **Physical** tab and select **Enable Drive Security**.
-   - You can now enter the **Security key identifier** and the **Security key**. If you have multiple security keys, a security key identifier can help you identify which security key that you need to use. You must record the security key in a safe location. The security key is required when you reconfigure drives such as removing or reinserting a drive. Without the security key, it is not possible to retrieve any data that is stored in a volume that is created out of the SEDs. It is not possible to retrieve a forgotten security key. A start time password can also be set, which holds the system pause for a password set here to be entered. The start time password is optional and if it is set you must log in into IPMI and type the start password whenever the system is rebooted. Scroll down and check the box that says **I recorded the security settings for future reference** and click **Yes** to enable drive security.
+   - You can now enter the **Security key identifier** and the **Security key**. If you have multiple security keys, a security key identifier can help you identify which security key that you need to use. You must record the security key in a safe location. The security key is required when you reconfigure drives such as removing or reinserting a drive. Without the security key, it is not possible to retrieve any data that is stored in a volume that is created out of the SEDs. It is not possible to retrieve a forgotten security key. A start time password can also be set, which holds the system pause for a password set here to be entered. The start time password is optional and if it is set you must log in into IPMI and type the start password whenever the system is restarted. Scroll down and check the box that says **I recorded the security settings for future reference** and click **Yes** to enable drive security.
    - When drive security is enabled, a yellow key image appears for **Controller 0 AVAGO MegaRAID SAS 9361-8i**.
 
 1. Now create a secure volume by using the SEDs. Right-click **Controller0** from the **Logical** tab and select **Create Virtual Drive**.
