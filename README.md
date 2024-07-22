@@ -1,6 +1,6 @@
 # Bare metal documentation repo README file
 
-You can submit suggested changes to any documentation page by clicking "Edit topic" at the end of each page. By following that link and editing the page, you can submit updates in a pull request (PR). For more information, see [Submitting pull requests](https://test.cloud.ibm.com/docs/writing?topic=writing-pr). Make sure that you create PRs in the Review branch.
+You can submit suggested changes to any documentation page by clicking "Edit topic" at the end of each page. By following that link and editing the page, you can submit updates in a pull request (PR). See [Submitting pull requests](https://test.cloud.ibm.com/docs/writing?topic=writing-pr) for more information. 
 
 If you want to request a new topic or updates for a new feature, follow the [Client Services Feature Intake Process](https://confluence.swg.usma.ibm.com:8445/display/UI/Client+Services+Feature+Intake+Process).
 
