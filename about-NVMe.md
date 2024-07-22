@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-04-25"
+  years: 2017, 2024
+lastupdated: "2024-07-22"
 
 keywords: NVMe
 subcollection: bare-metal
@@ -18,9 +18,6 @@ Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that s
 {: shortdesc}
 
 NVMe SSDs use the same NAND flash as SATA SSDs but with a faster memory interface. NMVe U.2 SSDs are the same form factor as SATA SSDs (2.5”) and can be used in the same drive bays when hybrid drive bay connectivity is present in the server design.
-
-Check out this [blog post](https://www.ibm.com/cloud/blog/benefits-of-running-high-io-applications-on-ibm-cloud-bare-metal-servers-with-nvme-storage) to see the benefits of running high IO applications with NVMe storage.
-{: tip}
 
 ## Considerations for NVMe SSDs
 {: #NVMe_considerations}
@@ -39,8 +36,6 @@ Keep the following considerations in mind when you are selecting NVMe drives.
 
 Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attributes of storage and memory to create a new storage tier. The drives are available for a selection of {{site.data.keyword.cloud}} {{site.data.keyword.baremetal_long}}.
 {: shortdesc}
-
-For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: external} and [Experience next level compute performance](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
 
 Keep in mind that you can either [order](https://cloud.ibm.com/gen1/infrastructure/provision/bm){: external} an Intel® Optane™ SSD DC P4800X disk or a GPU for your server. You can't order both an Optane drive and GPU on the same server.
 {: important}
