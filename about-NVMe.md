@@ -14,7 +14,7 @@ subcollection: bare-metal
 # NVMe solid-state drives (SSD)
 {: #ordering-nvme-ssd}
 
-Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol uses parallel, low latency data paths to the underlying media. This protocol offers significantly higher performance and less latency compared to traditional SAS and SATA protocols.
+Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol uses parallel, low-latency data paths to the underlying media. This protocol offers significantly higher performance and less latency compared to traditional SAS and SATA protocols.
 {: shortdesc}
 
 NVMe SSDs use the same NAND flash as SATA SSDs but with a faster memory interface. NMVe U.2 SSDs are the same form factor as SATA SSDs (2.5”) and can be used in the same drive bays when hybrid drive bay connectivity is present in the server design.
@@ -26,7 +26,7 @@ Keep the following considerations in mind when you are selecting NVMe drives.
 
 * You can't use an NVMe SSD as the boot disk for a server.
 * NVMe SSDs must be selected as individual drives. You can't select an NVMe SSD from RAID storage groups.
-* The number NVMe SSDs that you can provision depends on the server and PCI slots on the system board. You are limited to three NVMe SSDs.
+* The number of NVMe SSDs that you can provision depends on the server and PCI slots on the system board. You are limited to three NVMe SSDs.
 * The GPUs share PCI slots with the NVMe SSDs. You can't configure more NVMe SSDs than GPUs.
 * Because of compatibility issues, you can’t use NMVe drives with Windows&reg;.
 * NVMe drives are installed in the last four slots of the chassis. {{site.data.keyword.cloud}} automation requires that you install the operating system on drives that are in drive bays 0 and 1 or M.2s. So, you can't install an operating system on an NVMe drive.
