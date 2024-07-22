@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2024
-lastupdated: "2024-01-31"
+lastupdated: "2024-07-22"
 
 keywords:
 
@@ -30,7 +30,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ### Custom-based servers
 {: #custom-based-bm}
 
-If one of the fast-provisioning servers don't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
+If a fast-provisioning server doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
@@ -40,7 +40,7 @@ If one of the fast-provisioning servers don't meet your workload needs, you can 
 ### VMware-certified servers
 {: #vmware-certified-servers}
 
-{{site.data.keyword.BluSoftlayer_full}} provides the unique capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware&reg;-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
+{{site.data.keyword.BluSoftlayer_full}} provides the capability for you to provision dedicated {{site.data.keyword.baremetal_short}} so you can deploy your own VMware&reg;-based private cloud. For more information, see [Getting started with VMware](/docs/vmware?topic=vmware-vmware-getting-started).
 
 ## Advanced hardware options
 {: #options-for-bare-metal-servers}
@@ -72,7 +72,7 @@ Sapphire Rapids processors support the following operating systems:
 ### AMD CPUs
 {: #bm-amd-procs}
 
-AMD EPYC&reg; "Rome" and "Milan" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC family of processors offer several CPU options that offer up to 64 cores per socket.
+AMD EPYC&reg; "Rome" and "Milan" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC processors offer several CPU options that offer up to 64 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -96,7 +96,7 @@ The following operating systems are supported by AMD EPYC "Rome" CPUs:
 Systems must be started in UEFI mode.
 {: note}
 
-For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on IBM Cloud Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external}
+For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on {{site.data.keyword.cloud}} Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external}
 
 ### Intel Cascade Lake CPUs
 {: #bm-cascade-lake-support}
@@ -130,7 +130,7 @@ You can now see what servers are available in what data center when you provisio
 ### Network redundancy
 {: #bm-network-redundancy}
 
-Port redundancy provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
+Port redundancy provides a networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables.
 
 Only one port is active at a time.
 {: note}
@@ -169,8 +169,8 @@ The following add-ons are available when you provision a bare metal server.
 
 | Option | Description |
 |--------|-------------|
-| Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternate power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
-| IBM Cloud Backup | IBM Cloud Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with IBM Cloud Backup](/docs/Backup?topic=Backup-getting-started).|
+| Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternative power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
+| {{site.data.keyword.cloud}} Backup | {{site.data.keyword.cloud}} Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with {{site.data.keyword.cloud}} Backup](/docs/Backup?topic=Backup-getting-started).|
 | Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure. |
 | Intel Software Guard Extensions (SGX) | Intel SGX is used to partition sensitive data into secure enclaves by using a set of security-related application code. You can add SGX when you [provision your bare metal server](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx). |
 | Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
