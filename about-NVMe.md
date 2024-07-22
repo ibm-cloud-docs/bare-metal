@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-04-25"
+  years: 2017, 2024
+lastupdated: "2024-07-22"
 
 keywords: NVMe
 subcollection: bare-metal
@@ -14,13 +14,10 @@ subcollection: bare-metal
 # NVMe solid-state drives (SSD)
 {: #ordering-nvme-ssd}
 
-Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol uses parallel, low latency data paths to the underlying media. This protocol offers significantly higher performance and less latency compared to traditional SAS and SATA protocols.
+Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol uses parallel, low-latency data paths to the underlying media. This protocol offers significantly higher performance and less latency compared to traditional SAS and SATA protocols.
 {: shortdesc}
 
 NVMe SSDs use the same NAND flash as SATA SSDs but with a faster memory interface. NMVe U.2 SSDs are the same form factor as SATA SSDs (2.5”) and can be used in the same drive bays when hybrid drive bay connectivity is present in the server design.
-
-Check out this [blog post](https://www.ibm.com/cloud/blog/benefits-of-running-high-io-applications-on-ibm-cloud-bare-metal-servers-with-nvme-storage) to see the benefits of running high IO applications with NVMe storage.
-{: tip}
 
 ## Considerations for NVMe SSDs
 {: #NVMe_considerations}
@@ -29,7 +26,7 @@ Keep the following considerations in mind when you are selecting NVMe drives.
 
 * You can't use an NVMe SSD as the boot disk for a server.
 * NVMe SSDs must be selected as individual drives. You can't select an NVMe SSD from RAID storage groups.
-* The number NVMe SSDs that you can provision depends on the server and PCI slots on the system board. You are limited to three NVMe SSDs.
+* The number of NVMe SSDs that you can provision depends on the server and PCI slots on the system board. You are limited to three NVMe SSDs.
 * The GPUs share PCI slots with the NVMe SSDs. You can't configure more NVMe SSDs than GPUs.
 * Because of compatibility issues, you can’t use NMVe drives with Windows&reg;.
 * NVMe drives are installed in the last four slots of the chassis. {{site.data.keyword.cloud}} automation requires that you install the operating system on drives that are in drive bays 0 and 1 or M.2s. So, you can't install an operating system on an NVMe drive.
@@ -39,8 +36,6 @@ Keep the following considerations in mind when you are selecting NVMe drives.
 
 Intel® Optane™ SSD DC P4800X is a solid-state drive that combines the attributes of storage and memory to create a new storage tier. The drives are available for a selection of {{site.data.keyword.cloud}} {{site.data.keyword.baremetal_long}}.
 {: shortdesc}
-
-For more information, see [Product Brief: Intel® Optane™ SSD DC P4800X Series](https://www.intel.com/content/www/us/en/solid-state-drives/optane-ssd-dc-p4800x-brief.html){: external} and [Experience next level compute performance](https://www.ibm.com/cloud/bare-metal-servers/intel){: external}.
 
 Keep in mind that you can either [order](https://cloud.ibm.com/gen1/infrastructure/provision/bm){: external} an Intel® Optane™ SSD DC P4800X disk or a GPU for your server. You can't order both an Optane drive and GPU on the same server.
 {: important}

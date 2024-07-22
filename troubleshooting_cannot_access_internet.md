@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2023-10-04"
+lastupdated: "2024-07-19"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -75,7 +75,7 @@ Use one of the following options.
 
 - A public gateway is not configured for the network card.
 
-   If the firewall is not an issue, you can check whether the public gateway IP is configured for the public network card and then try pinging the public gateway. For more help, contact [IBM Cloud Support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp).
+   If the firewall is not an issue, you can check whether the public gateway IP is configured for the public network card and then try pinging the public gateway. For more help, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar).
 
    Not all gateways respond to a ping, so a lack of ping response isn't necessarily an issue.
    {: note}
@@ -85,7 +85,7 @@ Use one of the following options.
    - Verify that DNS servers are configured for the public network card. Standard configurations use the IBM DNS servers at `10.0.80.11` and `10.0.80.12`.
    - Verify that you can ping the DNS servers.
    - If you have Linux servers, add the following entries into the `/etc/resolv.conf` file.
-      - nameserver 10.0.80.11
-      - nameserver 10.0.80.12
+      - `nameserver 10.0.80.11`
+      - `nameserver 10.0.80.12`
 
-If you still help, contact [IBM Cloud Support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp) and provide as much detail as possible from the troubleshooting steps that you performed.
+If you still help, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar) and provide as much detail as possible from the troubleshooting steps that you performed.

@@ -106,14 +106,6 @@ toc:
               href: /virtual-servers/virtual-servers-launching-rescue
           - bare-metal-veeam-o365.md
       - topicgroup:
-          label: Managing spare pools
-          topics:
-          - spare-pools-access.md
-          - add_spare_pool.md
-          - cancel_spare_pool.md
-          - reactivating_spare_pool_device.md
-          - spare-pool-API-methods.md
-      - topicgroup:
           label: Software
           topics:
           - order.md
@@ -166,7 +158,7 @@ toc:
           - troubleshooting_cannot_connect_remote_console.md
           - troubleshooting_rdp_not_working.md
           - troubleshooting_firewall_blocking_ssh.md
-          - troubleshooting_port_not_configured_ssh_.md
+          - troubleshooting_port_not_configured_SSH.md
           - troubleshooting_cannot_connect_public_ip.md
       - topicgroup:
           label:  Troubleshooting managing the server

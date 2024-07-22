@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-04-10"
+  years: 2020, 2024
+lastupdated: "2024-07-19"
 
 keywords: custom image templates, image, image templates
 
@@ -15,7 +15,7 @@ subcollection: bare-metal
 # About bare metal custom image templates
 {: #getting-started-bm-custom-image-templates}
 
-Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. 
+Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process.
 {: shortdesc}
 
 Image templates are not intended for backing up your data.
@@ -32,17 +32,17 @@ Make sure that your image works fine during deployment before you reclaim the so
 ### Compatible system configurations
 {: #bm-image-template-compatible-system-configurations}
 
-The following features and configurations are supported when you create an image template. 
+The following features and configurations are supported when you create an image template.
 
 - Full traditional BIOS boot mode support and limited UEFI boot mode support (images must be deployed on their respective servers)
 - Only available for X10, X11, and Lenovo systems
 - vGPU support
-- RAID 0, 1, 10 
-  
+- RAID 0, 1, 10
+
 ### Supported operating systems
 {: #bm-image-template-supported-os}
 
-The following operating systems are supported when you create an image template. 
+The following operating systems are supported when you create an image template.
 
 - CentOS 7.x
 - RHEL 7.x, 8.x
@@ -52,14 +52,14 @@ The following operating systems are supported when you create an image template.
 ### Supported add-ons
 {: #bm-image-template-supported-addons}
 
-The following add-ons are compatible with image templates. 
+The following add-ons are compatible with image templates.
 
-- McAfee (free license add-on) 
-- MySQL (free license add-on) 
-- Microsoft SQL Server 
-- R1Soft client 
+- McAfee (free license add-on)
+- MySQL (free license add-on)
+- Microsoft SQL Server
+- R1Soft client
 
-If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image. For more information, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-custom-image-control-panel).
+If your bare metal server has add-on software such as cPanel, MS SQL Server, Plesk, or R1Soft Backup Agent, you need to follow the vendor migration guidelines instead of capturing and deploying a custom image.
 {: note}
 
 #### Notes for add-ons
@@ -73,7 +73,7 @@ Keep the following notes in mind when you capture an image and deploy a server f
 ### Limitations
 {: #bm-custom-image-limitations}
 
-Customs images have some limitations that you need to be aware of before you create an image template. 
+Customs images have some limitations that you need to be aware of before you create an image template.
 
 - You can't create custom images on servers that are on a private network
 - No multiple RAID configurations
@@ -81,7 +81,7 @@ Customs images have some limitations that you need to be aware of before you cre
 - No Trusted Platform Module (TPM) encryption support
 - Logical Volume Management (LVM) isn't supported
 - Custom and non-IBM kernels aren't supported
-- Control panels (for example cPanel and Plesk) aren't supported 
+- Control panels (for example cPanel and Plesk) aren't supported
 - R1Soft Backup Agent isn't supported for image capture
 
 Any software (for example MySQL) that maintains its own internal password files and database stays unmodified on provision. Access to the software on a provisioned server from the image uses the same username and passwords as the source server that the image was created from.
@@ -90,8 +90,7 @@ Any software (for example MySQL) that maintains its own internal password files 
 ## Next steps
 {: #next-steps-bm-custom-image}
 
-* If you're ready to create an image template, see [Creating a custom bare metal server image template](/docs/bare-metal?topic=bare-metal-bm-create-custom-image-template).
-* If you want to order and deploy a bare metal server from a custom image, see [Ordering a bare metal server from an image template](/docs/bare-metal?topic=bare-metal-ordering-bm-from-image-template).
-* If you want to delete an image template, see [Deleting a custom image](/docs/bare-metal?topic=bare-metal-delete-bm-custom-image).
-* If you want to import a custom image, see [Importing a custom image](/docs/bare-metal?topic=bare-metal-import-bm-custom-image).
-* If you want to migrate a bare metal server with add-on software, see [Migrating bare metal servers with add-on software](/docs/bare-metal?topic=bare-metal-bm-migrate-bare-metal-add-on-software).
+- If you're ready to create an image template, see [Creating a custom bare metal server image template](/docs/bare-metal?topic=bare-metal-bm-create-custom-image-template).
+- If you want to order and deploy a bare metal server from a custom image, see [Ordering a bare metal server from an image template](/docs/bare-metal?topic=bare-metal-ordering-bm-from-image-template).
+- If you want to delete an image template, see [Deleting a custom image](/docs/bare-metal?topic=bare-metal-delete-bm-custom-image).
+- If you want to import a custom image, see [Importing a custom image](/docs/bare-metal?topic=bare-metal-import-bm-custom-image).

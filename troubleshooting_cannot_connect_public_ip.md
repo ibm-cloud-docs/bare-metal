@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-07-19"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -34,7 +34,7 @@ Use one of the following options:
 
 - Traffic is blocked by your firewall or gateway.
 
-   Your firewall might be blocking public traffic. For more information, see [Allowing SSH and pinging to a public subnet](https://cloud.ibm.com/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet). You can test if the firewall is blocking traffic by running a traceroute from your workstation to the bare metal server’s public IP. Notice if the traceroute stops at a particular IP. If that is the IP of a firewall or gateway you are using, then most likely, that is what is blocking access and you can contact your firewall administrator for guidance.
+   Your firewall might be blocking public traffic. For more information, see [Allowing SSH and pinging to a public subnet](/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet). You can test if the firewall is blocking traffic by running a traceroute from your workstation to the bare metal server’s public IP. Notice if the traceroute stops at a particular IP. If that is the IP of a firewall or gateway you are using, then most likely, that is what is blocking access and you can contact your firewall administrator for guidance.
 
    You can also temporarily bypass the firewall to determine whether traffic is now reaching the public IP of your server.
 
@@ -68,4 +68,4 @@ Use one of the following options:
    1. Verify that **Obtain an IP address automatically** is not selected.
    1. If **Obtain an IP address automatically** is selected, then select **Use the following IP address**. Enter the correct IP address, subnet mask, and gateway. You can find this information in the server information in your {{site.data.keyword.cloud}} portal.
 
-If none of the previous suggestions fix the issue, contact [{{site.data.keyword.cloud}} Support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp) and providing as much detail as possible from the troubleshooting that you performed.
+If none of the previous suggestions fix the issue, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar) and providing as much detail as possible from the troubleshooting that you performed.

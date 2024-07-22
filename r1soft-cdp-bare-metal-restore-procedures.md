@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-07-19"
 
 keywords:
 
@@ -23,10 +23,8 @@ Do not use this process if the restoration of a subset of files is the objective
 ## Before you begin
 {: #byb-restore-r1soft}
 
-* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
+* Go to your console's device menu.
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** Classic infrastructure permission, can adjust the permissions.
-
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Restoring your virtual device
 {: #restoring-your-virtual-device}
@@ -37,7 +35,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 4. Select the appropriate R1Soft agent boot image for your version of R1Soft server (example: serverbackup-bootcd-agent-6.14.2.iso) and click **Boot from this image**.
 5. From the **Device Details** page for the server that you are restoring, click **Actions** > **KVM Console**.
 6. After the console is up and the image boots, you will see a Debian bootloader screen with some options. Press the Enter key to boot from the default option.
-7. After the OS boots, type `sudo Ceni` and press **Enter** to set up networking for the ISO.
+7. After the OS boots, type `sudo Ceni` and press Enter to set up networking for the ISO.
 
    Use your virtual server networking information.
    {: tip}

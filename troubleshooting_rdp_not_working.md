@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-07-19"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -42,14 +42,14 @@ To resolve RDP issues, try the following troubleshooting tasks:
 ## The VPN is not connected
 {: #bm-ts-vpn-not-connected}
 
-   To connect to a server's private IP through RDP, you must first establish an SSL VPN connection to IBM Cloud as described in [Getting started with IBM Cloud Virtual Private Networking](https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started)
+   To connect to a server's private IP through RDP, you must first establish an SSL VPN connection to {{site.data.keyword.cloud}} as described in [Getting started with {{site.data.keyword.cloud}} Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started)
 
-   You can verify whether the VPN connection is working by sending a ping the IBM Cloud DNS resolver IPs at 10.0.80.11 and 10.0.80.12. If successful, then the VPN connection is working.
+   You can verify whether the VPN connection is working by sending a ping to the {{site.data.keyword.cloud}} DNS resolver IPs at 10.0.80.11 and 10.0.80.12. If successful, then the VPN connection is working.
 {: tip}
 
 - RDP traffic is blocked by the Windows firewall
 
-   Verify that the RDP traffic is being blocked by the Windows firewall by logging in to the server by using the IPMI emote console, disable the Windows firewall, and then try logging in to the server by using RDP again.
+   Verify that the RDP traffic is being blocked by the Windows firewall by logging in to the server by using the IPMI emote console, disable the Windows firewall. Then, try logging in to the server by using RDP again.
 
    If you are able to access your server by using RDP after you disable the Windows firewall, you need to review your firewall rules and make any appropriate changes.
 
@@ -94,7 +94,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
    This report shows the date and time that the report was created, the number of licenses installed on the server and the number of licenses currently issued.
 
-   If you need to purchase extra licenses, they can be purchased in packs of 5 by contacting [IBM Cloud Support](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-gettinghelp)
+   If you need to purchase extra licenses, they can be purchased in packs of 5 by contacting [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar).
 
 - The bare metal server has pending Windows updates.
 
@@ -110,7 +110,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
    Use the following steps
 
    1. Connect to your bare metal server by using IPMI remote console.
-   1. Verify whether the RDP service is running by running `net start | find “Remote Desktop Services”` in PowerShell. If the service is running, the output is displayed.
+   1. Verify whether the RDP service is running by using the `net start | find “Remote Desktop Services”` command in PowerShell. If the service is running, the output displays.
    1. To verify that your bare metal server is listening on port 3389, run `netstat -an` in PowerShell. If it is listening, you see a line like the following example in the output.
 
       `TCP 0.0.0.0:3389 0.0.0.0:0 LISTENING`
@@ -150,7 +150,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
    1. Right-click on the relevant adapter and click **Properties**.
    1. Select **Internet Protocol Version 4 (TCP/IPv4) and click **Properties**.
 
-      Verify that **Obtain an IP address automatically** is not selected. If it is selected, then select **Use the following IP address** instead and enter the correct IP address, subnet mask, and gateway. This information can be found in the IBM Cloud Portal in the server information.
+      Verify that **Obtain an IP address automatically** is not selected. If it is selected, then select **Use the following IP address** instead and enter the correct IP address, subnet mask, and gateway. This information can be found in the {{site.data.keyword.cloud}} Portal in the server information.
       {: important}
 
 - Network Level Authentication (NLA)
@@ -170,6 +170,6 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
 - Extra resources
 
-For more information about possible RDP issues, see [General Remote Desktop connection Troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external}.
+For more information about possible RDP issues, see [General Remote Desktop connection troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external}.
 
-If you still can't connect to your server by using RDP, see [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting that you completed.
+If you still can't connect to your server by using RDP, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting that you completed.

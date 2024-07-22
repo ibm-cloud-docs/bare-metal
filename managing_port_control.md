@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-06-15"
+  years: 2014, 2024
+lastupdated: "2024-07-19"
 
 keywords: manage port control, managing port control, device port control
 
@@ -15,23 +15,21 @@ subcollection: bare-metal
 # Managing port control for a device
 {: #bm-manage-port-control}
 
-Each device that is associated with an account has two network ports that receive incoming traffic – one for public network traffic and one for private network traffic. You can enable or disable these ports at any time to control the network traffic that a device receives. 
+Each device that is associated with an account has two network ports that receive incoming traffic – one for public network traffic and one for private network traffic. You can enable or disable these ports at any time to control the network traffic that a device receives.
 {: shortdesc}
 
 ## Before you begin
 {: #bm-port-control-before}
 
-* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
-
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+* Go to your console's device menu.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** classic infrastructure permission, can adjust the permissions.
 
 ## Manage the port control for a device
 {: #bm-manage-port-control}
 
 Complete the following steps to update the port control settings for a device.
 
-1. Access the **Device list** and select the **Device name** to update.  
+1. Access the **Device list** and select the **Device name** to update.
 2. Click **Actions** to select one of the following available actions.
    | Action | Description |
    | ------ | ----------- |

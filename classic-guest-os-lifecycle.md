@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-07-11"
+lastupdated: "2024-07-22"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -27,7 +27,7 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Wi
 ### Ciena vRouter (Vyatta)
 {: #vrouter-classic}
 
-Ciena vRouter is updated regularly with the previous release deprecating when a new version is released. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-release-notes-for-ibm-virtual-router-appliance){: external}.
+Ciena vRouter is updated regularly with the previous release deprecating when a new version is released. For more information, see [About the VRA](/docs/virtual-router-appliance?topic=virtual-router-appliance-about-the-vra).
 
 | Operating system | End of support |
 |-----------------|----------------|
@@ -226,7 +226,7 @@ For existing customers, upgrade to the latest version.
 * For more information, see the following resources:
    * [BYOL: Install MongoDB](https://www.mongodb.com/docs/manual/installation/){: external}
    * [Upgrading to a new Major Version](/docs/databases-for-mongodb?topic=databases-for-mongodb-upgrading&interface=ui)
-* IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MongoDB. However, this migration support does come with a cost.
+* IBM partners can [provide migration support](https://wanclouds.net/ibm){: external} to help you smoothly transition to the latest version of MongoDB. However, this migration support does come with a cost.
 
 ### MySQL 5.7 on IBM Cloud Bare Metal EOS
 {: #classic-mysql-eos}
@@ -249,7 +249,7 @@ For existing customers, upgrade to the latest version.
 * For more information, see the following resources:
    * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
    * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
-* IBM partners can [provide migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly transition to the latest version of MySQL. However, this migration support does come with a cost.
+* IBM partners can [provide migration support](https://wanclouds.net/ibm){: external} to help you smoothly transition to the latest version of MySQL. However, this migration support does come with a cost.
 
 ### Microsoft SQL Server 2014 EOS
 {: classic-ms-sql-server-2014-eos}
@@ -272,6 +272,6 @@ Servers, it is recommended that you upgrade to the latest
 supported version of MS SQL Server 2022. By doing so, you can
 take advantage of new features, performance improvements, and
 security patches.
-* IBM partners can provide [migration support](https://wanclouds.net/ibm-request){: external} to help you smoothly
+* IBM partners can provide [migration support](https://wanclouds.net/ibm){: external} to help you smoothly
 transition to the latest version of Microsoft SQL Server 2014. However,
 this migration support does come with a cost.
