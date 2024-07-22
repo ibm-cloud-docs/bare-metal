@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2021-09-21"
+  years: 2017, 2024
+lastupdated: "2024-07-22"
 
 keywords:
 
@@ -10,28 +10,22 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Checking the health of your 3ware RAID array
 {: #bm-check-health-3ware-raid}
 
-With 3ware&reg;, you can use a browser interface to check the health of your bare metal server. However, unless you access the interface locally, using a browser is a security risk. Use the command-line interface instead.
+With 3ware&reg;, you can use a browser interface to check the health of your bare metal server. However, unless you access the interface locally, by using a browser is a security risk. Use the command-line interface instead.
 {: shortdesc}
 
-You can download the 3ware&reg; CLI utilities from the [IBM Cloud CLI plug-in repository
-](https://plugins.cloud.ibm.com/ui/repository.html#cf-plugins). For more information about the CLI utility, see [VPN CLI plug-in for cf CLI](/docs/cli?topic=cli-ibmcloud-admincli).
+For more information about the CLI utility, see the [VPN CLI plug-in](/docs/cli?topic=cli-ibmcloud-admincli).
 
 ## Quick command reference for 3ware&reg; CLI tools
 {: #3ware-quick-cli-command-ref}
 
 These devices must be followed by a number that identifies which devices are being queried.
 
-tw_cli /c0 show (Output shows information that is needed to know the health of the RAID array)
+`tw_cli /c0` show (Output shows information that is needed to know the health of the RAID array)
 
 ./tw_cli /c1 show
 
@@ -41,7 +35,7 @@ Example:
 
     ------------------------------------------------------------------------------
 
-    u0    RAID-5    OK             -      64 K     465.641   OFF    OFF      OFF    
+    u0    RAID-5    OK             -      64 K     465.641   OFF    OFF      OFF
 
     Port   Status           Unit   Size        Blocks        Serial
 
