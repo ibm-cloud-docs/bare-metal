@@ -3,7 +3,7 @@
 copyright:
 
   years: 1994, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords: active control panel software, control panel licenses window, download license files, devices, canceling license
 
@@ -16,7 +16,7 @@ subcollection: bare-metal
 # Managing control panel licenses
 {: #cp_compacclisc}
 
-You can manage the licenses for active control panel software, like cPanel and Parallels, from the {{site.data.keyword.cloud_notm}} console on the Control Panel Licenses window. You can view licenses and their associated IPs, download license files, and cancel individual licenses.
+You can manage the licenses for active control panel software, like cPanel and Parallels, from the {{site.data.keyword.cloud_notm}} console on the Control Panel licenses window. You can view licenses and their associated IPs, download license files, and cancel individual licenses.
 {: shortdesc}
 
 ## Before you begin

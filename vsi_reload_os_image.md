@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords:
 
@@ -32,7 +32,7 @@ If you want to retain your data, back up all data before reloading the OS. An OS
 {: #byb-os-reload}
 
 * Go to your console's device menu.
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the `Manage users` classic infrastructure permission, can adjust the permissions.
 
 ## Reloading an OS
 {: #reload-an-os-image}
@@ -54,35 +54,27 @@ If you want to retain your data, back up all data before reloading the OS. An OS
 
 5. Configure options, as relevant. Refer to the following information for more details.
 
-   **Post install script**
-   Adds an existing or new postinstallation script.
+   **A postinstallation script** adds an existing or new postinstallation script.
 
-   **SSH key**
-   Adds an SSH key to the device upon the reload action.
+   **SSH key** adds an SSH key to the device upon the reload action.
 
-   **Reset IPMI password**
-   This option is only available for physical devices.
+   **Reset IPMI password** is available only for physical devices.
 
-   **Apply system board BIOS upgrades**
-   This option is only available for physical devices.
+   **Apply system board BIOS upgrades** action is available only for physical devices.
 
-   **Apply firmware updates for all hard disks**
-   This option is only available for physical devices.
+   **Apply firmware updates for all hard disks** is available only for physical devices.
 
-   **Add to spare spool after OS reload**
-   This option is available only on physical devices and requires internal approval before its available on an account.
+   **Add to spare spool after OS reload** is available on only physical devices and requires internal approval before its available on an account.
 
-   **Erase all hard disks**
-   This option is available only on physical devices and requires special user permissions set by the account administrator.
+   **Erase all hard disks** action is available on only physical devices and requires special user permissions set by the account administrator.
 
-   **OS reload with disk preservation**
-   This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device anytime after it was created.
+   **OS reload with disk preservation** configures your current primary disk as a secondary disk (retains all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device anytime after it was created.
 
 6. Click **Load the selected image**.
 
 7. Review the image configuration and click **Next** to proceed to the next screen or **Cancel** to cancel the action.
 
-   After you click **Next**, all network ports for the device are systematically shut down and the device is unavailable for up to 15 minutes. During this time, the action can be canceled at any time by clicking **Cancel**. The next step must be completed within 15 minutes of clicking **Next** or the previous steps must be completed again. This process is in place as a safeguard to make sure that no additional data is added to a device between the configuration confirmation and the OS Reload initiation.
+   After you click **Next**, all network ports for the device are systematically shut down and the device is not available for up to 15 minutes. During this time, the action can be canceled at any time by clicking **Cancel**. The next step must be completed within 15 minutes of clicking **Next** or the previous steps must be completed again. This process is in place as a safeguard to make sure that no additional data is added to a device between the configuration confirmation and the OS Reload initiation.
    {: note}
 
 8. Click **Confirm OS Reload** to confirm the action and begin the OS reload process. Click **Cancel** to cancel the action.
@@ -93,7 +85,7 @@ If you want to retain your data, back up all data before reloading the OS. An OS
 After you initiate the OS Reload process, the device is taken offline and the OS Reload process begins.
 The time period in which an OS reload takes place varies based on the current and new configuration of the device.
 Throughout the configuration process, the minimum time for the OS Reload is displayed on each screen.
-The time frame that is displayed is an estimate that is made by the system and is given as a courtesy. If the reload takes longer than 24 hours, contact [IBM Support](/docs/get-support?topic=get-support-using-avatar).
+The time frame that is displayed is an estimate that is made by the system and is given as a courtesy. If the reload takes longer than 24 hours, contact [support](/docs/get-support?topic=get-support-using-avatar).
 
 When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved.
 

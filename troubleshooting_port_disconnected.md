@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -68,4 +68,4 @@ Use one of the following options to resolve the issue.
    1. Click **Monitoring**. You can configure the IP address to be pinged, the type of ping, and the users to be notified.
    1. If you are getting many false alerts, select **Slow ping** and use a private IP. Slow ping doesn't fail because of slow server response that is caused by high latency or high server load.
 
-If your server status is still down or disconnected, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar) and contact support. When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.
+If your server status is still down or disconnected, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar). When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.

@@ -36,7 +36,6 @@ toc:
       - topicgroup:
            label: Security
            topics:
-           - ssl_certificates_intro.md
            - intel-trusted-execution-technology-txt.md
            - does-softlayer-keep-bare-metal-servers-date-security-patches.md
       - network-options.md
@@ -71,7 +70,6 @@ toc:
            - how-do-i-check-health-my-3ware-raid-array.md
            - bare-metal-managing-vmware.md
            - managing_port_control.md
-           - managedPool_managing.md
            - topicgroup:
                 label: Managing operating systems
                 topics:

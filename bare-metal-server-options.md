@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-08-01"
 
 keywords:
 
@@ -20,7 +20,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ## Servers for every workload
 {: #servers-every-need}
 
-{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/cloud/bare-metal-servers){: external}.
+{{site.data.keyword.cloud_notm}} has {{site.data.keyword.baremetal_short}} to fit every workload. For more information, see [Bare metal servers](https://www.ibm.com/products/bare-metal-servers){: external}.
 
 ### Fast provisioning servers
 {: #Popular-bm}
@@ -35,7 +35,7 @@ If a fast-provisioning server doesn't meet your workload needs, you can customiz
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are certified to support your SAP HANA and SAP NetWeaver workloads. For more information, see [SAP-certified infrastructure](https://www.ibm.com/cloud/sap/certified-infrastructure){: external}.
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are certified to support your SAP HANA and SAP NetWeaver workloads. For more information, see [SAP-certified infrastructure](https://www.ibm.com/cloud/sap/){: external}.
 
 ### VMware-certified servers
 {: #vmware-certified-servers}
@@ -140,7 +140,7 @@ The following network redundancy options are available for bare metal servers.
 | Redundancy options | Description |
 | ---- | ----|
 | Automatic redundancy (Recommended option) | Automatically configures the redundant ports for interface teaming through LACP (Link Aggregation Control Protocol) to preserve connectivity during routine maintenance. |
-| User-managed redundancy | Must have interface teaming configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
+| User-managed redundancy | Interface teaming must be configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
 | No redundancy | This option is not recommended.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
 {: caption="Table 4. Network redunancy options" caption-side="top"}
@@ -169,7 +169,7 @@ The following add-ons are available when you provision a bare metal server.
 
 | Option | Description |
 |--------|-------------|
-| Power supply | You can provision your bare metal server with two independent power supply units. These redundant units alternative power sources within the data center to help maintain uptime during unplanned or planned electrical maintenance. |
+| Power supply | You can provision your bare metal server with two independent power supply units. This redundancy within the data center helps maintain uptime during unplanned or planned electrical maintenance. |
 | {{site.data.keyword.cloud}} Backup | {{site.data.keyword.cloud}} Backup is an automated, agent-based backup and recovery system that is managed through the Cloud Backup WebCC browser utility. For more information, see [Getting started with {{site.data.keyword.cloud}} Backup](/docs/Backup?topic=Backup-getting-started).|
 | Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure. |
 | Intel Software Guard Extensions (SGX) | Intel SGX is used to partition sensitive data into secure enclaves by using a set of security-related application code. You can add SGX when you [provision your bare metal server](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx). |

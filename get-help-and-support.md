@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-10-04"
+  years: 2017, 2024
+lastupdated: "2024-08-01"
 
 keywords: help, support, support case
 
@@ -22,7 +22,6 @@ If you experience an issue or have questions about a bare metal server, you can 
 * Review the [troubleshooting documentation](/docs/bare-metal?topic=bare-metal-bm-cannot-access-internet) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. If you ask a question, use the tags `ibm-cloud` and `bare-metal` so that the question is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
-* For questions about the service and getting started instructions, use the [IBM Support forum](https://www.ibm.com/mysupport/s/forumshome){: external} forum. Include the `ibm cloud` tag.
 
 If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). If you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
 
@@ -32,8 +31,6 @@ If you still can't resolve the problem, you can open a support case. For more in
 {: #bare-metal-support-case-details}
 
 To make sure that the support team can start investigating your case to provide a timely resolution, you must include detailed information along with steps to re-create the issue, if applicable. Review the following types of information to include in your support case for issues with bare metal servers.
-
-
 
 1. Provide your transit gateway ID.
 

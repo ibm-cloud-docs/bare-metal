@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords:
 
@@ -12,13 +12,13 @@ subcollection: bare-metal
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring your server from an R1Soft image
+# Restoring your server from an R1Soft&reg; image
 {: #restoring-your-server-from-an-r1soft-image}
 
 Use this procedure to complete a restore to public or private {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.BluBareMetServers_full}}. Use this process if a server failure causes data or OS loss. This process restores all file system blocks that are backed up (including the OS and any files that were not excluded from backups).
 {: shortdesc}
 
-Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){: external}.
+Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft&reg; Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){: external}.
 
 ## Before you begin
 {: #byb-restore-r1soft}
@@ -32,7 +32,7 @@ Do not use this process if the restoration of a subset of files is the objective
 1. From the **Device list**, click into the device that you want you restore.
 2. Click the **Actions** menu and choose **Boot from image** you get a list of private images.
 3. Choose **Public images** from the menu.
-4. Select the appropriate R1Soft agent boot image for your version of R1Soft server (example: serverbackup-bootcd-agent-6.14.2.iso) and click **Boot from this image**.
+4. Select the appropriate R1Soft&reg; agent boot image for your version of R1Soft&reg; server (example: serverbackup-bootcd-agent-6.14.2.iso) and click **Boot from this image**.
 5. From the **Device Details** page for the server that you are restoring, click **Actions** > **KVM Console**.
 6. After the console is up and the image boots, you will see a Debian bootloader screen with some options. Press the Enter key to boot from the default option.
 7. After the OS boots, type `sudo Ceni` and press Enter to set up networking for the ISO.
@@ -55,4 +55,4 @@ Do not use this process if the restoration of a subset of files is the objective
    Configuring the Tivoli Continuous Data Protection for Files agent and networking takes about 10 minutes after the ISO boots. You don't need to log in to or adjust the ISO after it boots.
    {: note}
 
-3. After 10 minutes, confirm that the CDP and networking started successfully by testing the agent with the [R1soft SBM]( http://wiki.r1soft.com/display/ServerBackupManager/Test+Agent+Connection).
+3. After 10 minutes, confirm that the CDP and networking started successfully by testing the agent with the [R1soft&reg; SBM](http://wiki.r1soft.com/display/ServerBackupManager/Test+Agent+Connection).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -24,8 +24,6 @@ Public data network traffic that is transferred Outbound from {{site.data.keywor
 * Go to your console's device menu.
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
-
 ## Viewing your bandwidth graphs
 {: #bm-viewing-bandwidth-graph}
 
@@ -35,7 +33,7 @@ To view your bandwidth graphs, follow these steps:
 2. Select the type of network usage (public or private) from the **View** list.
 3. Select the time period for the graph from the **View By** drop-down list. Preset date ranges are most commonly queried. For a custom date range, select **Custom date range**.
 4. Select the start and end dates from the corresponding drop-down calendars.
-5. Click **Draw graph**.
+5. Click **Draw the graph**.
 
 ## Optimizing your bandwidth usage
 {: #bm-optimize-bandwidth-usage}

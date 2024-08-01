@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: bare-metal
 # Mounting an ISO on a bare metal server
 {: #bm-mount-iso}
 
-Although most {{site.data.keyword.cloud}} customers use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have two options for mounting custom ISOs.
+Although most {{site.data.keyword.cloud}} users use one of the standard operating systems that come with our servers, you can mount custom ISOs (disk images) on servers. You have two options for mounting custom ISOs.
 {: shortdesc}
 
 ## Overview
@@ -36,7 +36,7 @@ This option is the preferred method for installing a custom OS on a bare metal s
 Follow these steps to install a custom OS from a CIFS Share:
 
 1. Make sure that the ISO is on the CIFS Share.
-1. Log in to the IPMI management console by pointing your web browser to the IP specified by [IBM](cloud.ibm.com){: external}.
+1. Log in to the IPMI management console by pointing your web browser to the appropriate IP.
 1. From the {{site.data.keyword.cloud_notm}} console, go to **Devices** > **Your server (device details)** > **Remote Mgmt**. The username and password are also specified in the details.
 1. Hover over **Virtual media** and click **CD-ROM image**
 1. Complete the appropriate details and click **Save and mount**.
@@ -61,7 +61,7 @@ If you don't have permission to change the server BIOS, open a [support case](/d
 Because ISO isn't mounted, support can change only the boot device priority.
 {: note}
 
-1. Log in to the IPMI management console by pointing your web browser to the IP that is specified in cloud.ibm.com.
+1. Log in to the IPMI management console by pointing your web browser to the appropriate IP address.
 1. Go to **Devices** > **your server (device details)** > **Remote Mgmt**. Specify the username and password.
 1. Click **Configuration** > **Remote session** and change attach mode to **attach**.
    In some older IPMI consoles this option is not available so you can skip this step.

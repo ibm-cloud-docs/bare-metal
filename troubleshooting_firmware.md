@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -25,7 +25,7 @@ Firmware upgrade fails to complete successfully.
 One of the following issues can occur while you upgrade the firmware on a bare metal server.
 
 - Firmware version mismatch
-- Firmware update not running or not completing
+- Firmware update is not running or not completing
 - Hardware problem
 - Server down after firmware update
 {: tsCauses}
@@ -37,14 +37,14 @@ Firmware version mismatch
 
    If you believe that the firmware was upgraded successfully, then compare the firmware version that is in the portal with the version that is in IPMI/IMM/xClarity system information.
 
-   If the firmware version that is in IPMI/IMM/xClarity is different from what is in the portal, then [contact {{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar). You need to include a screenshot of the portal that shows the current and recommended firmware versions and a screenshot from IPMI, IMM, xClarity that shows the current firmware version that is on the server.
+   If the firmware version that is in IPMI/IMM/xClarity is different from what is in the portal, then [contact support](/docs/get-support?topic=get-support-using-avatar). You need to include a screenshot of the portal that shows the current and recommended firmware versions. You also need to include a screenshot from IPMI, IMM, or xClarity that shows the current firmware version.
 
-   If the versions match, then the firmware upgrade was probably unsuccessful. Retry the firmware upgrade. If the issue persists, [contact IBM Cloud Support](/docs/get-support?topic=get-support-using-avatar).
+   If the versions match, then the firmware upgrade was probably unsuccessful. Retry the firmware upgrade. If the issue persists, [contact support](/docs/get-support?topic=get-support-using-avatar).
 
 Firmware updates not running or not completing
 
    A firmware update might fail if the automation can't access the necessary server ports.
-   For more information, see [tService network (on back-end/private network)](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges#service-network).
+   For more information, see [Service network (on back-end/private network)](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges#service-network).
 
 Hardware problem
 
@@ -54,7 +54,7 @@ Hardware problem
 
 Server down after firmware update
 
-   On rare occasions, firmware updates can change the default boot disk. If your server cannot start after the firmware update, and you see an error in the remote console that no boot device was found, then most likely the boot order changed. Because you probably do not have access to the server BIOS, you can't change the boot order. So, you need to [contact {{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar) to review and change the boot order.
+   On rare occasions, firmware updates can change the default boot disk. If your server cannot start after the firmware update, and you see an error in the remote console that no boot device was found, then most likely the boot order changed. Because you probably do not have access to the server BIOS, you can't change the boot order. So, you need to [contact support](/docs/get-support?topic=get-support-using-avatar) to review and change the boot order.
 
-If you still can't upgrade the firmware [contact {{site.data.keyword.cloud}}Support](/docs/get-support?topic=get-support-using-avatar).
+If you still can't upgrade the firmware, [contact support](/docs/get-support?topic=get-support-using-avatar).
 {: tsResolve}
