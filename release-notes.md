@@ -21,15 +21,18 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
 
-## July 2024
-{: #bare-metal-jul24}
+## August 2024
+{: #bare-metal-aug2024}
 
-### 31 July 2024
-{: #bare-metal-jul112024}
+### 01 August 2024
+{: #bare-metal-aug012024}
 {: release-note}
 
 Common RAID controller
 :   {{site.data.keyword.baremetal_long}} now supports a common RAID controller for Sapphire Rapids-based Supermicro and Lenovo systems to simplify configuration.
+
+## July 2024
+{: #bare-metal-jul24}
 
 ### 11 July 2024
 {: #bare-metal-jul112024}
