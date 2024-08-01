@@ -3,8 +3,8 @@
 copyright:
 
   years: 1994, 2024
+lastupdated: "2024-08-01"
 
-lastupdated: "2024-06-12"
 
 keywords: active control panel software, control panel licenses window, download license files, devices, canceling license
 
@@ -23,12 +23,12 @@ You can manage the passwords for the software on each device.
 ## Before you begin
 {: #before-you-begin-software-passwords}
 
-Navigate to the device menu and make sure that you have the correct account permissions to complete the tasks.
+Go to the device menu and make sure that you have the correct account permissions to complete the tasks.
 
-* Go to your console's device menu. For more information, see [Navigating to devices](/docs/bare-metal?topic=bare-metal-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** Classic infrastructure permission, can adjust the permissions.
+* Go to your console's device menu.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the `Manage users` Classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-mngclassicinfra) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Managing software passwords on devices
 {: #managing-software-passwords}

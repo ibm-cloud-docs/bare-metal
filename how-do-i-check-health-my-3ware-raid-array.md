@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-08-01"
 
 keywords:
 
@@ -12,10 +12,10 @@ subcollection: bare-metal
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Checking the health of your 3ware RAID array
+# Checking the health of your 3ware&reg; RAID array
 {: #bm-check-health-3ware-raid}
 
-With 3ware&reg;, you can use a browser interface to check the health of your bare metal server. However, unless you access the interface locally, by using a browser is a security risk. Use the command-line interface instead.
+With 3ware, you can use a browser interface to check the health of your bare metal server. However, unless you access the interface locally, by using a browser is a security risk. Use the command-line interface instead.
 {: shortdesc}
 
 For more information about the CLI utility, see the [VPN CLI plug-in](/docs/cli?topic=cli-ibmcloud-admincli).

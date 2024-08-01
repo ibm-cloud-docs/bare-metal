@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-04-25"
+  years: 2019, {CURRENT_YEAR}]
+lastupdated: "2024-08-01"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
@@ -31,14 +31,13 @@ The user that places the server order must have the **Add Compute with Public Ne
 
 Select this option to determine how you'd want to handle network connection redundancy. Choose from the following options.
 
-
 - **Automatic** is the default and recommended setting. Automatic port redundancy provides two physical network ports that are configured with LACP bonding on both the network and the operating system during provisioning. Automatic is the most hands-free option for continuous network availability.
 
 - **User Managed** is available for advanced configurations. It provides two physical network ports, but the ports are configured independently on both the network and the operating system. For this option to provide redundancy, you must perform an action in your application, operating system, or both to use the secondary port. If you use the second port in a manner that does not provide redundant connectivity to your application, you can't have redundant connectivity. By selecting this option, you are communicating that you have the knowledge and skill to configure redundancy on your system (or within your application) and are aware that not doing so results in a lack of network communication redundancy during routine network maintenance.
 
 - **None** provides a single physical port to each network. It is maintained as an option for customers who continue to order within traditional data centers and that might require PXE booting capability. For more information about specialized needs for unbonded, see [Port speed](#network-port-speed). While it is possible to choose this option in all data centers, you need to select **None** only in consultation with IBM Sales or Support under specific conditions.
 
-Network maintenance is normal. While you are notified, you can avoid disruption only when you use **Automatic** redundancy, or making a special effort under the **User Managed** redundancy option.
+Network maintenance is normal. While you are notified, you can avoid disruption only when you use **Automatic** redundancy, or making a special effort under the **User-Managed** redundancy option.
 {: note}
 
 ## Port speed
@@ -49,7 +48,7 @@ Select either 100 Mbps, 1 Gbps, 10 Gbps, or 25 Gbps as the maximum operating spe
 The 25 Gbps port speed option is limited to select bare metal server options. For more information, see [25 Gbps port speed](/docs/bare-metal?topic=bare-metal-network-options#25gb-port-speed).
 {: important}
 
-If you selected **None** for port redundancy, you might see an option that includes the word **unbonded**. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`sjc01.pod01`**, and **`sng01.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active, allowing for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
+If you selected **None** for port redundancy, you might see an option that includes the word `unbonded`. These options account for specific interactions between our default port bonding configurations and PXE booting. They are only relevant in older pods, such as **`sjc01.pod01`**, and **`sng01.pod01`**. By default, all ports are configured into a redundant bond, even if not all ports are active, allowing for a seamless redundancy upgrade in the future. However, this default bonding can prevent PXE booting in some locations. The option causes ports to _not_ be configured within a bond by default, regardless of the number of active interfaces. Modern data centers do not have a conflict with PXE booting and our default bonding configuration. Avoid use of this feature unless instructed by IBM Sales or Support.
 
 ### 25 Gbps port speed
 {: #25gb-port-speed}
@@ -105,7 +104,7 @@ Primary IP addresses are the names that are given to IP addresses that are assig
 ## Secondary IP addresses
 {: #network-ip-address-secondary}
 
-You can request more IP addresses for your server (which is recommended when you announce services externally) when you order a server. The **Public secondary IP addresses** option is in the **Add-ons** section of the network options. Select the number of IP addresses that you want, then select a [secondary static subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets) of the appropriate size is automatically provisioned and routed to your server's public primary IP address. If you require more IP addresses later, you can [order more secondary subnets](/docs/subnets?topic=subnets-getting-started#ordering-subnets).
+You can request more IP addresses for your server (which is recommended when you announce services externally) when you order a server. The **Public secondary IP addresses** option is in the **Add-ons** section of the network options. Select the number of IP addresses that you want, then select a [secondary static subnet](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets) of the appropriate size that is automatically provisioned and routed to your server's public primary IP address. If you require more IP addresses later, you can [order more secondary subnets](/docs/subnets?topic=subnets-order-subnets).
 
 ## Server hardware firewall
 {: #network-firewall-server}
@@ -131,5 +130,5 @@ This entry indicates a private and public network connection was requested at a 
 
 - **Redundant** - Indicates that you selected **Automatic** for the **Port redundancy** option.
 - **Dual** - Indicates that you selected **User Managed** for the **Port redundancy** option.
-- **Unbonded** - Indicates that you selected either **User Managed** for the **Port redundancy** option, or a **Port speed** option that contains the word **unbonded**.
+- **Unbonded** - Indicates that you selected either **User Managed** for the **Port redundancy** option, or a **Port speed** option that contains the word `unbonded`.
 - **Private Only** - Indicates that you selected **Private** for the server's network interface.

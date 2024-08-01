@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2020-11-11"
+  years: 2017, 2024
+lastupdated: "2024-08-01"
 
 keywords: raid, adaptec, ipmi, raid bios, raid array, RAID configuration
 
@@ -11,26 +11,20 @@ subcollection: bare-metal
 ---
 
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:tip: .tip}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Creating and adjusting Adaptec RAID configurations
 {: #bm-create-raid-config}
 
-The Adaptec RAID BIOS allows you to configure and manage your RAID setup. Use this BIOS if you are using the [No OS](/docs/bare-metal?topic=bare-metal-bm-no-os) option and want to set up a specific drive configuration.
+YOu can use the Adaptec RAID BIOS to configure and manage your RAID setup. Use this BIOS if you are using the [No OS](/docs/bare-metal?topic=bare-metal-bm-no-os) option and want to set up a specific drive configuration.
 
 ## Accessing the IPMI device to interact with the RAID BIOS
 {: #bm-access-ipmi}
 
-Regardless of whether your machine has an Adaptec controller or an Broadcom controller you need to access the server that uses IPMI to interact with the RAID BIOS. To interact with IPMI, you first need to connect to the Adaptec {{site.data.keyword.cloud}} VPN.
-1. Log in to the VPN through [SSL](/docs/iaas-vpn?topic=iaas-vpn-setup-ssl-vpn-connections#setup-ssl-vpn-connections).
-2. Access the Device List in the {{site.data.keyword.cloud}} console [IBM Cloud](https://cloud.ibm.com){: external}. Refer to [Access the Device List](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Regardless of whether your machine has an Adaptec controller or a Broadcom controller you need to access the server that uses IPMI to interact with the RAID BIOS. To interact with IPMI, you first need to connect to the Adaptec {{site.data.keyword.cloud}} VPN.
+
+1. Log in to the VPN through [SSL](docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
+2. Access the Device List in the {{site.data.keyword.cloud}} console [IBM Cloud](https://cloud.ibm.com){: external}.
 3. Click the device that you want to access.
 4. Select the **Remote Mgmt** tab to find your server's IPMI access details.
 5. Put the IP of your IPMI device in to the browser and log in.
@@ -39,24 +33,24 @@ Regardless of whether your machine has an Adaptec controller or an Broadcom cont
 ## Creating RAID Arrays
 {: #bm-create-raid-array}
 
-During the start process, press **Ctrl+A** to access the RAID BIOS.
+During the start process, press Ctrl+A to access the RAID BIOS.
 
-To start, configuring your RAID open the Logical Device Configuration (first option). This option scans the topology of your drives and displays a menu where you can manage arrays, create arrays and complete other drive administration tasks.
+To start configuring your RAID open the Logical Device Configuration (first option). This option scans the topology of your drives and displays a menu where you can manage arrays, create arrays, and complete other drive administration tasks.
 
 The following example shows how to create an array. You are presented with a list of available drives to use in creating your RAID Array.
 
 1. To select the drives, press the SPACE bar to populate the *Selected Drives* box.
 2. After you select all the drives you would like to use in your array, press ENTER to go to the RAID configuration step.
-3. Choose the type of RAID that you want to use. 
+3. Choose the type of RAID that you want to use.
 4. Provide an Array Label during the configuration. It is a good practice to include the type of RAID in the label (for example: RAID10-A).
-5. Press **Enter** to go to the remaining settings. Use the default values.
+5. Press Enter to go to the remaining settings. Use the default values.
 
 After you complete the configuration, select **Done** and the RAID is created. You can see your new array by selecting 'Manage Arrays' from the main menu. To exit the configuration utility, press the ESC key until you are prompted to Exit the Adaptec BIOS.
 
 ## Removing existing RAID arrays
 {: #bm-remove-raid-array}
 
-If you need to remove an existing array, go to **Manage Arrays**, select the array to remove, press **Delete** and confirm.
+If you need to remove an existing array, go to **Manage Arrays**, select the array to remove, press **Delete**, then confirm.
 
 ## Example Configurations
 {: #bm-example-config}
@@ -69,7 +63,7 @@ If you need to remove an existing array, go to **Manage Arrays**, select the arr
    * RAID0 (2 SSD Drives) - /home
    * RAID10 (4 SATA Drives) - /backup
 
-3. Use a single RAID array to set up multiple logical partitions. For example, use two 4 TB drives set up in a RAID 1. You can partition the RAID to fit your needs. See the following example:
+3. Use a single RAID array to set up multiple logical partitions. For example, use a two 4 TB drives setup in a RAID 1. You can partition the RAID to fit your needs. See the following example:
    * Primary partition of 100 GB for your Operating System
    * Second partition of 500 GB for your data
-   * Third partition of the remaining space for backups
+   * The third partition of the remaining space for backups

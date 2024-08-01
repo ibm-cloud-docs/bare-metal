@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-07-19"
+lastupdated: "2024-08-01"
 
 keywords: bare metal release notes
 
@@ -24,19 +24,26 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## July 2024
 {: #bare-metal-jul24}
 
+### 31 July 2024
+{: #bare-metal-jul112024}
+{: release-note}
+
+Common RAID controller
+:   {{site.data.keyword.baremetal_long}} now supports a common RAID controller for Sapphire Rapids-based Supermicro and Lenovo systems to simplify configuration.
+
 ### 11 July 2024
 {: #bare-metal-jul112024}
 {: release-note}
 
 Custom power profiles for VMware ESXi
-:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, see  [Host Power Management Policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, see  [Host Power Management policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
 
 ### 10 July 2024
 {: #bare-metal-jul102024}
 {: release-note}
 
 Ubuntu 24.04
-:   {{site.data.keyword.baremetal_long}} now supports Ubuntu 24.04. For more information. see [Ubuntu 24.04 (Noble Numbat)](https://releases.ubuntu.com/noble/){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports Ubuntu 24.04. For more information, see [Ubuntu 24.04 (Noble Numbat)](https://releases.ubuntu.com/noble/){: external}.
 
 ## March 2024
 {: #bare-metal-mar24}
@@ -46,7 +53,7 @@ Ubuntu 24.04
 {: release-note}
 
 NVMe support for RHEL, Rocky Linux, and CentOS
-:   {{site.data.keyword.baremetal_long}} with NVMe SSD now support RHEL, Rocky Linux, and CentOS. For more information about NVMe, see [NVMe solid-state drives (SSD)](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
+:   {{site.data.keyword.baremetal_long}} with NVMe SSD now supports RHEL, Rocky Linux, and CentOS. For more information about NVMe, see [NVMe solid-state drives (SSD)](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
 
 Support for CentOS Stream 9
 :   {{site.data.keyword.baremetal_long}} now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
@@ -73,7 +80,7 @@ Intel&reg; 'Speed Select' for the Sapphire Rapids processors
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Select availability)
-:   Intel Sapphire Rapids CPUs for bare metal servers are now available only in the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
+:   Intel Sapphire Rapids CPUs for bare metal servers are now availabl in only the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ## December 2023
 {: #bare-metal-dec23}
@@ -83,7 +90,7 @@ Intel Sapphire Rapids CPU support (Select availability)
 {: release-note}
 
 SSL Certificate Order is deprecated
-:   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+:   As of 15 April 2024, the SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
 ### 06 December 2023
@@ -91,7 +98,7 @@ SSL Certificate Order is deprecated
 {: release-note}
 
 Intel&reg Sapphire Rapids-based bare metal servers now support GPUs
-:   When you provision a Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
+:   When you provision an Intel Sapphire Rapids CPU-based bare metal server, you can now select GPUs.
 
 ## November 2023
 {: #bare-metal-nov23}
@@ -111,7 +118,7 @@ Mirrored M.2 NVMe OS boot drives now support VMWare ESXi
 {: release-note}
 
 Microsoft&reg; SQL Server 2019 and 2022
-:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.
+:   Classic infrastructure bare metal and virtual servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.
 
 ### 13 October 2023
 {: #bare-metal-oct1323}
@@ -135,7 +142,7 @@ cPanel support for Rocky Linux 8 for Classic bare metal and virtual servers
 {: release-note}
 
 Mirrored M.2 SATA boot drives (VMWare ESXi only)
-:   You can now order mirrored M.2 SATA boot drives drives. To select this drive option, you need to select VMWare ESXi as the boot OS and the PCIe add-on.
+:   You can now order mirrored M.2 SATA boot drives. To select this drive option, you need to select VMWare ESXi as the boot OS and the PCIe add-on.
 
 ## May 2023
 {: #bare-metal-may23}
@@ -182,14 +189,14 @@ Ubuntu 22.04
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Beta)
-:   You can now select an Intel Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
+:   You can now select an Intel Sapphire Rapids CPU when you provision a bare metal server. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ### 09 January 2023
 {: #bare-metal-jan0923}
 {: release-note}
 
 Debian 11
-:   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
+:   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ## March 2022
 {: #bare-metal-mar22}
@@ -236,7 +243,7 @@ Intel Xeon 8260 CPU
 {: release-note}
 
 25 Gbps port space is now available
-:   You can now use 25 Gbps port speed on select Cascade Lake processor servers. For more information about 25 Gbps port speed, see the 25 Gbps port speed section of the Bare Metal Servers [Network options](/docs/bare-metal?topic=bare-metal-network-options#25-gbps-port-speed) topic.
+:   You can now use 25 Gbps port speed on select Cascade Lake processor servers. For more information about 25 Gbps port speed, see the 25 Gbps port speed section of the Bare Metal Servers [Network options](/docs/bare-metal?topic=bare-metal-network-options#25gb-port-speed) topic.
 
 ## Aug 2020
 {: #bare-metal-aug20}
@@ -252,7 +259,7 @@ Intel Xeon 6250 CPU
 {: #bare-metal-aug1020}
 {: release-note}
 
-Custom images templates now available
+Custom images templates are now available
 :   Image templates provide an imaging option for {{site.data.keyword.baremetal_long}}. With {{site.data.keyword.baremetal_short}} custom image templates, you can capture an image of a bare metal server to replicate its configuration with minimal changes in the order process. For more information, see [About bare metal custom image templates](/docs/bare-metal?topic=bare-metal-getting-started-bm-custom-image-templates).
 
 ## July 2020
@@ -273,7 +280,7 @@ IBM Cloud Monitoring
 {: release-note}
 
 NVM solid-state drives
-:   Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol capitalizes on parallel, low latency data paths to the underlying media. This protocol offers significantly higher performance and smaller latencies compared to traditional SAS and SATA protocols. For more information, see [NVMe solid-state drives](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
+:   Non-Volatile Memory Express (NVMe) is a high-performance storage protocol that supports direct connection of the memory subsystem to the CPU through the PCIe interface. The NVMe protocol capitalizes on parallel, low-latency data paths to the underlying media. This protocol offers significantly higher performance and smaller latencies compared to traditional SAS and SATA protocols. For more information, see [NVMe solid-state drives](/docs/bare-metal?topic=bare-metal-ordering-nvme-ssd).
 
 ## March 2020
 {: #bare-metal-mar20}
@@ -293,7 +300,7 @@ AMD CPU support
 {: release-note}
 
 Veeam backup for Office 365
-:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange Online, SharePoint Online, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software-defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-for-o365).
+:   Veeam backup for Office 365 protects your Office 365 data by backing up your Exchange, SharePoint, and OneDrive for Business data. True data protection and RPO (recovery point objective) are not included with Office 365. Veeam provides a software-defined solution that protects Office 365, performs granular restores, and recovers data to anywhere. For more information, [Veeam backup for Office 365](/docs/bare-metal?topic=bare-metal-veeam-for-o365).
 
 ## October 2019
 {: #bare-metal-oct19}
@@ -303,7 +310,7 @@ Veeam backup for Office 365
 {: release-note}
 
 Network port redundancy
-:   Port redundancy provides networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables. For more information, see the netword redundancy section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-network-redundancy).
+:   Port redundancy provides a networking failover by maintaining a primary and secondary network port. If the primary port fails, the secondary (redundant) port enables. For more information, see the network redundancy section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-network-redundancy).
 
 ## August 2019
 {: #bare-metal-aug19}
@@ -333,7 +340,7 @@ Cascade Lake CPU support
 {: release-note}
 
 Contract term pricing
-:   {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lesser price by signing a contract term. You choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, you keep your contracted price on a month-to-month basis. For more information, see [Contract term pricing for bare metal servers](/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers).
+:   {{site.data.keyword.baremetal_long}} gives you the option to lock-in a lesser price by signing a contract term. You can choose between either a 1-year or a 3-year contract. A contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, you keep your contracted price on a month-to-month basis. For more information, see [Contract term pricing for bare metal servers](/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers).
 
 ## April 2018
 {: #bare-metal-apr18}
@@ -342,7 +349,7 @@ Contract term pricing
 {: #bare-metal-apr0518}
 {: release-note}
 
-Spare pools
+Spare pools [Deprecated]{: tag-deprecated}
 :   The Spare Pool screen in the {{site.data.keyword.cloud}} allows users to manage the spare pool of devices associated with the account. Each device in the spare pool can be used as a backup device if more devices are needed.
 
 ## March 2018
@@ -360,11 +367,11 @@ Intel Software Guard Extension
 {: release-note}
 
 Block and file storage add-on
-:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy! You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-on section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
+:   If you need extra storage, {{site.data.keyword.IBM_notm}} makes it easy. You can now order block and file storage (20 - 12,000 GB) when you provision a bare metal server. Your add-on storage isn't automatically connected to your bare metal server. You need to connect the add-on storage to your bare metal server after your server provisions. For more information, see the block and file storage add-on section of [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-block-and-file-add-on).
 
 ### 02 March 2018
 {: #bare-metal-mar0218}
 {: release-note}
 
 Custom bare metal servers
-:   {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you performance and control with low-level access to the hardware resources. You can create a custom {{site.data.keyword.baremetal_long}}. For more information, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
+:   {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you with performance and control with low-level access to the hardware resources. You can create a custom {{site.data.keyword.baremetal_long}}. For more information, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).

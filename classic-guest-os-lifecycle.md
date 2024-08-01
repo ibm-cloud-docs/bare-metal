@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-08-01"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -79,7 +79,7 @@ The following table describes the end of support date for Debian operating syste
 | Debian 9  | 30 June 2022 |
 {: caption="Table 4. Lifecycle for Debian operating systems" caption-side="bottom"}
 
-Debian 10 doesn't support "Add on" software configurations. Debian 10 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
+Debian 10 doesn't support add on software configurations. Debian 10 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
 ### OSNEXUS (QuantaStor)
@@ -149,7 +149,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 ### VMware
 {: #vmware-classic}
 
-The following table describes the end of support date for VMware operating systems. This guest OS is a free operating system. For more information, see [VMware lifecycle matrix](https://lifecycle.vmware.com/#/){: external}.
+The following table describes the end of support date for VMware operating systems. This guest OS is a free operating system. For more information, see [VMware lifecycle matrix](https://www.vmware.com/support/lifecycle-policies.html){: external}.
 
 | Operating system | End of support |
 |-----------------|----------------|
@@ -192,7 +192,7 @@ The following table describes the end of support date for product add-ons and hy
 | [Microsoft SQL Server 2012 Standard](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [Microsoft SQL Server 2012 Enterprise](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
 | [MongoDB Community Edition 1.0](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mongodb-eos) | 20 November 2023 |
-| [MySQL 5.7 on IBM Cloud Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
+| [MySQL 5.7 on {{site.data.keyword.cloud}} Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
 | [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
@@ -210,7 +210,7 @@ End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers 
 
 MongoDB Community Edition 1.0 is a free software that is available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023.
 
-This deprecation has no impact on IBM Cloud Databases for MongoDB.
+This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MongoDB.
 {: note}
 
 Review the following details for this deprecation:
@@ -221,19 +221,19 @@ Review the following details for this deprecation:
 
 For existing customers, upgrade to the latest version.
 
-* To continue using MongoDB on IBM Cloud Bare Metal Servers, it is recommended that you upgrade to the latest supported version of MongoDB. By doing so, you can take advantage of new features, performance improvements, and security patches.
-* To upgrade to the latest version of MongoDB, you can use either the open source version of MongoDB or bring your licensed copies to IBM Cloud Bare Metal servers. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MongoDB service. By using IBM Cloud Databases, you can make sure that your database service remains supported and secure.
+* To continue using MongoDB on {{site.data.keyword.cloud}} Bare Metal Servers, it is recommended that you upgrade to the latest supported version of MongoDB. By doing so, you can take advantage of new features, performance improvements, and security patches.
+* To upgrade to the latest version of MongoDB, you can use either the open source version of MongoDB or bring your licensed copies to {{site.data.keyword.cloud}} Bare Metal servers. Alternatively, you can choose to migrate your databases to the {{site.data.keyword.cloud}} Databases for MongoDB service. By using {{site.data.keyword.cloud}} Databases, you can make sure that your database service remains supported and secure.
 * For more information, see the following resources:
    * [BYOL: Install MongoDB](https://www.mongodb.com/docs/manual/installation/){: external}
    * [Upgrading to a new Major Version](/docs/databases-for-mongodb?topic=databases-for-mongodb-upgrading&interface=ui)
 * IBM partners can [provide migration support](https://wanclouds.net/ibm){: external} to help you smoothly transition to the latest version of MongoDB. However, this migration support does come with a cost.
 
-### MySQL 5.7 on IBM Cloud Bare Metal EOS
+### MySQL 5.7 on {{site.data.keyword.cloud}} Bare Metal EOS
 {: #classic-mysql-eos}
 
-MySQL 5.7 on IBM Bare Metal Classic is free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023. The service will be removed from the IBM Cloud catalog on 21 September 2023.
+MySQL 5.7 on IBM Bare Metal Classic is free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 20 November 2023. The service will be removed from the {{site.data.keyword.cloud}} catalog on 21 September 2023.
 
-This deprecation has no impact on IBM Cloud Databases for MySQL.
+This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MySQL.
 {: note}
 
 Review the following details for this deprecation.
@@ -245,7 +245,7 @@ Review the following details for this deprecation.
 For existing customers, upgrade to the latest version.
 
 * To continue using MySQL, it is recommended that you upgrade to the latest supported version of MySQL, Version 8.0. By doing so, you can take advantage of new features, performance improvements, and security patches.
-* To upgrade to the latest version of MySQL, you can use either the open source version of MySQL or bring your licensed copies to IBM Cloud Bare Metal. Alternatively, you can choose to migrate your databases to the IBM Cloud Databases for MySQL service. By using IBM Cloud Databases, you can make sure that your database service remains supported and secure.
+* To upgrade to the latest version of MySQL, you can use either the open source version of MySQL or bring your licensed copies to {{site.data.keyword.cloud}} Bare Metal. Alternatively, you can choose to migrate your databases to the {{site.data.keyword.cloud}} Databases for MySQL service. By using {{site.data.keyword.cloud}} Databases, you can make sure that your database service remains supported and secure.
 * For more information, see the following resources:
    * [BYOL: Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/upgrading.html){: external}
    * [Migrating to Databases for MySQL](/docs/databases-for-mysql?topic=databases-for-mysql-migrating)
@@ -267,7 +267,7 @@ security vulnerabilities and compatibility issues.
 
 For existing customers, upgrade to the latest version.
 
-* To continue using MS SQL Server on IBM Cloud Bare Metal and VSI
+* To continue using MS SQL Server on {{site.data.keyword.cloud}} Bare Metal and VSI
 Servers, it is recommended that you upgrade to the latest
 supported version of MS SQL Server 2022. By doing so, you can
 take advantage of new features, performance improvements, and
