@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 keywords: raid, adaptec, ipmi, raid bios, raid array, RAID configuration
 
@@ -23,7 +23,7 @@ YOu can use the Adaptec RAID BIOS to configure and manage your RAID setup. Use t
 
 Regardless of whether your machine has an Adaptec controller or a Broadcom controller you need to access the server that uses IPMI to interact with the RAID BIOS. To interact with IPMI, you first need to connect to the Adaptec {{site.data.keyword.cloud}} VPN.
 
-1. Log in to the VPN through [SSL](docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
+1. Log in to the VPN through SSL.
 2. Access the Device List in the {{site.data.keyword.cloud}} console [IBM Cloud](https://cloud.ibm.com){: external}.
 3. Click the device that you want to access.
 4. Select the **Remote Mgmt** tab to find your server's IPMI access details.
