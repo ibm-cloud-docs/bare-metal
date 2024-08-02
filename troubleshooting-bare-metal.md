@@ -105,7 +105,7 @@ RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firew
 RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/get-support?topic=get-support-using-avatar).
 
 ### The server has pending Windows updates
-{: #pending-windows-updates}
+{: #bm-pending-windows-updates}
 
 If your server has pending Windows updates, install the most recent updates, restart the server, and try to access RDP.
 
