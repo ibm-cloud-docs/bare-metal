@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, {CURRENT_YEAR}]
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
@@ -82,7 +82,7 @@ Select the public egress bandwidth option to choose the amount of included outbo
 ## Provision VLAN selection
 {: #network-vlan-selection}
 
-When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs that are located within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs that are available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod your server resides. VLAN selection becomes more relevant when you take advantage of [gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you want to deploy a specific network topology before server provisioning.
+When you configure a server, you are sometimes provided a VLAN selector. This selection is optional, and shows only existing VLANs that are located within the selected data center. The selector is for a private VLAN, and when you choose a private VLAN, a public VLAN selector is presented. It shows public VLANs that are available in the same pod as the selected private VLAN (if a public interface is applicable). These selections help you control what VLANs, and therefore what pod your server resides. VLAN selection becomes more relevant when you take advantage of gateway](/docs/gateway-appliance?topic=gateway-appliance-getting-started) or [hardware firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started) products, or if you are constructing multitier network architectures. Review [Premium VLANs](/docs/vlans?topic=vlans-about-vlans#about-premium-vlans) if you want to deploy a specific network topology before server provisioning.
 
 ### VLAN trunks
 {: #bare-metal-vlan-trunks}
@@ -109,7 +109,7 @@ You can request more IP addresses for your server (which is recommended when you
 ## Server hardware firewall
 {: #network-firewall-server}
 
-Applicable when a public network interface is requested, this option places a firewall in front of your server. The rules of the firewall apply only to the IP addresses associated with the server. Read [Hardware Firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-) to learn more.
+Applicable when a public network interface is requested, this option places a firewall in front of your server. The rules of the firewall apply only to the IP addresses associated with the server. For more information, see [Hardware Firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).
 
 ## Always included options and services
 {: #server-network-included}
