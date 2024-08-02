@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -149,7 +149,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 ### VMware
 {: #vmware-classic}
 
-The following table describes the end of support date for VMware operating systems. This guest OS is a free operating system. For more information, see [VMware lifecycle matrix](https://www.vmware.com/support/lifecycle-policies.html){: external}.
+The following table describes the end of support date for VMware operating systems. This guest OS is a free operating system.
 
 | Operating system | End of support |
 |-----------------|----------------|
