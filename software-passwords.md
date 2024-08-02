@@ -3,7 +3,7 @@
 copyright:
 
   years: 1994, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 
 keywords: active control panel software, control panel licenses window, download license files, devices, canceling license
@@ -27,8 +27,6 @@ Go to the device menu and make sure that you have the correct account permission
 
 * Go to your console's device menu.
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the `Manage users` Classic infrastructure permission, can adjust the permissions.
-
-For more information about permissions, see [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Managing software passwords on devices
 {: #managing-software-passwords}
