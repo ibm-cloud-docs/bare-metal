@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 keywords:
 
@@ -17,8 +17,6 @@ subcollection: bare-metal
 
 With 3ware, you can use a browser interface to check the health of your bare metal server. However, unless you access the interface locally, by using a browser is a security risk. Use the command-line interface instead.
 {: shortdesc}
-
-For more information about the CLI utility, see the [VPN CLI plug-in](/docs/cli?topic=cli-ibmcloud-admincli).
 
 ## Quick command reference for 3ware&reg; CLI tools
 {: #3ware-quick-cli-command-ref}

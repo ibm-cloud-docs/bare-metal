@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-02"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -25,9 +25,9 @@ The following topics cover common difficulties that you might encounter, and off
 
 If you can't log in to a server through SSH, it might be caused by one of the following reasons.
 
-* [Remote logins through SSH for root are disabled](#bm-remote-ssh-logins-disabled-old).
-* [Port not configured for SSH](#bm-port-number-configuration-old).
-* [The firewall is blocking SSH traffic](#bm-firewall-blocking-ssh-traffic-old).
+* [Remote logins through SSH for root are disabled](#bm-remote-ssh-logins-disabled).
+* [Port not configured for SSH](#bm-port-number-configuration).
+* [The firewall is blocking SSH traffic](#bm-firewall-blocking-ssh-traffic).
 
 ### Remote logins through SSH for root are disabled
 {: #bm-remote-ssh-logins-disabled}
@@ -90,9 +90,9 @@ If you can't access your server, you can use the following prechecks to help get
 
 If you can access your server, but RDP isn't working, it might be caused by one of the following reasons.
 
-* [RDP traffic is blocked](#bm-blocked-RDP-traffic-old).
-* [Inadequate client access licenses](#bm-inadequate-client-access-licenses-old).
-* [Pending Windows updates](#bm-pending-windows-updates-old).
+* [RDP traffic is blocked](#bm-blocked-RDP-traffic).
+* [Inadequate client access licenses](#bm-inadequate-client-access-licenses).
+* [Pending Windows updates](#bm-pending-windows-updates).
 
 ### RDP traffic is blocked
 {: #bm-blocked-RDP-traffic}
@@ -100,12 +100,12 @@ If you can access your server, but RDP isn't working, it might be caused by one 
 RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, FortiGate). Check that your firewall allows RDP traffic.
 
 ### The server has inadequate client access licenses
-{: #bm-inadequate-client-access-licenses-old}
+{: #bm-inadequate-client-access-licenses}
 
 RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/get-support?topic=get-support-using-avatar).
 
 ### The server has pending Windows updates
-{: #pending-windows-updates-old}
+{: #pending-windows-updates}
 
 If your server has pending Windows updates, install the most recent updates, restart the server, and try to access RDP.
 
@@ -157,7 +157,7 @@ If you have Linux servers, add the following entries in the `/etc/resolv.conf` f
 
 If your portal shows that the server is disconnected, but the server is running, it might be your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate).
 
-If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](/docs/security-groups?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
+If your ping traffic is blocked, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges.
 
 ## Why does my ESXi server show Purple Screen of Diagnostics (PSOD)
 {: #bm-troubleshoot-bm-esxi-psod-old}
