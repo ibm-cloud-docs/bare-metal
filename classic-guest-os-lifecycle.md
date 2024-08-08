@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-08-08"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -18,7 +18,7 @@ subcollection: bare-metal
 In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
 {: shortdesc}
 
-Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB. Windows supports only 100 GB.
+Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB boot disk sizes. Windows supports only a 100 GB boot disk size.
 {: note}
 
 ## Operating system lifecycles
@@ -100,8 +100,7 @@ The following table describes the end of support date for RHEL operating systems
 
 | Operating system | End of support |
 |-----------------|----------------|
-| RHEL 9.4  | 30 April 2026 |
-| RHEL 9.2  | 31 May 2025 |
+
 | RHEL 9.0  | 31 May 2024 |
 | RHEL 8.10  | 31 May 2029 |
 | RHEL 8.8  | 31 May 2025 |
