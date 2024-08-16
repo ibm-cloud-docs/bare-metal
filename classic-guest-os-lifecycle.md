@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-08-08"
+lastupdated: "2024-08-16"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -155,6 +155,9 @@ The following table describes the end of support date for VMware operating syste
 | 6.7 _all versions_ (available only on bare metal servers) | 15 October 2022 |
 | 6.5 _all versions_ (available only on bare metal servers) | 15 October 2022 |
 {: caption="Table 9. Lifecycle for VMware operating systems" caption-side="bottom"}
+
+Cascade Lake-based servers with VMware vSphere 8.x don't support TPM 1.2 or secure boot.
+{: note}
 
 ### Windows Server
 {: #windows-server-classic}
