@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-08-01"
+lastupdated: "2024-08-20"
 
 keywords: bare metal release notes
 
@@ -24,6 +24,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## August 2024
 {: #bare-metal-aug2024}
 
+### 20 August 2024
+{: #bare-metal-aug202024}
+{: release-note}
+
+RHEL 9.2
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 9.2.
+
 ### 01 August 2024
 {: #bare-metal-aug012024}
 {: release-note}
@@ -39,7 +46,7 @@ Common RAID controller
 {: release-note}
 
 Custom power profiles for VMware ESXi
-:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, see  [Host Power Management policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, [Host Power Management policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
 
 ### 10 July 2024
 {: #bare-metal-jul102024}
