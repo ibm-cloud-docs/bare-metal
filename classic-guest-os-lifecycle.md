@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-08-20"
+lastupdated: "2024-08-29"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -23,6 +23,8 @@ Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB boo
 
 ## Operating system lifecycles
 {: #os-lifecycles-classic}
+
+See the following information to learn about operating system and add-on lifecycles.
 
 ### Ciena vRouter (Vyatta)
 {: #vrouter-classic}
