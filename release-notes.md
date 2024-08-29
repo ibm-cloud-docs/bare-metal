@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-08-20"
+lastupdated: "2024-08-29"
 
 keywords: bare metal release notes
 
@@ -23,6 +23,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## August 2024
 {: #bare-metal-aug2024}
+
+### 29 August 2024
+{: #bare-metal-aug292024}
+{: release-note}
+
+SUSE SLES 15 SP4 for SAP
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports SUSE SLES 15 SP4 for SAP workloads.
 
 ### 20 August 2024
 {: #bare-metal-aug202024}
