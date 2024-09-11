@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-08-29"
+lastupdated: "2024-09-11"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## September 2024
+{: #bare-metal-sep2024}
+
+### 10 September 2024
+{: #bare-metal-sep102024}
+
+New add-on support for Ubuntu 22.04 and 24.04
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04 and 24.04.
 
 ## August 2024
 {: #bare-metal-aug2024}
