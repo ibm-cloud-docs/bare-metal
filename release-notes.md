@@ -27,8 +27,8 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ### 10 September 2024
 {: #bare-metal-sep102024}
 
-New add-on support for Ubuntu 22.04 and 24.04
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04 and 24.04.
+New add-on support for Ubuntu 22.04
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04.
 
 ## August 2024
 {: #bare-metal-aug2024}
