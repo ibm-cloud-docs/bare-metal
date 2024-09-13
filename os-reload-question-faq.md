@@ -1,7 +1,8 @@
 ---
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-07-06"
+  years: 1994, 2024
+lastupdated: "2024-09-13"
+
 
 keywords: OS Reload, Operating System, cpsrvd email,
 
@@ -9,14 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: Software
 {: #bm-software-faqs}
@@ -37,7 +31,7 @@ Automated OS reloads are free, including customized OS reloads such as changing 
 {: #how-can-i-track-the-status-of-the-os-reload-}
 {: faq}
 
-Under **Hardware**, you see a **Notes** section for each of your servers. The **Notes** includes links to information about the current step of the reload and the estimated time to finish that portion of the reload.
+Under **Hardware**, you see a **Notes** section for each of your servers. The **Notes include links to information about the current step of the reload and the estimated time to finish that portion of the reload.
 
 ## Can an OS reload erase secondary disks?
 {: #can-an-os-reload-erase-secondary-disks-}
@@ -53,11 +47,11 @@ In most cases, when you get an email that states **cpsrvd failed**, it is sent i
 
 If you receive an email from the chkservd service, stating that cpsrvd failed, you can ignore the message in most cases. However, if you receive 5 or more of these messages in a row or if you receive more than 4 in a day that follows restarts, open a support ticket
 
-## Can I purchase extra Terminal Service Licenses?
+## Can I purchase extra Terminal Service licenses?
 {: #can-I-purchase-extra-terminal-service-licenses-}
 {: faq}
 
 Extra licenses are available in 5-packs. If you want to purchase extra licenses, open a support ticket.
 
-You have a maximum of two RDP connections to your server. If you add the 5-pack of terminal services, the two original connections are removed giving you a total of five licenses.
+You can have a maximum of two RDP connections to your server. If you add the 5-pack of terminal services, the two original connections are removed giving you a total of five licenses.
 {: note}
