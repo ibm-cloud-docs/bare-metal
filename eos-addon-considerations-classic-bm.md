@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-18"
+lastupdated: "2024-09-13"
 
 keywords:
 
@@ -20,10 +20,10 @@ If you have software add-ons that are at or past its end-of-support (EOS) date, 
 
 Follow the guidance from your software add-on vendor on when to upgrade. IBM® doesn't require you to use supported software add-ons, but you assume the risks that are associated with using outdated software add-ons. Unsupported add-ons don't receive security updates or fixes. Risks with using outdated software addons can include security vulnerabilities and compatibility issues. Plan to modernize your instances' software add-ons before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
 
-## Wanclouds partnership
+## Wanclouds&reg; partnership
 {: #partner-bm-classic}
 
-IBM has a partnership with Wan clouds. Contact [Wanclouds](https://wanclouds.net/ibm/request){: external} for more information. Using Wanclouds support incurs extra costs.
+IBM has a partnership with Wan clouds. Contact [Wanclouds&reg;](https://wanclouds.net/ibm/request){: external} for more information. Using Wanclouds&reg; support incurs extra costs.
 
 ## End of Support (EOS) announcements
 {: #bm-classic-eos-announcements}
@@ -53,10 +53,10 @@ If you switch to another storage offering, you must first migrate data from S3 c
 **{{site.data.keyword.cloud}} Object Storage**
 The following are two options to migrate data from Quantastor s3 compatible buckets to {{site.data.keyword.cloud}} Object Storage.
 
-1. Komprise Elastics Data Migration tool
-   The Komprise Elastics Data Migration tool is available through the {{site.data.keyword.cloud}} Catalog as pat of Komprise Intelligent Data Management or as a stand-alone tool.
+1. Komprise&reg; Elastics Data Migration tool
+   The Komprise&reg; Elastics Data Migration tool is available through the {{site.data.keyword.cloud}} catalog as pat of Komprise&reg; Intelligent Data Management or as a stand-alone tool.
 
-   For more information, see [Komprise Elastic Data Migration](https://cloud.ibm.com/catalog/services/komprise-elastic-data-migration?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPWtvbXByaXNlI3NlYXJjaF9yZXN1bHRz#about), [Komprise Intelligent Data Management Suite](https://cloud.ibm.com/catalog/services/komprise-intelligent-data-management-suite?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPWtvbXByaXNlI3NlYXJjaF9yZXN1bHRz#about).
-1. Rclone is an open source tool. IBM does not support rclone. The Rclone tool can be used for migrating from s3 sources to s3 targets. Rclone can be used for migrating from s3 sources to s3 targets, or migrating data from NAS file shares to s3 Cloud Object Storage buckets.
+   For more information, see [Komprise&reg; Elastic Data Migration](https://cloud.ibm.com/catalog/services/komprise-elastic-data-migration?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPWtvbXByaXNlI3NlYXJjaF9yZXN1bHRz#about), [Komprise&reg; Intelligent Data Management Suite](https://cloud.ibm.com/catalog/services/komprise-intelligent-data-management-suite?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPWtvbXByaXNlI3NlYXJjaF9yZXN1bHRz#about).
+1. Rclone&reg; is an open source tool. {{site.data.keyword.cloud}} does not support Rclone&reg;. The Rclone&reg; tool can be used for migrating from s3 sources to s3 targets. Rclone&reg; can be used for migrating from s3 sources to s3 targets, or migrating data from NAS file shares to s3 Cloud Object Storage buckets.
 
-   For more information, see [Using rclone](/docs/cloud-object-storage?topic=cloud-object-storage-rclone) and [Rclone documentation](https://rclone.org/docs/){: external}.
+   For more information, see [Using Rclone&reg;](/docs/cloud-object-storage?topic=cloud-object-storage-rclone) and [Rclone&reg; documentation](https://rclone.org/docs/){: external}.

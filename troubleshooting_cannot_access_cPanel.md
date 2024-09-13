@@ -14,15 +14,15 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why can't I access cPanel
+# Why can't I access cPanel&reg;
 {: #troubleshoot-bm-access-cPanel}
 {: troubleshoot}
 {: support}
 
-You are trying to access the admin console for cpanel by opening the URL with either the server name or server IP address.
+You are trying to access the admin console for cPanel&reg; by opening the URL with either the server name or server IP address.
 
-- Server name: https://servername:2083
-- Server IP address: https://youripaddress:2083
+- Server name: `https://servername:2083`
+- Server IP address: `https://youripaddress:2083`
 
 However, when you try to access the cPanel console by using these methods, you are unable to connect.
 {: tsSymptoms}

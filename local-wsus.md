@@ -1,9 +1,10 @@
 ---
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-11-10"
+  years: 2018, 2024
+lastupdated: "2024-09-13"
 
-keywords: 
+
+keywords:
 
 subcollection: bare-metal
 
@@ -14,15 +15,15 @@ subcollection: bare-metal
 # Updating a server to use a local WSUS server
 {: #updating-an-instance-to-use-a-local-wsus-server}
 
-If your server that is running Windows&reg; was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft&reg; WSUS servers.
+If your server that is running Windows&reg; is provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft&reg; WSUS servers.
 {: shortdesc}
 
 If you order a server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or monitoring, it is likely that your server is provisioned with a cloud-init image. With cloud-init provisions, the WSUS server defaults to the Microsoft WSUS server.
 
 If you want to update the server to use the {{site.data.keyword.cloud_notm}} local WSUS server, use the following _.reg_ file after you provision the server. Make the following changes before you use this file.
-- Change *wsusdal0102* to the local data center where your server is provisioned.  
-- The line that includes *"DoNotConnectToWindowsUpdateInternetLocations"* forces the server to use the WSUS server. You can leave it out if want to check against Windows Update and WSUS.
 
+- Change _wsusdal0102_ to the local data center where your server is provisioned.
+- The line that includes _"DoNotConnectToWindowsUpdateInternetLocations"_ forces the server to use the WSUS server. You can leave it out if you want to check against Windows Update and WSUS.
 
 ```text
  Windows Registry Editor Version 5.00
