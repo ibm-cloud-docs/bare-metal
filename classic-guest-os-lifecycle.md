@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-09-10"
+lastupdated: "2024-09-20"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -154,7 +154,7 @@ The following table describes the end of support date for VMware operating syste
 
 | Operating system | End of support |
 |-----------------|----------------|
-| 7 _all versions_ (available only on bare metal servers) | 02 October 2025 |
+| 7 _all versions_ (available only on bare metal servers) | 02 October 2026 |
 | 6.7 _all versions_ (available only on bare metal servers) | 15 October 2022 |
 | 6.5 _all versions_ (available only on bare metal servers) | 15 October 2022 |
 {: caption="Table 9. Lifecycle for VMware operating systems" caption-side="bottom"}
