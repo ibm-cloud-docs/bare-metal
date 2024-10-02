@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-09-11"
+lastupdated: "2024-10-02"
 
 keywords: bare metal release notes
 
@@ -22,33 +22,33 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: shortdesc}
 
 ## September 2024
-{: #bare-metal-sep2024}
+{: #bare-metal-sep24}
 
 ### 10 September 2024
-{: #bare-metal-sep102024}
+{: #bare-metal-sep1024}
 
 New add-on support for Ubuntu 22.04
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04.
 
 ## August 2024
-{: #bare-metal-aug2024}
+{: #bare-metal-aug24}
 
 ### 29 August 2024
-{: #bare-metal-aug292024}
+{: #bare-metal-aug2924}
 {: release-note}
 
 SUSE SLES 15 SP4 for SAP
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports SUSE SLES 15 SP4 for SAP workloads.
 
 ### 20 August 2024
-{: #bare-metal-aug202024}
+{: #bare-metal-aug2024}
 {: release-note}
 
 RHEL 9.2
 :   {{site.data.keyword.baremetal_long}} now supports RHEL 9.2.
 
 ### 01 August 2024
-{: #bare-metal-aug012024}
+{: #bare-metal-aug0124}
 {: release-note}
 
 Common RAID controller
@@ -58,14 +58,14 @@ Common RAID controller
 {: #bare-metal-jul24}
 
 ### 11 July 2024
-{: #bare-metal-jul112024}
+{: #bare-metal-jul1124}
 {: release-note}
 
 Custom power profiles for VMware ESXi
 :   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, [Host Power Management policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
 
 ### 10 July 2024
-{: #bare-metal-jul102024}
+{: #bare-metal-jul1024}
 {: release-note}
 
 Ubuntu 24.04
@@ -75,7 +75,7 @@ Ubuntu 24.04
 {: #bare-metal-mar24}
 
 ### 26 March 2024
-{: #bare-metal-mar242024}
+{: #bare-metal-mar2424}
 {: release-note}
 
 NVMe support for RHEL, Rocky Linux, and CentOS
@@ -85,14 +85,14 @@ Support for CentOS Stream 9
 :   {{site.data.keyword.baremetal_long}} now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
 
 ### 22 March 2024
-{: #bare-metal-mar222024}
+{: #bare-metal-mar2224}
 {: release-note}
 
 OSNEXUS (QuantaStor) 6.2
 :  OSNEXUS (QuantaStor) 6.2 is now available for {{site.data.keyword.baremetal_long}}. For more information, see [IBM Cloud QuantaStor Provisioning Guide Overview](https://wiki.osnexus.com/index.php?title=IBM_Cloud_Provisioning_Guide){: external}.
 
 ### 15 March 2024
-{: #bare-metal-mar132024}
+{: #bare-metal-mar1324}
 {: release-note}
 
 Intel&reg; 'Speed Select' for the Sapphire Rapids processors
@@ -102,7 +102,7 @@ Intel&reg; 'Speed Select' for the Sapphire Rapids processors
 {: #bare-metal-jan24}
 
 ### 25 January 2024
-{: #bare-metal-jan252024}
+{: #bare-metal-jan2524}
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Select availability)
