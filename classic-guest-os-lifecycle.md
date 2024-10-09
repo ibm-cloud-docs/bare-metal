@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-09-24"
+lastupdated: "2024-10-09"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -39,7 +39,7 @@ Ciena vRouter is updated regularly with the previous release deprecating when a 
 | 2012 (available only on bare metal servers) | 14 June 2024 |
 | 1912 (available only on bare metal servers) | 31 December 2022 |
 | 1908 (available only on bare metal servers)  | 31 December 2022 |
-{: caption="Table 1. Lifecycle for vRouter operating systems" caption-side="bottom"}
+{: caption="Lifecycle for vRouter operating systems" caption-side="bottom"}
 
 ### CentOS
 {: #centos-classic}
@@ -53,7 +53,7 @@ The following table describes the end of support date for CentOS operating syste
 | CentOS 8.x | 31 December 2021  |
 | CentOS 7.9 | 30 June 2024 |
 | CentOS 6 | 30 November 2020 |
-{: caption="Table 2. Lifecycle for CentOS operating systems" caption-side="bottom"}
+{: caption="Lifecycle for CentOS operating systems" caption-side="bottom"}
 
  CentOS 8 doesn't support "Add on" software configurations. CentOS 8 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
 {: important}
@@ -66,7 +66,7 @@ The following table describes the end of support date for Citrix XenServer opera
 | Operating system | End of support |
 |-----------------|----------------|
 | 8.2 LTSR (available only on bare metal servers) | 30 June 2025 |
-{: caption="Table 3. Lifecycle for Citrix XenServer operating systems" caption-side="bottom"}
+{: caption="Lifecycle for Citrix XenServer operating systems" caption-side="bottom"}
 
 ### Debian
 {: #debian-classic}
@@ -79,7 +79,7 @@ The following table describes the end of support date for Debian operating syste
 | Debian 11 | 30 June 2026 |
 | Debian 10 | 30 June 2024 |
 | Debian 9  | 30 June 2022 |
-{: caption="Table 4. Lifecycle for Debian operating systems" caption-side="bottom"}
+{: caption="Lifecycle for Debian operating systems" caption-side="bottom"}
 
 Debian 10 doesn't support add on software configurations. Debian 10 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
 {: important}
@@ -93,7 +93,7 @@ The following table describes the end of support date for OSNEXUS QuantaStor ope
 |-----------------|----------------|
 | 6.2 (available only on bare metal servers) | 30 July 2025 |
 | 5.x (available only on bare metal servers) | 30 April 2023 |
-{: caption="Table 5. Lifecycle for OSNEXUS QuantaStor operating systems" caption-side="bottom"}
+{: caption="Lifecycle for OSNEXUS QuantaStor operating systems" caption-side="bottom"}
 
 ### Red Hat Enterprise Linux (RHEL)
 {: #rhel-classic}
@@ -117,7 +117,7 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 8.6 (SAP HANA and SAP applications) | 31 May 2026 |
 | RHEL 8.2 (SAP HANA and SAP applications) | 28 February 2023 |
 | RHEL 7.6 (SAP HANA and SAP applications) | 28 February 2023 |
-{: caption="Table 6. Lifecycle for RHEL operating systems" caption-side="bottom"}
+{: caption="Lifecycle for RHEL operating systems" caption-side="bottom"}
 
 RHEL 8 and 9 don't support "Add on" software configurations. RHEL 8 and 9 also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
 {: important}
@@ -131,7 +131,7 @@ Rocky Linux is updated regularly, with the previous release deprecating when a n
 |-----------------|----------------|
 | Rocky Linux 8.x | 31 May 2029 |
 | Rocky Linux 9.x | 31 May 2032 |
-{: caption="Table 7. Lifecycle for Rocky Linux operating systems" caption-side="bottom"}
+{: caption="Lifecycle for Rocky Linux operating systems" caption-side="bottom"}
 
 ### Ubuntu LTS
 {: #ubuntu-lts-classic}
@@ -145,7 +145,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 | Ubuntu 20.04 minimal | 30 April 2025 |
 | Ubuntu 18.04 minimal | 31 May 2023  |
 | Ubuntu 16.04 minimal | 01 April 2021  |
-{: caption="Table 8. Lifecycle for Ubuntu LTS operating systems" caption-side="bottom"}
+{: caption="Lifecycle for Ubuntu LTS operating systems" caption-side="bottom"}
 
 ### VMware
 {: #vmware-classic}
@@ -157,7 +157,7 @@ The following table describes the end of support date for VMware operating syste
 | 7 _all versions_ (available only on bare metal servers) | 02 October 2026 |
 | 6.7 _all versions_ (available only on bare metal servers) | 15 October 2022 |
 | 6.5 _all versions_ (available only on bare metal servers) | 15 October 2022 |
-{: caption="Table 9. Lifecycle for VMware operating systems" caption-side="bottom"}
+{: caption="Lifecycle for VMware operating systems" caption-side="bottom"}
 
 Cascade Lake-based servers with VMware vSphere 8.x don't support TPM 1.2 or secure boot.
 {: note}
@@ -176,7 +176,7 @@ The following table describes the end of support date for Windows Server operati
 | Windows Server 2016 full standard  | 11 January 2027  |
 | Windows Server 2012 full standard | 10 October 2023 |
 | Windows Server 2012 R2 full standard | 10 October 2023 |
-{: caption="Table 10. Lifecycle for Windows Server operating systems" caption-side="bottom"}
+{: caption="Lifecycle for Windows Server operating systems" caption-side="bottom"}
 
 ## Add-on software and hypervisor lifecycles
 {: #add-on-lifecycles-classic}
@@ -202,7 +202,7 @@ The following table describes the end of support date for product add-ons and hy
 | [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
 | [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
 | [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
-{: caption="Table 11. Lifecycle for add-ons" caption-side="bottom"}
+{: caption="Lifecycle for add-ons" caption-side="bottom"}
 
 ## End of Support (EOS) announcements
 {: #classic-eos-announcements}

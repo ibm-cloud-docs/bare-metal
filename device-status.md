@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-09-13"
+lastupdated: "2024-10-09"
 
 keywords: server status, bare metal status, virtual server status, status
 
@@ -30,4 +30,4 @@ In the device list status column, you can quickly see the power state or status 
 | **Stopped (Suspended)** | The device is powered down and billing is suspended. For more information about suspend billing, see [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements). |
 | **Unavailable** | Unable to determine the state of your device. |
 | **Updating** | Device running automated task such as firmware or BIOS update. |
-{: caption="Table 1. Device state or status definitions" caption-side="bottom}}
+{: caption="Device state or status definitions" caption-side="bottom}}

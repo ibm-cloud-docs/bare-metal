@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-10-09"
 
 keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing,
 
@@ -32,7 +32,7 @@ To provision a bare metal server with SGX, use the following steps:
 | Server | Select either Intel Sapphire Rapids processor or Intel Xeon&reg; 2174. |
 | Image | Select an available image. For more information about Classic-supported operating systems, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).|
 | Image Add-ons | Select Software Guard Extensions (SGX). |
-{: caption="Table 1. SGX order form options" caption-side="top"}
+{: caption="SGX order form options" caption-side="top"}
 
 ## Installing Intel SGX platform software and drivers
 {: #install-intel}

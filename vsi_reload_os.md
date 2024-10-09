@@ -3,7 +3,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-10-09"
 
 keywords: OS Reload, operating system
 
@@ -43,7 +43,7 @@ If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'R
    | If you want to reload a new configuration... | Click **Edit** for the category that requires an update. Select the new software from the **Select software** drop-down list. |
    | If you want to reload the existing configuration... | Proceed to the next step. |
    | If you want to change the operating system... | Click **Edit OS** > **Change version or manufacturer**. |
-   {: caption="Table 1. OS and software reload options" caption-side="top"}
+   {: caption="OS and software reload options" caption-side="top"}
 
 4. Determine whether to apply a postinstallation script after the device is provisioned.
 
@@ -56,7 +56,7 @@ If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'R
    | To add installed partitions... | Click **Add another partition**. > Enter the exact name of the partition. > Enter the partition size (in GB).  \n Optionally, you can select **Grow** to grow the partition to fill the remaining disk space. Keep in mind that you can select only one partition to grow at any time. This partition is larger than the specified size, and fills all available capacity. The capacity of the grown partition is calculated by subtracting the combined size of all other partitions from the total capacity number that is provided in the Installed Partitions section. |
    | To delete installed partitions... | Click **Delete** to delete the partition. |
    | To remain unchanged... | Proceed to the next step. |
-   {: caption="Table 2. Partition action options" caption-side="top"}
+   {: caption="Partition action options" caption-side="top"}
 
 6. Determine whether to apply one or more SSH keys to the device.
 
@@ -75,7 +75,7 @@ If you use IBM Cloud for VMware Solutions vCenter Server (VCS), don't use the 'R
    | Add to spare pool after OS reload | This option is available only on physical devices and requires internal approval before it's available on an account.|
    | Erase all hard disks| This option is available only on physical devices and requires special user permissions set by the account administrator.|
    | OS reload with disk preservation | This option configures your current primary disk as a secondary disk (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS reload process. Retains all data on the current primary disk during the OS reload process. Disk preservation converts the primary drive to a portable storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the portable storage device anytime after it was created. |
-   {: caption="Table 3. Post OS reload options" caption-side="top"}
+   {: caption="Post OS reload options" caption-side="top"}
 
 8. Click **Reload with configuration** to proceed to review. Click **Cancel** to cancel the changes to the device and exit the screen.
 

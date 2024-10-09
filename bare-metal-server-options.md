@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -58,7 +58,7 @@ You can now choose the following Sapphire Rapids CPUs when you provision a bare 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
 | 8474C | 48 core, 2.1 GHz | 256 GB, 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
-{: caption="Table 1. Sapphire Rapids CPU options" caption-side="top"}
+{: caption="Sapphire Rapids CPU options" caption-side="top"}
 
 Sapphire Rapids processors support the following operating systems:
 
@@ -84,7 +84,7 @@ You can choose from the following AMD EPYC "Rome" and "Milan" CPUs when you prov
 | AMD EPYC 7642 | 48-core, 2.3 GHz |
 | AMD EPYC 7F72 | 24-core, 3.2 GHz |
 | AMD EPYC 7763 | 64-core, 2.45 GHz |
-{: caption="Table 2. AMD EPYC CPU options" caption-side="top"}
+{: caption="AMD EPYC CPU options" caption-side="top"}
 
 The following operating systems are supported by AMD EPYC "Rome" CPUs:
 
@@ -110,7 +110,7 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 | Intel Xeon 6248 | 20-Core, 2.6 GHz |
 | Intel Xeon 6250 | 8-Core, 3.9 GHz |
 | Intel Xeon 8260 | 48-core, 2.4 Ghz |
-{: caption="Table 3. Cascade Lake CPU options" caption-side="top"}
+{: caption="Cascade Lake CPU options" caption-side="top"}
 
 ### NVIDIA GPUs
 {: #bm-gpu-support}
@@ -143,7 +143,7 @@ The following network redundancy options are available for bare metal servers.
 | User-managed redundancy | Interface teaming must be configured on the host operating system to use network redundancy. Without interface teaming, connectivity during routine maintenance is not preserved. |
 | No redundancy | This option is not recommended.|
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
-{: caption="Table 4. Network redunancy options" caption-side="top"}
+{: caption="Network redunancy options" caption-side="top"}
 
 VMWare requires user-managed links.
 {: tip}
@@ -181,4 +181,4 @@ The following add-ons are available when you provision a bare metal server.
 | Response | Automated response to your monitored metrics notifications. |
 | Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets). If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|
 | IPv6 IP addresses | An IPv6 is the most recent numeric label that is used to identify and locate a network interface of a computer or a network node that participates in a computer network by using the IPv6 protocol. A single IPv6 address is included.|
-{: caption="Table 5. Bare metal server provisioning options" caption-side="top"}
+{: caption="Bare metal server provisioning options" caption-side="top"}
