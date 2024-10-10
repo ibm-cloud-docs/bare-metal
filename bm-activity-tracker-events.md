@@ -55,7 +55,7 @@ The following table lists the actions that generate an event:
 | `audit-log.bare-metal.rename`                | An event is generated when an initiator renames a bare metal server. |
 | `audit-log.bare-metal.rescue`                | An event is generated when an initiator rescues a bare metal server. |
 | `audit-log.bare-metal.reload`                | An event is generated when an initiator performs an operating system (OS) reload for a bare metal server. |
-{: caption="Table 2. Bare metal actions" caption-side="top"}
+{: caption="Bare metal actions" caption-side="top"}
 
 
 ## Viewing events

@@ -12,7 +12,7 @@ When you open a pull request, make sure that you tag the request with a severity
 | Sev 2 | `bare-metal-sev2` | Incorrect instructions; user can’t proceed to successfully complete a task. These issues will be addressed in the next two-week sprint or earlier if the task is high priority. A Jira work item and the GitHub issue is updated within 48 hours. |
 | Sev 3 | `bare-metal-sev3` | Content enhancement would be helpful to user. This issue is added to the documentation backlog and will be addressed as prioritization allows. A Jira work item and the GitHub issue is updated within 1 week. |
 | Sev 4 | `bare-metal-sev4` | Typos, misspellings, formatting, and other style issues. This issue is added to the documentation backlog and will be addressed as prioritization allows. A Jira work item and the GitHub issue is updated within 1 week. |
-{: caption="Table 1. Severities for documentation pull requests" caption-side="bottom"}
+{: caption="Severities for documentation pull requests" caption-side="bottom"}
 
 If you have any questions about self-service documentation requests, you can ask those questions in the [#docs-iaas-self-service](https://ibm-cloudplatform.slack.com/archives/C06208Q8B8F).
 

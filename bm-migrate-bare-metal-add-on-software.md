@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-09-13"
+lastupdated: "2024-10-09"
 
 keywords: migrate cpanel, migrate ms sql server, migrate plesk, migrate r1soft, migrate bare metal server, migrate bare metal, migrate addon, migrate add on, migrate software
 
@@ -26,4 +26,4 @@ Use this table to find the migration documentation link for the add-on software 
 | MS SQL | [SQL Server migration documentation](https://learn.microsoft.com/en-us/sql/sql-server/migrate/?view=sql-server-ver16){: external}  |
 | Plesk | [Plesk migration documentation](https://docs.plesk.com/en-US/onyx/migration-guide/migrating-from-supported-hosting-platfoms/migrating-via-the-plesk-interface.75721/){: external}  |
 | R1Soft&reg; Backup Agent | [R1Soft&reg; Backup Agent migration documentation](http://wiki.r1soft.com/display/ServerBackup/Migrate+Server+Backup+Manager){: external} |
-{: caption="Table 1. Add-on software migration documentation links" caption-side="top"}
+{: caption="Add-on software migration documentation links" caption-side="top"}

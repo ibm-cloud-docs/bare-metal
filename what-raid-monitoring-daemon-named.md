@@ -32,4 +32,4 @@ You can configure RAID alerts to bypass the monitoring process by changing the S
 | Email port | 25 | 25 | 25 | 25 |
 | SMTP server | raidalerts-smtp.networklayer.com | raidalerts-smtp.networklayer.com | raidalerts-smtp.networklayer.com | raidalerts-smtp.networklayer.com |
 | Alternate notification options | Change SMTP server to a local SMTP server. The local SMTP server needs appropriate firewall configurations. | Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations. | Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations. | Change SMTP Server to a local SMTP server. The local SMTP server needs appropriate firewall configurations. |
-{: caption="Table 1. RAID configurations and settings" caption-side="top"}
+{: caption="RAID configurations and settings" caption-side="top"}
