@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "title": "Bare Metal Servers for Classic",
+  "introduction": "IBM Cloud® Bare Metal Servers for Classic are single-tenant, dedicated physical servers that can be deployed and managed as cloud services with various billing options, including hourly and monthly.",
+  "product_page": "https://www.ibm.com/products/bare-metal-servers",
+  "console_page": "/classic",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with bare metal servers",
+        "href": "/docs/bare-metal?topic=bare-metal-getting-started"
+      },
+      {
+        "title": "Contract-term pricing for bare metal servers",
+        "href": "/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers"
+      },
+      {
+        "title": "Confidential computing with Intel® Software Guard Extensions (SGX)",
+        "href": "/docs/bare-metal?topic=bare-metal-bm-intel-sgx"
+      },
+      {
+        "title": "Managing your account settings",
+        "href": "/docs/account?topic=account-account_settings"
+      },
+      {
+        "title": "Activity Tracker events",
+        "href": "/docs/bare-metal?topic=bare-metal-bm-at-events"
+      },
+      {
+        "title": "Shared responsibilities for using IBM Cloud products",
+        "href": "/docs/overview?topic=overview-shared-responsibilities"
+      },
+      {
+        "title": "FAQs: Bare metal servers",
+        "href": "/docs/bare-metal?topic=bare-metal-bm-faq"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud Bare Metal Servers on Classic Infrastructure",
+      "description": "Customize an IBM Cloud Bare Metal Server on classic infrastructure and get 20 TB of bandwidth at no charge. Create an IBM Cloud account to get a USD 200 credit. (110 kB)",
+      "href": "https://www.ibm.com/products/bare-metal-servers/classic",
+      "type": "blog"
+    }
+  ],
+  "section_devtools": {
+    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
+    "cli": "/docs/cli?topic=cli-sl-manage-bare-metal",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_bare_metal"
+  },
+  "section_updates": {
+    "view_more": "/docs/vpc?topic=vpc-release-notes"
+  }
+}
+
