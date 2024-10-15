@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-10-15"
 
 subcollection: bare-metal
 
@@ -88,3 +88,10 @@ Yes! You can now see what servers are available in what data center when you pro
 {: #how-do-i-use-ipmi}
 
 IPMI is a way to manage a server remotely through a network interface. Gather the IPMI address and login information from the {{site.data.keyword.cloud}} console under **Devices** > _your server (device details)_> **Remote Mgmt**. Next, establish a VPN connection to the server. You can then connect by pointing your web browser to the IP address or by using a [Stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
+
+## What operating system tasks are my responsibility?
+{: #what-os-tasks-are-my-responsibility}
+
+Operating system tasks are the exclusive responsibility of the customer in the infrastructure as a service (IaaS) model. For details on which tasks are the responsibility of {{site.data.keyword.cloud}}, the customer, or shared, see the Infrastructure as a service section in [Shared responsibilities for using IBM Cloud products](/docs/overview?topic=overview-shared-responsibilities#iaas-services-responsibilities) and [Understanding IaaS basics](/docs/cloud-infrastructure?topic=cloud-infrastructure-getting-started-tutorial#cloud-svc-models-2).
+
+{{site.data.keyword.cloud}} support assists with basic questions about instructions or considerations for product use in the {{site.data.keyword.cloud}} environment. For extensive operating system questions beyond the scope of Support, refer to the vendor-specific software documentation.
