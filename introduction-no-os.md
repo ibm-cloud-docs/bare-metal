@@ -2,9 +2,7 @@
 
 copyright:
   years: 2017, 2024
-
-lastupdated: "2024-06-06"
-
+lastupdated: "2024-10-15"
 
 keywords: no os, no operating system, server with no os
 
@@ -25,7 +23,6 @@ subcollection: bare-metal
 Use the following steps to order a bare metal server without an operating system.
 
 1. Use the steps that are outlined in [Building a Custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) to order your server.
-
 
    Because of compatibility issues, you can't select NMVe drives if you're going to install Windows&reg;.
    {: important}
@@ -62,3 +59,8 @@ It might be necessary to open a support case to request that the switch ports be
 {: #option-2}
 
 You can install an operating system on {{site.data.keyword.baremetal_short}} by booting from an ISO with the included IPMI device. For more information about booting from an ISO, see [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
+
+## Customer-installed operating system responsibilities
+{: #customer-installed-os-responsibilities}
+
+If you installed your own operating system, you are responsible for its maintenance and updates. Which includes making sure that security updates, software updates, and necessary configurations are applied promptly. The {{site.data.keyword.cloud}} support team is available to assist with issues that are related to hardware and preinstalled software. However, any issues that arise from the installation, maintenance, or functions of an operating system that aren't provided by {{site.data.keyword.cloud}}, you are responsible for. For any such issues, you must contact the operating system vendor directly. For more information, see [FAQs: Bare metal servers](/docs/bare-metal?topic=bare-metal-bm-faq#what-os-tasks-are-my-responsibility).
