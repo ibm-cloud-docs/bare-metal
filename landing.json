@@ -50,7 +50,6 @@
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_bare_metal"
   },
   "section_updates": {
-    "view_more": "/docs/vpc?topic=vpc-release-notes"
+    "view_more": "/docs/bare-metal?topic=bare-metal-release-notes"
   }
 }
-
