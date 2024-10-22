@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-10-21"
+lastupdated: "2024-10-22"
 
 keywords: bare metal release notes
 
@@ -23,6 +23,12 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## October 2024
 {: #bare-metaloct24}
+
+### 22 October 2024
+{: #bare-metal-oct2224}
+
+RHEL 8.10 for SAP and SAP HANA
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10 for SAP and SAP HANA workloads.
 
 ### 21 October 2024
 {: #bare-metal-oct2124}
