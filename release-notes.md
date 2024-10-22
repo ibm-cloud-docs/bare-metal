@@ -67,7 +67,7 @@ RHEL 9.2
 {: release-note}
 
 Common RAID controller
-:   {{site.data.keyword.baremetal_long}} now supports a common RAID controller for Sapphire Rapids-based Supermicro and Lenovo systems to simplify configuration.
+:   {{site.data.keyword.baremetal_long}} now supports a common RAID controller for Sapphire Rapids-based Supermicro and Lenovo systems to help simplify configuration.
 
 ## July 2024
 {: #bare-metal-jul24}
