@@ -121,7 +121,7 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 7.6 (SAP HANA and SAP applications) | 28 February 2023 |
 {: caption="Lifecycle for RHEL operating systems" caption-side="bottom"}
 
-RHEL 8 and 9 don't support "Add on" software configurations. RHEL 8 and 9 also don't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
+RHEL 8 and 9 don't support "Add on" software configurations. RHEL 8 and 9 also don't support the **Provision script** and **User data** selections for configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
 {: important}
 
 ### Rocky Linux
