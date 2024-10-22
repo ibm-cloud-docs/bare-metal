@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-10-10"
+lastupdated: "2024-10-22"
 
 keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing,
 
@@ -16,7 +16,7 @@ subcollection: bare-metal
 # Provisioning a bare metal server with Intel&reg; Software Guard Extension architecture
 {: #bm-server-provision-sgx}
 
-Intel Software Guard Extensions (SGX) can protect data that uses hardware-based server security. With Intel SGX applications, you can protect select code and data from disclosure or modification. By using trusted execution environments (TEE), known as enclaves, you can encrypt the pieces of your application memory that contains sensitive data while it is in use.
+Intel Software Guard Extensions (SGX) can protect data that uses hardware-based server security. With Intel SGX applications, you can protect select code and data from disclosure or modification. By using trusted execution environments (TEE), known as enclaves, you can encrypt the pieces of your application memory that contains sensitive data while it is in use. For more information about SGX on {{site.data.keyword.cloud}}, see [Confidential computing with Intel® Software Guard Extensions (SGX)](/docs/bare-metal?topic=bare-metal-bm-intel-sgx).
 {: shortdesc}
 
 ## Provisioning your bare metal server with SGX
