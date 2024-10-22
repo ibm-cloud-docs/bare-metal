@@ -45,7 +45,6 @@
     }
   ],
   "section_devtools": {
-    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
     "cli": "/docs/cli?topic=cli-sl-manage-bare-metal",
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_bare_metal"
   },
