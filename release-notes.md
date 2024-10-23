@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-10-22"
+lastupdated: "2024-10-23"
 
 keywords: bare metal release notes
 
@@ -23,6 +23,12 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## October 2024
 {: #bare-metaloct24}
+
+### 23 October 2024
+{: #bare-metal-oct2324}
+
+SUSE Linux Enterprise Server 15 (SUSE SLES 15) for SAP and SAP HANA (CLX profiles only)
+:   {{site.data.keyword.baremetal_long}} now supports SUSE SLES 15 for SAP and SAP HANA (CLX profiles only).
 
 ### 22 October 2024
 {: #bare-metal-oct2224}
@@ -121,7 +127,7 @@ Intel&reg; 'Speed Select' for the Sapphire Rapids processors
 {: release-note}
 
 Intel Sapphire Rapids CPU support (Select availability)
-:   Intel Sapphire Rapids CPUs for bare metal servers are now availabl in only the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
+:   Intel Sapphire Rapids CPUs for bare metal servers are now available in only the DAL, MAD, TOK, TOR, and WDC regions. For more information, see [Intel Sapphire Rapids CPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
 
 ## December 2023
 {: #bare-metal-dec23}
@@ -131,7 +137,7 @@ Intel Sapphire Rapids CPU support (Select availability)
 {: release-note}
 
 SSL Certificate Order is deprecated
-:   As of 15 April 2024, the SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
+:   As of 15 April 2024, the SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
 ### 06 December 2023
