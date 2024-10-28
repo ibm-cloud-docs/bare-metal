@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-10-23"
+lastupdated: "2024-10-28"
 
 keywords: bare metal release notes
 
@@ -24,17 +24,23 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## October 2024
 {: #bare-metaloct24}
 
+### 25 October 2024
+{: #bare-metal-oct2524}
+
+RHEL 8.10 for SAP (Cascade Lake servers only).
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10 for SAP workloads (Cascade Lake servers only).
+
 ### 23 October 2024
 {: #bare-metal-oct2324}
 
-SUSE Linux Enterprise Server 15 (SUSE SLES 15) for SAP and SAP HANA (CLX profiles only)
+SUSE Linux Enterprise Server 15 for SAP and SAP HANA (CLX profiles only)
 :   {{site.data.keyword.baremetal_long}} now supports SUSE SLES 15 for SAP and SAP HANA (CLX profiles only).
 
 ### 22 October 2024
 {: #bare-metal-oct2224}
 
-RHEL 8.10 for SAP and SAP HANA
-:   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10 for SAP and SAP HANA workloads.
+RHEL 8.10
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10.
 
 ### 21 October 2024
 {: #bare-metal-oct2124}
