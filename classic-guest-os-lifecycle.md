@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-10-22"
+lastupdated: "2024-10-29"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -179,6 +179,21 @@ The following table describes the end of support date for Windows Server operati
 | Windows Server 2012 full standard | 10 October 2023 |
 | Windows Server 2012 R2 full standard | 10 October 2023 |
 {: caption="Lifecycle for Windows Server operating systems" caption-side="bottom"}
+
+### SUSE Linux Enterprise Server (SLES)
+{: #suse-linux-enterprise-server-classic}
+
+The following table describes the end of support date and license model for SUSE Linux Enterprise Server (SLES) operating systems. This guest OS is a paid operating system. For more information, see [SUSE Linux Enterprise Server].(https://www.suse.com/products/server/){: external}.
+
+| Operating system | End of support |
+|-----------------|----------------|
+| SLES 15 SP4 (SAP HANA and SAP applications) | 31 Dec 2023 |
+| SLES 15 SP3 (SAP HANA and SAP applications) | 31 Dec 2022 |
+| SLES 15 SP2 (SAP HANA and SAP applications) | 31 Dec 2021 |
+| SLES 15 SP1 (SAP HANA and SAP applications) | 31 Jan 2021  |
+| SLES 12 SP5 (SAP HANA and SAP applications) LTSS | 31 October 2027  |
+| SLES 12 SP5 (SAP HANA and SAP applications) | 31 October 2024  |
+{: caption="Lifecycle for SLES operating systems" caption-side="bottom"}
 
 ## Add-on software and hypervisor lifecycles
 {: #add-on-lifecycles-classic}
