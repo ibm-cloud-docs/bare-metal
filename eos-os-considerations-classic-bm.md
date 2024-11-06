@@ -95,6 +95,15 @@ If you choose to continue with an EOS OS, consider the following information:
 
 End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased.
 
+### SUSE Linux Enterprise Server (SLES) 12 
+{: sles-12-eos-bm-clasic}
+
+SUSE Linux Enterprise Server (SLES) 12 EOS date is 31 October 2024. After deprecation, clients can't download the software.
+
+Clients are encouraged to upgrade to the most recent version for continued support. If an upgrade isn't possible, SUSE Long-Term Support Service (LTSS) is available that offers extended security updates and bug fixes for three more years. LTSS requires an extra monthly fee per instance.
+
+For more information about upgrading, see [SUSE documentation](https://documentation.suse.com/sles/15-SP6/single-html/SLES-upgrade/#sec-upgrade-paths-supported){: external} or contact [IBM support](/docs/account?topic=account-using-avatar).
+
 ### Debian 10
 {: debian-ten-eos-bm-clasic}
 
