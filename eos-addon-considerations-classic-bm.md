@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-13"
+lastupdated: "2024-11-12"
 
 keywords:
 
@@ -35,7 +35,7 @@ End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers 
 ### QuantaStor v6.x
 {: classic-quantastor}
 
-QuantaStor is a free software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 31 July 2025. {{site.data.keyword.cloud}} is removing this service from the catalog on 31 July 2025.
+QuantaStor is a licensed software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 31 July 2025. {{site.data.keyword.cloud}} is removing this service from the catalog on 31 July 2025.
 
 You have the following options when QuantaStor is discontinued.
 
