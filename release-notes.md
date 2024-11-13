@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-10-28"
+lastupdated: "2024-11-13"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## November 2024
+{: #bare-metalnov24}
+
+### 13 November 2024
+{: #bare-metalnov1324}
+
+NVMe OS boot drives now support Ubuntu
+:   When you provision a bare metal server with Ubuntu, you can now select NVMe OS boot drives.
 
 ## October 2024
 {: #bare-metaloct24}
