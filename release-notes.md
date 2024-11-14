@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-11-13"
+lastupdated: "2024-11-14"
 
 keywords: bare metal release notes
 
@@ -22,16 +22,22 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: shortdesc}
 
 ## November 2024
-{: #bare-metalnov24}
+{: #bare-metal-nov24}
+
+### 14 November 2024
+{: #bare-metal-nov1424}
+
+NVMe OS boot drives now support Debian
+:   When you provision a bare metal server with Debian, you can now select NVMe OS boot drives.
 
 ### 13 November 2024
-{: #bare-metalnov1324}
+{: #bare-metal-nov1324}
 
 NVMe OS boot drives now support Ubuntu
 :   When you provision a bare metal server with Ubuntu, you can now select NVMe OS boot drives.
 
 ## October 2024
-{: #bare-metaloct24}
+{: #bare-metal-oct24}
 
 ### 25 October 2024
 {: #bare-metal-oct2524}
