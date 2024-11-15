@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-10-29"
+lastupdated: "2024-11-15"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -98,7 +98,7 @@ The following table describes the end of support date for OSNEXUS QuantaStor ope
 ### Red Hat Enterprise Linux (RHEL)
 {: #rhel-classic}
 
-The following table describes the end of support date for RHEL operating systems. This guest OS is a paid operating system. For more information, see [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux){: external}.
+The following table describes the end of support date for RHEL operating systems. This guest OS is a paid operating system. For more information, see [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux){: external}. For more information about support for Red Hat, see [FAQs about Red Hat and IBM Cloud® infrastructure](/docs/cloud-infrastructure?topic=cloud-infrastructure-faqs-for-red-hat-ibm-cloud)
 
 | Operating system | End of support |
 |-----------------|----------------|
@@ -167,7 +167,7 @@ Cascade Lake-based servers with VMware vSphere 8.x don't support TPM 1.2 or secu
 ### Windows Server
 {: #windows-server-classic}
 
-The following table describes the end of support date for Windows Server operating systems. This guest OS is a paid operating system. For more information, see [Microsoft Windows Server](https://www.microsoft.com/en-us/windows-server){: external}.
+The following table describes the end of support date for Windows Server operating systems. This guest OS is a paid operating system. For more information, see [Microsoft Windows Server](https://www.microsoft.com/en-us/windows-server){: external}. For more information about support for Microsoft, see [FAQs about Microsoft and IBM Cloud® infrastructure](/docs/cloud-infrastructure?topic=cloud-infrastructure-faqs-for-microsoft-software-ibm-cloud).
 
 | Operating system | End of support |
 |-----------------|----------------|
