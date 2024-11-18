@@ -26,8 +26,6 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 
 
-
-
 ### 14 November 2024
 {: #bare-metal-nov1424}
 
