@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2024-11-19"
 
 keywords:
 
@@ -56,3 +56,18 @@ Do not use this process if the restoration of a subset of files is the objective
    {: note}
 
 3. After 10 minutes, confirm that the CDP and networking started successfully by testing the agent with the [R1soft&reg; SBM](http://wiki.r1soft.com/display/ServerBackupManager/Test+Agent+Connection).
+
+## Using Bare Metal Restore for Windows-based servers
+{: #using-bare-metal-restore-for-windows-based-devices}
+
+When you use Bare Metal Restore for a Windows server, the restore process generally takes longer when compared to Linux-based devices. So, keep the following information in mind.
+
+* The estimated time to mount a Windows ISO can take 4 or more hours.
+* This extended time can affect your overall Recovery Time Objective (RTO). Make sure that your recovery plan minimizes disruption.
+
+If the estimated wait time of 4 or more hours does not align with your recovery needs, you can manually mount the R1Soft ISO. Then, you can proceed with the restore without waiting for manual intervention.
+
+To help reduce the time that it takes to recover your Windows server, use the following steps to manually mount the R1Soft ISO.
+
+1. Refer to the [manual ISO mounting instructions] (https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-mount-iso#bm-mount-iso-opt-3).
+2. Download the R1Soft Live ISO from this link: [R1Soft Live ISO Download] (https://repo.r1soft.com/bm/serverbackup-bootcd-agent-6.14.2.iso){: external}.
