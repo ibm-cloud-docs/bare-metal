@@ -69,5 +69,5 @@ If the estimated wait time of 4 or more hours does not align with your recovery 
 
 To help reduce the time that it takes to recover your Windows server, use the following steps to manually mount the R1Soft ISO.
 
-1. Refer to the [manual ISO mounting instructions] (https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-mount-iso#bm-mount-iso-opt-3).
-2. Download the R1Soft Live ISO from this link: [R1Soft Live ISO Download] (https://repo.r1soft.com/bm/serverbackup-bootcd-agent-6.14.2.iso){: external}.
+1. Refer to the [manual ISO mounting instructions](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-mount-iso#bm-mount-iso-opt-3).
+2. Download the R1Soft Live ISO from [R1Soft live ISO download](https://repo.r1soft.com/bm/serverbackup-bootcd-agent-6.14.2.iso){: external}.
