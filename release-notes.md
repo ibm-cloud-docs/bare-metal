@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2024
 
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-25"
 
 keywords: bare metal release notes
 
@@ -24,16 +24,26 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## November 2024
 {: #bare-metal-nov24}
 
+### 25 November 2024
+{: #bare-metal-nov2524}
+{: release-note}
 
+RHEL 9.4 for {{site.data.keyword.baremetal_long}}
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 9.4.
+
+RHEL 9.4 for SAP CLX profiles
+:   When you provision a bare metal server, you can now select RHEL 9.4 for SAP CLX profiles.
 
 ### 14 November 2024
 {: #bare-metal-nov1424}
+{: release-note}
 
 NVMe OS boot drives now support Debian
 :   When you provision a bare metal server with Debian, you can now select NVMe OS boot drives.
 
 ### 13 November 2024
 {: #bare-metal-nov1324}
+{: release-note}
 
 NVMe OS boot drives now support Ubuntu
 :   When you provision a bare metal server with Ubuntu, you can now select NVMe OS boot drives.
@@ -43,24 +53,28 @@ NVMe OS boot drives now support Ubuntu
 
 ### 25 October 2024
 {: #bare-metal-oct2524}
+{: release-note}
 
 RHEL 8.10 for SAP (Cascade Lake servers only).
 :   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10 for SAP workloads (Cascade Lake servers only).
 
 ### 23 October 2024
 {: #bare-metal-oct2324}
+{: release-note}
 
 SUSE Linux Enterprise Server 15 for SAP and SAP HANA (CLX profiles only)
 :   {{site.data.keyword.baremetal_long}} now supports SUSE SLES 15 for SAP and SAP HANA (CLX profiles only).
 
 ### 22 October 2024
 {: #bare-metal-oct2224}
+{: release-note}
 
 RHEL 8.10
 :   {{site.data.keyword.baremetal_long}} now supports RHEL 8.10.
 
 ### 21 October 2024
 {: #bare-metal-oct2124}
+{: release-note}
 
 RHEL 9.2 for SAP and SAP HANA
 :   {{site.data.keyword.baremetal_long}} now supports RHEL 9.2 for SAP and SAP HANA workloads.
@@ -70,6 +84,7 @@ RHEL 9.2 for SAP and SAP HANA
 
 ### 10 September 2024
 {: #bare-metal-sep1024}
+{: release-note}
 
 New add-on support for Ubuntu 22.04
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04.
