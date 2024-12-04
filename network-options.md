@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, {CURRENT_YEAR}]
-lastupdated: "2024-09-13"
+lastupdated: "2024-12-04"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
@@ -62,14 +62,6 @@ The 25 Gbps port speed option is compatible with only the following 2U (12 drive
 * Intel Xeon 6248
 * Intel Xeon 6250
 * Intel Xeon 8260
-
-25 Gbps port speeds are available with the following operating systems:
-
-* CentOS 8.2
-* ESXi for {{site.data.keyword.baremetal_short}}
-* RHEL 8.2
-* RHEL 8.2 for SAP
-* Windows server 2016, 2019
 
 25 Gbps port speeds are available only in select data centers.
 
