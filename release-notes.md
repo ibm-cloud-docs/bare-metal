@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2019, 2024
+  years: 2019, 2025
 
-lastupdated: "2024-11-25"
+lastupdated: "2025-01-14"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
 {: shortdesc}
+
+## January 2025
+{: #bare-metal-jan25}
+
+### 14 January 2025
+{: #bare-metal-jan1425}
+{: release-note}
+
+SAP-certfied profiles
+:   Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now supports SAP-certified profiles.
 
 ## November 2024
 {: #bare-metal-nov24}
