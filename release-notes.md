@@ -24,8 +24,8 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## January 2025
 {: #bare-metal-jan25}
 
-### 17 January 2025
-{: #bare-metal-jan1725}
+### 15 January 2025
+{: #bare-metal-jan1525}
 {: release-note}
 
 Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support SAP profiles on RHEL 8.10.
