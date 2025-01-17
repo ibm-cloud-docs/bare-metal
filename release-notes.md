@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2025
 
-lastupdated: "2025-01-14"
+lastupdated: "2025-01-17"
 
 keywords: bare metal release notes
 
@@ -24,12 +24,18 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## January 2025
 {: #bare-metal-jan25}
 
+### 15 January 2025
+{: #bare-metal-jan1525}
+{: release-note}
+
+Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support SAP profiles on RHEL 8.10.
+
 ### 14 January 2025
 {: #bare-metal-jan1425}
 {: release-note}
 
 SAP-certfied profiles
-:   Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now supports SAP-certified profiles.
+:   Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support SAP-certified profiles.
 
 ## November 2024
 {: #bare-metal-nov24}
