@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2024
-lastupdated: "2024-10-09"
+  years: 2016, 2025
+lastupdated: "2025-02-04"
 
 keywords:
 
@@ -50,15 +50,21 @@ If a fast-provisioning server doesn't meet your workload needs, you can customiz
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
-Intel&reg; Sapphire Rapids processors are available only in the DAL, MAD, TOK, TOR, and WDC regions.
-{: preview}
-
 You can now choose the following Sapphire Rapids CPUs when you provision a bare metal server.
 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
-| 8474C | 48 core, 2.1 GHz | 256 GB, 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
+| 8474C | 48-core, 2.1 GHz | 256 GB 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
+|       | 64-core, 2.6 GHz | 256 GB, 512 GB 1,024 GB 2,048 GB | Yes |
+|       | 96-core, 2.1 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+| 6416H | 24-cores 2.70GHz | 256 GB, 512GB, 1,024GB, 2,048GB | Yes |
+|       | 32-cores 2.30GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+|       | 36-cores 2.20GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+| 6434H | 16-cores 3.70GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
 {: caption="Sapphire Rapids CPU options" caption-side="top"}
+
+Sapphire Rapids CPUs are not available in the CHE01 and SAO multizone region.
+{: note}
 
 Sapphire Rapids processors support the following operating systems:
 
@@ -67,6 +73,7 @@ Sapphire Rapids processors support the following operating systems:
 * RHEL 9.x
 * Rocky Linux
 * Ubuntu 22.04
+* VMware ESXi 7.0ux, 8.0ux
 * No OS option
 
 ### AMD CPUs
@@ -106,7 +113,9 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 | Cascade Lake CPUs | Specifications |
 |-----|-----|
 | Intel Xeon 4210 | 10-Core, 2.2 GHz |
+| Intel Xeon 4210 NFS (VMware ESXi 7.0ux and 8.0ux only) | 20-core 2.20 GHz |
 | Intel Xeon 5218 | 16-Core, 2.3 GHz |
+| Intel Xeon 5218 NFS (VMware ESXi 7.0ux and 8.0ux only) | 32-core 2.30 GHz |
 | Intel Xeon 6248 | 20-Core, 2.6 GHz |
 | Intel Xeon 6250 | 8-Core, 3.9 GHz |
 | Intel Xeon 8260 | 48-core, 2.4 Ghz |
