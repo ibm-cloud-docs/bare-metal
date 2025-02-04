@@ -63,7 +63,7 @@ You can now choose the following Sapphire Rapids CPUs when you provision a bare 
 | 6434H | 16-cores 3.70GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
 {: caption="Sapphire Rapids CPU options" caption-side="top"}
 
-Sapphire Rapids CPUs are not available in the CHE01 and SAO multizone region.
+Sapphire Rapids CPUs are not available in the CHE01 and SAO multizone regions.
 {: note}
 
 Sapphire Rapids processors support the following operating systems:
