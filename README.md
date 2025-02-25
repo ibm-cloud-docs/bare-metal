@@ -1,24 +1,40 @@
 # Bare metal documentation repo README file
 
-You can submit suggested changes to any documentation page by clicking "Edit topic" at the end of each page. By following that link and editing the page, you can submit updates in a pull request (PR). See [Submitting pull requests](https://test.cloud.ibm.com/docs/writing?topic=writing-pr) for more information. 
+## Self-service content process
 
-If you want to request a new topic or updates for a new feature, follow the [Client Services Feature Intake Process](https://confluence.swg.usma.ibm.com:8445/display/UI/Client+Services+Feature+Intake+Process).
+If you find content that needs an update or and edit, you can follow these steps to create a pull request. 
 
-When you open a pull request, make sure that you tag the request with a severity label. The severity levels are as follows. The timeline indicates only when a JIRA work item is created and the GitHub issue is updated with the JIRA information. Timeline for completion of work depends on what is needed for a solution.
+Do you need to add content for a new product, offering, or feature? Then, make sure that you follow the [Client Services Feature Intake Process](https://confluence.swg.usma.ibm.com:8445/display/UI/Client+Services+Feature+Intake+Process).
+
+1. Make sure that the test prefix is in the URL for the documentation page that you want to update. Example: https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-no-os. The _test_ prefix makes sure that the proceeding steps stay internal.
+1. Click Edit topic.
+1. On the GitHub page that opens, verify that you see "source" as the branch.
+1. Click Edit this file (pencil icon).
+1. Enter your suggested changes.
+1. Enter a brief commit message, select Create a new branch for this commit and start a pull request, and click Propose changes.
+1. Enter a description, add 'jmilst' as the assignee, click Labels to select an appropriate severity level. 
+1. Click **Create pull request**.
+1. From the new pull request page, copy the GitHub pull request URL and send it to @Sterling on Slack.
+ 
+After the pull request is created and shared, we can assign the pull request to a future sprint.  Thank you for helping us improve our documentation!
 
 | Severity | Label | Description |
 | --- | --- | --- |
-| Sev 1 | `bare-metal-sev1` | Content error causes data loss or broken environment. These issues will be addressed as soon as possible. A Jira work item and the GitHub issue is updated within 24 hours. |
-| Sev 2 | `bare-metal-sev2` | Incorrect instructions; user can’t proceed to successfully complete a task. These issues will be addressed in the next two-week sprint or earlier if the task is high priority. A Jira work item and the GitHub issue is updated within 48 hours. |
-| Sev 3 | `bare-metal-sev3` | Content enhancement would be helpful to user. This issue is added to the documentation backlog and will be addressed as prioritization allows. A Jira work item and the GitHub issue is updated within 1 week. |
-| Sev 4 | `bare-metal-sev4` | Typos, misspellings, formatting, and other style issues. This issue is added to the documentation backlog and will be addressed as prioritization allows. A Jira work item and the GitHub issue is updated within 1 week. |
-{: caption="Severities for documentation pull requests" caption-side="bottom"}
+| Sev 1 | `vpc-sev1` | Content error causes data loss or broken environment. |
+| Sev 2 | `vpc-sev2` | Incorrect instructions; user can’t proceed to successfully complete a task. |
+| Sev 3 | `vpc-sev3` | Content enhancement that is helpful to user. |
+| Sev 4 | `vpc-sev4` | Typos, misspellings, formatting, and other style issues. |
+{: caption="Table 1. Severities for documentation pull requests" caption-side="bottom"}
+
+### Notes
+
+**No third-party content allowed**. Only products and features that are developed by IBM receive product documentation in IBM Cloud. We can link to third-party content, but we can't include third-party information in our content. For more information, see [Third-party documentation requirements](https://github.ibm.com/docs/writing?topic=writing-get-started-onboarding#third-party-requirements). 
 
 If you have any questions about self-service documentation requests, you can ask those questions in the [#docs-iaas-self-service](https://ibm-cloudplatform.slack.com/archives/C06208Q8B8F).
 
 ## Bare metal documentation areas and contacts
 
-* Bare Metal: Sterling Milstead
+* Documentation: Sterling Milstead
 * Release Notes: Sterling Milstead and Anna Matetic
 
 ## Release notes process
