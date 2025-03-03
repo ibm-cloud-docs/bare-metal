@@ -2,8 +2,7 @@
 
 copyright:
   years: 2019, 2025
-
-lastupdated: "2025-01-17"
+lastupdated: "2025-03-03"
 
 keywords: bare metal release notes
 
@@ -18,8 +17,19 @@ content-type: release-note
 # Release notes for {{site.data.keyword.baremetal_long}}
 {: #release-notes}
 
-Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} that are grouped by date.
+Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## March 2025
+{: #bare-metal-mar25}
+
+### 03 March 2025
+{: #bare-metal-mar0325}
+{: release-note}
+
+Add-on support for Rocky Linux
+
+:   Rocky Linux on {{site.data.keyword.baremetal_long}} now supports add-ons. For more information, see [Rocky Linux Documentation](https://docs.rockylinux.org/){: external}.
 
 ## January 2025
 {: #bare-metal-jan25}
