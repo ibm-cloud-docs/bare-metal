@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-02-19"
+lastupdated: "2025-03-18"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -115,6 +115,7 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 7.9  | 30 June 2024 |
 | RHEL 6 | 30 November 2020 |
 | **SAP HANA and SAP applicatiions** |  |
+| RHEL 9.4 (SAP HANA and SAP applications) | 31 May 2029 |
 | RHEL 9.4 (SAP CLX) | 31 May 2028 |
 | RHEL 9.2 (SAP HANA and SAP applications) | 31 May 2027 |
 | RHEL 8.10 (SAP HANA and SAP applications) | 31 May 2029 |
