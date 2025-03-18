@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-03-03"
+lastupdated: "2025-03-18"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,14 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## March 2025
 {: #bare-metal-mar25}
+
+### 18 March 2025
+{: #bare-metal-mar1825}
+{: release-note}
+
+SAP Profiles on RHEL 9.4
+
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports SAP profiles on RHEL 9.4.
 
 ### 03 March 2025
 {: #bare-metal-mar0325}
