@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-10-15"
+  years: 2014, 2025
+lastupdated: "2025-03-24"
 
 subcollection: bare-metal
 
@@ -12,7 +12,7 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Bare metal servers
+# FAQ: Bare metal servers
 {: #bm-faq}
 
 ## What is UEFI boot mode?
@@ -29,10 +29,10 @@ For more information about UEFI, see your hardware manufacturer documentation or
 
 {{site.data.keyword.cloud}} does not provide you with direct access to your BIOS. However, you can change the BIOS. If you need to modify anything in the BIOS, including boot order, open a [support case](/docs/get-support?topic=get-support-open-case) and request the changes that you need.
 
-This change requires a restart of your server, so be ready to approve a restart and provide a time frame for when you want to implement like the changes.
+This change requires a restart of your server, so be ready to approve a restart and provide a time frame for when you want to implement changes.
 {: note}
 
-## Do you provide complimentary OS Reloads?
+## Do you provide complimentary OS reloads?
 {: #do-you-provide-comp-os-reloads}
 
 Automated OS reloads are free and are performed through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external}. Customized OS reloads (such as changing operating systems, addition or removal of control panels, and partition editing) are included. For more information about performing an OS Reload, see [OS Reload procedure](/docs/bare-metal?topic=bare-metal-reloading-the-os).
