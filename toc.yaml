@@ -124,7 +124,6 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - bm-activity-tracker-events.md
       - high-availability.md
       - include: ../virtual-servers/data-portability-classic.md
   - navgroup:
