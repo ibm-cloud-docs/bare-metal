@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-04-03"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,17 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## April 2025
+{: #bare-mteal-apr25}
+
+### 02 April 2025
+{: #bare-metal-apr0225}
+{: release-note}
+
+vSphere 8 and vSAN 8 Original Storage Architecture (OSA) on Cascade Lake servers
+
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports vSphere 8.x and vSAN 8.x OSA on new and existing Cascade Lake servers.
 
 ## March 2025
 {: #bare-metal-mar25}
