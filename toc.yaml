@@ -124,6 +124,8 @@ toc:
   - navgroup:
       id: reference
       topics:
+      - include: ../cloud-logs?topic=cloud-logs-getting-started.md
+      - bm-activity-tracker-events.md
       - high-availability.md
       - include: ../virtual-servers/data-portability-classic.md
   - navgroup:
