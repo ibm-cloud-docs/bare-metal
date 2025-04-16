@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-11-12"
+  years: 2023, 2025
+lastupdated: "2025-04-16"
 
 keywords:
 
@@ -60,3 +60,25 @@ The following are two options to migrate data from Quantastor s3 compatible buck
 1. Rclone&reg; is an open source tool. {{site.data.keyword.cloud}} does not support Rclone&reg;. The Rclone&reg; tool can be used for migrating from s3 sources to s3 targets. Rclone&reg; can be used for migrating from s3 sources to s3 targets, or migrating data from NAS file shares to s3 Cloud Object Storage buckets.
 
    For more information, see [Using Rclone&reg;](/docs/cloud-object-storage?topic=cloud-object-storage-rclone) and [Rclone&reg; documentation](https://rclone.org/docs/){: external}.
+
+### MySQL 8.0 for Linux on {{site.data.keyword.cloud}} Classic EOS
+{: #classic-mysql-eos-bm-classic}
+
+MySQL 8.0 on {{site.data.keyword.cloud}} Classic servers is a free software that is available as an add-on to {{site.data.keyword.cloud}} Classic servers. Support for this software discontinues on 30 April 2026. MySQL 8.0 is planned for removal from the {{site.data.keyword.cloud}} catalog on 30 April 2026.
+
+This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MySQL.
+{: note}
+
+Review the following details for this deprecation.
+
+* When MySQL 8.0 is removed from the IBM Cloud Classic Catalog, you can't provision new servers with MySQL 8.0.
+*	All support that includes security updates and bug fixes for MySQL 8.0, stops after 30 April 2026, but you can keep using it at your own risk. 
+*	Support for existing servers with MySQL 8.0 ends on 30 April 2026.
+
+To plan for this deprecation, see the following recommendations.
+
+* To make sure that you have uninterrupted usage of this software, we recommend the following actions. By using these alternatives, you can continue using MySQL without interruption.
+   - DIY Installation. MySQL packages are available on Linux distributions.
+   - Opting for the BYOL (Bring Your Own License) option to upgrade to MySQL 8.4.
+*	You can use the following documentation for seamless self-installation and upgrades [Installing MySQL on Linux by using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/linux-installation-yum-repo.html){: external}.
+* You can connect with any partner of your choice or choose an IBM partner with paid support to help with migration by using [Wanclouds IBM request]([https://wanclouds.net/ibm](https://wanclouds.net/ibm/request)){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
