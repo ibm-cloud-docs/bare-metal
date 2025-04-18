@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-04-18"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -37,8 +37,7 @@ Ciena vRouter is updated regularly with the previous release deprecating when a 
 | 2204 (available only on bare metal servers) | 30 November 2025 |
 | 2110 (available only on bare metal servers) | 19 April 2024 |
 | 2012 (available only on bare metal servers) | 1 September 2024 |
-| 1912 (available only on bare metal servers) | 31 December 2022 |
-| 1908 (available only on bare metal servers)  | 31 December 2022 |
+
 {: caption="Lifecycle for vRouter operating systems" caption-side="bottom"}
 
 ### CentOS
@@ -50,9 +49,7 @@ The following table describes the end of support date for CentOS operating syste
 |-----------------|----------------|
 | CentOS Stream 9 | 31 May 2027 |
 | CentOS Stream 8 (available only on bare metal servers) | 31 May 2024 |
-| CentOS 8.x | 31 December 2021  |
 | CentOS 7.9 | 30 June 2024 |
-| CentOS 6 | 30 November 2020 |
 {: caption="Lifecycle for CentOS operating systems" caption-side="bottom"}
 
  CentOS 8 doesn't support "Add on" software configurations. CentOS 8 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
@@ -78,7 +75,6 @@ The following table describes the end of support date for Debian operating syste
 | Debian 12 | 30 June 2028 |
 | Debian 11 | 30 June 2026 |
 | Debian 10 | 30 June 2024 |
-| Debian 9  | 30 June 2022 |
 {: caption="Lifecycle for Debian operating systems" caption-side="bottom"}
 
 Debian 10 doesn't support add on software configurations. Debian 10 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
@@ -113,7 +109,6 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 8.2  | 30 April 2022 |
 | RHEL 8.1  | 30 November 2021 |
 | RHEL 7.9  | 30 June 2024 |
-| RHEL 6 | 30 November 2020 |
 | **SAP HANA and SAP applicatiions** |  |
 | RHEL 9.4 (SAP HANA and SAP applications) | 31 May 2029 |
 | RHEL 9.4 (SAP CLX) | 31 May 2028 |
@@ -147,9 +142,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 |-----------------|----------------|
 | Ubuntu 24.04 minimal | 30 April 2029 |
 | Ubuntu 22.04 minimal | 30 April 2027 |
-| Ubuntu 20.04 minimal | 30 April 2025 |
-| Ubuntu 18.04 minimal | 31 May 2023  |
-| Ubuntu 16.04 minimal | 01 April 2021  |
+| Ubuntu 20.04 minimal | 31 May 2025 |
 {: caption="Lifecycle for Ubuntu LTS operating systems" caption-side="bottom"}
 
 ### VMware
@@ -179,8 +172,6 @@ The following table describes the end of support date for Windows Server operati
 | Windows Server 2019 full standard | 09 January 2029 |
 | Windows Server 2016 core | 11 January 2027 |
 | Windows Server 2016 full standard  | 11 January 2027  |
-| Windows Server 2012 full standard | 10 October 2023 |
-| Windows Server 2012 R2 full standard | 10 October 2023 |
 {: caption="Lifecycle for Windows Server operating systems" caption-side="bottom"}
 
 ### SUSE Linux Enterprise Server (SLES)
@@ -212,16 +203,10 @@ The following table describes the end of support date for product add-ons and hy
 | [Microsoft SQL Server 2019](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2019){: external} | 8 January 2030 |
 | [Microsoft SQL Server 2017](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2017){: external} | 12 October 2027 |
 | [Microsoft SQL Server 2014](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2014){: external} | 9 July 2024 |
-| [Microsoft SQL Server 2012 Web](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
-| [Microsoft SQL Server 2012 Standard](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
-| [Microsoft SQL Server 2012 Enterprise](https://learn.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-end-of-support-overview?view=sql-server-ver16){: external} | 12 July 2022 |
-| [MongoDB Community Edition 1.0](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mongodb-eos) | 20 November 2023 |
-| [MySQL 5.7 on {{site.data.keyword.cloud}} Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 20 November 2023 |
+| [MySQL 8.0 on {{site.data.keyword.cloud}} Bare Metal](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic#classic-mysql-eos) | 30 April 2026 |
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
-| [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 28 February 2026 |
-| [Veeam Backup (Windows) 11.x](https://www.veeam.com/product-lifecycle.html){: external} | 29 February 2024 |
-| [Veeam Backup (Windows) 9.x](https://www.veeam.com/product-lifecycle.html){: external} | 31 January 2022 |
+| [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 01 February 2027 |
 {: caption="Lifecycle for add-ons" caption-side="bottom"}
 
 ## End of Support (EOS) announcements
