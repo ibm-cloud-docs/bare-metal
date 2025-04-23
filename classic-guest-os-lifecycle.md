@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-04-18"
+lastupdated: "2025-04-23"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -33,7 +33,7 @@ Ciena vRouter is updated regularly with the previous release deprecating when a 
 
 | Operating system | End of support |
 |-----------------|----------------|
-| 2308 (available only on bare metal servers) | 18 February 2026 |
+| 2308 (available only on bare metal servers) | 31 December 2027 |
 | 2204 (available only on bare metal servers) | 30 November 2025 |
 | 2110 (available only on bare metal servers) | 19 April 2024 |
 | 2012 (available only on bare metal servers) | 1 September 2024 |
