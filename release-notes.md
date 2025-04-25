@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-04-25"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,14 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## April 2025
 {: #bare-mteal-apr25}
+
+### 25 April 2025
+{: #bare-metal-apr2525}
+{: release-note}
+
+SUSE Linux Enterprise Server 15 SP5 for SAP workloads
+
+:   {site.data.keyword.baremetal_long}} now supports SUSE Linux Enterprise Server 15 SP5 for SAP workloads.
 
 ### 02 April 2025
 {: #bare-metal-apr0225}
