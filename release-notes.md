@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-04-25"
+lastupdated: "2025-04-29"
 
 keywords: bare metal release notes
 
@@ -23,13 +23,20 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## April 2025
 {: #bare-mteal-apr25}
 
+### 29 April 2025
+{: #bare-metal-apr2925}
+{: release-note}
+
+NVMe OS boot drives now support Windows
+:   When you provision a bare metal server with Windows, you can now select an NVMe drive as the OS boot drive.
+
 ### 25 April 2025
 {: #bare-metal-apr2525}
 {: release-note}
 
 SUSE Linux Enterprise Server 15 SP5 for SAP workloads
 
-:   {site.data.keyword.baremetal_long}} now supports SUSE Linux Enterprise Server 15 SP5 for SAP workloads.
+:   {{site.data.keyword.baremetal_long}} now supports SUSE Linux Enterprise Server 15 SP5 for SAP workloads.
 
 ### 02 April 2025
 {: #bare-metal-apr0225}
