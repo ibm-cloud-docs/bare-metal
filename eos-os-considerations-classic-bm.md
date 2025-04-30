@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-06-06"
+  years: 2023, 2025
+lastupdated: "2025-04-30"
 
 keywords:
 
@@ -107,8 +107,7 @@ For more information about upgrading, see [SUSE documentation](https://documenta
 ### Debian 10
 {: debian-ten-eos-bm-clasic}
 
-Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version.
-For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){external}.
+Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){external}.
 
 ### Red Hat Enterprise Linux 7
 {: #upgrading-rhel-7-os-bm-classic}
@@ -123,7 +122,7 @@ For existing customers, upgrade to the latest version. For more information, see
 Windows Server 2012 and Windows Server 2012 R2 EOS date is 10 October 2023. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
 No additional licensing costs are incurred to move to a newer software version when you use IBM’s License Included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
 
-## CentOS 7 and CentOS Stream 8
+### CentOS 7 and CentOS Stream 8
 {: #upgrading-centos-7}
 
 CentOS 7 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software.
@@ -131,3 +130,10 @@ CentOS 7 EOS date is 30 June 2024. Support for this software discontinues on 30 
 CentOS Stream 8 EOS date is 31 May 2024. Support for this software discontinues on 31 May 2024. After deprecation, clients can't download the software.
 
 To migrate workloads from CentOS, you can switch to a compatible OS distribution, or choose a different operating system. Compatible distributions include CentOS Stream 9, Rocky Linux 8 and 9, and RHEL 8 and 9. You can also migrate to a different OS such as Debian or Ubuntu LTS. Options when you migrate includes an OS reload, a side-by-side upgrade, or you can migrate to a new server.
+
+### Ubuntu 20.04
+{: ubuntu-twenty-eos-bm-clasic}
+
+Ubuntu 20.04 EOS date is 31 May 2025. Support for this software discontinues on 31 May 2025. After deprecation, clients can't download the software. 
+
+For existing customers, upgrade to the latest version. For more information, see the [Ubuntu documentation](https://ubuntu.com/20-04){external}.

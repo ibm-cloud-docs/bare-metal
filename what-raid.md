@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-09-13"
+  years: 2017, 2025
+lastupdated: "2025-04-30"
 
 
 keywords: raid, about raid
@@ -36,3 +36,6 @@ RAID is not a backup solution. Rather, RAID creates a single usable data disk, w
 **RAID 6** (Double parity) Implements double parity stripes on each disk and allows two disks to fail before any data is lost. Because RAID 6 has a capacity of two disk units that are dedicated to storing parity data in a parity set, greater I/O operations occur with RAID 6 than with RAID 5. These greater I/O operations can decrease performance. RAID 6 requires a minimum of 4 disks and a maximum of 18 disks.
 
 **RAID 10** (RAID 1 + 0) Creates multiple mirrors, where data is organized as stripes across multiple disks and then the striped disk sets are mirrored. RAID 10 offers the same fault tolerance as RAID 1 with increased read/write speeds over a single Raid 1 volume or single drive. RAID Level 10 requires four disks to implement.
+
+Do not use RAID controllers to store Secure Encryption Device (SED) passwords. RAID is not a key management system. If power is lost to the RAID controller, all data that is stored on the controllers is lost.
+{: important}
