@@ -107,7 +107,7 @@ For more information about upgrading, see [SUSE documentation](https://documenta
 ### Debian 10
 {: debian-ten-eos-bm-clasic}
 
-Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){external}.
+Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){: external}.
 
 ### Red Hat Enterprise Linux 7
 {: #upgrading-rhel-7-os-bm-classic}
