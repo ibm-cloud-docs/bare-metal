@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-05-07"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## May 2025
+{: #bare-mteal-may25}
+
+### 07 May 2025
+{: #bare-metal-may0725}
+{: release-note}
+
+Rocky Linux 8.10 support
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 8.10.
 
 ## April 2025
 {: #bare-mteal-apr25}
