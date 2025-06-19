@@ -39,3 +39,8 @@ RAID is not a backup solution. Rather, RAID creates a single usable data disk, w
 
 Do not use RAID controllers to store Secure Encryption Device (SED) passwords. RAID is not a key management system. If power is lost to the RAID controller, all data that is stored on the controllers is lost.
 {: important}
+
+# Does Sapphire Rapids Classic Bare Metal Servers with NVMe SSDs support RAID?
+
+The Mirrored M.2 NVMe OS boot disk supports RAID 1 by using a hardware RAID controller. If you use a profile with NVMe drives, use a software RAID option that is configured through your choice of Operating System.
+Secondary drives use a JBOD configuration and are not supported by a hardware RAID controller.
