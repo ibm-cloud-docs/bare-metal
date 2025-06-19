@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-05-07"
+lastupdated: "2025-06-19"
 
 keywords: bare metal release notes
 
@@ -20,8 +20,18 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## June 2025
+{: #bare-metal-jun25}
+
+### 19 June 2025
+{: #bare-metal-jun1925}
+{: release-note}
+
+VMware ESXi 7.0u3s support
+: {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 7.0u3s to address a security alert from Broadcom&reg;. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
+
 ## May 2025
-{: #bare-mteal-may25}
+{: #bare-metal-may25}
 
 ### 07 May 2025
 {: #bare-metal-may0725}
@@ -37,7 +47,7 @@ Rocky Linux 8.10 support
 {: #bare-metal-apr2925}
 {: release-note}
 
-NVMe OS boot drives now support Windows
+NVMe OS boot drives now support Windows&reg;
 :   When you provision a bare metal server with Windows, you can now select an NVMe drive as the OS boot drive.
 
 ### 25 April 2025
@@ -45,7 +55,6 @@ NVMe OS boot drives now support Windows
 {: release-note}
 
 SUSE Linux Enterprise Server 15 SP5 for SAP workloads
-
 :   {{site.data.keyword.baremetal_long}} now supports SUSE Linux Enterprise Server 15 SP5 for SAP workloads.
 
 ### 02 April 2025
@@ -53,7 +62,6 @@ SUSE Linux Enterprise Server 15 SP5 for SAP workloads
 {: release-note}
 
 vSphere 8 and vSAN 8 Original Storage Architecture (OSA) on Cascade Lake servers
-
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports vSphere 8.x and vSAN 8.x OSA on new and existing Cascade Lake servers.
 
 ## March 2025
@@ -64,7 +72,6 @@ vSphere 8 and vSAN 8 Original Storage Architecture (OSA) on Cascade Lake servers
 {: release-note}
 
 SAP Profiles on RHEL 9.4
-
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports SAP profiles on RHEL 9.4.
 
 ### 03 March 2025
@@ -72,7 +79,6 @@ SAP Profiles on RHEL 9.4
 {: release-note}
 
 Add-on support for Rocky Linux
-
 :   Rocky Linux on {{site.data.keyword.baremetal_long}} now supports add-ons. For more information, see [Rocky Linux Documentation](https://docs.rockylinux.org/){: external}.
 
 ## January 2025
@@ -83,7 +89,6 @@ Add-on support for Rocky Linux
 {: release-note}
 
 SAP profiles on RHEL 8.10
-
 :   Sapphire Rapids-based {{site.data.keyword.baremetal_long}} now support SAP profiles on RHEL 8.10.
 
 ### 14 January 2025
