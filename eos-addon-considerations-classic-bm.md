@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-04-16"
+lastupdated: "2025-06-19"
 
 keywords:
 
@@ -82,3 +82,16 @@ To plan for this deprecation, see the following recommendations.
    - Opting for the BYOL (Bring Your Own License) option to upgrade to MySQL 8.4.
 *	You can use the following documentation for seamless self-installation and upgrades [Installing MySQL on Linux by using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/linux-installation-yum-repo.html){: external}.
 * You can connect with any partner of your choice or choose an IBM partner with paid support to help with migration by using [Wanclouds IBM request]([https://wanclouds.net/ibm](https://wanclouds.net/ibm/request)){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
+
+### MSSQL Server 2014
+{: #classic-mysql-server-2024-eos-bm-classic}
+
+MSSQL Server 2014 on IBM Cloud® Classic servers is a Database software that is available as an add-on to IBM Cloud® Classic servers. Support for this software discontinues on 14 July 2026. MSSQL Server 2014 is planned for removal from the IBM Cloud® catalog on 14 July 2026.
+
+All support that includes security updates and bug fixes for MSSQL Server 2014 stops on 14 July 2026, but you can continue with MSSQL Server 2014 at your own risk. 
+
+To plan for this deprecation, see the following recommendations.
+
+* To make sure that you have uninterrupted usage of this software, we recommend that you upgrade to most recent version of MSSQL Server that is available on IBM Cloud.
+* 	To upgrade, you need to perform an OS reload with the latest version of the software.
+* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds] ([https://wanclouds.net/ibm](https://wanclouds.net/ibm/request)){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
