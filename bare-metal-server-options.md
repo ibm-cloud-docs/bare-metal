@@ -154,7 +154,7 @@ The following network redundancy options are available for bare metal servers.
 | Interface teaming (link aggregation)| Combines, in parallel, multiple network connections to provide redundancy and increase network throughput. |
 {: caption="Network redunancy options" caption-side="top"}
 
-VMWare requires user-managed links.
+VMware requires user-managed links.
 {: tip}
 
 For more information about network options, see [Network options](/docs/bare-metal?topic=bare-metal-network-options).
@@ -170,6 +170,19 @@ For more information about block and file storage, see the following links.
 
 * [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
 * [Getting started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
+
+
+### Cloud Object Storage
+{: #cloud-object-storage}
+
+If you need additional persistent and infinitely scalable storage, Cloud Object Storage offers a highly availabe, durable storage option for Bare Metal workloads.
+
+Cloud Object Storage is provisioned separately from your bare metal server. Connect your application to Cloud Object Storage after it's provisioned on your bare metal server.
+
+For more information about Cloud Object Storage, see the following link:
+
+* [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage)
+
 
 ## Bare metal server add-ons
 {: #bm-add-ons}
