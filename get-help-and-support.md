@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-08-01"
+  years: 2017, 2025
+lastupdated: "2025-06-27"
 
 keywords: help, support, support case
 
@@ -18,6 +18,7 @@ subcollection: bare-metal
 If you experience an issue or have questions about a bare metal server, you can use the following resources before you open a support case.
 {: shortdesc}
 
+* Ask a question in the [AI assistant](/docs/overview?topic=overview-ask-ai-assistant) from the console or the {{site.data.keyword.cloud_notm}} CLI.
 * Review the [FAQs](/docs/bare-metal?topic=bare-metal-bm-faq) in the product documentation.
 * Review the [troubleshooting documentation](/docs/bare-metal?topic=bare-metal-bm-cannot-access-internet) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
