@@ -27,6 +27,7 @@ toc:
       - about-NVMe.md
       - what-raid.md
       - topicgroup:
+           id: software-gs
            label: Software
            topics:
            - about-software.md
@@ -35,6 +36,7 @@ toc:
            - eos-os-considerations-classic-bm.md
            - eos-addon-considerations-classic-bm.md
       - topicgroup:
+           id: security-gs
            label: Security
            topics:
            - intel-trusted-execution-technology-txt.md
@@ -47,6 +49,7 @@ toc:
       id: howto
       topics:
       - topicgroup:
+          id: provisioning-ht
           label: Provisioning
           topics:
           - baremetal-provision-popular.md
@@ -56,12 +59,14 @@ toc:
           - bm-datacenter-overview.md
       - include: ../virtual-servers/logging-in-to-console.md
       - topicgroup:
+          id: configuring-ht
           label: Configuring
           topics:
           - set-bare-metal-server-2.md
           - how-are-server-ip-addresses-assigned-softlayer-network.md
           - mount-iso-bare-metal-server.md
       - topicgroup:
+           id: managing-ht
            label: Managing
            topics:
            - managing.md
@@ -71,6 +76,7 @@ toc:
            - bare-metal-managing-vmware.md
            - managing_port_control.md
            - topicgroup:
+                id: managing-operating-sytems-ht
                 label: Managing operating systems
                 topics:
                 - can-i-change-operating-system-os-my-device.md
@@ -81,6 +87,7 @@ toc:
          label: IBM Cloud monitoring services
          href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
       - topicgroup:
+          id: using-custom-image-templates-ht
           label: Using custom image templates
           topics:
           - bm-create-custom-image-template.md
@@ -89,6 +96,7 @@ toc:
           - bm-order-bm-from-image-template.md
           - bm-migrate-bare-metal-add-on-software.md
       - topicgroup:
+          id: using-raid
           label: Using RAID
           topics:
           - raid-commands.md
@@ -96,14 +104,16 @@ toc:
           - creating-and-adjusting-raid-configurations-adaptec.md
           - enabling-drive-security-using-avago-safestore-encryption-services.md
       - topicgroup:
+          id: backing-up-and-recovery
           label: Backing up and recovering
           topics:
           - can-i-back-data-between-bare-metal-servers-private-network.md
+          - bare-metal-veeam-for-o365.md
           - link:
               label: Launching a rescue kernel
               href: /virtual-servers/virtual-servers-launching-rescue
-          - bare-metal-veeam-o365.md
       - topicgroup:
+          id: software
           label: Software
           topics:
           - order.md
@@ -115,6 +125,7 @@ toc:
           - install-clamav.md
           - local-wsus.md
           - topicgroup:
+              id: r1soft-sw
               label: R1Soft
               topics:
               - prov-R1Soft.md
@@ -135,7 +146,8 @@ toc:
       - raid-support.md
       - device-status.md
       - topicgroup:
-          label: FAQs
+          id: faq-help
+          label: FAQ
           topics:
           - faq.md
           - link:
@@ -144,10 +156,12 @@ toc:
           - os-reload-question-faq.md
           - faqs-image-templates.md
       - topicgroup:
+          id: troubleshooting-help
           label:  Troubleshooting
           topics:
           - troubleshooting-bare-metal.md
       - topicgroup:
+          id: troubleshooting-server-connectivity
           label:  Troubleshooting server connectivity
           topics:
           - troubleshooting_connectivity_issues.md
@@ -160,6 +174,7 @@ toc:
           - troubleshooting_port_not_configured_SSH.md
           - troubleshooting_cannot_connect_public_ip.md
       - topicgroup:
+          id: troubleshooting-managing-server
           label:  Troubleshooting managing the server
           topics:
           - troubleshooting_firmware.md
