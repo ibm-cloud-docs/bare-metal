@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2025
-lastupdated: "2025-02-04"
+lastupdated: "2025-06-27"
 
 keywords:
 
@@ -170,6 +170,11 @@ For more information about block and file storage, see the following links.
 
 * [Getting started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
 * [Getting started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
+
+### Cloud Object Storage
+{: #cloud-object-storage}
+
+If you need extra persistent and infinitely scalable storage, Cloud Object Storage offers a highly availabe, durable storage option for your bare metal workloads. Cloud Object Storage is provisioned separately from your bare metal server. You can connect your application to Cloud Object Storage after you provision a bare metal server. For more information about Cloud Object Storage, see [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 
 ## Bare metal server add-ons
 {: #bm-add-ons}

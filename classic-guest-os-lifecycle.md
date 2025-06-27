@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-03"
+lastupdated: "2025-06-27"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -98,6 +98,7 @@ The following table describes the end of support date for RHEL operating systems
 
 | Operating system | End of support |
 |-----------------|----------------|
+| RHEL 9.6 | 31 May 2027 |
 | RHEL 9.5 | 31 May 2025 |
 | RHEL 9.4 | 31 May 2028 |
 | RHEL 9.3  | 31 May 2024 |
@@ -188,7 +189,7 @@ The following table describes the end of support date and license model for SUSE
 
 | Operating system | End of support |
 |-----------------|----------------|
-| SLES 15 SP5 (SAP HANA and SAP applications) | 31 December 2027 | 
+| SLES 15 SP5 (SAP HANA and SAP applications) | 31 December 2027 |
 | SLES 15 SP4 (SAP HANA and SAP applications) | 31 December 2023 |
 | SLES 15 SP3 (SAP HANA and SAP applications) | 31 December 2022 |
 | SLES 15 SP2 (SAP HANA and SAP applications) | 31 December 2021 |
