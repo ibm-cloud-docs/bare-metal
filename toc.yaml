@@ -108,11 +108,12 @@ toc:
           label: Backing up and recovering
           topics:
           - can-i-back-data-between-bare-metal-servers-private-network.md
+          - bare-metal-veeam-for-o365.md
           - link:
               label: Launching a rescue kernel
               href: /virtual-servers/virtual-servers-launching-rescue
       - topicgroup:
-          id: software-sw
+          id: software
           label: Software
           topics:
           - order.md
