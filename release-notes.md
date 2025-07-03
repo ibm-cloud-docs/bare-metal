@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-06-27"
+lastupdated: "2025-07-03"
 
 keywords: bare metal release notes
 
@@ -20,6 +20,16 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## July 2025
+{: #bare-metal-jul25}
+
+### 03 July 2025
+{: #bare-metal-jul0325}
+{: release-note}
+
+VMware ESXi 8.0u3d support
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 8.0u3d to address a security alert from Broadcom&reg;. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
+
 ## June 2025
 {: #bare-metal-jun25}
 
@@ -28,7 +38,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: release-note}
 
 VMware ESXi 7.0u3s support
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 7.0u3s to address a security alert from Broadcom&reg;. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 7.0u3s to address a security alert from Broadcom. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
 
 RHEL 9.6
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports RHEL 9.6.
