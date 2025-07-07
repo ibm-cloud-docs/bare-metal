@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-07-03"
+lastupdated: "2025-07-07"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## July 2025
 {: #bare-metal-jul25}
+
+### 07 July 2025
+{: #bare-metal-jul0725}
+{: release-note}
+
+Windows Server 2025
+:   {{site.data.keyword.baremetal_long}} now supports Windows Server 2025. For more information, see [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025){: external}.
 
 ### 03 July 2025
 {: #bare-metal-jul0325}
