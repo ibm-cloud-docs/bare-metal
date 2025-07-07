@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-06-27"
+lastupdated: "2025-07-07"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -175,6 +175,7 @@ The following table describes the end of support date for Windows Server operati
 
 | Operating system | End of support |
 |-----------------|----------------|
+| Windows Server 2025 | 10 October 2034 |
 | Windows Server 2022 | 14 October 2031 |
 | Windows Server 2019 core | 09 January 2029 |
 | Windows Server 2019 full standard | 09 January 2029 |
