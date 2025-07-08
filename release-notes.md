@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-07-07"
+lastupdated: "2025-07-08"
 
 keywords: bare metal release notes
 
@@ -26,6 +26,9 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ### 07 July 2025
 {: #bare-metal-jul0725}
 {: release-note}
+
+Rocky Linux 9.6
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 9.6. For more information see, [Rocky Linux 9.6 Available Now](https://rockylinux.org/news/rocky-linux-9-6-ga-release){: external}.
 
 Windows Server 2025
 :   {{site.data.keyword.baremetal_long}} now supports Windows Server 2025. For more information, see [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025){: external}.
