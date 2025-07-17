@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-06-19"
+lastupdated: "2025-07-17"
 
 keywords:
 
@@ -141,4 +141,4 @@ For existing customers, upgrade to the latest version. For more information, see
 ### Debian 11
 {: #debian-11-eos-bk-classic}
 
-Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 31 August 2026. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation]([https://ubuntu.com/20-04](https://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html)){external}.
+Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 31 August 2026. On 31 July 2026, Debian 11 reaches its End of Marketing (EOM) and can't be downloaded. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation]([https://ubuntu.com/20-04](https://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html)){external}.
