@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-09-13"
+  years: 2017, 2025
+lastupdated: "2025-08-13"
 
 keywords: view bandwidth graph, bandwidth usage, pool usage, bandwidth pool
 
@@ -23,6 +23,7 @@ Public data network traffic that is transferred Outbound from {{site.data.keywor
 
 * Go to your console's device menu.
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** classic infrastructure permission, can adjust the permissions.
+* Understand [how Classic bandwidth metering is priced](/docs/bandwidth-metering?topic=bandwidth-metering-faqs#price-points).
 
 ## Viewing your bandwidth graphs
 {: #bm-viewing-bandwidth-graph}
