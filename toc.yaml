@@ -109,9 +109,8 @@ toc:
           topics:
           - can-i-back-data-between-bare-metal-servers-private-network.md
           - bare-metal-veeam-for-o365.md
-          - link:
-              label: Launching a rescue kernel
-              href: /virtual-servers/virtual-servers-launching-rescue
+          - include: ../virtual-servers/vsi_launch_rescue.md
+            navtitle: Launching a rescue kernel
       - topicgroup:
           id: software
           label: Software
