@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-10-09"
+  years: 2014, 2025
+lastupdated: "2025-08-15"
 
 keywords: manage port control, managing port control, device port control
 
@@ -25,12 +25,13 @@ Each device that is associated with an account has two network ports that receiv
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage users** classic infrastructure permission, can adjust the permissions.
 
 ## Manage the port control for a device
-{: #bm-manage-port-control}
+{: #bm-manage-port-control-device}
 
 Complete the following steps to update the port control settings for a device.
 
 1. Access the **Device list** and select the **Device name** to update.
 2. Click **Actions** to select one of the following available actions.
+
    | Action | Description |
    | ------ | ----------- |
    | Enable | Sets port to **Active** on all available interfaces. |
