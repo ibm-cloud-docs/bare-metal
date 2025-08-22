@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-08-18"
+lastupdated: "2025-08-22"
 
 keywords: bare metal release notes
 
@@ -48,7 +48,7 @@ Windows Server 2025
 {: release-note}
 
 VMware ESXi 8.0u3d support
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 8.0u3d to address a security alert from Broadcom&reg;. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 8.0u3d to address a security alert from Broadcom. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
 
 ## June 2025
 {: #bare-metal-jun25}
