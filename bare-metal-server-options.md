@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2025
-lastupdated: "2025-06-27"
+lastupdated: "2025-09-18"
 
 keywords:
 
@@ -190,7 +190,7 @@ The following add-ons are available when you provision a bare metal server.
 | Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
 | Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. For more information, see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).|
 | Microsoft SQL Server | A relational database management system that manages data storage and retrieval. For more information, see [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.|
-| Monitoring - host ping | Basic monitoring is used to initiate service and slow pings to make sure that the device is online and responsive. For more information, see [Basic monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).|
+| Monitoring | When you provision a server, you can choose the service plan that best fits your needs. For more information, see [Service plans](/docs/monitoring?topic=monitoring-service_plans).|
 | Notification | You can define an alert on a single metric or a set of metrics to notify you of events or issues that you want to monitor. For more information, see [Working with alerts](/docs/monitoring?topic=monitoring-alerts).|
 | Response | Automated response to your monitored metrics notifications. |
 | Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets). If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|

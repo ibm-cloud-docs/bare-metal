@@ -85,7 +85,7 @@ toc:
                 - redhat-update-instructions.md
       - link:
          label: IBM Cloud monitoring services
-         href: /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+         href: /monitoring?topic=monitoring-getting-started
       - topicgroup:
           id: using-custom-image-templates-ht
           label: Using custom image templates
