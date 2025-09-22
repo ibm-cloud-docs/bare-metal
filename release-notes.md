@@ -20,19 +20,6 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
-## September 2025
-{: #bare-metal-sep25}
-
-### 22 September 22 2025
-{: #bare-metal-sep2225}
-{: release-note}
-
-RHEL 9.6 for SAP
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports RHEL 9.6 for SAP.
-
-CentOS Stream 10
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports CentOS Stream 10.
-
 ## August 2025
 {: #bare-metal-aug25}
 
