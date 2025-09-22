@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-09-18"
+lastupdated: "2025-09-22"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -15,7 +15,7 @@ subcollection: bare-metal
 # Lifecycle for operating systems and add-ons
 {: #product-lifecycle-classic}
 
-In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date is aligned to the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
+In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date aligns with the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
 {: shortdesc}
 
 Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB boot disk sizes. Windows supports only a 100 GB boot disk size.
@@ -47,6 +47,7 @@ The following table describes the end of support date for CentOS operating syste
 
 | Operating system | End of support |
 |-----------------|----------------|
+| CentOS Stream 10 | 31 May 2030 |
 | CentOS Stream 9 | 31 May 2027 |
 | CentOS Stream 8 (available only on bare metal servers) | 31 May 2024 |
 | CentOS 7.9 | 30 June 2024 |
@@ -117,7 +118,8 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 8.1  | 30 November 2021 |
 | RHEL 7.9  | 30 June 2024 |
 | **SAP HANA and SAP applicatiions** |  |
-| RHEL 9.4 (SAP HANA and SAP applications) | 31 May 2029 |
+| RHEL 9.6 (SAP HANA and SAP applications) | 31 May 2029 |
+| RHEL 9.4 (SAP HANA and SAP applications) | 31 May 2028 |
 | RHEL 9.4 (SAP CLX) | 31 May 2028 |
 | RHEL 9.2 (SAP HANA and SAP applications) | 31 May 2027 |
 | RHEL 8.10 (SAP HANA and SAP applications) | 31 May 2029 |
