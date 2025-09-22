@@ -53,8 +53,8 @@ The following table describes the end of support date for CentOS operating syste
 | CentOS 7.9 | 30 June 2024 |
 {: caption="Lifecycle for CentOS operating systems" caption-side="bottom"}
 
- CentOS 8 doesn't support "Add on" software configurations. CentOS 8 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
-{: important}
+   CentOS 8 doesn't support "Add on" software configurations. CentOS 8 also doesn't support the **Provision script** and **User data** selections for server configuration options. If you're migrating from a server that has "Add on" software configurations, you can choose to migrate to an earlier version.
+   {: important}
 
 ### Citrix XenServer
 {: #xenserver-classic}
