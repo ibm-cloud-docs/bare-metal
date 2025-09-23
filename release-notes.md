@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-09-22"
+lastupdated: "2025-09-23"
 
 keywords: bare metal release notes
 
@@ -41,7 +41,7 @@ CentOS Stream 10
 
 SUSE Linux Enterprise Server 15 SP6 for SAP workloads
 
-{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 SP6 for SAP workloads. For more information, see [ SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
+{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 6 for SAP workloads. For more information, see [ SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
 
 ## July 2025
 {: #bare-metal-jul25}
