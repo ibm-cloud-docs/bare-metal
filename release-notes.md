@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-09-22"
+lastupdated: "2025-09-25"
 
 keywords: bare metal release notes
 
@@ -41,7 +41,7 @@ CentOS Stream 10
 
 SUSE Linux Enterprise Server 15 SP6 for SAP workloads
 
-{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 SP6 for SAP workloads. For more information, see [ SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
+{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 6 for SAP workloads. For more information, see [ SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
 
 ## July 2025
 {: #bare-metal-jul25}
@@ -405,10 +405,3 @@ Intel Sapphire Rapids CPU support (Beta)
 
 Debian 11
 :   IBM Cloud&reg; server software now supports Debian 11 as an OS option for bare metal servers. For more information, see the Bare metal servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-bm#bm-sapphire-rapids-support).
-
-### 02 March 2018
-{: #bare-metal-mar0218}
-{: release-note}
-
-Custom bare metal servers
-:   {{site.data.keyword.baremetal_long}} are single-tenant physical servers that provide you with performance and control with low-level access to the hardware resources. You can create a custom {{site.data.keyword.baremetal_long}}. For more information, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
