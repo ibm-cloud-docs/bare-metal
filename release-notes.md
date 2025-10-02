@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-09-25"
+lastupdated: "2025-10-02"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## October 2025
+{: #bare-metal-oct25}
+
+### 2 October 2025
+{: #bare-metal-oct0225}
+{: release-note}
+
+VMware ESXi 8.0u3g support
+:   {{site.data.keyword.baremetal_long}} now support VMware ESXi 8.0u3x to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3g Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html){: external}.
 
 ## September 2025
 {: #bare-metal-sep25}
@@ -61,7 +71,7 @@ Windows Server 2025
 {: release-note}
 
 VMware ESXi 8.0u3d support
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports VMware ESXi 8.0u3d to address a security alert from Broadcom. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
+:   {{site.data.keyword.baremetal_long}} now support VMware ESXi 8.0u3d to address a security alert from Broadcom. For more information, see [VMSA-2025-0004](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390){: external}.
 
 ## June 2025
 {: #bare-metal-jun25}
