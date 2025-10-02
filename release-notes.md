@@ -30,6 +30,9 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 VMware ESXi 8.0u3g support
 :   {{site.data.keyword.baremetal_long}} now support VMware ESXi 8.0u3x to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3g Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html){: external}.
 
+VMware ESXi 7.0u3w support
+:   {{site.data.keyword.baremetal_long}} now support VMware ESXi 7.0u3w to address a security alert from Broadcom. For more information, see [VMware ESXi 7.0 Update 3w Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3w-release-notes.html){: external}.
+
 ## September 2025
 {: #bare-metal-sep25}
 
