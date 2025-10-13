@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: bare-metal
@@ -7,11 +6,10 @@ toc:
     category: compute_baremetal
     audience: service
     href: /docs/bare-metal
-    console-page: "/classic"
-    product-page: "https://www.ibm.com/products/bare-metal-servers"
+    console-page: /classic
+    product-page: https://www.ibm.com/products/bare-metal-servers
     path: bare-metal
     label: Bare Metal Servers for Classic
-#  List the getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
   - navgroup:
       id: learn
@@ -27,19 +25,19 @@ toc:
       - about-NVMe.md
       - what-raid.md
       - topicgroup:
-           id: software-gs
-           label: Software
-           topics:
-           - about-software.md
-           - classic-guest-os-lifecycle.md
-           - does-softlayer-keep-bare-metal-servers-date-security-patches.md
-           - eos-os-considerations-classic-bm.md
-           - eos-addon-considerations-classic-bm.md
+          id: software-gs
+          label: Software
+          topics:
+          - about-software.md
+          - classic-guest-os-lifecycle.md
+          - does-softlayer-keep-bare-metal-servers-date-security-patches.md
+          - eos-os-considerations-classic-bm.md
+          - eos-addon-considerations-classic-bm.md
       - topicgroup:
-           id: security-gs
-           label: Security
-           topics:
-           - intel-trusted-execution-technology-txt.md
+          id: security-gs
+          label: Security
+          topics:
+          - intel-trusted-execution-technology-txt.md
       - network-options.md
       - bare-metal-vmware.md
       - bare-metal-virtualization.md
@@ -66,26 +64,26 @@ toc:
           - how-are-server-ip-addresses-assigned-softlayer-network.md
           - mount-iso-bare-metal-server.md
       - topicgroup:
-           id: managing-ht
-           label: Managing
-           topics:
-           - managing.md
-           - understanding-server-transaction.md
-           - view-bandwidth-graphs.md
-           - how-do-i-check-health-my-3ware-raid-array.md
-           - bare-metal-managing-vmware.md
-           - managing_port_control.md
-           - topicgroup:
-                id: managing-operating-sytems-ht
-                label: Managing operating systems
-                topics:
-                - can-i-change-operating-system-os-my-device.md
-                - introduction-no-os.md
-                - microsoft-windows-update-instructions.md
-                - redhat-update-instructions.md
+          id: managing-ht
+          label: Managing
+          topics:
+          - managing.md
+          - understanding-server-transaction.md
+          - view-bandwidth-graphs.md
+          - how-do-i-check-health-my-3ware-raid-array.md
+          - bare-metal-managing-vmware.md
+          - managing_port_control.md
+          - topicgroup:
+              id: managing-operating-sytems-ht
+              label: Managing operating systems
+              topics:
+              - can-i-change-operating-system-os-my-device.md
+              - introduction-no-os.md
+              - microsoft-windows-update-instructions.md
+              - redhat-update-instructions.md
       - link:
-         label: IBM Cloud monitoring services
-         href: /monitoring?topic=monitoring-getting-started
+          label: IBM Cloud monitoring services
+          href: /monitoring?topic=monitoring-getting-started
       - topicgroup:
           id: using-custom-image-templates-ht
           label: Using custom image templates
@@ -156,12 +154,12 @@ toc:
           - faqs-image-templates.md
       - topicgroup:
           id: troubleshooting-help
-          label:  Troubleshooting
+          label: Troubleshooting
           topics:
           - troubleshooting-bare-metal.md
       - topicgroup:
           id: troubleshooting-server-connectivity
-          label:  Troubleshooting server connectivity
+          label: Troubleshooting server connectivity
           topics:
           - troubleshooting_connectivity_issues.md
           - troubleshooting_cannot_access_internet.md
@@ -174,7 +172,7 @@ toc:
           - troubleshooting_cannot_connect_public_ip.md
       - topicgroup:
           id: troubleshooting-managing-server
-          label:  Troubleshooting managing the server
+          label: Troubleshooting managing the server
           topics:
           - troubleshooting_firmware.md
           - troubleshooting_esxi_server_psod.md
