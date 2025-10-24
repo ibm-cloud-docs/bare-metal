@@ -6,8 +6,8 @@ toc:
     category: compute_baremetal
     audience: service
     href: /docs/bare-metal
-    console-page: /classic
-    product-page: https://www.ibm.com/products/bare-metal-servers
+    console-page: "/classic"
+    product-page: "https://www.ibm.com/products/bare-metal-servers"
     path: bare-metal
     label: Bare Metal Servers for Classic
   entries:
@@ -17,7 +17,7 @@ toc:
       - getting-started.md
       - link:
           label: About bare metal servers
-          href: https://www.ibm.com/products/bare-metal-servers
+          href: "https://www.ibm.com/products/bare-metal-servers"
       - bare-metal-server-options.md
       - bm-about-custom-image-templates.md
       - bare-metal-reserved.md
