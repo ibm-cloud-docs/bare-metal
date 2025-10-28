@@ -27,7 +27,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 {: #bare-metal-oct2825}
 {: release-note}
 
-Custom BIOS option
+Custom BIOS configuration
 
 :   When you provision {{site.data.keyword.baremetal_long}} you can now select a custom BIOS configuration for Cascade Lake and Sapphire Rapids-based profiles.
 
