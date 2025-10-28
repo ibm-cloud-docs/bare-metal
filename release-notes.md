@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-10-13"
+lastupdated: "2025-10-28"
 
 keywords: bare metal release notes
 
@@ -23,13 +23,21 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## October 2025
 {: #bare-metal-oct25}
 
+### 28 October 2025
+{: #bare-metal-oct2825}
+{: release-note}
+
+Custom BIOS option
+
+:   When you provision {{site.data.keyword.baremetal_long}} you can now select a custom BIOS configuration for Cascade Lake and Sapphire Rapids-based profiles.
+
 ### 13 October 2025
 {: #bare-metal-oct1325}
 {: release-note}
 
 SUSE Linux Enterprise Server 15 SP7 for SAP workloads
 
-{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 7 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP7/){: external}.
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 7 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP7/){: external}.
 
 ### 2 October 2025
 {: #bare-metal-oct0225}
@@ -62,7 +70,7 @@ CentOS Stream 10
 
 SUSE Linux Enterprise Server 15 SP6 for SAP workloads
 
-{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 6 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 6 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
 
 ## July 2025
 {: #bare-metal-jul25}
