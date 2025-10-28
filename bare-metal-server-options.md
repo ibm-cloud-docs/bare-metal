@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2025
-lastupdated: "2025-09-18"
+lastupdated: "2025-10-28"
 
 keywords:
 
@@ -47,6 +47,11 @@ If a fast-provisioning server doesn't meet your workload needs, you can customiz
 
 {{site.data.keyword.cloud_notm}} offers advanced hardware options to fit your workload needs.
 
+### Custom BIOS configuration
+{: #bm-custom-bios}
+
+You can select a custom BIOS configuration for Cascade Lake and Sapphire Rapids-based profiles to improve resiliency to help prevent server crashes that are caused by memory issues.
+
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
@@ -57,10 +62,10 @@ You can now choose the following Sapphire Rapids CPUs when you provision a bare 
 | 8474C | 48-core, 2.1 GHz | 256 GB 512 GB, 1024 GB, 2048 GB, 4096 GB | Yes |
 |       | 64-core, 2.6 GHz | 256 GB, 512 GB 1,024 GB 2,048 GB | Yes |
 |       | 96-core, 2.1 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
-| 6416H | 24-cores 2.70GHz | 256 GB, 512GB, 1,024GB, 2,048GB | Yes |
-|       | 32-cores 2.30GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
-|       | 36-cores 2.20GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
-| 6434H | 16-cores 3.70GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+| 6416H | 24-cores 2.70 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+|       | 32-cores 2.30 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+|       | 36-cores 2.20 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
+| 6434H | 16-cores 3.70 GHz | 256 GB, 512 GB, 1,024 GB, 2,048 GB | Yes |
 {: caption="Sapphire Rapids CPU options" caption-side="top"}
 
 Sapphire Rapids CPUs are not available in the CHE01 and SAO multizone regions.
@@ -174,7 +179,7 @@ For more information about block and file storage, see the following links.
 ### Cloud Object Storage
 {: #cloud-object-storage}
 
-If you need extra persistent and infinitely scalable storage, Cloud Object Storage offers a highly availabe, durable storage option for your bare metal workloads. Cloud Object Storage is provisioned separately from your bare metal server. You can connect your application to Cloud Object Storage after you provision a bare metal server. For more information about Cloud Object Storage, see [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
+If you need extra persistent and infinitely scalable storage, Cloud Object Storage offers a highly available, durable storage option for your bare metal workloads. Cloud Object Storage is provisioned separately from your bare metal server. You can connect your application to Cloud Object Storage after you provision a bare metal server. For more information about Cloud Object Storage, see [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 
 ## Bare metal server add-ons
 {: #bm-add-ons}
