@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-07-17"
+lastupdated: "2025-10-30"
 
 keywords:
 
@@ -41,7 +41,7 @@ You have the following options when QuantaStor is discontinued.
 
 1. You can migrate to a different storage offering on your own. Other offerings include {{site.data.keyword.cloud}} Object Storage, {{site.data.keyword.cloud}} Block Storage, or {{site.data.keyword.cloud}} File Storage.
 1. You can use the assistance of an IBM partner to migrate to a different storage offering.
-1. You can continue with QuantaStor on {{site.data.keyword.cloud}} at your own risk.
+1. You can continue with QuantaStor on {{site.data.keyword.cloud}} at your own risk after the End of Support (EOS) date. Keep in mind that the licensing servers are decommissioning by 31 December 2025, and you can't use QuantaStor on {{site.data.keyword.cloud_notm}} beyond this date.
 1. You can purchase the QuantaStor license directly from the vendor, OSNEXUS, for access to the most recent updates, bug fixes, security updates, and support.
 
 If you switch to another storage offering, you must first migrate data from S3 compatible buckets on QuantaStor VSAs as a source directly to {{site.data.keyword.cloud}} Object Storage, {{site.data.keyword.cloud}} Block Storage, or {{site.data.keyword.cloud}} File Storage. For more information, see the following pages:
@@ -72,7 +72,7 @@ This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MySQ
 Review the following details for this deprecation.
 
 * When MySQL 8.0 is removed from the IBM Cloud Classic Catalog, you can't provision new servers with MySQL 8.0.
-*	All support that includes security updates and bug fixes for MySQL 8.0, stops after 30 April 2026, but you can keep using it at your own risk. 
+*	All support that includes security updates and bug fixes for MySQL 8.0, stops after 30 April 2026, but you can keep using it at your own risk.
 *	Support for existing servers with MySQL 8.0 ends on 30 April 2026.
 
 To plan for this deprecation, see the following recommendations.
@@ -88,7 +88,7 @@ To plan for this deprecation, see the following recommendations.
 
 MSSQL Server 2016 on IBM Cloud® Classic servers is a Database software that is available as an add-on to IBM Cloud® Classic servers. Support for this software discontinues on 14 July 2026. MSSQL Server 2016 is planned for removal from the IBM Cloud® catalog on 14 June 2026.
 
-All support that includes security updates and bug fixes for MSSQL Server 2014 stops on 14 July 2026, but you can continue with MSSQL Server 2014 at your own risk. 
+All support that includes security updates and bug fixes for MSSQL Server 2014 stops on 14 July 2026, but you can continue with MSSQL Server 2014 at your own risk.
 
 To plan for this deprecation, see the following recommendations.
 
