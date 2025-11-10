@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-10-28"
+lastupdated: "2025-11-10"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,19 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## November 2025
+{: #bare-metal-nov2025}
+
+### 10 November 2025
+{: #bare-metal-nov1025}
+{: release-note}
+
+New add-on support for Windows Server 2025
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Trellix, MSSQL 2019 and 2022, Plesk, and Veeam for Windows Server 2025.
+
+New add-on support for Windows Server 2022
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Plesk for Windows Server 2022.
 
 ## October 2025
 {: #bare-metal-oct25}
@@ -52,7 +65,7 @@ VMware ESXi 7.0u3w support
 ## September 2025
 {: #bare-metal-sep25}
 
-### 22 September 22 2025
+### 22 September 2025
 {: #bare-metal-sep2225}
 {: release-note}
 
