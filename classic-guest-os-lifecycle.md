@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-10-13"
+lastupdated: "2025-11-12"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -138,8 +138,9 @@ Rocky Linux is updated regularly, with the previous release deprecating when a n
 
 | Operating system | End of support |
 |-----------------|----------------|
-| Rocky Linux 8.x | 31 May 2029 |
+| Rocky Linux 10.x | 31 May 2035 |
 | Rocky Linux 9.x | 31 May 2032 |
+| Rocky Linux 8.x | 31 May 2029 |
 {: caption="Lifecycle for Rocky Linux operating systems" caption-side="bottom"}
 
 ### Ubuntu LTS
