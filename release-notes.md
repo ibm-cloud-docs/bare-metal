@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-11-10"
+lastupdated: "2025-11-12"
 
 keywords: bare metal release notes
 
@@ -22,6 +22,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 ## November 2025
 {: #bare-metal-nov2025}
+
+### 12 November 2025
+{: #bare-metal-nov1225}
+{: release-note}
+
+Rocky Linux 10
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 10. For more information, see [Rocky Linux 10 release notes](https://docs.rockylinux.org/release_notes/10_0/){: external}.
 
 ### 10 November 2025
 {: #bare-metal-nov1025}
