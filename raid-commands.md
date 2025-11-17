@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-13"
+  years: 1994, 2025
+lastupdated: "2025-11-17"
 
 
 keywords: raid controller commands, raid commands
@@ -16,8 +16,18 @@ subcollection: bare-metal
 # RAID controller commands
 {: #bm-raid-controller-commands}
 
-You can use the Adapatec&reg; CLI to run RAID controller commands. The following commands are the most common RAID controller commands that you might use.
+You can use the Adapatec&reg; arcconf CLI or the Broadcom StorCLI to run RAID controller commands. The following commands are the most common RAID controller commands that you might use.
 {: shortdesc}
+
+To identify which type you have, [navigate to devices](/docs/bare-metal?topic=bare-metal-navigating-devices) in the console, and then click the name of the bare metal server to view its system details.
+- If the Drive Controller entry begins with "Lenovo Raid", you have an Adaptec controller and use arcconf commands.
+- If the Drive Controller entry begins with "LSI", you have a Broadcom controller and use StorCLI commands.
+- If you do not see one of these types, then your server is not using a RAID controller.
+
+## arcconf getstatus
+{: #arcconf_getstatus}
+
+Use this command to list the status of an operation and any active background commands.
 
 `/usr/Adaptec_Event_Monitor/arcconf getstatus 1`
 
@@ -28,6 +38,11 @@ You can use the Adapatec&reg; CLI to run RAID controller commands. The following
 * Logical-drive migration
 * Compaction/expansion
 
+## arcconf getconfig
+{: #arcconf_getconfig}
+
+Use this command to list configuration information.
+
 `/usr/Adaptec_Event_Monitor/arcconf getconfig 1`
 
 `_GETCONFIG_` lists information about controllers, logical drives, and physical drives. You can see information such as the following items:
@@ -37,6 +52,11 @@ You can use the Adapatec&reg; CLI to run RAID controller commands. The following
 * Physical device type, device ID, presence of PFA
 * Physical device state
 * Enclosure information: fan, power supply, and temperature
+
+## arcconf getlogs
+{: #arcconf_getlogs}
+
+Use this command to view the event logs.
 
 `/usr/Adaptec_Event_Monitor/arcconf getlogs 1 device tabular`
 
@@ -61,9 +81,25 @@ smartWarning ............................ 0
 ```
 {: codeblock}
 
-`/opt/MegaRAID/storcli/storcli64 /c0/eall/sall show all | grep -iE "det|cou|tem|SN|S.M|fir”`
+## StorCLI show all
+{: #check-raid-configuration}
 
-You use this command to show the specific drives and any possible drive errors that it might have.
+Use this command to check the disk health of the server and to check for drives that need attention. This command shows information on specific drives and any potential drive errors that it might have.
+
+   ```text
+   /opt/MegaRAID/storcli/storcli64 /c0/eall/sall show all | grep -iE "det|cou|tem|SN|S.M|fir”
+   ```
+   {: codeblock}
+   
+For ESXi servers, use the following command:
+
+   ```text
+   /opt/lsi/storcli64/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
+   ```
+   {: codeblock}
+
+From the output, look for the topology section where the RAID type is listed as a column. If the output shows an error, see [Common drive errors](/docs/bare-metal?topic=bare-metal-bm-raid-controller-commands#bm-common-drive-errors).
+
 The following example shows the output:
 
 ```text
@@ -109,9 +145,14 @@ Firmware Revision = SN03
 ```
 {: codeblock}
 
+## StorCLI show rebuild
+{: #storcli_rebuild}
+
+This command displays the rebuild status of all drives and the estimated time to complete the rebuild. 
+
 `/opt/MegaRAID/storcli/storcli64 /c0/eall/sall show rebuild`
 
-This command displays the rebuild status of all drives and the estimated time to complete the rebuild. You see this output when you run the command:
+You see this output when you run the command:
 
 ```text
 ---------------------------------------------
@@ -125,9 +166,10 @@ Drive-ID Progress% Status Estimated Time Left
 ```
 {: codeblock}
 
-`RAID alert "Spam"`
+## Change email option for RAID alerts
+{: #change-raid-email}
 
-Change the "global" section of the default config (`/opt/Broadcom/mrmonitor/MegaMonitor/config-current.xml`):
+If the volume of email that you receive for RAID alerts is more than expected, you can update the configuration file to prevent an email alert being sent for a severity level of "WARNING". Do not alter the provided configuration unless you are aware of the risks. You make changes to the "global" section of the default config (`/opt/Broadcom/mrmonitor/MegaMonitor/config-current.xml`):
 
 ```text
 <global>
@@ -149,7 +191,7 @@ Change the "global" section of the default config (`/opt/Broadcom/mrmonitor/Mega
 ```
 {: codeblock}
 
-To read like this:
+Remove the `do-email` tag for the the "WARNING" level, to read like the following:
 
 ```text
 <global>
@@ -171,99 +213,69 @@ To read like this:
 ```
 {: codeblock}
 
-Remove the "do-email" tag for level "WARNING". Alternatively, change the security level to "INFO".
-{: note}
-
 ## Common drive errors
 {: #bm-common-drive-errors}
 
-The most common driver errors are smart errors, hardware errors, and medium errors. You see these errors if a drive is failing. So, you need to replace the drive as soon as possible.
+The most common drive errors are SMART errors and hardware errors, which are commonly listed as media or medium errors. Any of these errors in the CLI output indicate that a drive failure has occurred or is likely to occur. If you see an error, you need the drive replaced as soon as possible. If you have drive errors, go to [RAID support case information](/docs/bare-metal?topic=bare-metal-bm-raid-support-case) for troubleshooting information and data to gather for a support case.
 
-Although not unusual, aborted commands are another common error. But, if aborted commands increase in number (such as 100), open a support case.
+Link errors can indicate that a cable might need reseated or replaced. Although not unusual, aborted commands are another common error. But, if aborted commands increase in number (such as 100), open a support case.
 
-Link errors can indicate that a cable might need reseated or replaced.
+After the drive is replaced, it should rebuild in place with no further action when the drive is part of a redundant RAID volume. If you are not using RAID, if the drive is part of a non-redundant RAID 0, or if it is a JBOD, you need to partition and format the drive before putting it to use after its replacement.
 
-### Support case information
-{: #bm-raid-support}
+Make sure that you back up any work before you troubleshoot. 
+{: important}
 
-The following information is needed when you open support case.
-
-#### Adaptec RAID cards
-{: #adaptec-raid-cards-support}
-
-Make sure that you include the full output of `arcconf getconfig 1/arcconf getlogs 1 device tabular` when you open a support case. Providing this information helps the support team identify drive order, array membership, array geometry, and cabling issues. This information is critical to the recovery of a lost RAID configuration. Granting permission to restart/power down in the initial update or asking it to be hot-swapped speeds up the support case process.
-
-#### Broadcom RAID cards
-{: #broadcom-raid-cards-support}
-
-Use the following commands to obtain the log files for Broadcom RAID cards. You need to include the full output of these log files with your support case.
-```text
-/opt/MegaRAID/storcli/storcli64 /c0 show all
-/opt/MegaRAID/storcli/storcli64 /c0 show TermLog
-/opt/MegaRAID/storcli/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
-/opt/MegaRAID/storcli/storcli64 /c0 show TermLog
-```
-{: codeblock}
-
-#### Installing Storcli
+## Installing StorCLI
 {: #installing-storcli}
 
-Use the following steps for Linux.
+If your server instance does not include StorCLI by default, you can download and install it. IBM Cloud provides a version of the StorCLI that you can download. If you need to ensure that you have the latest CLI version, for example, to troubleshoot or resolve compatibility issues, go to the website for the vendor of your RAID card to download the latest CLI version directly.
 
-1) SSH into your server
-2) `cd /tmp` (Or any directory you demand)
-3) wget `http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip`
-4) Extract x.xx.xx_StorCLI.zip
-5) cd `/tmp/storcli_all_os/Linux/` (or go to the downloaded directory)
-6) rpm `-ivh storcli-x.xx.xx-x.noarch.rpm`
-7) Check if storcli successfully installed
+Use the following steps to install StorCLI for a Linux operating system:
 
-Use the following steps for Vmware ESXi.
+1. Use SSH to connect to your server.
 
-1) Go to your /tmp directory.
+2. Go to your /tmp directory.
 
-   `# cd /tmp `
+   `cd /tmp `
 
-2) Download the storcli.
+3. Download the StorCLI.
 
-   `# wget http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip`
+   `wget http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip`
 
-3) Uncompress the file.
+4. Extract 1.14.12_StorCLI.zip.
 
-   `# unzip 1.14.12_StorCLI.zip'
+   `unzip 1.14.12_StorCLI.zip`
 
-4) Go to /tmp/storcli_all_os/Vmware-NDS/.
+5.  Go to the StorCLI directory.
 
-   `# cd /tmp/storcli_all_os/Vmware-NDS/'
+    `cd /tmp/storcli_all_os`
 
-5) Install the storcli.
+6. Find the directory for your operating system type. For {{site.data.keyword.redhat_notm}} and related distributions, go to the Linux directory.
 
-   `# esxcli software vib install -v=/tmp/storcli_all_os/Vmware-NDS/vmware-esx-storcli-1.14.12.vib --no-sig-check`
+   `cd Linux`
+ 
+7. Install the StorCLI package.  For RPM based systems run:
+   
+   `rpm -ivh storcli-1.14.12-1.noarch.rpm`
+  
+Use the following steps to install StorCLI for a VMware ESXi system:
 
-After the storcli is installed, you can run these two commands to confirm the disk health of the server.
+1. Go to your /tmp directory.
 
-For ESXi 7.X, use the following commands.
+   `cd /tmp `
 
-   ```text
-   /opt/lsi/storcli64/storcli64 /c0 show all
-   /opt/lsi/storcli64/storcli64 /c0 show eventloginfo
-   /opt/lsi/storcli64/storcli64 /c0 /eall /sall show all | grep -iE "det|cou|tem|SN|S.M|fir"
-   /opt/lsi/storcli64/storcli64 /c0 show TermLog
-   ```
-   {: codeblock}
+2. Download the StorCLI.
 
-#### Check the RAID configuration
-{: #check-raid-configuration}
+   `wget http://downloads.service.softlayer.com/lsitools/1.14.12_StorCLI.zip`
 
-Use the following commands to check the RAID configuration.
+3. Uncompress the file.
 
-   ```text
-   /opt/lsi/storcli64/storcli64 /c0 show all
-   /opt/MegaRAID/storcli/storcli64 /c0 /eall /sall show all
-   ```
-   {: codeblock}
+   `unzip 1.14.12_StorCLI.zip`
 
-From the output, look for the topology section where the RAID type is listed as a column.
+4. Go to the Vmware-NDS directory.
 
-Make sure that you back up any work before you troubleshoot.
-{: important}
+   `cd /tmp/storcli_all_os/Vmware-NDS/`
+
+5. Install the StorCLI.
+
+   `esxcli software vib install -v=/tmp/storcli_all_os/Vmware-NDS/vmware-esx-storcli-1.14.12.vib --no-sig-check`
