@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-11-12"
+lastupdated: "2025-11-17"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -99,11 +99,11 @@ The following table describes the end of support date for RHEL operating systems
 
 | Operating system | End of support |
 |-----------------|----------------|
-| RHEL 9.6 | 31 May 2029 |
+| RHEL 9.6 | 31 May 2027 |
 | RHEL 9.5 | 31 May 2025 |
-| RHEL 9.4 | 31 May 2028 |
+| RHEL 9.4 | 31 May 2026 |
 | RHEL 9.3  | 31 May 2024 |
-| RHEL 9.2 | 31 May 2027 |
+| RHEL 9.2 | 31 May 2025 |
 | RHEL 9.1  | 31 May 2023 |
 | RHEL 9.0  | 31 May 2024 |
 | RHEL 8.10  | 31 May 2029 |
