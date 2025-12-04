@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-10-24"
+lastupdated: "2025-12-04"
 
 keywords:
 
@@ -142,3 +142,8 @@ For existing customers, upgrade to the latest version. For more information, see
 {: #debian-11-eos-bk-classic}
 
 Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 31 August 2026. On 31 July 2026, Debian 11 reaches its End of Marketing (EOM) and can't be downloaded. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation]([https://ubuntu.com/20-04](https://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html)){: external}.
+
+### Windows Server 2016
+{: #windows-2016-bm-classic}
+Windows Server 2016 EOS date is 12 January 2027. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
+No additional licensing costs are incurred to move to a newer software version when you use IBM’s License Included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).

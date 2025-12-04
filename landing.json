@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Bare Metal Servers for Classic",
-  "introduction": "IBM Cloud® Bare Metal Servers for Classic are single-tenant, dedicated physical servers that can be deployed and managed as cloud services with various billing options, including hourly and monthly.",
+  "introduction": "IBM Cloud\u00ae Bare Metal Servers for Classic are single-tenant, dedicated physical servers that can be deployed and managed as cloud services with various billing options, including hourly and monthly.",
   "product_page": "https://www.ibm.com/products/bare-metal-servers",
   "console_page": "/classic",
   "section_topics": {
@@ -15,7 +15,7 @@
         "href": "/docs/bare-metal?topic=bare-metal-about-reserved-bare-metal-servers"
       },
       {
-        "title": "Confidential computing with Intel® Software Guard Extensions (SGX)",
+        "title": "Confidential computing with Intel\u00ae Software Guard Extensions (SGX)",
         "href": "/docs/bare-metal?topic=bare-metal-bm-intel-sgx"
       },
       {
