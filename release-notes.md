@@ -29,7 +29,7 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 
 Extended hardware testing
 
-:   When you order a Bare Metal Servers, you can now select the extended hardware testing option that regularly runs tests to help identify potential hardware issues.
+:   When you order a Bare Metal Servers, you can now select the extended hardware testing option. This testing helps identify any components that might not be operating within their designed specifications and or are at risk of imminent failure.
 
 ## November 2025
 {: #bare-metal-nov2025}
