@@ -184,7 +184,7 @@ If you need extra persistent and infinitely scalable storage, Cloud Object Stora
 ### Extended hardware testing
 {: #extended-hardware-testing-option-bm}
 
-When you order a {{site.data.keyword.baremetal_short}}, you can select the extended hardware testing option that runs tests to help identify potential hardware issues.
+When you order a bare metal server, you can select the extended hardware testing option that runs tests to help identify potential hardware issues.
 
 By default, bare metal server orders now receive multiple hours of stress testing at the time of provision. This test can result in longer than expected provisioning times. You can bypass the elongated testing by deselecting the "extended hardware testing" checkbox at the time of order.
 
