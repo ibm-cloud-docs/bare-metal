@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2025
-lastupdated: "2025-10-28"
+lastupdated: "2025-12-15"
 
 keywords:
 
@@ -30,7 +30,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ### Custom-based servers
 {: #custom-based-bm}
 
-If a fast-provisioning server doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
+If a fast-provisioning server doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers provisioning time depends on complexity, quantity, and testing options.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
@@ -181,6 +181,20 @@ For more information about block and file storage, see the following links.
 
 If you need extra persistent and infinitely scalable storage, Cloud Object Storage offers a highly available, durable storage option for your bare metal workloads. Cloud Object Storage is provisioned separately from your bare metal server. You can connect your application to Cloud Object Storage after you provision a bare metal server. For more information about Cloud Object Storage, see [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 
+### Extended hardware testing
+{: #extended-hardware-testing-option-bm}
+
+When you order a {{site.data.keyword.baremetal_short}}, you can select the extended hardware testing option. 
+
+{{site.data.keyword.baremetal_short}} uses the Passmark&reg; BurnIn stress testing software during the lifecycle of every server to help make sure that you have the most reliable hardware possible. Passmark utility suite is installed so that stress testing and performance checks can be performed at any time. Passmark was implemented in the early generations of Intel-based servers, Broadwell, and earlier generations.
+
+With newer Gen2 Intel-based servers (Sky Lake and Cascade Lake), Intel introduced the AMT (advanced memory test) feature to replace Passmark. AMT is
+not performed comprehensibly, but it is performed on all provisions where supported. In addition to AMT, we added a check and hard stop on IPMI logs when
+errors are present. The check is run on all provisions and helps identify potential hardware issues.
+
+Bare metal provisioning generally takes up to 4 hours to complete, but extended hardware testing takes an extra 2 hours.
+{: note}
+
 ## Bare metal server add-ons
 {: #bm-add-ons}
 
@@ -200,4 +214,4 @@ The following add-ons are available when you provision a bare metal server.
 | Response | Automated response to your monitored metrics notifications. |
 | Public secondary IP addresses | You can request extra IP addresses for your server, which is recommended if you announce services externally. For more information about secondary IP addresses, see [Secondary subnets](/docs/subnets?topic=subnets-about-subnets-and-ips#static-subnets). If you need extra IP addresses later, you can always order extra secondary subnets. For more information, see [Ordering secondary subnets and global IP addresses](/docs/subnets?topic=subnets-order-subnets).|
 | IPv6 IP addresses | An IPv6 is the most recent numeric label that is used to identify and locate a network interface of a computer or a network node that participates in a computer network by using the IPv6 protocol. A single IPv6 address is included.|
-{: caption="Bare metal server provisioning options" caption-side="top"}
+{: caption="Bare metal server add-ons" caption-side="top"}
