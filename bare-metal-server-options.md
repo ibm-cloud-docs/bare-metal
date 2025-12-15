@@ -184,9 +184,11 @@ If you need extra persistent and infinitely scalable storage, Cloud Object Stora
 ### Extended hardware testing
 {: #extended-hardware-testing-option-bm}
 
-When you order a {{site.data.keyword.baremetal_short}}, you can select the extended hardware testing option that regularly runs tests to help identify potential hardware issues.
+When you order a {{site.data.keyword.baremetal_short}}, you can select the extended hardware testing option that runs tests to help identify potential hardware issues.
 
+By default, bare metal server orders now receive multiple hours of stress testing at the time of provision. This test can result in longer than expected provisioning times. You can bypass the elongated testing by deselecting the "extended hardware testing" checkbox at the time of order.
 
+Bare metal stress testing is designed to operate the hardware at or near peak design specifications. Stress testing helps identify any components that might not be operating within their designed specifications and or are at risk of imminent failure. These tests are designed to enhance long-term stability and are not indicative of a system's performance capability (not a performance benchmark). Any component that produces critical or unrecoverable errors fail the test and the corresponding components are replaced before provisioning continues.
 
 Bare metal provisioning generally takes up to 4 hours to complete, but extended hardware testing takes an extra 2 hours.
 {: note}
