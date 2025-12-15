@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-11-12"
+lastupdated: "2025-12-15"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,17 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## December 2025
+{: #bare-metal-dec2025}
+
+### 15 December 2025
+{: #bare-metal-dec1525}
+{: release-note}
+
+Extended hardware testing
+
+:   When you order a Bare Metal Servers, you can now select the extended hardware testing option that regularly runs tests to help identify potential hardware issues.
 
 ## November 2025
 {: #bare-metal-nov2025}
