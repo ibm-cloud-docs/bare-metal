@@ -181,6 +181,20 @@ For more information about block and file storage, see the following links.
 
 If you need extra persistent and infinitely scalable storage, Cloud Object Storage offers a highly available, durable storage option for your bare metal workloads. Cloud Object Storage is provisioned separately from your bare metal server. You can connect your application to Cloud Object Storage after you provision a bare metal server. For more information about Cloud Object Storage, see [Getting started with Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 
+### Extended hardware testing
+{: #extended-hardware-testing-option-bm}
+
+When you order a {{site.data.keyword.baremetal_short}}, you can select the extended hardware testing option. 
+
+{{site.data.keyword.baremetal_short}} uses the Passmark&reg; BurnIn stress testing software during the lifecycle of every server to help make sure that you have the most reliable hardware possible. Passmark utility suite is installed so that stress testing and performance checks can be performed at any time. Passmark was implemented in the early generations of Intel-based servers, Broadwell, and earlier generations.
+
+With newer Gen2 Intel-based servers (Sky Lake and Cascade Lake), Intel introduced the AMT (advanced memory test) feature to replace Passmark. AMT is
+not performed comprehensibly, but it is performed on all provisions where supported. In addition to AMT, we added a check and hard stop on IPMI logs when
+errors are present. The check is run on all provisions and helps identify potential hardware issues.
+
+Bare metal provisioning generally takes up to 4 hours to complete, but extended hardware testing takes an extra 2 hours.
+{: note}
+
 ## Bare metal server add-ons
 {: #bm-add-ons}
 
