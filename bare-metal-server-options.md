@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2025
-lastupdated: "2025-10-28"
+lastupdated: "2025-12-15"
 
 keywords:
 
@@ -30,7 +30,7 @@ Your {{site.data.keyword.cloud}} bare metal server is an hourly or monthly, sing
 ### Custom-based servers
 {: #custom-based-bm}
 
-If a fast-provisioning server doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers are generally provisioned in 2 - 4 hours. The provisioning time depends on complexity, quantity, and testing options.
+If a fast-provisioning server doesn't meet your workload needs, you can customize your {{site.data.keyword.baremetal_short}} to meet your needs. Customized servers provisioning time depends on complexity, quantity, and testing options.
 
 ### SAP-certified bare metal servers
 {: #bm-SAP-cert}
