@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2025
-lastupdated: "2025-12-04"
+  years: 2022, 2026
+lastupdated: "2026-01-12"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -264,7 +264,7 @@ This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MySQ
 Review the following details for this deprecation.
 
 * After 20 November 2023, MySQL 5.7 on IBM Bare Metal Servers is no longer supported. Which includes updates, bug fixes, and technical support for the product. After this date, clients can't download the software.
-* If you are using MySQL 5.7, the software will continue to run after the end-of-support date. However, after this date, IBM will not provide support, including bug fixes or security updates.
+* If you are using MySQL 5.7, the software continues to run after the end-of-support date. However, after this date, IBM can't provide support, including bug fixes or security updates.
 * If you don't upgrade to the latest version of MySQL and continue using MySQL 5.7, you do so at your own risk. The lack of support and updates can expose your systems and apps to security vulnerabilities and compatibility issues. See the following details about upgrading to the latest version.
 
 For existing customers, upgrade to the latest version.
@@ -283,8 +283,8 @@ Microsoft SQL Server 2014 is a database software that is available as an add-on 
 
 Review the following details for this deprecation:
 
-* If you are using MS SQL Server 2014, the software will continue to
-run after the EOS date. However, after this date, IBM will not
+* If you are using MS SQL Server 2014, the software continues to
+run after the EOS date. However, after this date, IBM can't
 provide support, including bug fixes or security updates.
 * If you don't upgrade to the latest version of Microsoft SQL Server 2022, the
 lack of support and updates can expose your systems and apps to
@@ -300,3 +300,16 @@ security patches.
 * IBM partners can provide [migration support](https://wanclouds.net/ibm){: external} to help you smoothly
 transition to the latest version of Microsoft SQL Server 2014. However,
 this migration support does come with a cost.
+
+### Veeam 12 EOS
+{: classic-veeam-12-eos}
+
+Veeam 12 on IBM Bare Metal Classic is available as an add-on. Support for this software ends on 1 February 2027.
+
+Review the following details for this deprecation.
+
+* After 1 February 2027, Veeam 12 is no longer supported on IBM Cloud Bare Metal Classic server, which includes updates, bug fixes, and technical support for the product. 
+* If you are using Veeam 12, the software continues to run after the end-of-support date. However, after this date, IBM can't provide support, including bug fixes or security updates.
+* If you don't upgrade to the latest version and continue using Veeam 12, you do so at your own risk. The lack of support and updates can expose your systems and apps to security vulnerabilities and compatibility issues.
+* For more information about Veeam upgrade, see the [Veeam backup and replication upgrade paths](https://www.veeam.com/kb2053){: external}.
+* IBM partners can provide [migration support](https://wanclouds.net/ibm){: external} to help you transition to the most recent version of Veeam. However, this migration support does come with a cost.
