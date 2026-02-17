@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-12-15"
+  years: 2019, 2026
+lastupdated: "2026-02-17"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## February 2026
+{: #bare-metal-feb2026}
+
+### 17 February 2026
+{: #bare-metal-feb172026}
+
+Debian 13
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Debian 13. For more information, see [Debian 13 release notes](https://www.debian.org/releases/trixie/releasenotes){: external}.
 
 ## December 2025
 {: #bare-metal-dec2025}
