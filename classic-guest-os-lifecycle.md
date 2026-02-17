@@ -63,7 +63,7 @@ The following table describes the end of support date for Citrix XenServer opera
 
 | Operating system | End of support |
 |-----------------|----------------|
-| 8.2 LTSR (available only on bare metal servers) | 30 June 2025 |
+| 8.2 LTSR (available only on bare metal servers) | 30 June 2029 |
 {: caption="Lifecycle for Citrix XenServer operating systems" caption-side="bottom"}
 
 ### Debian
