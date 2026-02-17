@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-01-12"
+lastupdated: "2026-02-17"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -73,6 +73,7 @@ The following table describes the end of support date for Debian operating syste
 
 | Operating system | End of support |
 |-----------------|----------------|
+| Debian 13 | 30 June 2030 |
 | Debian 12 | 30 June 2028 |
 | Debian 11 | 30 June 2026 |
 | Debian 10 | 30 June 2024 |
