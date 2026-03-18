@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2025
-lastupdated: "2025-12-09"
+  years: 2023, 2026
+lastupdated: "2026-03-18"
 
 keywords:
 
@@ -107,14 +107,14 @@ For more information about upgrading, see [SUSE documentation](https://documenta
 ### Debian 10
 {: debian-10-eos-bm-clasic}
 
-Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){: external}.
+Debian 10 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software. For existing customers, upgrade to the most recent version. For more information, see the [Debian documentation](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.en.html){: external}.
 
 ### Red Hat Enterprise Linux 7
 {: #upgrading-rhel-7-os-bm-classic}
 
 Red Hat Enterprise Linux 7 EOS date is 30 June 2024. Support for this software discontinues on 30 June 2024. After deprecation, clients can't download the software.
 
-For existing customers, upgrade to the latest version. For more information, see the [Red Hat Enterprise Linux documentation](https://access.redhat.com/support/policy/updates/errata).
+For existing customers, upgrade to the most recent version. For more information, see the [Red Hat Enterprise Linux documentation](https://access.redhat.com/support/policy/updates/errata){: external}.
 
 ### Windows 2012 and Windows 2012 R2 EOS
 {: #windows-2012-bm-clssic}
@@ -136,12 +136,12 @@ To migrate workloads from CentOS, you can switch to a compatible OS distribution
 
 Ubuntu 20.04 EOS date is 31 May 2025. Support for this software discontinues on 31 May 2025. After deprecation, clients can't download the software. 
 
-For existing customers, upgrade to the latest version. For more information, see the [Ubuntu documentation](https://ubuntu.com/20-04){external}.
+For existing customers, upgrade to the most recent version. For more information, see the [Ubuntu documentation](https://ubuntu.com/20-04){external}.
 
 ### Debian 11
 {: #debian-11-eos-bm-classic}
 
-Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 31 August 2026. On 31 July 2026, Debian 11 reaches its End of Marketing (EOM) and can't be downloaded. For existing customers, upgrade to the latest version. For more information, see the [Debian documentation]([https://ubuntu.com/20-04](https://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html)){: external}.
+Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 31 August 2026. On 31 July 2026, Debian 11 reaches its End of Marketing (EOM) and can't be downloaded. For existing customers, upgrade to the most recent version. For more information, see the [Debian documentation]([https://ubuntu.com/20-04](https://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html)){: external}.
 
 ### Windows Server 2016
 {: #windows-2016-eos-bm-classic}
@@ -149,3 +149,14 @@ Debian 11 EOS date is 31 August 2026. Support for this software discontinues on 
 Windows Server 2016 EOS date is 12 January 2027. Support for this software discontinues on 12 January 2027. Windows Server 2016 reaches its End of Marketing (EOM) on 12 February 2026 and can't be downloaded. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
 
 No extra licensing costs are incurred to move to a newer software version when you use an {{site.data.keyword.cloud_notm}} License-Included option. {{site.data.keyword.cloud_notm}} is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
+
+### Ubuntu 22.04
+
+Ubuntu 22.04 EOS date is 31 May 2027. Support for this software discontinues on 31 May 2027. Ubuntu 22.04 reaches its End of Marketing (EOM) on 6 June 2026 and can't be downloaded post EOM.  
+
+For existing Ubuntu customers, upgrade to the most recent version. For more information on Ubuntu release cycle [Ubuntu Documentation]( https://ubuntu.com/about/release-cycle){: external}.
+
+### CentOS Stream 9
+CentOS Stream 9 EOS date is 31 May 2027. Support for this software discontinues on 31 May 2027. CentOS Stream 9 reaches its End of Marketing (EOM) on 6 June 2026 and can't be downloaded. 
+
+For existing CentOS Stream customers, upgrade to the most recent version. For more information on CentOS release cycle, please refer [CentOS Documentation]( https://docs.centos.org/centos-stream-docs/){: external}.
