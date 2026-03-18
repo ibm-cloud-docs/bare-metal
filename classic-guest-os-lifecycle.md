@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-02-17"
+lastupdated: "2026-03-18"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -15,7 +15,7 @@ subcollection: bare-metal
 # Lifecycle for operating systems and add-ons
 {: #product-lifecycle-classic}
 
-In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date aligns with the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure.
+In the lifecycle of a product, end of support (EOS) is the last date that {{site.data.keyword.cloud}} delivers standard support for a version or release of a product. The end of support date aligns with the vendor and community support dates. The EOS date is also the effective date that the product ceases to exist (is deprecated) and can no longer be ordered or purchased. See the following sections for operating system and add-on EOS dates for the Classic infrastructure. A notification is issued 12 months in advance, with an extra reminder sent one month before the withdrawal of support for an operating system and add-ons.
 {: shortdesc}
 
 Boot disk sizes vary by operating system: Linux OS supports 25 GB and 100 GB boot disk sizes. Windows supports only a 100 GB boot disk size.
