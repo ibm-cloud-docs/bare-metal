@@ -151,6 +151,7 @@ Windows Server 2016 EOS date is 12 January 2027. Support for this software disco
 No extra licensing costs are incurred to move to a newer software version when you use an {{site.data.keyword.cloud_notm}} License-Included option. {{site.data.keyword.cloud_notm}} is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
 
 ### Ubuntu 22.04
+{: #ubuntu-2204-eos-classic}
 
 Ubuntu 22.04 EOS date is 31 May 2027. Support for this software discontinues on 31 May 2027. Ubuntu 22.04 reaches its End of Marketing (EOM) on 6 June 2026 and can't be downloaded post EOM.  
 
