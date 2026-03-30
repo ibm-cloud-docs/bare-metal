@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2025
-lastupdated: "2025-12-15"
+  years: 2016, 2026
+lastupdated: "2026-03-30"
 
 keywords:
 
@@ -55,7 +55,7 @@ You can select a custom BIOS configuration for Cascade Lake and Sapphire Rapids-
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
-You can now choose the following Sapphire Rapids CPUs when you provision a bare metal server.
+You can choose the following Sapphire Rapids CPUs when you provision a bare metal server.
 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Sapphire Rapids processors support the following operating systems:
 ### AMD CPUs
 {: #bm-amd-procs}
 
-AMD EPYC&reg; "Rome" and "Milan" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC processors offer several CPU options that offer up to 64 cores per socket.
+You can now choose AMD EPYC&reg; "Rome" and "Milan" generation CPUs for you bare metal server. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC processors offer several CPU options that offer up to 64 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -134,7 +134,7 @@ For certain bare metal servers, you can add the processing power of NVIDIA&reg; 
 ## Server enhancement options
 {: #bm-server-enhancements}
 
-When you provision a bare metal server, you have the following enhancement options to help make managing your server easier. Keep in mind that these options might vary depending on your server configuration.
+When you provision a bare metal server, you have the following enhancement options to help manage your server. Keep in mind that these options might vary depending on your server configuration.
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
