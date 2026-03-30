@@ -47,7 +47,7 @@ Debian 13
 
 Extended hardware testing
 
-:   When you order a Bare Metal Server, you can now select the extended hardware testing option. This testing helps identify any components that might not be operating within their designed specifications.
+:   When you order a {{site.data.keyword.baremetal_long}}, you can now select the extended hardware testing option. This testing helps identify any components that might not be operating within their designed specifications.
 
 ## November 2025
 {: #bare-metal-nov2025}
