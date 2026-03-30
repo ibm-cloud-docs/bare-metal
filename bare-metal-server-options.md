@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2025
-lastupdated: "2025-12-15"
+  years: 2016, 2026
+lastupdated: "2026-03-30"
 
 keywords:
 
@@ -55,7 +55,7 @@ You can select a custom BIOS configuration for Cascade Lake and Sapphire Rapids-
 ### Intel Sapphire Rapids CPUs
 {: #bm-sapphire-rapids-support}
 
-You can now choose the following Sapphire Rapids CPUs when you provision a bare metal server.
+You can choose the following Sapphire Rapids CPUs when you provision a bare metal server.
 
 | Sapphire Rapids CPU | Specifications | Memory | TPM 2.0 support |
 | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Sapphire Rapids processors support the following operating systems:
 ### AMD CPUs
 {: #bm-amd-procs}
 
-AMD EPYC&reg; "Rome" and "Milan" generation CPUs are now an option. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC processors offer several CPU options that offer up to 64 cores per socket.
+You can now choose AMD EPYC&reg; "Rome" and "Milan" generation CPUs for you bare metal server. Rome generation processors are high-performance multiprocessors that are based on AMD's Zen 2 architecture. The EPYC processors offer several CPU options that offer up to 64 cores per socket.
 
 EPYC processors are available in select data centers.
 {: important}
@@ -131,10 +131,20 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 
 For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. Make sure that you install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
 
+### Intel Optane SSDs
+{: #bm-optain-ssd}
+
+For select Sapphire Rapids-based bare metal servers, you can choose Intel Optane SSDs for advanced performance.
+
+| CPU | RAM | Storage | Network |
+| --- | --- | ------- | ------- |
+| Dual Intel Xeon Gold 6416H (24 Cores, 2.7 GHz) | 1 TB | Operating system - 2 x 480 GB NVMe (RAID 1  \n Data - 36 x 24 TB SATA HDD  \n Log - 2 x 750 GB Intel Optane | 10 Gbit/s |
+{: caption"Sapphire Rapids Intel Optain SSD" caption-side="top"}
+
 ## Server enhancement options
 {: #bm-server-enhancements}
 
-When you provision a bare metal server, you have the following enhancement options to help make managing your server easier. Keep in mind that these options might vary depending on your server configuration.
+When you provision a bare metal server, you have the following enhancement options to help manage your server. Keep in mind that these options might vary depending on your server configuration.
 
 ### Dynamic inventory
 {: #bm-dynamic-inv}
