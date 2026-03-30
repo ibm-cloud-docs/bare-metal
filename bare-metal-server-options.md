@@ -139,7 +139,7 @@ For select Sapphire Rapids-based bare metal servers, you can choose Intel Optane
 | CPU | RAM | Storage | Network |
 | --- | --- | ------- | ------- |
 | Dual Intel Xeon Gold 6416H (24 Cores, 2.7 GHz) | 1 TB | Operating system - 2 x 480 GB NVMe (RAID 1  \n Data - 36 x 24 TB SATA HDD  \n Log - 2 x 750 GB Intel Optane | 10 Gbit/s |
-{: caption"Sapphire Rapids Intel Optain SSD" caption-side="top"}
+{: caption="Sapphire Rapids Intel Optain SSDs" caption-side="top"}
 
 ## Server enhancement options
 {: #bm-server-enhancements}
