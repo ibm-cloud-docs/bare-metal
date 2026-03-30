@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-02-17"
+lastupdated: "2026-03-30"
 
 keywords: bare metal release notes
 
@@ -20,11 +20,20 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## March 2026
+{: #bare-metal-mar2026}
+
+### 30 March 2026
+{: #bare-metal-mar3026}
+
+Intel Optane SSDs
+:   When you provision select Sapphire Rapids-based {{site.data.keyword.baremetal_long}}s, you can now choose Intel Optane SSDs. For more information, see [Bare metal server options](/docs/bare-metal?topic=bare-metal-about-bm#bm-optain-ssd).
+
 ## February 2026
 {: #bare-metal-feb2026}
 
 ### 17 February 2026
-{: #bare-metal-feb172026}
+{: #bare-metal-feb1726}
 
 Debian 13
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports Debian 13. For more information, see [Debian 13 release notes](https://www.debian.org/releases/trixie/releasenotes){: external}.
@@ -38,7 +47,7 @@ Debian 13
 
 Extended hardware testing
 
-:   When you order a Bare Metal Servers, you can now select the extended hardware testing option. This testing helps identify any components that might not be operating within their designed specifications.
+:   When you order a Bare Metal Server, you can now select the extended hardware testing option. This testing helps identify any components that might not be operating within their designed specifications.
 
 ## November 2025
 {: #bare-metal-nov2025}

@@ -131,6 +131,16 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 
 For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. Make sure that you install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
 
+### Intel Optane SSD
+{: #bm-optain-ssd}
+
+For select Sapphire Rapids-based bare metal servers, you can choose Intel Optane SSDs for advanced performance.
+
+| CPU | RAM | Storage | Network |
+| --- | --- | ------- | ------- |
+| Dual Intel Xeon Gold 6416H (24 Cores, 2.7 GHz) | 1 TB | Operating system - 2 x 480 GB NVMe (RAID 1  \n Data - 36 x 24 TB SATA HDD  \n Log - 2 x 750 GB Intel Optane | 10 Gbit/s |
+{: caption"Sapphire Rapids Intel Optain SSD" caption-side="top"}
+
 ## Server enhancement options
 {: #bm-server-enhancements}
 
