@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-03-30"
+lastupdated: "2026-04-14"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## April 2026
+{: #bare-metal-apr2026}
+
+### 14 April 2026
+{: #bare-metal-apr1426}
+
+VMware ESXi ESXi80U3i support
+:   {{site.data.keyword.baremetal_long}} now support VMware ESXi ESXi80U3i to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3i Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3i-release-notes.html){: external}.
 
 ## March 2026
 {: #bare-metal-mar2026}
@@ -93,7 +102,7 @@ SUSE Linux Enterprise Server 15 SP7 for SAP workloads
 {: release-note}
 
 VMware ESXi 8.0u3g support
-:   {{site.data.keyword.baremetal_long}} now support VMware ESXi 8.0u3x to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3g Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html){: external}.
+:   {{site.data.keyword.baremetal_long}} now support VMware ESXi 8.0u3x to address a security alert from Broadcom. For more information, see [VMware ESXi 8.0 Update 3g Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3g-release-notes.html){: external}.
 
 VMware ESXi 7.0u3w support
 :   {{site.data.keyword.baremetal_long}} now support VMware ESXi 7.0u3w to address a security alert from Broadcom. For more information, see [VMware ESXi 7.0 Update 3w Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-70u3w-release-notes.html){: external}.
