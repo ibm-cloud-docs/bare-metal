@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-04-13"
+  years: 2017, 2026
+lastupdated: "2026-05-04"
 
 keywords:
 
@@ -22,7 +22,7 @@ Use the following steps to build a custom {{site.data.keyword.baremetal_long}}.
 ## Before you begin
 {: #byb-custom-baremetal-server}
 
-Make sure that you review the [Getting started tutorial](https://test.cloud.ibm.com/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
+Make sure that you review the [Getting started tutorial](/docs/bare-metal?topic=bare-metal-getting-started) before you begin the provisioning process.
 
 ## Provisioning through the {{site.data.keyword.cloud_notm}} catalog
 {: #provision-through-the-catalog}
