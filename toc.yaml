@@ -176,4 +176,5 @@ toc:
           topics:
           - troubleshooting_firmware.md
           - troubleshooting_esxi_server_psod.md
+          - troubleshooting_cPanel_cve.md
           - troubleshooting_cannot_access_cPanel.md
