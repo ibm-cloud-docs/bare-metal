@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-12-15"
+  years: 2017, 2026
+lastupdated: "2026-05-13"
 
 keywords: popular servers, fast provisioning
 
@@ -26,7 +26,7 @@ The servers in the fast provisioning list are preconfigured to meet the needs of
    | Field | Value |
    | ------ | ------ |
    | Quantity | Use the + and - icons to specify the number of identical servers to provision. The default is 1. If you want to provision multiple servers with different specifications, you need to provision them separately. |
-   | Billing type | Select **Hourly**, **Monthly**, **1-year term**, or **3-year term**. |
+   | Billing type | Select **Hourly**, **Monthly**, or **1-year term**. |
    | Hostname and domain | These fields are populated with default values. You can change them. |
    | Location | Select the region where you want the server to be located. Using the drop-down list, select and data center in the region. |
    | Select your server | Select **Fast provisioning servers** and select the server that meets your needs. These servers are preconfigured and are ready to use in 30 - 40 minutes. |
