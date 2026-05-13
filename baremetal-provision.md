@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-05-04"
+lastupdated: "2026-05-13"
 
 keywords:
 
@@ -36,10 +36,10 @@ Use the following steps to provision your {{site.data.keyword.baremetal_short}} 
 
    | Field | Value |
    | ----- | ----- |
-   | Quantity | Enter the **Quantity** of **identical** servers to provision. The default quantity is _1_. If you want to provision multiple servers with _different_ specifications, you need to provision the servers separately. |
-   | Hostname | Permanent or temporary name for your servers, for example, baremetal01. Click **Information** for formatting specifics. |
-   | Domain | Identification string that defines administrative control within the internet, for example, Customer-123456.cloud. Click **Information** for formatting specifics. |
-   | Billing | Select either **Hourly**, **Monthly**, **1-year term**, or a **3-year term**. |
+   | Quantity | Enter the **Quantity** of **identical** servers to provision. The default quantity is 1. If you want to provision multiple servers with different specifications, you need to provision the servers separately. |
+   | Hostname | Permanent or temporary name for your servers, for example, `baremetal01`. Click **Information** for formatting specifics. |
+   | Domain | Identification string that defines administrative control within the internet, for example, `Customer-123456.cloud`. Click **Information** for formatting specifics. |
+   | Billing | Select either **Hourly**, **Monthly**, or **1-year term**. |
    | Location |  Region and data center where your server is to be located. |
    | Select your server | Select the server that best meets your workload. |
    | RAM |  For some servers, RAM defaults are based on the CPU model and can't be changed. Keep in mind that for SAP certified servers, RAM, and operating system default is based on your server selection. Your local storage option also defaults based on your server selection. |
