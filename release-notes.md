@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-04-14"
+lastupdated: "2026-05-20"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## May 2026
+{: #bare-metal-may2026}
+
+### 20 May 2026
+{: #bare-metal-may202026}
+
+cPanel support for Ubuntu 24.04
+
+{{site.data.keyword.cloud}} Classic infrastructure now supports cPanel with Ubuntu 24.04. For more information, see [Support cPanel on Ubuntu 24.04](https://features.cpanel.net/c/51-support-cpanel-on-ubuntu-24-04){: external}.
 
 ## April 2026
 {: #bare-metal-apr2026}
