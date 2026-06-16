@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-05-04"
+lastupdated: "2026-06-16"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -100,6 +100,8 @@ The following table describes the end of support date for RHEL operating systems
 
 | Operating system | End of support |
 |-----------------|----------------|
+| RHEL 9.8 | 31 May 2028 |
+| RHEL 9.7 | 31 May 2026 |
 | RHEL 9.6 | 31 May 2027 |
 | RHEL 9.5 | 31 May 2025 |
 | RHEL 9.4 | 31 May 2026 |
@@ -119,6 +121,7 @@ The following table describes the end of support date for RHEL operating systems
 | RHEL 8.1  | 30 November 2021 |
 | RHEL 7.9  | 30 June 2024 |
 | **SAP HANA and SAP applicatiions** |  |
+| RHEL 9.8 (SAP HANA and SAP applications) | 31 May 2030 |
 | RHEL 9.6 (SAP HANA and SAP applications) | 31 May 2029 |
 | RHEL 9.4 (SAP HANA and SAP applications) | 31 May 2028 |
 | RHEL 9.4 (SAP CLX) | 31 May 2028 |
@@ -151,6 +154,7 @@ The following table describes the end of support date for Ubuntu LTS operating s
 
 | Operating system | End of support |
 |-----------------|----------------|
+| Ubuntu 26.04 minimal | 30 April 2031 |
 | Ubuntu 24.04 minimal | 30 April 2029 |
 | Ubuntu 22.04 minimal | 30 April 2027 |
 | Ubuntu 20.04 minimal | 31 May 2025 |
