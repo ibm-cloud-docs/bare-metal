@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2025
-lastupdated: "2025-03-24"
+  years: 2014, 2026
+lastupdated: "2026-06-16"
 
 subcollection: bare-metal
 
@@ -72,7 +72,7 @@ Firmware updates take up to 4 hours to complete. If the update takes longer than
 ## What happens to drives in bare metal servers when I cancel the server?
 {: #what-happens-bm-drive-when-cancel}
 
-When a server is cancelled, the reclaim process starts, and any associated drives are wiped by using `DOD 5220.22-M` algorithms. These algorithms use a 3-pass overwrite process to securely erase data. The reclaim is tracked through the serial numbers on the drives. After the drives are wiped, the server moves into provisioning for reassignment.
+When a server is canceled, the reclaim process starts, and any associated drives are wiped by using `NIST SP 800-88r2` algorithms. These algorithms use the Clear method that uses read and write commands to sanitize storage drives. The reclaim is tracked through the serial numbers on the drives. After the drives are wiped, the server moves into provisioning for reassignment.
 
 ## What happens to a bare metal drive if it malfunctions?
 {: #what-happens-drive-if-bm-malfunctions}
