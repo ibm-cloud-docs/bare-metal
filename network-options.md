@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, {CURRENT_YEAR}]
-lastupdated: "2024-12-04"
+lastupdated: "2026-07-06"
 
 keywords: 25gb data center, 25 gb data center, network options, port redundancy, port speed, 25 Gbps port speed, 25 Gb port speed
 
@@ -21,7 +21,7 @@ subcollection: bare-metal
 ## Interface
 {: #network-interfaces}
 
-Select the interface option to choose whether you want your server to have public internet access, or only a private interface. Private network access is always included so the decision here is if you want your server to also have public internet access. If so, select **Public and Private**. Keep in mind that it is not possible to add a public interface to a server after it is provisioned with only a private interface.
+Select the interface option to choose whether you want your server to have public internet access, or only a private interface. Private network access is always included so the decision here is if you want your server to also have public internet access. If so, select **Public and Private**. You can't add a public interface to a server after it is provisioned with only a private interface. 
 
 The user that places the server order must have the **Add Compute with Public Network Port** permission to select an interface option, which contains a public interface.
 {: note}
@@ -109,9 +109,12 @@ Applicable when a public network interface is requested, this option places a fi
 {: #server-network-included}
 
 The following network options and services are always included with your {{site.data.keyword.baremetal_short}}:
-- **Private network interface** - All {{site.data.keyword.baremetal_short}} include access to the private network, which allows access to other IBM Services.
+- **Private network interface** - All {{site.data.keyword.baremetal_short}} include access to the private network, which allows access to other IBM services.
 - **Primary IP addresses** - A private IPv4 address is included with a private network interface. If a public network interface is selected, a public IPv4 address is also included. These addresses provide basic connectivity to the server. Learn more about [primary IP addresses](/docs/subnets?topic=subnets-about-subnets-and-ips#primary-subnets).
 - **VPN Management** - Manage access to the subnet that the server resides on for users when you connect through [VPN](/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn).
+
+If you need an extra private interface, you need to add it when you order your server.
+{: important}
 
 ## Understanding network options on your invoice
 {: #server-invoice-network}

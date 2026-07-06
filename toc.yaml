@@ -39,7 +39,6 @@ toc:
           topics:
           - intel-trusted-execution-technology-txt.md
       - network-options.md
-      - bare-metal-vmware.md
       - bare-metal-virtualization.md
       - bare-metal-sap-applications.md
       - release-notes.md
