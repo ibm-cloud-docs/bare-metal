@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026, 2026
-lastupdated: "2026-05-11"
+lastupdated: "2026-07-13"
 
 keywords: troubleshoot bare metal, bare metal troubleshooting, cPanel CVE
 
@@ -75,10 +75,10 @@ To restore from backup, follow the instructions for the [Back up and recovery](/
 To reload the OS, go to the **Device list**, select the server to show the _Device details_ page, then select **Actions** > **OS reload**. For more information, see [Reloading the OS](/docs/bare-metal?topic=bare-metal-reloading-the-os).
 
    - You might need to change the operating system version during the operating system reload if your current one is past its end of support. For more information, see [End of support for operating systems considerations](/docs/bare-metal?topic=bare-metal-eos-os-considerations-bm-classic-intro).
-   - To use the most recent cPanel version on Linux systems, select Ubuntu 22.04 during the operating system reload because CentOS and Rocky Linux are no longer supported by cPanel.
+   - To use the most recent cPanel version on Linux systems, select the most recent Ubuntu version as the operating system during reload. CentOS and Rocky Linux are no longer supported by cPanel.
    - OS reloads clear all data from the device. If needed, use a backup of the server to restore it if you reload the operating system.
 
 ## Getting help
 {: #getting-help}
 
-If you need help with recovery, go to the IBM Cloud Support Center to [get support](/docs/support?topic=support-using-avatar&interface=ui#getting-support) by creating a case or reporting an issue, as defined by your support plan.
+If you need help with recovery, you can [get support](/docs/support?topic=support-using-avatar&interface=ui#getting-support) by creating a case or reporting an issue, as defined by your support plan.
