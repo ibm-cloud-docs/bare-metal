@@ -26,9 +26,9 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ### 20 July 2026
 {: #bare-metal-jul202026}
 
-MSSQL Server 2025 support
+MSSQL Server 2025 support (Intel&reg; only)
 
-:   {{site.data.keyword.baremetal_long}} now supports MSSQL Server 2025. For more information about MSSQL Server 2025, see [Microsoft SQL Server 2025](https://www.microsoft.com/en/sql-server){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports MSSQL Server 2025 for Intel-based servers. For more information about MSSQL Server 2025, see [Microsoft SQL Server 2025](https://www.microsoft.com/en/sql-server){: external}.
 
 ## May 2026
 {: #bare-metal-may2026}
