@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-05-20"
+lastupdated: "2026-07-20"
 
 keywords: bare metal release notes
 
@@ -20,13 +20,27 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## July 2026
+{: #bare-metal-jul2026}
+
+### 21 July 2026
+{: #bare-metal-jul212026}
+
+MSSQL Server 2025 support (Intel&reg; only)
+
+:   {{site.data.keyword.baremetal_long}} now supports MSSQL Server 2025 for Intel-based servers. For more information about MSSQL Server 2025, see [Microsoft SQL Server 2025](https://www.microsoft.com/en/sql-server){: external}.
+
+RHEL 10 support (bare metal only)
+
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external}.
+
 ## May 2026
 {: #bare-metal-may2026}
 
 ### 20 May 2026
 {: #bare-metal-may202026}
 
-cPanel support for Ubuntu 24.04
+cPanel support for Ubuntu 24.04 
 
 {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel with Ubuntu 24.04. For more information, see [Support cPanel on Ubuntu 24.04](https://features.cpanel.net/c/51-support-cpanel-on-ubuntu-24-04){: external}.
 
@@ -37,7 +51,7 @@ cPanel support for Ubuntu 24.04
 {: #bare-metal-apr1426}
 
 VMware ESXi ESXi80U3i support
-:   {{site.data.keyword.baremetal_long}} now support VMware ESXi ESXi80U3i to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3i Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3i-release-notes.html){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports VMware ESXi ESXi80U3i to address a security alert from Broadcom&reg;. For more information, see [VMware ESXi 8.0 Update 3i Release Notes](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes/vsphere-esxi-80u3i-release-notes.html){: external}.
 
 ## March 2026
 {: #bare-metal-mar2026}
