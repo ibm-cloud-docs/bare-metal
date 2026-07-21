@@ -100,6 +100,7 @@ The following table describes the end of support date for RHEL operating systems
 
 | Operating system | End of support |
 |-----------------|----------------|
+| RHEL 10 | 321 May 2030 |
 | RHEL 9.8 | 31 May 2028 |
 | RHEL 9.7 | 31 May 2026 |
 | RHEL 9.6 | 31 May 2027 |
