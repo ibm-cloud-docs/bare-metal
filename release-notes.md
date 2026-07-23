@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-07-20"
+lastupdated: "2026-07-23"
 
 keywords: bare metal release notes
 
@@ -23,8 +23,8 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## July 2026
 {: #bare-metal-jul2026}
 
-### 21 July 2026
-{: #bare-metal-jul212026}
+### 20 July 2026
+{: #bare-metal-jul202026}
 
 MSSQL Server 2025 support (Intel&reg; only)
 
@@ -32,7 +32,7 @@ MSSQL Server 2025 support (Intel&reg; only)
 
 RHEL 10 support (bare metal only)
 
-:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external
 
 ## May 2026
 {: #bare-metal-may2026}
