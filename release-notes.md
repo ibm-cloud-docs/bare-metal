@@ -32,7 +32,7 @@ MSSQL Server 2025 support (Intel&reg; only)
 
 RHEL 10 support (bare metal only)
 
-:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external}.
 
 ## May 2026
 {: #bare-metal-may2026}
