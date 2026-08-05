@@ -32,7 +32,7 @@ MSSQL Server 2025 support (Intel&reg; only)
 
 RHEL 10 support (bare metal only)
 
-:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external
+:   {{site.data.keyword.baremetal_long}} now supports RHEL 10. For more information about RHEL 10, see [Red Hat Enterprise Linux 10](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux-10){: external}
 
 ## May 2026
 {: #bare-metal-may2026}
@@ -40,7 +40,7 @@ RHEL 10 support (bare metal only)
 ### 20 May 2026
 {: #bare-metal-may202026}
 
-cPanel support for Ubuntu 24.04 
+cPanel support for Ubuntu 24.04
 
 {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel with Ubuntu 24.04. For more information, see [Support cPanel on Ubuntu 24.04](https://features.cpanel.net/c/51-support-cpanel-on-ubuntu-24-04){: external}.
 
