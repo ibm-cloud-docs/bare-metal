@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-07-23"
+lastupdated: "2026-08-05"
 
 keywords: bare metal release notes
 
@@ -40,7 +40,7 @@ RHEL 10 support (bare metal only)
 ### 20 May 2026
 {: #bare-metal-may202026}
 
-cPanel support for Ubuntu 24.04 
+cPanel support for Ubuntu 24.04
 
 {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel with Ubuntu 24.04. For more information, see [Support cPanel on Ubuntu 24.04](https://features.cpanel.net/c/51-support-cpanel-on-ubuntu-24-04){: external}.
 
