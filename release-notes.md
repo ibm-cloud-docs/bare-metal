@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-08-05"
+lastupdated: "2026-08-06"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## August 2026
+{: #bare-metal-aug2026}
+
+### 6 August 2026
+{: #bare-metal-aug0626}
+
+End of Market (EOM) announcement for deprecation of {{site.data.keyword.cloud}} Classic infrastructure Hardware Security Module (HSM)
+:   Starting 11 August 2026, IBM Cloud® Classic infrastructure Hardware Security Module (HSM) is deprecated, and no new instances can be created. IBM is working with Utimaco on an accelerated migration process for all clients. IBM strongly recommends completing your migration to an alternative service by 31 December 2026 to minimize operational and security risk. For more information, see [Deprecation of IBM Cloud Classic infrastructure Hardware Security Module](/docs/hardware-security-modules?topic=hardware-security-modules-deprecation).
 
 ## July 2026
 {: #bare-metal-jul2026}
