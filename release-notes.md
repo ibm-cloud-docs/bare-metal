@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-08-06"
+lastupdated: "2026-08-18"
 
 keywords: bare metal release notes
 
@@ -23,11 +23,17 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ## August 2026
 {: #bare-metal-aug2026}
 
+### 18 August
+{: #bare-metal-aug1826}
+
+Ubuntu 26.04 LTS support
+:   {{site.data.keyword.baremetal_long}} now supports Ubuntu 26.04 LTS. For more information about Ubuntu 26.04 LTS, see [Ubuntu 26.04 LTS release notes](https://documentation.ubuntu.com/release-notes/26.04/){: external}.
+
 ### 6 August 2026
 {: #bare-metal-aug0626}
 
 End of Market (EOM) announcement for deprecation of {{site.data.keyword.cloud}} Classic infrastructure Hardware Security Module (HSM)
-:   Starting 11 August 2026, IBM Cloud® Classic infrastructure Hardware Security Module (HSM) is deprecated, and no new instances can be created. IBM is working with Utimaco on an accelerated migration process for all clients. IBM strongly recommends completing your migration to an alternative service by 31 December 2026 to minimize operational and security risk. For more information, see [Deprecation of IBM Cloud Classic infrastructure Hardware Security Module](/docs/hardware-security-modules?topic=hardware-security-modules-deprecation).
+:   Starting 11 August 2026, IBM Cloud® Classic infrastructure Hardware Security Module (HSM) is deprecated and no new instances can be created. IBM is working with Utimaco on an accelerated migration process for all clients. IBM strongly recommends completing your migration to an alternative service by 31 December 2026 to minimize operational and security risk. For more information, see [Deprecation of IBM Cloud Classic infrastructure Hardware Security Module](/docs/hardware-security-modules?topic=hardware-security-modules-deprecation).
 
 ## July 2026
 {: #bare-metal-jul2026}
