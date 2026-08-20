@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-10-22"
+  years: 2018, 2026
+lastupdated: "2026-08-20"
 
 keywords: provision, sgx, provision server Intel SGX architecture, Intel SGX architecture, confidential computing,
 
@@ -41,4 +41,3 @@ Make sure that you install the SGX platform software and drivers.
 
 1. Go to the [Get started](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/get-started.html){: external} and select the option for installation that matches your operating system.
 2. Download the binary installation option. This option helps make sure that you use a stable version of SGX in your workloads.
-3. For specific instructions for each type of installation, see the [Intel SGX Installation Guide for Windows](https://www.intel.com/content/www/us/en/download-center/home.html){: external} or the [Intel SGX Installation Guide for Linux](https://download.01.org/intel-sgx/linux-2.1.2/docs/Intel_SGX_Installation_Guide_Linux_2.1.2_Open_Source.pdf){: external}.
