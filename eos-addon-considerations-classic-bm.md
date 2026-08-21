@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2025
-lastupdated: "2025-10-30"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords:
 
@@ -33,7 +33,7 @@ End of Support (EOS) is the last date that {{site.data.keyword.cloud}} delivers 
 
 
 ### QuantaStor v6.x
-{: classic-quantastor}
+{: #classic-quantastor}
 
 QuantaStor is a licensed software available as an add-on to IBM Bare Metal Servers. Support for this software discontinues on 31 July 2025. {{site.data.keyword.cloud}} is removing this service from the catalog on 31 July 2025.
 
@@ -81,7 +81,7 @@ To plan for this deprecation, see the following recommendations.
    - DIY Installation. MySQL packages are available on Linux distributions.
    - Opting for the BYOL (Bring Your Own License) option to upgrade to MySQL 8.4.
 *	You can use the following documentation for seamless self-installation and upgrades [Installing MySQL on Linux by using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/linux-installation-yum-repo.html){: external}.
-* You can connect with any partner of your choice or choose an IBM partner with paid support to help with migration by using [Wanclouds IBM request]([https://wanclouds.net/ibm](https://wanclouds.net/ibm/request)){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
+* You can connect with any partner of your choice or choose an IBM partner with paid support to help with migration by using [Wanclouds IBM request](https://wanclouds.net/ibm](https://wanclouds.net/ibm/request){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
 
 ### MSSQL Server 2016
 {: #classic-mysql-server-2016-eos-bm-classic}
@@ -94,4 +94,4 @@ To plan for this deprecation, see the following recommendations.
 
 * To make sure that you have uninterrupted usage of this software, we recommend that you upgrade to most recent version of MSSQL Server that is available on IBM Cloud.
 * 	To upgrade, you need to perform an OS reload with the latest version of the software.
-* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds] ([https://wanclouds.net/ibm](https://wanclouds.net/ibm/request)){: external}. If you have any questions or need assistance, open a [support case](/docs/account?topic=account-open-case) in the customer portal.
+* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds](https://wanclouds.net/ibm](https://wanclouds.net/ibm/request){: external}. If you have any questions or need assistance, open a support case in the customer portal.

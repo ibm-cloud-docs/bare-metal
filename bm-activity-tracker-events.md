@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2022
-lastupdated: "2021-03-30"
+  years: 2016, 2026
+  lastupdated: "2026-08-21"
 
 keywords: activity tracker, at events, activity tracker events
 
@@ -10,15 +10,7 @@ subcollection: bare-metal
 
 ---
 
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:download: .download}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Activity Tracker events
 {: #bm-at-events}
@@ -29,8 +21,7 @@ with the account can trigger bare metal server events that are logged in {{site.
 {: shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.cloud_notm}}. To get started monitoring your user's actions,see [Getting started with {{site.data.keyword.cloudaccesstrailfull}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
-
+{{site.data.keyword.cloud_notm}}.
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.cloud}} console.
 {: tip}
 
@@ -62,8 +53,7 @@ The following table lists the actions that generate an event:
 {: #bm-view-events}
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
-is available in the {{site.data.keyword.cloud_notm}} region where the events are generated. For more information, see [Viewing account
-events](/docs/activity-tracker?topic=activity-tracker-view_events).
+is available in the {{site.data.keyword.cloud_notm}} region where the events are generated.
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service
 in the same region where the action happens.

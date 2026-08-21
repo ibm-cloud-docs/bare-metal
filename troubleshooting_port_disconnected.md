@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-08-01"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -37,8 +37,7 @@ Use one of the following options to resolve the issue.
 
    Your firewall might be blocking ICMP traffic. For more information, see [Allowing SSH and pinging to a public subnet](/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet).
 
-   - Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information about IP ranges, see [{{site.data.keyword.cloud}} IP ranges](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges).
-
+   - Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges.
    - You can test whether the firewall is blocking traffic by running a traceroute from your workstation to the bare metal server. Notice whether the traceroute stops at a particular IP. If that is the IP of a firewall or gateway that you are using, then that is probably what is blocking pings. Contact your firewall administrator for guidance.
 
    - You can temporarily bypass the firewall or gateway and see whether the status of the server changes.
@@ -68,4 +67,4 @@ Use one of the following options to resolve the issue.
    1. Click **Monitoring**. You can configure the IP address to be pinged, the type of ping, and the users to be notified.
    1. If you are getting many false alerts, select **Slow ping** and use a private IP. Slow ping doesn't fail because of slow server response that is caused by high latency or high server load.
 
-If your server status is still down or disconnected, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar). When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.
+If your server status is still down or disconnected, see [Getting help and support](/docs/support?topic=support-open-case). When you open an IBM support case, provide all the details of the troubleshooting steps that you completed.

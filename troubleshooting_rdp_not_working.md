@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-22"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -94,7 +94,7 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
    This report shows the date and time that the report was created, the number of licenses installed on the server and the number of licenses currently issued.
 
-   If you need to purchase extra licenses, they can be purchased in packs of 5 by contacting [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar).
+   If you need to purchase extra licenses, they can be purchased in packs of 5 by contacting [{{site.data.keyword.cloud}} Support](/docs/support?topic=support-open-case).
 
 - The bare metal server has pending Windows updates.
 
@@ -172,4 +172,4 @@ To resolve RDP issues, try the following troubleshooting tasks:
 
 For more information about possible RDP issues, see [General Remote Desktop connection troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/rdp-error-general-troubleshooting#check-the-status-of-the-rdp-protocol){: external}.
 
-If you still can't connect to your server by using RDP, see [Getting help and support](/docs/get-support?topic=get-support-using-avatar) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting that you completed.
+If you still can't connect to your server by using RDP, see [Getting help and support](/docs/support?topic=support-open-case) to open an IBM support case. In your support case, provide as much detail as possible with the troubleshooting that you completed.

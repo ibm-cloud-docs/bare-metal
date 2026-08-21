@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2025
-lastupdated: "2025-12-15"
+  years: 2018, 2026
+lastupdated: "2026-08-21"
 
 keywords: bare metal, getting started
 
@@ -22,7 +22,7 @@ Table 1 contains steps to help you quickly get your {{site.data.keyword.baremeta
 
 | Task | Details |
 |------|------|
-| **1.** Review content that can help with your implementation | New to {{site.data.keyword.cloud}} and bare metal servers? The following sites provide useful information to help you plan your environment.  \n - [What is {{site.data.keyword.cloud}}](https://www.ibm.com/cloud){: external}  \n - [Getting started with {{site.data.keyword.cloud}}](https://ibm.com/cloud/get-started){: external}  \n - [Bare Metal Servers](https://www.ibm.com/products/bare-metal-servers){: external}  \n - [Network options](/docs/bare-metal?topic=bare-metal-network-options) |
+| **1.** Review content that can help with your implementation | New to {{site.data.keyword.cloud}} and bare metal servers? The following sites provide useful information to help you plan your environment.  \n - [What is {{site.data.keyword.cloud}}]( https://www.ibm.com/products/cloud){: external}  \n - [Getting started with {{site.data.keyword.cloud}}]( https://www.ibm.com/products/cloud/get-started){: external}  \n - [Bare Metal Servers](https://www.ibm.com/products/bare-metal-servers){: external}  \n - [Network options](/docs/bare-metal?topic=bare-metal-network-options) |
 | **2.** Sign up for {{site.data.keyword.cloud}} | [Setting up your {{site.data.keyword.cloud}} account](/docs/account?topic=account-account-getting-started) has the steps on how to set up your {{site.data.keyword.cloud}} account. |
 | **3.** Determine your workload specifications | Before your provision your server, determine how you want to use it and the server size you need to be successful. For example, do you intend to use it for development and testing, or production? Are you testing a user experience, processing lengthy algorithms, backing up and restoring data, or increasing latency speed? |
 | **4.** Size and cost out your server | You can use the [bare metal provisioning page](https://cloud.ibm.com/gen1/infrastructure/provision/bm){: external} to help you size and cost out your server. |

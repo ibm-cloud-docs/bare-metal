@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-05-04"
+lastupdated: "2026-08-21"
 
 keywords:
 
@@ -154,9 +154,9 @@ No extra licensing costs are incurred to move to a newer software version when y
 
 Ubuntu 22.04 EOS date is 31 May 2027. Support for this software discontinues on 31 May 2027. Ubuntu 22.04 reaches its End of Marketing (EOM) on 6 June 2026 and can't be downloaded post EOM.  
 
-For existing Ubuntu customers, upgrade to the most recent version. For more information on Ubuntu release cycle [Ubuntu Documentation]( https://ubuntu.com/about/release-cycle){: external}.
+For existing Ubuntu customers, upgrade to the most recent version. For more information on Ubuntu release cycle [Ubuntu Documentation](https://ubuntu.com/about/release-cycle){: external}.
 
 ### CentOS Stream 9
 CentOS Stream 9 EOS date is 31 May 2027. Support for this software discontinues on 31 May 2027. CentOS Stream 9 reaches its End of Marketing (EOM) on 6 June 2026 and can't be downloaded. 
 
-For existing CentOS Stream customers, upgrade to the most recent version. For more information on CentOS release cycle, please refer [CentOS Documentation]( https://docs.centos.org/centos-stream-docs/){: external}.
+For existing CentOS Stream customers, upgrade to the most recent version. For more information on CentOS release cycle, please refer [CentOS Documentation](https://docs.centos.org/centos-stream-docs/){: external}.
