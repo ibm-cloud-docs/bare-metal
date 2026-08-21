@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-19"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -75,7 +75,7 @@ Use one of the following options.
 
 - A public gateway is not configured for the network card.
 
-   If the firewall is not an issue, you can check whether the public gateway IP is configured for the public network card and then try pinging the public gateway. For more help, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar).
+   If the firewall is not an issue, you can check whether the public gateway IP is configured for the public network card and then try pinging the public gateway. For more help, contact [{{site.data.keyword.cloud}} Support](/docs/support?topic=support-open-case).
 
    Not all gateways respond to a ping, so a lack of ping response isn't necessarily an issue.
    {: note}
@@ -88,4 +88,4 @@ Use one of the following options.
       - `nameserver 10.0.80.11`
       - `nameserver 10.0.80.12`
 
-If you still help, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar) and provide as much detail as possible from the troubleshooting steps that you performed.
+If you still help, contact [{{site.data.keyword.cloud}} Support](/docs/support?topic=support-open-case) and provide as much detail as possible from the troubleshooting steps that you performed.

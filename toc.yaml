@@ -105,7 +105,6 @@ toc:
           label: Backing up and recovering
           topics:
           - can-i-back-data-between-bare-metal-servers-private-network.md
-          - bare-metal-veeam-for-o365.md
           - include: ../virtual-servers/vsi_launch_rescue.md
             navtitle: Launching a rescue kernel
       - topicgroup:
@@ -131,7 +130,7 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - include: ../cloud-logs/getting-started.md
+      - include:../cloud-logs/getting-started.md
       - bm-activity-tracker-events.md
       - high-availability.md
       - include: ../virtual-servers/data-portability-classic.md

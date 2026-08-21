@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2026
-lastupdated: "2026-03-30"
+lastupdated: "2026-08-21"
 
 keywords:
 
@@ -108,7 +108,7 @@ The following operating systems are supported by AMD EPYC "Rome" CPUs:
 Systems must be started in UEFI mode.
 {: note}
 
-For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on {{site.data.keyword.cloud}} Bare Metal Servers](https://www.ibm.com/cloud/amd).{: external}
+For more information about AMD EPYC CPUs on {{site.data.keyword.cloud}}, see the [AMD on {{site.data.keyword.cloud}} Bare Metal Servers](https://www.ibm.com/products/cloud/amd).{: external}
 
 ### Intel Cascade Lake CPUs
 {: #bm-cascade-lake-support}
@@ -129,7 +129,7 @@ You can choose from the following Intel Xeon&reg; Cascade Lake CPUs when you pro
 ### NVIDIA GPUs
 {: #bm-gpu-support}
 
-For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. Make sure that you install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external}
+For certain bare metal servers, you can add the processing power of NVIDIA&reg; GPUs. When you select a bare metal server, look for **GPU** in the **Features** column on the provisioning page. Make sure that you install the appropriate drivers. See [NVIDIA drivers](https://www.nvidia.com/en-us/drivers/){: external}
 
 ### Intel Optane SSDs
 {: #bm-optain-ssd}
@@ -215,7 +215,7 @@ The following add-ons are available when you provision a bare metal server.
 | Server security | Intel Trusted Execution Technology (TXT) provides hardware-assisted security technologies to enhance your security portfolio and act as an extra security for your infrastructure. |
 | Intel Software Guard Extensions (SGX) | Intel SGX is used to partition sensitive data into secure enclaves by using a set of security-related application code. You can add SGX when you [provision your bare metal server](/docs/bare-metal?topic=bare-metal-bm-server-provision-sgx). |
 | Business continuance insurance (BCI) | Business continuance insurance helps you avoid overage charges if you experience a network attack (DDOS) that uses all of your allowed bandwidth.|
-| Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. For more information, see [Getting started with Hardware Firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).|
+| Firewall | A hardware firewall provides an extra layer of security that is provisioned on demand without service interruptions. This firewall prevents unwanted traffic from reaching your servers by reducing your attack surface, and by enabling your server resources to be dedicated for their intended use. |
 | Microsoft SQL Server | A relational database management system that manages data storage and retrieval. For more information, see [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.|
 | Monitoring | When you provision a server, you can choose the service plan that best fits your needs. For more information, see [Service plans](/docs/monitoring?topic=monitoring-service_plans).|
 | Notification | You can define an alert on a single metric or a set of metrics to notify you of events or issues that you want to monitor. For more information, see [Working with alerts](/docs/monitoring?topic=monitoring-alerts).|

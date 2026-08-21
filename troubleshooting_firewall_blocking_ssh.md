@@ -37,7 +37,7 @@ Use one of the following solutions to fix this problem.
 
 * The VPN is not connected to the bare metal server
 
-   To log in to the server's private IP with SSH, you must establish an SSL VPN connection to {{site.data.keyword.cloud}} as described in [Getting started with IBM Cloud Virtual Private Networking](https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started).
+   To log in to the server's private IP with SSH, you must establish an SSL VPN connection to {{site.data.keyword.cloud}} as described in [Getting started with IBM Cloud Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
 
    You can verify whether the VPN connection is working by sending a ping to the {{site.data.keyword.cloud}} DNS resolver IPs at `10.0.80.11` and `10.0.80.12`. If successful, then the VPN connection is working.
    {: tip}

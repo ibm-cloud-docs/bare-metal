@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-08-01"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -29,9 +29,9 @@ If you see a PSOD on an ESXi server, it might be caused by one of the following 
 
 * A memory fault or error can cause a PSOD.
    * Restart the server to clear the memory fault.
-   * If the problem persists, contact [support](/docs/get-support?topic=get-support-using-avatar).
+   * If the problem persists, contact [support](/docs/support?topic=support-open-case).
 
 * VMWare kernel issues
    * Restart the server to resolve kernel issues.
-   * If the problem persists, contact [support](/docs/get-support?topic=get-support-using-avatar).
+   * If the problem persists, contact [support](/docs/support?topic=support-open-case).
 {: tsResolve}

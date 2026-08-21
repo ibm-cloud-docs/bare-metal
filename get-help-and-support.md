@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-06-27"
+  years: 2017, 2026
+lastupdated: "2026-08-21"
 
 keywords: help, support, support case
 
@@ -24,7 +24,7 @@ If you experience an issue or have questions about a bare metal server, you can 
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. If you ask a question, use the tags `ibm-cloud` and `bare-metal` so that the question is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). If you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/support?topic=support-open-case. If you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
 
 
 

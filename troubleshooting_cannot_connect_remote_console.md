@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-19"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -29,7 +29,7 @@ You get an error when you try to access the IPMI Remote Console.
 
 Insufficient access to IPMI.
 
-By default, the IPMI root user has "Operator" access, but the Remote Console requires "Supervisor" or "Administrator" access, depending on the server. If the IPMI root user does not have sufficient access, you need to [create a support case](/docs/get-support?topic=get-support-using-avatar) and request elevated user access to "Supervisor" or "Administrator" depending on the server.
+By default, the IPMI root user has "Operator" access, but the Remote Console requires "Supervisor" or "Administrator" access, depending on the server. If the IPMI root user does not have sufficient access, you need to [create a support case](/docs/support?topic=support-open-case) and request elevated user access to "Supervisor" or "Administrator" depending on the server.
 
 Incorrect Java version.
 
@@ -42,6 +42,6 @@ Always make sure that the IPMI firmware is up to date. Use the following steps t
 1. Go to the device list and click the appropriate server.
 2. On the left menu, click **Firmware** to check whether the IPMI firmware is up to date.
 
-If none of these suggestions fixes the issue, [contact support](/docs/get-support?topic=get-support-using-avatar), providing details on the troubleshooting steps you carried out and on their results.
+If none of these suggestions fixes the issue, [contact support](/docs/support?topic=support-open-case), providing details on the troubleshooting steps you carried out and on their results.
 
 {: tsResolve}

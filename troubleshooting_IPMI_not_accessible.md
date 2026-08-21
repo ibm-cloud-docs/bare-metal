@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-19"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot, troubleshooting
 
@@ -38,4 +38,4 @@ Use one of the following options to resolve the issue.
    You can verify that the VPN connection is working by pinging the {{site.data.keyword.cloud}} DNS resolver IPs at `10.0.80.11` and `10.0.80.12`. If successful, the VPN connection is working.
    {: tip}
 
-If you still can't access IPMI, IMM, XCC, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar). When you open a support case, include the details of the troubleshooting steps that you performed.
+If you still can't access IPMI, IMM, XCC, contact [{{site.data.keyword.cloud}} Support](/docs/support?topic=support-open-case). When you open a support case, include the details of the troubleshooting steps that you performed.

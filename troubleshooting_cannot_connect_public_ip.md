@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-07-19"
+  years: 2023, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -68,4 +68,4 @@ Use one of the following options:
    1. Verify that **Obtain an IP address automatically** is not selected.
    1. If **Obtain an IP address automatically** is selected, then select **Use the following IP address**. Enter the correct IP address, subnet mask, and gateway. You can find this information in the server information in your {{site.data.keyword.cloud}} portal.
 
-If none of the previous suggestions fix the issue, contact [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-support-using-avatar) and providing as much detail as possible from the troubleshooting that you performed.
+If none of the previous suggestions fix the issue, contact [{{site.data.keyword.cloud}} Support](/docs/support?topic=support-open-case) and providing as much detail as possible from the troubleshooting that you performed.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-08-02"
+  years: 2021, 2026
+lastupdated: "2026-08-21"
 
 keywords: troubleshoot, tips, error, problem, troubleshoot bare metal, bare metal troubleshooting
 
@@ -62,7 +62,7 @@ Save the updated `/etc/ssh/sshd_config` file.
 ### Firewall is blocking SSH traffic
 {: #bm-firewall-blocking-ssh-traffic}
 
-SSH port traffic might be blocked by your firewall. For more information, see [Allowing SSH and pinging to a public subnet](https://cloud.ibm.com/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet).
+SSH port traffic might be blocked by your firewall. For more information, see [Allowing SSH and pinging to a public subnet](/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet).
 
 ## Why is my server not responding (server not pinging)?
 {: #bm-troubleshoot-device-not-responding}
@@ -72,7 +72,7 @@ SSH port traffic might be blocked by your firewall. For more information, see [A
 If you can't access your server, you can use the following prechecks to help get a response.
 
 * Try to access the server through the KVM IPMI console.
-* If you can't access the server through the KVM IPMI console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact [support](/docs/get-support?topic=get-support-using-avatar).
+* If you can't access the server through the KVM IPMI console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact [support](/docs/support?topic=support-open-case).
 
 ## Why can't I access IPMI IP through a browser?
 {: #bm-troubleshoot-IPMI-not-accessible-browser}
@@ -81,7 +81,7 @@ If you can't access your server, you can use the following prechecks to help get
 
 * Try to access the IPMI IP through different browser.
 * Update your browser and or Java to access IPMI IP.
-* If you still have problems, contact [support](/docs/get-support?topic=get-support-using-avatar).
+* If you still have problems, contact [support](/docs/support?topic=support-open-case).
 
 ## Why isn't RDP working?
 {: #bm-troubleshoot-RDP-not-working}
@@ -102,7 +102,7 @@ RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firew
 ### The server has inadequate client access licenses
 {: #bm-inadequate-client-access-licenses}
 
-RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/get-support?topic=get-support-using-avatar).
+RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/support?topic=support-open-case).
 
 ### The server has pending Windows updates
 {: #bm-pending-windows-updates}
@@ -117,7 +117,7 @@ If your server has pending Windows updates, install the most recent updates, res
 If you can't connect to a server through the public IP, it might be caused by one of the following reasons.
 
 * Public traffic is blocked by your firewall or gateway (Vyatta, AT&T, Juniper, FortiGate).
-* If the firewall isn't an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/get-support?topic=get-support-using-avatar).
+* If the firewall isn't an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/support?topic=support-open-case).
 * Check whether you can ping {{site.data.keyword.cloud}} DNS servers (10.0.80.11, 10.0.80.12), if that they are configured in the public network card.
 
 ## Why is the internet disconnected?
@@ -139,7 +139,7 @@ If you can't access the internet, your internet access might be blocked by your 
 ### Public gateway IP isn't configured for the network card
 {: #bm-public-gateway-ip-configuration-old}
 
-If the firewall is not an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/get-support?topic=get-support-using-avatar).
+If the firewall is not an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/support?topic=support-open-case).
 
 ### No ping from DNS servers
 {: #bm-ping-DNS-servers-old}
@@ -168,8 +168,8 @@ If you receive a Purple Screen of Diagnostics (PSOD) on an ESXi server, it might
 
 * A memory fault or error can cause a PSOD.
    - Restart the server to clear the memory.
-   - If the problem persists, contact [support](/docs/get-support?topic=get-support-using-avatar).
+   - If the problem persists, contact [support](/docs/support?topic=support-open-case).
 
 * VMWare kernel issues
    - Restart the server to resolve kernel issues.
-   - If the problem persists, contact [support](/docs/get-support?topic=get-support-using-avatar).
+   - If the problem persists, contact [support](/docs/support?topic=support-open-case).

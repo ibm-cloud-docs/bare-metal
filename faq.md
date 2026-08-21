@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2026
-lastupdated: "2026-06-16"
+lastupdated: "2026-08-21"
 
 subcollection: bare-metal
 
@@ -27,7 +27,7 @@ For more information about UEFI, see your hardware manufacturer documentation or
 ## Why is my BIOS asking for a password?
 {: #why-is-bios-asking-password}
 
-{{site.data.keyword.cloud}} does not provide you with direct access to your BIOS. However, you can change the BIOS. If you need to modify anything in the BIOS, including boot order, open a [support case](/docs/get-support?topic=get-support-open-case) and request the changes that you need.
+{{site.data.keyword.cloud}} does not provide you with direct access to your BIOS. However, you can change the BIOS. If you need to modify anything in the BIOS, including boot order, open a [support case](/docs/support?topic=support-open-case) and request the changes that you need.
 
 This change requires a restart of your server, so be ready to approve a restart and provide a time frame for when you want to implement changes.
 {: note}
@@ -53,9 +53,9 @@ If you want to know whether the Intel processor on your server supports SpeedSte
 1. Identify your server in the list.
 1. Click the server name to view **Device Details**.
 1. Locate the **Hardware** subsection to find the model number of your server's processors CPU speed.
-1. With the server processor model number, go to the [Intel processor finder](https://ark.intel.com/content/www/us/en/ark.html){: external} and use this number to find more information about the processor and whether it supports Enhanced Intel SpeedStep Technology.
+1. With the server processor model number, go to the [Intel processor finder](https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://ark.intel.com/content/www/us/en/ark.html){: external} and use this number to find more information about the processor and whether it supports Enhanced Intel SpeedStep Technology.
 
-EIST is an established technology. It's not common that you need to turn off EIST. However, if you decide that you don't want to use this feature, open a [support case](/docs/get-support?topic=get-support-using-avatar) to disable this feature. The server is restarts when you disable EIST.
+EIST is an established technology. It's not common that you need to turn off EIST. However, if you decide that you don't want to use this feature, open a [support case](/docs/support?topic=support-open-case) to disable this feature. The server is restarts when you disable EIST.
 
 ## How do I update my out-of-date bare metal server firmware?
 {: #bm-out-of-date-firmware}
@@ -67,7 +67,7 @@ You can also initialize a firmware update during the [OS Reload](/docs/bare-meta
 You can't initialize a firmware update when a bare metal server is powered ON. Make sure that the bare metal server is powered OFF before you initialize a firmware update.
 {: important}
 
-Firmware updates take up to 4 hours to complete. If the update takes longer than 4 hours, check for an open support case. If a support case isn't open, [contact support or open a case](/docs/get-support?topic=get-support-using-avatar).
+Firmware updates take up to 4 hours to complete. If the update takes longer than 4 hours, check for an open support case. If a support case isn't open, [open a support case](/docs/support?topic=support-open-case).
 
 ## What happens to drives in bare metal servers when I cancel the server?
 {: #what-happens-bm-drive-when-cancel}
@@ -92,6 +92,6 @@ IPMI is a way to manage a server remotely through a network interface. Gather th
 ## What operating system tasks are my responsibility?
 {: #what-os-tasks-are-my-responsibility}
 
-Operating system tasks are the exclusive responsibility of the customer in the infrastructure as a service (IaaS) model. For details on which tasks are the responsibility of {{site.data.keyword.cloud}}, the customer, or shared, see the Infrastructure as a service section in [Shared responsibilities for using IBM Cloud products](/docs/overview?topic=overview-shared-responsibilities#iaas-services-responsibilities) and [Understanding IaaS basics](/docs/cloud-infrastructure?topic=cloud-infrastructure-getting-started-tutorial#cloud-svc-models-2).
+Operating system tasks are the exclusive responsibility of the customer in the infrastructure as a service (IaaS) model. For details on which tasks are the responsibility of {{site.data.keyword.cloud}}, the customer, or shared, see the Infrastructure as a service section in [Shared responsibilities for using IBM Cloud products](/docs/overview?topic=overview-shared-responsibilities#iaas-services-responsibilities).
 
 {{site.data.keyword.cloud}} support assists with basic questions about instructions or considerations for product use in the {{site.data.keyword.cloud}} environment. For extensive operating system questions beyond the scope of {{site.data.keyword.cloud}} support, refer to the vendor-specific software documentation.

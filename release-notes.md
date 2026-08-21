@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-21"
 
 keywords: bare metal release notes
 
@@ -105,7 +105,7 @@ Extended hardware testing
 {: release-note}
 
 Rocky Linux 10
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 10. For more information, see [Rocky Linux 10 release notes](https://docs.rockylinux.org/release_notes/10_0/){: external}.
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 10.
 
 ### 10 November 2025
 {: #bare-metal-nov1025}
@@ -370,7 +370,7 @@ Common RAID controller
 {: release-note}
 
 Custom power profiles for VMware ESXi
-:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, [Host Power Management policies in ESXi](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html){: external}.
+:   {{site.data.keyword.baremetal_long}} now supports custom power profiles for VMware ESXi. ESXi offers different power management policy profiles to help you adjust your performance and power proportions. For more information, [Host Power Management policies in ESXi]([https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-resource-management/GUID-4D1A6F4A-8C99-47C1-A8E6-EF3865603F5B.html](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/vsphere-resource-management.html)){: external}.
 
 ### 10 July 2024
 {: #bare-metal-jul1024}
@@ -424,7 +424,7 @@ Intel Sapphire Rapids CPU support (Select availability)
 {: release-note}
 
 SSL Certificate Order is deprecated
-:   As of 15 April 2024, the SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
+:   As of 15 April 2024, the SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Existing certificates that are not expired are still available for you to download, reissue, or revoke.
 {: deprecated}
 
 ### 06 December 2023

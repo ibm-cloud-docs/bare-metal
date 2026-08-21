@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-15"
+  years: 2017, 2026
+lastupdated: "2026-08-21"
 
 keywords:
 
@@ -60,7 +60,7 @@ In some older IPMI consoles, you can skip this option.
 
 You can mount an ISO from your local computer by using the Java iKVM viewer (console). By using the Java iKVM viewer, you can mount an ISO while it is connected to the console. The speed of the installation progresses can vary depending on the upload speed and latency of your internet connection and the performance of Java.
 
-If you don't have permission to change the server BIOS, open a [support case](/docs/get-support?topic=get-support-open-case) to request a change to the boot sequence to ‘IPMI Virtual Disk’ as the first boot option.
+If you don't have permission to change the server BIOS, open a [support case](/docs/support?topic=support-open-case) to request a change to the boot sequence to ‘IPMI Virtual Disk’ as the first boot option.
 
 Because ISO isn't mounted, support can change only the boot device priority.
 {: note}
@@ -82,6 +82,6 @@ Because ISO isn't mounted, support can change only the boot device priority.
 ## Troubleshooting
 {: #bm-mount-iso-troubleshooting}
 
-* Not all users have default access to mount Virtual Media or open the KVM console. If a permission error occurs, try updating the [firmware](/docs/bare-metal?topic=bare-metal-bm-faq#bm-out-of-date-firmware) of only the IPMI (even if it says no update available). If issues persist, contact [support](/docs/get-support?topic=get-support-using-avatar).
+* Not all users have default access to mount Virtual Media or open the KVM console. If a permission error occurs, try updating the [firmware](/docs/bare-metal?topic=bare-metal-bm-faq#bm-out-of-date-firmware) of only the IPMI (even if it says no update available). If issues persist, contact [support](/docs/support?topic=support-open-case).
 * If an ISO is already mounted, an error message appears with the text **A disk is mounted**. You must unmount the existing disk and replace it with the new ISO. Two ISOs cannot be mounted at the same time.
 * You might need to contact support to change the boot order in the BIOS.
