@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-05-13"
+lastupdated: "2026-09-22"
 
 
 keywords: contract term, contract term server
@@ -63,6 +63,3 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 3. In **Server details**, next to your billing term, click **Modify**.
 4. Select **1-year term** and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term.
-
-An email notification is sent one month before the end of the term. If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same - it doesn't increase.
-{: note}
