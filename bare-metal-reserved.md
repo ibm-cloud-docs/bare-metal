@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-09-22"
+lastupdated: "2026-09-24"
 
 
 keywords: contract term, contract term server
@@ -17,7 +17,7 @@ subcollection: bare-metal
 # Contract-term pricing for bare metal servers
 {: #about-reserved-bare-metal-servers}
 
-Contract term pricing with {{site.data.keyword.baremetal_long}} is a great option when you want significant cost savings. A 1-year contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term. When your term is over, your billing continues on a month-to-month basis at the nondiscounted rate.
+Contract term pricing with {{site.data.keyword.baremetal_long}} is a great option when you want significant cost savings. A 1-year contact term bare metal server is a great option if you know that you need hardware for the long term and makes sure that your resources are available throughout your term.
 {: shortdesc}
 
 ## Advantages
@@ -63,3 +63,6 @@ Are you ready to take your eligible, existing monthly server and turn it into a 
 3. In **Server details**, next to your billing term, click **Modify**.
 4. Select **1-year term** and click **Continue**.
 5. Repeat steps 2 - 4 for any other servers that you want to convert to a contract term.
+
+If you don't renew your term, your server reverts to a monthly billing cycle and the cost stays the same. It doesn't increase.
+{: note}
