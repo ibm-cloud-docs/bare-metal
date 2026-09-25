@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-08-21"
+lastupdated: "2026-09-25"
 
 keywords: bare metal release notes
 
@@ -20,10 +20,19 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## September 2026
+{: #bare-metal-sep2026}
+
+### 25 September 2026
+{: #bare-metal-sep2526}
+
+SUSE Linux Enterprise Server (SLES) 16.0 (SAP HANA and SAP) support
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports SLES 16.0 for SAP HANA and SAP applications. For more information, see [SUSE Linux Enterprise Server for SAP applications](https://www.suse.com/products/sles-for-sap/){: external}.
+
 ## August 2026
 {: #bare-metal-aug2026}
 
-### 18 August
+### 18 August 2026
 {: #bare-metal-aug1826}
 
 Ubuntu 26.04 LTS support
