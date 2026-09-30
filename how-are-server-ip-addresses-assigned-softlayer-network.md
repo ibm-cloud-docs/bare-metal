@@ -1,11 +1,11 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-13"
+  years: 1994, 2026
+lastupdated: "2026-09-30"
 
 
-keywords: server IP addresses, {{site.data.keyword.cloud}}, bind ip address, assign server ip address
+keywords: server IP addresses, bind ip address, assign server ip address
 
 subcollection: bare-metal
 
@@ -25,13 +25,16 @@ Use the following information to assign a server IP address to your server and b
 {{site.data.keyword.cloud}} configures servers with the following addresses.
 
 * An IPv4 address on the private network
-* An IPv4 address for low-level management access on the
+* An IPv4 address for lesser-level management access on the
 private network
 * A public IPv4 address, if requested.
 * An IPv6 address on the public network is available, if requested. All of
 these IP addresses are collectively referred to as the **primary IP addresses**.
 * Extra IP addresses can be bound to servers after you purchase **Secondary
 Subnets** through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external}. IP addresses that you purchased and managed by you are called **Secondary IP addresses**.
+
+You can't change a bare metal server primary IP address from IPv4 to IPv6. If you want to change the primary IP address, you need to cancel and reorder a server with the IP address that you need.
+{: important}
 
 For more information about acquiring IP addresses, see [Subnets and IP addresses](https://cloud.ibm.com/docs/subnets/){: external}.
 
