@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-09-25"
+lastupdated: "2026-10-02"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -217,8 +217,6 @@ The following table describes the end of support date for product add-ons and hy
 
 | Add-on or hypervisor | End of support |
 |--------|----------------|
-| [Citrix Hypervisor 8.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external} | 25 June 2030 |
-| [Citrix XenServer 7.x](https://www.citrix.com/support/product-lifecycle/product-matrix.html){: external} | 15 August 2022 |
 | [cPanel 11.x](https://endoflife.software/applications/control-panels/cpanel){: external} | No EOS date announced |
 | [Microsoft SQL Server 2025](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2025){: external} | 6 January 2036 |
 | [Microsoft SQL Server 2022](https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2022){: external} | 11 January 2033 |
