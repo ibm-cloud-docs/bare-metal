@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-08-21"
+lastupdated: "2026-10-15"
 
 keywords:
 
@@ -18,7 +18,7 @@ subcollection: bare-metal
 If you have software add-ons that are at or past its end-of-support (EOS) date, security and stability risks are possible. The vendor no longer provides updates or security fixes for deprecated add-on versions.
 {: short-desc}
 
-Follow the guidance from your software add-on vendor on when to upgrade. IBM® doesn't require you to use supported software add-ons, but you assume the risks that are associated with using outdated software add-ons. Unsupported add-ons don't receive security updates or fixes. Risks with using outdated software addons can include security vulnerabilities and compatibility issues. Plan to modernize your instances' software add-ons before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
+Follow the guidance from your software add-on vendor on when to upgrade. IBM® doesn't require you to use supported software add-ons, but you assume the risks that are associated with outdated software add-ons. Unsupported add-ons don't receive security updates or fixes. Risks of outdated software addons can include security vulnerabilities and compatibility issues. Plan to modernize your instances' software add-ons before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
 
 ## Wanclouds&reg; partnership
 {: #partner-bm-classic}
@@ -72,12 +72,12 @@ This deprecation has no impact on {{site.data.keyword.cloud}} Databases for MySQ
 Review the following details for this deprecation.
 
 * When MySQL 8.0 is removed from the IBM Cloud Classic Catalog, you can't provision new servers with MySQL 8.0.
-*	All support that includes security updates and bug fixes for MySQL 8.0, stops after 30 April 2026, but you can keep using it at your own risk.
+*	All support that includes security updates and bug fixes for MySQL 8.0, stops after 30 April 2026, but you can use it at your own risk.
 *	Support for existing servers with MySQL 8.0 ends on 30 April 2026.
 
 To plan for this deprecation, see the following recommendations.
 
-* To make sure that you have uninterrupted usage of this software, we recommend the following actions. By using these alternatives, you can continue using MySQL without interruption.
+* To make sure that you have uninterrupted usage of this software, we recommend the following actions. By using these alternatives, you can use MySQL without interruption.
    - DIY Installation. MySQL packages are available on Linux distributions.
    - Opting for the BYOL (Bring Your Own License) option to upgrade to MySQL 8.4.
 *	You can use the following documentation for seamless self-installation and upgrades [Installing MySQL on Linux by using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/linux-installation-yum-repo.html){: external}.
@@ -86,12 +86,27 @@ To plan for this deprecation, see the following recommendations.
 ### MSSQL Server 2016
 {: #classic-mysql-server-2016-eos-bm-classic}
 
-MSSQL Server 2016 on IBM Cloud® Classic servers is a Database software that is available as an add-on to IBM Cloud® Classic servers. Support for this software discontinues on 14 July 2026. MSSQL Server 2016 is planned for removal from the IBM Cloud® catalog on 14 June 2026.
+MSSQL Server 2016 on IBM Cloud® Classic servers is a database software that is available as an add-on to IBM Cloud® Classic servers. Support for this software discontinues on 14 July 2026. MSSQL Server 2016 is planned for removal from the IBM Cloud® catalog on 14 June 2026.
 
-All support that includes security updates and bug fixes for MSSQL Server 2014 stops on 14 July 2026, but you can continue with MSSQL Server 2014 at your own risk.
+All support that includes security updates and bug fixes for MSSQL Server 2016 stops on 14 July 2026, but you can continue with MSSQL Server 2014 at your own risk.
 
 To plan for this deprecation, see the following recommendations.
 
-* To make sure that you have uninterrupted usage of this software, we recommend that you upgrade to most recent version of MSSQL Server that is available on IBM Cloud.
-* 	To upgrade, you need to perform an OS reload with the latest version of the software.
-* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds](https://wanclouds.net/ibm](https://wanclouds.net/ibm/request){: external}. If you have any questions or need assistance, open a support case in the customer portal.
+* To make sure that you have uninterrupted usage of this software, we recommend that you upgrade to the most recent version of MSSQL Server that is available on IBM Cloud.
+* 	To upgrade, you need to perform an OS reload with the most recent version of the software.
+* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds] https://www.wanclouds.net/ibm/request.
+*  If you have any questions or need assistance, open a support case in the customer portal.
+
+### MSSQL Server 2017
+{: #classic-mysql-server-2016-eos-bm-classic}
+
+MSSQL Server 2017 on IBM Cloud® Classic servers is a database software that is available as an add-on to IBM Cloud® Classic servers. Support for this software discontinues on 12 October 2027. MSSQL Server 2016 is planned for removal from the IBM Cloud® catalog on 5 December 2026.
+
+All support that includes security updates and bug fixes for MSSQL Server 2017 stops on 12 October 2027, but you can continue with EOS software at your own risk.
+
+To plan for this deprecation, see the following recommendations.
+
+* To make sure that you have uninterrupted usage of this software, we recommend that you upgrade to the most recent version of MSSQL Server that is available on IBM Cloud.
+* 	To upgrade, you need to perform an OS reload with the most recent version of the software.
+* 	You can connect with any partner of your choice or choose an IBM partner such as [Wanclouds] https://www.wanclouds.net/ibm/request
+* 	If you have any questions or need assistance, open a support case in the customer portal.
