@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-09-25"
+lastupdated: "2026-10-28"
 
 keywords: bare metal release notes
 
@@ -19,6 +19,14 @@ content-type: release-note
 
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
+
+## October 2026
+{: #bare-metal-oct2026}
+
+### 28 October 2026
+{: #bare-metal-sep2826}
+
+{{site.data.keyword.cloud}} Classic infrastructure now supports Veeam Backup and Replication 13. For more information, see [Veeam Backup and Replication 13 Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_13_release_notes.html){: external}.
 
 ## September 2026
 {: #bare-metal-sep2026}
