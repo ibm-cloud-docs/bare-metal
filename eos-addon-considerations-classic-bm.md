@@ -18,7 +18,7 @@ subcollection: bare-metal
 If you have software add-ons that are at or past its end-of-support (EOS) date, security and stability risks are possible. The vendor no longer provides updates or security fixes for deprecated add-on versions.
 {: short-desc}
 
-Follow the guidance from your software add-on vendor on when to upgrade. IBM® doesn't require you to use supported software add-ons, but you assume the risks that are associated with outdated software add-ons. Unsupported add-ons don't receive security updates or fixes. Risks of outdated software addons can include security vulnerabilities and compatibility issues. Plan to modernize your instances' software add-ons before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
+Follow the guidance from your software add-on vendor on when to upgrade. IBM® doesn't require you to use supported software add-ons, but you assume the risks that are associated with outdated software add-ons. Unsupported add-ons don't receive security updates or fixes. Risks of using outdated software addons can include security vulnerabilities and compatibility issues. Plan to modernize your instances' software add-ons before the EOS date. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
 
 ## Wanclouds&reg; partnership
 {: #partner-bm-classic}
