@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-10-02"
+lastupdated: "2026-10-28"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -227,6 +227,7 @@ The following table describes the end of support date for product add-ons and hy
 | [Plesk Obsidian (Windows, Linux)](https://www.plesk.com/lifecycle-policy/){: external} | No EOS date announced |
 | [R1Soft Server Backup Manager 6.x Enterprise](http://wiki.r1soft.com/display/ServerBackupManager/Server+Backup+6.16+Release+Notes){: external} | No EOS date announced |
 | [Veeam Backup (Windows) 12.x](https://www.veeam.com/product-lifecycle.html){: external} | 01 February 2027 |
+| [Veeam Backup (Windows) 13.x](https://helpcenter.veeam.com/rn/veeam_backup_13_release_notes.html){: external} | 01 November 2028 |  
 | [Trellix Endpoint Security](https://www.trellix.com/en-in/support/end-of-life-products){: external} | TBD |
 {: caption="Lifecycle for add-ons" caption-side="bottom"}
 
