@@ -26,8 +26,8 @@ Use the release notes to learn the latest updates to {{site.data.keyword.baremet
 ### 02 November 2026
 {: #bare-metal-nov0226}
 
-Citrix Xenserver 8.4 support
-:    {{{site.data.keyword.baremetal_long}} now supports Citrix Xenserver 8.4. For more information, see [About XenServer 8.4](https://docs.xenserver.com/us/en/xenserver/8/overview.html){: external}.
+Citrix XenServer 8.4 support
+:    {{{site.data.keyword.baremetal_long}} now supports Citrix XenServer 8.4. For more information, see [About XenServer 8.4](https://docs.xenserver.com/us/en/xenserver/8/overview.html){: external}.
 
 ## October 2026
 {: #bare-metal-oct2026}
