@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2026
-lastupdated: "2026-10-28"
+lastupdated: "2026-11-02"
 
 keywords: bare metal release notes
 
@@ -20,13 +20,23 @@ content-type: release-note
 Use the release notes to learn the latest updates to {{site.data.keyword.baremetal_long}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
+## November 2026
+{: #bare-metal-nov2026}
+
+### 02 November 2026
+{: #bare-metal-nov0226}
+
+Citrix XenServer 8.4 support
+:    {{{site.data.keyword.baremetal_long}} now supports Citrix XenServer 8.4. For more information, see [About XenServer 8.4](https://docs.xenserver.com/us/en/xenserver/8/overview.html){: external}.
+
 ## October 2026
 {: #bare-metal-oct2026}
 
 ### 28 October 2026
 {: #bare-metal-sep2826}
 
-{{site.data.keyword.cloud}} Classic infrastructure now supports Veeam Backup and Replication 13. For more information, see [Veeam Backup and Replication 13 Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_13_release_notes.html){: external}.
+Veeam Backup and Replication 13 support
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Veeam Backup and Replication 13. For more information, see [Veeam Backup and Replication 13 Release Notes](https://helpcenter.veeam.com/rn/veeam_backup_13_release_notes.html){: external}.
 
 ## September 2026
 {: #bare-metal-sep2026}
@@ -46,7 +56,7 @@ SUSE Linux Enterprise Server (SLES) 16.0 (SAP HANA and SAP) support
 Ubuntu 26.04 LTS support
 :   {{site.data.keyword.baremetal_long}} now supports Ubuntu 26.04 LTS. For more information about Ubuntu 26.04 LTS, see [Ubuntu 26.04 LTS release notes](https://documentation.ubuntu.com/release-notes/26.04/){: external}.
 
-### 6 August 2026
+### 06 August 2026
 {: #bare-metal-aug0626}
 
 End of Market (EOM) announcement for deprecation of {{site.data.keyword.cloud}} Classic infrastructure Hardware Security Module (HSM)
@@ -153,7 +163,7 @@ SUSE Linux Enterprise Server 15 SP7 for SAP workloads
 
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 Service Pack 7 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP7/){: external}.
 
-### 2 October 2025
+### 02 October 2025
 {: #bare-metal-oct0225}
 {: release-note}
 

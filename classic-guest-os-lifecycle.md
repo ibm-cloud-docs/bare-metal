@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-10-28"
+lastupdated: "2026-11-02"
 
 keywords: operating system end of support (eos), add on end of support (eos)
 
@@ -63,6 +63,7 @@ The following table describes the end of support date for Citrix XenServer opera
 
 | Operating system | End of support |
 |-----------------|----------------|
+| 8.4 (available only on bare metal servers) | 30 November 2028 |
 | 8.2 LTSR (available only on bare metal servers) | 30 June 2029 |
 {: caption="Lifecycle for Citrix XenServer operating systems" caption-side="bottom"}
 
