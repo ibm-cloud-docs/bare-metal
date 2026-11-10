@@ -18,7 +18,7 @@ subcollection: bare-metal
 If you experience an issue or have questions about a bare metal server, you can use the following resources before you open a support case.
 {: shortdesc}
 
-* Troubleshoot with [{{site.data.keyword.paver_full}}](https://paver.cloud.ibm.com/){: external}. {{site.data.keyword.paver}} is an embedded AI operator that understands your account context, creates a resolution plan, and executes changes on your behalf, while always requiring your approval before touching your live environment.
+* Troubleshoot with [{{site.data.keyword.paver_full}}](https://paver.cloud.ibm.com/){: external}. {{site.data.keyword.paver}} is an embedded AI operator that understands your account context, creates a resolution plan, and runs changes on your behalf. Paver always requires your approval before it touches your live environment.
 * Review the [FAQs](/docs/bare-metal?topic=bare-metal-bm-faq) in the product documentation.
 * Review the [troubleshooting documentation](/docs/bare-metal?topic=bare-metal-bm-cannot-access-internet) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
